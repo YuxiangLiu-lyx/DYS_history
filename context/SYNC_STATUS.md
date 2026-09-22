@@ -1,5 +1,8 @@
 # 同步记录
 
+**当前v4准备提交：三幕30秒、少量图片与用户原声。v4实际提交核验后更新本段。**
+
+
 **当前：v3_published_and_verified。5图与音画同步生产包已上传main；208个文件逐路径、模式和Git blob SHA核验一致。**
 
 本轮生产包提交：[21fc1d0ecfd75883175e45460b189cb74f2b997d](https://github.com/YuxiangLiu-lyx/DYS_history/commit/21fc1d0ecfd75883175e45460b189cb74f2b997d)。完整回执：`history/publication/EP01_v3_pack_receipt.json`；逐文件快照：`history/publication/EP01_v3_pack_snapshot.json`。原有文件保留，旧G整块Prompt经字节校验后移出当前执行目录，原文仍在archive/production_pack_v2。实际试片尚未收到，生产包校验不等于成片口型已验收。此回执和同步状态另以随后一次元数据提交保存，避免自引用提交哈希。

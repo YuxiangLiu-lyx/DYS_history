@@ -1,0 +1,23 @@
+{
+  "revision": "EP01_v4",
+  "date": "2026-09-22",
+  "user_request_verbatim": "seedance 2.5 现在能生成30s的视频，同时能加入的背景图可以达到50张，按照这个新标准，可以大大减少剧本数量。根据上述说明，按照原剧本修改每一幕的时间至30s，内容还是要求高标准，争取每一次生成都没有bug。但是不要一次塞入太多图片。同时，音频的话，按照我上传给你的文件来，对应的拼音就是对应的角色的真实音频。这个也一起喂给seedance2.5.按照新的标准和原剧本做一版修改",
+  "base_commit": "fb202fca48c69f12e56fa4e8a67c42ca3a557f3f",
+  "source_script_sha256": "5219a9614cb565720f1fb2cab9d2615c3b35dd6647b3b77fc9c64198b5c2bbfa",
+  "plot_text_changed": false,
+  "existing_images_changed": false,
+  "voice_samples_received": 5,
+  "new_image_generation_calls": 0,
+  "video_generation_calls": 0,
+  "dramatic_audio_generation_calls": 0,
+  "actual_media_audited": false,
+  "new_generation_jobs": [
+    "M01",
+    "M02",
+    "M03"
+  ],
+  "duration_per_job_s": 30,
+  "final_duration_s": 90,
+  "voice_input_is_timbre_reference_only": true,
+  "user_real_video_received": false
+}

@@ -2,10 +2,10 @@
   "project": "德云史记·慧后本纪",
   "episode": "第一回 风起徽州",
   "updated_date": "2026-09-22",
-  "phase": "v3_five_image_and_av_sync_pack_published",
+  "phase": "v4_seedance25_three_30s_pack_prepared",
   "plot_locked": true,
   "duration_seconds": 90,
-  "block_count": 7,
+  "block_count": 3,
   "narrative_shots": 24,
   "title_cards": 1,
   "video_generated": false,
@@ -21,30 +21,30 @@
     {
       "id": "USER_TAKE_FILES_NOT_RECEIVED",
       "scope": "frame_level_repair_of_existing_user_videos_only",
-      "detail": "用户已报告试片问题，但未提供源视频/音轨；本轮可完成生产规则修订，不能据此标实际成片已修复。"
+      "detail": "已收到五份原声音色参考；未收到实际Seedance试片。生产包可执行，实际音画修复与观片仍待原片。"
     }
   ],
   "github": {
     "repository": "YuxiangLiu-lyx/DYS_history",
     "branch": "main",
-    "synced": true,
+    "synced": false,
     "remote_commit": "21fc1d0ecfd75883175e45460b189cb74f2b997d",
-    "reason": null,
+    "reason": "v4_pending_publication",
     "local_archive_ready": true,
     "write_permission_verified": true,
-    "publication_status": "v3_published_and_verified",
+    "publication_status": "v4_prepared",
     "preserve_remote_files": [
       "test.txt"
     ],
     "verified_path_count": 208,
     "receipt": "history/publication/EP01_v3_pack_receipt.json",
-    "previous_verified_commit": "eabd3f4029b23a0e0f3c7eb6a234687ad33a7fc2",
+    "previous_verified_commit": "fb202fca48c69f12e56fa4e8a67c42ca3a557f3f",
     "verification_scope": "All files in the v3 pack snapshot verified against remote tree; publication receipt/status follow in a metadata-only commit."
   },
   "next_actions": [
-    "保存用户实际试片与原声、实际Prompt/设置、问题秒数，按逐句合同识别可见口型故障与合理画外声。",
-    "使用v3最多5图上传清单和同期对白Prompt；只对故障镜头选择补拍任务，D按14秒源的共同映射剪辑。",
-    "逐句真实听看验收后再配乐/字幕，保存原片、采用区间、声音处理和证据，持续同步GitHub。"
+    "按M01/M02/M03每幕清单上传少量图片和该幕发言者原声；生成30秒同期视频。",
+    "逐幕检查口型、音色、道具和换场；失败优先局部编辑或补拍。",
+    "原生对白合格后制作妇人/史官后期音轨，统一音乐、中文叠字和90秒剪辑，保存实际素材并同步GitHub。"
   ],
   "asset_counts": {
     "current_character_images_including_boards_and_wardrobe_only": 25,
@@ -64,10 +64,10 @@
   "c03_identity_source": "assets/source_photos/C03_user_identity_anchor.png",
   "c03_identity_source_verification": "explicitly_identified_as_xiaotui_by_user",
   "pan_mole_lock": "below image-right mouth corner on skin, clear gap from lip line, same side as jade hairpin; never mirror",
-  "production_revision": "v3",
-  "seedance_image_limit": 5,
-  "base_generation_jobs": 11,
-  "planned_base_source_seconds": 101,
+  "production_revision": "v4",
+  "seedance_image_limit": 30,
+  "base_generation_jobs": 3,
+  "planned_base_source_seconds": 90,
   "video_generated_field_scope": "video files produced or archived by this assistant; excludes unreceived user trial videos",
   "user_reported_external_video_generation": true,
   "user_reported_issues": [
@@ -75,11 +75,33 @@
     "audio does not match the visible speaker or timing"
   ],
   "received_user_video_files": false,
-  "received_user_audio_files": false,
+  "received_user_audio_files": true,
   "actual_av_repair_performed": false,
   "actual_av_review_performed": false,
   "review_notes": [
-    "既有逐张图像审阅记录保留，本轮没有改图，不重新阻塞用户已经开展的试片。",
-    "目标账号的模式、声音设置及工具能力仍应在实际任务记录里核实。"
-  ]
+    "新附五个MP3保留原字节；机器解码检查不等于试听或人数判定。",
+    "新时序源于用户每幕30秒的明确授权；剧情原稿及既有图像不变。",
+    "入口实际能力/参数和音画结果仍按每次真实生成记录填写。"
+  ],
+  "model_target": "Seedance 2.5",
+  "legacy_story_beat_count": 7,
+  "seedance_video_reference_limit": 10,
+  "seedance_audio_reference_limit": 10,
+  "seedance_total_reference_limit": 50,
+  "planned_image_counts": [
+    9,
+    9,
+    11
+  ],
+  "planned_audio_reference_counts": [
+    1,
+    3,
+    1
+  ],
+  "received_user_voice_reference_count": 5,
+  "received_user_generated_dialogue_files": false,
+  "audio_generated_field_scope": "new dramatic dialogue, narration, music or mixed soundtrack; excludes uploaded voice reference samples",
+  "voice_reference_manifest": "assets/audio/voice_references/manifest.json",
+  "timing_adjustment_authorized": true,
+  "timing_diff_file": "episodes/ep01/production/TIMING_CHANGES_v4.md"
 }

@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "revision": "EP01_AV_v3",
+  "schema_version": 2,
+  "revision": "EP01_AV_v4_Seedance2.5",
   "updated_date": "2026-09-22",
   "episode": "EP01",
   "source_script_sha256": "5219a9614cb565720f1fb2cab9d2615c3b35dd6647b3b77fc9c64198b5c2bbfa",
@@ -8,7 +8,7 @@
   "audio_sample_rate": 48000,
   "duration_seconds": 90,
   "timing_convention": "left_closed_right_open_seconds",
-  "evidence_status": "user_reported_issues_no_user_video_or_audio_files_received_for_inspection",
+  "evidence_status": "five_user_voice_reference_mp3s_received; no_generated_episode_video_or_final_dialogue_audio_received",
   "status": "production_contract_only_not_a_repaired_finished_video",
   "timing_guarantee": false,
   "manual_sync_target": {
@@ -16,78 +16,33 @@
     "seconds_at_24fps": 0.08333333333333333,
     "scope": "可见人物的清楚发声事件/音素与对应口型；逐句人工检查，是本项目验收目标，不是平台保证。"
   },
-  "capability_caveat": "必须在目标入口实测音画同生能力。引用音频或写入台词不等于严格音素驱动；外部最终配音替换需重新对口型或经验证的音频条件重生。",
+  "capability_caveat": "使用当前入口已提供的30秒多镜头及音画同生能力；音色参考不等于逐音素时间驱动。秒点是制作和验收目标，不是无错误保证。样本内容不复制到对白；具体入口的音频参考和时间戳局部编辑支持须记录。",
   "block_picture_jobs": [
     {
-      "job": "A",
-      "source_duration_seconds": 13,
+      "job": "M01",
+      "source_duration_seconds": 30,
       "source_in": 0,
-      "source_out": 13,
+      "source_out": 30,
       "global_in": 0,
-      "global_out": 13
+      "global_out": 30
     },
     {
-      "job": "B",
-      "source_duration_seconds": 11,
+      "job": "M02",
+      "source_duration_seconds": 30,
       "source_in": 0,
-      "source_out": 11,
-      "global_in": 13,
-      "global_out": 24
+      "source_out": 30,
+      "global_in": 30,
+      "global_out": 60
     },
     {
-      "job": "C",
-      "source_duration_seconds": 10,
+      "job": "M03",
+      "source_duration_seconds": 30,
       "source_in": 0,
-      "source_out": 10,
-      "global_in": 24,
-      "global_out": 34
-    },
-    {
-      "job": "D",
-      "source_duration_seconds": 14,
-      "source_in": 0.5,
-      "source_out": 13.5,
-      "global_in": 34,
-      "global_out": 47
-    },
-    {
-      "job": "E",
-      "source_duration_seconds": 15,
-      "source_in": 0,
-      "source_out": 15,
-      "global_in": 47,
-      "global_out": 62
-    },
-    {
-      "job": "F",
-      "source_duration_seconds": 13,
-      "source_in": 0,
-      "source_out": 13,
-      "global_in": 62,
-      "global_out": 75
+      "source_out": 30,
+      "global_in": 60,
+      "global_out": 90
     }
   ],
-  "d_source_mapping": {
-    "source_duration_seconds": 14,
-    "picture_source_in": 0.5,
-    "picture_source_out": 13.5,
-    "picture_global_in": 34,
-    "picture_global_out": 47,
-    "native_audio_source_in": 0.1,
-    "native_audio_source_out": 13.5,
-    "native_audio_global_in": 33.6,
-    "native_audio_global_out": 47,
-    "global_equals_source_plus": 33.5,
-    "source_shot_cuts": [
-      5.5,
-      9.5
-    ],
-    "source_first_sentence": [
-      0.1,
-      4.6
-    ],
-    "instruction": "在剪辑工程仅保留一份D原生音轨：D画面关掉重复自带声，源声0.1–13.5整体铺33.6–47；C原声无对白。不要把D画面裁切后丢失的0.1–0.5音频重新生成或重复拼接。"
-  },
   "dialogues": [
     {
       "id": "DLG01",
@@ -99,7 +54,7 @@
       "start_sample_48k": 153600,
       "end_sample_exclusive_48k": 254400,
       "source_audio": {
-        "job": "A",
+        "job": "M01",
         "source_start": 3.2,
         "source_end": 5.3,
         "global_offset_seconds": 0,
@@ -111,7 +66,7 @@
       "visibility_segments": [
         {
           "shot_id": "02",
-          "block": "A",
+          "block": "M01",
           "global_start": 3.2,
           "global_end": 5.3,
           "block_local_start": 3.2,
@@ -126,8 +81,11 @@
         "E01"
       ],
       "listener_instruction": "非说话角色闭口倾听，不替当前说话者念词；自然呼吸、表情变化及孩子无字哭声可保留。",
-      "performance_note": "老人背后过肩，嘴不可见，保留既定镜02；允许老人背部/递碗动作表现说话，不补正脸切镜。可用A原生声音，不要求不可见的嘴对口型。",
-      "verified": false
+      "performance_note": "老人背后过肩，嘴不可见，保留既定镜02；允许老人背部/递碗动作表现说话，不补正脸切镜。可用M01原生声音，不要求不可见的嘴对口型。",
+      "verified": false,
+      "voice_reference_file": null,
+      "voice_reference_label": null,
+      "voice_direction": "没有本角色用户音频参考；生成/录制符合身份的原创历史剧声线，不借用五位主角样本。"
     },
     {
       "id": "DLG02",
@@ -139,7 +97,7 @@
       "start_sample_48k": 273600,
       "end_sample_exclusive_48k": 336000,
       "source_audio": {
-        "job": "A",
+        "job": "M01",
         "source_start": 5.7,
         "source_end": 7.0,
         "global_offset_seconds": 0,
@@ -151,7 +109,7 @@
       "visibility_segments": [
         {
           "shot_id": "02",
-          "block": "A",
+          "block": "M01",
           "global_start": 5.7,
           "global_end": 7,
           "block_local_start": 5.7,
@@ -167,7 +125,10 @@
       ],
       "listener_instruction": "非说话角色闭口倾听，不替当前说话者念词；自然呼吸、表情变化及孩子无字哭声可保留。",
       "performance_note": "官差正侧脸嘴唇清晰可见，先答再推上臂；别让老人背影或孩子代说。",
-      "verified": false
+      "verified": false,
+      "voice_reference_file": null,
+      "voice_reference_label": null,
+      "voice_direction": "没有本角色用户音频参考；生成/录制符合身份的原创历史剧声线，不借用五位主角样本。"
     },
     {
       "id": "DLG03",
@@ -191,7 +152,7 @@
       "visibility_segments": [
         {
           "shot_id": "03",
-          "block": "A",
+          "block": "M01",
           "global_start": 8.6,
           "global_end": 12.7,
           "block_local_start": 8.6,
@@ -208,7 +169,10 @@
       ],
       "listener_instruction": "非说话角色闭口倾听，不替当前说话者念词；自然呼吸、表情变化及孩子无字哭声可保留。",
       "performance_note": "妇人为场内画外声，默认后期独立录制，不要求镜03任何可见人物对这句话张嘴；孩子只自然无字哭声。",
-      "verified": false
+      "verified": false,
+      "voice_reference_file": null,
+      "voice_reference_label": null,
+      "voice_direction": "没有本角色用户音频参考；生成/录制符合身份的原创历史剧声线，不借用五位主角样本。"
     },
     {
       "id": "DLG04",
@@ -220,10 +184,10 @@
       "start_sample_48k": 672000,
       "end_sample_exclusive_48k": 792000,
       "source_audio": {
-        "job": "B",
-        "source_start": 1.0,
-        "source_end": 3.5,
-        "global_offset_seconds": 13,
+        "job": "M01",
+        "source_start": 14.0,
+        "source_end": 16.5,
+        "global_offset_seconds": 0,
         "file": null,
         "mode": "native_synchronized_generation",
         "status": "planned_not_rendered"
@@ -232,13 +196,13 @@
       "visibility_segments": [
         {
           "shot_id": "04",
-          "block": "B",
+          "block": "M01",
           "global_start": 14,
           "global_end": 16.5,
-          "block_local_start": 1,
-          "block_local_end": 3.5,
-          "source_start": 1,
-          "source_end": 3.5,
+          "block_local_start": 14,
+          "block_local_end": 16.5,
+          "source_start": 14,
+          "source_end": 16.5,
           "visibility": "onscreen_speaking",
           "lip_sync_required": true
         }
@@ -249,7 +213,10 @@
       ],
       "listener_instruction": "非说话角色闭口倾听，不替当前说话者念词；自然呼吸、表情变化及孩子无字哭声可保留。",
       "performance_note": "粮商在中全景前侧，保证口部仍清楚可辨；说话时推银匣，魏笑听而不代说。",
-      "verified": false
+      "verified": false,
+      "voice_reference_file": null,
+      "voice_reference_label": null,
+      "voice_direction": "没有本角色用户音频参考；生成/录制符合身份的原创历史剧声线，不借用五位主角样本。"
     },
     {
       "id": "DLG05",
@@ -261,10 +228,10 @@
       "start_sample_48k": 864000,
       "end_sample_exclusive_48k": 984000,
       "source_audio": {
-        "job": "B",
-        "source_start": 5.0,
-        "source_end": 7.5,
-        "global_offset_seconds": 13,
+        "job": "M01",
+        "source_start": 18.0,
+        "source_end": 20.5,
+        "global_offset_seconds": 0,
         "file": null,
         "mode": "native_synchronized_generation",
         "status": "planned_not_rendered"
@@ -273,13 +240,13 @@
       "visibility_segments": [
         {
           "shot_id": "05",
-          "block": "B",
+          "block": "M01",
           "global_start": 18,
           "global_end": 20.5,
-          "block_local_start": 5,
-          "block_local_end": 7.5,
-          "source_start": 5,
-          "source_end": 7.5,
+          "block_local_start": 18,
+          "block_local_end": 20.5,
+          "source_start": 18,
+          "source_end": 20.5,
           "visibility": "onscreen_speaking",
           "lip_sync_required": true
         }
@@ -290,7 +257,10 @@
       ],
       "listener_instruction": "非说话角色闭口倾听，不替当前说话者念词；自然呼吸、表情变化及孩子无字哭声可保留。",
       "performance_note": "魏笑抬眼后平稳开口，保持捻米及合掌原动作；手不遮嘴。",
-      "verified": false
+      "verified": false,
+      "voice_reference_file": "assets/audio/voice_references/05_weixiao.mp3",
+      "voice_reference_label": "@音频1",
+      "voice_direction": "从该角色用户原声提取稳定音色，只说本句锁定文字；不播放原文件台词、底噪或配乐。"
     },
     {
       "id": "DLG06",
@@ -302,10 +272,10 @@
       "start_sample_48k": 1612800,
       "end_sample_exclusive_48k": 1828800,
       "source_audio": {
-        "job": "D",
-        "source_start": 0.1,
-        "source_end": 4.6,
-        "global_offset_seconds": 33.5,
+        "job": "M02",
+        "source_start": 3.6,
+        "source_end": 8.1,
+        "global_offset_seconds": 30,
         "file": null,
         "mode": "native_synchronized_generation",
         "status": "planned_not_rendered"
@@ -314,25 +284,25 @@
       "visibility_segments": [
         {
           "shot_id": "09",
-          "block": "C",
+          "block": "M02",
           "global_start": 33.6,
           "global_end": 34,
-          "block_local_start": 9.6,
-          "block_local_end": 10,
-          "source_start": 0.1,
-          "source_end": 0.5,
+          "block_local_start": 3.6,
+          "block_local_end": 4,
+          "source_start": 3.6,
+          "source_end": 4,
           "visibility": "diegetic_offscreen",
           "lip_sync_required": false
         },
         {
           "shot_id": "10",
-          "block": "D",
+          "block": "M02",
           "global_start": 34,
           "global_end": 38.1,
-          "block_local_start": 0,
-          "block_local_end": 4.1,
-          "source_start": 0.5,
-          "source_end": 4.6,
+          "block_local_start": 4,
+          "block_local_end": 8.1,
+          "source_start": 4,
+          "source_end": 8.1,
           "visibility": "onscreen_speaking",
           "lip_sync_required": true
         }
@@ -342,8 +312,11 @@
         "C02"
       ],
       "listener_instruction": "非说话角色闭口倾听，不替当前说话者念词；自然呼吸、表情变化及孩子无字哭声可保留。",
-      "performance_note": "完整句必须在D源0.1秒从头说，不能让模型在D源0秒接无音频的半句。声轨跨C/D不截断也不重复。",
-      "verified": false
+      "performance_note": "M02源3.6秒从头完整说一次至8.1；3.6–4为皇帝画面的画外声，4秒切小腿后口型自然接续，不重复字头，不复用v3 D偏移。",
+      "verified": false,
+      "voice_reference_file": "assets/audio/voice_references/03_xiaotui.mp3",
+      "voice_reference_label": "@音频2",
+      "voice_direction": "从该角色用户原声提取稳定音色，只说本句锁定文字；不播放原文件台词、底噪或配乐。"
     },
     {
       "id": "DLG07",
@@ -355,10 +328,10 @@
       "start_sample_48k": 1881600,
       "end_sample_exclusive_48k": 2030400,
       "source_audio": {
-        "job": "D",
-        "source_start": 5.7,
-        "source_end": 8.8,
-        "global_offset_seconds": 33.5,
+        "job": "M02",
+        "source_start": 9.2,
+        "source_end": 12.3,
+        "global_offset_seconds": 30,
         "file": null,
         "mode": "native_synchronized_generation",
         "status": "planned_not_rendered"
@@ -367,13 +340,13 @@
       "visibility_segments": [
         {
           "shot_id": "11",
-          "block": "D",
+          "block": "M02",
           "global_start": 39.2,
           "global_end": 42.3,
-          "block_local_start": 5.2,
-          "block_local_end": 8.3,
-          "source_start": 5.7,
-          "source_end": 8.8,
+          "block_local_start": 9.2,
+          "block_local_end": 12.3,
+          "source_start": 9.2,
+          "source_end": 12.3,
           "visibility": "diegetic_offscreen",
           "lip_sync_required": false
         }
@@ -383,7 +356,10 @@
       ],
       "listener_instruction": "非说话角色闭口倾听，不替当前说话者念词；自然呼吸、表情变化及孩子无字哭声可保留。",
       "performance_note": "保持西卡反应镜头，西卡闭口听；小腿在画外说，人人后的停顿约0.3秒，不加笑场。",
-      "verified": false
+      "verified": false,
+      "voice_reference_file": "assets/audio/voice_references/03_xiaotui.mp3",
+      "voice_reference_label": "@音频2",
+      "voice_direction": "从该角色用户原声提取稳定音色，只说本句锁定文字；不播放原文件台词、底噪或配乐。"
     },
     {
       "id": "DLG08",
@@ -395,10 +371,10 @@
       "start_sample_48k": 2073600,
       "end_sample_exclusive_48k": 2236800,
       "source_audio": {
-        "job": "D",
-        "source_start": 9.7,
-        "source_end": 13.1,
-        "global_offset_seconds": 33.5,
+        "job": "M02",
+        "source_start": 13.2,
+        "source_end": 16.6,
+        "global_offset_seconds": 30,
         "file": null,
         "mode": "native_synchronized_generation",
         "status": "planned_not_rendered"
@@ -407,13 +383,13 @@
       "visibility_segments": [
         {
           "shot_id": "12",
-          "block": "D",
+          "block": "M02",
           "global_start": 43.2,
           "global_end": 46.6,
-          "block_local_start": 9.2,
-          "block_local_end": 12.6,
-          "source_start": 9.7,
-          "source_end": 13.1,
+          "block_local_start": 13.2,
+          "block_local_end": 16.6,
+          "source_start": 13.2,
+          "source_end": 16.6,
           "visibility": "onscreen_speaking",
           "lip_sync_required": true
         }
@@ -424,22 +400,25 @@
       ],
       "listener_instruction": "非说话角色闭口倾听，不替当前说话者念词；自然呼吸、表情变化及孩子无字哭声可保留。",
       "performance_note": "皇帝可见说话，点头不连续大幅俯仰，手放松但不遮嘴。",
-      "verified": false
+      "verified": false,
+      "voice_reference_file": "assets/audio/voice_references/01_sun_yalong.mp3",
+      "voice_reference_label": "@音频1",
+      "voice_direction": "从该角色用户原声提取稳定音色，只说本句锁定文字；不播放原文件台词、底噪或配乐。"
     },
     {
       "id": "DLG09",
       "speaker_id": "E05",
       "speaker_name": "公子",
       "text": "西湖别院一座，请姑娘赏光。",
-      "global_start": 50.7,
-      "global_end": 54.6,
-      "start_sample_48k": 2433600,
-      "end_sample_exclusive_48k": 2620800,
+      "global_start": 49.7,
+      "global_end": 53.6,
+      "start_sample_48k": 2385600,
+      "end_sample_exclusive_48k": 2572800,
       "source_audio": {
-        "job": "E",
-        "source_start": 3.7,
-        "source_end": 7.6,
-        "global_offset_seconds": 47,
+        "job": "M02",
+        "source_start": 19.7,
+        "source_end": 23.6,
+        "global_offset_seconds": 30,
         "file": null,
         "mode": "native_synchronized_generation",
         "status": "planned_not_rendered"
@@ -448,13 +427,13 @@
       "visibility_segments": [
         {
           "shot_id": "14",
-          "block": "E",
-          "global_start": 50.7,
-          "global_end": 54.6,
-          "block_local_start": 3.7,
-          "block_local_end": 7.6,
-          "source_start": 3.7,
-          "source_end": 7.6,
+          "block": "M02",
+          "global_start": 49.7,
+          "global_end": 53.6,
+          "block_local_start": 19.7,
+          "block_local_end": 23.6,
+          "source_start": 19.7,
+          "source_end": 23.6,
           "visibility": "onscreen_speaking",
           "lip_sync_required": true
         }
@@ -464,22 +443,25 @@
       ],
       "listener_instruction": "非说话角色闭口倾听，不替当前说话者念词；自然呼吸、表情变化及孩子无字哭声可保留。",
       "performance_note": "过潘慧肩看公子时公子嘴唇须清楚，潘慧前景肩膀不能遮住他口部；推契原动作保留。",
-      "verified": false
+      "verified": false,
+      "voice_reference_file": null,
+      "voice_reference_label": null,
+      "voice_direction": "没有本角色用户音频参考；生成/录制符合身份的原创历史剧声线，不借用五位主角样本。"
     },
     {
       "id": "DLG10",
       "speaker_id": "C05",
       "speaker_name": "潘慧",
       "text": "公子留着吧，我住这里挺好。",
-      "global_start": 55.1,
-      "global_end": 58.8,
-      "start_sample_48k": 2644800,
-      "end_sample_exclusive_48k": 2822400,
+      "global_start": 54.1,
+      "global_end": 57.8,
+      "start_sample_48k": 2596800,
+      "end_sample_exclusive_48k": 2774400,
       "source_audio": {
-        "job": "E",
-        "source_start": 8.1,
-        "source_end": 11.8,
-        "global_offset_seconds": 47,
+        "job": "M02",
+        "source_start": 24.1,
+        "source_end": 27.8,
+        "global_offset_seconds": 30,
         "file": null,
         "mode": "native_synchronized_generation",
         "status": "planned_not_rendered"
@@ -488,13 +470,13 @@
       "visibility_segments": [
         {
           "shot_id": "15",
-          "block": "E",
-          "global_start": 55.1,
-          "global_end": 58.8,
-          "block_local_start": 8.1,
-          "block_local_end": 11.8,
-          "source_start": 8.1,
-          "source_end": 11.8,
+          "block": "M02",
+          "global_start": 54.1,
+          "global_end": 57.8,
+          "block_local_start": 24.1,
+          "block_local_end": 27.8,
+          "source_start": 24.1,
+          "source_end": 27.8,
           "visibility": "onscreen_speaking",
           "lip_sync_required": true
         }
@@ -504,22 +486,25 @@
       ],
       "listener_instruction": "非说话角色闭口倾听，不替当前说话者念词；自然呼吸、表情变化及孩子无字哭声可保留。",
       "performance_note": "潘慧近景完整可见嘴唇，一边温和回答一边原路推还房契；痣在嘴角下方皮肤，不能当作唇线。",
-      "verified": false
+      "verified": false,
+      "voice_reference_file": "assets/audio/voice_references/02_pan_hui.mp3",
+      "voice_reference_label": "@音频3",
+      "voice_direction": "从该角色用户原声提取稳定音色，只说本句锁定文字；不播放原文件台词、底噪或配乐。"
     },
     {
       "id": "DLG11",
       "speaker_id": "E06",
       "speaker_name": "侍女",
       "text": "小姐想嫁什么样的人？",
-      "global_start": 64.0,
-      "global_end": 67.4,
-      "start_sample_48k": 3072000,
-      "end_sample_exclusive_48k": 3235200,
+      "global_start": 63,
+      "global_end": 66.4,
+      "start_sample_48k": 3024000,
+      "end_sample_exclusive_48k": 3187200,
       "source_audio": {
-        "job": "F",
-        "source_start": 2.0,
-        "source_end": 5.4,
-        "global_offset_seconds": 62,
+        "job": "M03",
+        "source_start": 3,
+        "source_end": 6.4,
+        "global_offset_seconds": 60,
         "file": null,
         "mode": "native_synchronized_generation",
         "status": "planned_not_rendered"
@@ -528,25 +513,25 @@
       "visibility_segments": [
         {
           "shot_id": "17",
-          "block": "F",
-          "global_start": 64,
-          "global_end": 65,
-          "block_local_start": 2,
-          "block_local_end": 3,
-          "source_start": 2,
-          "source_end": 3,
+          "block": "M03",
+          "global_start": 63,
+          "global_end": 64,
+          "block_local_start": 3,
+          "block_local_end": 4,
+          "source_start": 3,
+          "source_end": 4,
           "visibility": "onscreen_speaking",
           "lip_sync_required": true
         },
         {
           "shot_id": "18",
-          "block": "F",
-          "global_start": 65,
-          "global_end": 67.4,
-          "block_local_start": 3,
-          "block_local_end": 5.4,
-          "source_start": 3,
-          "source_end": 5.4,
+          "block": "M03",
+          "global_start": 64,
+          "global_end": 66.4,
+          "block_local_start": 4,
+          "block_local_end": 6.4,
+          "source_start": 4,
+          "source_end": 6.4,
           "visibility": "diegetic_offscreen",
           "lip_sync_required": false
         }
@@ -555,8 +540,11 @@
         "C05"
       ],
       "listener_instruction": "非说话角色闭口倾听，不替当前说话者念词；自然呼吸、表情变化及孩子无字哭声可保留。",
-      "performance_note": "64–65秒侍女嘴可见且同步；65秒切潘慧后同一句持续至67.4，潘慧全程闭口听至自己的68秒入句。",
-      "verified": false
+      "performance_note": "M03源3–4秒侍女嘴可见且同步；4秒切潘慧后同一句持续至6.4，潘慧闭口听，8秒才开始回答。",
+      "verified": false,
+      "voice_reference_file": null,
+      "voice_reference_label": null,
+      "voice_direction": "没有本角色用户音频参考；生成/录制符合身份的原创历史剧声线，不借用五位主角样本。"
     },
     {
       "id": "DLG12",
@@ -568,10 +556,10 @@
       "start_sample_48k": 3264000,
       "end_sample_exclusive_48k": 3331200,
       "source_audio": {
-        "job": "F",
-        "source_start": 6.0,
-        "source_end": 7.4,
-        "global_offset_seconds": 62,
+        "job": "M03",
+        "source_start": 8.0,
+        "source_end": 9.4,
+        "global_offset_seconds": 60,
         "file": null,
         "mode": "native_synchronized_generation",
         "status": "planned_not_rendered"
@@ -580,25 +568,25 @@
       "visibility_segments": [
         {
           "shot_id": "18",
-          "block": "F",
+          "block": "M03",
           "global_start": 68,
           "global_end": 69,
-          "block_local_start": 6,
-          "block_local_end": 7,
-          "source_start": 6,
-          "source_end": 7,
+          "block_local_start": 8,
+          "block_local_end": 9,
+          "source_start": 8,
+          "source_end": 9,
           "visibility": "onscreen_speaking",
           "lip_sync_required": true
         },
         {
           "shot_id": "19",
-          "block": "F",
+          "block": "M03",
           "global_start": 69,
           "global_end": 69.4,
-          "block_local_start": 7,
-          "block_local_end": 7.4,
-          "source_start": 7,
-          "source_end": 7.4,
+          "block_local_start": 9,
+          "block_local_end": 9.4,
+          "source_start": 9,
+          "source_end": 9.4,
           "visibility": "onscreen_speaking",
           "lip_sync_required": true
         }
@@ -607,8 +595,11 @@
         "E06"
       ],
       "listener_instruction": "非说话角色闭口倾听，不替当前说话者念词；自然呼吸、表情变化及孩子无字哭声可保留。",
-      "performance_note": "68–69.4同一条连续声音；69秒是摄影切点，不是重说或断句点。两镜都看到潘慧口部并持续同步。",
-      "verified": false
+      "performance_note": "M03源8–9.4为同一条声音；9秒只切机位，前后都看得见潘慧口部，不能断句或重新说开头。",
+      "verified": false,
+      "voice_reference_file": "assets/audio/voice_references/02_pan_hui.mp3",
+      "voice_reference_label": "@音频1",
+      "voice_direction": "从该角色用户原声提取稳定音色，只说本句锁定文字；不播放原文件台词、底噪或配乐。"
     },
     {
       "id": "DLG13",
@@ -620,10 +611,10 @@
       "start_sample_48k": 3369600,
       "end_sample_exclusive_48k": 3532800,
       "source_audio": {
-        "job": "F",
-        "source_start": 8.2,
-        "source_end": 11.6,
-        "global_offset_seconds": 62,
+        "job": "M03",
+        "source_start": 10.2,
+        "source_end": 13.6,
+        "global_offset_seconds": 60,
         "file": null,
         "mode": "native_synchronized_generation",
         "status": "planned_not_rendered"
@@ -632,13 +623,13 @@
       "visibility_segments": [
         {
           "shot_id": "19",
-          "block": "F",
+          "block": "M03",
           "global_start": 70.2,
           "global_end": 73.6,
-          "block_local_start": 8.2,
-          "block_local_end": 11.6,
-          "source_start": 8.2,
-          "source_end": 11.6,
+          "block_local_start": 10.2,
+          "block_local_end": 13.6,
+          "source_start": 10.2,
+          "source_end": 13.6,
           "visibility": "onscreen_speaking",
           "lip_sync_required": true
         }
@@ -648,7 +639,10 @@
       ],
       "listener_instruction": "非说话角色闭口倾听，不替当前说话者念词；自然呼吸、表情变化及孩子无字哭声可保留。",
       "performance_note": "潘慧侧面必须保留嘴唇和下颌轮廓，略朝侍女的三分之二侧脸，不用头发/手/披帛遮嘴；73.6尾字后才转向窗外。",
-      "verified": false
+      "verified": false,
+      "voice_reference_file": "assets/audio/voice_references/02_pan_hui.mp3",
+      "voice_reference_label": "@音频1",
+      "voice_direction": "从该角色用户原声提取稳定音色，只说本句锁定文字；不播放原文件台词、底噪或配乐。"
     },
     {
       "id": "DLG14",
@@ -672,11 +666,11 @@
       "visibility_segments": [
         {
           "shot_id": "21",
-          "block": "G",
+          "block": "M03",
           "global_start": 78.7,
           "global_end": 80,
-          "block_local_start": 3.7,
-          "block_local_end": 5,
+          "block_local_start": 18.7,
+          "block_local_end": 20,
           "source_start": 0.5,
           "source_end": 1.8,
           "visibility": "voiceover",
@@ -684,11 +678,11 @@
         },
         {
           "shot_id": "22",
-          "block": "G",
+          "block": "M03",
           "global_start": 80,
           "global_end": 81.5,
-          "block_local_start": 5,
-          "block_local_end": 6.5,
+          "block_local_start": 20,
+          "block_local_end": 21.5,
           "source_start": 1.8,
           "source_end": 3.3,
           "visibility": "voiceover",
@@ -696,11 +690,11 @@
         },
         {
           "shot_id": "23",
-          "block": "G",
+          "block": "M03",
           "global_start": 81.5,
           "global_end": 84.5,
-          "block_local_start": 6.5,
-          "block_local_end": 9.5,
+          "block_local_start": 21.5,
+          "block_local_end": 24.5,
           "source_start": 3.3,
           "source_end": 6.3,
           "visibility": "voiceover",
@@ -708,11 +702,11 @@
         },
         {
           "shot_id": "24",
-          "block": "G",
+          "block": "M03",
           "global_start": 84.5,
           "global_end": 87.3,
-          "block_local_start": 9.5,
-          "block_local_end": 12.3,
+          "block_local_start": 24.5,
+          "block_local_end": 27.3,
           "source_start": 6.3,
           "source_end": 9.1,
           "visibility": "voiceover",
@@ -728,8 +722,11 @@
         "C05"
       ],
       "listener_instruction": "非说话角色闭口倾听，不替当前说话者念词；自然呼吸、表情变化及孩子无字哭声可保留。",
-      "performance_note": "史官单独旁白音轨，G人物无任何台词，不模拟史官口型；87.3结束，87.5字卡开始后不续旁白。",
-      "verified": false
+      "performance_note": "独立史官旁白声轨；M03源18.7–27.3下所有人物不代说，27.5字卡由后期加，不生成可见人物朗读旁白。",
+      "verified": false,
+      "voice_reference_file": null,
+      "voice_reference_label": null,
+      "voice_direction": "没有本角色用户音频参考；生成/录制符合身份的原创历史剧声线，不借用五位主角样本。"
     }
   ],
   "forbidden_fixes": [
@@ -748,11 +745,23 @@
     "分离或提取对白的方法与原始同期音保留",
     "逐句首中尾同步误差、错词/错人/可见口部检查",
     "实际采用混音与字幕及导出工程",
-    "费用/seed/任务ID未知时null"
+    "费用/seed/任务ID未知时null",
+    "五份原声音频的原文件、SHA-256、来源为用户提供及角色映射",
+    "实际音频上传槽位；音色相似与不复制样本台词/背景音的检查",
+    "时间戳局部编辑指定区域、实际改变区域及前后至少0.5秒邻接检查"
   ],
   "voice_continuity": {
-    "status": "no_audio_reference_received_or_generated",
-    "chosen_voice_file": null,
+    "status": "five_user_provided_character_voice_reference_files_received",
+    "reference_manifest": "assets/audio/voice_references/manifest.json",
+    "references_by_character": {
+      "C01": "assets/audio/voice_references/01_sun_yalong.mp3",
+      "C05": "assets/audio/voice_references/02_pan_hui.mp3",
+      "C03": "assets/audio/voice_references/03_xiaotui.mp3",
+      "C02": "assets/audio/voice_references/04_xika.mp3",
+      "C04": "assets/audio/voice_references/05_weixiao.mp3"
+    },
+    "reference_role": "user_identified_real_voice_samples_for_timbre_not_episode_final_dialogue",
+    "identity_verification": "user_filename_mapping_not_independent_voice_biometric_identification",
     "same_character_groups": {
       "C05": [
         "DLG10",
@@ -764,12 +773,105 @@
         "DLG07"
       ]
     },
-    "policy": "先选定经口型/原文验收的一条目标声线并登记文件；不同场或take原生音色不一致时用同一个目标做保留音素时间、语速、停顿的变声，再逐句首中尾验收；若使用节奏不同的最终配音，必须重新对口型或经实测支持的音频条件重生。",
-    "optional_audio_reference": {
-      "file": null,
-      "eligible_only_if": "真实文件已存在且该入口支持时上传并绑定实际音频标签",
-      "role": "voice_timbre_or_performance_reference",
-      "strict_lip_driving_guaranteed": false
+    "silent_this_episode": [
+      "C02"
+    ],
+    "silent_role_policy": "C02西卡原声归档，本集无对白，因此M01–M03均不上传其声音；M03尾声中的C01/C03/C04也不新增对白或上传不需要的声音。",
+    "policy": "C05在M02/M03均用02_pan_hui.mp3同一原文件；C03两句均用03_xiaotui.mp3。允许情绪和语速服务历史剧，不能播放原样本内容。若生成音色不稳且原口型已合格，优先同一目标音色的保时序变声并复检；换成不同音素节奏的配音必须重新对口型或重新音画同生。",
+    "strict_lip_driving_guaranteed": false,
+    "reference_audio_mix_into_final": false,
+    "generated_final_voice_files": null
+  },
+  "user_voice_reference_audio_received": true,
+  "episode_dialogue_audio_generated": false,
+  "episode_video_received": false,
+  "act_source_mappings": [
+    {
+      "job": "M01",
+      "global_equals_source_plus": 0,
+      "source_range": [
+        0,
+        30
+      ],
+      "global_range": [
+        0,
+        30
+      ],
+      "instruction": "基础任务视频及原生音轨同一映射；不做旧D头余量裁切。"
+    },
+    {
+      "job": "M02",
+      "global_equals_source_plus": 30,
+      "source_range": [
+        0,
+        30
+      ],
+      "global_range": [
+        30,
+        60
+      ],
+      "instruction": "基础任务视频及原生音轨同一映射；不做旧D头余量裁切。"
+    },
+    {
+      "job": "M03",
+      "global_equals_source_plus": 60,
+      "source_range": [
+        0,
+        30
+      ],
+      "global_range": [
+        60,
+        90
+      ],
+      "instruction": "基础任务视频及原生音轨同一映射；不做旧D头余量裁切。"
     }
+  ],
+  "audio_reference_uploads_by_job": {
+    "M01": [
+      {
+        "slot": 1,
+        "label": "@音频1",
+        "speaker_id": "C04",
+        "file": "assets/audio/voice_references/05_weixiao.mp3",
+        "role": "voice_timbre_only_not_dialogue_playback",
+        "status": "received_existing_file"
+      }
+    ],
+    "M02": [
+      {
+        "slot": 1,
+        "label": "@音频1",
+        "speaker_id": "C01",
+        "file": "assets/audio/voice_references/01_sun_yalong.mp3",
+        "role": "voice_timbre_only_not_dialogue_playback",
+        "status": "received_existing_file"
+      },
+      {
+        "slot": 2,
+        "label": "@音频2",
+        "speaker_id": "C03",
+        "file": "assets/audio/voice_references/03_xiaotui.mp3",
+        "role": "voice_timbre_only_not_dialogue_playback",
+        "status": "received_existing_file"
+      },
+      {
+        "slot": 3,
+        "label": "@音频3",
+        "speaker_id": "C05",
+        "file": "assets/audio/voice_references/02_pan_hui.mp3",
+        "role": "voice_timbre_only_not_dialogue_playback",
+        "status": "received_existing_file"
+      }
+    ],
+    "M03": [
+      {
+        "slot": 1,
+        "label": "@音频1",
+        "speaker_id": "C05",
+        "file": "assets/audio/voice_references/02_pan_hui.mp3",
+        "role": "voice_timbre_only_not_dialogue_playback",
+        "status": "received_existing_file"
+      }
+    ]
   }
 }

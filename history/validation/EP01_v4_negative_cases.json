@@ -1,0 +1,46 @@
+{
+  "revision": "EP01_v4_3x30",
+  "scope": "Five intentionally invalid in-memory specifications; no production file was mutated and no video quality is asserted.",
+  "all_rejected": true,
+  "case_count": 5,
+  "cases": [
+    {
+      "case": "31_images_exceed_official_image_ceiling",
+      "rejected": true,
+      "errors": [
+        "M01: image budget 31 exceeds 30 including optional images"
+      ]
+    },
+    {
+      "case": "xiaotui_bound_to_sun_voice_file",
+      "rejected": true,
+      "errors": [
+        "M02: wrong voice-reference file for speaker C03"
+      ]
+    },
+    {
+      "case": "missing_beginning_of_full_court_sentence",
+      "rejected": true,
+      "errors": [
+        "DLG06: text differs from locked dialogue"
+      ]
+    },
+    {
+      "case": "J_cut_omits_first_0_4_seconds",
+      "rejected": true,
+      "errors": [
+        "M02: voice reference C03 has incorrect or extra speaking intervals",
+        "DLG06: audio source offset maps to the wrong global time",
+        "DLG06: J-cut must use one M02 recording [3.6,8.1) mapped to [33.6,38.1)"
+      ]
+    },
+    {
+      "case": "silent_xika_reaction_treated_as_visible_speech",
+      "rejected": true,
+      "errors": [
+        "DLG07: shot 11 uses incorrect visibility or cut boundaries",
+        "DLG07: dialogue lip-sync flag conflicts with its segments"
+      ]
+    }
+  ]
+}

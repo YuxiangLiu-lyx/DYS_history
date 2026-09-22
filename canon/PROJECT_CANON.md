@@ -2,7 +2,8 @@
 
 > 本文件是供后续会话、制作人员和 Agent 续作使用的**编纂摘要**，不是逐字聊天导出，也不是重新创作的剧本。内容依据本轮可见的用户总控 Prompt、已读取的《第一回风起徽州·导演执行稿 v1》和主控同步的当前制作状态整理。没有完整原文的旧 Prompt 不得被补写成“历史原文”。
 
-> 当前执行补充（2026-09-22 v3）：Seedance每次最多5张图（含可选尾帧）；说话者和口型按production/audio/dialogue_contract.json执行。D增加源素材头尾余量：14秒源裁13秒成片，90秒剧情不变。音画同生同期先验收，再混音；不得以新配音覆盖闭嘴人物冒充修复。用户已有试片反馈，但媒体尚未收到。
+
+> 当前执行覆盖（2026-09-22 v4）：用户已明确授权Seedance 2.5、每幕30秒，并上传五人原声。当前3×30秒、9/9/11图、1/3/1音频；官方50总参考=30图+10视频+10音频。剧本正文原字节保留，时序只按production/TIMING_CHANGES_v4.md列出的差异调整，当前执行时间为production/timeline.json。旧A–G分组、5图限制及D14秒源公式只作历史。下文原规划中的时长/任务数不覆盖这项新决定。样本只借音色，不复制原聊天；本集西卡不说话，04_xika.mp3仅保存备用。
 
 ## 1. 阅读顺序与事实优先级
 
@@ -26,7 +27,8 @@ unavailable_older_prompts_verbatim: null
 exact_missing_prompt_parameters: null
 asset_manifest_and_sha_authority: 由主控生成并随生产包提供
 script_change_authorized_in_current_work: false
-current_deliverable: 第一回Seedance 2.0 Video Production Pack与GitHub完整项目归档
+timing_regroup_authorized_in_current_work: true
+current_deliverable: 第一回Seedance 2.5三幕30秒v4生产包、用户原声与GitHub完整归档
 github_repository: https://github.com/YuxiangLiu-lyx/DYS_history
 ```
 

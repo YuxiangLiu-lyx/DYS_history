@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 4,
   "episode": "EP01",
   "fps": 24,
   "duration_seconds": 90,
@@ -7,73 +7,57 @@
   "source_script_sha256": "5219a9614cb565720f1fb2cab9d2615c3b35dd6647b3b77fc9c64198b5c2bbfa",
   "blocks": [
     {
-      "id": "A",
+      "id": "M01",
       "start": 0,
-      "end": 13,
-      "duration": 13,
+      "end": 30,
+      "duration": 30,
       "start_frame": 0,
-      "end_frame_exclusive": 312,
-      "title": "官仓民怨"
+      "end_frame_exclusive": 720,
+      "title": "官仓、私仓与京师",
+      "legacy_story_beat": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source_duration_s": 30,
+      "source_to_global_offset_s": 0
     },
     {
-      "id": "B",
-      "start": 13,
-      "end": 24,
-      "duration": 11,
-      "start_frame": 312,
-      "end_frame_exclusive": 576,
-      "title": "魏笑私仓"
+      "id": "M02",
+      "start": 30,
+      "end": 60,
+      "duration": 30,
+      "start_frame": 720,
+      "end_frame_exclusive": 1440,
+      "title": "太平奏报与听松楼",
+      "legacy_story_beat": [
+        "C",
+        "D",
+        "E"
+      ],
+      "source_duration_s": 30,
+      "source_to_global_offset_s": 30
     },
     {
-      "id": "C",
-      "start": 24,
-      "end": 34,
-      "duration": 10,
-      "start_frame": 576,
-      "end_frame_exclusive": 816,
-      "title": "德云皇城"
-    },
-    {
-      "id": "D",
-      "start": 34,
-      "end": 47,
-      "duration": 13,
-      "start_frame": 816,
-      "end_frame_exclusive": 1128,
-      "title": "朝堂奏报"
-    },
-    {
-      "id": "E",
-      "start": 47,
-      "end": 62,
-      "duration": 15,
-      "start_frame": 1128,
-      "end_frame_exclusive": 1488,
-      "title": "听松楼拒礼"
-    },
-    {
-      "id": "F",
-      "start": 62,
-      "end": 75,
-      "duration": 13,
-      "start_frame": 1488,
-      "end_frame_exclusive": 1800,
-      "title": "潘慧夜窗"
-    },
-    {
-      "id": "G",
-      "start": 75,
+      "id": "M03",
+      "start": 60,
       "end": 90,
-      "duration": 15,
-      "start_frame": 1800,
+      "duration": 30,
+      "start_frame": 1440,
       "end_frame_exclusive": 2160,
-      "title": "五线交叉与片尾"
+      "title": "夜窗与五线收束",
+      "legacy_story_beat": [
+        "F",
+        "G"
+      ],
+      "source_duration_s": 30,
+      "source_to_global_offset_s": 60
     }
   ],
   "shots": [
     {
       "id": "01",
-      "block": "A",
+      "block": "M01",
       "start": 0,
       "end": 3,
       "duration": 3,
@@ -83,11 +67,15 @@
       "camera": "广角全景，低机位缓进",
       "action": "雨棚下的队伍挤向官仓；前景空碗抬起，尽头仓门紧闭。先看见人，再看清徽州白墙黑瓦。",
       "dialogue": "无对白。",
-      "sound_edit": "雨、水鞋、空碗轻碰。首屏小字：德云新朝·徽州；AI生成｜架空历史二创。"
+      "sound_edit": "雨、水鞋、空碗轻碰。首屏小字：德云新朝·徽州；AI生成｜架空历史二创。",
+      "legacy_block": "A",
+      "legacy_story_beat": "A",
+      "source_start": 0,
+      "source_end": 3
     },
     {
       "id": "02",
-      "block": "A",
+      "block": "M01",
       "start": 3,
       "end": 8,
       "duration": 5,
@@ -97,11 +85,15 @@
       "camera": "老人背后过肩中景，轻手持",
       "action": "老人向前递空碗。官差挡住门口，推其上臂；在老人重心偏移时切镜。",
       "dialogue": "老人：“朝廷拨的粮呢？”官差：“没粮！退后！”",
-      "sound_edit": "雨声连续，衣料摩擦；不放音乐。"
+      "sound_edit": "雨声连续，衣料摩擦；不放音乐。",
+      "legacy_block": "A",
+      "legacy_story_beat": "A",
+      "source_start": 3,
+      "source_end": 8
     },
     {
       "id": "03",
-      "block": "A",
+      "block": "M01",
       "start": 8,
       "end": 13,
       "duration": 5,
@@ -111,11 +103,15 @@
       "camera": "低机位近景，跟随下落",
       "action": "承接上镜同一推搡，老人跌坐台阶，碗滚到孩子脚旁；孩子蹲下扶他，旁人伸手。",
       "dialogue": "妇人画外：“新皇登基，咱们照样挨饿。”",
-      "sound_edit": "碗落地、孩子哭；末尾碗滚声接粮斗落粒。"
+      "sound_edit": "碗落地、孩子哭；末尾碗滚声接粮斗落粒。",
+      "legacy_block": "A",
+      "legacy_story_beat": "A",
+      "source_start": 8,
+      "source_end": 13
     },
     {
       "id": "04",
-      "block": "B",
+      "block": "M01",
       "start": 13,
       "end": 17,
       "duration": 4,
@@ -125,11 +121,15 @@
       "camera": "私仓中全景，短横移",
       "action": "粮袋从后门送入，账房旁的粮商把银匣推上案；搬工与粮商在同一纵深空间。",
       "dialogue": "粮商：“官粮，全运来了。”",
-      "sound_edit": "粮粒、袋落木板、银匣滑动。低弦音开始。"
+      "sound_edit": "粮粒、袋落木板、银匣滑动。低弦音开始。",
+      "legacy_block": "B",
+      "legacy_story_beat": "B",
+      "source_start": 13,
+      "source_end": 17
     },
     {
       "id": "05",
-      "block": "B",
+      "block": "M01",
       "start": 17,
       "end": 21,
       "duration": 4,
@@ -139,11 +139,15 @@
       "camera": "魏笑中近景，固定",
       "action": "魏笑捻开掌中几粒米，听见汇报才抬眼，轻轻合拢手掌。",
       "dialogue": "魏笑：“明日起，再涨三成。”",
-      "sound_edit": "声线儒雅平稳，不阴笑。人物条：江南转运使·魏笑。"
+      "sound_edit": "声线儒雅平稳，不阴笑。人物条：江南转运使·魏笑。",
+      "legacy_block": "B",
+      "legacy_story_beat": "B",
+      "source_start": 17,
+      "source_end": 21
     },
     {
       "id": "06",
-      "block": "B",
+      "block": "M01",
       "start": 21,
       "end": 24,
       "duration": 3,
@@ -153,11 +157,15 @@
       "camera": "奏折插入特写",
       "action": "书吏把写好的奏折折起、束封，印信落下。只需辨认“徽州”“仓廪充足”。",
       "dialogue": "无对白。",
-      "sound_edit": "印章落案接京城朝鼓。文字后期合成。"
+      "sound_edit": "印章落案接京城朝鼓。文字后期合成。",
+      "legacy_block": "B",
+      "legacy_story_beat": "B",
+      "source_start": 21,
+      "source_end": 24
     },
     {
       "id": "07",
-      "block": "C",
+      "block": "M01",
       "start": 24,
       "end": 27,
       "duration": 3,
@@ -167,11 +175,15 @@
       "camera": "皇城大全景，克制前进",
       "action": "晨雾中的宫门开启，两列百官沿中轴步入；人流真实位移，建筑不变形。",
       "dialogue": "无对白。",
-      "sound_edit": "朝鼓、远钟、脚步。地点字：京师。"
+      "sound_edit": "朝鼓、远钟、脚步。地点字：京师。",
+      "legacy_block": "C",
+      "legacy_story_beat": "C",
+      "source_start": 24,
+      "source_end": 27
     },
     {
       "id": "08",
-      "block": "C",
+      "block": "M01",
       "start": 27,
       "end": 30,
       "duration": 3,
@@ -181,11 +193,15 @@
       "camera": "侧向中景，短跟拍",
       "action": "西卡从百官前列走入，停步整袖，抬眼望向御座；其余官员继续就位。",
       "dialogue": "无对白。",
-      "sound_edit": "朝鼓余音转低弦。人物条：内阁首辅·李浩宇（西卡）。"
+      "sound_edit": "朝鼓余音转低弦。人物条：内阁首辅·李浩宇（西卡）。",
+      "legacy_block": "C",
+      "legacy_story_beat": "C",
+      "source_start": 27,
+      "source_end": 30
     },
     {
       "id": "09",
-      "block": "C",
+      "block": "M02",
       "start": 30,
       "end": 34,
       "duration": 4,
@@ -195,11 +211,15 @@
       "camera": "少年天子中近景，轻微低角度",
       "action": "孙亚龙在御座坐稳，抬手示意，身体略前倾准备听奏；无夸张摆袍或搞笑表情。",
       "dialogue": "33.6秒，小腿奏报先以画外声进入。",
-      "sound_edit": "人物条：德云皇帝·孙亚龙。殿内衣袖声；音乐在对白前降低。"
+      "sound_edit": "人物条：德云皇帝·孙亚龙。殿内衣袖声；音乐在对白前降低。",
+      "legacy_block": "C",
+      "legacy_story_beat": "C",
+      "source_start": 0,
+      "source_end": 4
     },
     {
       "id": "10",
-      "block": "D",
+      "block": "M02",
       "start": 34,
       "end": 39,
       "duration": 5,
@@ -209,11 +229,15 @@
       "camera": "小腿正侧面中景，固定",
       "action": "小腿持朱签官奏展开宣读，眼睛沿奏折移动，最后稍抬眼。",
       "dialogue": "小腿：“徽州粮价平稳，百姓安居乐业。”",
-      "sound_edit": "承接上一镜J-cut。人物条：殿前行走·腿校尉。"
+      "sound_edit": "承接上一镜J-cut。人物条：殿前行走·腿校尉。",
+      "legacy_block": "D",
+      "legacy_story_beat": "D",
+      "source_start": 4,
+      "source_end": 9
     },
     {
       "id": "11",
-      "block": "D",
+      "block": "M02",
       "start": 39,
       "end": 43,
       "duration": 4,
@@ -223,11 +247,15 @@
       "camera": "小腿肩后看西卡，中近景反应镜头",
       "action": "西卡听奏，眼神短暂移向小腿；小腿停半拍后继续。两人只表现疑惑，不能像知情同谋。",
       "dialogue": "小腿画外：“人人……面带微笑。”",
-      "sound_edit": "“人人”后的停顿约0.3秒。音乐不抖包袱，不加提示音。"
+      "sound_edit": "“人人”后的停顿约0.3秒。音乐不抖包袱，不加提示音。",
+      "legacy_block": "D",
+      "legacy_story_beat": "D",
+      "source_start": 9,
+      "source_end": 13
     },
     {
       "id": "12",
-      "block": "D",
+      "block": "M02",
       "start": 43,
       "end": 47,
       "duration": 4,
@@ -237,95 +265,123 @@
       "camera": "笑皇近景，固定",
       "action": "笑皇神情松动，认真点头，把手从御案边放松下来。",
       "dialogue": "笑皇：“百姓有饭吃，朕便放心了。”",
-      "sound_edit": "46.7秒，听松楼琴声提前进入。殿声随切镜消退。"
+      "sound_edit": "46.7秒，听松楼琴声提前进入。殿声随切镜消退。",
+      "legacy_block": "D",
+      "legacy_story_beat": "D",
+      "source_start": 13,
+      "source_end": 17
     },
     {
       "id": "13",
-      "block": "E",
+      "block": "M02",
       "start": 47,
-      "end": 50,
-      "duration": 3,
+      "end": 49,
+      "duration": 2,
       "start_frame": 1128,
-      "end_frame_exclusive": 1200,
+      "end_frame_exclusive": 1176,
       "kind": "narrative_shot",
       "camera": "听松楼中全景，沿席间轻横移",
       "action": "潘慧弹完琴句，用左手收住余弦，抬头看客席；窗外松影、茶席与候礼随从同时入画。",
       "dialogue": "无对白。",
-      "sound_edit": "琴声有实际声源。地点/人物条：听松楼·徽州才女潘慧。"
+      "sound_edit": "琴声有实际声源。地点/人物条：听松楼·徽州才女潘慧。",
+      "legacy_block": "E",
+      "legacy_story_beat": "E",
+      "source_start": 17,
+      "source_end": 19
     },
     {
       "id": "14",
-      "block": "E",
-      "start": 50,
-      "end": 55,
+      "block": "M02",
+      "start": 49,
+      "end": 54,
       "duration": 5,
-      "start_frame": 1200,
-      "end_frame_exclusive": 1320,
+      "start_frame": 1176,
+      "end_frame_exclusive": 1296,
       "kind": "narrative_shot",
       "camera": "潘慧肩后过肩中景",
       "action": "公子把房契轻放案边向她推来；后方另一随从托着金锭，另一人合抱珠盒，不再逐个报价。",
       "dialogue": "公子：“西湖别院一座，请姑娘赏光。”",
-      "sound_edit": "契纸滑动，席间交谈渐静。"
+      "sound_edit": "契纸滑动，席间交谈渐静。",
+      "legacy_block": "E",
+      "legacy_story_beat": "E",
+      "source_start": 19,
+      "source_end": 24
     },
     {
       "id": "15",
-      "block": "E",
-      "start": 55,
-      "end": 59,
+      "block": "M02",
+      "start": 54,
+      "end": 58,
       "duration": 4,
-      "start_frame": 1320,
-      "end_frame_exclusive": 1416,
+      "start_frame": 1296,
+      "end_frame_exclusive": 1392,
       "kind": "narrative_shot",
       "camera": "潘慧中近景，反打",
       "action": "潘慧听完才轻笑，将房契缓缓推回原处；语气温和，没有嘲弄。",
       "dialogue": "潘慧：“公子留着吧，我住这里挺好。”",
-      "sound_edit": "手部与契纸同向移动，琴余韵退尽，只留室内底噪。"
+      "sound_edit": "手部与契纸同向移动，琴余韵退尽，只留室内底噪。",
+      "legacy_block": "E",
+      "legacy_story_beat": "E",
+      "source_start": 24,
+      "source_end": 28
     },
     {
       "id": "16",
-      "block": "E",
-      "start": 59,
-      "end": 62,
-      "duration": 3,
-      "start_frame": 1416,
-      "end_frame_exclusive": 1488,
+      "block": "M02",
+      "start": 58,
+      "end": 60,
+      "duration": 2,
+      "start_frame": 1392,
+      "end_frame_exclusive": 1440,
       "kind": "narrative_shot",
       "camera": "公子中近景反应镜头",
       "action": "房契滑回前景；公子停半拍，接过契纸，自己也笑一下，向随从示意收礼。",
       "dialogue": "无对白。",
-      "sound_edit": "不加尴尬音效、不拍全场哄笑。以窗格作切点进入夜景。"
+      "sound_edit": "不加尴尬音效、不拍全场哄笑。以窗格作切点进入夜景。",
+      "legacy_block": "E",
+      "legacy_story_beat": "E",
+      "source_start": 28,
+      "source_end": 30
     },
     {
       "id": "17",
-      "block": "F",
-      "start": 62,
-      "end": 65,
-      "duration": 3,
-      "start_frame": 1488,
-      "end_frame_exclusive": 1560,
+      "block": "M03",
+      "start": 60,
+      "end": 64,
+      "duration": 4,
+      "start_frame": 1440,
+      "end_frame_exclusive": 1536,
       "kind": "narrative_shot",
       "camera": "夜窗双人中景，固定",
       "action": "明确时间省略至当夜，地点为听松楼楼上私室。侍女放下小灯，替潘慧披上薄披帛，顺势问话。",
-      "dialogue": "侍女从64秒起：“小姐想嫁什么样的人？”",
-      "sound_edit": "远处水声、灯座轻落、披帛声；极轻原创琴句。"
+      "dialogue": "侍女从63秒起：“小姐想嫁什么样的人？”",
+      "sound_edit": "远处水声、灯座轻落、披帛声；极轻原创琴句。",
+      "legacy_block": "F",
+      "legacy_story_beat": "F",
+      "source_start": 0,
+      "source_end": 4
     },
     {
       "id": "18",
-      "block": "F",
-      "start": 65,
+      "block": "M03",
+      "start": 64,
       "end": 69,
-      "duration": 4,
-      "start_frame": 1560,
+      "duration": 5,
+      "start_frame": 1536,
       "end_frame_exclusive": 1656,
       "kind": "narrative_shot",
       "camera": "侍女肩后，潘慧近景",
       "action": "问题仍在画外说完；潘慧认真想一瞬，视线从窗外回到侍女。",
       "dialogue": "潘慧从68秒起：“我也不知道。”",
-      "sound_edit": "保留短停顿与呼吸，不做卖弄机锋的表情。"
+      "sound_edit": "保留短停顿与呼吸，不做卖弄机锋的表情。",
+      "legacy_block": "F",
+      "legacy_story_beat": "F",
+      "source_start": 4,
+      "source_end": 9
     },
     {
       "id": "19",
-      "block": "F",
+      "block": "M03",
       "start": 69,
       "end": 75,
       "duration": 6,
@@ -335,11 +391,15 @@
       "camera": "潘慧侧面近景，缓慢靠近少许",
       "action": "上句在切镜后说完；潘慧看着侍女笑一下，随后转回窗边，手轻扶披帛。",
       "dialogue": "潘慧：“总得先见着那个人。”",
-      "sound_edit": "话在73.6秒前结束，留约1.4秒反应。纸张声在74.8秒先入。"
+      "sound_edit": "话在73.6秒前结束，留约1.4秒反应。纸张声在74.8秒先入。",
+      "legacy_block": "F",
+      "legacy_story_beat": "F",
+      "source_start": 9,
+      "source_end": 15
     },
     {
       "id": "20",
-      "block": "G",
+      "block": "M03",
       "start": 75,
       "end": 78.5,
       "duration": 3.5,
@@ -349,11 +409,15 @@
       "camera": "密报前景与小腿侧脸同框，移焦",
       "action": "宫内偏室。小腿展开第一次被镜头揭示的素纸密报，从“官仓闭赈，民食草根”读到页尾，手停住，神色收紧。",
       "dialogue": "无对白。",
-      "sound_edit": "纸声、烛芯声；先让观众自行读懂，不解释密报来源及呈报时机。"
+      "sound_edit": "纸声、烛芯声；先让观众自行读懂，不解释密报来源及呈报时机。",
+      "legacy_block": "G",
+      "legacy_story_beat": "G",
+      "source_start": 15,
+      "source_end": 18.5
     },
     {
       "id": "21",
-      "block": "G",
+      "block": "M03",
       "start": 78.5,
       "end": 80,
       "duration": 1.5,
@@ -363,11 +427,15 @@
       "camera": "官仓外中近景，夜",
       "action": "仍是同一官仓、老人和孩子；孩子攥住老人的手，从紧闭仓门前走过。",
       "dialogue": "史官旁白开始：“笑皇不知，江南已乱。”",
-      "sound_edit": "雨已停，檐水仍滴。低弦进入。"
+      "sound_edit": "雨已停，檐水仍滴。低弦进入。",
+      "legacy_block": "G",
+      "legacy_story_beat": "G",
+      "source_start": 18.5,
+      "source_end": 20
     },
     {
       "id": "22",
-      "block": "G",
+      "block": "M03",
       "start": 80,
       "end": 81.5,
       "duration": 1.5,
@@ -377,11 +445,15 @@
       "camera": "魏笑案边中近景，夜",
       "action": "魏笑把粮价账簿合拢，压入案边；私仓灯光延续白日空间结构。",
       "dialogue": "承接上一镜旁白。",
-      "sound_edit": "账簿轻合。无需新台词或新事件。"
+      "sound_edit": "账簿轻合。无需新台词或新事件。",
+      "legacy_block": "G",
+      "legacy_story_beat": "G",
+      "source_start": 20,
+      "source_end": 21.5
     },
     {
       "id": "23",
-      "block": "G",
+      "block": "M03",
       "start": 81.5,
       "end": 84.5,
       "duration": 3.0,
@@ -391,11 +463,15 @@
       "camera": "宫墙双人中景，固定",
       "action": "笑皇望向城中灯火；西卡从后方走近、停在其侧后半步。皇帝尚未得知灾情。",
       "dialogue": "史官继续：“也不知徽州一人……”",
-      "sound_edit": "宫墙风声和脚步。帝相都不说话。"
+      "sound_edit": "宫墙风声和脚步。帝相都不说话。",
+      "legacy_block": "G",
+      "legacy_story_beat": "G",
+      "source_start": 21.5,
+      "source_end": 24.5
     },
     {
       "id": "24",
-      "block": "G",
+      "block": "M03",
       "start": 84.5,
       "end": 87.5,
       "duration": 3.0,
@@ -405,11 +481,15 @@
       "camera": "潘慧夜窗近景，与19同侧轴线",
       "action": "潘慧扶稳被风牵起的披帛，望向楼下灯火；平静、有自己的生活，不作不祥暗示。",
       "dialogue": "史官：“……将牵动此后半生。”",
-      "sound_edit": "低弦退后，留琴声一记。不把危机音乐专门压到潘慧脸上。"
+      "sound_edit": "低弦退后，留琴声一记。不把危机音乐专门压到潘慧脸上。",
+      "legacy_block": "G",
+      "legacy_story_beat": "G",
+      "source_start": 24.5,
+      "source_end": 27.5
     },
     {
       "id": "25",
-      "block": "G",
+      "block": "M03",
       "start": 87.5,
       "end": 90,
       "duration": 2.5,
@@ -419,7 +499,12 @@
       "camera": "黑底片尾字卡",
       "action": "完整静止字卡：《德云史记·慧后本纪》／第一回《风起徽州》。",
       "dialogue": "无对白。",
-      "sound_edit": "音乐尾音自然衰减；不在字卡中继续塞旁白。"
+      "sound_edit": "音乐尾音自然衰减；不在字卡中继续塞旁白。",
+      "legacy_block": "G",
+      "legacy_story_beat": "G",
+      "source_start": 27.5,
+      "source_end": 30,
+      "generation_action": "M03源27.5–30秒纯黑无文字；片尾字卡后期叠加。"
     }
   ],
   "dialogue": [
@@ -431,7 +516,11 @@
       "text": "朝廷拨的粮呢？",
       "note": "按动作说话，不顶满时窗。",
       "start_sample_48k": 153600,
-      "end_sample_exclusive_48k": 254400
+      "end_sample_exclusive_48k": 254400,
+      "block": "M01",
+      "source_start": 3.2,
+      "source_end": 5.3,
+      "generation_mode": "native_av_with_voice_reference_if_supplied"
     },
     {
       "id": "DLG02",
@@ -441,7 +530,11 @@
       "text": "没粮！退后！",
       "note": "按动作说话，不顶满时窗。",
       "start_sample_48k": 273600,
-      "end_sample_exclusive_48k": 336000
+      "end_sample_exclusive_48k": 336000,
+      "block": "M01",
+      "source_start": 5.7,
+      "source_end": 7.0,
+      "generation_mode": "native_av_with_voice_reference_if_supplied"
     },
     {
       "id": "DLG03",
@@ -451,7 +544,11 @@
       "text": "新皇登基，咱们照样挨饿。",
       "note": "按动作说话，不顶满时窗。",
       "start_sample_48k": 412800,
-      "end_sample_exclusive_48k": 609600
+      "end_sample_exclusive_48k": 609600,
+      "block": "M01",
+      "source_start": 8.6,
+      "source_end": 12.7,
+      "generation_mode": "post_only"
     },
     {
       "id": "DLG04",
@@ -461,7 +558,11 @@
       "text": "官粮，全运来了。",
       "note": "按动作说话，不顶满时窗。",
       "start_sample_48k": 672000,
-      "end_sample_exclusive_48k": 792000
+      "end_sample_exclusive_48k": 792000,
+      "block": "M01",
+      "source_start": 14.0,
+      "source_end": 16.5,
+      "generation_mode": "native_av_with_voice_reference_if_supplied"
     },
     {
       "id": "DLG05",
@@ -471,7 +572,11 @@
       "text": "明日起，再涨三成。",
       "note": "平常交代公务般冷静。",
       "start_sample_48k": 864000,
-      "end_sample_exclusive_48k": 984000
+      "end_sample_exclusive_48k": 984000,
+      "block": "M01",
+      "source_start": 18.0,
+      "source_end": 20.5,
+      "generation_mode": "native_av_with_voice_reference_if_supplied"
     },
     {
       "id": "DLG06",
@@ -481,7 +586,11 @@
       "text": "徽州粮价平稳，百姓安居乐业。",
       "note": "按动作说话，不顶满时窗。",
       "start_sample_48k": 1612800,
-      "end_sample_exclusive_48k": 1828800
+      "end_sample_exclusive_48k": 1828800,
+      "block": "M02",
+      "source_start": 3.6,
+      "source_end": 8.1,
+      "generation_mode": "native_av_with_voice_reference_if_supplied"
     },
     {
       "id": "DLG07",
@@ -491,7 +600,11 @@
       "text": "人人……面带微笑。",
       "note": "人人后停约0.3秒；不替观众解释。",
       "start_sample_48k": 1881600,
-      "end_sample_exclusive_48k": 2030400
+      "end_sample_exclusive_48k": 2030400,
+      "block": "M02",
+      "source_start": 9.2,
+      "source_end": 12.3,
+      "generation_mode": "native_av_with_voice_reference_if_supplied"
     },
     {
       "id": "DLG08",
@@ -501,37 +614,53 @@
       "text": "百姓有饭吃，朕便放心了。",
       "note": "按动作说话，不顶满时窗。",
       "start_sample_48k": 2073600,
-      "end_sample_exclusive_48k": 2236800
+      "end_sample_exclusive_48k": 2236800,
+      "block": "M02",
+      "source_start": 13.2,
+      "source_end": 16.6,
+      "generation_mode": "native_av_with_voice_reference_if_supplied"
     },
     {
       "id": "DLG09",
-      "start": 50.7,
-      "end": 54.6,
+      "start": 49.7,
+      "end": 53.6,
       "speaker": "公子",
       "text": "西湖别院一座，请姑娘赏光。",
       "note": "按动作说话，不顶满时窗。",
-      "start_sample_48k": 2433600,
-      "end_sample_exclusive_48k": 2620800
+      "start_sample_48k": 2385600,
+      "end_sample_exclusive_48k": 2572800,
+      "block": "M02",
+      "source_start": 19.7,
+      "source_end": 23.6,
+      "generation_mode": "native_av_with_voice_reference_if_supplied"
     },
     {
       "id": "DLG10",
-      "start": 55.1,
-      "end": 58.8,
+      "start": 54.1,
+      "end": 57.8,
       "speaker": "潘慧",
       "text": "公子留着吧，我住这里挺好。",
       "note": "自然温柔；不做网红撒娇声。",
-      "start_sample_48k": 2644800,
-      "end_sample_exclusive_48k": 2822400
+      "start_sample_48k": 2596800,
+      "end_sample_exclusive_48k": 2774400,
+      "block": "M02",
+      "source_start": 24.1,
+      "source_end": 27.8,
+      "generation_mode": "native_av_with_voice_reference_if_supplied"
     },
     {
       "id": "DLG11",
-      "start": 64.0,
-      "end": 67.4,
+      "start": 63,
+      "end": 66.4,
       "speaker": "侍女",
       "text": "小姐想嫁什么样的人？",
       "note": "按动作说话，不顶满时窗。",
-      "start_sample_48k": 3072000,
-      "end_sample_exclusive_48k": 3235200
+      "start_sample_48k": 3024000,
+      "end_sample_exclusive_48k": 3187200,
+      "block": "M03",
+      "source_start": 3,
+      "source_end": 6.4,
+      "generation_mode": "native_av_with_voice_reference_if_supplied"
     },
     {
       "id": "DLG12",
@@ -541,7 +670,11 @@
       "text": "我也不知道。",
       "note": "自然温柔；不做网红撒娇声。",
       "start_sample_48k": 3264000,
-      "end_sample_exclusive_48k": 3331200
+      "end_sample_exclusive_48k": 3331200,
+      "block": "M03",
+      "source_start": 8.0,
+      "source_end": 9.4,
+      "generation_mode": "native_av_with_voice_reference_if_supplied"
     },
     {
       "id": "DLG13",
@@ -551,7 +684,11 @@
       "text": "总得先见着那个人。",
       "note": "自然温柔；不做网红撒娇声。",
       "start_sample_48k": 3369600,
-      "end_sample_exclusive_48k": 3532800
+      "end_sample_exclusive_48k": 3532800,
+      "block": "M03",
+      "source_start": 10.2,
+      "source_end": 13.6,
+      "generation_mode": "native_av_with_voice_reference_if_supplied"
     },
     {
       "id": "DLG14",
@@ -561,9 +698,89 @@
       "text": "笑皇不知，江南已乱。也不知徽州一人，将牵动此后半生。",
       "note": "沉稳叙述，不做预告片腔。",
       "start_sample_48k": 3777600,
-      "end_sample_exclusive_48k": 4190400
+      "end_sample_exclusive_48k": 4190400,
+      "block": "M03",
+      "source_start": 18.7,
+      "source_end": 27.3,
+      "generation_mode": "post_only"
     }
   ],
   "audio_files_generated": false,
-  "video_files_generated": false
+  "video_files_generated": false,
+  "production_revision": "v4_seedance_2_5_three_30s",
+  "previous_timeline": "archive/production_pack_v3/production/timeline.json",
+  "timing_revision_authority": "User authorized 30-second task regrouping; plot/actions/exact spoken words preserved.",
+  "legacy_story_beats": [
+    {
+      "id": "A",
+      "start": 0,
+      "end": 13,
+      "duration": 13,
+      "start_frame": 0,
+      "end_frame_exclusive": 312,
+      "title": "官仓民怨",
+      "timing_status": "archived_v3_only"
+    },
+    {
+      "id": "B",
+      "start": 13,
+      "end": 24,
+      "duration": 11,
+      "start_frame": 312,
+      "end_frame_exclusive": 576,
+      "title": "魏笑私仓",
+      "timing_status": "archived_v3_only"
+    },
+    {
+      "id": "C",
+      "start": 24,
+      "end": 34,
+      "duration": 10,
+      "start_frame": 576,
+      "end_frame_exclusive": 816,
+      "title": "德云皇城",
+      "timing_status": "archived_v3_only"
+    },
+    {
+      "id": "D",
+      "start": 34,
+      "end": 47,
+      "duration": 13,
+      "start_frame": 816,
+      "end_frame_exclusive": 1128,
+      "title": "朝堂奏报",
+      "timing_status": "archived_v3_only"
+    },
+    {
+      "id": "E",
+      "start": 47,
+      "end": 62,
+      "duration": 15,
+      "start_frame": 1128,
+      "end_frame_exclusive": 1488,
+      "title": "听松楼拒礼",
+      "timing_status": "archived_v3_only"
+    },
+    {
+      "id": "F",
+      "start": 62,
+      "end": 75,
+      "duration": 13,
+      "start_frame": 1488,
+      "end_frame_exclusive": 1800,
+      "title": "潘慧夜窗",
+      "timing_status": "archived_v3_only"
+    },
+    {
+      "id": "G",
+      "start": 75,
+      "end": 90,
+      "duration": 15,
+      "start_frame": 1800,
+      "end_frame_exclusive": 2160,
+      "title": "五线交叉与片尾",
+      "timing_status": "archived_v3_only"
+    }
+  ],
+  "voice_reference_audio_received": true
 }

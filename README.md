@@ -1,33 +1,30 @@
 # 德云史记 · 慧后本纪
 
-第一回《风起徽州》：90秒、7个Scene Block、24个叙事镜头＋片尾字卡。已锁定剧情，本包用于 Seedance 2.0 分场生成、音画返修与剪辑。
+**当前v4：第一回《风起徽州》，Seedance 2.5，三幕各30秒。** 成片90秒、24个叙事镜头＋片尾字卡，基础生成从11次整合为3次。保留原剧情、原台词和全部角色图；仅做已记录的时间调整。每幕用9/9/11张图与1/3/1段角色原声，不凑满素材额度。
 
-**当前修订v3：最多5图＋对白口型与音画同步。** 11个基础任务，D增加源素材余量；90秒剧情和原台词保持不变。已[上传并核验全部208个文件](https://github.com/YuxiangLiu-lyx/DYS_history/commit/21fc1d0ecfd75883175e45460b189cb74f2b997d)，同步回执见 [STATUS](context/STATUS.json)。用户已报告试片问题；源视频尚未收到，当前交付为生产与定向返修方案，未声称修好成片。
-
-| 需要什么 | 入口 |
+| 需要什么 | 当前入口 |
 |---|---|
-| 新AI接手先读 | [AGENTS.md](AGENTS.md) |
-| 在线/本地翻看实际图 | [资产与关键帧画册](REVIEW_GALLERY.html) |
-| Seedance上手流程 | [SEEDANCE_QUICKSTART.md](episodes/ep01/production/SEEDANCE_QUICKSTART.md) |
-| 第一集完整生产包 | [VIDEO_PRODUCTION_PACK.md](episodes/ep01/production/VIDEO_PRODUCTION_PACK.md) |
-| 逐句说话人、口型与声音映射 | [dialogue_contract.json](episodes/ep01/production/audio/dialogue_contract.json) |
-| 音画故障诊断与局部补拍 | [AV_SYNC_WORKFLOW.md](episodes/ep01/production/audio/AV_SYNC_WORKFLOW.md) · [补拍任务与Prompt](episodes/ep01/production/audio/dialogue_repair_plan.json) |
-| 每次生成的真实验收记录 | [TAKE_RECORD_TEMPLATE.json](episodes/ep01/production/audio/TAKE_RECORD_TEMPLATE.json) |
-| 按任务直接复制Prompt | [prompts](episodes/ep01/production/prompts/) |
-| 上传次序和真实文件 | [refs_upload.json](episodes/ep01/production/refs_upload.json) |
-| 逐镜秒表、对白与帧号 | [timeline.json](episodes/ep01/production/timeline.json) |
-| 锁定剧本原文 | [EP01_LOCKED_v1.md](episodes/ep01/script/EP01_LOCKED_v1.md) |
-| 长期世界观及未来伏笔 | [PROJECT_CANON.md](canon/PROJECT_CANON.md) |
-| 当前资产、版本、哈希 | [manifest.json](assets/manifest.json) |
-| 原始生成Prompt与失败历史 | [history/generation](history/generation/) |
-| 声音/剪辑交付与片尾 | [POSTPRODUCTION.md](episodes/ep01/production/POSTPRODUCTION.md) |
-| 官方能力核查 | [SEEDANCE_NOTES.md](episodes/ep01/production/SEEDANCE_NOTES.md) |
-| 本次同步情况与恢复方法 | [SYNC_STATUS.md](context/SYNC_STATUS.md) |
+| 直接开始制作 | [新版操作流程](episodes/ep01/production/SEEDANCE_QUICKSTART.md) |
+| 三幕完整镜头/动作/声音/Prompt | [生产包](episodes/ep01/production/VIDEO_PRODUCTION_PACK.md) |
+| 复制Prompt | [M01](episodes/ep01/production/prompts/M01_PROMPT.txt) · [M02](episodes/ep01/production/prompts/M02_PROMPT.txt) · [M03](episodes/ep01/production/prompts/M03_PROMPT.txt) |
+| 有序图片与音频清单 | [refs_upload.json](episodes/ep01/production/refs_upload.json) |
+| 五位角色用户原声 | [文件与说明](assets/audio/voice_references/VOICE_REFERENCES.md) · [音频清单](assets/audio/voice_references/manifest.json) |
+| 具体改了哪些秒数 | [TIMING_CHANGES_v4.md](episodes/ep01/production/TIMING_CHANGES_v4.md) |
+| 当前执行时间轴 | [timeline.json](episodes/ep01/production/timeline.json) |
+| 口型、声源与故障处理 | [音画手册](episodes/ep01/production/audio/AV_SYNC_WORKFLOW.md) · [逐句合同](episodes/ep01/production/audio/dialogue_contract.json) |
+| 局部返修 | [任务清单](episodes/ep01/production/audio/dialogue_repair_plan.json) · [Prompt](episodes/ep01/production/prompts/repairs/) |
+| 字幕/人物条/音乐/剪辑 | [后期说明](episodes/ep01/production/POSTPRODUCTION.md) |
+| 重新导出每幕上传ZIP | `python tools/build_seedance25_bundles.py --out /tmp/DYS_EP01_v4`（含有序图片、MP3、Prompt） |
+| 新AI先读及每轮保存要求 | [AGENTS.md](AGENTS.md) |
+| 当前状态与上传回执 | [STATUS](context/STATUS.json) · [同步记录](context/SYNC_STATUS.md) |
+| 原剧本、世界观 | [锁定原稿](episodes/ep01/script/EP01_LOCKED_v1.md) · [设定](canon/PROJECT_CANON.md) |
+| 既有图像、版本、哈希 | [资产清单](assets/manifest.json) · [画册](REVIEW_GALLERY.html) |
+| 旧5图版 | [v3历史归档](archive/production_pack_v3/) |
 
-潘慧（用户亦写“潘惠”）美人痣固定在正脸画面右侧嘴角下方的皮肤上，与唇线留清晰间隔、与玉簪同侧，不可镜像。当前权威正面是 `assets/characters/C05/C05_FRONT_HALF_v04.png`；全身v03、角度表情v03、披帛v05。温婉才女的底子不变，以含笑目光和自然嘴角保留媚劲。旧版及失败样本保留，视频只引用当前单人历史角色版本。
+五段原声按用户文件名绑定身份；只借音色，不复制样本中的现代聊天或背景。西卡本集无对白，原声保存备用，不让他代说小腿台词。潘慧在M02、M03使用同一02_pan_hui.mp3。
 
-图片本体均在归档内，不依赖临时网址。原生成文件没有被重新编码或重采样。画册是本地HTML，GitHub网页不会直接渲染HTML画册，请下载后打开；图片本身可在GitHub逐张查看。
+潘慧身份权威为C05_FRONT_HALF_v04；美人痣固定在正脸画面右侧嘴角下方的皮肤上，与唇线留间隔、与玉簪同侧，禁止镜像。衣发和夜披帛沿用现有图，不重生成全部定妆。
 
-AI生成／架空历史二创。剧中官职、贪腐情节、关系事件与对白属于艺术改编，不作为对真人私人事件的事实裁决，也不表示真人出演或为项目背书。
+“50个参考素材”是官方30图＋10视频＋10音频总数；当前只使用必要素材。时间表、Prompt及自动校验用于降低可预防错误，不保证每次生成零bug。未收到实际试片，未将生产包校验冒称成片验收。
 
-本轮直接看图：[小腿正脸](assets/characters/C03/C03_FRONT_HALF_v01.png) · [潘慧正脸／嘴角下方痣](assets/characters/C05/C05_FRONT_HALF_v04.png) · [潘慧夜窗近景](assets/keyframes/F/F_OUT_v02.png)。
+AI生成／架空历史二创。官职、贪腐情节、关系事件和对白是艺术改编，不作为真人私人事件的事实裁决，不表示真人出演或背书。制作声明、中文名牌与片尾在后期准确叠加。

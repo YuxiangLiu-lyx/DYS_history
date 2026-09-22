@@ -1,0 +1,35 @@
+{
+  "revision": "v4",
+  "rebuild_command": "python tools/build_seedance25_bundles.py --out /tmp/DYS_EP01_v4",
+  "archives_are_derived_from_repository_files": true,
+  "zip_not_direct_seedance_input": true,
+  "bundles": [
+    {
+      "job": "M01",
+      "bytes": 20257894,
+      "sha256": "34d51c32ddcfd93b343a635e061973335b864569ae15aa58972e9528a6d92e5d",
+      "images": 9,
+      "audio": 1,
+      "verified": true,
+      "filename": "EP01_M01_Seedance25_v4.zip"
+    },
+    {
+      "job": "M02",
+      "bytes": 20040809,
+      "sha256": "c53886d9124578be9bb53f9fbf215a74af133ad8660d94910c69228cdabdd1b2",
+      "images": 9,
+      "audio": 3,
+      "verified": true,
+      "filename": "EP01_M02_Seedance25_v4.zip"
+    },
+    {
+      "job": "M03",
+      "bytes": 23473539,
+      "sha256": "1d5257361673e311d23d3de4357195cb4357a9ec5e427a5efb43414cb97662e8",
+      "images": 11,
+      "audio": 1,
+      "verified": true,
+      "filename": "EP01_M03_Seedance25_v4.zip"
+    }
+  ]
+}

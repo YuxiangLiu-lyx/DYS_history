@@ -1,0 +1,476 @@
+{
+  "schema_version": "1.0",
+  "updated_date": "2026-09-22",
+  "purpose": "Preserved original user audio and measured technical quality; no generated dialogue",
+  "asset_count": 5,
+  "total_original_bytes": 1556496,
+  "total_decoded_duration_seconds": 64.499954649,
+  "measurement_scope": "ffprobe metadata, full ffmpeg float decode, sample peak/RMS, amplitude silence; no listening or transcription",
+  "tools": {
+    "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers",
+    "ffprobe": "ffprobe version 6.1.1-3ubuntu5 Copyright (c) 2007-2023 the FFmpeg developers"
+  },
+  "limitations": [
+    "Mono describes channels, not number of speakers.",
+    "Sample peak is not oversampled true peak; positive MP3 float peaks need listening, not a claim of audible clipping.",
+    "No amplitude silence does not prove continuous clean speech.",
+    "Voice reference does not drive the timing or phonemes of new script dialogue.",
+    "User reports the platform version; this archive has not uploaded or tested these files in Seedance."
+  ],
+  "assets": [
+    {
+      "id": "VOICE_C01_USER_v01",
+      "character_id": "C01",
+      "user_identified_person": "孙亚龙",
+      "character_name": "笑皇",
+      "file": "assets/audio/voice_references/01_sun_yalong.mp3",
+      "original_uploaded_filename": "01_sun_yalong.mp3",
+      "current": true,
+      "sha256": "0cac07f7dd3f4c3fda80f316d92d48d273982818950dc477cd99895edca21b64",
+      "bytes": 325592,
+      "provenance": {
+        "kind": "user_uploaded_audio",
+        "received_date": "2026-09-22",
+        "library_file_id": "libfile_9931df6364ac81918c54ef7f4b3cd4b7",
+        "identity_binding_basis": "explicit_user_filename_to_character_mapping",
+        "independently_verified_speaker_identity": false,
+        "upstream_public_url": null
+      },
+      "preservation": {
+        "original_bytes_preserved": true,
+        "reencoded": false,
+        "denoised": false,
+        "trimmed": false,
+        "derived_audio_file": null
+      },
+      "technical": {
+        "codec": "mp3",
+        "sample_rate_hz": 44100,
+        "channels": 1,
+        "channel_layout": "mono",
+        "codec_bit_rate_bps": 192000,
+        "container_duration_seconds": 13.531429,
+        "decoded_duration_seconds": 13.499954649,
+        "decoded_sample_frames": 595348,
+        "full_decode_pass": true,
+        "decoder_errors": null,
+        "sample_peak_linear": 0.765292108,
+        "sample_peak_dbfs": -2.323455,
+        "rms_dbfs": -17.518725,
+        "decoded_samples_abs_gte_1": 0,
+        "decoded_samples_abs_gte_0_999": 0,
+        "all_samples_finite": true,
+        "silence_detection": {
+          "threshold_dbfs": -40,
+          "minimum_duration_seconds": 0.25,
+          "intervals": [
+            {
+              "start_seconds": 1.01812,
+              "end_seconds": 1.6737,
+              "duration_seconds": 0.655578
+            },
+            {
+              "start_seconds": 5.62626,
+              "end_seconds": 6.07726,
+              "duration_seconds": 0.450998
+            },
+            {
+              "start_seconds": 8.09524,
+              "end_seconds": 8.37435,
+              "duration_seconds": 0.279116
+            },
+            {
+              "start_seconds": 8.62279,
+              "end_seconds": 9.12862,
+              "duration_seconds": 0.505828
+            },
+            {
+              "start_seconds": 9.23095,
+              "end_seconds": 9.55206,
+              "duration_seconds": 0.321111
+            },
+            {
+              "start_seconds": 10.6663,
+              "end_seconds": 11.7459,
+              "duration_seconds": 1.07961
+            }
+          ],
+          "total_seconds": 3.292241,
+          "is_speech_activity_detection": false
+        },
+        "true_peak_dbtp": null,
+        "integrated_loudness_lufs": null
+      },
+      "review": {
+        "technical_integrity_pass": true,
+        "listened_by_assistant": false,
+        "human_listening_review": null,
+        "speech_transcript": null,
+        "speaker_count": null,
+        "target_speaker_solo": null,
+        "background_music_present": null,
+        "overlapping_speech_present": null,
+        "intelligibility": null,
+        "noise_assessment": null,
+        "audible_clipping": null,
+        "selected_clean_speech_interval": null
+      },
+      "technical_flags": [],
+      "intended_use": {
+        "role": "voice_timbre_reference_only",
+        "has_locked_ep01_dialogue": true,
+        "upload_only_to_jobs_with_this_character_speaking": true,
+        "copy_sample_words_to_film": false,
+        "copy_sample_music_or_noise_to_film": false,
+        "lip_timing_from_reference_sample": false,
+        "seedance_upload_verified": false,
+        "model_voice_similarity_verified": false,
+        "platform_accepted_duration_seconds": null,
+        "platform_accepted_audio_count": null
+      }
+    },
+    {
+      "id": "VOICE_C05_USER_v01",
+      "character_id": "C05",
+      "user_identified_person": "潘慧",
+      "character_name": "徽州才女潘慧",
+      "file": "assets/audio/voice_references/02_pan_hui.mp3",
+      "original_uploaded_filename": "02_pan_hui.mp3",
+      "current": true,
+      "sha256": "60413e1fe29a24dd1a2196a0add5001675ed4e54b69b0fc47c7c435d74ce06a1",
+      "bytes": 337504,
+      "provenance": {
+        "kind": "user_uploaded_audio",
+        "received_date": "2026-09-22",
+        "library_file_id": "libfile_01b7b08a8a68819194d4d89b4b98d275",
+        "identity_binding_basis": "explicit_user_filename_to_character_mapping",
+        "independently_verified_speaker_identity": false,
+        "upstream_public_url": null
+      },
+      "preservation": {
+        "original_bytes_preserved": true,
+        "reencoded": false,
+        "denoised": false,
+        "trimmed": false,
+        "derived_audio_file": null
+      },
+      "technical": {
+        "codec": "mp3",
+        "sample_rate_hz": 44100,
+        "channels": 1,
+        "channel_layout": "mono",
+        "codec_bit_rate_bps": 192000,
+        "container_duration_seconds": 14.027755,
+        "decoded_duration_seconds": 14.0,
+        "decoded_sample_frames": 617400,
+        "full_decode_pass": true,
+        "decoder_errors": null,
+        "sample_peak_linear": 1.017228723,
+        "sample_peak_dbfs": 0.148372,
+        "rms_dbfs": -15.927986,
+        "decoded_samples_abs_gte_1": 2,
+        "decoded_samples_abs_gte_0_999": 3,
+        "all_samples_finite": true,
+        "silence_detection": {
+          "threshold_dbfs": -40,
+          "minimum_duration_seconds": 0.25,
+          "intervals": [],
+          "total_seconds": 0,
+          "is_speech_activity_detection": false
+        },
+        "true_peak_dbtp": null,
+        "integrated_loudness_lufs": null
+      },
+      "review": {
+        "technical_integrity_pass": true,
+        "listened_by_assistant": false,
+        "human_listening_review": null,
+        "speech_transcript": null,
+        "speaker_count": null,
+        "target_speaker_solo": null,
+        "background_music_present": null,
+        "overlapping_speech_present": null,
+        "intelligibility": null,
+        "noise_assessment": null,
+        "audible_clipping": null,
+        "selected_clean_speech_interval": null
+      },
+      "technical_flags": [
+        "decoded_mp3_float_samples_exceed_full_scale; not proof of audible clipping"
+      ],
+      "intended_use": {
+        "role": "voice_timbre_reference_only",
+        "has_locked_ep01_dialogue": true,
+        "upload_only_to_jobs_with_this_character_speaking": true,
+        "copy_sample_words_to_film": false,
+        "copy_sample_music_or_noise_to_film": false,
+        "lip_timing_from_reference_sample": false,
+        "seedance_upload_verified": false,
+        "model_voice_similarity_verified": false,
+        "platform_accepted_duration_seconds": null,
+        "platform_accepted_audio_count": null
+      }
+    },
+    {
+      "id": "VOICE_C03_USER_v01",
+      "character_id": "C03",
+      "user_identified_person": "小腿",
+      "character_name": "腿校尉",
+      "file": "assets/audio/voice_references/03_xiaotui.mp3",
+      "original_uploaded_filename": "03_xiaotui.mp3",
+      "current": true,
+      "sha256": "132ac37ae05baee438507768b07bd793076f855f2146a350ff5ddbe33b4364d5",
+      "bytes": 289855,
+      "provenance": {
+        "kind": "user_uploaded_audio",
+        "received_date": "2026-09-22",
+        "library_file_id": "libfile_8a3d543b050c81918df06338855378b7",
+        "identity_binding_basis": "explicit_user_filename_to_character_mapping",
+        "independently_verified_speaker_identity": false,
+        "upstream_public_url": null
+      },
+      "preservation": {
+        "original_bytes_preserved": true,
+        "reencoded": false,
+        "denoised": false,
+        "trimmed": false,
+        "derived_audio_file": null
+      },
+      "technical": {
+        "codec": "mp3",
+        "sample_rate_hz": 44100,
+        "channels": 1,
+        "channel_layout": "mono",
+        "codec_bit_rate_bps": 192000,
+        "container_duration_seconds": 12.042449,
+        "decoded_duration_seconds": 12.0,
+        "decoded_sample_frames": 529200,
+        "full_decode_pass": true,
+        "decoder_errors": null,
+        "sample_peak_linear": 0.873035729,
+        "sample_peak_dbfs": -1.17936,
+        "rms_dbfs": -17.115729,
+        "decoded_samples_abs_gte_1": 0,
+        "decoded_samples_abs_gte_0_999": 0,
+        "all_samples_finite": true,
+        "silence_detection": {
+          "threshold_dbfs": -40,
+          "minimum_duration_seconds": 0.25,
+          "intervals": [],
+          "total_seconds": 0,
+          "is_speech_activity_detection": false
+        },
+        "true_peak_dbtp": null,
+        "integrated_loudness_lufs": null
+      },
+      "review": {
+        "technical_integrity_pass": true,
+        "listened_by_assistant": false,
+        "human_listening_review": null,
+        "speech_transcript": null,
+        "speaker_count": null,
+        "target_speaker_solo": null,
+        "background_music_present": null,
+        "overlapping_speech_present": null,
+        "intelligibility": null,
+        "noise_assessment": null,
+        "audible_clipping": null,
+        "selected_clean_speech_interval": null
+      },
+      "technical_flags": [],
+      "intended_use": {
+        "role": "voice_timbre_reference_only",
+        "has_locked_ep01_dialogue": true,
+        "upload_only_to_jobs_with_this_character_speaking": true,
+        "copy_sample_words_to_film": false,
+        "copy_sample_music_or_noise_to_film": false,
+        "lip_timing_from_reference_sample": false,
+        "seedance_upload_verified": false,
+        "model_voice_similarity_verified": false,
+        "platform_accepted_duration_seconds": null,
+        "platform_accepted_audio_count": null
+      }
+    },
+    {
+      "id": "VOICE_C02_USER_v01",
+      "character_id": "C02",
+      "user_identified_person": "西卡",
+      "character_name": "内阁首辅",
+      "file": "assets/audio/voice_references/04_xika.mp3",
+      "original_uploaded_filename": "04_xika.mp3",
+      "current": true,
+      "sha256": "1bb51a6f9d154a43d073db6c83c681ef9a6ac66391a3a4c62a800b08706bbe6b",
+      "bytes": 350042,
+      "provenance": {
+        "kind": "user_uploaded_audio",
+        "received_date": "2026-09-22",
+        "library_file_id": "libfile_136c35c06b8081918cbdb1240c2621a3",
+        "identity_binding_basis": "explicit_user_filename_to_character_mapping",
+        "independently_verified_speaker_identity": false,
+        "upstream_public_url": null
+      },
+      "preservation": {
+        "original_bytes_preserved": true,
+        "reencoded": false,
+        "denoised": false,
+        "trimmed": false,
+        "derived_audio_file": null
+      },
+      "technical": {
+        "codec": "mp3",
+        "sample_rate_hz": 44100,
+        "channels": 1,
+        "channel_layout": "mono",
+        "codec_bit_rate_bps": 192000,
+        "container_duration_seconds": 14.550204,
+        "decoded_duration_seconds": 14.5,
+        "decoded_sample_frames": 639450,
+        "full_decode_pass": true,
+        "decoder_errors": null,
+        "sample_peak_linear": 0.642665744,
+        "sample_peak_dbfs": -3.840297,
+        "rms_dbfs": -17.429048,
+        "decoded_samples_abs_gte_1": 0,
+        "decoded_samples_abs_gte_0_999": 0,
+        "all_samples_finite": true,
+        "silence_detection": {
+          "threshold_dbfs": -40,
+          "minimum_duration_seconds": 0.25,
+          "intervals": [
+            {
+              "start_seconds": 3.38102,
+              "end_seconds": 3.75762,
+              "duration_seconds": 0.376599
+            },
+            {
+              "start_seconds": 7.62227,
+              "end_seconds": 7.95796,
+              "duration_seconds": 0.335692
+            },
+            {
+              "start_seconds": 8.87481,
+              "end_seconds": 9.74034,
+              "duration_seconds": 0.865533
+            },
+            {
+              "start_seconds": 11.0233,
+              "end_seconds": 11.5876,
+              "duration_seconds": 0.564308
+            }
+          ],
+          "total_seconds": 2.142132,
+          "is_speech_activity_detection": false
+        },
+        "true_peak_dbtp": null,
+        "integrated_loudness_lufs": null
+      },
+      "review": {
+        "technical_integrity_pass": true,
+        "listened_by_assistant": false,
+        "human_listening_review": null,
+        "speech_transcript": null,
+        "speaker_count": null,
+        "target_speaker_solo": null,
+        "background_music_present": null,
+        "overlapping_speech_present": null,
+        "intelligibility": null,
+        "noise_assessment": null,
+        "audible_clipping": null,
+        "selected_clean_speech_interval": null
+      },
+      "technical_flags": [],
+      "intended_use": {
+        "role": "voice_timbre_reference_only",
+        "has_locked_ep01_dialogue": false,
+        "upload_only_to_jobs_with_this_character_speaking": true,
+        "copy_sample_words_to_film": false,
+        "copy_sample_music_or_noise_to_film": false,
+        "lip_timing_from_reference_sample": false,
+        "seedance_upload_verified": false,
+        "model_voice_similarity_verified": false,
+        "platform_accepted_duration_seconds": null,
+        "platform_accepted_audio_count": null
+      }
+    },
+    {
+      "id": "VOICE_C04_USER_v01",
+      "character_id": "C04",
+      "user_identified_person": "微笑",
+      "character_name": "江南转运使魏笑",
+      "file": "assets/audio/voice_references/05_weixiao.mp3",
+      "original_uploaded_filename": "05_weixiao.mp3",
+      "current": true,
+      "sha256": "4ec4037ec21288d98ebcb92cd741823a53d74bc11fee30ab7ee591eab649c03d",
+      "bytes": 253503,
+      "provenance": {
+        "kind": "user_uploaded_audio",
+        "received_date": "2026-09-22",
+        "library_file_id": "libfile_a6bb7a0c5be48191bfe37f53ea278ef6",
+        "identity_binding_basis": "explicit_user_filename_to_character_mapping",
+        "independently_verified_speaker_identity": false,
+        "upstream_public_url": null
+      },
+      "preservation": {
+        "original_bytes_preserved": true,
+        "reencoded": false,
+        "denoised": false,
+        "trimmed": false,
+        "derived_audio_file": null
+      },
+      "technical": {
+        "codec": "mp3",
+        "sample_rate_hz": 44100,
+        "channels": 1,
+        "channel_layout": "mono",
+        "codec_bit_rate_bps": 192000,
+        "container_duration_seconds": 10.527347,
+        "decoded_duration_seconds": 10.5,
+        "decoded_sample_frames": 463050,
+        "full_decode_pass": true,
+        "decoder_errors": null,
+        "sample_peak_linear": 0.4737643,
+        "sample_peak_dbfs": -6.488753,
+        "rms_dbfs": -17.581543,
+        "decoded_samples_abs_gte_1": 0,
+        "decoded_samples_abs_gte_0_999": 0,
+        "all_samples_finite": true,
+        "silence_detection": {
+          "threshold_dbfs": -40,
+          "minimum_duration_seconds": 0.25,
+          "intervals": [],
+          "total_seconds": 0,
+          "is_speech_activity_detection": false
+        },
+        "true_peak_dbtp": null,
+        "integrated_loudness_lufs": null
+      },
+      "review": {
+        "technical_integrity_pass": true,
+        "listened_by_assistant": false,
+        "human_listening_review": null,
+        "speech_transcript": null,
+        "speaker_count": null,
+        "target_speaker_solo": null,
+        "background_music_present": null,
+        "overlapping_speech_present": null,
+        "intelligibility": null,
+        "noise_assessment": null,
+        "audible_clipping": null,
+        "selected_clean_speech_interval": null
+      },
+      "technical_flags": [],
+      "intended_use": {
+        "role": "voice_timbre_reference_only",
+        "has_locked_ep01_dialogue": true,
+        "upload_only_to_jobs_with_this_character_speaking": true,
+        "copy_sample_words_to_film": false,
+        "copy_sample_music_or_noise_to_film": false,
+        "lip_timing_from_reference_sample": false,
+        "seedance_upload_verified": false,
+        "model_voice_similarity_verified": false,
+        "platform_accepted_duration_seconds": null,
+        "platform_accepted_audio_count": null
+      }
+    }
+  ]
+}

@@ -1,18 +1,18 @@
 {
-  "schema_version": 1,
-  "revision": "EP01_AV_v3",
+  "schema_version": 2,
+  "revision": "EP01_AV_v4_Seedance2.5",
   "updated_date": "2026-09-22",
   "episode": "EP01",
   "fps": 24,
   "source_script_sha256": "5219a9614cb565720f1fb2cab9d2615c3b35dd6647b3b77fc9c64198b5c2bbfa",
-  "evidence_status": "user_reported_issues_no_user_video_or_audio_files_received_for_inspection",
+  "evidence_status": "five_user_voice_reference_mp3s_received; no_generated_episode_video_or_final_dialogue_audio_received",
   "status": "optional_targeted_repairs_not_executed",
   "max_images_per_job": 5,
-  "capability_notice": "源片秒数为制作目标，真实工具入口若只有离散时长可选，向上选择足够长度并保留所列源区间；不能把外部音频引用当作严格对口型保证。实际输出经检查若动作或发声落点不同，要重记实际源映射或仅重做该镜，不能机械套时间表。",
-  "selection_rule": "先检查现有片段；只执行故障所在镜头的job。每次从实际已采用视频提取动作接续帧优先替换对应关键帧槽，不超过5图；未收到原片前抽帧file=null。",
+  "capability_notice": "基础任务是三幕各30秒；本清单只在故障时执行短局部补拍，不是新增基础任务。先尝试目标入口支持的时间戳局部编辑；若无该功能或结果仍有问题才用短镜补拍。实际持续时间/源映射要实测，音频样本只作音色参考。",
+  "selection_rule": "只修改故障镜区间；优先以采用的原片作视频参考并明确该时间窗。局部编辑也可能影响邻接帧，必须检查前后至少0.5秒，不能宣称100%锁住其余帧。下面reference不足5图，真实原片抽帧优先替换通用构图槽。",
   "jobs": [
     {
-      "id": "R_A02",
+      "id": "R_M01_S02",
       "type": "single_speaker_video_pickup",
       "source_duration_seconds": 5,
       "speaker_ids": [
@@ -37,7 +37,8 @@
           "source_end": 4,
           "global_start": 5.7,
           "global_end": 7.0,
-          "text": "没粮！退后！"
+          "text": "没粮！退后！",
+          "source_to_global_offset_seconds": 3.0
         }
       ],
       "image_references": [
@@ -70,16 +71,43 @@
       "optional_actual_shot_frame": {
         "file": null,
         "status": "not_received_or_extracted",
-        "policy": "若已拿到采用视频，先提取该原镜切入/切出状态帧，优先替换通用关键帧槽；不自动添加第六张图。当前没有该文件，不能假称已上传。"
+        "policy": "真实原片可用时抽取动作接续帧，优先替换通用构图参考槽；仅在总图数不超过5时增加。当前file=null，不宣称已抽帧或上传。"
       },
-      "prompt": "中国架空历史正剧，16:9，写实肤质、布料与自然光。保留原场景空间、人物衣冠、轴线和已有动作。只有指定人物念指定原文，其他人闭口倾听；声带、嘴唇、下颌动作与每个字在同一源片内同步形成。不生成字幕、旁白、音乐或额外对白，不慢动作。没有真人声音克隆要求，使用已选历史剧角色音色。\n生成5秒，严格只补原镜02，不增加切镜。@图片1为官差，@图片2为老人，@图片3和@图片4定义同一官仓门与两级台阶。老人背后过肩中景，老人左、官差右，官差正侧脸口部无遮挡。0–2.7秒老人向前递同一空碗，官差闭口听（老人完整问题由已保留的DLG01声轨在本源0.2–2.3秒加入，本任务不代说）。2.7–4.0秒只有官差清楚说“没粮！退后！”。说话后推老人同一侧上臂，4–5秒老人重心偏移以衔接原镜03跌坐。官差推手不挡住自己嘴，不把老人转成正脸。采用整个0–5秒至成片3–8秒。",
+      "prompt": "中国架空历史正剧，16:9，24fps目标，写实肤质、布料与自然光。保留人物身份、场景轴线、光照和锁定动作。仅指定说话者念指定原文；嘴唇、下颌与每个字同期形成，听者不代说。环境声轻，不生成字幕、人名地名、旁白、配乐、额外对白或慢动作。音色参考不播放原文件内容，不带入直播底噪、现代话语或原背景音乐。\n生成5秒，仅补原镜02。@图片1官差，@图片2老人，@图片3和@图片4锁定官仓、两级主台阶、门槛和缺口碗。老人背后过肩中景，老人左、官差右。0–2.7秒老人递同一只碗、官差闭口听；原老人问题在本源0.2–2.3另铺已验收画外声，本任务不代说。2.7–4.0秒官差正侧脸嘴唇清楚，说“没粮！退后！”，随后推老人同一侧上臂；4–5秒老人重心偏移接原镜03跌坐。手不遮嘴、不改老人为正脸。全0–5秒映射成片3–8秒。",
       "trigger": "镜02官差无口型、错词、错人或无法校正漂移；DLG01继续使用原生/独立场内画外音。",
       "preserve_native_audio": true,
       "status": "planned_not_rendered",
-      "prompt_file": "episodes/ep01/production/prompts/repairs/R_A02_PROMPT.txt"
+      "prompt_file": "episodes/ep01/production/prompts/repairs/R_M01_S02_PROMPT.txt",
+      "audio_references": [],
+      "base_act": "M01",
+      "target_base_source_intervals": [
+        {
+          "source_in": 3,
+          "source_out": 8,
+          "shot_ids": [
+            "02"
+          ]
+        }
+      ],
+      "timestamp_edit_first": {
+        "available_in_target_entry": null,
+        "actual_source_video": null,
+        "requested_region": [
+          {
+            "source_in": 3,
+            "source_out": 8,
+            "shot_ids": [
+              "02"
+            ]
+          }
+        ],
+        "neighbor_check_seconds": 0.5,
+        "other_frames_unchanged_guaranteed": false,
+        "instruction": "入口确有时间戳局部编辑时先用原30秒片，只指定故障区域和说话人；先检查完整输出及邻接0.5秒。若越区改动则退回原片并执行本短镜补拍。"
+      }
     },
     {
-      "id": "R_B04",
+      "id": "R_M01_S04",
       "type": "single_speaker_video_pickup",
       "source_duration_seconds": 5,
       "speaker_ids": [
@@ -104,7 +132,8 @@
           "source_end": 4,
           "global_start": 14.0,
           "global_end": 16.5,
-          "text": "官粮，全运来了。"
+          "text": "官粮，全运来了。",
+          "source_to_global_offset_seconds": 12.5
         }
       ],
       "image_references": [
@@ -131,16 +160,43 @@
       "optional_actual_shot_frame": {
         "file": null,
         "status": "not_received_or_extracted",
-        "policy": "若已拿到采用视频，先提取该原镜切入/切出状态帧，优先替换通用关键帧槽；不自动添加第六张图。当前没有该文件，不能假称已上传。"
+        "policy": "真实原片可用时抽取动作接续帧，优先替换通用构图参考槽；仅在总图数不超过5时增加。当前file=null，不宣称已抽帧或上传。"
       },
-      "prompt": "中国架空历史正剧，16:9，写实肤质、布料与自然光。保留原场景空间、人物衣冠、轴线和已有动作。只有指定人物念指定原文，其他人闭口倾听；声带、嘴唇、下颌动作与每个字在同一源片内同步形成。不生成字幕、旁白、音乐或额外对白，不慢动作。没有真人声音克隆要求，使用已选历史剧角色音色。\n生成5秒，仅原镜04私仓中全景短横移。@图片1粮商在案左前侧，@图片2魏笑案右，@图片3定义后门左后、粮堆右侧及银匣。0–0.5秒准备态；0.5–4.5秒搬工真实搬粮从后门进右侧粮堆，粮商把银匣推上案；镜头留在可辨认粮商嘴唇的距离。1.5–4.0秒只有粮商说“官粮，全运来了。”，推匣同时嘴型清楚同步，魏笑闭口听。4.5–5秒动作余量。采用0.5–4.5秒至成片13–17秒，不另加机位。",
+      "prompt": "中国架空历史正剧，16:9，24fps目标，写实肤质、布料与自然光。保留人物身份、场景轴线、光照和锁定动作。仅指定说话者念指定原文；嘴唇、下颌与每个字同期形成，听者不代说。环境声轻，不生成字幕、人名地名、旁白、配乐、额外对白或慢动作。音色参考不播放原文件内容，不带入直播底噪、现代话语或原背景音乐。\n生成5秒，仅补原镜04私仓中全景短横移。@图片1粮商在案左前侧，@图片2魏笑案右，@图片3锁后门左后、粮堆右侧和银匣。0.5–4.5秒搬工从后门把粮搬到右侧，粮商把银匣推上案。1.5–4.0秒只有粮商说“官粮，全运来了。”，保持他的口部可辨，魏笑闭口听；本任务没有魏笑台词，不上传魏笑声音。采用0.5–4.5秒至成片13–17秒。",
       "trigger": "粮商在中全景嘴过小/不动、其他人代说或原同步不合格。",
       "preserve_native_audio": true,
       "status": "planned_not_rendered",
-      "prompt_file": "episodes/ep01/production/prompts/repairs/R_B04_PROMPT.txt"
+      "prompt_file": "episodes/ep01/production/prompts/repairs/R_M01_S04_PROMPT.txt",
+      "audio_references": [],
+      "base_act": "M01",
+      "target_base_source_intervals": [
+        {
+          "source_in": 13,
+          "source_out": 17,
+          "shot_ids": [
+            "04"
+          ]
+        }
+      ],
+      "timestamp_edit_first": {
+        "available_in_target_entry": null,
+        "actual_source_video": null,
+        "requested_region": [
+          {
+            "source_in": 13,
+            "source_out": 17,
+            "shot_ids": [
+              "04"
+            ]
+          }
+        ],
+        "neighbor_check_seconds": 0.5,
+        "other_frames_unchanged_guaranteed": false,
+        "instruction": "入口确有时间戳局部编辑时先用原30秒片，只指定故障区域和说话人；先检查完整输出及邻接0.5秒。若越区改动则退回原片并执行本短镜补拍。"
+      }
     },
     {
-      "id": "R_B05",
+      "id": "R_M01_S05",
       "type": "single_speaker_video_pickup",
       "source_duration_seconds": 5,
       "speaker_ids": [
@@ -165,7 +221,8 @@
           "source_end": 4,
           "global_start": 18.0,
           "global_end": 20.5,
-          "text": "明日起，再涨三成。"
+          "text": "明日起，再涨三成。",
+          "source_to_global_offset_seconds": 16.5
         }
       ],
       "image_references": [
@@ -192,16 +249,52 @@
       "optional_actual_shot_frame": {
         "file": null,
         "status": "not_received_or_extracted",
-        "policy": "若已拿到采用视频，先提取该原镜切入/切出状态帧，优先替换通用关键帧槽；不自动添加第六张图。当前没有该文件，不能假称已上传。"
+        "policy": "真实原片可用时抽取动作接续帧，优先替换通用构图参考槽；仅在总图数不超过5时增加。当前file=null，不宣称已抽帧或上传。"
       },
-      "prompt": "中国架空历史正剧，16:9，写实肤质、布料与自然光。保留原场景空间、人物衣冠、轴线和已有动作。只有指定人物念指定原文，其他人闭口倾听；声带、嘴唇、下颌动作与每个字在同一源片内同步形成。不生成字幕、旁白、音乐或额外对白，不慢动作。没有真人声音克隆要求，使用已选历史剧角色音色。\n生成5秒，魏笑同一私仓固定中近景。@图片1魏笑，@图片2和@图片3为空间和道具参考。0.5–4.5秒他用原先同一只手捻掌中米，听完粮商后抬眼。1.5–4.0秒平常交代公务般说“明日起，再涨三成。”，嘴与下颌自然同步，句末轻合掌。捻米、抬眼、合掌都保留，不用手遮嘴，不阴笑。采用0.5–4.5秒至成片17–21秒。",
+      "prompt": "中国架空历史正剧，16:9，24fps目标，写实肤质、布料与自然光。保留人物身份、场景轴线、光照和锁定动作。仅指定说话者念指定原文；嘴唇、下颌与每个字同期形成，听者不代说。环境声轻，不生成字幕、人名地名、旁白、配乐、额外对白或慢动作。音色参考不播放原文件内容，不带入直播底噪、现代话语或原背景音乐。\n生成5秒，仅补原镜05魏笑中近景。@图片1魏笑，@图片2和@图片3锁私仓与白日光。@音频1仅为魏笑的声音身份参考。0.5–4.5秒他捻掌中米，听完粮商后抬眼；1.5–4.0秒用@音频1的稳定音色、平静公务口吻说“明日起，再涨三成。”，同期口型清楚，句末轻合掌。保留捻米、抬眼、合掌，不遮嘴，不阴笑。采用0.5–4.5秒至成片17–21秒。",
       "trigger": "魏笑可见嘴型不匹配、错词或手遮口。",
       "preserve_native_audio": true,
       "status": "planned_not_rendered",
-      "prompt_file": "episodes/ep01/production/prompts/repairs/R_B05_PROMPT.txt"
+      "prompt_file": "episodes/ep01/production/prompts/repairs/R_M01_S05_PROMPT.txt",
+      "audio_references": [
+        {
+          "slot": 1,
+          "label": "@音频1",
+          "speaker_id": "C04",
+          "file": "assets/audio/voice_references/05_weixiao.mp3",
+          "role": "voice_timbre_only_not_dialogue_playback",
+          "status": "received_existing_file"
+        }
+      ],
+      "base_act": "M01",
+      "target_base_source_intervals": [
+        {
+          "source_in": 17,
+          "source_out": 21,
+          "shot_ids": [
+            "05"
+          ]
+        }
+      ],
+      "timestamp_edit_first": {
+        "available_in_target_entry": null,
+        "actual_source_video": null,
+        "requested_region": [
+          {
+            "source_in": 17,
+            "source_out": 21,
+            "shot_ids": [
+              "05"
+            ]
+          }
+        ],
+        "neighbor_check_seconds": 0.5,
+        "other_frames_unchanged_guaranteed": false,
+        "instruction": "入口确有时间戳局部编辑时先用原30秒片，只指定故障区域和说话人；先检查完整输出及邻接0.5秒。若越区改动则退回原片并执行本短镜补拍。"
+      }
     },
     {
-      "id": "R_D10",
+      "id": "R_M02_S10",
       "type": "single_speaker_video_pickup",
       "source_duration_seconds": 6,
       "speaker_ids": [
@@ -226,7 +319,8 @@
           "source_end": 4.6,
           "global_start": 33.6,
           "global_end": 38.1,
-          "text": "徽州粮价平稳，百姓安居乐业。"
+          "text": "徽州粮价平稳，百姓安居乐业。",
+          "source_to_global_offset_seconds": 33.5
         }
       ],
       "image_references": [
@@ -253,16 +347,52 @@
       "optional_actual_shot_frame": {
         "file": null,
         "status": "not_received_or_extracted",
-        "policy": "若已拿到采用视频，先提取该原镜切入/切出状态帧，优先替换通用关键帧槽；不自动添加第六张图。当前没有该文件，不能假称已上传。"
+        "policy": "真实原片可用时抽取动作接续帧，优先替换通用构图参考槽；仅在总图数不超过5时增加。当前file=null，不宣称已抽帧或上传。"
       },
-      "prompt": "中国架空历史正剧，16:9，写实肤质、布料与自然光。保留原场景空间、人物衣冠、轴线和已有动作。只有指定人物念指定原文，其他人闭口倾听；声带、嘴唇、下颌动作与每个字在同一源片内同步形成。不生成字幕、旁白、音乐或额外对白，不慢动作。没有真人声音克隆要求，使用已选历史剧角色音色。\n生成6秒，仅原镜10小腿正侧面固定中景。@图片1小腿，@图片2锁原镜朱签官奏、持纸双手和机位，@图片3锁朝堂。官奏已经展开、纸在胸前低于嘴。0.1秒从头开始完整说“徽州粮价平稳，百姓安居乐业。”，到4.6秒说完；从第一个字起音画同生，脸和嘴唇可见，眼睛沿纸面移动，句末稍抬眼。不可从中间半句开始。4.6–6秒闭口自然反应。采用视频0.5–5.5秒至成片34–39秒；同一个源片完整台词音频0.1–4.6秒单独铺33.6–38.1秒，33.6–34秒是上一镜皇帝听奏画外声；严禁重复该句。",
-      "trigger": "DLG06跨C/D音画错位；完整生成一次再裁画面，不拆半句。",
+      "prompt": "中国架空历史正剧，16:9，24fps目标，写实肤质、布料与自然光。保留人物身份、场景轴线、光照和锁定动作。仅指定说话者念指定原文；嘴唇、下颌与每个字同期形成，听者不代说。环境声轻，不生成字幕、人名地名、旁白、配乐、额外对白或慢动作。音色参考不播放原文件内容，不带入直播底噪、现代话语或原背景音乐。\n生成6秒，仅补原镜10小腿固定中景。@图片1小腿，@图片2锁朱签官奏、持纸双手和机位，@图片3锁朝堂，@音频1是小腿音色。官奏已展开、低于嘴。0.1–4.6秒从头完整说一次“徽州粮价平稳，百姓安居乐业。”，口型同期，眼睛沿纸面移动、句末稍抬眼；4.6–6秒闭口。画面0.5–5.5秒放成片34–39秒，完整同期声音0.1–4.6秒放33.6–38.1秒；首0.4秒声音仍属于上一镜皇帝画外声，不让皇帝代说。本短补拍才用此余量映射，基础M02为source+30，不套用本偏移。",
+      "trigger": "M02源3.6–8.1首句断头、重复、嘴型错误；保留完整首句，从原镜09画外跨至原镜10，绝不拆半句。",
       "preserve_native_audio": true,
       "status": "planned_not_rendered",
-      "prompt_file": "episodes/ep01/production/prompts/repairs/R_D10_PROMPT.txt"
+      "prompt_file": "episodes/ep01/production/prompts/repairs/R_M02_S10_PROMPT.txt",
+      "audio_references": [
+        {
+          "slot": 1,
+          "label": "@音频1",
+          "speaker_id": "C03",
+          "file": "assets/audio/voice_references/03_xiaotui.mp3",
+          "role": "voice_timbre_only_not_dialogue_playback",
+          "status": "received_existing_file"
+        }
+      ],
+      "base_act": "M02",
+      "target_base_source_intervals": [
+        {
+          "source_in": 4,
+          "source_out": 9,
+          "shot_ids": [
+            "10"
+          ]
+        }
+      ],
+      "timestamp_edit_first": {
+        "available_in_target_entry": null,
+        "actual_source_video": null,
+        "requested_region": [
+          {
+            "source_in": 4,
+            "source_out": 9,
+            "shot_ids": [
+              "10"
+            ]
+          }
+        ],
+        "neighbor_check_seconds": 0.5,
+        "other_frames_unchanged_guaranteed": false,
+        "instruction": "入口确有时间戳局部编辑时先用原30秒片，只指定故障区域和说话人；先检查完整输出及邻接0.5秒。若越区改动则退回原片并执行本短镜补拍。"
+      }
     },
     {
-      "id": "R_D12",
+      "id": "R_M02_S12",
       "type": "single_speaker_video_pickup",
       "source_duration_seconds": 5,
       "speaker_ids": [
@@ -287,7 +417,8 @@
           "source_end": 4.1,
           "global_start": 43.2,
           "global_end": 46.6,
-          "text": "百姓有饭吃，朕便放心了。"
+          "text": "百姓有饭吃，朕便放心了。",
+          "source_to_global_offset_seconds": 42.5
         }
       ],
       "image_references": [
@@ -314,16 +445,52 @@
       "optional_actual_shot_frame": {
         "file": null,
         "status": "not_received_or_extracted",
-        "policy": "若已拿到采用视频，先提取该原镜切入/切出状态帧，优先替换通用关键帧槽；不自动添加第六张图。当前没有该文件，不能假称已上传。"
+        "policy": "真实原片可用时抽取动作接续帧，优先替换通用构图参考槽；仅在总图数不超过5时增加。当前file=null，不宣称已抽帧或上传。"
       },
-      "prompt": "中国架空历史正剧，16:9，写实肤质、布料与自然光。保留原场景空间、人物衣冠、轴线和已有动作。只有指定人物念指定原文，其他人闭口倾听；声带、嘴唇、下颌动作与每个字在同一源片内同步形成。不生成字幕、旁白、音乐或额外对白，不慢动作。没有真人声音克隆要求，使用已选历史剧角色音色。\n生成5秒，仅原镜12笑皇固定近景。@图片1笑皇，@图片2和@图片3定义御座与同一朝堂。0.5–4.5秒认真听完官奏后神情松动，轻点头，手从御案边放松。0.7–4.1秒只有他清楚说“百姓有饭吃，朕便放心了。”；嘴唇始终可见，点头幅度克制。4.2秒以后的琴声由后期加，他对此不反应。采用视频和同期声0.5–4.5秒至成片43–47秒。",
+      "prompt": "中国架空历史正剧，16:9，24fps目标，写实肤质、布料与自然光。保留人物身份、场景轴线、光照和锁定动作。仅指定说话者念指定原文；嘴唇、下颌与每个字同期形成，听者不代说。环境声轻，不生成字幕、人名地名、旁白、配乐、额外对白或慢动作。音色参考不播放原文件内容，不带入直播底噪、现代话语或原背景音乐。\n生成5秒，仅补原镜12笑皇固定近景。@图片1笑皇，@图片2和@图片3锁御座与同一朝堂，@音频1为笑皇音色。0.5–4.5秒听完官奏后神情放松、轻点头、手从御案边放松。0.7–4.1秒清楚说“百姓有饭吃，朕便放心了。”，嘴可见、点头克制。4.2秒后进入的琴声由后期加，他对此不反应。画面与同期声0.5–4.5秒放成片43–47秒。",
       "trigger": "笑皇嘴不动/配音错误/持续大幅点头破坏可读口型。",
       "preserve_native_audio": true,
       "status": "planned_not_rendered",
-      "prompt_file": "episodes/ep01/production/prompts/repairs/R_D12_PROMPT.txt"
+      "prompt_file": "episodes/ep01/production/prompts/repairs/R_M02_S12_PROMPT.txt",
+      "audio_references": [
+        {
+          "slot": 1,
+          "label": "@音频1",
+          "speaker_id": "C01",
+          "file": "assets/audio/voice_references/01_sun_yalong.mp3",
+          "role": "voice_timbre_only_not_dialogue_playback",
+          "status": "received_existing_file"
+        }
+      ],
+      "base_act": "M02",
+      "target_base_source_intervals": [
+        {
+          "source_in": 13,
+          "source_out": 17,
+          "shot_ids": [
+            "12"
+          ]
+        }
+      ],
+      "timestamp_edit_first": {
+        "available_in_target_entry": null,
+        "actual_source_video": null,
+        "requested_region": [
+          {
+            "source_in": 13,
+            "source_out": 17,
+            "shot_ids": [
+              "12"
+            ]
+          }
+        ],
+        "neighbor_check_seconds": 0.5,
+        "other_frames_unchanged_guaranteed": false,
+        "instruction": "入口确有时间戳局部编辑时先用原30秒片，只指定故障区域和说话人；先检查完整输出及邻接0.5秒。若越区改动则退回原片并执行本短镜补拍。"
+      }
     },
     {
-      "id": "R_E14",
+      "id": "R_M02_S14",
       "type": "single_speaker_video_pickup",
       "source_duration_seconds": 6,
       "speaker_ids": [
@@ -333,8 +500,8 @@
         {
           "source_in": 0.5,
           "source_out": 5.5,
-          "global_in": 50,
-          "global_out": 55,
+          "global_in": 49,
+          "global_out": 54,
           "shot_ids": [
             "14"
           ]
@@ -346,9 +513,10 @@
           "speaker_id": "E05",
           "source_start": 1.2,
           "source_end": 5.1,
-          "global_start": 50.7,
-          "global_end": 54.6,
-          "text": "西湖别院一座，请姑娘赏光。"
+          "global_start": 49.7,
+          "global_end": 53.6,
+          "text": "西湖别院一座，请姑娘赏光。",
+          "source_to_global_offset_seconds": 48.5
         }
       ],
       "image_references": [
@@ -381,16 +549,43 @@
       "optional_actual_shot_frame": {
         "file": null,
         "status": "not_received_or_extracted",
-        "policy": "若已拿到采用视频，先提取该原镜切入/切出状态帧，优先替换通用关键帧槽；不自动添加第六张图。当前没有该文件，不能假称已上传。"
+        "policy": "真实原片可用时抽取动作接续帧，优先替换通用构图参考槽；仅在总图数不超过5时增加。当前file=null，不宣称已抽帧或上传。"
       },
-      "prompt": "中国架空历史正剧，16:9，写实肤质、布料与自然光。保留原场景空间、人物衣冠、轴线和已有动作。只有指定人物念指定原文，其他人闭口倾听；声带、嘴唇、下颌动作与每个字在同一源片内同步形成。不生成字幕、旁白、音乐或额外对白，不慢动作。没有真人声音克隆要求，使用已选历史剧角色音色。\n生成6秒，仅原镜14：过潘慧肩看公子中景。@图片1公子，@图片2潘慧，@图片3和@图片4同一雅厅，潘慧右、客席左。0.5–5.5秒公子把房契轻放会客案边向潘慧推去，后方随从仍托金锭/抱珠盒。1.2–5.1秒公子说“西湖别院一座，请姑娘赏光。”；前景肩和纸不能遮公子嘴，只有公子同步发声，潘慧闭口听。不得丢失推契动作。采用0.5–5.5秒至成片50–55秒。潘慧沿用同一面孔与发髻玉簪。正脸画面右侧嘴角下方皮肤有单颗小痣，与唇线有清晰间隔，与玉簪同侧；不镜像、不变为唇上痣。温婉、自然含笑眼神，不改五官、不浓妆。",
+      "prompt": "中国架空历史正剧，16:9，24fps目标，写实肤质、布料与自然光。保留人物身份、场景轴线、光照和锁定动作。仅指定说话者念指定原文；嘴唇、下颌与每个字同期形成，听者不代说。环境声轻，不生成字幕、人名地名、旁白、配乐、额外对白或慢动作。音色参考不播放原文件内容，不带入直播底噪、现代话语或原背景音乐。\n生成6秒，仅补原镜14过潘慧肩看公子的中景。@图片1公子，@图片2潘慧，@图片3和@图片4同一雅厅，潘慧右、客席左。0.5–5.5秒公子把房契轻放会客案边并向潘慧推去，后方随从仍托金锭/抱珠盒。1.2–5.1秒只有公子说“西湖别院一座，请姑娘赏光。”，公子嘴不被前景肩和纸挡住；潘慧闭口听。本任务无潘慧台词，不上传她的音频。采用0.5–5.5秒至成片49–54秒。 潘慧面孔不变，单颗小痣位于正脸画面右侧嘴角下方的皮肤，与唇线有清晰皮肤间隔、与玉簪同侧；不镜像。温婉、含笑眼神、自然媚劲，不浓妆或添加挑逗动作。",
       "trigger": "公子错人说话或过肩遮嘴，或音画无法匹配。",
       "preserve_native_audio": true,
       "status": "planned_not_rendered",
-      "prompt_file": "episodes/ep01/production/prompts/repairs/R_E14_PROMPT.txt"
+      "prompt_file": "episodes/ep01/production/prompts/repairs/R_M02_S14_PROMPT.txt",
+      "audio_references": [],
+      "base_act": "M02",
+      "target_base_source_intervals": [
+        {
+          "source_in": 19,
+          "source_out": 24,
+          "shot_ids": [
+            "14"
+          ]
+        }
+      ],
+      "timestamp_edit_first": {
+        "available_in_target_entry": null,
+        "actual_source_video": null,
+        "requested_region": [
+          {
+            "source_in": 19,
+            "source_out": 24,
+            "shot_ids": [
+              "14"
+            ]
+          }
+        ],
+        "neighbor_check_seconds": 0.5,
+        "other_frames_unchanged_guaranteed": false,
+        "instruction": "入口确有时间戳局部编辑时先用原30秒片，只指定故障区域和说话人；先检查完整输出及邻接0.5秒。若越区改动则退回原片并执行本短镜补拍。"
+      }
     },
     {
-      "id": "R_E15",
+      "id": "R_M02_S15",
       "type": "single_speaker_video_pickup",
       "source_duration_seconds": 5,
       "speaker_ids": [
@@ -400,8 +595,8 @@
         {
           "source_in": 0.5,
           "source_out": 4.5,
-          "global_in": 55,
-          "global_out": 59,
+          "global_in": 54,
+          "global_out": 58,
           "shot_ids": [
             "15"
           ]
@@ -413,9 +608,10 @@
           "speaker_id": "C05",
           "source_start": 0.6,
           "source_end": 4.3,
-          "global_start": 55.1,
-          "global_end": 58.8,
-          "text": "公子留着吧，我住这里挺好。"
+          "global_start": 54.1,
+          "global_end": 57.8,
+          "text": "公子留着吧，我住这里挺好。",
+          "source_to_global_offset_seconds": 53.5
         }
       ],
       "image_references": [
@@ -448,27 +644,63 @@
       "optional_actual_shot_frame": {
         "file": null,
         "status": "not_received_or_extracted",
-        "policy": "若已拿到采用视频，先提取该原镜切入/切出状态帧，优先替换通用关键帧槽；不自动添加第六张图。当前没有该文件，不能假称已上传。"
+        "policy": "真实原片可用时抽取动作接续帧，优先替换通用构图参考槽；仅在总图数不超过5时增加。当前file=null，不宣称已抽帧或上传。"
       },
-      "prompt": "中国架空历史正剧，16:9，写实肤质、布料与自然光。保留原场景空间、人物衣冠、轴线和已有动作。只有指定人物念指定原文，其他人闭口倾听；声带、嘴唇、下颌动作与每个字在同一源片内同步形成。不生成字幕、旁白、音乐或额外对白，不慢动作。没有真人声音克隆要求，使用已选历史剧角色音色。\n生成5秒，仅原镜15潘慧中近景反打。@图片1潘慧，@图片2公子，@图片3和@图片4锁同一雅厅、原轴线与会客案。开始房契已被推到潘慧案侧，不重演送礼。0.6–4.3秒潘慧温和说“公子留着吧，我住这里挺好。”，嘴唇和下颌对齐每字，同时把房契沿原路缓缓推回。手只在案面，不遮嘴，听完再笑，不嘲弄，不撒娇。采用0.5–4.5秒至成片55–59秒；最后契纸运动须接原镜16的接回状态。潘慧沿用同一面孔与发髻玉簪。正脸画面右侧嘴角下方皮肤有单颗小痣，与唇线有清晰间隔，与玉簪同侧；不镜像、不变为唇上痣。温婉、自然含笑眼神，不改五官、不浓妆。",
+      "prompt": "中国架空历史正剧，16:9，24fps目标，写实肤质、布料与自然光。保留人物身份、场景轴线、光照和锁定动作。仅指定说话者念指定原文；嘴唇、下颌与每个字同期形成，听者不代说。环境声轻，不生成字幕、人名地名、旁白、配乐、额外对白或慢动作。音色参考不播放原文件内容，不带入直播底噪、现代话语或原背景音乐。\n生成5秒，仅补原镜15潘慧固定近景。@图片1潘慧，@图片2公子听者，@图片3和@图片4锁雅厅琴案和会客案，@音频1为潘慧音色。0.5–4.5秒潘慧温和地把同一份房契沿原路推回公子；0.6–4.3秒只说“公子留着吧，我住这里挺好。”，嘴部始终可见，语气有主见而给人体面，公子不代说。采用0.5–4.5秒至成片54–58秒，衔接镜16公子接契。 潘慧面孔不变，单颗小痣位于正脸画面右侧嘴角下方的皮肤，与唇线有清晰皮肤间隔、与玉簪同侧；不镜像。温婉、含笑眼神、自然媚劲，不浓妆或添加挑逗动作。",
       "trigger": "潘慧无口型/嘴痣错位/推契动作遮口或与台词错时。",
       "preserve_native_audio": true,
       "status": "planned_not_rendered",
-      "prompt_file": "episodes/ep01/production/prompts/repairs/R_E15_PROMPT.txt"
+      "prompt_file": "episodes/ep01/production/prompts/repairs/R_M02_S15_PROMPT.txt",
+      "audio_references": [
+        {
+          "slot": 1,
+          "label": "@音频1",
+          "speaker_id": "C05",
+          "file": "assets/audio/voice_references/02_pan_hui.mp3",
+          "role": "voice_timbre_only_not_dialogue_playback",
+          "status": "received_existing_file"
+        }
+      ],
+      "base_act": "M02",
+      "target_base_source_intervals": [
+        {
+          "source_in": 24,
+          "source_out": 28,
+          "shot_ids": [
+            "15"
+          ]
+        }
+      ],
+      "timestamp_edit_first": {
+        "available_in_target_entry": null,
+        "actual_source_video": null,
+        "requested_region": [
+          {
+            "source_in": 24,
+            "source_out": 28,
+            "shot_ids": [
+              "15"
+            ]
+          }
+        ],
+        "neighbor_check_seconds": 0.5,
+        "other_frames_unchanged_guaranteed": false,
+        "instruction": "入口确有时间戳局部编辑时先用原30秒片，只指定故障区域和说话人；先检查完整输出及邻接0.5秒。若越区改动则退回原片并执行本短镜补拍。"
+      }
     },
     {
-      "id": "R_F17",
+      "id": "R_M03_S17",
       "type": "single_speaker_video_pickup",
-      "source_duration_seconds": 7,
+      "source_duration_seconds": 8,
       "speaker_ids": [
         "E06"
       ],
       "picture_uses": [
         {
           "source_in": 0.5,
-          "source_out": 3.5,
-          "global_in": 62,
-          "global_out": 65,
+          "source_out": 4.5,
+          "global_in": 60,
+          "global_out": 64,
           "shot_ids": [
             "17"
           ]
@@ -478,11 +710,12 @@
         {
           "dialogue_id": "DLG11",
           "speaker_id": "E06",
-          "source_start": 2.5,
-          "source_end": 5.9,
-          "global_start": 64.0,
-          "global_end": 67.4,
-          "text": "小姐想嫁什么样的人？"
+          "source_start": 3.5,
+          "source_end": 6.9,
+          "global_start": 63,
+          "global_end": 66.4,
+          "text": "小姐想嫁什么样的人？",
+          "source_to_global_offset_seconds": 59.5
         }
       ],
       "image_references": [
@@ -515,34 +748,61 @@
       "optional_actual_shot_frame": {
         "file": null,
         "status": "not_received_or_extracted",
-        "policy": "若已拿到采用视频，先提取该原镜切入/切出状态帧，优先替换通用关键帧槽；不自动添加第六张图。当前没有该文件，不能假称已上传。"
+        "policy": "真实原片可用时抽取动作接续帧，优先替换通用构图参考槽；仅在总图数不超过5时增加。当前file=null，不宣称已抽帧或上传。"
       },
-      "prompt": "中国架空历史正剧，16:9，写实肤质、布料与自然光。保留原场景空间、人物衣冠、轴线和已有动作。只有指定人物念指定原文，其他人闭口倾听；声带、嘴唇、下颌动作与每个字在同一源片内同步形成。不生成字幕、旁白、音乐或额外对白，不慢动作。没有真人声音克隆要求，使用已选历史剧角色音色。\n生成7秒，原镜17夜窗双人中景单镜不切，@图片1潘慧靠窗，@图片2侍女，@图片3原起态，@图片4同一夜间私室。0.5–3.5秒侍女先在案上放灯，再把前臂上的朴素薄披帛披到潘慧双肩，已锁动作不删。2.5–5.9秒只有侍女完整自然问“小姐想嫁什么样的人？”，从第一字到尾字音画同生；2.5–3.5秒她嘴唇必须可见，灯、袖、披帛不遮脸。潘慧闭口听，不提前回答，披帛落肩后不消失。3.5秒后仍保持此机位供完整同期声音采集，不加新动作。成片只采用画面0.5–3.5秒至62–65秒，完整问题音频2.5–5.9秒铺64–67.4秒，65秒仍按原稿切潘慧听者画面。潘慧沿用同一面孔与发髻玉簪。正脸画面右侧嘴角下方皮肤有单颗小痣，与唇线有清晰间隔，与玉簪同侧；不镜像、不变为唇上痣。温婉、自然含笑眼神，不改五官、不浓妆。",
+      "prompt": "中国架空历史正剧，16:9，24fps目标，写实肤质、布料与自然光。保留人物身份、场景轴线、光照和锁定动作。仅指定说话者念指定原文；嘴唇、下颌与每个字同期形成，听者不代说。环境声轻，不生成字幕、人名地名、旁白、配乐、额外对白或慢动作。音色参考不播放原文件内容，不带入直播底噪、现代话语或原背景音乐。\n生成8秒，原镜17夜窗双人中景单镜不切。@图片1未披帛潘慧，@图片2侍女，@图片3未披帛起态与灯，@图片4同一私室。0.5–4.5秒侍女先把灯放到案上，再把前臂朴素薄披帛披到潘慧双肩；3.5–6.9秒只有侍女完整问“小姐想嫁什么样的人？”，3.5–4.5嘴唇必须可见，手/灯/披帛不遮脸。潘慧闭口听。4.5秒后保持此机位供完整声音采集，不增动作；成片仅用画面0.5–4.5秒至60–64秒，声音3.5–6.9秒至63–66.4秒，成片64秒照旧切潘慧听者近景。侍女用稳定原创年轻女声，不借潘慧声音，不上传潘慧音频。 潘慧面孔不变，单颗小痣位于正脸画面右侧嘴角下方的皮肤，与唇线有清晰皮肤间隔、与玉簪同侧；不镜像。温婉、含笑眼神、自然媚劲，不浓妆或添加挑逗动作。",
       "trigger": "侍女开口不见嘴或无口型；保留完整一句作为L-cut，画面只补镜17。",
       "preserve_native_audio": true,
       "status": "planned_not_rendered",
-      "prompt_file": "episodes/ep01/production/prompts/repairs/R_F17_PROMPT.txt"
+      "prompt_file": "episodes/ep01/production/prompts/repairs/R_M03_S17_PROMPT.txt",
+      "audio_references": [],
+      "base_act": "M03",
+      "target_base_source_intervals": [
+        {
+          "source_in": 0,
+          "source_out": 4,
+          "shot_ids": [
+            "17"
+          ]
+        }
+      ],
+      "timestamp_edit_first": {
+        "available_in_target_entry": null,
+        "actual_source_video": null,
+        "requested_region": [
+          {
+            "source_in": 0,
+            "source_out": 4,
+            "shot_ids": [
+              "17"
+            ]
+          }
+        ],
+        "neighbor_check_seconds": 0.5,
+        "other_frames_unchanged_guaranteed": false,
+        "instruction": "入口确有时间戳局部编辑时先用原30秒片，只指定故障区域和说话人；先检查完整输出及邻接0.5秒。若越区改动则退回原片并执行本短镜补拍。"
+      }
     },
     {
-      "id": "R_F_PAN",
+      "id": "R_M03_S18_19",
       "type": "single_speaker_video_pickup",
-      "source_duration_seconds": 11,
+      "source_duration_seconds": 12,
       "speaker_ids": [
         "C05"
       ],
       "picture_uses": [
         {
           "source_in": 0.5,
-          "source_out": 4.5,
-          "global_in": 65,
+          "source_out": 5.5,
+          "global_in": 64,
           "global_out": 69,
           "shot_ids": [
             "18"
           ]
         },
         {
-          "source_in": 4.5,
-          "source_out": 10.5,
+          "source_in": 5.5,
+          "source_out": 11.5,
           "global_in": 69,
           "global_out": 75,
           "shot_ids": [
@@ -554,20 +814,22 @@
         {
           "dialogue_id": "DLG12",
           "speaker_id": "C05",
-          "source_start": 3.5,
-          "source_end": 4.9,
+          "source_start": 4.5,
+          "source_end": 5.9,
           "global_start": 68.0,
           "global_end": 69.4,
-          "text": "我也不知道。"
+          "text": "我也不知道。",
+          "source_to_global_offset_seconds": 63.5
         },
         {
           "dialogue_id": "DLG13",
           "speaker_id": "C05",
-          "source_start": 5.7,
-          "source_end": 9.1,
+          "source_start": 6.7,
+          "source_end": 10.1,
           "global_start": 70.2,
           "global_end": 73.6,
-          "text": "总得先见着那个人。"
+          "text": "总得先见着那个人。",
+          "source_to_global_offset_seconds": 63.5
         }
       ],
       "image_references": [
@@ -600,13 +862,63 @@
       "optional_actual_shot_frame": {
         "file": null,
         "status": "not_received_or_extracted",
-        "policy": "若已拿到采用视频，先提取该原镜切入/切出状态帧，优先替换通用关键帧槽；不自动添加第六张图。当前没有该文件，不能假称已上传。"
+        "policy": "真实原片可用时抽取动作接续帧，优先替换通用构图参考槽；仅在总图数不超过5时增加。当前file=null，不宣称已抽帧或上传。"
       },
-      "prompt": "中国架空历史正剧，16:9，写实肤质、布料与自然光。保留原场景空间、人物衣冠、轴线和已有动作。只有指定人物念指定原文，其他人闭口倾听；声带、嘴唇、下颌动作与每个字在同一源片内同步形成。不生成字幕、旁白、音乐或额外对白，不慢动作。没有真人声音克隆要求，使用已选历史剧角色音色。\n生成11秒，单一说话者潘慧，只补原镜18和19，@图片1潘慧，@图片2侍女，@图片3和@图片4同一私室夜窗。开场薄披帛已经落在双肩，不重演披帛。0.5–4.5秒为侍女肩后的潘慧近景，潘慧从窗外回看侍女，先闭口认真听到本源2.9秒（问题音轨另铺，不由潘慧复述）；3.5–4.9秒完整回答“我也不知道。”。4.5秒按原稿硬切同侧轴线三分之二侧面近景，同一句声音与口型连续至4.9秒，不重说开头。5.7–9.1秒温柔自然说“总得先见着那个人。”；镜头少许靠近，嘴唇和下颌轮廓无遮挡，头发/手/披帛都不遮嘴。9.1秒尾字结束后才转回窗边轻扶披帛，保留自然反应。采用0.5–4.5秒至65–69秒、4.5–10.5秒至69–75秒，保持两镜原切点不变。潘慧沿用同一面孔与发髻玉簪。正脸画面右侧嘴角下方皮肤有单颗小痣，与唇线有清晰间隔，与玉簪同侧；不镜像、不变为唇上痣。温婉、自然含笑眼神，不改五官、不浓妆。",
+      "prompt": "中国架空历史正剧，16:9，24fps目标，写实肤质、布料与自然光。保留人物身份、场景轴线、光照和锁定动作。仅指定说话者念指定原文；嘴唇、下颌与每个字同期形成，听者不代说。环境声轻，不生成字幕、人名地名、旁白、配乐、额外对白或慢动作。音色参考不播放原文件内容，不带入直播底噪、现代话语或原背景音乐。\n生成12秒，仅补同一潘慧的原镜18/19。@图片1潘慧已披帛，@图片2侍女听者，@图片3和@图片4锁私室夜窗，@音频1是潘慧音色，与M02拒礼采用同一文件。开场薄披帛已落双肩，不重演披帛。0.5–5.5秒为侍女肩后的潘慧近景：她从窗外回看，闭口听到本源2.9秒（侍女问题另铺，不在此任务生成）；4.5–5.9秒完整回答“我也不知道。”。5.5秒硬切同轴线三分之二侧脸近景，同一句音色与嘴型连续至5.9，不重复开头。6.7–10.1秒自然温柔说“总得先见着那个人。”；镜头少许靠近，嘴唇下颌无遮挡；10.1秒尾字后才转回窗边轻扶披帛。画面0.5–5.5秒至64–69秒、5.5–11.5秒至69–75秒；两句同期声音分别4.5–5.9和6.7–10.1秒。 潘慧面孔不变，单颗小痣位于正脸画面右侧嘴角下方的皮肤，与唇线有清晰皮肤间隔、与玉簪同侧；不镜像。温婉、含笑眼神、自然媚劲，不浓妆或添加挑逗动作。",
       "trigger": "DLG12跨镜断句或任一潘慧夜窗回答无口型时，作为一个表演整体补拍，不能破坏另一句同步。",
       "preserve_native_audio": true,
       "status": "planned_not_rendered",
-      "prompt_file": "episodes/ep01/production/prompts/repairs/R_F_PAN_PROMPT.txt"
+      "prompt_file": "episodes/ep01/production/prompts/repairs/R_M03_S18_19_PROMPT.txt",
+      "audio_references": [
+        {
+          "slot": 1,
+          "label": "@音频1",
+          "speaker_id": "C05",
+          "file": "assets/audio/voice_references/02_pan_hui.mp3",
+          "role": "voice_timbre_only_not_dialogue_playback",
+          "status": "received_existing_file"
+        }
+      ],
+      "base_act": "M03",
+      "target_base_source_intervals": [
+        {
+          "source_in": 4,
+          "source_out": 9,
+          "shot_ids": [
+            "18"
+          ]
+        },
+        {
+          "source_in": 9,
+          "source_out": 15,
+          "shot_ids": [
+            "19"
+          ]
+        }
+      ],
+      "timestamp_edit_first": {
+        "available_in_target_entry": null,
+        "actual_source_video": null,
+        "requested_region": [
+          {
+            "source_in": 4,
+            "source_out": 9,
+            "shot_ids": [
+              "18"
+            ]
+          },
+          {
+            "source_in": 9,
+            "source_out": 15,
+            "shot_ids": [
+              "19"
+            ]
+          }
+        ],
+        "neighbor_check_seconds": 0.5,
+        "other_frames_unchanged_guaranteed": false,
+        "instruction": "入口确有时间戳局部编辑时先用原30秒片，只指定故障区域和说话人；先检查完整输出及邻接0.5秒。若越区改动则退回原片并执行本短镜补拍。"
+      }
     },
     {
       "id": "R_DLG01_AUDIO",
@@ -624,15 +936,18 @@
           "source_end": 2.6,
           "global_start": 3.2,
           "global_end": 5.3,
-          "text": "朝廷拨的粮呢？"
+          "text": "朝廷拨的粮呢？",
+          "source_to_global_offset_seconds": 2.7
         }
       ],
       "image_references": [],
       "max_image_count": 5,
-      "prompt": "只生成一条完整对白音频，不生成画面。说话角色：老人（E02）。全文必须逐字为：“朝廷拨的粮呢？”。源0–0.5秒留自然静音/呼吸，0.5–2.6秒完整说完，尾部留余量；按角色自然语速，不裁尾字、不插词，不含音乐或其他人声。老人背后过肩，嘴不可见，保留既定镜02；允许老人背部/递碗动作表现说话，不补正脸切镜。可用A原生声音，不要求不可见的嘴对口型。 音色以当前该角色已采用台词为准；声音替换和音色匹配需在实际工具中检查，不假称已有真人声音授权或克隆。",
+      "prompt": "仅制作一条完整对白声音，不生成画面。这是独立配音/录音工具指令；若Seedance入口没有纯音频输出，使用配音工具或录音，不要为此生成额外视频。说话角色老人（E02），全文逐字为：“朝廷拨的粮呢？”。生成4秒：源0–0.5秒留自然静音/呼吸，0.5–2.6秒说完；不裁尾字、不加新词、无配乐或其他人声。采用该完整声句至成片3.2–5.3秒。 使用该场内配角/史官自己的稳定原创声线，不借用五位主角原声。 老人背后过肩，嘴不可见，保留既定镜02；允许老人背部/递碗动作表现说话，不补正脸切镜。可用M01原生声音，不要求不可见的嘴对口型。",
       "trigger": "只有画外/旁白音需要修正；不更改任何已有画面切点，不给可见听者新增口型。",
       "status": "planned_not_rendered",
-      "prompt_file": "episodes/ep01/production/prompts/repairs/R_DLG01_AUDIO_PROMPT.txt"
+      "prompt_file": "episodes/ep01/production/prompts/repairs/R_DLG01_AUDIO_PROMPT.txt",
+      "audio_references": [],
+      "base_act": "M01"
     },
     {
       "id": "R_DLG03_AUDIO",
@@ -650,15 +965,18 @@
           "source_end": 4.6,
           "global_start": 8.6,
           "global_end": 12.7,
-          "text": "新皇登基，咱们照样挨饿。"
+          "text": "新皇登基，咱们照样挨饿。",
+          "source_to_global_offset_seconds": 8.1
         }
       ],
       "image_references": [],
       "max_image_count": 5,
-      "prompt": "只生成一条完整对白音频，不生成画面。说话角色：妇人画外（E08）。全文必须逐字为：“新皇登基，咱们照样挨饿。”。源0–0.5秒留自然静音/呼吸，0.5–4.6秒完整说完，尾部留余量；按角色自然语速，不裁尾字、不插词，不含音乐或其他人声。妇人为场内画外声，默认后期独立录制，不要求镜03任何可见人物对这句话张嘴；孩子只自然无字哭声。 音色以当前该角色已采用台词为准；声音替换和音色匹配需在实际工具中检查，不假称已有真人声音授权或克隆。",
+      "prompt": "仅制作一条完整对白声音，不生成画面。这是独立配音/录音工具指令；若Seedance入口没有纯音频输出，使用配音工具或录音，不要为此生成额外视频。说话角色妇人画外（E08），全文逐字为：“新皇登基，咱们照样挨饿。”。生成5秒：源0–0.5秒留自然静音/呼吸，0.5–4.6秒说完；不裁尾字、不加新词、无配乐或其他人声。采用该完整声句至成片8.6–12.7秒。 使用该场内配角/史官自己的稳定原创声线，不借用五位主角原声。 妇人为场内画外声，默认后期独立录制，不要求镜03任何可见人物对这句话张嘴；孩子只自然无字哭声。",
       "trigger": "只有画外/旁白音需要修正；不更改任何已有画面切点，不给可见听者新增口型。",
       "status": "planned_not_rendered",
-      "prompt_file": "episodes/ep01/production/prompts/repairs/R_DLG03_AUDIO_PROMPT.txt"
+      "prompt_file": "episodes/ep01/production/prompts/repairs/R_DLG03_AUDIO_PROMPT.txt",
+      "audio_references": [],
+      "base_act": "M01"
     },
     {
       "id": "R_DLG07_AUDIO",
@@ -676,15 +994,27 @@
           "source_end": 3.6,
           "global_start": 39.2,
           "global_end": 42.3,
-          "text": "人人……面带微笑。"
+          "text": "人人……面带微笑。",
+          "source_to_global_offset_seconds": 38.7
         }
       ],
       "image_references": [],
       "max_image_count": 5,
-      "prompt": "只生成一条完整对白音频，不生成画面。说话角色：小腿（C03）。全文必须逐字为：“人人……面带微笑。”。源0–0.5秒留自然静音/呼吸，0.5–3.6秒完整说完，尾部留余量；按角色自然语速，不裁尾字、不插词，不含音乐或其他人声。保持西卡反应镜头，西卡闭口听；小腿在画外说，人人后的停顿约0.3秒，不加笑场。 音色以当前该角色已采用台词为准；声音替换和音色匹配需在实际工具中检查，不假称已有真人声音授权或克隆。",
+      "prompt": "仅制作一条完整对白声音，不生成画面。这是独立配音/录音工具指令；若Seedance入口没有纯音频输出，使用配音工具或录音，不要为此生成额外视频。说话角色小腿（C03），全文逐字为：“人人……面带微笑。”。生成4秒：源0–0.5秒留自然静音/呼吸，0.5–3.6秒说完；不裁尾字、不加新词、无配乐或其他人声。采用该完整声句至成片39.2–42.3秒。 @音频1仅为小腿音色，保持与M02第一句相同音色；只朗读本句，不复制样本内容。 保持西卡反应镜头，西卡闭口听；小腿在画外说，人人后的停顿约0.3秒，不加笑场。",
       "trigger": "只有画外/旁白音需要修正；不更改任何已有画面切点，不给可见听者新增口型。",
       "status": "planned_not_rendered",
-      "prompt_file": "episodes/ep01/production/prompts/repairs/R_DLG07_AUDIO_PROMPT.txt"
+      "prompt_file": "episodes/ep01/production/prompts/repairs/R_DLG07_AUDIO_PROMPT.txt",
+      "audio_references": [
+        {
+          "slot": 1,
+          "label": "@音频1",
+          "speaker_id": "C03",
+          "file": "assets/audio/voice_references/03_xiaotui.mp3",
+          "role": "voice_timbre_only_not_dialogue_playback",
+          "status": "received_existing_file"
+        }
+      ],
+      "base_act": "M02"
     },
     {
       "id": "R_DLG14_AUDIO",
@@ -702,28 +1032,31 @@
           "source_end": 9.1,
           "global_start": 78.7,
           "global_end": 87.3,
-          "text": "笑皇不知，江南已乱。也不知徽州一人，将牵动此后半生。"
+          "text": "笑皇不知，江南已乱。也不知徽州一人，将牵动此后半生。",
+          "source_to_global_offset_seconds": 78.2
         }
       ],
       "image_references": [],
       "max_image_count": 5,
-      "prompt": "只生成一条完整对白音频，不生成画面。说话角色：史官（NARRATOR）。全文必须逐字为：“笑皇不知，江南已乱。也不知徽州一人，将牵动此后半生。”。源0–0.5秒留自然静音/呼吸，0.5–9.1秒完整说完，尾部留余量；按角色自然语速，不裁尾字、不插词，不含音乐或其他人声。史官单独旁白音轨，G人物无任何台词，不模拟史官口型；87.3结束，87.5字卡开始后不续旁白。 音色以当前该角色已采用台词为准；声音替换和音色匹配需在实际工具中检查，不假称已有真人声音授权或克隆。",
+      "prompt": "仅制作一条完整对白声音，不生成画面。这是独立配音/录音工具指令；若Seedance入口没有纯音频输出，使用配音工具或录音，不要为此生成额外视频。说话角色史官（NARRATOR），全文逐字为：“笑皇不知，江南已乱。也不知徽州一人，将牵动此后半生。”。生成10秒：源0–0.5秒留自然静音/呼吸，0.5–9.1秒说完；不裁尾字、不加新词、无配乐或其他人声。采用该完整声句至成片78.7–87.3秒。 使用该场内配角/史官自己的稳定原创声线，不借用五位主角原声。 独立史官旁白声轨；M03源18.7–27.3下所有人物不代说，27.5字卡由后期加，不生成可见人物朗读旁白。",
       "trigger": "只有画外/旁白音需要修正；不更改任何已有画面切点，不给可见听者新增口型。",
       "status": "planned_not_rendered",
-      "prompt_file": "episodes/ep01/production/prompts/repairs/R_DLG14_AUDIO_PROMPT.txt"
+      "prompt_file": "episodes/ep01/production/prompts/repairs/R_DLG14_AUDIO_PROMPT.txt",
+      "audio_references": [],
+      "base_act": "M03"
     }
   ],
   "dialogue_to_repair_job": {
-    "DLG02": "R_A02",
-    "DLG04": "R_B04",
-    "DLG05": "R_B05",
-    "DLG06": "R_D10",
-    "DLG08": "R_D12",
-    "DLG09": "R_E14",
-    "DLG10": "R_E15",
-    "DLG11": "R_F17",
-    "DLG12": "R_F_PAN",
-    "DLG13": "R_F_PAN",
+    "DLG02": "R_M01_S02",
+    "DLG04": "R_M01_S04",
+    "DLG05": "R_M01_S05",
+    "DLG06": "R_M02_S10",
+    "DLG08": "R_M02_S12",
+    "DLG09": "R_M02_S14",
+    "DLG10": "R_M02_S15",
+    "DLG11": "R_M03_S17",
+    "DLG12": "R_M03_S18_19",
+    "DLG13": "R_M03_S18_19",
     "DLG01": "R_DLG01_AUDIO",
     "DLG03": "R_DLG03_AUDIO",
     "DLG07": "R_DLG07_AUDIO",
@@ -736,5 +1069,7 @@
     "DLG14"
   ],
   "global_duration_seconds_after_repair": 90,
-  "shot_count_after_repair": 25
+  "shot_count_after_repair": 25,
+  "base_generation_jobs": 3,
+  "actual_repairs_performed": false
 }

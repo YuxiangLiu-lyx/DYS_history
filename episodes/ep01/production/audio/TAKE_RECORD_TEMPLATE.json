@@ -1,14 +1,23 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "task_id": null,
   "take_id": null,
   "record_kind": "template_not_a_completed_take",
   "actual_model_and_entry": null,
   "actual_prompt_file": null,
   "input_images_ordered": [],
-  "image_limit_including_optional": 5,
+  "image_limit_including_optional": 30,
   "input_video_references": [],
-  "input_audio_references": [],
+  "input_audio_references": [
+    {
+      "slot": null,
+      "label": null,
+      "speaker_id": null,
+      "file": null,
+      "sha256": null,
+      "role": "voice_timbre_reference_not_episode_dialogue"
+    }
+  ],
   "reference_audio_is_strict_lipsync_driver_verified": null,
   "original_video_file": null,
   "original_video_sha256": null,
@@ -40,12 +49,38 @@
       "evidence_file_and_timecodes": null,
       "fault_class": null,
       "repair_method": null,
-      "post_repair_verified": null
+      "post_repair_verified": null,
+      "reference_timbre_matches_character": null,
+      "copied_source_sample_words_or_noise": null
     }
   ],
   "continuity_face_mole_costume_checked": null,
   "duplicate_original_audio_muted_when_extracted": null,
   "accepted": null,
   "rejected_reason": null,
-  "next_action": null
+  "next_action": null,
+  "revision": "v4",
+  "base_act_id": null,
+  "planned_base_duration_s": 30,
+  "planned_image_counts_by_act": {
+    "M01": 9,
+    "M02": 9,
+    "M03": 11
+  },
+  "project_usage": "按场上传最少已选参考，不因平台容量增加而塞满图片。局部补拍独立上限5图。",
+  "received_user_reference_audio_files_exist": true,
+  "reference_content_not_copied_verified": null,
+  "same_voice_across_acts_verified": null,
+  "voice_reference_identity_basis": "user_labeled_filename_mapping",
+  "base_global_equals_source_plus_s": null,
+  "timestamp_local_edit": {
+    "used": null,
+    "supported_by_actual_entry": null,
+    "original_file": null,
+    "requested_source_regions": [],
+    "actual_changed_regions": [],
+    "neighbor_before_after_checked_seconds": null,
+    "outside_region_changes_found": null,
+    "other_frames_unchanged_guaranteed": false
+  }
 }
