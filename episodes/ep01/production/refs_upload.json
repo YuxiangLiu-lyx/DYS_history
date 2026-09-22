@@ -5,9 +5,9 @@
   "path_base": ".",
   "timeline_duration_s": 90,
   "fps": 24,
-  "status": "prepared_for_publish",
-  "github_uploaded": false,
-  "github_write_result": "create_blob_succeeded_branch_publication_pending",
+  "status": "published_pending_user_still_review",
+  "github_uploaded": true,
+  "github_write_result": "main_updated_and_all_163_archive_paths_verified",
   "new_images_status": "candidate_pending_user_review",
   "do_not_upload_contact_sheets": true,
   "image_reference_limit_planned": 9,
@@ -864,5 +864,6 @@
     "front": "C03_FRONT_HALF_v01",
     "full": "C03_FULL_v01",
     "contact_sheet_human_review_only": "C03_ANGLES_EXPRESSIONS_v01"
-  }
+  },
+  "github_asset_commit": "2f749070e7f486cb1aadf9a391c17d25a64f5763"
 }

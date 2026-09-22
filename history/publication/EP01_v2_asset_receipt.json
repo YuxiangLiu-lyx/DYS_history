@@ -1,0 +1,30 @@
+{
+  "repository": "YuxiangLiu-lyx/DYS_history",
+  "branch": "main",
+  "started_at": "2026-09-22T01:43:11.439622+00:00",
+  "parent": "7c34f9890585b766d2574185f04c9c834227ad2f",
+  "base_tree": "6b955eb87fe6a452e7e251e569d42cb5de22d056",
+  "tree": "8f08d5e58a884db48bc91dccd05a178123b940c4",
+  "commit": "2f749070e7f486cb1aadf9a391c17d25a64f5763",
+  "file_count": 163,
+  "bytes": 161749986,
+  "unique_blob_count": 159,
+  "unique_blob_bytes": 161427401,
+  "blob_counts": {
+    "uploaded": 78,
+    "cached": 81,
+    "failed": 0,
+    "skipped": 0
+  },
+  "remote_only_preserved_count": 0,
+  "published": true,
+  "verified": true,
+  "snapshot": "history/publication/EP01_v2_asset_snapshot.json",
+  "published_at": "2026-09-22T01:44:13.779223+00:00",
+  "fetched_head": "2f749070e7f486cb1aadf9a391c17d25a64f5763",
+  "verified_path_count": 163,
+  "mismatches": [],
+  "remote_preservation_errors": [],
+  "verified_at": "2026-09-22T01:44:40.710666+00:00",
+  "commit_url": "https://github.com/YuxiangLiu-lyx/DYS_history/commit/2f749070e7f486cb1aadf9a391c17d25a64f5763"
+}

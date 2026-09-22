@@ -2,7 +2,7 @@
 
 第一回《风起徽州》：90秒、7个Scene Block、24个叙事镜头＋片尾字卡。已锁定剧情，本包用于静态审阅与 Seedance 2.0 生产准备。
 
-**当前版本已准备发布（prepared_for_publish）；GitHub写权限已验证，main分支更新与远端核验尚待完成。** 真实状态看 [STATUS](context/STATUS.json)。本轮用用户明确提供的小腿图片补齐身份母版与D/G20引用；潘慧美人痣移到嘴角下方。本轮新图仍待用户审阅；尚未生成视频或音频。
+**本轮完整资产与生产包已上传main并逐文件核验。** [资产提交 2f74907](https://github.com/YuxiangLiu-lyx/DYS_history/commit/2f749070e7f486cb1aadf9a391c17d25a64f5763)，163个文件校验一致；同步回执见 `history/publication/`。 真实状态看 [STATUS](context/STATUS.json)。本轮用用户明确提供的小腿图片补齐身份母版与D/G20引用；潘慧美人痣移到嘴角下方。本轮新图仍待用户审阅；尚未生成视频或音频。
 
 | 需要什么 | 入口 |
 |---|---|
@@ -26,3 +26,5 @@
 图片本体均在归档内，不依赖临时网址。原生成文件没有被重新编码或重采样。画册是本地HTML，GitHub网页不会直接渲染HTML画册，请下载后打开；图片本身可在GitHub逐张查看。
 
 AI生成／架空历史二创。剧中官职、贪腐情节、关系事件与对白属于艺术改编，不作为对真人私人事件的事实裁决，也不表示真人出演或为项目背书。
+
+本轮直接看图：[小腿正脸](assets/characters/C03/C03_FRONT_HALF_v01.png) · [潘慧正脸／嘴角下方痣](assets/characters/C05/C05_FRONT_HALF_v04.png) · [潘慧夜窗近景](assets/keyframes/F/F_OUT_v02.png)。

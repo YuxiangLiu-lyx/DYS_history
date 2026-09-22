@@ -2,7 +2,7 @@
   "project": "德云史记·慧后本纪",
   "episode": "第一回 风起徽州",
   "updated_date": "2026-09-22",
-  "phase": "prepared_for_publish",
+  "phase": "static_assets_and_video_pack_published_pending_review",
   "plot_locked": true,
   "duration_seconds": 90,
   "block_count": 7,
@@ -30,20 +30,22 @@
   "github": {
     "repository": "YuxiangLiu-lyx/DYS_history",
     "branch": "main",
-    "synced": false,
-    "remote_commit": null,
-    "reason": "write_permission_verified; branch_publication_pending",
+    "synced": true,
+    "remote_commit": "2f749070e7f486cb1aadf9a391c17d25a64f5763",
+    "reason": null,
     "local_archive_ready": true,
     "write_permission_verified": true,
-    "publication_status": "prepared_for_publish",
+    "publication_status": "published_and_verified",
     "preserve_remote_files": [
       "test.txt"
-    ]
+    ],
+    "verified_path_count": 163,
+    "receipt": "history/publication/EP01_v2_asset_receipt.json"
   },
   "next_actions": [
-    "检查本轮新角色图与D/G20、潘慧关键帧全部落盘，重建manifest并校验锁定剧本及零缺失引用。",
-    "将完整版本正常提交到main，保留test.txt，核验实际远端commit及文件后更新同步回执。",
-    "用户静态复核及目标平台正常接入条件满足后，按SEEDANCE_QUICKSTART.md、refs_upload.json与Prompt制作；目前未生成视频或音频。"
+    "用户复核本轮小腿、潘慧修订和关键帧；保持锁定剧情及对白。",
+    "确认目标平台正常素材接入后，按SEEDANCE_QUICKSTART.md先做A和F试片，再按生产包完成其余片段；尚未生成视频或音频。",
+    "每次制作保存原文件、实际Prompt、引用、费用和剪辑采用区间，更新状态与历史并同步仓库。"
   ],
   "asset_counts": {
     "current_character_images_including_boards_and_wardrobe_only": 25,

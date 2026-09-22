@@ -1,8 +1,10 @@
 # 同步记录
 
-**当前：prepared_for_publish。2026-09-22用户已开启GitHub权限，正常create_blob写入测试成功。远端main已有test.txt，已要求保留；对象上传与分支发布分开核验，main尚未更新前不标记synced。**
+**当前：published_and_verified。2026-09-22已将完整制作包与图片上传main，并fetch回读校验全部163个文件，零差异，test.txt已保留。**
 
-以下403是权限修复前的历史记录。实际发布完成后应追加远端commit、验证范围与结果，不删除旧故障原因。
+资产提交：[2f749070e7f486cb1aadf9a391c17d25a64f5763](https://github.com/YuxiangLiu-lyx/DYS_history/commit/2f749070e7f486cb1aadf9a391c17d25a64f5763)。完整回执：`history/publication/EP01_v2_asset_receipt.json`；逐文件快照：`history/publication/EP01_v2_asset_snapshot.json`。随后同步回执文档的提交在此资产提交之上。
+
+以下403是权限修复前的历史记录。发布成功回执已写在上方；保留旧故障原因供追溯。
 
 目标：`https://github.com/YuxiangLiu-lyx/DYS_history`，默认分支main。
 
