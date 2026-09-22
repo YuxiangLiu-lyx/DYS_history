@@ -75,5 +75,5 @@
   "video_generated_field_scope": "video files produced or archived by this assistant; excludes unreceived user trial videos",
   "user_reported_external_video_generation": true,
   "received_user_video_files": false,
-  "github_synced": false
+  "github_synced": true
 }

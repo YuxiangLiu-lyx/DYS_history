@@ -2,7 +2,7 @@
   "project": "德云史记·慧后本纪",
   "episode": "第一回 风起徽州",
   "updated_date": "2026-09-22",
-  "phase": "v3_five_image_and_av_sync_pack_prepared",
+  "phase": "v3_five_image_and_av_sync_pack_published",
   "plot_locked": true,
   "duration_seconds": 90,
   "block_count": 7,
@@ -27,18 +27,19 @@
   "github": {
     "repository": "YuxiangLiu-lyx/DYS_history",
     "branch": "main",
-    "synced": false,
-    "remote_commit": "2f749070e7f486cb1aadf9a391c17d25a64f5763",
-    "reason": "v3_pending_commit_and_remote_verification",
+    "synced": true,
+    "remote_commit": "21fc1d0ecfd75883175e45460b189cb74f2b997d",
+    "reason": null,
     "local_archive_ready": true,
     "write_permission_verified": true,
-    "publication_status": "v3_prepared_for_publish",
+    "publication_status": "v3_published_and_verified",
     "preserve_remote_files": [
       "test.txt"
     ],
-    "verified_path_count": 163,
-    "receipt": "history/publication/EP01_v2_asset_receipt.json",
-    "previous_verified_commit": "2f749070e7f486cb1aadf9a391c17d25a64f5763"
+    "verified_path_count": 208,
+    "receipt": "history/publication/EP01_v3_pack_receipt.json",
+    "previous_verified_commit": "eabd3f4029b23a0e0f3c7eb6a234687ad33a7fc2",
+    "verification_scope": "All files in the v3 pack snapshot verified against remote tree; publication receipt/status follow in a metadata-only commit."
   },
   "next_actions": [
     "保存用户实际试片与原声、实际Prompt/设置、问题秒数，按逐句合同识别可见口型故障与合理画外声。",

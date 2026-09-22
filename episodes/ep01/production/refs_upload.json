@@ -6,8 +6,8 @@
   "timeline_duration_s": 90,
   "fps": 24,
   "status": "five_image_av_sync_revision_pending_sample_verification",
-  "github_uploaded": false,
-  "github_write_result": "revision_prepared_awaiting_publication_verification",
+  "github_uploaded": true,
+  "github_write_result": "v3_pack_published_and_remote_tree_verified",
   "new_images_status": "candidate_pending_user_review",
   "do_not_upload_contact_sheets": true,
   "image_reference_limit_planned": 5,
@@ -855,5 +855,7 @@
       "reason": "Five-location montage is assembled in edit; retired all-in-one prompt is archived only."
     }
   ],
-  "base_source_duration_total_s": 101
+  "base_source_duration_total_s": 101,
+  "github_v3_pack_commit": "21fc1d0ecfd75883175e45460b189cb74f2b997d",
+  "github_v3_pack_receipt": "history/publication/EP01_v3_pack_receipt.json"
 }
