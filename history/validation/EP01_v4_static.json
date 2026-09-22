@@ -92,5 +92,5 @@
   "user_reported_external_video_generation": true,
   "received_user_video_files": false,
   "received_user_audio_files": true,
-  "github_synced": false
+  "github_synced": true
 }

@@ -9,8 +9,8 @@
   "timeline_duration_s": 90,
   "fps": 24,
   "status": "three_30s_pack_prepared_actual_video_unreviewed",
-  "github_uploaded": false,
-  "github_write_result": "v4_pending_publication",
+  "github_uploaded": true,
+  "github_write_result": "v4_pack_published_and_remote_verified",
   "model_target": "Seedance 2.5",
   "image_reference_limit_planned": 30,
   "video_reference_limit_planned": 10,
@@ -709,5 +709,7 @@
       ],
       "max_total_materials_with_optional": 13
     }
-  ]
+  ],
+  "github_v4_pack_commit": "aa27eb60f996ec607735604db6e5cb6a4e254bb3",
+  "github_v4_pack_receipt": "history/publication/EP01_v4_pack_receipt.json"
 }

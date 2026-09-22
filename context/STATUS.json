@@ -2,7 +2,7 @@
   "project": "德云史记·慧后本纪",
   "episode": "第一回 风起徽州",
   "updated_date": "2026-09-22",
-  "phase": "v4_seedance25_three_30s_pack_prepared",
+  "phase": "v4_seedance25_three_30s_pack_published",
   "plot_locked": true,
   "duration_seconds": 90,
   "block_count": 3,
@@ -27,19 +27,19 @@
   "github": {
     "repository": "YuxiangLiu-lyx/DYS_history",
     "branch": "main",
-    "synced": false,
-    "remote_commit": "21fc1d0ecfd75883175e45460b189cb74f2b997d",
-    "reason": "v4_pending_publication",
+    "synced": true,
+    "remote_commit": "aa27eb60f996ec607735604db6e5cb6a4e254bb3",
+    "reason": null,
     "local_archive_ready": true,
     "write_permission_verified": true,
-    "publication_status": "v4_prepared",
+    "publication_status": "v4_published_and_verified",
     "preserve_remote_files": [
       "test.txt"
     ],
-    "verified_path_count": 208,
-    "receipt": "history/publication/EP01_v3_pack_receipt.json",
+    "verified_path_count": 256,
+    "receipt": "history/publication/EP01_v4_pack_receipt.json",
     "previous_verified_commit": "fb202fca48c69f12e56fa4e8a67c42ca3a557f3f",
-    "verification_scope": "All files in the v3 pack snapshot verified against remote tree; publication receipt/status follow in a metadata-only commit."
+    "verification_scope": "All 256 pack paths verified against remote blob SHA and mode; publication receipt follows in a metadata-only commit."
   },
   "next_actions": [
     "按M01/M02/M03每幕清单上传少量图片和该幕发言者原声；生成30秒同期视频。",
@@ -103,5 +103,7 @@
   "audio_generated_field_scope": "new dramatic dialogue, narration, music or mixed soundtrack; excludes uploaded voice reference samples",
   "voice_reference_manifest": "assets/audio/voice_references/manifest.json",
   "timing_adjustment_authorized": true,
-  "timing_diff_file": "episodes/ep01/production/TIMING_CHANGES_v4.md"
+  "timing_diff_file": "episodes/ep01/production/TIMING_CHANGES_v4.md",
+  "download_bundles_saved": true,
+  "download_bundle_record": "history/generation/EP01_v4_delivery_bundles.json"
 }

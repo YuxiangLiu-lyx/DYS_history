@@ -1,6 +1,10 @@
 # 同步记录
 
-**当前v4准备提交：三幕30秒、少量图片与用户原声。v4实际提交核验后更新本段。**
+**当前v4已发布并核验：三幕各30秒、9/9/11图、1/3/1音色样本，5份用户原MP3全部归档。**
+
+生产包提交：[aa27eb60f996ec607735604db6e5cb6a4e254bb3](https://github.com/YuxiangLiu-lyx/DYS_history/commit/aa27eb60f996ec607735604db6e5cb6a4e254bb3)。256路径逐项模式与blob SHA一致。完整回执：`history/publication/EP01_v4_pack_receipt.json`；快照：`history/publication/EP01_v4_pack_snapshot.json`。原文件与test.txt保留，旧20个执行Prompt经归档字节校验后退役；不是丢失历史。当前实际视频生成/验收仍未执行。三个按幕ZIP已保存，仓库保留重建脚本和内容哈希。
+
+本次回执和同步状态通过随后元数据提交保存，避免自引用提交ID。以下均为旧版本历史。
 
 
 **当前：v3_published_and_verified。5图与音画同步生产包已上传main；208个文件逐路径、模式和Git blob SHA核验一致。**
