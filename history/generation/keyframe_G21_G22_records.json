@@ -1,0 +1,53 @@
+{
+  "project": "德云史记·慧后本纪",
+  "episode": "第一回·风起徽州",
+  "created_date": "2026-09-22",
+  "assets": [
+    {
+      "asset_id": "G21_IN",
+      "version": "v01",
+      "status": "candidate_pending_user_review",
+      "tool": "built-in image_gen.imagegen",
+      "local_path": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/G/G21_IN_v01.png",
+      "generation_original_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-be34766d-b87b-4c38-a1bc-e41bd0ef3bae.png",
+      "reference_images": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S01_NIGHT_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/E02/E02_ELDER_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/E03/E03_CHILD_v02.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/A/A_IN_v01.png"
+      ],
+      "prompt": "Use case: compositing.《德云史记》片尾交叉剪辑G21_IN，独立16:9横幅历史电影写实单帧。图1是同一徽州官仓的夜景，作为空间、灯光、雨天与湿地Reference，锁定那扇紧闭双木门、门右点亮的旧灯笼、灰白墙、黑瓦和台阶；图2为E02老人，锁定五官白发髻胡须、破旧褐色粗布衣裤与草鞋；图3为E03孩子，锁定五官发髻、土黄色上衣、深褐裤和黑布鞋；图4为A_IN白日演出画面，用它校准二人同一演员身份、体型比例与衣服，不沿用日光。夜间二人自然并肩缓缓走过同一官仓门前，从左向右行走，孩子靠近老人，用左手握住老人右手；老人另一只手自然拿着白日那只缺口粗陶碗靠近腰旁。35mm中近景，能看到二人的三分之二正侧脸、牵手和大部分上身，门在后方虚焦但闭合门环和右方灯笼可辨。不看镜头、不摆拍。人物表情安静、若有所思，亲人相伴，正常站立行走，没有任何伤痕或身体冲突，不哭喊。原场景阴雨之夜、细雨、淡冷月环境光，右侧旧灯笼给脸与衣料边缘少量温暖火光，真实肤质，光不过亮，暗部有细节。无其他主要演员、无新增宾客，不加文字、字幕、水印、现代物件、CG、仙侠滤镜或HDR。",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "qa": {
+        "inspected": true,
+        "notes": "Night exterior retains closed door, lamp, same elderly and child identities, hand-holding and chipped bowl. Output is wider full-body framing rather than requested medium close-up; keep as candidate and choose framing at storyboard approval."
+      }
+    },
+    {
+      "asset_id": "G22_IN",
+      "version": "v01",
+      "status": "candidate_pending_user_review",
+      "tool": "built-in image_gen.imagegen",
+      "local_path": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/G/G22_IN_v01.png",
+      "generation_original_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-4f8224e3-897a-49a7-aaa0-c1af470ad5ea.png",
+      "reference_images": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S02_NIGHT_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C04/C04_FRONT_HALF_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/B/B_IN_v01.png"
+      ],
+      "prompt": "Use case: compositing.《德云史记》片尾交叉剪辑G22_IN，独立16:9横幅历史电影写实单帧。图1是S02_NIGHT私粮仓夜景，锁定前右木案、右后粮袋堆、梁柱、原有悬吊灯笼的暖火光和左侧冷月环境光，保持同一套建筑道具；图2是C04魏笑既定成年演员定妆，保持他的脸型、五官、黑色官帽、赭红暗纹官袍与米白内领；图3是B_IN日间画面，只用来锁定魏笑坐在案后的位置、椅子、书桌与账簿/银匣/红签官奏，不沿用日光或其他人物。摄影切为从同一轴线左前方稍近的50mm中近景，魏笑仍坐在右侧案后，画面主要是腰上至头顶和桌前一部分，脸朝向微左的摊开账本，神态平静收敛，不阴笑。B_IN桌上深蓝黑封皮账本已在面前打开，内页只有模糊墨行，不出现可读文字；魏笑右手自然落在账本外侧封皮上，正准备合账，左手轻放桌边。右侧背景可见同一粮堆，左上小范围暖灯火与柔和冷月窗光，室内安静。没有粮商、书吏、搬工或新宾客。正常写实肤质布料纸张木纹，不摆拍，不对镜头发笑；无字幕、图例、水印、现代物件、CG、HDR或玄幻。",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "qa": {
+        "inspected": true,
+        "notes": "Same official, costume, desk, coffer and night granary. Ledger opened and right hand on lifted cover ready to close. No guests."
+      }
+    }
+  ],
+  "out_frames": "Not generated. End state will be documented and actual future video last frames tracked separately."
+}

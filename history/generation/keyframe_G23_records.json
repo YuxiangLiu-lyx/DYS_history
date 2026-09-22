@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-09-22T00:41:03.098Z",
+  "tool": "built-in image_gen.imagegen",
+  "status": "candidate_pending_user_review",
+  "note": "仅G23_IN一张，未制作OUT；末态按制作文档并从未来真实生成的视频中提取。未修改剧情，未生成视频。",
+  "assets": [
+    {
+      "asset_id": "G23_IN",
+      "version": "v01",
+      "kind": "storyboard_keyframe",
+      "status": "candidate_pending_user_review",
+      "relative_path": "assets/keyframes/G/G23_IN_v01.png",
+      "actual_path": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/G/G23_IN_v01.png",
+      "original_generated_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-4077bf69-6e2f-457e-88d1-1ca600d7ad58.png",
+      "prompt": "Use case: identity-preserve and compositing. Asset type: G23_IN, one single starting keyframe for the night palace-wall shot in a serious fictional Chinese historical drama, landscape 16:9. Image 1 is the exact established S08 palace wall location and night-light reference. Image 2 is the exact approved C01 young emperor face, crown, black-and-antique-gold robe and body identity. Image 3 is the exact approved C02 prime minister face, fuller round body type, dark indigo official robe, ivory collar and broad-winged black official hat. Preserve both distinct identities accurately, never merge the two faces or swap costumes. Use a new medium two-person camera position on the same palace walkway, matched to the masonry, lanterns, roof silhouettes, moonlight and distant city lights of image 1. The camera looks obliquely across and along the walkway so there is believable depth. Composition: emperor C01 in the RIGHT foreground beside the waist-high stone parapet, shown around waist-up in a recognizable three-quarter facial view, looking quietly past camera-right toward the warm city lights below; one hand lightly rests on the real stone cap. He still believes the peaceful official report, unaware of the famine, so his expression is calm and thoughtful, neither angry, distressed nor grinning. Prime minister C02 is on the LEFT, two natural walking paces farther back along the open walkway, just arriving, one small step nearly complete, body facing toward the emperor, head turned slightly toward him; show his face in a distinct three-quarter angle recognizable from image 3, his gaze on the emperor rather than camera. Both lips closed, no speech, no posed frontal portraits, no ceremonial shoulder-to-shoulder lineup, no simultaneous direct eye contact with camera. Leave a visible gap and natural depth between the men. Prime minister stays slightly behind the emperor in station and in depth. Preserve C01 exact crown and dragon embroidery and C02 exact navy robe and hat. Cool pale moonlight with soft warm lantern edge light, neutral and recognizable skin, real cloth folds, slight night breeze moving only loose hems, cinematic 50mm lens, realistic period-drama photography, photographic natural film grain. City architecture remains coherent and distant, original weathered red palace masonry and greenish-dark roof tiling unchanged in design. Only these two people, no guards, crowds, ghosts, no extra limbs. No text, captions, calligraphy, logos or watermark. No xianxia, fantasy, anime, videogame CG, beauty filters, plastic skin or oversaturated HDR. Preserve the story beat: the prime minister has just walked near the quiet emperor; neither has yet received the real disaster report.",
+      "input_references": [
+        "assets/scenes/S08_WALL_NIGHT_v01.png",
+        "assets/characters/C01/C01_FRONT_HALF_v01.png",
+        "assets/characters/C02/C02_FRONT_HALF_v01.png"
+      ],
+      "input_actual_paths": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S08_WALL_NIGHT_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C01/C01_FRONT_HALF_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C02/C02_FRONT_HALF_v01.png"
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": {
+        "visually_inspected": true,
+        "notes": "帝右前、相左后，双人视线分离，可辨角色；皇帝平静未愤怒。引用S08材质夜景、机位改向以建立双人中景，未把S08当像素锁定首帧。后续G23必须沿用此图实际朝向；左侧暖灯、右侧城垛和城灯，勿与S08原宽景反向误接。",
+        "no_readable_text": true
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-22",
+  "tool": "image_gen.imagegen",
+  "provider_model_version": null,
+  "provider_seed": null,
+  "cost": null,
+  "metadata_note": "未返回的模型版本、seed、费用留null。完整Prompt和工具原始输出路径位于各记录文件；PATH_RELOCATION.json按原图哈希映射到仓库实际文件。",
+  "record_files": [
+    "actor_master_v2_records.json",
+    "pan_derivative_v2_records.json",
+    "pan_keyframe_v2_records.json",
+    "C03_assets_and_frames_v2_records.json",
+    "G20_bracer_fix_v2_records.json",
+    "G20_composition_action_v3_records.json"
+  ],
+  "path_map": "history/generation/PATH_RELOCATION.json",
+  "current_asset_authority": "assets/current_selection.json",
+  "qa": "history/QA_20260922_v2.md"
+}

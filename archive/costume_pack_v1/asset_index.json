@@ -1,0 +1,295 @@
+{
+  "project": "德云史记·慧后本纪",
+  "episode": "第一回 风起徽州",
+  "created_date": "2026-09-21",
+  "stage": "costume_candidates_awaiting_review",
+  "mode": "built_in_imagegen",
+  "main_cast_complete": [
+    "C01",
+    "C02",
+    "C04",
+    "C05"
+  ],
+  "main_cast_pending": [
+    {
+      "id": "C03",
+      "name": "小腿",
+      "status": "wardrobe_ready_identity_reference_unverified",
+      "reason": "公开检索未取得能确认本人身份的清晰面部图；公开视频访问未成功。不使用群照中猜测的人脸。"
+    }
+  ],
+  "assets": [
+    {
+      "id": "C01_FRONT_HALF_v01",
+      "prompt": "Create ONE photorealistic Chinese historical-drama actor costume-test photograph, a single adult person. Preserve the real reference person's specific identity faithfully, face shape, eyes, brow, nose, mouth and natural asymmetries. Do not turn him into a generic handsome movie star. Historical fictional casting only. FRONT-FACING WAIST-UP, calm serious neutral expression, looking at camera. Soft natural daylight from camera-left, warm-grey seamless background, authentic skin and hair, real woven fabric. Portrait 3:4, head and crown wholly inside frame with margin. No text, labels, collage, watermark, modern objects, modern eyewear, beauty filters, fantasy, game CG or anime. SUBJECT Sun Yalong (Xiaoxiao), man in reference 1 and 2, and man ON RIGHT in reference 3. Reference 3 offers the more neutral expression. He is the youthful adult emperor, approximately late twenties; keep his recognizability, slightly full face, natural high forehead, narrow eyes and actual nose/lips. Remove eyeglasses but preserve the real eyes and brow proportions behind them. Replace all modern hair/clothes with ancient dark hair tied into a modest topknot, a small black-and-gold crown without beads covering the face. Black silk court robe with restrained old-gold dragon embroidery across the upper chest and cuffs, ivory inner crossed collar; believable sewn fabric and heavy drape, imperial confidence without arrogance. No beard, no flashy weapons, no grin. Actor master C01.",
+      "references": [
+        "refs/xiaoxiao_ig_portrait.jpg",
+        "refs/xiaoxiao_2013_interview.jpg",
+        "refs/pan_wedding.jpg"
+      ],
+      "width": 1086,
+      "height": 1448,
+      "sha256": "3371302b239a11e0da68d66555e5a5792c8911d7806d054c21ecc220779c5e68",
+      "package_path": "actors/C01/C01_FRONT_HALF_v01.png",
+      "name": "孙亚龙 · 年轻笑皇",
+      "source_working_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-6002d072-57d3-490a-8a8a-519ff4ebc429.png"
+    },
+    {
+      "id": "C02_FRONT_HALF_v01",
+      "prompt": "Create ONE photorealistic Chinese historical-drama actor costume-test photograph, a single adult person. Preserve the real reference person's specific identity faithfully, face shape, eyes, brow, nose, mouth and natural asymmetries. Do not turn him into a generic handsome movie star. Historical fictional casting only. FRONT-FACING WAIST-UP, calm serious neutral expression, looking at camera. Soft natural daylight from camera-left, warm-grey seamless background, authentic skin and hair, real woven fabric. Portrait 3:4, head and crown wholly inside frame with margin. No text, labels, collage, watermark, modern objects, modern eyewear, beauty filters, fantasy, game CG or anime. SUBJECT Li Haoyu, Sicca, the only man in reference. He plays a young adult prime minister in the same realistic fictional dynasty. Preserve the rounded fleshy cheeks, broad face and jaw, small eyes, thick straight eyebrows and stocky upper body; do not slim him or substitute a sharp cheekboned advisor. Dark indigo silk official robe with subtle woven square insignia, ivory inner crossover collar and restrained black gauze official hat with short horizontal wings. Calm attentive expression, lips relaxed, intelligent but no sly smirk. No beard. Actor master C02.",
+      "references": [
+        "refs/sicca_sina_portrait.jpg"
+      ],
+      "width": 1086,
+      "height": 1448,
+      "sha256": "545540955d27a66096a495d23a4149347a21ccf37e237b3dc2adc69b1b5f1ccd",
+      "package_path": "actors/C02/C02_FRONT_HALF_v01.png",
+      "name": "西卡 · 内阁首辅",
+      "source_working_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-b2bcd310-228e-4eda-8746-f25fec5273d2.png"
+    },
+    {
+      "id": "C04_FRONT_HALF_v01",
+      "prompt": "Create ONE photorealistic Chinese historical-drama actor costume-test photograph, a single adult person. Preserve the real reference person's specific identity faithfully, face shape, eyes, brow, nose, mouth and natural asymmetries. Do not turn him into a generic handsome movie star. Historical fictional casting only. FRONT-FACING WAIST-UP, calm serious neutral expression, looking at camera. Soft natural daylight from camera-left, warm-grey seamless background, authentic skin and hair, real woven fabric. Portrait 3:4, head and crown wholly inside frame with margin. No text, labels, collage, watermark, modern objects, modern eyewear, beauty filters, fantasy, game CG or anime. SUBJECT Gao Xuecheng, Weixiao, the only man in reference. Preserve this man's specific longish face, soft cheeks, small narrow eyes, nose and mouth, with normal closed lips rather than copying the mid-speech pose. He portrays a mature young-adult regional grain official, not a moustached villain. Dark russet/oxblood-brown robe with extremely subtle woven patterns, ivory inner crossover collar, restrained black official cap and historically styled tied-up hair. No microphone, headset, sports clothes or branding. Composed civil servant, neither sneering nor scowling. Actor master C04.",
+      "references": [
+        "refs/weixiao_we_2018_a.jpg"
+      ],
+      "width": 1086,
+      "height": 1448,
+      "sha256": "aedca7a11256c5cf7f8a77be9286e80a67d41a52cd7d59d2a47e2f51abed1666",
+      "package_path": "actors/C04/C04_FRONT_HALF_v01.png",
+      "name": "微笑 · 江南转运使魏笑",
+      "source_working_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-24807bcd-7c79-4563-911c-38187ffb8980.png"
+    },
+    {
+      "id": "C05_FRONT_HALF_v01",
+      "references": [
+        "refs/pan_wedding.jpg",
+        "refs/pan_ref2015_b.jpg"
+      ],
+      "prompt": "Identity-preserving historical portrait of Pan Hui; ivory and pale blue-grey robe, jade pin, neutral grey background. Full prompt in conversation.",
+      "width": 1086,
+      "height": 1448,
+      "sha256": "d8c78eeaa3d1ca9b9803bcfc0e299d29610a2643f9e97f86ed929edcc664106e",
+      "package_path": "actors/C05/C05_FRONT_HALF_v01.png",
+      "name": "潘慧 · 徽州才女",
+      "source_working_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-526fcba2-09a8-4a44-8b8e-d97f133cebca.png"
+    },
+    {
+      "id": "C01_FULL_v01",
+      "prompt": "Use case: identity-preserve. Reference is the APPROVED fictional historical character costume master; generate ONE FULL-LENGTH front-facing costume photograph of exactly this same adult 成年青年皇帝. Keep the EXACT same face, age, hair, crown or hat, skin tone, clothing color, embroidery patterns and collar. Extend the outfit naturally to full length: black and old-gold dragon robe, matching dark belt, black cloth court boots, natural average stocky build. Standing relaxed with both feet planted, arms relaxed naturally, empty hands visible with believable fingers. Full head/hat, whole body and both shoe soles in frame, generous margin above and below, no cropping. Same warm grey seamless studio background, soft natural left daylight, true fabric weight and natural pores. Portrait 2:3, high-resolution costume reference. Do NOT change facial identity, beautify, slim, add armour or a sword. No props, text, panels, watermark, fantasy or CG. This is C01_FULL_v01.",
+      "references": [
+        "generated-master:exec-6002d072-57d3-490a-8a8a-519ff4ebc429.png"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "8ed937b42f77f689c3eabc157b373945250ab3e9084499b5a7c6c0ad44e68416",
+      "package_path": "actors/C01/C01_FULL_v01.png",
+      "name": "孙亚龙 · 年轻笑皇",
+      "source_working_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-adc47d1a-451f-421e-beca-72b846524b8c.png"
+    },
+    {
+      "id": "C02_FULL_v01",
+      "prompt": "Use case: identity-preserve. Reference is the APPROVED fictional historical character costume master; generate ONE FULL-LENGTH front-facing costume photograph of exactly this same adult 首辅. Keep the EXACT same face, age, hair, crown or hat, skin tone, clothing color, embroidery patterns and collar. Extend the outfit naturally to full length: dark indigo official robe with the exact same insignia, dark belt, black cloth boots, broad stocky build, no slimming. Standing relaxed with both feet planted, arms relaxed naturally, empty hands visible with believable fingers. Full head/hat, whole body and both shoe soles in frame, generous margin above and below, no cropping. Same warm grey seamless studio background, soft natural left daylight, true fabric weight and natural pores. Portrait 2:3, high-resolution costume reference. Do NOT change facial identity, beautify, slim, add armour or a sword. No props, text, panels, watermark, fantasy or CG. This is C02_FULL_v01.",
+      "references": [
+        "generated-master:exec-b2bcd310-228e-4eda-8746-f25fec5273d2.png"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "92d728a4156ebb89d91a5aeff69ae62c16b1be05badfc92b5b1a5ebfe319610d",
+      "package_path": "actors/C02/C02_FULL_v01.png",
+      "name": "西卡 · 内阁首辅",
+      "source_working_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-61aa1c7b-2791-43f8-bd32-a62d14c86623.png"
+    },
+    {
+      "id": "C04_FULL_v01",
+      "prompt": "Use case: identity-preserve. Reference is the APPROVED fictional historical character costume master; generate ONE FULL-LENGTH front-facing costume photograph of exactly this same adult 转运使. Keep the EXACT same face, age, hair, crown or hat, skin tone, clothing color, embroidery patterns and collar. Extend the outfit naturally to full length: dark russet official robe, dark belt and black cloth boots, natural average build. Standing relaxed with both feet planted, arms relaxed naturally, empty hands visible with believable fingers. Full head/hat, whole body and both shoe soles in frame, generous margin above and below, no cropping. Same warm grey seamless studio background, soft natural left daylight, true fabric weight and natural pores. Portrait 2:3, high-resolution costume reference. Do NOT change facial identity, beautify, slim, add armour or a sword. No props, text, panels, watermark, fantasy or CG. This is C04_FULL_v01.",
+      "references": [
+        "generated-master:exec-24807bcd-7c79-4563-911c-38187ffb8980.png"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "cb3e3ba65268a4fd306f680e2e98dc9077def7ca535892e706a1973cd1d30437",
+      "package_path": "actors/C04/C04_FULL_v01.png",
+      "name": "微笑 · 江南转运使魏笑",
+      "source_working_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-9c06ff6d-5b66-444e-bf93-35e38320bb12.png"
+    },
+    {
+      "id": "C05_FULL_v01",
+      "prompt": "Use case: identity-preserve. Reference is the APPROVED fictional historical character costume master; generate ONE FULL-LENGTH front-facing costume photograph of exactly this same adult 徽州才女. Keep the EXACT same face, age, hair, crown or hat, skin tone, clothing color, embroidery patterns and collar. Extend the outfit naturally to full length: same ivory blouse and pale blue-grey silk robe continuing into a modest floor-length pale blue-grey skirt, simple cloth embroidered shoes, normal natural adult proportions. Standing relaxed with both feet planted, arms relaxed naturally, empty hands visible with believable fingers. Full head/hat, whole body and both shoe soles in frame, generous margin above and below, no cropping. Same warm grey seamless studio background, soft natural left daylight, true fabric weight and natural pores. Portrait 2:3, high-resolution costume reference. Do NOT change facial identity, beautify, slim, add armour or a sword. No props, text, panels, watermark, fantasy or CG. This is C05_FULL_v01.",
+      "references": [
+        "generated-master:exec-526fcba2-09a8-4a44-8b8e-d97f133cebca.png"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "2eb452698efeffc9647693fa220adb29681532ca187ad0ea8fdf54611f130c76",
+      "package_path": "actors/C05/C05_FULL_v01.png",
+      "name": "潘慧 · 徽州才女",
+      "source_working_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-a36f9650-31ea-4e23-a099-6e2ce3601ccb.png"
+    },
+    {
+      "id": "C01_ANGLES_EXPRESSIONS_v01",
+      "prompt": "Use case: identity-preserve. Create a professional CHARACTER CONSISTENCY BOARD for the exact same young adult emperor in the provided approved historical costume master. This board is an art-department reference, not a film scene. Six equally sized chest-up photographic panels in a clean 3-column 2-row layout, narrow neutral margins, high-resolution wide landscape 3:2. Read left to right. TOP ROW: front-facing neutral; head AND shoulders turned about 45 degrees toward image-left; head AND shoulders turned about 45 degrees toward image-right. BOTTOM ROW: true 90-degree profile nose pointing image-left; front-facing relieved small smile; front-facing restrained concern, brow subtly tightened. All six must unmistakably be the SAME exact person with the identical face, age, weight, hairstyle, hat/crown, collar, embroidery, colors and skin. The neutral front panel must match the supplied image closely, no new actor. Preserve subtle natural facial asymmetry; do not fake one angle by mirroring another. Keep complete head and hat in each panel; no chopped crown. Same grey studio background and soft real daylight. Real photographic skin, no retouching, no CG. No swords, new clothing, text, arrows, watermark or labels. Intended reference C01_ANGLES_EXPRESSIONS_v01.",
+      "references": [
+        "generated-master:exec-6002d072-57d3-490a-8a8a-519ff4ebc429.png"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9f3e337dcd5bbe240d546e9be9ca4d5bdb4d6d35e43e6f41b9cc486b639d2f4f",
+      "package_path": "actors/C01/C01_ANGLES_EXPRESSIONS_v01.png",
+      "name": "孙亚龙 · 年轻笑皇",
+      "source_working_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-9a78ea49-cce0-4add-a5ee-44dfb217ae6c.png"
+    },
+    {
+      "id": "C05_ANGLES_EXPRESSIONS_v01",
+      "prompt": "Use case: identity-preserve. Create a professional CHARACTER CONSISTENCY BOARD for the exact same adult female musician and poet in the provided approved historical costume master. This board is an art-department reference, not a film scene. Six equally sized chest-up photographic panels in a clean 3-column 2-row layout, narrow neutral margins, high-resolution wide landscape 3:2. Read left to right. TOP ROW: front-facing neutral; head AND shoulders turned about 45 degrees toward image-left; head AND shoulders turned about 45 degrees toward image-right. BOTTOM ROW: true 90-degree profile nose pointing image-left; front-facing natural gentle smile; front-facing thoughtful listening with softened gaze. All six must unmistakably be the SAME exact person with the identical face, age, weight, hairstyle, hat/crown, collar, embroidery, colors and skin. The neutral front panel must match the supplied image closely, no new actor. Preserve subtle natural facial asymmetry; do not fake one angle by mirroring another. Keep complete head and hat in each panel; no chopped crown. Same grey studio background and soft real daylight. Real photographic skin, no retouching, no CG. No swords, new clothing, text, arrows, watermark or labels. Intended reference C05_ANGLES_EXPRESSIONS_v01.",
+      "references": [
+        "generated-master:exec-526fcba2-09a8-4a44-8b8e-d97f133cebca.png"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "sha256": "442f1f5b87352590f4cd9ed78cd647739c049ea1aa2af1edb2039b690b964b21",
+      "package_path": "actors/C05/C05_ANGLES_EXPRESSIONS_v01.png",
+      "name": "潘慧 · 徽州才女",
+      "source_working_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-df3c20e9-a595-4db8-a9cb-1d54584b6853.png"
+    },
+    {
+      "id": "C02_ANGLES_EXPRESSIONS_v02",
+      "prompt": "Edit this six-panel character reference board. Change ONLY the TOP-MIDDLE panel: the SAME man must turn his head AND shoulders toward the LEFT EDGE OF THE ENTIRE IMAGE, so his nose points to the left, at a three-quarter 45-degree angle. Currently the top-middle wrongly duplicates the top-right direction. Correct this by showing the opposite angle, midway between the FRONT panel and the BOTTOM-LEFT profile. Keep the other five panels completely unchanged. Keep his exact face, stocky cheeks, official cap, navy embroidered robe, grey background, six-panel layout, lighting and image quality unchanged. Do not mirror the whole board. No added text.",
+      "references": [
+        "generated-master:exec-3b84745a-a11d-417a-8bab-c7e98a50a56c.png"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "sha256": "76ec8ba194cba54ad836b9acc23499c9fec8583ebbd150191b954c36977d11cc",
+      "package_path": "actors/C02/C02_ANGLES_EXPRESSIONS_v02.png",
+      "name": "西卡 · 内阁首辅",
+      "source_working_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-24ed2252-c5b4-4a1d-b5dc-c20e3c73c9e7.png"
+    },
+    {
+      "id": "C04_ANGLES_EXPRESSIONS_v02",
+      "prompt": "Edit this six-panel character reference board. Change ONLY the TOP-MIDDLE panel: the SAME man must turn his head AND shoulders toward the LEFT EDGE OF THE ENTIRE IMAGE, so his nose points to the left, at a three-quarter 45-degree angle. Currently the top-middle wrongly duplicates the top-right direction. Correct this by showing the opposite angle, midway between the FRONT panel and the BOTTOM-LEFT profile. Keep the other five panels completely unchanged. Keep his exact face, hat, russet embroidered robe, grey background, six-panel layout, lighting and image quality unchanged. Do not mirror the whole board. No added text.",
+      "references": [
+        "generated-master:exec-6e93613f-76ac-47ee-8ab5-777979d83835.png"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0628bb9bee9572e0de95584d5fd458c90f540925f3572823f6797a9c0ddd01b5",
+      "package_path": "actors/C04/C04_ANGLES_EXPRESSIONS_v02.png",
+      "name": "微笑 · 江南转运使魏笑",
+      "source_working_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-53ba60eb-3f81-44ac-bc27-2e20b910e37b.png"
+    },
+    {
+      "id": "E01_GUARD_v01",
+      "prompt": "Use case: historical-scene. Generate ONE original supporting actor full-length costume photograph for a realistic Chinese historical drama. Subject: a fictional Chinese male county granary guard aged about 35, broad weathered face, stout practical build, stern neutral expression, dark charcoal coarse cotton narrow-sleeved tunic with faded muted brick-red edging, simple dark cloth cap, brown leather belt, calf wraps and worn black cloth boots. No ornate armour. A short wooden baton tucked securely into the belt, hands empty. Single person from full head to both shoes, with comfortable margin on all sides, both hands visible. Pure warm-grey seamless studio background; soft diffuse daylight from left, natural skin texture, believable fabric weight, no beauty retouching. Portrait 2:3. A real casting and costume test, not glamour photography, not fantasy, not anime or CG. No text, labels, frames, watermark, modern clothing or modern objects. Original face not based on a celebrity. High detail. Asset E01_GUARD_v01.",
+      "references": [],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "a6d5e17bf7e91c4bee0f1238bfd86b2d83f5e93a806eaa99acfa2fc3dd905a82",
+      "package_path": "actors/E01/E01_GUARD_v01.png",
+      "name": "官仓差役",
+      "source_working_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-7123cdea-a32a-434e-a079-f8942b009ef5.png"
+    },
+    {
+      "id": "E02_ELDER_v01",
+      "prompt": "Use case: historical-scene. Generate ONE original supporting actor full-length costume photograph for a realistic Chinese historical drama. Subject: a fictional elderly Chinese man aged about 70, thin but dignified and believable, weathered wrinkled face, sparse grey short beard, grey hair in a small untidy historically appropriate bun, faded patched earth-brown hemp robe over loose dark trousers, worn straw shoes, sloped shoulders but standing upright. Holding one small empty rough ceramic bowl with a distinctive chip on its upper rim. No injuries, no extreme starvation. Single person from full head to both shoes, with comfortable margin on all sides, both hands visible. Pure warm-grey seamless studio background; soft diffuse daylight from left, natural skin texture, believable fabric weight, no beauty retouching. Portrait 2:3. A real casting and costume test, not glamour photography, not fantasy, not anime or CG. No text, labels, frames, watermark, modern clothing or modern objects. Original face not based on a celebrity. High detail. Asset E02_ELDER_v01.",
+      "references": [],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "b1fe94b3cd434e2bd2fd27a45cf5a7af773a2dafa49a3c4f013bf80427262519",
+      "package_path": "actors/E02/E02_ELDER_v01.png",
+      "name": "领粮老人",
+      "source_working_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-087c3104-4270-4ee8-bbc1-907bbd28a6bd.png"
+    },
+    {
+      "id": "E06_MAID_v01",
+      "prompt": "Use case: historical-scene. Generate ONE original supporting actor full-length costume photograph for a realistic Chinese historical drama. Subject: a fictional adult Chinese female attendant aged 22, a plain friendly natural face visibly different from the lead heroine, hair in a simple practical bun with dark wooden pin, muted dusty sage cotton jacket with modest closed crossover collar, beige skirt, cloth shoes. Gentle attentive neutral expression, empty relaxed hands, no jewellery or ornate embroidery. Single person from full head to both shoes, with comfortable margin on all sides, both hands visible. Pure warm-grey seamless studio background; soft diffuse daylight from left, natural skin texture, believable fabric weight, no beauty retouching. Portrait 2:3. A real casting and costume test, not glamour photography, not fantasy, not anime or CG. No text, labels, frames, watermark, modern clothing or modern objects. Original face not based on a celebrity. High detail. Asset E06_MAID_v01.",
+      "references": [],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "128b83413a4db8894901cc90791c72ae0861eeef389f40ea0b7c11b3dfd3525d",
+      "package_path": "actors/E06/E06_MAID_v01.png",
+      "name": "侍女",
+      "source_working_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-37249c4a-ec1c-4d2e-a55f-54e4011e02f3.png"
+    },
+    {
+      "id": "E04_MERCHANT_v01",
+      "prompt": "Use case: historical-scene. Generate ONE original supporting actor FULL-LENGTH costume photograph for a realistic Chinese period film. Subject: a fictional Chinese male grain merchant aged 45, comfortably heavy build, round weathered face, short tidy moustache, olive-brown silk robe of subdued good quality with a dark sash, small black cloth merchant cap and clean dark cloth shoes. Prosperous but understated, polite neutral expression. No villain caricature, no gold piles or props. A normal professional theatre wardrobe fitting, single person, full head and both shoes within frame with generous margin. Both hands visible, no cropping. Warm-grey seamless studio background, soft diffuse natural daylight from left, authentic fabric, natural skin texture. Portrait 2:3. No text, labels, frames, watermark, modern objects, CG, fantasy, animation, beauty retouching. Original face. Asset E04_MERCHANT_v01.",
+      "references": [],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "1d3090efaf8f174e1b7f63a910040259718796ee28620102fc9c911d1b4b89bd",
+      "package_path": "actors/E04/E04_MERCHANT_v01.png",
+      "name": "粮商",
+      "source_working_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-f4d8e2dd-ec8b-44c1-bbb7-f870578edbf3.png"
+    },
+    {
+      "id": "E05_SUITOR_v01",
+      "prompt": "Use case: historical-scene. Generate ONE original supporting actor FULL-LENGTH costume photograph for a realistic Chinese period film. Subject: a fictional adult Chinese male gentleman aged 26, refined pleasant ordinary face, natural youthful proportions, clean-shaven, ivory and muted warm-taupe silk scholar robe with subtle woven pattern, traditional tied hair under a modest scholar headpiece, dark cloth shoes. Polite composed expression. Distinct from all main cast. Empty relaxed hands, no fan. A normal professional theatre wardrobe fitting, single person, full head and both shoes within frame with generous margin. Both hands visible, no cropping. Warm-grey seamless studio background, soft diffuse natural daylight from left, authentic fabric, natural skin texture. Portrait 2:3. No text, labels, frames, watermark, modern objects, CG, fantasy, animation, beauty retouching. Original face. Asset E05_SUITOR_v01.",
+      "references": [],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "17613c376c23b4fdac74a19c654e4a5a4d5c41c3a6153193a53931efe00da867",
+      "package_path": "actors/E05/E05_SUITOR_v01.png",
+      "name": "求亲公子",
+      "source_working_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-885d6be2-f58a-425b-a50a-c4045ecb42ec.png"
+    },
+    {
+      "id": "E07_CLERK_v01",
+      "prompt": "Use case: historical-scene. Generate ONE original supporting actor FULL-LENGTH costume photograph for a realistic Chinese period film. Subject: a fictional Chinese male clerk aged 40, slender ordinary build, long slightly tired face, clean-shaven, dull blue-grey plain cotton official clerk robe, practical small black cloth cap, dark cloth shoes, simple belt. Attentive neutral expression, empty hands. No rank badge or expensive embroidery. A normal professional theatre wardrobe fitting, single person, full head and both shoes within frame with generous margin. Both hands visible, no cropping. Warm-grey seamless studio background, soft diffuse natural daylight from left, authentic fabric, natural skin texture. Portrait 2:3. No text, labels, frames, watermark, modern objects, CG, fantasy, animation, beauty retouching. Original face. Asset E07_CLERK_v01.",
+      "references": [],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "3ba2fc2e8751f3f4848f178834286e0a257385a218658f2257aa1ba882030df0",
+      "package_path": "actors/E07/E07_CLERK_v01.png",
+      "name": "书吏",
+      "source_working_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-4d42d111-5628-4959-b5e7-20d1ebcc537f.png"
+    },
+    {
+      "id": "E08_VILLAGER_v01",
+      "prompt": "Use case: historical-scene. Generate ONE original supporting actor FULL-LENGTH costume photograph for a realistic Chinese period film. Subject: a fictional Chinese adult woman aged 42, weathered ordinary face, hair tied neatly under a simple faded brown cotton kerchief, plain muted brown patched long-sleeved cotton jacket over a dark grey long skirt and closed cloth shoes. Dignified tired expression, naturally healthy normal anatomy, hands empty. No injuries, no glamour makeup. A normal professional theatre wardrobe fitting, single person, full head and both shoes within frame with generous margin. Both hands visible, no cropping. Warm-grey seamless studio background, soft diffuse natural daylight from left, authentic fabric, natural skin texture. Portrait 2:3. No text, labels, frames, watermark, modern objects, CG, fantasy, animation, beauty retouching. Original face. Asset E08_VILLAGER_v01.",
+      "references": [],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "c8298378229e4a6080329d3461c03cb1ab95ae1bef1acaa87a9cdf277caba283",
+      "package_path": "actors/E08/E08_VILLAGER_v01.png",
+      "name": "灾民妇人",
+      "source_working_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-25f8e064-500a-4fcd-96f4-601d1cfc148b.png"
+    },
+    {
+      "id": "E03_CHILD_v02",
+      "prompt": "Use case: historical-scene. Generate ONE original supporting actor FULL-LENGTH costume photograph for a realistic Chinese period film. Subject: an original fictional Chinese boy aged 9 at a family theatre costume fitting, healthy and calm with a small relaxed smile, wearing a complete modest period costume: long-sleeved muted ochre cotton tunic closed to the neck, loose dark-brown ankle-length trousers, normal closed cloth shoes, black hair tied in a small historical topknot. Simple clean worn fabric, hands relaxed at sides, no distress, no injuries, no body exposure. Natural child proportions. A normal professional theatre wardrobe fitting, single person, full head and both shoes within frame with generous margin. Both hands visible, no cropping. Warm-grey seamless studio background, soft diffuse natural daylight from left, authentic fabric, natural skin texture. Portrait 2:3. No text, labels, frames, watermark, modern objects, CG, fantasy, animation, beauty retouching. Original face. Asset E03_CHILD_v02.",
+      "references": [],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "2e798b5ea57ad10eef5ff71536b42908d85ede43855cb370182e2e2d2f55ba07",
+      "package_path": "actors/E03/E03_CHILD_v02.png",
+      "name": "孩子",
+      "source_working_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-c11eb7ec-5daa-47c7-b0da-8df0a0833b09.png"
+    },
+    {
+      "id": "C03_WARDROBE_ONLY_v01",
+      "prompt": "Use case: product-mockup, historical-scene. Create a photorealistic art-department WARDROBE-ONLY reference for a junior imperial investigator in a fictional realistic Chinese historical film. A tailor's linen dress form displaying a dark deep-teal narrow-sleeved knee-length officer robe with subtle woven texture, a plain dark leather belt, simple leather wrist guards, dark trousers, and black cloth riding boots arranged below. No human actor, no face, no human head, no skin: this is visibly an inanimate tailoring display with a capped wooden neck and wooden hand forms. Full costume head-to-foot coverage without depicting a person. Front and back views side by side in two equally sized panels on warm-grey studio background. Modest rank, practical mobile cut, no elaborate armour, dragon embroidery, weapons or aristocratic badge. Accurate cloth construction, soft daylight, actual sewn seams. High-resolution wide image. Small clear top title exactly: '腿校尉 · 服装样衣'. Small subtitle exactly: '面部待定'. No other text. This is not a portrait and must not invent the real actor's identity.",
+      "references": [],
+      "status": "wardrobe_only_face_reference_missing",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c8c116e7b9ac91defc326019d76da4f5a35da0a0d60f23378b1e4bf3b58255eb",
+      "package_path": "actors/C03/C03_WARDROBE_ONLY_v01.png",
+      "name": "小腿 · 腿校尉（面部待定）",
+      "source_working_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-fc8473bb-ed9f-45bf-901d-da5d4ea3fd01.png"
+    },
+    {
+      "id": "C05_NIGHT_SHAWL_v01",
+      "prompt": "Use case: identity-preserve, precise-object-edit. Create the night-scene WARDROBE VARIANT of the exact same adult female character in the reference. Preserve her face, identity, expression, hair and jade pin, ivory blouse and pale blue-grey robe exactly. Add only a thin pale blue-grey soft woven shawl draped naturally over both shoulders, with its ends resting in front of her upper arms and chest. A modest practical shoulder wrap for an evening by the window, NOT a bridal veil, NOT a hood, not a new dress. Her hair remains fully visible, her face uncovered. Same front-facing waist-up framing, warm-grey studio background and soft neutral daylight used for all costume tests; this is a clothing reference, so no scene or night lighting. She lightly holds one shawl end near the waist with naturally formed hands. Realistic film wardrobe photograph, no text, labels, watermark, glamour retouching, fantasy or CG. Asset C05_NIGHT_SHAWL_v01.",
+      "references": [
+        "generated-master:exec-526fcba2-09a8-4a44-8b8e-d97f133cebca.png"
+      ],
+      "width": 1086,
+      "height": 1448,
+      "sha256": "b7775a89024153548cced87ab9b060a97bf7fbdde43d6277be0c7cb8b8d5288f",
+      "package_path": "actors/C05/C05_NIGHT_SHAWL_v01.png",
+      "name": "潘慧 · 徽州才女",
+      "source_working_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-eee2fa81-4654-4ad1-9712-2f38445825da.png"
+    }
+  ]
+}

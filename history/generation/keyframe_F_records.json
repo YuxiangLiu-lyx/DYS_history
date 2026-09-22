@@ -1,0 +1,32 @@
+[
+  {
+    "id": "F_IN",
+    "references": [
+      "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S06_ROOM_NIGHT_v01.png",
+      "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C05/C05_FRONT_HALF_v03.png",
+      "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C05/C05_FULL_v02.png",
+      "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/E06/E06_MAID_v01.png"
+    ],
+    "prompt": "Generate one 16:9 cinematic historical drama opening KEYFRAME F_IN, single full image, live-action photorealism. Reference1 is the actual upstairs night room; preserve its architecture/window/seat/lamp-table/cold moonlight/warm offscreen light. Reference2 and3 are the SAME adult Pan Hui, lock her exact face/body/hair/jade pin and pale grey-blue costume. Her tiny dark beauty mole is at the viewer-right mouth corner in FRONT view on the jade-pin side; keep this exact face landmark, no mirroring. Reference4 is the distinctly different adult maid, preserve her olive-grey rough-spun outfit and simple hair. Medium two-shot, Pan seated screen-right by window, looking peacefully toward canal; NO shawl on her shoulders yet. Maid stands screen-left a natural arm's reach away, holding a small real lit portable bronze oil lamp in RIGHT hand preparing to set it on the small table immediately left of Pan. Thin blue-grey shawl draped over her LEFT forearm, ready to put on Pan only AFTER setting lamp. No other portable lamp already on table. This still is BEFORE either action, no dialogue text, no subtitles. Hands anatomically coherent, lamp not floating, shawl actual woven cloth, same accepted faces no beauty substitution. Gentle quiet mood, ordinary night intimacy, no ominous clues. Eye-level 50mm, believable warm lamp spill and cool window edge, no blue filter/HDR/CG, don't change room or costumes. Keep both faces legible while positions form a natural eyeline. No collage.",
+    "result_hint": "Generated images are saved to /workspace/scratch/217ce8a5e48d/generated_images as /workspace/scratch/217ce8a5e48d/generated_images/exec-2f5ad8ee-4ed2-45e5-8ed6-53840f74708a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  {
+    "id": "F_IN_v02",
+    "prompt": "Minimal localized edit to FIRST image: ONLY change the folded blue-grey shawl draped over the standing maid's forearm. The shawl must be the PLAIN thin muted blue-grey gauze loosely woven shawl from SECOND image, with no floral embroidery or silk brocade. Preserve its existing folded shape/position, maid hands/lamp and ALL other pixels/features/people/room/lighting/composition as closely as possible. Do not change the embroidered robes worn by either woman. The seated woman's shoulders remain WITHOUT shawl. Only replace decorative shawl texture with the approved plain light gauze texture. Single wide historical drama frame, no text.",
+    "references": [
+      "/workspace/scratch/217ce8a5e48d/generated_images/exec-2f5ad8ee-4ed2-45e5-8ed6-53840f74708a.png",
+      "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C05/C05_NIGHT_SHAWL_v04.png"
+    ],
+    "result_hint": "Generated images are saved to /workspace/scratch/217ce8a5e48d/generated_images as /workspace/scratch/217ce8a5e48d/generated_images/exec-a3a377ce-6c2d-4fd4-b5cc-9ce9a111e9b6.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  {
+    "id": "F_OUT",
+    "prompt": "Create the ending keyframe of the SAME quiet historical-drama upstairs night scene as reference1. One cinematic 16:9 medium closeup, camera remains on the SAME indoor side of the actor/window axis, moves closer to the seated Pan Hui. Preserve exact same adult face from reference2, same jade hairpin, pale bluegrey embroidered robe, room's lattice window, cool window light and warm lamp from screen-left. She has now received the PLAIN thin blue-grey gauze shawl from reference3 over both shoulders; this shawl has NO flower embroidery, it is lightweight plain woven cloth. Her speech is finished, she has gently turned her gaze toward canal lights through screen-right window. Peaceful thoughtful face, lips closed, not ominous, no seductive posing. One hand lightly holds shawl at chest, five real fingers, fabric resting over actual shoulders. Head in soft 3/4 side view toward window, seated position consistent with reference1, maid stays offscreen to camera-left. Warm lamp now rests on same small table partly visible low left, not in maid's hand. Same ONE tiny natural dark-brown beauty mole on the skin patch immediately beside the mouth corner on the JADE-PIN side in the approved FRONT portrait reference2; do not switch sides or add a dot to the nearer cheek if the proper side is occluded. No text, collage, HDR, beautification, face substitution, magical lighting or giant moon. 65mm cinema lens, real skin and silk, quiet breathing captured in a still.",
+    "references": [
+      "/workspace/scratch/217ce8a5e48d/generated_images/exec-2f5ad8ee-4ed2-45e5-8ed6-53840f74708a.png",
+      "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C05/C05_FRONT_HALF_v03.png",
+      "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C05/C05_NIGHT_SHAWL_v04.png"
+    ],
+    "result_hint": "Generated images are saved to /workspace/scratch/217ce8a5e48d/generated_images as /workspace/scratch/217ce8a5e48d/generated_images/exec-2240d0c9-10c3-4d60-85a0-4149b6157c01.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  }
+]

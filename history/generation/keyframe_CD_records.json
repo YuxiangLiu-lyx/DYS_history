@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-09-22T00:37:24.679Z",
+  "tool": "built-in image_gen.imagegen",
+  "status": "candidate_pending_user_review",
+  "note": "仅三张关键帧候选；未生成视频，不修改剧情；C03缺身份，未生成D_IN。",
+  "assets": [
+    {
+      "asset_id": "C_IN",
+      "version": "v01",
+      "kind": "storyboard_keyframe",
+      "status": "candidate_pending_user_review",
+      "relative_path": "assets/keyframes/C/C_IN_v01.png",
+      "actual_path": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/C/C_IN_v01.png",
+      "original_generated_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-4dd208c7-66e3-4e69-970a-d8fe0698b05c.png",
+      "prompt": "Use case: compositing. Asset type: C_IN, first keyframe of the court arrival Scene Block for a fictional serious Chinese historical drama. Input image 1 is the approved architectural scene reference; preserve its palace architecture, layout, foreground paving, gate position, dawn mist, muted red masonry, roof colors, lighting direction and 16:9 composition closely. Add two orderly parallel files of original fictional adult Chinese court officials beginning to enter through the open central palace gate, all seen from behind or at a distant rear three-quarter angle, properly scaled to the enormous architecture. The two lines approach from the lower middle foreground and continue through the gateway, a clear central gap between them and a few unobtrusive deep spaces around the procession. They wear sober deep navy, faded maroon and dark green court robes and consistent traditional black official hats; restrained woven cloth, relaxed small steps mid-walk and natural robe weight, no theatrical identical poses. Their faces are not prominent and they do not resemble named public figures. Convey a quiet early-morning court assembly. Grand but realistic live-action 28mm historical film establishing frame. No emperor on exterior forecourt, no new main characters, no weapons or action, no modern elements. No readable inscriptions, subtitles, labels, text or watermark. No fantasy, xianxia, anime, game CG or extreme HDR. Keep original palace spatial structure and practical morning light.",
+      "input_references": [
+        "assets/scenes/S03_PALACE_v01.png"
+      ],
+      "input_actual_paths": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S03_PALACE_v01.png"
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": {
+        "visually_inspected": true,
+        "notes": "宫城几何/材质/晨光沿用S03，两列原创官员沿中轴入宫；无须匹配主角身份。"
+      }
+    },
+    {
+      "asset_id": "C_OUT",
+      "version": "v01",
+      "kind": "storyboard_keyframe",
+      "status": "candidate_pending_user_review",
+      "relative_path": "assets/keyframes/C/C_OUT_v01.png",
+      "actual_path": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/C/C_OUT_v01.png",
+      "original_generated_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-32b27225-5711-41bb-ab36-c98ce89969b1.png",
+      "prompt": "Use case: identity-preserve. Asset type: C_OUT, last keyframe of Scene Block C, a serious fictional Chinese historical drama. Input image 1 is exact approved C01 emperor face and half-body costume reference; input image 2 is exact same emperor full costume and body proportions; input image 3 is the established court architecture and black-and-gold throne. Generate one 16:9 live-action film frame. Show exactly the same man from images 1 and 2 seated naturally on the actual black-and-aged-gold throne from image 3. His face geometry, eye shape, nose, mouth, skin texture, roundness of cheeks, jawline, hairline and realistic adult age must stay faithful to the character reference; do not replace him with a generic handsome actor. Retain the exact black silk robe, antique gold dragon embroidery, ivory collar, black-and-gold crown and neat tied hair. Slightly low camera at just below his eye height, medium-close framing from around waist up, 65mm lens, imperial backdrop visible softly behind him. He has just settled into his seat and lowered his right hand after a restrained signal; right fingers settle softly near the dark wood imperial desk edge in foreground, left hand relaxed. A very small forward lean shows he is now ready to listen seriously to the report, lips closed and still, eyebrows neutral, gaze toward the reporting official just beside camera, no smile, no speaking, no clownish expression. Retain the court's cold morning lateral window light with neutral warm skin, deep crimson pillars and aged gold behind him, natural cloth folds and anatomical hands. Same real historical film photography as all references, no portrait studio backdrop. Do not include another recognizable main character, no extra face, no text or watermark. No fantasy, xianxia, anime, game CG, HDR, plastic or over-smoothed skin.",
+      "input_references": [
+        "assets/characters/C01/C01_FRONT_HALF_v01.png",
+        "assets/characters/C01/C01_FULL_v01.png",
+        "assets/scenes/S04_COURT_v01.png"
+      ],
+      "input_actual_paths": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C01/C01_FRONT_HALF_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C01/C01_FULL_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S04_COURT_v01.png"
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": {
+        "visually_inspected": true,
+        "notes": "同C01定妆人脸、黑金袍冠，御座与S04连贯；身体略前倾，目光认真，双手落案沿。"
+      }
+    },
+    {
+      "asset_id": "D_OUT",
+      "version": "v01",
+      "kind": "storyboard_keyframe",
+      "status": "candidate_pending_user_review",
+      "relative_path": "assets/keyframes/D/D_OUT_v01.png",
+      "actual_path": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/D/D_OUT_v01.png",
+      "original_generated_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-ab5558a0-f97b-49d2-9200-f1269e3da9c8.png",
+      "prompt": "Use case: identity-preserve. Asset type: D_OUT, the end keyframe after the young emperor has listened to the favorable official report in a fictional serious Chinese historical drama. Input image 1 is the exact previous emperor shot C_OUT and primary continuity reference; input image 2 verifies the approved C01 facial identity. Make a single 16:9 live-action film frame, an almost adjacent moment later in exactly the same scene. Preserve the same emperor identity, face geometry and realistic skin, black-and-antique-gold embroidered robe, ivory collar, crown, hair, throne, desktop props, posture axis, cold morning light from screen-left and warm neutral skin rendering. Camera is only slightly closer than image 1, from the same angle and same height; frame around lower chest to above crown, with both hands at the original desk-edge positions still partly visible. He has just given one tiny serious nod and now lets his shoulders relax slightly, a restrained relieved softness in the eyes and a barely perceptible easing of his brow. His closed lips rest naturally; no broad smile, no laugh, no smugness, no obvious grin, no talking at this held endpoint. He has genuinely believed the positive official report. Right and left hands remain resting naturally near their original desk edge positions, no gesture, fingers relaxed, anatomically correct. Keep the desk, black-gold lacquer throne silhouette and lighting exactly continuous with input 1. No new character, no new props, no text, subtitles, speech bubbles, logo or watermark. Avoid generic handsome-face replacement, smoothing, beauty filters, fantasy, xianxia, anime, game CG, excessive HDR. Subtle cinematic acting and photographic consistency are the purpose.",
+      "input_references": [
+        "assets/keyframes/C/C_OUT_v01.png",
+        "assets/characters/C01/C01_FRONT_HALF_v01.png"
+      ],
+      "input_actual_paths": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/C/C_OUT_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C01/C01_FRONT_HALF_v01.png"
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": {
+        "visually_inspected": true,
+        "notes": "基于C_OUT保持脸服装光线御案位置；表情和肩膀变化细微，镜位几乎未推进。作为连续性结尾候选可用，动态点头动作留在视频Prompt执行；未经用户审片。"
+      }
+    }
+  ]
+}
+

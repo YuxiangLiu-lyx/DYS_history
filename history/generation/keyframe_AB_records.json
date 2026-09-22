@@ -1,0 +1,113 @@
+{
+  "project": "德云史记·慧后本纪",
+  "episode": "第一回·风起徽州",
+  "created_date": "2026-09-22",
+  "assets": [
+    {
+      "asset_id": "A_IN",
+      "version": "v01",
+      "status": "candidate_pending_user_review",
+      "tool": "built-in image_gen.imagegen",
+      "local_path": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/A/A_IN_v01.png",
+      "generation_original_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-7a968a85-5ce2-4a01-900b-3bdb8a879c5f.png",
+      "reference_images": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S01_DAY_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/E02/E02_ELDER_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/E01/E01_GUARD_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/E03/E03_CHILD_v02.png"
+      ],
+      "prompt": "Use case: compositing. 制作一张16:9中国架空历史电影静帧，平静的官仓等候领粮场面。图1固定同一徽州官仓：白墙黑瓦、紧闭木门、青石台阶与门槛、雨棚、湿润地面。图2固定老人五官、白发髻、胡须、褐色粗布衣裤、草鞋和缺口陶碗；图3固定值守官差黑帽黑灰衣服暗红滚边；图4固定孩子脸、发髻、土黄色上衣与棕裤。低机位中全景，摄影机在门外左前方，老人处于前景左侧，以侧身朝向右后方门口，平静地托着一只空陶碗到胸口高度。孩子站在老人旁边，轻扶他的衣袖，神情自然。官差站在门右侧值守，双手放低，姿态平静。后方雨棚下有几名普通百姓安静等候。所有人正常完整穿衣，无身体冲突、无恐吓、无伤害、无哭泣，孩子得到成人陪同。真实细雨、阴天柔光、湿地与布料自然质感，电影纪实摄影，人物不是面向镜头摆拍。保留参考演员的样貌与衣服，背景空间关系一致，无文字、字幕、标牌、水印，无现代物品，非动漫，非游戏CG，非仙侠，无过度HDR。这是虚构历史片场的日常等待画面。",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "qa": {
+        "inspected": true,
+        "notes": "Quiet waiting scene, no pushing. Actors, costumes and bowl match references; low camera framing reinterprets the entrance steps, so count of visible levels should be fixed during storyboard approval.",
+        "safety_adjustment": "Initial output was blocked by tool moderation, category other, request id 8813d018-a0ee-4292-b7a3-b44eebb4e863. A materially calmer scene of ordinary peaceful waiting was generated instead; no conflict or distress depiction."
+      }
+    },
+    {
+      "asset_id": "A_OUT",
+      "version": "v01",
+      "status": "candidate_pending_user_review",
+      "tool": "built-in image_gen.imagegen",
+      "local_path": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/A/A_OUT_v01.png",
+      "generation_original_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-009eeadb-4086-4b00-94a9-a5f35e057581.png",
+      "reference_images": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/A/A_IN_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/E02/E02_ELDER_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/E03/E03_CHILD_v02.png"
+      ],
+      "prompt": "Use case: compositing. 独立16:9中国架空历史电影静帧，Block A结束画面。图1是紧接着的同一场景A_IN，用它锁定官仓木门、门环、雨棚、石阶、阴雨天、湿青石以及三个人物的衣服发型与体型。图2固定老人的面貌衣服和那只单一缺口陶碗；图3固定孩子的面貌发髻和土黄色衣裤。摄影机降到离地约四十厘米并向台阶靠近，低机位中近景。老人现在已稳稳坐在门前最低处青石台阶上，腿自然伸向前景，表情疲惫但平静；孩子蹲在他身旁，双手轻扶老人前臂，认真看着他。原本老人手中的同一只缺口粗陶碗完整地落放在孩子脚旁的湿石地面，碗口朝上，只有这一只碗。官差位于后景右上，不接触二人，腿部可部分入画；其他排队人影只作远处虚焦背景。表现温和的陪伴与坐下后的静态，不出现摔落、推搡、打斗、伤口、血迹、恐吓或痛哭。孩子安全，有成人陪伴。真实小雨、湿润粗布衣服、冷柔自然光，普通历史电影人物镜头，面貌与图1/2/3一致。无文字、字幕、水印、游戏CG、玄幻、塑料脸、HDR。",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "qa": {
+        "inspected": true,
+        "notes": "Seated elder with child supporting his arm, same bowl at child's feet; no injury or falling moment. This is the nonviolent static end pose, not an image of the shove.",
+        "safety_adjustment": "Used an already-seated peaceful companionship pose; no pushing or falling action generated."
+      }
+    },
+    {
+      "asset_id": "B_IN",
+      "version": "v01",
+      "status": "candidate_pending_user_review",
+      "tool": "built-in image_gen.imagegen",
+      "local_path": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/B/B_IN_v01.png",
+      "generation_original_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-552c0cb3-9c15-4b4b-8ac5-1498678bba58.png",
+      "reference_images": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S02_DAY_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C04/C04_FRONT_HALF_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/E04/E04_MERCHANT_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/E07/E07_CLERK_v01.png"
+      ],
+      "prompt": "Use case: compositing. Asset type:《德云史记》第一回Block B入镜关键帧B_IN，独立16:9横幅写实架空历史电影单帧。图1为私粮仓白日场景Reference，锁定相同摄影机位、左后敞开搬粮木门、右后麻布粮袋堆、前右主案与案后椅子、主案左方客椅、侧后书吏小案、主要梁柱窗户、桌面关闭银匣/红签素纸/米粒/合上账簿。图2只作为虚构历史角色魏笑的既定演员定妆Reference，必须保持该成年男性脸型五官、黑色官帽、赭红暗纹官袍、米白内领，不重新设计人物。图3为粮商Reference，锁定胖中年男士圆脸、小胡子、黑软帽、暗橄榄金褐纹衣袍。图4为书吏Reference，锁定瘦中年面孔、黑巾帽、灰蓝布衣和袖口。安排：魏笑坐在画面右侧案后，身体向左侧粮商略转，脸以可辨认的三分之二面朝向镜头左方，平静听汇报；粮商坐在画面左前的客椅，身体朝右稍前倾，右手靠近桌面左端关闭的银匣，正准备把银匣推向魏笑，二人目光交流，不能阴笑。书吏坐在后方小案旁，低头整理素纸，灰蓝袖子清楚。左后门一位原创搬工肩扛一袋粮正跨门槛进入，室内右后另一搬工将另一袋粮放入原有粮堆，朴素土褐衣服，不遮住主要人物脸或形成肢体重叠。电影中全景，动作捕捉自然，左侧柔和白日窗光、沉稳深褐色，木材布料皮肤均真实。不变成舞台站队照，不加可读文字、字幕、水印、图例；无现代物件、仙侠、CG、卡通、夸张HDR。整张图是明确架空历史影视美术，不是当代纪实。",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "qa": {
+        "inspected": true,
+        "notes": "Wei on right, merchant on left, clerk at rear small desk, two laborers; same scene and principal props. Scene is fictional period drama."
+      }
+    },
+    {
+      "asset_id": "B_OUT",
+      "version": "v01",
+      "status": "candidate_pending_user_review",
+      "tool": "built-in image_gen.imagegen",
+      "local_path": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/B/B_OUT_v01.png",
+      "generation_original_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-744f70a1-2fea-48b5-87f4-697409d3a485.png",
+      "reference_images": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/B/B_IN_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/E07/E07_CLERK_v01.png"
+      ],
+      "prompt": "Use case: compositing.《德云史记》Block B结束关键帧，16:9横幅电影写实插入特写。图1是同一私粮仓B_IN入场画面，用来严格保持此空间的桌面木色、冷柔白日窗光方向、素纸和暗红签封材质；图2是书吏的定妆，只参考同一成年男性的灰蓝粗布袖口和手部，不显示他的脸和全身。相机切到B_IN中后方书吏小案上方近距离，50mm特写，桌面占满画面，背景是极虚的同仓木梁。画面只出现书吏的一双正常成年手和灰蓝衣袖：左手轻压一份已经折好、束封的素纸官奏，窄暗红纸封签横过文书；右手握着小方形木印章，印面刚落在封签上、印柄保持垂直。封签上可有局部抽象暗红印迹但绝无任何可读汉字或字母。完整文书平放，纸张比例真实，不是厚砖块。背景无需主要人物，不出现其他人的手。暖褐木案和冷灰蓝袖口、自然皮肤毛孔、真实纸纤维；动作是一件普通古代公务文书封缄流程。无字幕、水印、图表、额外物件，无现代办公品、魔法、HDR、CG。单张连续场景切镜电影画面，不做拼图。",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "qa": {
+        "inspected": true,
+        "notes": "Grey-blue clerk sleeves, folded paper, red binding and stamp hand insert. Decorative pseudo-seal visible, no legible body copy. Close-up reframing."
+      }
+    }
+  ],
+  "rejected_attempts": [
+    {
+      "asset_id": "A_IN",
+      "prompt": "Use case: compositing. Asset type:《德云史记》第一回Block A入镜关键帧A_IN，独立16:9横幅写实历史电影单帧，不是视频，不是漫画。输入图1是官仓日景空间Reference，严格保持同一白墙黑瓦、中央紧闭深色双木门、台阶和门槛、右侧悬挂灯笼、左右雨棚与道路；输入图2锁定E02老人五官、灰发髻、灰白胡须、破旧褐色交领衣裤、草鞋和有单一缺口的粗陶碗；输入图3锁定E01官差相貌、黑帽、黑灰衣服暗红滚边及束腰；输入图4锁定E03孩子相貌、头顶发髻、土黄色上衣、棕裤黑布鞋，孩子表情改为担忧。摄影：相机在官仓门外左前方约膝盖高度，35mm低机位中全景，朝向大门略仰拍；保留图1空间结构但使用更贴近人物的低机位，景深自然。老人位于前景左中，身体三分之二侧背向相机朝右后方官差，脸露可辨认侧面，右手把同一只空陶碗伸到胸前请求粮食。孩子站在老人身旁稍后，抓着老人左袖，视线看向台阶官差。官差站在大门右侧平台，面对老人，手自然垂下或低位示意等待，目前没有推搡、没有抬棍。左后雨棚下四五名普通百姓排队，原创不同面孔粗布衣服，尺度合理，注意力投向老人。持续真实细雨，阴天冷柔光，湿青石反射自然；衣服表面略湿，写实肤质。拍摄剧情自然瞬间，人物不能对着相机摆拍。不加任何文字、字幕、牌匾、水印、气泡；不添现代物、不游戏CG、不玄幻、不过度HDR，无伤口、血迹或暴力动作。人物大小按现实成人孩子比例，手部自然，碗只有一只。",
+      "references": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S01_DAY_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/E02/E02_ELDER_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/E01/E01_GUARD_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/E03/E03_CHILD_v02.png"
+      ],
+      "error": "output moderation_blocked; category other",
+      "request_id": "8813d018-a0ee-4292-b7a3-b44eebb4e863",
+      "artifact_created": false
+    }
+  ]
+}

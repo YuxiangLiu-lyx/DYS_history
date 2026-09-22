@@ -1,0 +1,8 @@
+{
+  "path": "episodes/ep01/script/EP01_LOCKED_v1.md",
+  "sha256": "5219a9614cb565720f1fb2cab9d2615c3b35dd6647b3b77fc9c64198b5c2bbfa",
+  "plot_locked": true,
+  "dialogue_locked": true,
+  "duration": 90,
+  "instruction": "用户明确不修改剧情；本轮只转制作包与补角色痣。脚本开头旧阶段状态保留原文，当前制作状态以context/STATUS.json为准。"
+}

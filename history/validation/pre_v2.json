@@ -1,0 +1,54 @@
+{
+  "integrity_pass": true,
+  "errors": [],
+  "expected_missing_identity_dependencies": [
+    {
+      "job": "D",
+      "path": "assets/characters/C03/C03_FRONT_HALF_v01.png"
+    },
+    {
+      "job": "D",
+      "path": "assets/characters/C03/C03_FULL_v01.png"
+    },
+    {
+      "job": "D",
+      "path": "assets/keyframes/D/D_IN_v01.png"
+    },
+    {
+      "job": "G",
+      "path": "assets/keyframes/G/G20_IN_v01.png"
+    },
+    {
+      "job": "G",
+      "path": "assets/keyframes/G/G20_OUT_v01.png"
+    },
+    {
+      "job": "G",
+      "path": "assets/characters/C03/C03_FRONT_HALF_v01.png"
+    },
+    {
+      "job": "G20",
+      "path": "assets/characters/C03/C03_FRONT_HALF_v01.png"
+    },
+    {
+      "job": "G20",
+      "path": "assets/characters/C03/C03_FULL_v01.png"
+    },
+    {
+      "job": "G20",
+      "path": "assets/keyframes/G/G20_IN_v01.png"
+    },
+    {
+      "job": "G20",
+      "path": "assets/keyframes/G/G20_OUT_v01.png"
+    }
+  ],
+  "production_release_gates": [
+    "C03_IDENTITY",
+    "STILL_REVIEW",
+    "SEEDANCE_PERSON_REFERENCE_ELIGIBILITY",
+    "GITHUB_WRITE_PERMISSION"
+  ],
+  "video_generated": false,
+  "github_synced": false
+}

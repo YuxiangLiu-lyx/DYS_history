@@ -1,0 +1,57 @@
+{
+  "date": "2026-09-22",
+  "tool": "image_gen__imagegen",
+  "revision_reason": "锁定镜20纸面与侧脸同框移焦，重作侧方略高机位及展开动作；保留素纸密报与皮护腕。",
+  "supersedes": [
+    "G20_IN_v01",
+    "G20_OUT_v01",
+    "G20_IN_v02",
+    "G20_OUT_v02"
+  ],
+  "records": [
+    {
+      "asset": "G20_IN_v03",
+      "target": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/G/G20_IN_v03.png",
+      "referenced_image_paths": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C03/C03_FRONT_HALF_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S07_CHAMBER_NIGHT_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/G/G20_IN_v02.png"
+      ],
+      "prompt": "Use case: identity-preserve / historical-scene. Create ONE 16:9 film keyframe, a new SIDE-ANGLE close shot of the same young Chinese investigator quietly beginning to unfold a secret letter at the same night desk. Input1 locks actor facial identity, black topknot, dark teal clothing and plain DARK BROWN matte LEATHER wrist guards with no ornate embossing or metal. Input2 locks the chamber set. Input3 locks night color, actor styling and lighting only; deliberately CHANGE THE CAMERA ANGLE so this is not the old front view of the back of his paper.\nRequired cinematic composition: camera is placed beside his shoulder on the LEFT SIDE of the seated man, slightly above his shoulder looking diagonally down along the desk. In the LOWER LEFT foreground, we clearly see the INSIDE READING SURFACE of the cream paper held low, almost horizontal over the desktop, angled upward so both the man and camera look at the SAME written side. In the UPPER RIGHT of this same shot is his recognizable near-side three-quarter PROFILE looking down toward that letter; show eye, cheek, nose and mouth, not the back of his head. The sheet and side face are at different depths to support a later paper-to-face rack focus. This physical arrangement is essential: do NOT give a straight front portrait with the paper back facing the camera. He holds the letter LOW just above the table with forearms in relaxed position.\nAction state is the START of opening: the paper has a clear lower panel exposed but its final upper flap is STILL FOLDED and lifted at about 60 degrees, his fingertips gently lifting this last flap. It is NOT already fully flat or entirely opened. Leave the visible inner lower panel blank with subtle natural fibers, a clean planar surface where eight Chinese characters can be added in post. No generated long writing required, no seal, no red tab, no red ribbon. Both hands credible, not hiding the whole paper surface.\nExpression neutral attentiveness before reading bad news, mouth closed. Natural round broad face and cheeks exactly from input1; no slimming or handsome face replacement. Same dark teak desk, candle on the set's right, cool lattice-window light from set left, shelf behind; camera changes make background perspective shift naturally but no set redesign. Both forearm guards must be PLAIN VERY DARK BROWN LEATHER, matte, simple leather straps, no metallic gold, no bronze, no floral patterns or armor. Serious live-action period film photography, 65mm lens with depth staging, no fantasy, plastic face, HDR, captions, new characters or modern objects. One image only.",
+      "source_output": "/workspace/scratch/217ce8a5e48d/generated_images/exec-fa25a26b-6313-42bd-81c6-c4a6fd749a83.png",
+      "output_hint": "Generated images are saved to /workspace/scratch/217ce8a5e48d/generated_images as /workspace/scratch/217ce8a5e48d/generated_images/exec-fa25a26b-6313-42bd-81c6-c4a6fd749a83.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "qa": {
+        "status": "visual_reviewed_pending_director_review",
+        "notes": [
+          "新侧方略高机位，前景纸正文可见面和侧脸同框。",
+          "保留上折页抬起形成明显折角，尚未摊平。",
+          "深棕皮护腕，无亮金属浮雕。"
+        ]
+      },
+      "sha256": "dc61a3a6c9f818d1abf3b72d88bf2407b173ca608eb1317968069da44c99561e",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "asset": "G20_OUT_v03",
+      "target": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/G/G20_OUT_v03.png",
+      "referenced_image_paths": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/G/G20_IN_v03.png"
+      ],
+      "prompt": "Use case: precise continuity edit. Input1 is the START frame of a 3.5-second silent shot. Create its END frame in exactly the SAME camera position and shot, 16:9. Preserve the same man, his facial identity, same body posture, dark teal robe, black topknot, PLAIN DARK BROWN MATTE LEATHER wrist guards, background night study, candle, furniture, window, lighting and exact framing. Only advance these two small actions: (1) the final raised flap of the same cream secret letter has now been completely unfolded into a single flatter sheet over the desk, with only the original crease line remaining. The paper's inside reading surface remains clearly visible to camera AND to the man looking down at it. Do not turn the paper around or show its back. His hands hold it still by the opposite edges, naturally adjusted by only a few centimeters to finish opening, no entirely new gesture; retain the foreground paper position, scale and blank matte surface for later text compositing. (2) He has just understood the alarming content: brows, lower eyelids and closed lips very subtly tighten, jaw firmer, restrained concern, no fear caricature, no wide eyes, shouting or tears. His gaze stays on the paper. The paper is still plain with no red tab, ribbon, wax, official seal or generated writing. Focus has now gently shifted to his recognizable three-quarter side face; foreground paper remains defined enough to understand and track text in post, background soft. Do not change camera angle, crop, light direction or location; do not add characters, props or captions. Wrist guards stay simple dark matte brown leather, NO metallic gold or embossed decoration. Photoreal grounded historical film frame, not a new scene.",
+      "source_output": "/workspace/scratch/217ce8a5e48d/generated_images/exec-58f9c565-cf90-40c3-b413-8ef8fe221653.png",
+      "output_hint": "Generated images are saved to /workspace/scratch/217ce8a5e48d/generated_images as /workspace/scratch/217ce8a5e48d/generated_images/exec-58f9c565-cf90-40c3-b413-8ef8fe221653.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "qa": {
+        "status": "visual_reviewed_pending_director_review",
+        "notes": [
+          "直接引用v03 IN同轴派生，前景纸正文仍可见。",
+          "上折页较起始更摊开、纸上折痕保留，眉眼收紧且未夸张。",
+          "场景镜位光线手持基本状态一致，深棕皮护腕。"
+        ]
+      },
+      "sha256": "dbdd32a418953cb43a82c95192ee91b4d89c597ca8b601b8dfef84e0ae10f62c",
+      "width": 1672,
+      "height": 941
+    }
+  ]
+}

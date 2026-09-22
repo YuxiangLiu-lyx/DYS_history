@@ -1,0 +1,52 @@
+{
+  "character_id": "C03",
+  "character": "小腿 / 腿校尉",
+  "date": "2026-09-22",
+  "identity_basis": "用户在当前消息明确指定所附图为小腿；不通过人脸识别推定新照片身份。",
+  "primary_reference": {
+    "file": "C03_user_identity_anchor.png",
+    "original_path": "/workspace/scratch/217ce8a5e48d/upload/b3391d61-582c-471b-a325-251e85d50ec0.png",
+    "library_id": "libfile_870270c8f91c8191a4ad84068c5cdf86",
+    "sha256": "c3a82ec9071427b1f494e61f15380d0bd3b480c85719c267debf3f29c73a2de2",
+    "usable": true,
+    "limitation": "灰绿色长发和披领是明显风格化装饰；图像只能锁定当前可见五官比例，侧脸需由正脸一致性推演，不能宣称真人多角度已经核验。"
+  },
+  "public_search_rounds": 2,
+  "public_better_reference_found": false,
+  "sources": [
+    {
+      "title": "德云色dys小腿变形计",
+      "url": "https://www.bilibili.com/video/BV1qT4y1R7iG/",
+      "status": "搜索可检索；页面读取 HTTP 412，未下载封面，不纳入身份参考。"
+    },
+    {
+      "title": "深夜直播被神秘客敲门，DYS小腿被吓坏了:什么意思啊，再敲真要找帽子叔叔啦，没招了",
+      "url": "https://www.bilibili.com/video/BV18q5B6aELd/",
+      "status": "标题明确小腿；页面读取 HTTP 412，未下载封面，不纳入身份参考。"
+    },
+    {
+      "title": "单飞！德云色三老板表示要送小腿去隔壁做吃播《孙亚都保不住腿国公》",
+      "url": "https://www.huya.com/video/play/990990402.html",
+      "status": "页面200，但未提供可用og:image；不纳入身份参考。"
+    },
+    {
+      "title": "德云色C位出道？从龙珠跳槽企鹅电竞后，这定妆照帅出天际了！",
+      "url": "https://k.sina.cn/article_2633061533_9cf1549d00100du69.html",
+      "status": "2018入驻定妆图无逐人标注，不据脸相认人、不作身份依据。"
+    }
+  ],
+  "visual_features": [
+    "偏宽圆脸、饱满双颊、宽而圆的下颌、短圆下巴。",
+    "自然略粗较平的眉，眉尾轻垂；眼形细长偏窄，轻微内双/上睑覆褶，眼尾近水平略下。",
+    "鼻梁自然不陡直；圆钝鼻头，较宽鼻翼。",
+    "上唇较薄，下唇较丰满，嘴微张；不要改成锋利薄削瓜子脸。"
+  ],
+  "remove_style_elements": [
+    "灰绿长发",
+    "卡通尖发束",
+    "奇幻披领",
+    "原图插画笔触"
+  ],
+  "costume_target": "既有C03服装样衣，暗青窄袖、皮腰带、护腕、靴；黑发束髻，年轻校尉，不做贵族冠冕或银发武侠。",
+  "conclusion": "以用户图继续角色定妆，无需等待新的公开照片。"
+}

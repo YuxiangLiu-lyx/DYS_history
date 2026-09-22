@@ -1,0 +1,125 @@
+{
+  "generated_at": "2026-09-22",
+  "tool": "image_gen__imagegen",
+  "changes_scope": "补齐小腿定妆及D/G20缺失关键帧，保持既有剧情与对白。",
+  "records": [
+    {
+      "asset": "C03_FULL_v01",
+      "target": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C03/C03_FULL_v01.png",
+      "prompt": "Use case: identity-preserve. Produce ONE photorealistic full-length costume reference still for an adult young Chinese palace investigator in a grounded historical TV drama, portrait 2:3. Input image 1 is the accepted actor face, black topknot hair and upper costume identity master: preserve exactly his round broad face, full cheeks, short round chin, gently drooping straight eyebrows, narrow eyes with soft upper eyelid crease, natural rounded nose and lips, natural adult skin, slight stubble. Input image 2 is the exact lower-body wardrobe cutting sample only, not a person. Show the same actor standing neutrally head to toe, frontal, hands relaxed outside sleeves, dark muted teal knee-length linen cross-collar narrow-sleeved robe, warm ivory inner collar, worn brown leather belt and matching wrist guards, charcoal trousers tucked in plain black boots. Compact black hair topknot wrapped with dark cloth as input1, no hat/crown, no sword, no badge. Neutral warm gray seamless costume fitting background, soft realistic studio daylight, same unretouched face, real woven fabric, correct human proportions and hands. This is a production wardrobe identity reference, not an action poster. No writing, captions, labels, watermark, graphic panels, fantasy, glossy retouching, jewelry, gray hair or heroic angular face.",
+      "referenced_image_paths": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C03/C03_FRONT_HALF_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C03/C03_WARDROBE_ONLY_v01.png"
+      ],
+      "output_hint": "Generated images are saved to /workspace/scratch/217ce8a5e48d/generated_images as /workspace/scratch/217ce8a5e48d/generated_images/exec-3c841499-23b9-4cf0-b528-24b8b1781acf.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "source_output": "/workspace/scratch/217ce8a5e48d/generated_images/exec-3c841499-23b9-4cf0-b528-24b8b1781acf.png",
+      "qa_status": "visually_reviewed_pending_user_approval",
+      "qa": {
+        "result": "pass_for_user_review",
+        "notes": [
+          "全身完整入画，黑束髻、暗青交领袍、皮带护腕黑靴与母版一致。",
+          "脸型眉眼鼻唇神似，无灰发卡通装饰。"
+        ]
+      },
+      "sha256": "f0dbef5e4854a9572ae6aa45d5be6745b29973ac69be32db67081e26e669feb3",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1993411
+    },
+    {
+      "asset": "C03_ANGLES_EXPRESSIONS_v01",
+      "target": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C03/C03_ANGLES_EXPRESSIONS_v01.png",
+      "prompt": "Use case: identity-preserve. One photorealistic costume casting contact sheet, landscape 3:2, exactly six equally sized tightly framed head-and-upper-chest photographs in a clean 3 columns by 2 rows layout. ALL SIX photographs must depict exactly the same adult Chinese man in the input actor master, same broad round face, full cheeks, short rounded chin, flat natural thick brows with mildly drooped ends, narrow eyes, natural rounded nose, same lips, slight chin stubble, same black topknot with dark cloth, dark muted teal cross-collar robe and ivory undershirt. Match each angle without beautifying into a different thin-faced actor. Panel positions fixed: top-left strictly frontal neutral looking at camera; top-middle head turned 45 degrees toward image left showing his anatomical RIGHT cheek more, gaze follows nose; top-right head turned 45 degrees toward image right showing his anatomical LEFT cheek more, gaze follows nose; bottom-left an exact SIDE PROFILE with nose pointing to image LEFT, only nearer eye clearly visible; bottom-middle frontal cautious attentive expression, mouth relaxed closed, slightly narrowed eyes, subtle not comical; bottom-right face slightly three-quarter, gaze lowered as reading something below frame, jaw and brows gently tighten in restrained concern, not startled. The neutral background, scale, lighting and costume are consistent in all six panels. Natural skin with pores, soft photographic studio light, realistic historical drama actor fitting. No words, arrows, numbers, labels, captions, watermark or additional props. Side views are visual production inference from the master, do not write any claim of verified real-person side photography.",
+      "referenced_image_paths": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C03/C03_FRONT_HALF_v01.png"
+      ],
+      "output_hint": "Generated images are saved to /workspace/scratch/217ce8a5e48d/generated_images as /workspace/scratch/217ce8a5e48d/generated_images/exec-f819d05f-a4ce-467d-8433-c4f7a138945e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "source_output": "/workspace/scratch/217ce8a5e48d/generated_images/exec-f819d05f-a4ce-467d-8433-c4f7a138945e.png",
+      "qa_status": "visually_reviewed_pending_user_approval",
+      "qa": {
+        "result": "pass_for_human_review_only",
+        "notes": [
+          "六格涵盖正脸、朝画左45度、朝画右45度、朝画左侧面、谨慎、低头读报收紧。",
+          "侧面是依据母版生成推演，非真人侧脸核验；仅供人审，不整体输入Seedance。"
+        ]
+      },
+      "sha256": "64a364d062a6455d2caa09d6b39a6adff7b19af9aef4245c4c4a53223c43778f",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2292627
+    },
+    {
+      "asset": "D_IN_v01",
+      "target": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/D/D_IN_v01.png",
+      "prompt": "Use case: identity-preserve / historical-scene. Create ONE cinematic 16:9 keyframe from a serious live-action Chinese historical drama. Input1 ONLY defines the young investigator actor and costume: preserve exactly face, broad round cheeks, black plain topknot wrapped in dark cloth, dark muted teal narrow-sleeved crossed robe, ivory collar, brown belt and leather wrist guards. Input2 defines the real palace court architecture: red pillars, heavy dark carved beams, latticed high side windows, gray stone floor; northern throne end and southern entrance stay on the same main axis. Input3 defines ONLY the preceding camera's morning soft side daylight, muted gold-black/red palette and realism. DO NOT use the emperor face or his royal costume from input3; the emperor is outside the picture behind the camera. This is a reaction reverse from the NORTH throne-side toward the SOUTH half of the court: a medium waist-up three-quarter-front view of the investigator standing in the central aisle before the throne, his body oriented north toward the unseen emperor, turned just enough to the camera to see his recognizable face. He holds an ALREADY OPENED cream paper official folding memorial at chest height in BOTH hands, a small cinnabar RED paper docket tab clearly attached to its edge. The front of the memo is mostly angled away and need not have readable long writing. His eyes read downward, lips naturally slightly parted mid-sentence, cautious professional composure without fear. No added people in shot, no emperor duplicate, no desk, no scholar hat, no kneeling, no secret envelope. Background court pillars and distant south entrance softly out of focus; preserve believable orientation, NOT a throne placed behind the speaker. 50mm cinematic lens, camera at eye level, natural cloth and skin, real light, subdued film grain. No text overlays or subtitles. Single image, no collage, fantasy or plastic face.",
+      "referenced_image_paths": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C03/C03_FRONT_HALF_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S04_COURT_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/C/C_OUT_v01.png"
+      ],
+      "output_hint": "Generated images are saved to /workspace/scratch/217ce8a5e48d/generated_images as /workspace/scratch/217ce8a5e48d/generated_images/exec-9b995be7-a1d0-4f91-9343-46b36ff1e44b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "source_output": "/workspace/scratch/217ce8a5e48d/generated_images/exec-9b995be7-a1d0-4f91-9343-46b36ff1e44b.png",
+      "qa_status": "visually_reviewed_pending_user_approval",
+      "qa": {
+        "result": "pass_for_user_review",
+        "notes": [
+          "朱签官奏已展开、唇微张正在读，与G20素纸区分。",
+          "南侧入口在人物后方，未将北御座误置身后，晨光承接C_OUT/S04。",
+          "无额外人物或字幕。"
+        ]
+      },
+      "sha256": "4ce1cdb309cae97b3cd33af05c2ac7fd23c229b8eeffba1e52d14137923ef28f",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1899446
+    },
+    {
+      "asset": "G20_IN_v01",
+      "target": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/G/G20_IN_v01.png",
+      "prompt": "Use case: identity-preserve / historical-scene. Create ONE 16:9 cinematic start keyframe of an intimate silent late-night secret report scene in a grounded Chinese historical drama. Input1 is the ONLY actor identity/wardrobe reference: exactly the same adult young Chinese man, broad round face, full cheeks, short round chin, natural narrow eyes, rounded nose, plain BLACK topknot wrapped with dark cloth, muted dark teal narrow-sleeved robe with ivory inner collar and brown leather wrist guards. Input2 is the exact chamber set: dark wooden desk, candle to desk right, blue night light through lattice window on left, bookshelf behind, carved wooden chair, subdued warm candle pool. Keep this geography. Camera is across the near side of the desk slightly to the actor's LEFT, eye level medium-close, 65mm lens. The man seated behind the desk occupies image center-right in three-quarter view, face clearly recognizable, eyes calmly lowered. Both hands with leather wrist guards start to unfold one small aged cream PLAIN PAPER secret report in the foreground above the desk, first fold raised but the sheet not fully opened. NO red tab, NO red string, NO wax seal, NO official folio; it must look distinct from the ceremonial red-tag court memorial. Keep a clean undecorated paper area for later text compositing rather than long generated readable writing. Strong depth staging: foreground paper and hands closest, actor face midground, night chamber behind. Hands realistic and fully attached, relaxed attentive expression at the moment BEFORE understanding the alarming message, mouth closed. Warm practical candle light from frame right and faint cool window fill frame left, natural skin and woven linen, no extreme orange/blue grading. No other person, no extra actions, no captions, no subtitle, no fantasy, no collage, no modern objects. Preserve framing to allow a later same-camera end frame with the sheet open and his eyes subtly tense.",
+      "referenced_image_paths": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C03/C03_FRONT_HALF_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S07_CHAMBER_NIGHT_v01.png"
+      ],
+      "output_hint": "Generated images are saved to /workspace/scratch/217ce8a5e48d/generated_images as /workspace/scratch/217ce8a5e48d/generated_images/exec-6cf8e5ce-7a1a-4c80-808c-cfd734b56179.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "source_output": "/workspace/scratch/217ce8a5e48d/generated_images/exec-6cf8e5ce-7a1a-4c80-808c-cfd734b56179.png",
+      "qa_status": "visually_reviewed_pending_user_approval",
+      "qa": {
+        "result": "pass_for_user_review",
+        "notes": [
+          "S07左侧冷窗光右侧烛光，桌前素纸无红签。",
+          "纸第一折已展开并保留折角，开始动作状态。",
+          "护腕烛光下偏金高光；视频保持棕皮质，不强化成金属铠甲。"
+        ]
+      },
+      "sha256": "f59717abb2ebec243f6e3c6ca7376c05a29373a4efe692e91f231f8298de6f92",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1864876
+    },
+    {
+      "asset": "G20_OUT_v01",
+      "target": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/G/G20_OUT_v01.png",
+      "prompt": "Use case: identity-preserve, precise continuity edit. Edit input1 into the ending frame exactly 3.5 seconds later in the SAME take. Preserve the identical camera position, 16:9 composition, same man and recognizable facial identity, hair, dark teal cross-collar robe, leather wrist guards, desk, chair, background objects, left blue window light, right candle and warm candle illumination. Input2 is only an additional face and costume identity anchor; do not import its gray studio background. Only advance TWO small details: his hands have now finished unfolding the same plain cream secret report, the upper fold lowered slightly so the sheet is more fully open in front of his chest, his two hands STOP naturally gripping opposite edges of the paper; and he has finished registering the bad news, his lower eyelids and brow become subtly tenser, mouth pressed closed and jaw slightly firm. Keep his gaze down at the report with restrained serious concern, not theatrical shock, not angry shouting, not tears. His face remains the same round broad cheeked adult man; don't add age, thin the face or change the eyes. One small deliberate response suitable for a historical drama. Keep both wrists as natural brown leather under candlelight, not metal armor. The sheet remains PLAIN without red tag, ribbon, official stamp, seal or long generated writing; preserve an undecorated surface for later tracked text overlay. No new person, no new props, no dialogue text, no captions, no modern items. Do not turn the shot into a different camera angle, do not mirror the scene, don't move candle or window. Photographic skin and textile detail, grounded cinematic realism.",
+      "referenced_image_paths": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/G/G20_IN_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C03/C03_FRONT_HALF_v01.png"
+      ],
+      "output_hint": "Generated images are saved to /workspace/scratch/217ce8a5e48d/generated_images as /workspace/scratch/217ce8a5e48d/generated_images/exec-e14a73df-f790-4270-a2d2-937408c4bef8.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "source_output": "/workspace/scratch/217ce8a5e48d/generated_images/exec-e14a73df-f790-4270-a2d2-937408c4bef8.png",
+      "qa_status": "visually_reviewed_pending_user_approval",
+      "qa": {
+        "result": "pass_for_user_review",
+        "notes": [
+          "由G20_IN直接派生，同镜位场景服装光位。",
+          "纸更展开，眉眼嘴角适度收紧，无夸张惊恐。",
+          "无红签红绳官印与新人物；长文字后期贴合。"
+        ]
+      },
+      "sha256": "e186f265889f70c1309ca2b3a21a803139fda9039753a4b285c9c6b842fd65eb",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1828678
+    }
+  ]
+}

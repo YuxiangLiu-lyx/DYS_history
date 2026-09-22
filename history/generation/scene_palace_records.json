@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-09-22T00:33:20.087Z",
+  "project": "德云史记·慧后本纪",
+  "episode": "第一回·风起徽州",
+  "tool": "built-in image_gen.imagegen",
+  "status": "candidate_pending_user_review",
+  "note": "仅补充制作场景空景参考，不代表剧情修改、关键帧或视频已生成。完整保留原始输出，不做像素编辑。",
+  "assets": [
+    {
+      "asset_id": "S03",
+      "version": "v01",
+      "status": "candidate_pending_user_review",
+      "relative_path": "assets/scenes/S03_PALACE_v01.png",
+      "actual_path": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S03_PALACE_v01.png",
+      "original_generated_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-d7828584-86f7-403d-9754-41f5140251b9.png",
+      "prompt": "Use case: historical-scene. Asset type: S03 PALACE, clean empty scene reference for a serious live-action Chinese historical television drama named Deyun History. Generate one 16:9 wide film frame, 2048x1152 if available. A grand fictional Chinese imperial palace seen along its central axis in pale dawn mist, establishing shot from south looking north across the broad stone approach to an open palace gate and the layered main hall behind it. Historically plausible load-bearing timber architecture combining restrained Ming palace massing and classical Chinese elements, not an exact reproduction of a real landmark. Palace walls of weathered muted ochre-red plaster over masonry, dark grey stone foundation, deep crimson lacquered gates and columns, restrained dark bronze and aged gold hardware, muted dark olive glazed roof tiles, proper roof weight and consistent vanishing points. The open doorway is a continuous believable route for two lines of officials, but the whole scene is currently empty. Grand scale through architecture and atmospheric depth, no exaggerated towers. A very subtle damp sheen on broad worn grey stone pavement, cold pale morning sky, soft natural sidelight, thin real mist, photographic lens depth, realistic film still, 28mm lens. Empty set, no people anywhere, no crowd, no guards, no animals. No readable writing, no name plaques with characters, no logos or watermark. No fantasy, no xianxia, no videogame render, no CG sheen, no oversharpening, no stylized HDR, no glossy gold palace. Architectural realism and quiet imperial authority.",
+      "input_references": [],
+      "input_actual_paths": [],
+      "qa": {
+        "visually_inspected": true,
+        "notes": "宫门中轴朝雾，空场、入口明确；建筑透视自然，适合填入两列百官。",
+        "no_people": true,
+        "no_readable_text": true
+      },
+      "kind": "empty_scene_reference",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "asset_id": "S04",
+      "version": "v01",
+      "status": "candidate_pending_user_review",
+      "relative_path": "assets/scenes/S04_COURT_v01.png",
+      "actual_path": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S04_COURT_v01.png",
+      "original_generated_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-eb351821-9294-4c7b-83f8-f64af4785d65.png",
+      "prompt": "Use case: historical-scene. Asset type: S04 COURT, clean empty set reference for a serious live-action Chinese historical television drama. Generate one 16:9 wide film frame, 2048x1152 if available. Interior of a grand fictional Chinese dynasty court hall, camera near the south entrance looking straight north to a raised black-and-aged-gold imperial throne on three broad low stone steps. Believable heavy timber roof supported by deep crimson lacquered columns and a rational beam system, warm aged dark timber ceiling, restrained bronze fittings, charcoal-grey stone floor. The chamber is grand yet physically shootable as an actual film set, not a fantasy cathedral. Soft cold morning daylight enters from high lateral lattice windows, no impossible floating light sources, gentle natural shadow, subdued gold. Open unobstructed central aisle; clear empty floor on left and right to accommodate two parallel lines of ministers. Leave an empty prime minister standing location at front west side, meaning camera-left, and an empty messenger location on centerline several paces south of the throne steps. The two locations are floor space only, no markings, no diagrams. The throne is visible across the room at a useful cinematic scale. Symmetrical 28mm wide composition with convincing perspective and beam-column junctions. Nobody anywhere, no standing figures, no emperor, no guards, no crowd. No readable text or characters, no calligraphy, no labels, no watermarks. Restrained natural film photography, real wood, stone and brocade textures. No xianxia, magic, anime, game CG, high HDR, plastic surfaces or excessive ornamental dragons.",
+      "input_references": [],
+      "input_actual_paths": [],
+      "qa": {
+        "visually_inspected": true,
+        "notes": "朝堂南向北视点，左西右东站位留空；实际图御座为多级台阶，后续镜头应沿用此图实际空间，不按文字另造三阶。",
+        "no_people": true,
+        "no_readable_text": true
+      },
+      "kind": "empty_scene_reference",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "asset_id": "S07",
+      "version": "v01",
+      "status": "candidate_pending_user_review",
+      "relative_path": "assets/scenes/S07_CHAMBER_NIGHT_v01.png",
+      "actual_path": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S07_CHAMBER_NIGHT_v01.png",
+      "original_generated_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-989458d0-5213-4e52-a615-f9e26ceb7ad3.png",
+      "prompt": "Use case: historical-scene. Asset type: S07 CHAMBER NIGHT, empty practical palace side room reference for a serious live-action Chinese historical drama. Generate one 16:9 cinematic film frame, 2048x1152 if available. Modest but well-crafted timber side chamber inside a fictional imperial palace at night. Medium-wide composition from the doorway at a slight diagonal toward an old dark elm writing desk placed beside a wooden lattice window. On the desk: one folded plain ivory paper intelligence report lying unopened, its folds and edges clearly visible, no legible writing; a simple bronze candleholder with one lit candle; a brush rest and plain dark inkstone, arranged with enough clear space for a young court messenger to stand and open the report. His future standing position behind the desk must be empty. Warm flickering candle light from camera-right illuminates natural paper fibers, old wood grain and the immediate tabletop. Dim cold blue moonlight through the lattice window on camera-left shapes the far wall, with believable contrast, readable shadows and subtle dust. Timber walls, restrained dark crimson wood frame, ordinary stone floor, no luxury clutter, no hanging character scroll. Photograph of a real quiet historical film set, 40mm lens, skin-neutral grading intended for later compositing, true material textures. No people, faces, bodies, silhouettes, ghosts or animals. No readable text, inscriptions, subtitles, logos or watermark. No xianxia, fantasy, anime, videogame CG, plastic wood, oversharpening or strong HDR.",
+      "input_references": [],
+      "input_actual_paths": [],
+      "qa": {
+        "visually_inspected": true,
+        "notes": "月光在左、烛光在右，桌上素纸合拢，人物站位空场；密报特写应按实际拍摄需求另行展开并后期加字。",
+        "no_people": true,
+        "no_readable_text": true
+      },
+      "kind": "empty_scene_reference",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "asset_id": "S08",
+      "version": "v01",
+      "status": "candidate_pending_user_review",
+      "relative_path": "assets/scenes/S08_WALL_NIGHT_v01.png",
+      "actual_path": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S08_WALL_NIGHT_v01.png",
+      "original_generated_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-17461322-1ce8-421a-bc90-708d41d5f760.png",
+      "prompt": "Use case: historical-scene. Asset type: S08 WALL NIGHT, empty film set scene reference for the same fictional imperial palace shown in input image 1 (S03 PALACE). Input image 1 is architectural continuity reference only: inherit its weathered muted ochre-red masonry, dark grey stone foundations and paving, deep crimson timber, aged bronze lantern forms, and dark olive glazed roof silhouette. Create a NEW plausible camera position on the broad palace wall walkway at night, not the same frontal morning shot. One 16:9 photographic frame, 2048x1152 if available. Camera at human chest height at the inner side of a wide stone walkway, looking obliquely along its worn parapet toward the city below; an open foreground section near the parapet leaves enough unobstructed space for the emperor and his prime minister to stand in a later shot, but it is completely empty now. Parapet correct waist-to-chest height for humans, large irregular natural stone cap slabs, crenellations where architecturally appropriate, safe broad wall walkway. A corner roofed watch pavilion occupies the far end, with the restrained greenish-dark roof tiles and wood bracket proportions of reference image 1. The palace main hall roof silhouette matching reference 1 rises in the middle distance on the palace side; a modest old city of dark grey tiled roofs and a scattering of warm household lights lies outside the wall, geographic orientation coherent. Pale cool moonlight and subdued warm practical lantern pools, soft midnight sky with thin cloud, lightly damp natural stone, clear subject staging area, 35mm live-action historical drama cinematography. Natural low-key exposure with enough shadow detail for later character compositing, restrained palette and real texture. No people anywhere, no figures, no guards, no silhouettes, no animals. No readable text, no banners with writing, no labels, no logos or watermark. No new palace architectural style, no European battlement castle, no fantasy towers, no xianxia magic, no videogame CG, no oversharpening or strong HDR.",
+      "input_references": [
+        "assets/scenes/S03_PALACE_v01.png"
+      ],
+      "input_actual_paths": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S03_PALACE_v01.png"
+      ],
+      "qa": {
+        "visually_inspected": true,
+        "notes": "引用并已查看S03：材质、殿宇轮廓连续；夜墙左栏右宫身，帝相位置留空。",
+        "no_people": true,
+        "no_readable_text": true
+      },
+      "kind": "empty_scene_reference",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ]
+}
+

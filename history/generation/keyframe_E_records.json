@@ -1,0 +1,44 @@
+{
+  "scene_block": "E",
+  "assets": [
+    {
+      "id": "E_IN_v01",
+      "created_at": "2026-09-22",
+      "mode": "built-in image_gen",
+      "taxonomy": [
+        "historical-scene",
+        "identity-preserve"
+      ],
+      "prompt": "Use case: historical-scene, identity-preserve.\nAsset type: E_IN, a single 16:9 landscape live-action Chinese historical drama movie keyframe, no border, no contact sheet, no written text.\nInput references: Image 1 is the exact Ting Song Lou salon location and architectural/spatial reference. Image 2 is the locked Pan Hui face reference, including the tiny natural dark beauty mark immediately at the mouth corner on the same facial side as the jade hairpin; when her face is frontal this is the viewer's RIGHT corner. Image 3 locks her full outfit, pale ivory inner robe and light blue-gray embroidered silk outer robe. Image 4 locks the young suitor's face, natural hair, small woven-looking hair crown, beige patterned robe and brown sash.\nPrimary request: Stage a natural cinematic medium-wide two-person establishing shot of a polite afternoon gathering inside this exact elegant historical salon. Pan Hui sits at the guqin at SCREEN RIGHT, a low unobtrusive seat of appropriate height, softly focused and composed as she is about to finish the last notes of a phrase. Her fingertips are physically touching the seven strings in a believable playing position. She wears exactly her reference dress, hair arrangement and jade pin, retain the subtle mouth-corner mole. Do not look at camera, no modern fashion posing. The young suitor sits in the guest position at SCREEN LEFT, listening politely, torso naturally oriented toward her. The adjacent reception table remains in the CENTER, clear conversational space between them; dark wooden tea tray, small ceramic vase and a folded beige deed paper near the suitor's side. Keep the reference salon's right-hand open lattice windows with hanging bamboo shades, pine branches outside and misty white-wall dark-tile Huizhou waterside architecture. Keep the staircase and draped doorway toward the BACK LEFT.\nExactly two original non-celebrity male attendants stand quietly at the rear left behind the suitor, visually subordinate: one carries a modest brass-gold tray with a few gold ingots; the other holds a closed small dark lacquer jewelry box. They are separate gifts, no crowd or extra characters. Everyone behaves with restraint and dignity.\nPhotography: 35mm lens at a seated observer's eye level, natural believable room depth, off-center composition, continuous geography, moderate depth of field with faces readable, gentle right-side afternoon window light and soft bounce, no artificial spotlight. Real skin pores, cloth weight, worn wood, calm historic movie seriousness, unforced cinematic realism. Preserve the quiet earthy wood and slate-blue palette from the location. Pan Hui is graceful, warm and self-possessed, never seductive or villainous.\nConstraints: one independent still, full-bleed exact 16:9 composition, ideally 2048x1152; preserve identities and costume/hair, no reversed beauty mark, no new moles, no mirrored room, no fantasy elements, no game CG, no over-sharpening, no plastic skin, no subtitles, no watermark, no calligraphic added title. The deed has no readable characters. Do not add a story event beyond the last notes being played.",
+      "refs": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S05_SALON_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C05/C05_FRONT_HALF_v03.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C05/C05_FULL_v02.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/E05/E05_SUITOR_v01.png"
+      ],
+      "generated_source": "/workspace/scratch/217ce8a5e48d/generated_images/exec-883324cd-6ae1-44a8-913a-a7052886f3af.png",
+      "output_path": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/E/E_IN_v01.png",
+      "status": "generated_inspected",
+      "inspection": "Medium-wide: Pan Hui right at guqin, suitor left, reception table center, two attendants rear-left with gold ingots and closed jewelry box, same windows/staircase. Natural performance; suitable as staging anchor. Small mouth-corner mole remains subordinate at this wide scale; C05_FRONT_HALF_v03 stays authoritative for close-up fidelity. No retry."
+    },
+    {
+      "id": "E_OUT_v01",
+      "created_at": "2026-09-22",
+      "mode": "built-in image_gen",
+      "taxonomy": [
+        "historical-scene",
+        "identity-preserve"
+      ],
+      "prompt": "Use case: historical-scene, identity-preserve.\nAsset type: E_OUT, one independent 16:9 landscape cinematic live-action Chinese historical drama keyframe; no text, no border, no contact sheet.\nInput references: Image 1 is the approved E_IN frame and is the authoritative scene continuity reference: the young suitor seated at the left end of the reception table, two charcoal-robed attendants standing behind him near the back-left staircase, the location, natural afternoon window light, costumes and props. Image 2 locks the suitor's facial identity, hairstyle, small hair crown and beige/brown robe. Image 3 is the original Ting Song Lou salon architecture.\nPrimary request: Derive the end reaction close shot from exactly this scene, moments later, without changing the room, identities or costume. A natural MEDIUM CLOSE-UP of the seated young suitor from just below his chest to above his crown, filmed from the same side of the established conversation axis. He has received back the same folded rectangular beige house-deed paper that was near him on the table in Image 1. The paper is now at HIS side of the table, supported in his right hand at the lower frame edge, just after he has taken it. His left hand makes a small dignified open-handed signal toward the two attendants behind-left to collect the gifts. His head turns slightly toward them and a small good-humored, gracious smile appears: he accepts the refusal without embarrassment, anger or sarcasm. His eyes do not meet camera.\nKeep spatial evidence from Image 1: charcoal-clad attendants remain behind him to screen left in soft focus; one still holds the modest brass-gold tray with a few gold ingots, the other still holds the closed dark lacquer jewelry box. They have only begun to acknowledge his signal, no exaggerated bowing, no movement already completed. The old timber staircase and blue-gray curtain are behind them. A portion of the same reception table and pale blue-gray table runner enters the lower right foreground. Pan Hui is outside this close composition to the right; do not show a new woman or relocate her. Do not show the guqin in a new position or add furniture.\nPhotography: 65mm cinematic lens, seated eye-level, shallow but not extreme depth of field, credible skin texture and cloth, soft right-side afternoon light coming from the salon windows, grounded live-action realism, muted warm wood and ivory robe palette, consistent exposure with Image 1. One readable reaction and small gesture, actor performance feels like an earnest historical drama.\nConstraints: identical suitor face and crown and costume from references, no mirrored faces or room, no extra characters, no mocking laughter, no villain smirk, no raised index pointing, no applause, no new plot event. Natural hands, deed stays on the suitor's side and is unlettered/no readable text. Full-bleed 16:9, ideally 2048x1152. No subtitles, no caption, no written signage, no watermark, no illustration, no CG, no oversharpening.",
+      "refs": [
+        "/workspace/scratch/217ce8a5e48d/generated_images/exec-883324cd-6ae1-44a8-913a-a7052886f3af.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/E05/E05_SUITOR_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S05_SALON_v01.png"
+      ],
+      "generated_source": "/workspace/scratch/217ce8a5e48d/generated_images/exec-9d94d156-b70b-4a9e-9b3d-2939878ee7c0.png",
+      "output_path": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/E/E_OUT_v01.png",
+      "status": "generated_inspected",
+      "inspection": "Medium reaction shot: same suitor and attendants, deed received at his side, small smile and open-hand signal toward attendants. Same room and afternoon light; no mocking reaction. Actual visible blocking has deed in his anatomical left hand and signal with his right; carry this actual still blocking into video prompt if individual hands are specified. No retry."
+    }
+  ]
+}

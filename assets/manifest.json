@@ -1,0 +1,1095 @@
+{
+  "schema_version": 1,
+  "project": "德云史记·慧后本纪",
+  "episode": "EP01",
+  "selection_authority": "assets/current_selection.json",
+  "generated_images_are_original_bytes": true,
+  "new_scene_and_keyframe_approval": "pending_user_review",
+  "blocked_character": null,
+  "c03_identity_source": "assets/source_photos/C03_user_identity_anchor.png",
+  "pan_identity_authority": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+  "assets": [
+    {
+      "id": "C01_ANGLES_EXPRESSIONS_v01",
+      "path": "assets/characters/C01/C01_ANGLES_EXPRESSIONS_v01.png",
+      "kind": "characters",
+      "current": true,
+      "status": "accepted_base_design",
+      "bytes": 2294185,
+      "sha256": "9f3e337dcd5bbe240d546e9be9ca4d5bdb4d6d35e43e6f41b9cc486b639d2f4f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "C01_FRONT_HALF_v01",
+      "path": "assets/characters/C01/C01_FRONT_HALF_v01.png",
+      "kind": "characters",
+      "current": true,
+      "status": "accepted_base_design",
+      "bytes": 2224425,
+      "sha256": "3371302b239a11e0da68d66555e5a5792c8911d7806d054c21ecc220779c5e68",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "usable_as_single_character_reference": true
+    },
+    {
+      "id": "C01_FULL_v01",
+      "path": "assets/characters/C01/C01_FULL_v01.png",
+      "kind": "characters",
+      "current": true,
+      "status": "accepted_base_design",
+      "bytes": 2274930,
+      "sha256": "8ed937b42f77f689c3eabc157b373945250ab3e9084499b5a7c6c0ad44e68416",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "usable_as_single_character_reference": true
+    },
+    {
+      "id": "C02_ANGLES_EXPRESSIONS_v02",
+      "path": "assets/characters/C02/C02_ANGLES_EXPRESSIONS_v02.png",
+      "kind": "characters",
+      "current": true,
+      "status": "accepted_base_design",
+      "bytes": 2126377,
+      "sha256": "76ec8ba194cba54ad836b9acc23499c9fec8583ebbd150191b954c36977d11cc",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "C02_FRONT_HALF_v01",
+      "path": "assets/characters/C02/C02_FRONT_HALF_v01.png",
+      "kind": "characters",
+      "current": true,
+      "status": "accepted_base_design",
+      "bytes": 2276273,
+      "sha256": "545540955d27a66096a495d23a4149347a21ccf37e237b3dc2adc69b1b5f1ccd",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "usable_as_single_character_reference": true
+    },
+    {
+      "id": "C02_FULL_v01",
+      "path": "assets/characters/C02/C02_FULL_v01.png",
+      "kind": "characters",
+      "current": true,
+      "status": "accepted_base_design",
+      "bytes": 2200322,
+      "sha256": "92d728a4156ebb89d91a5aeff69ae62c16b1be05badfc92b5b1a5ebfe319610d",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "usable_as_single_character_reference": true
+    },
+    {
+      "id": "C03_ANGLES_EXPRESSIONS_v01",
+      "path": "assets/characters/C03/C03_ANGLES_EXPRESSIONS_v01.png",
+      "kind": "characters",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2292627,
+      "sha256": "64a364d062a6455d2caa09d6b39a6adff7b19af9aef4245c4c4a53223c43778f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "C03_FRONT_HALF_v01",
+      "path": "assets/characters/C03/C03_FRONT_HALF_v01.png",
+      "kind": "characters",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2343584,
+      "sha256": "41db169fbe61e413818ee53211f150132c07de9a5d703099453d663b68fa8e34",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "usable_as_single_character_reference": true
+    },
+    {
+      "id": "C03_FULL_v01",
+      "path": "assets/characters/C03/C03_FULL_v01.png",
+      "kind": "characters",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 1993411,
+      "sha256": "f0dbef5e4854a9572ae6aa45d5be6745b29973ac69be32db67081e26e669feb3",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "usable_as_single_character_reference": true
+    },
+    {
+      "id": "C03_WARDROBE_ONLY_v01",
+      "path": "assets/characters/C03/C03_WARDROBE_ONLY_v01.png",
+      "kind": "characters",
+      "current": true,
+      "status": "wardrobe_only_design_reference",
+      "bytes": 2039785,
+      "sha256": "c8c116e7b9ac91defc326019d76da4f5a35da0a0d60f23378b1e4bf3b58255eb",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "C04_ANGLES_EXPRESSIONS_v02",
+      "path": "assets/characters/C04/C04_ANGLES_EXPRESSIONS_v02.png",
+      "kind": "characters",
+      "current": true,
+      "status": "accepted_base_design",
+      "bytes": 2016852,
+      "sha256": "0628bb9bee9572e0de95584d5fd458c90f540925f3572823f6797a9c0ddd01b5",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "C04_FRONT_HALF_v01",
+      "path": "assets/characters/C04/C04_FRONT_HALF_v01.png",
+      "kind": "characters",
+      "current": true,
+      "status": "accepted_base_design",
+      "bytes": 2138576,
+      "sha256": "aedca7a11256c5cf7f8a77be9286e80a67d41a52cd7d59d2a47e2f51abed1666",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "usable_as_single_character_reference": true
+    },
+    {
+      "id": "C04_FULL_v01",
+      "path": "assets/characters/C04/C04_FULL_v01.png",
+      "kind": "characters",
+      "current": true,
+      "status": "accepted_base_design",
+      "bytes": 2112145,
+      "sha256": "cb3e3ba65268a4fd306f680e2e98dc9077def7ca535892e706a1973cd1d30437",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "usable_as_single_character_reference": true
+    },
+    {
+      "id": "C05_ANGLES_EXPRESSIONS_v01",
+      "path": "assets/characters/C05/C05_ANGLES_EXPRESSIONS_v01.png",
+      "kind": "characters",
+      "current": false,
+      "status": "superseded_not_for_production",
+      "bytes": 2233984,
+      "sha256": "442f1f5b87352590f4cd9ed78cd647739c049ea1aa2af1edb2039b690b964b21",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "C05_ANGLES_EXPRESSIONS_v02",
+      "path": "assets/characters/C05/C05_ANGLES_EXPRESSIONS_v02.png",
+      "kind": "characters",
+      "current": false,
+      "status": "superseded_not_for_production",
+      "bytes": 2080366,
+      "sha256": "d55124b017d2dd14b4dfc65ec65946b5889c32a01ab5bdbc03e0e14b88ddf356",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "C05_ANGLES_EXPRESSIONS_v03",
+      "path": "assets/characters/C05/C05_ANGLES_EXPRESSIONS_v03.png",
+      "kind": "characters",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2055232,
+      "sha256": "4d4a0a20ce28b2d900b97792e7210454500da18f86db1c741d853eab49e12a50",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "C05_FRONT_HALF_v01",
+      "path": "assets/characters/C05/C05_FRONT_HALF_v01.png",
+      "kind": "characters",
+      "current": false,
+      "status": "superseded_not_for_production",
+      "bytes": 2078969,
+      "sha256": "d8c78eeaa3d1ca9b9803bcfc0e299d29610a2643f9e97f86ed929edcc664106e",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "C05_FRONT_HALF_v03",
+      "path": "assets/characters/C05/C05_FRONT_HALF_v03.png",
+      "kind": "characters",
+      "current": false,
+      "status": "superseded_not_for_production",
+      "bytes": 1911647,
+      "sha256": "266a99fa7927d23f781aceb00424912d96bcad119befe9f078ef302adeec57a3",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "C05_FRONT_HALF_v04",
+      "path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+      "kind": "characters",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 1907493,
+      "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "usable_as_single_character_reference": true
+    },
+    {
+      "id": "C05_FULL_v01",
+      "path": "assets/characters/C05/C05_FULL_v01.png",
+      "kind": "characters",
+      "current": false,
+      "status": "superseded_not_for_production",
+      "bytes": 2067603,
+      "sha256": "2eb452698efeffc9647693fa220adb29681532ca187ad0ea8fdf54611f130c76",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "C05_FULL_v02",
+      "path": "assets/characters/C05/C05_FULL_v02.png",
+      "kind": "characters",
+      "current": false,
+      "status": "superseded_not_for_production",
+      "bytes": 1884351,
+      "sha256": "5ab0249b04f94f4ee952fd3e74a7b3bfe63c0bae9039bd1525a01c8dcb89c927",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "C05_FULL_v03",
+      "path": "assets/characters/C05/C05_FULL_v03.png",
+      "kind": "characters",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 1855846,
+      "sha256": "9dc75e9f1a2d82edad4f1d43c8837dfe26ae78f1b5da2a6211f97579e866e33f",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "usable_as_single_character_reference": true
+    },
+    {
+      "id": "C05_NIGHT_SHAWL_v01",
+      "path": "assets/characters/C05/C05_NIGHT_SHAWL_v01.png",
+      "kind": "characters",
+      "current": false,
+      "status": "superseded_not_for_production",
+      "bytes": 2034981,
+      "sha256": "b7775a89024153548cced87ab9b060a97bf7fbdde43d6277be0c7cb8b8d5288f",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "C05_NIGHT_SHAWL_v04",
+      "path": "assets/characters/C05/C05_NIGHT_SHAWL_v04.png",
+      "kind": "characters",
+      "current": false,
+      "status": "superseded_not_for_production",
+      "bytes": 1908554,
+      "sha256": "02e04d0fc9d4727d2e82a416c8185bd81da65783e8e52e4682edeacd7a2948a3",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "C05_NIGHT_SHAWL_v05",
+      "path": "assets/characters/C05/C05_NIGHT_SHAWL_v05.png",
+      "kind": "characters",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 1922973,
+      "sha256": "b7b9fddc4925e6f90bd68cfe4f7fb20381263c7a6118c348a4a664458105fec6",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "usable_as_single_character_reference": true
+    },
+    {
+      "id": "E01_GUARD_v01",
+      "path": "assets/characters/E01/E01_GUARD_v01.png",
+      "kind": "characters",
+      "current": true,
+      "status": "accepted_base_design",
+      "bytes": 2032819,
+      "sha256": "a6d5e17bf7e91c4bee0f1238bfd86b2d83f5e93a806eaa99acfa2fc3dd905a82",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "usable_as_single_character_reference": true
+    },
+    {
+      "id": "E02_ELDER_v01",
+      "path": "assets/characters/E02/E02_ELDER_v01.png",
+      "kind": "characters",
+      "current": true,
+      "status": "accepted_base_design",
+      "bytes": 2083846,
+      "sha256": "b1fe94b3cd434e2bd2fd27a45cf5a7af773a2dafa49a3c4f013bf80427262519",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "usable_as_single_character_reference": true
+    },
+    {
+      "id": "E03_CHILD_v02",
+      "path": "assets/characters/E03/E03_CHILD_v02.png",
+      "kind": "characters",
+      "current": true,
+      "status": "accepted_base_design",
+      "bytes": 2055222,
+      "sha256": "2e798b5ea57ad10eef5ff71536b42908d85ede43855cb370182e2e2d2f55ba07",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "usable_as_single_character_reference": true
+    },
+    {
+      "id": "E04_MERCHANT_v01",
+      "path": "assets/characters/E04/E04_MERCHANT_v01.png",
+      "kind": "characters",
+      "current": true,
+      "status": "accepted_base_design",
+      "bytes": 2066586,
+      "sha256": "1d3090efaf8f174e1b7f63a910040259718796ee28620102fc9c911d1b4b89bd",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "usable_as_single_character_reference": true
+    },
+    {
+      "id": "E05_SUITOR_v01",
+      "path": "assets/characters/E05/E05_SUITOR_v01.png",
+      "kind": "characters",
+      "current": true,
+      "status": "accepted_base_design",
+      "bytes": 2045544,
+      "sha256": "17613c376c23b4fdac74a19c654e4a5a4d5c41c3a6153193a53931efe00da867",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "usable_as_single_character_reference": true
+    },
+    {
+      "id": "E06_MAID_v01",
+      "path": "assets/characters/E06/E06_MAID_v01.png",
+      "kind": "characters",
+      "current": true,
+      "status": "accepted_base_design",
+      "bytes": 2021105,
+      "sha256": "128b83413a4db8894901cc90791c72ae0861eeef389f40ea0b7c11b3dfd3525d",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "usable_as_single_character_reference": true
+    },
+    {
+      "id": "E07_CLERK_v01",
+      "path": "assets/characters/E07/E07_CLERK_v01.png",
+      "kind": "characters",
+      "current": true,
+      "status": "accepted_base_design",
+      "bytes": 1964688,
+      "sha256": "3ba2fc2e8751f3f4848f178834286e0a257385a218658f2257aa1ba882030df0",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "usable_as_single_character_reference": true
+    },
+    {
+      "id": "E08_VILLAGER_v01",
+      "path": "assets/characters/E08/E08_VILLAGER_v01.png",
+      "kind": "characters",
+      "current": true,
+      "status": "accepted_base_design",
+      "bytes": 1994458,
+      "sha256": "c8298378229e4a6080329d3461c03cb1ab95ae1bef1acaa87a9cdf277caba283",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "usable_as_single_character_reference": true
+    },
+    {
+      "id": "A_IN_v01",
+      "path": "assets/keyframes/A/A_IN_v01.png",
+      "kind": "keyframes",
+      "current": false,
+      "status": "superseded_not_for_production",
+      "bytes": 2658891,
+      "sha256": "3d8bcf68140f43d705f1ec00c6f033fa54060ecd35585ded9aedfda625d9872c",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "A_IN_v02",
+      "path": "assets/keyframes/A/A_IN_v02.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2491222,
+      "sha256": "2887e851a66e5ae7d9dd425254293ba905de229864d0549122a3ccc8632d073f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "A_OUT_v01",
+      "path": "assets/keyframes/A/A_OUT_v01.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2355976,
+      "sha256": "c11225f247d90eebbd0210e7380df21077d260c0cea6dc279cf0970066e84255",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "B_IN_v01",
+      "path": "assets/keyframes/B/B_IN_v01.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2102332,
+      "sha256": "a0be334fb0e9fd031ae0b437e7f32e2e6d99aa209a7828091afa46c18d867132",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "B_OUT_v01",
+      "path": "assets/keyframes/B/B_OUT_v01.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2127840,
+      "sha256": "e7941e8b492f1aa67f94c23ec74207137d8a586365bcaaceffc26f20ce3261cc",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "C_IN_v01",
+      "path": "assets/keyframes/C/C_IN_v01.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2279561,
+      "sha256": "3cf8f32460cdfea3427024fbe3b6f7c420efb96d51ed010c5b6b460dfa8e1ff8",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "C_OUT_v01",
+      "path": "assets/keyframes/C/C_OUT_v01.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2217771,
+      "sha256": "6c212560d934c2ac96320f457c180bf7eb6c75627c2fcbfc178a898bec479805",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "D_IN_v01",
+      "path": "assets/keyframes/D/D_IN_v01.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 1899446,
+      "sha256": "4ce1cdb309cae97b3cd33af05c2ac7fd23c229b8eeffba1e52d14137923ef28f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "D_OUT_v01",
+      "path": "assets/keyframes/D/D_OUT_v01.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2165494,
+      "sha256": "36f8c2bd7d427415f58c72058937bf87ce5a8417617627c3480f3012eaebcf71",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "E_IN_v01",
+      "path": "assets/keyframes/E/E_IN_v01.png",
+      "kind": "keyframes",
+      "current": false,
+      "status": "superseded_not_for_production",
+      "bytes": 2536371,
+      "sha256": "d446dba72572b8f20481633e3c96abee96b6624100cb2b1b5282ce55a0bc1bbc",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "E_IN_v02",
+      "path": "assets/keyframes/E/E_IN_v02.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2376385,
+      "sha256": "db7ee81fb2d088908515777da1c92f119d4007021f1d610cb897528a366a4a25",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "E_OUT_v01",
+      "path": "assets/keyframes/E/E_OUT_v01.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2013132,
+      "sha256": "bb0235fd1e53c73d0b5854472acee7cfda0ef558a5d79522175b296616c2d882",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "F_IN_v02",
+      "path": "assets/keyframes/F/F_IN_v02.png",
+      "kind": "keyframes",
+      "current": false,
+      "status": "superseded_not_for_production",
+      "bytes": 2141407,
+      "sha256": "56eea73b698551708194fefa7f457153fa51120d8cb804153f9347ab5917f0f5",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "F_IN_v03",
+      "path": "assets/keyframes/F/F_IN_v03.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2112399,
+      "sha256": "55bd7de9905472c3369c49ea90636d155a074662da89ba6cdf26a4346119c87f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "F_OUT_v01",
+      "path": "assets/keyframes/F/F_OUT_v01.png",
+      "kind": "keyframes",
+      "current": false,
+      "status": "superseded_not_for_production",
+      "bytes": 2026328,
+      "sha256": "b137212cc1c278fdc0f1da58eda1a60f049686c8757e7bf59c4d859ef9ac21f6",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "F_OUT_v02",
+      "path": "assets/keyframes/F/F_OUT_v02.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 1987585,
+      "sha256": "68cc52992d8b1af92d5bf38f7f475287ab01bb96b0a507d34261383283b7bbe5",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "G20_IN_v01",
+      "path": "assets/keyframes/G/G20_IN_v01.png",
+      "kind": "keyframes",
+      "current": false,
+      "status": "superseded_not_for_production",
+      "bytes": 1864876,
+      "sha256": "f59717abb2ebec243f6e3c6ca7376c05a29373a4efe692e91f231f8298de6f92",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "G20_IN_v02",
+      "path": "assets/keyframes/G/G20_IN_v02.png",
+      "kind": "keyframes",
+      "current": false,
+      "status": "superseded_not_for_production",
+      "bytes": 1791996,
+      "sha256": "596b83c871c51c6899b4ce24187c083c0b639b06487934bc0a454391a3a4023c",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "G20_IN_v03",
+      "path": "assets/keyframes/G/G20_IN_v03.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 1932480,
+      "sha256": "dc61a3a6c9f818d1abf3b72d88bf2407b173ca608eb1317968069da44c99561e",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "G20_OUT_v01",
+      "path": "assets/keyframes/G/G20_OUT_v01.png",
+      "kind": "keyframes",
+      "current": false,
+      "status": "superseded_not_for_production",
+      "bytes": 1828678,
+      "sha256": "e186f265889f70c1309ca2b3a21a803139fda9039753a4b285c9c6b842fd65eb",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "G20_OUT_v02",
+      "path": "assets/keyframes/G/G20_OUT_v02.png",
+      "kind": "keyframes",
+      "current": false,
+      "status": "superseded_not_for_production",
+      "bytes": 1759519,
+      "sha256": "94fdd82a41440eaae70839e2925dfb20521ca151607d172d169b622c479a6b40",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "G20_OUT_v03",
+      "path": "assets/keyframes/G/G20_OUT_v03.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 1879840,
+      "sha256": "dbdd32a418953cb43a82c95192ee91b4d89c597ca8b601b8dfef84e0ae10f62c",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "G21_IN_v01",
+      "path": "assets/keyframes/G/G21_IN_v01.png",
+      "kind": "keyframes",
+      "current": false,
+      "status": "superseded_not_for_production",
+      "bytes": 2352094,
+      "sha256": "7a13ce057bedcc2838676d3aec92d887b67389e1347cb1fc666cce0cd1f1a3e5",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "G21_IN_v02",
+      "path": "assets/keyframes/G/G21_IN_v02.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2247109,
+      "sha256": "43b2e643b2bba2e46b8dc94636eeaa0d249ee9cda6de8921c8dbe2f712010c37",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "G22_IN_v01",
+      "path": "assets/keyframes/G/G22_IN_v01.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 1874258,
+      "sha256": "3dca52d61ec6a14ad08c2d509cf7eb6a32f63cbd71b047ed6d18b4f29ab08b9c",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "G23_IN_v01",
+      "path": "assets/keyframes/G/G23_IN_v01.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2227307,
+      "sha256": "f8472316f0700aea0cff4e7ab8ce2c08107bb03e5ac171671d337bdb52978df9",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "S01_DAY_v01",
+      "path": "assets/scenes/S01_DAY_v01.png",
+      "kind": "scenes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2771749,
+      "sha256": "9a2961eac48ac5a31fc0b4af81f11dcd71b45ce976f45b6922cb6e84540fa96a",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "S01_NIGHT_v01",
+      "path": "assets/scenes/S01_NIGHT_v01.png",
+      "kind": "scenes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2470754,
+      "sha256": "775717395fe94914f9a14675d8ef3af5bbb49d130891232ba43e384f02b1512b",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "S02_DAY_v01",
+      "path": "assets/scenes/S02_DAY_v01.png",
+      "kind": "scenes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2079022,
+      "sha256": "f6af07f07b4bff90a10353fc002b027646ce2e5ffd9fd866ec6882bce712ae3c",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "S02_NIGHT_v01",
+      "path": "assets/scenes/S02_NIGHT_v01.png",
+      "kind": "scenes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 1908426,
+      "sha256": "b7027dc6efcf1ae60cc284ab457079ee0af3f13d10400eccb323575b330c564b",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "S03_PALACE_v01",
+      "path": "assets/scenes/S03_PALACE_v01.png",
+      "kind": "scenes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2508938,
+      "sha256": "152e958f6e117a33e87685f9243131f5ad6b9e7b419d8c91edd7a77530db79cf",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "S04_COURT_v01",
+      "path": "assets/scenes/S04_COURT_v01.png",
+      "kind": "scenes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2378487,
+      "sha256": "0afde6c9fd41a0c1452e8491e8935cd8b15beb85fe62a30a4368e311abad7e78",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "S05_SALON_v01",
+      "path": "assets/scenes/S05_SALON_v01.png",
+      "kind": "scenes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2735515,
+      "sha256": "59336348de5c8ccd46ae558599860e140182737b12f906c324f3afc6b1d37de4",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "S06_ROOM_NIGHT_v01",
+      "path": "assets/scenes/S06_ROOM_NIGHT_v01.png",
+      "kind": "scenes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2518897,
+      "sha256": "0dc7ef15d4084d008095e1ba1a16fc28f81ccd8b13d21c80dc6922c8714312d3",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "S07_CHAMBER_NIGHT_v01",
+      "path": "assets/scenes/S07_CHAMBER_NIGHT_v01.png",
+      "kind": "scenes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 1756867,
+      "sha256": "2b4b3a775ac2207ee614e1b55e06cea5af28a0f81e90230119abac27629b5a4d",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "S08_WALL_NIGHT_v01",
+      "path": "assets/scenes/S08_WALL_NIGHT_v01.png",
+      "kind": "scenes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2476220,
+      "sha256": "10d052125ad2b989432976fe9fd69255842331c54e07104a1c2832bdd062044f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "C03_user_identity_anchor",
+      "path": "assets/source_photos/C03_user_identity_anchor.png",
+      "kind": "source_photos",
+      "current": false,
+      "status": "identity_provenance_only_not_video_reference",
+      "bytes": 300816,
+      "sha256": "c3a82ec9071427b1f494e61f15380d0bd3b480c85719c267debf3f29c73a2de2",
+      "dimensions": [
+        522,
+        430
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "pan_2024_496-240924113926-51",
+      "path": "assets/source_photos/pan_2024_496-240924113926-51.jpg",
+      "kind": "source_photos",
+      "current": false,
+      "status": "identity_provenance_only_not_video_reference",
+      "bytes": 17121,
+      "sha256": "39e600600a5b9240364d5a32aaa6464664322ec0e9d185b9a72e8d779c8d9846",
+      "dimensions": null,
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "pan_2024_496-240924113926",
+      "path": "assets/source_photos/pan_2024_496-240924113926.jpg",
+      "kind": "source_photos",
+      "current": false,
+      "status": "identity_provenance_only_not_video_reference",
+      "bytes": 20856,
+      "sha256": "e027e57c232caea092f0f6eca9eb5e8f059e8d1929bd6a1751ec5a3ea816ee0a",
+      "dimensions": null,
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "pan_ac29afc529b7419cad83e369f7d534fe",
+      "path": "assets/source_photos/pan_ac29afc529b7419cad83e369f7d534fe.png",
+      "kind": "source_photos",
+      "current": false,
+      "status": "identity_provenance_only_not_video_reference",
+      "bytes": 128600,
+      "sha256": "cbb302e57e29d767bf7dd06d105a3c8f927cf0178d79f6536e9349be25b5e50b",
+      "dimensions": [
+        428,
+        257
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "pan_ref2015_b",
+      "path": "assets/source_photos/pan_ref2015_b.jpg",
+      "kind": "source_photos",
+      "current": false,
+      "status": "identity_provenance_only_not_video_reference",
+      "bytes": 40003,
+      "sha256": "f8a82d4e6153a51dde7e28b1b34589bfd1244d01eaf857c2d68254c57a365ea5",
+      "dimensions": null,
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "pan_wedding",
+      "path": "assets/source_photos/pan_wedding.jpg",
+      "kind": "source_photos",
+      "current": false,
+      "status": "identity_provenance_only_not_video_reference",
+      "bytes": 50316,
+      "sha256": "c331426b8a1d18a6800c30700f6510eae4fc1729b183771f539ce94bbe815af6",
+      "dimensions": null,
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "sicca_sina_portrait",
+      "path": "assets/source_photos/sicca_sina_portrait.jpg",
+      "kind": "source_photos",
+      "current": false,
+      "status": "identity_provenance_only_not_video_reference",
+      "bytes": 130340,
+      "sha256": "d0389aa7dddac2920d01603997c2e082443aa9504f7172bf4234eae7e04740bc",
+      "dimensions": null,
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "weixiao_we_2018_a",
+      "path": "assets/source_photos/weixiao_we_2018_a.jpg",
+      "kind": "source_photos",
+      "current": false,
+      "status": "identity_provenance_only_not_video_reference",
+      "bytes": 20199,
+      "sha256": "4721d11c6f1e8172787e689b70318f6c90f4db0b884b3b28f03d16aa998e8387",
+      "dimensions": null,
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "xiaoxiao_2013_interview",
+      "path": "assets/source_photos/xiaoxiao_2013_interview.jpg",
+      "kind": "source_photos",
+      "current": false,
+      "status": "identity_provenance_only_not_video_reference",
+      "bytes": 49319,
+      "sha256": "836220eeacc14ca6ce43622272684b80a9eb57813d3bb0e216376ff6c635f7d1",
+      "dimensions": null,
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "xiaoxiao_ig_portrait",
+      "path": "assets/source_photos/xiaoxiao_ig_portrait.jpg",
+      "kind": "source_photos",
+      "current": false,
+      "status": "identity_provenance_only_not_video_reference",
+      "bytes": 43749,
+      "sha256": "7ba8578f53df35acf4b0b0915d2a9de38c817039b6c9b7021762c549c6238ae2",
+      "dimensions": null,
+      "usable_as_single_character_reference": false
+    }
+  ]
+}

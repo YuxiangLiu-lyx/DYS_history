@@ -1,0 +1,76 @@
+{
+  "project": "德云史记·慧后本纪",
+  "episode": "第一回·风起徽州",
+  "created_date": "2026-09-22",
+  "status": "candidate_pending_user_review",
+  "assets": [
+    {
+      "asset_id": "S01_DAY",
+      "version": "v01",
+      "status": "candidate_pending_user_review",
+      "tool": "built-in image_gen.imagegen",
+      "local_path": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S01_DAY_v01.png",
+      "generation_original_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-199390a4-fade-4410-922e-2782a87d6e9b.png",
+      "reference_images": [],
+      "prompt": "Use case: historical-scene. Asset type:《德云史记·慧后本纪》第一回《风起徽州》电影制作场景Reference，独立单张场景母版S01_DAY。生成一张16:9横幅、中国架空历史正剧的写实电影实景照片，无人空场。徽州县城官仓外，晚明江南与宋代市井融合但不严格对应具体朝代。正面略偏左的单一固定摄影机位置，35mm镜头、正常人眼高度，全景。中央为紧闭的深色厚木双扇粮仓门，门前恰好两级青石台阶；白灰墙、黑瓦檐顶，陈旧但结构合理。门右侧留出官差可站立的狭窄平台；左前方留出百姓排队通向门口的完整空通道，靠墙简陋雨棚，前景湿润青石地面有浅水。阴雨白日，真实细雨、阴天柔和自然光，灰白墙与深木形成克制色调，湿地自然反射但不镜面。真实石材、旧木、瓦片、灰泥细节，电影级真实布景，画面空间逻辑清晰。建筑不是皇家大殿，不是奢华宅邸。不出现任何人、动物、人物剪影或排队群众；不要可读文字、牌匾、字幕、水印、图例；不要拼图，多视图，动漫，仙侠，玄幻，游戏CG，夸张HDR，过锐化，塑料质感，炫光。用于后续同机位夜景以及演员插入，所以必须给门右站位和左前通道足够可用空间。",
+      "qa": {
+        "inspected": true,
+        "composition": "Single 16:9 empty location, no figures, no readable signage or overlay text",
+        "continuity": "Day location base reference",
+        "notes": "Doorstep appears as two main treads plus threshold; if production requires exactly two visible levels, confirm before storyboard."
+      }
+    },
+    {
+      "asset_id": "S01_NIGHT",
+      "version": "v01",
+      "status": "candidate_pending_user_review",
+      "tool": "built-in image_gen.imagegen",
+      "local_path": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S01_NIGHT_v01.png",
+      "generation_original_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-7b35e131-f807-43f0-b948-163fc3c62ff7.png",
+      "reference_images": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S01_DAY_v01.png"
+      ],
+      "prompt": "Use case: lighting-weather. Asset type:《德云史记》场景母版S01_NIGHT，单张16:9电影写实空场。参考图是S01_DAY官仓白日场景，唯一编辑目标：把同一官仓同一摄影机位改为当夜，严格保持建筑、木门、门环、瓦檐、白灰墙、全部石阶和门槛、左右雨棚、墙角木桶杂物、道路、景深、透视、取景范围与所有物件位置完全不变。官仓门仍紧闭。阴雨之夜，低饱和冷蓝月光透过雨云提供微弱环境光，真实雨丝和湿润青石反射；将原图右边悬挂的同一只旧灯笼点亮，灯笼真实暖黄火光仅照亮近旁墙面与门右站位，暖光范围克制，不照亮整条街。整体是可辨认细节的历史电影夜景，真实自然，深部阴影保留。不要增加任何新灯笼、新家具、人物或动物，不要星空或满月入画，不要可读文字、字幕、水印、拼图，不要改变镜头角度、地形或建筑尺寸，不要HDR、蓝色仙侠滤镜、游戏CG或过锐化。只允许时间与光照变化。",
+      "qa": {
+        "inspected": true,
+        "composition": "Single 16:9 empty location, no figures, no readable signage or overlay text",
+        "continuity": "Derived directly from day reference; visually retains camera angle and principal architecture/furnishings",
+        "notes": "Doorstep appears as two main treads plus threshold; if production requires exactly two visible levels, confirm before storyboard."
+      }
+    },
+    {
+      "asset_id": "S02_DAY",
+      "version": "v01",
+      "status": "candidate_pending_user_review",
+      "tool": "built-in image_gen.imagegen",
+      "local_path": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S02_DAY_v01.png",
+      "generation_original_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-7b3c86ae-fe5b-48f6-bdbe-8e11ad73deb8.png",
+      "reference_images": [],
+      "prompt": "Use case: historical-scene. Asset type:《德云史记·慧后本纪》第一回《风起徽州》电影制作场景Reference，独立单张场景母版S02_DAY。生成一张16:9横幅、中国架空历史正剧的写实电影实景照片，无人空场。徽州地方转运使使用的秘密私粮仓内部，明式深木梁柱、木墙、简洁结实的石地面。单一固定摄影机位置，35mm正常人眼高度，从房间前左方向后方拍摄，让入口、粮堆、桌案之间的空间关系清楚。画面左后方有搬粮的木后门，门敞开可见灰白阴天天光，地面有通向室内的宽阔搬运动线；右后方整齐而密实堆放麻布粮袋；前方右侧是一张魏笑坐的位置的厚木书案，椅子放在案后；书案左侧留一个粮商客位；书吏更小的木案放在侧后方，不阻挡搬运动线。主案桌面左端放关闭的深色小银匣，近中间放红纸签封的素纸官奏、少量几粒稻米、合上的旧账簿；无可读文字，任何纸面细节仅空白或模糊墨迹。窗光克制，从左侧高处格窗进入，室内偏暗但物件轮廓可见，深褐木色、天然麻布色、极少暗红签封。所有布料、木材、银匣、纸张具有现实触感，电影胶片般温和层次，安静而有权力气息，不夸张。无人物、动物、人物剪影；无可读字、牌匾、字幕、水印、图例；不要拼图或多视图；无仙侠、玄幻、网游CG、卡通、HDR、过度锐化、廉价古装影楼效果。保持布景可供演员落座和搬工行走。",
+      "qa": {
+        "inspected": true,
+        "composition": "Single 16:9 empty location, no figures, no readable signage or overlay text",
+        "continuity": "Day location base reference",
+        "notes": "Closed dark silver coffer, red-bound paper and account book remain on right foreground desk."
+      }
+    },
+    {
+      "asset_id": "S02_NIGHT",
+      "version": "v01",
+      "status": "candidate_pending_user_review",
+      "tool": "built-in image_gen.imagegen",
+      "local_path": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S02_NIGHT_v01.png",
+      "generation_original_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-a301a842-ed5e-4c22-9580-c0788a3c698c.png",
+      "reference_images": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S02_DAY_v01.png"
+      ],
+      "prompt": "Use case: lighting-weather. Asset type:《德云史记》场景母版S02_NIGHT，单张16:9电影写实空场。参考图是S02_DAY私粮仓白日场景。只将白日改为当夜，严格锁定同一摄影机位、35mm透视、构图、梁柱、敞开的左后门及门扇角度、窗格、右后粮袋堆的每层位置、前右主案和案后椅子、前左客椅、后侧书吏小案、桌面银匣、红签素纸官奏、稻米、账簿与笔筒的位置形状，不增删移动任何原有物件。左后门外和左上格窗不再有日光，改为微弱冷月环境光。点亮原图中部梁柱旁现有的悬吊灯笼作为暖色实际火光光源，少量火光照亮桌面与邻近木梁，室内仍较暗但红签素纸、银匣与粮袋层次可辨。电影夜戏摄影，温暖火光与克制冷环境光，真实木纹与麻布，不要夸张雾气。无人物、动物、剪影；无文字、字幕、水印、拼图；不改后门开合、不改桌案位置，不增加油灯或蜡烛，不要HDR、CG、动漫、仙侠滤镜。建筑与物件必须和输入图片逐项对得上。",
+      "qa": {
+        "inspected": true,
+        "composition": "Single 16:9 empty location, no figures, no readable signage or overlay text",
+        "continuity": "Derived directly from day reference; visually retains camera angle and principal architecture/furnishings",
+        "notes": "Closed dark silver coffer, red-bound paper and account book remain on right foreground desk."
+      }
+    }
+  ]
+}

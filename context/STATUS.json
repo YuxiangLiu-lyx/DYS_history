@@ -1,0 +1,66 @@
+{
+  "project": "德云史记·慧后本纪",
+  "episode": "第一回 风起徽州",
+  "updated_date": "2026-09-22",
+  "phase": "prepared_for_publish",
+  "plot_locked": true,
+  "duration_seconds": 90,
+  "block_count": 7,
+  "narrative_shots": 24,
+  "title_cards": 1,
+  "video_generated": false,
+  "audio_generated": false,
+  "new_stills_user_review": "pending",
+  "current_pan_masters": [
+    "C05_FRONT_HALF_v04",
+    "C05_FULL_v03",
+    "C05_ANGLES_EXPRESSIONS_v03",
+    "C05_NIGHT_SHAWL_v05"
+  ],
+  "blockers": [
+    {
+      "id": "STILL_REVIEW",
+      "detail": "本轮修痣、场景与关键帧已生成候选，尚无用户确认，不进入视频抽卡。"
+    },
+    {
+      "id": "SEEDANCE_PERSON_REFERENCE_ELIGIBILITY",
+      "detail": "目标账号/入口的真人人像验证或授权接入尚未核实。"
+    }
+  ],
+  "github": {
+    "repository": "YuxiangLiu-lyx/DYS_history",
+    "branch": "main",
+    "synced": false,
+    "remote_commit": null,
+    "reason": "write_permission_verified; branch_publication_pending",
+    "local_archive_ready": true,
+    "write_permission_verified": true,
+    "publication_status": "prepared_for_publish",
+    "preserve_remote_files": [
+      "test.txt"
+    ]
+  },
+  "next_actions": [
+    "检查本轮新角色图与D/G20、潘慧关键帧全部落盘，重建manifest并校验锁定剧本及零缺失引用。",
+    "将完整版本正常提交到main，保留test.txt，核验实际远端commit及文件后更新同步回执。",
+    "用户静态复核及目标平台正常接入条件满足后，按SEEDANCE_QUICKSTART.md、refs_upload.json与Prompt制作；目前未生成视频或音频。"
+  ],
+  "asset_counts": {
+    "current_character_images_including_boards_and_wardrobe_only": 25,
+    "current_scene_images": 10,
+    "current_keyframes": 17,
+    "source_photos": 10
+  },
+  "known_keyframe_missing": [],
+  "g24_state_reference": "assets/keyframes/F/F_OUT_v02.png",
+  "timeline_complete": true,
+  "full_24_shot_storyboard_generated": false,
+  "current_c03_masters": [
+    "C03_FRONT_HALF_v01",
+    "C03_FULL_v01",
+    "C03_ANGLES_EXPRESSIONS_v01"
+  ],
+  "c03_identity_source": "assets/source_photos/C03_user_identity_anchor.png",
+  "c03_identity_source_verification": "explicitly_identified_as_xiaotui_by_user",
+  "pan_mole_lock": "below image-right mouth corner on skin, clear gap from lip line, same side as jade hairpin; never mirror"
+}

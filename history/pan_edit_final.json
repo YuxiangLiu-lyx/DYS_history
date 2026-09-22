@@ -1,0 +1,6 @@
+{
+  "id": "NIGHT_SHAWL",
+  "prompt": "Minimal retouch of FIRST image only: this is the accepted shawl costume portrait. The tiny mole beside the SCREEN-RIGHT mouth corner is too pale. Match the exact dark-brown color, 3-4 pixel diameter and exact mouth-corner position of the beauty mole in the SECOND image, the approved same person's front portrait. It is at the viewer-right mouth corner, same side as the jade hairpin, near pixel x=615 y=521 in a 1086x1448 image. Do not add any spot to the left mouth corner. Only darken the EXISTING small right-side spot to match the second image. Do not enlarge it, do not change any feature, expression, clothes, shawl, face, hair, hands, background or composition. Preserve entire first image's portrait framing, no panels, no text.",
+  "source": "exec-ea4a185c-cebc-4400-9b54-6430f4453bd0.png",
+  "result_hint": "Generated images are saved to /workspace/scratch/217ce8a5e48d/generated_images as /workspace/scratch/217ce8a5e48d/generated_images/exec-987acd56-4137-48c4-9d26-637ecd7e9ee0.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-22",
+  "tool": "image_gen__imagegen",
+  "records": [
+    {
+      "asset": "G20_IN_v02",
+      "source_version": "G20_IN_v01",
+      "target": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/G/G20_IN_v02.png",
+      "prompt": "Use case: precise-object-edit. Make a surgical wardrobe material correction to image 1. Change ONLY the pair of wrist/forearm guards worn by the actor, specifically the shiny bronze/gold armor-like objects around his wrists, to the PLAIN DARK BROWN LEATHER guards shown in images 2 and 3. The guards should be very dark matte brown near black under this night light, scuffed thick leather with simple stitched seams and flat leather straps. Remove ALL gold, bronze, metallic shine, embossed ornate patterns, bright rivets and armor-like plates from the guards. Use soft low-luster leather texture as in reference images 2/3; absolutely no gold reflection on those guards despite candlelight. This correction applies to BOTH wrists, including the guard on image left partly under his raised hand and the longer visible guard on image right. Keep the exact existing guard silhouette, wrist position and fingers. Preserve image 1 completely everywhere else: same character facial identity, face proportions, expression, eye gaze, hair, costume, ALL finger positions, both arms, exact current fold of the paper, exact paper position, desk, candle, flame, windows, shelf, chair, framing, camera angle and lighting. Do not move the report or hands; this is the SAME frozen instant of the starting keyframe, not a new time or action. Do not take the bright daylight environment or red-tab official report from image3; the target scene remains image1's dark nighttime chamber and its plain unmarked secret paper. Reference images2/3 are solely for the plain dark brown leather wristguard material and construction. Keep output 16:9, photorealistic serious historical drama still. No text or new objects.",
+      "referenced_image_paths": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/G/G20_IN_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C03/C03_FRONT_HALF_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/D/D_IN_v01.png"
+      ],
+      "source_output": "/workspace/scratch/217ce8a5e48d/generated_images/exec-e5cf3d55-331a-4992-b5ea-02debca9085a.png",
+      "output_hint": "Generated images are saved to /workspace/scratch/217ce8a5e48d/generated_images as /workspace/scratch/217ce8a5e48d/generated_images/exec-e5cf3d55-331a-4992-b5ea-02debca9085a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "qa": {
+        "status": "superseded_composition_revision_required",
+        "material": "亮金属改深棕皮质，脸/手持纸/镜位未增加动作。",
+        "reason": "主控新QA要求镜20改为纸正文面与侧脸同框、保留展开动作；另作v03。"
+      },
+      "sha256": "596b83c871c51c6899b4ce24187c083c0b639b06487934bc0a454391a3a4023c"
+    },
+    {
+      "asset": "G20_OUT_v02",
+      "source_version": "G20_OUT_v01",
+      "target": "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/G/G20_OUT_v02.png",
+      "prompt": "Use case: precise-object-edit. Make a surgical wardrobe material correction to image 1. Change ONLY the pair of wrist/forearm guards worn by the actor, specifically the shiny bronze/gold armor-like objects around his wrists, to the PLAIN DARK BROWN LEATHER guards shown in images 2 and 3. The guards should be very dark matte brown near black under this night light, scuffed thick leather with simple stitched seams and flat leather straps. Remove ALL gold, bronze, metallic shine, embossed ornate patterns, bright rivets and armor-like plates from the guards. Use soft low-luster leather texture as in reference images 2/3; absolutely no gold reflection on those guards despite candlelight. This correction applies to BOTH wrists, including the guard on image left partly under his raised hand and the longer visible guard on image right. Keep the exact existing guard silhouette, wrist position and fingers. Preserve image 1 completely everywhere else: same character facial identity, face proportions, expression, eye gaze, hair, costume, ALL finger positions, both arms, exact current fold of the paper, exact paper position, desk, candle, flame, windows, shelf, chair, framing, camera angle and lighting. Do not move the report or hands; this is the SAME frozen instant of the ending keyframe, not a new time or action. Do not take the bright daylight environment or red-tab official report from image3; the target scene remains image1's dark nighttime chamber and its plain unmarked secret paper. Reference images2/3 are solely for the plain dark brown leather wristguard material and construction. Keep output 16:9, photorealistic serious historical drama still. No text or new objects.",
+      "referenced_image_paths": [
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/G/G20_OUT_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C03/C03_FRONT_HALF_v01.png",
+        "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/D/D_IN_v01.png"
+      ],
+      "source_output": "/workspace/scratch/217ce8a5e48d/generated_images/exec-260f96d3-f116-49b6-8975-8c4b45cf3d1d.png",
+      "output_hint": "Generated images are saved to /workspace/scratch/217ce8a5e48d/generated_images as /workspace/scratch/217ce8a5e48d/generated_images/exec-260f96d3-f116-49b6-8975-8c4b45cf3d1d.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "qa": {
+        "status": "superseded_composition_revision_required",
+        "material": "亮金属改深棕皮质，脸/手持纸/镜位未增加动作。",
+        "reason": "主控新QA要求镜20改为纸正文面与侧脸同框、保留展开动作；另作v03。"
+      },
+      "sha256": "94fdd82a41440eaae70839e2925dfb20521ca151607d172d169b622c479a6b40"
+    }
+  ]
+}

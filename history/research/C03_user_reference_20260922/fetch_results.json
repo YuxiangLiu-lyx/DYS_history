@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://www.bilibili.com/video/BV1qT4y1R7iG/",
+    "error": "HTTP Error 412: Precondition Failed"
+  },
+  {
+    "url": "https://www.bilibili.com/video/BV18q5B6aELd/",
+    "error": "HTTP Error 412: Precondition Failed"
+  },
+  {
+    "url": "https://www.huya.com/video/play/990990402.html",
+    "http_status": 200,
+    "title": [
+      "dys偷梗堂-单飞！德云色三老板表示要送小腿去隔壁做吃播《孙亚都保不住腿国公》-虎牙直播"
+    ],
+    "og_images": []
+  }
+]

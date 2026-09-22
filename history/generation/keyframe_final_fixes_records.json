@@ -1,0 +1,18 @@
+[
+  {
+    "id": "A_IN_v02",
+    "prompt": "Minimal localized architectural edit of this approved composition: keep every person, face, pose, bowl, closed dark timber door, lantern, rain, white wall, position and entire wide cinematic frame unchanged. Change ONLY the short stone staircase immediately in front of the warehouse door: currently there are too many narrow step risers. Replace with EXACTLY TWO low broad grey stone steps between wet street and raised doorway, plus a narrow stone DOOR THRESHOLD at the top which is NOT a third stair. Two comfortable shallow-height steps, proportional to adult feet, total lift modest. Preserve existing width, depth/vanishing direction, dark wet mossy stone material; no giant high step and no new railings. The standing guard stays on the same street-level foreground spot right of the steps; do not move him or any actor. No other changes, do not brighten/beautify/change composition. Natural film photo 16:9. This is a geometry continuity correction only, no new action.",
+    "references": [
+      "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/A/A_IN_v01.png"
+    ],
+    "result_hint": "Generated images are saved to /workspace/scratch/217ce8a5e48d/generated_images as /workspace/scratch/217ce8a5e48d/generated_images/exec-6e332966-b8ad-49f6-a2c0-81d9ed10a2c5.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  {
+    "id": "G21_IN_v02",
+    "prompt": "Revise this ONE historical drama night frame while preserving the exact same elder, child, faces, hair, clothes, hand-holding and closed granary background. Two precise changes only: (1) the rain has STOPPED. Remove all falling rain streaks from the air and sky. Retain wet glistening stone pavement, wet clothing and a little water dripping only from the roof edge, no active rain/sheets. (2) bring camera closer for the locked MEDIUM CLOSE TWO-SHOT, roughly head to upper-thigh, framed so both faces and their joined hands remain entirely visible. They are mid-walk past the same closed gate, still holding hands, no look to camera, no new action or emotional beat. Preserve warm lantern spill and cool night, same door hardware and wall, no other people. Do not crop off the joined hands. Background softly readable to establish the shut door, don't add extra bowl or change existing bowl. Single 16:9 cinematic photoreal image, no text, borders, fantasy, new lighting or face substitution.",
+    "references": [
+      "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/G/G21_IN_v01.png"
+    ],
+    "result_hint": "Generated images are saved to /workspace/scratch/217ce8a5e48d/generated_images as /workspace/scratch/217ce8a5e48d/generated_images/exec-dd83b9c5-b040-4097-ac6e-898c0134ca91.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  }
+]
