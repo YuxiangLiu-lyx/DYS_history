@@ -1,0 +1,17 @@
+{
+  "revision": "v3",
+  "date": "2026-09-22",
+  "type": "production_logic_and_prompt_revision",
+  "new_media_generated": false,
+  "existing_images_changed": false,
+  "locked_script_changed": false,
+  "timeline_changed": false,
+  "seedance_image_limit": 5,
+  "base_prompt_jobs": 11,
+  "optional_repair_prompt_jobs": 13,
+  "audio_contract_dialogues": 14,
+  "old_production_archive": "archive/production_pack_v2/production",
+  "actual_user_media_received": false,
+  "actual_media_repaired": false,
+  "validation_report": "history/validation/EP01_v3_static.json"
+}

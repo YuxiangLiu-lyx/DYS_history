@@ -1,0 +1,11 @@
+{
+  "integrity_pass": true,
+  "errors": [],
+  "missing_required_references": [],
+  "production_release_gates": [
+    "STILL_REVIEW",
+    "SEEDANCE_PERSON_REFERENCE_ELIGIBILITY"
+  ],
+  "video_generated": false,
+  "github_synced": true
+}

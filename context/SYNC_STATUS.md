@@ -1,6 +1,6 @@
 # 同步记录
 
-**当前：published_and_verified。2026-09-22已将完整制作包与图片上传main，并fetch回读校验全部163个文件，零差异，test.txt已保留。**
+**当前：v3_prepared_for_publish。5图与音画同步逻辑修订正在本轮提交；下面保留v2已成功发布的历史回执。**
 
 资产提交：[2f749070e7f486cb1aadf9a391c17d25a64f5763](https://github.com/YuxiangLiu-lyx/DYS_history/commit/2f749070e7f486cb1aadf9a391c17d25a64f5763)。完整回执：`history/publication/EP01_v2_asset_receipt.json`；逐文件快照：`history/publication/EP01_v2_asset_snapshot.json`。随后同步回执文档的提交在此资产提交之上。
 

@@ -2,7 +2,7 @@
   "project": "德云史记·慧后本纪",
   "episode": "第一回 风起徽州",
   "updated_date": "2026-09-22",
-  "phase": "static_assets_and_video_pack_published_pending_review",
+  "phase": "v3_five_image_and_av_sync_pack_prepared",
   "plot_locked": true,
   "duration_seconds": 90,
   "block_count": 7,
@@ -10,7 +10,7 @@
   "title_cards": 1,
   "video_generated": false,
   "audio_generated": false,
-  "new_stills_user_review": "pending",
+  "new_stills_user_review": "user_progressed_to_video_trials; no_new_still_changes_this_revision",
   "current_pan_masters": [
     "C05_FRONT_HALF_v04",
     "C05_FULL_v03",
@@ -19,33 +19,31 @@
   ],
   "blockers": [
     {
-      "id": "STILL_REVIEW",
-      "detail": "本轮修痣、场景与关键帧已生成候选，尚无用户确认，不进入视频抽卡。"
-    },
-    {
-      "id": "SEEDANCE_PERSON_REFERENCE_ELIGIBILITY",
-      "detail": "目标账号/入口的真人人像验证或授权接入尚未核实。"
+      "id": "USER_TAKE_FILES_NOT_RECEIVED",
+      "scope": "frame_level_repair_of_existing_user_videos_only",
+      "detail": "用户已报告试片问题，但未提供源视频/音轨；本轮可完成生产规则修订，不能据此标实际成片已修复。"
     }
   ],
   "github": {
     "repository": "YuxiangLiu-lyx/DYS_history",
     "branch": "main",
-    "synced": true,
+    "synced": false,
     "remote_commit": "2f749070e7f486cb1aadf9a391c17d25a64f5763",
-    "reason": null,
+    "reason": "v3_pending_commit_and_remote_verification",
     "local_archive_ready": true,
     "write_permission_verified": true,
-    "publication_status": "published_and_verified",
+    "publication_status": "v3_prepared_for_publish",
     "preserve_remote_files": [
       "test.txt"
     ],
     "verified_path_count": 163,
-    "receipt": "history/publication/EP01_v2_asset_receipt.json"
+    "receipt": "history/publication/EP01_v2_asset_receipt.json",
+    "previous_verified_commit": "2f749070e7f486cb1aadf9a391c17d25a64f5763"
   },
   "next_actions": [
-    "用户复核本轮小腿、潘慧修订和关键帧；保持锁定剧情及对白。",
-    "确认目标平台正常素材接入后，按SEEDANCE_QUICKSTART.md先做A和F试片，再按生产包完成其余片段；尚未生成视频或音频。",
-    "每次制作保存原文件、实际Prompt、引用、费用和剪辑采用区间，更新状态与历史并同步仓库。"
+    "保存用户实际试片与原声、实际Prompt/设置、问题秒数，按逐句合同识别可见口型故障与合理画外声。",
+    "使用v3最多5图上传清单和同期对白Prompt；只对故障镜头选择补拍任务，D按14秒源的共同映射剪辑。",
+    "逐句真实听看验收后再配乐/字幕，保存原片、采用区间、声音处理和证据，持续同步GitHub。"
   ],
   "asset_counts": {
     "current_character_images_including_boards_and_wardrobe_only": 25,
@@ -64,5 +62,23 @@
   ],
   "c03_identity_source": "assets/source_photos/C03_user_identity_anchor.png",
   "c03_identity_source_verification": "explicitly_identified_as_xiaotui_by_user",
-  "pan_mole_lock": "below image-right mouth corner on skin, clear gap from lip line, same side as jade hairpin; never mirror"
+  "pan_mole_lock": "below image-right mouth corner on skin, clear gap from lip line, same side as jade hairpin; never mirror",
+  "production_revision": "v3",
+  "seedance_image_limit": 5,
+  "base_generation_jobs": 11,
+  "planned_base_source_seconds": 101,
+  "video_generated_field_scope": "video files produced or archived by this assistant; excludes unreceived user trial videos",
+  "user_reported_external_video_generation": true,
+  "user_reported_issues": [
+    "some visible speaking characters have no lip motion",
+    "audio does not match the visible speaker or timing"
+  ],
+  "received_user_video_files": false,
+  "received_user_audio_files": false,
+  "actual_av_repair_performed": false,
+  "actual_av_review_performed": false,
+  "review_notes": [
+    "既有逐张图像审阅记录保留，本轮没有改图，不重新阻塞用户已经开展的试片。",
+    "目标账号的模式、声音设置及工具能力仍应在实际任务记录里核实。"
+  ]
 }

@@ -1,8 +1,8 @@
 # 德云史记 · 慧后本纪
 
-第一回《风起徽州》：90秒、7个Scene Block、24个叙事镜头＋片尾字卡。已锁定剧情，本包用于静态审阅与 Seedance 2.0 生产准备。
+第一回《风起徽州》：90秒、7个Scene Block、24个叙事镜头＋片尾字卡。已锁定剧情，本包用于 Seedance 2.0 分场生成、音画返修与剪辑。
 
-**本轮完整资产与生产包已上传main并逐文件核验。** [资产提交 2f74907](https://github.com/YuxiangLiu-lyx/DYS_history/commit/2f749070e7f486cb1aadf9a391c17d25a64f5763)，163个文件校验一致；同步回执见 `history/publication/`。 真实状态看 [STATUS](context/STATUS.json)。本轮用用户明确提供的小腿图片补齐身份母版与D/G20引用；潘慧美人痣移到嘴角下方。本轮新图仍待用户审阅；尚未生成视频或音频。
+**当前修订v3：最多5图＋对白口型与音画同步。** 11个基础任务，D增加源素材余量；90秒剧情和原台词保持不变。本轮内容已准备上传，实际同步状态见 [STATUS](context/STATUS.json)。用户已报告试片问题；源视频尚未收到，当前交付为生产与定向返修方案，未声称修好成片。
 
 | 需要什么 | 入口 |
 |---|---|
@@ -10,6 +10,9 @@
 | 在线/本地翻看实际图 | [资产与关键帧画册](REVIEW_GALLERY.html) |
 | Seedance上手流程 | [SEEDANCE_QUICKSTART.md](episodes/ep01/production/SEEDANCE_QUICKSTART.md) |
 | 第一集完整生产包 | [VIDEO_PRODUCTION_PACK.md](episodes/ep01/production/VIDEO_PRODUCTION_PACK.md) |
+| 逐句说话人、口型与声音映射 | [dialogue_contract.json](episodes/ep01/production/audio/dialogue_contract.json) |
+| 音画故障诊断与局部补拍 | [AV_SYNC_WORKFLOW.md](episodes/ep01/production/audio/AV_SYNC_WORKFLOW.md) · [补拍任务与Prompt](episodes/ep01/production/audio/dialogue_repair_plan.json) |
+| 每次生成的真实验收记录 | [TAKE_RECORD_TEMPLATE.json](episodes/ep01/production/audio/TAKE_RECORD_TEMPLATE.json) |
 | 按任务直接复制Prompt | [prompts](episodes/ep01/production/prompts/) |
 | 上传次序和真实文件 | [refs_upload.json](episodes/ep01/production/refs_upload.json) |
 | 逐镜秒表、对白与帧号 | [timeline.json](episodes/ep01/production/timeline.json) |

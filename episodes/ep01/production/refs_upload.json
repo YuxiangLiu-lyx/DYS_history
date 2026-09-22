@@ -5,12 +5,12 @@
   "path_base": ".",
   "timeline_duration_s": 90,
   "fps": 24,
-  "status": "published_pending_user_still_review",
-  "github_uploaded": true,
-  "github_write_result": "main_updated_and_all_163_archive_paths_verified",
+  "status": "five_image_av_sync_revision_pending_sample_verification",
+  "github_uploaded": false,
+  "github_write_result": "revision_prepared_awaiting_publication_verification",
   "new_images_status": "candidate_pending_user_review",
   "do_not_upload_contact_sheets": true,
-  "image_reference_limit_planned": 9,
+  "image_reference_limit_planned": 5,
   "multireference_first_last_are_soft_constraints": true,
   "blocked_identity": null,
   "pan_identity_lock": {
@@ -25,7 +25,7 @@
   "jobs": [
     {
       "job": "A",
-      "status": "awaiting_candidate_review",
+      "status": "revised_pending_operator_review",
       "target_timeline_s": [
         0,
         13
@@ -34,48 +34,34 @@
       "slots": [
         {
           "slot": "@图片1",
-          "file": "assets/scenes/S01_DAY_v01.png",
-          "status": "candidate_pending_user_review",
-          "role": "阴雨官仓空间",
-          "optional": false
-        },
-        {
-          "slot": "@图片2",
           "file": "assets/characters/E02/E02_ELDER_v01.png",
           "status": "existing_reference",
           "role": "老人及缺口碗",
           "optional": false
         },
         {
-          "slot": "@图片3",
+          "slot": "@图片2",
           "file": "assets/characters/E01/E01_GUARD_v01.png",
           "status": "existing_reference",
           "role": "官差",
           "optional": false
         },
         {
-          "slot": "@图片4",
+          "slot": "@图片3",
           "file": "assets/characters/E03/E03_CHILD_v02.png",
           "status": "existing_reference",
           "role": "孩子",
           "optional": false
         },
         {
-          "slot": "@图片5",
-          "file": "assets/characters/E08/E08_VILLAGER_v01.png",
-          "status": "existing_reference",
-          "role": "灾民妇人",
-          "optional": false
-        },
-        {
-          "slot": "@图片6",
+          "slot": "@图片4",
           "file": "assets/keyframes/A/A_IN_v02.png",
           "status": "candidate_pending_user_review",
           "role": "首态，碗与台阶实物参照",
           "optional": false
         },
         {
-          "slot": "@图片7",
+          "slot": "@图片5",
           "file": "assets/keyframes/A/A_OUT_v01.png",
           "status": "candidate_pending_user_review",
           "role": "尾态，接触关系与缺口碗",
@@ -84,14 +70,26 @@
       ],
       "optional_image_slots": [],
       "optional_video_references": [],
-      "max_image_count_with_optional": 7,
+      "max_image_count_with_optional": 5,
       "already_uploaded_to_video_tool": false,
-      "generated_video": false,
-      "id": "A"
+      "generated_video": null,
+      "id": "A",
+      "source_duration_s": 13,
+      "source_keep_s": [
+        0,
+        13
+      ],
+      "source_to_global_offset_s": 0,
+      "generated_video_note": "No original sample registered here; user reports tests outside repository.",
+      "audio_generation_mode": "native_dialogue_and_picture_together_no_music_no_narrator",
+      "attached_first_last_images_count_toward_limit": true,
+      "post_only_dialogue_ids": [
+        "DLG03"
+      ]
     },
     {
       "job": "B",
-      "status": "awaiting_candidate_review",
+      "status": "revised_pending_operator_review",
       "target_timeline_s": [
         13,
         24
@@ -107,41 +105,27 @@
         },
         {
           "slot": "@图片2",
-          "file": "assets/characters/C04/C04_FULL_v01.png",
-          "status": "existing_reference",
-          "role": "魏笑全身",
-          "optional": false
-        },
-        {
-          "slot": "@图片3",
           "file": "assets/characters/E04/E04_MERCHANT_v01.png",
           "status": "existing_reference",
           "role": "粮商",
           "optional": false
         },
         {
-          "slot": "@图片4",
-          "file": "assets/characters/E07/E07_CLERK_v01.png",
-          "status": "existing_reference",
-          "role": "旁案书吏",
-          "optional": false
-        },
-        {
-          "slot": "@图片5",
+          "slot": "@图片3",
           "file": "assets/scenes/S02_DAY_v01.png",
           "status": "candidate_pending_user_review",
           "role": "私仓布局",
           "optional": false
         },
         {
-          "slot": "@图片6",
+          "slot": "@图片4",
           "file": "assets/keyframes/B/B_IN_v01.png",
           "status": "candidate_pending_user_review",
           "role": "首态兼粮袋／银匣实物参照",
           "optional": false
         },
         {
-          "slot": "@图片7",
+          "slot": "@图片5",
           "file": "assets/keyframes/B/B_OUT_v01.png",
           "status": "candidate_pending_user_review",
           "role": "尾态兼朱签官奏实物参照",
@@ -150,14 +134,23 @@
       ],
       "optional_image_slots": [],
       "optional_video_references": [],
-      "max_image_count_with_optional": 7,
+      "max_image_count_with_optional": 5,
       "already_uploaded_to_video_tool": false,
-      "generated_video": false,
-      "id": "B"
+      "generated_video": null,
+      "id": "B",
+      "source_duration_s": 11,
+      "source_keep_s": [
+        0,
+        11
+      ],
+      "source_to_global_offset_s": 13,
+      "generated_video_note": "No original sample registered here; user reports tests outside repository.",
+      "audio_generation_mode": "native_dialogue_and_picture_together_no_music_no_narrator",
+      "attached_first_last_images_count_toward_limit": true
     },
     {
       "job": "C",
-      "status": "awaiting_candidate_review",
+      "status": "revised_pending_operator_review",
       "target_timeline_s": [
         24,
         34
@@ -173,48 +166,27 @@
         },
         {
           "slot": "@图片2",
-          "file": "assets/characters/C01/C01_FULL_v01.png",
-          "status": "existing_reference",
-          "role": "笑皇全身龙袍",
-          "optional": false
-        },
-        {
-          "slot": "@图片3",
           "file": "assets/characters/C02/C02_FRONT_HALF_v01.png",
           "status": "existing_reference",
           "role": "西卡脸",
           "optional": false
         },
         {
-          "slot": "@图片4",
-          "file": "assets/characters/C02/C02_FULL_v01.png",
-          "status": "existing_reference",
-          "role": "西卡全身官服",
-          "optional": false
-        },
-        {
-          "slot": "@图片5",
-          "file": "assets/scenes/S03_PALACE_v01.png",
-          "status": "candidate_pending_user_review",
-          "role": "晨雾皇城",
-          "optional": false
-        },
-        {
-          "slot": "@图片6",
-          "file": "assets/scenes/S04_COURT_v01.png",
-          "status": "candidate_pending_user_review",
-          "role": "朝堂空间",
-          "optional": false
-        },
-        {
-          "slot": "@图片7",
+          "slot": "@图片3",
           "file": "assets/keyframes/C/C_IN_v01.png",
           "status": "candidate_pending_user_review",
           "role": "首态",
           "optional": false
         },
         {
-          "slot": "@图片8",
+          "slot": "@图片4",
+          "file": "assets/scenes/S04_COURT_v01.png",
+          "status": "candidate_pending_user_review",
+          "role": "朝堂空间",
+          "optional": false
+        },
+        {
+          "slot": "@图片5",
           "file": "assets/keyframes/C/C_OUT_v01.png",
           "status": "candidate_pending_user_review",
           "role": "尾态",
@@ -223,14 +195,23 @@
       ],
       "optional_image_slots": [],
       "optional_video_references": [],
-      "max_image_count_with_optional": 8,
+      "max_image_count_with_optional": 5,
       "already_uploaded_to_video_tool": false,
-      "generated_video": false,
-      "id": "C"
+      "generated_video": null,
+      "id": "C",
+      "source_duration_s": 10,
+      "source_keep_s": [
+        0,
+        10
+      ],
+      "source_to_global_offset_s": 24,
+      "generated_video_note": "No original sample registered here; user reports tests outside repository.",
+      "audio_generation_mode": "environment_only_no_speech",
+      "attached_first_last_images_count_toward_limit": true
     },
     {
       "job": "D",
-      "status": "awaiting_candidate_review",
+      "status": "revised_pending_operator_review",
       "target_timeline_s": [
         34,
         47
@@ -246,48 +227,27 @@
         },
         {
           "slot": "@图片2",
-          "file": "assets/characters/C03/C03_FULL_v01.png",
-          "status": "candidate_pending_user_review",
-          "role": "小腿同一身份全身与服装",
-          "optional": false
-        },
-        {
-          "slot": "@图片3",
           "file": "assets/characters/C02/C02_FRONT_HALF_v01.png",
           "status": "existing_reference",
           "role": "西卡",
           "optional": false
         },
         {
-          "slot": "@图片4",
+          "slot": "@图片3",
           "file": "assets/characters/C01/C01_FRONT_HALF_v01.png",
           "status": "existing_reference",
           "role": "笑皇",
           "optional": false
         },
         {
-          "slot": "@图片5",
-          "file": "assets/scenes/S04_COURT_v01.png",
-          "status": "candidate_pending_user_review",
-          "role": "朝堂布局",
-          "optional": false
-        },
-        {
-          "slot": "@图片6",
-          "file": "assets/keyframes/B/B_OUT_v01.png",
-          "status": "candidate_pending_user_review",
-          "role": "仅官奏外观；不带入私仓／书吏",
-          "optional": false
-        },
-        {
-          "slot": "@图片7",
+          "slot": "@图片4",
           "file": "assets/keyframes/D/D_IN_v01.png",
           "status": "candidate_pending_user_review",
           "role": "朝堂首态；同一小腿历史化面孔",
           "optional": false
         },
         {
-          "slot": "@图片8",
+          "slot": "@图片5",
           "file": "assets/keyframes/D/D_OUT_v01.png",
           "status": "candidate_pending_user_review",
           "role": "皇帝尾态",
@@ -301,19 +261,50 @@
           "source_job": "C",
           "source_local_in_s": 6,
           "source_local_out_s": 10,
-          "status": "not_generated",
+          "status": "source_not_registered",
           "purpose": "皇帝衣冠、御座光线和殿内尺度",
-          "requires_interface_support": true
+          "requires_interface_support": true,
+          "source_time_basis": "accepted_edited_block_local_seconds",
+          "copy_audio": false
         }
       ],
-      "max_image_count_with_optional": 8,
+      "max_image_count_with_optional": 5,
       "already_uploaded_to_video_tool": false,
-      "generated_video": false,
-      "id": "D"
+      "generated_video": null,
+      "id": "D",
+      "source_duration_s": 14,
+      "source_keep_s": [
+        0.5,
+        13.5
+      ],
+      "source_to_global_offset_s": 33.5,
+      "generated_video_note": "No original sample registered here; user reports tests outside repository.",
+      "audio_generation_mode": "native_dialogue_and_picture_together_no_music_no_narrator",
+      "attached_first_last_images_count_toward_limit": true,
+      "audio_source_keep_s": [
+        0.1,
+        13.5
+      ],
+      "audio_place_at_global_s": 33.6,
+      "mute_audio_attached_to_video_copy": true,
+      "native_dialogue_source_windows": {
+        "DLG06": [
+          0.1,
+          4.6
+        ],
+        "DLG07": [
+          5.7,
+          8.8
+        ],
+        "DLG08": [
+          9.7,
+          13.1
+        ]
+      }
     },
     {
       "job": "E",
-      "status": "awaiting_candidate_review",
+      "status": "revised_pending_operator_review",
       "target_timeline_s": [
         47,
         62
@@ -329,34 +320,27 @@
         },
         {
           "slot": "@图片2",
-          "file": "assets/characters/C05/C05_FULL_v03.png",
-          "status": "candidate_pending_user_review",
-          "role": "潘慧同身份日间全身",
-          "optional": false
-        },
-        {
-          "slot": "@图片3",
           "file": "assets/characters/E05/E05_SUITOR_v01.png",
           "status": "existing_reference",
           "role": "公子",
           "optional": false
         },
         {
-          "slot": "@图片4",
+          "slot": "@图片3",
           "file": "assets/scenes/S05_SALON_v01.png",
           "status": "candidate_pending_user_review",
           "role": "雅厅与古琴",
           "optional": false
         },
         {
-          "slot": "@图片5",
+          "slot": "@图片4",
           "file": "assets/keyframes/E/E_IN_v02.png",
           "status": "candidate_pending_user_review",
           "role": "首态兼琴／礼盘实物参照",
           "optional": false
         },
         {
-          "slot": "@图片6",
+          "slot": "@图片5",
           "file": "assets/keyframes/E/E_OUT_v01.png",
           "status": "candidate_pending_user_review",
           "role": "尾态兼房契实物参照",
@@ -365,14 +349,23 @@
       ],
       "optional_image_slots": [],
       "optional_video_references": [],
-      "max_image_count_with_optional": 6,
+      "max_image_count_with_optional": 5,
       "already_uploaded_to_video_tool": false,
-      "generated_video": false,
-      "id": "E"
+      "generated_video": null,
+      "id": "E",
+      "source_duration_s": 15,
+      "source_keep_s": [
+        0,
+        15
+      ],
+      "source_to_global_offset_s": 47,
+      "generated_video_note": "No original sample registered here; user reports tests outside repository.",
+      "audio_generation_mode": "native_dialogue_and_picture_together_no_music_no_narrator",
+      "attached_first_last_images_count_toward_limit": true
     },
     {
       "job": "F",
-      "status": "awaiting_candidate_review",
+      "status": "revised_pending_operator_review",
       "target_timeline_s": [
         62,
         75
@@ -388,44 +381,30 @@
         },
         {
           "slot": "@图片2",
-          "file": "assets/characters/C05/C05_NIGHT_SHAWL_v05.png",
-          "status": "candidate_pending_user_review",
-          "role": "披好之后的披帛状态；开场不能已披",
-          "optional": false
-        },
-        {
-          "slot": "@图片3",
           "file": "assets/characters/E06/E06_MAID_v01.png",
           "status": "existing_reference",
           "role": "侍女",
           "optional": false
         },
         {
-          "slot": "@图片4",
+          "slot": "@图片3",
           "file": "assets/scenes/S06_ROOM_NIGHT_v01.png",
           "status": "candidate_pending_user_review",
           "role": "私室夜窗",
           "optional": false
         },
         {
-          "slot": "@图片5",
+          "slot": "@图片4",
           "file": "assets/keyframes/F/F_IN_v03.png",
           "status": "candidate_pending_user_review",
           "role": "未披帛首态及灯／披帛实物参照",
           "optional": false
         },
         {
-          "slot": "@图片6",
+          "slot": "@图片5",
           "file": "assets/keyframes/F/F_OUT_v02.png",
           "status": "candidate_pending_user_review",
           "role": "已披帛尾态",
-          "optional": false
-        },
-        {
-          "slot": "@图片7",
-          "file": "assets/characters/C05/C05_FULL_v03.png",
-          "status": "candidate_pending_user_review",
-          "role": "同身份基础全身比例",
           "optional": false
         }
       ],
@@ -436,93 +415,30 @@
           "source_job": "E",
           "source_local_in_s": 0,
           "source_local_out_s": 3,
-          "status": "not_generated",
+          "status": "source_not_registered",
           "purpose": "仅材质偏离时使用；服装发髻和同楼木材，不继承日光雅厅布局",
-          "requires_interface_support": true
+          "requires_interface_support": true,
+          "source_time_basis": "accepted_edited_block_local_seconds",
+          "copy_audio": false
         }
       ],
-      "max_image_count_with_optional": 7,
+      "max_image_count_with_optional": 5,
       "already_uploaded_to_video_tool": false,
-      "generated_video": false,
-      "id": "F"
-    },
-    {
-      "job": "G",
-      "status": "awaiting_candidate_review",
-      "target_timeline_s": [
-        75,
-        90
+      "generated_video": null,
+      "id": "F",
+      "source_duration_s": 13,
+      "source_keep_s": [
+        0,
+        13
       ],
-      "prompt_file": "episodes/ep01/production/prompts/G_PROMPT.txt",
-      "slots": [
-        {
-          "slot": "@图片1",
-          "file": "assets/keyframes/G/G20_IN_v03.png",
-          "status": "candidate_pending_user_review",
-          "role": "G20素纸密报首态与小腿面孔",
-          "optional": false
-        },
-        {
-          "slot": "@图片2",
-          "file": "assets/keyframes/G/G21_IN_v02.png",
-          "status": "candidate_pending_user_review",
-          "role": "夜官仓老人孩子首态",
-          "optional": false
-        },
-        {
-          "slot": "@图片3",
-          "file": "assets/keyframes/G/G22_IN_v01.png",
-          "status": "candidate_pending_user_review",
-          "role": "魏笑夜私仓首态",
-          "optional": false
-        },
-        {
-          "slot": "@图片4",
-          "file": "assets/keyframes/G/G23_IN_v01.png",
-          "status": "candidate_pending_user_review",
-          "role": "帝相宫墙首态",
-          "optional": false
-        },
-        {
-          "slot": "@图片5",
-          "file": "assets/keyframes/F/F_OUT_v02.png",
-          "status": "candidate_pending_user_review",
-          "role": "复用F尾态给G24；不是新G24末帧",
-          "optional": false
-        },
-        {
-          "slot": "@图片6",
-          "file": "assets/keyframes/G/G20_OUT_v03.png",
-          "status": "candidate_pending_user_review",
-          "role": "G20读报后末态与同一小腿面孔",
-          "optional": false
-        },
-        {
-          "slot": "@图片7",
-          "file": "assets/characters/C03/C03_FRONT_HALF_v01.png",
-          "status": "candidate_pending_user_review",
-          "role": "小腿历史化正脸；身份来自用户明确提供图片",
-          "optional": false
-        },
-        {
-          "slot": "@图片8",
-          "file": "assets/characters/C05/C05_FRONT_HALF_v04.png",
-          "status": "candidate_pending_user_review",
-          "role": "潘慧修正正脸",
-          "optional": false
-        }
-      ],
-      "optional_image_slots": [],
-      "optional_video_references": [],
-      "max_image_count_with_optional": 8,
-      "already_uploaded_to_video_tool": false,
-      "generated_video": false,
-      "recommended_production": "G20–G24 separately. The 87.5–90s title card is postproduction, not generated video.",
-      "id": "G"
+      "source_to_global_offset_s": 62,
+      "generated_video_note": "No original sample registered here; user reports tests outside repository.",
+      "audio_generation_mode": "native_dialogue_and_picture_together_no_music_no_narrator",
+      "attached_first_last_images_count_toward_limit": true
     },
     {
       "job": "G20",
-      "status": "awaiting_candidate_review",
+      "status": "revised_pending_operator_review",
       "target_timeline_s": [
         75,
         78.5
@@ -572,25 +488,36 @@
           "source_job": "D",
           "source_local_in_s": 0,
           "source_local_out_s": 5,
-          "status": "not_generated",
+          "status": "source_not_registered",
           "purpose": "小腿身份衣服，不延续白天朝堂",
-          "requires_interface_support": true
+          "requires_interface_support": true,
+          "source_time_basis": "accepted_edited_block_local_seconds",
+          "copy_audio": false
         }
       ],
       "max_image_count_with_optional": 5,
       "already_uploaded_to_video_tool": false,
-      "generated_video": false,
+      "generated_video": null,
       "example_source_duration_s": 5,
       "example_source_keep_s": [
         0.5,
         4
       ],
       "source_duration_is_example_not_platform_minimum": true,
-      "id": "G20"
+      "id": "G20",
+      "source_duration_s": 5,
+      "source_keep_s": [
+        0.5,
+        4
+      ],
+      "source_to_global_offset_s": 74.5,
+      "generated_video_note": "No original sample registered here; user reports tests outside repository.",
+      "audio_generation_mode": "environment_only_no_speech",
+      "attached_first_last_images_count_toward_limit": true
     },
     {
       "job": "G21",
-      "status": "awaiting_candidate_review",
+      "status": "revised_pending_operator_review",
       "target_timeline_s": [
         78.5,
         80
@@ -633,14 +560,16 @@
           "source_job": "A",
           "source_local_in_s": 8,
           "source_local_out_s": 13,
-          "status": "not_generated",
+          "status": "source_not_registered",
           "purpose": "老人孩子身份尺度，不继承白日降雨",
-          "requires_interface_support": true
+          "requires_interface_support": true,
+          "source_time_basis": "accepted_edited_block_local_seconds",
+          "copy_audio": false
         }
       ],
       "max_image_count_with_optional": 4,
       "already_uploaded_to_video_tool": false,
-      "generated_video": false,
+      "generated_video": null,
       "example_source_duration_s": 5,
       "example_source_keep_s": [
         1.5,
@@ -649,11 +578,20 @@
       "source_duration_is_example_not_platform_minimum": true,
       "has_new_end_keyframe": false,
       "end_state_defined_by_text": true,
-      "id": "G21"
+      "id": "G21",
+      "source_duration_s": 5,
+      "source_keep_s": [
+        1.5,
+        3
+      ],
+      "source_to_global_offset_s": 77.0,
+      "generated_video_note": "No original sample registered here; user reports tests outside repository.",
+      "audio_generation_mode": "environment_only_no_speech",
+      "attached_first_last_images_count_toward_limit": true
     },
     {
       "job": "G22",
-      "status": "awaiting_candidate_review",
+      "status": "revised_pending_operator_review",
       "target_timeline_s": [
         80,
         81.5
@@ -689,14 +627,16 @@
           "source_job": "B",
           "source_local_in_s": 4,
           "source_local_out_s": 8,
-          "status": "not_generated",
+          "status": "source_not_registered",
           "purpose": "魏笑与案边，服从夜光",
-          "requires_interface_support": true
+          "requires_interface_support": true,
+          "source_time_basis": "accepted_edited_block_local_seconds",
+          "copy_audio": false
         }
       ],
       "max_image_count_with_optional": 3,
       "already_uploaded_to_video_tool": false,
-      "generated_video": false,
+      "generated_video": null,
       "example_source_duration_s": 5,
       "example_source_keep_s": [
         1.5,
@@ -705,11 +645,20 @@
       "source_duration_is_example_not_platform_minimum": true,
       "has_new_end_keyframe": false,
       "end_state_defined_by_text": true,
-      "id": "G22"
+      "id": "G22",
+      "source_duration_s": 5,
+      "source_keep_s": [
+        1.5,
+        3
+      ],
+      "source_to_global_offset_s": 78.5,
+      "generated_video_note": "No original sample registered here; user reports tests outside repository.",
+      "audio_generation_mode": "environment_only_no_speech",
+      "attached_first_last_images_count_toward_limit": true
     },
     {
       "job": "G23",
-      "status": "awaiting_candidate_review",
+      "status": "revised_pending_operator_review",
       "target_timeline_s": [
         81.5,
         84.5
@@ -725,34 +674,20 @@
         },
         {
           "slot": "@图片2",
-          "file": "assets/characters/C01/C01_FULL_v01.png",
-          "status": "existing_reference",
-          "role": "皇帝全身",
-          "optional": false
-        },
-        {
-          "slot": "@图片3",
           "file": "assets/characters/C02/C02_FRONT_HALF_v01.png",
           "status": "existing_reference",
           "role": "西卡脸",
           "optional": false
         },
         {
-          "slot": "@图片4",
-          "file": "assets/characters/C02/C02_FULL_v01.png",
-          "status": "existing_reference",
-          "role": "西卡全身",
-          "optional": false
-        },
-        {
-          "slot": "@图片5",
+          "slot": "@图片3",
           "file": "assets/scenes/S08_WALL_NIGHT_v01.png",
           "status": "candidate_pending_user_review",
           "role": "宫墙夜景",
           "optional": false
         },
         {
-          "slot": "@图片6",
+          "slot": "@图片4",
           "file": "assets/keyframes/G/G23_IN_v01.png",
           "status": "candidate_pending_user_review",
           "role": "首态；末态由动作文字规定",
@@ -766,14 +701,16 @@
           "source_job": "C",
           "source_local_in_s": 3,
           "source_local_out_s": 10,
-          "status": "not_generated",
+          "status": "source_not_registered",
           "purpose": "帝相身份衣冠，不继承朝堂背景",
-          "requires_interface_support": true
+          "requires_interface_support": true,
+          "source_time_basis": "accepted_edited_block_local_seconds",
+          "copy_audio": false
         }
       ],
-      "max_image_count_with_optional": 6,
+      "max_image_count_with_optional": 4,
       "already_uploaded_to_video_tool": false,
-      "generated_video": false,
+      "generated_video": null,
       "example_source_duration_s": 5,
       "example_source_keep_s": [
         1,
@@ -782,11 +719,20 @@
       "source_duration_is_example_not_platform_minimum": true,
       "has_new_end_keyframe": false,
       "end_state_defined_by_text": true,
-      "id": "G23"
+      "id": "G23",
+      "source_duration_s": 5,
+      "source_keep_s": [
+        1,
+        4
+      ],
+      "source_to_global_offset_s": 80.5,
+      "generated_video_note": "No original sample registered here; user reports tests outside repository.",
+      "audio_generation_mode": "environment_only_no_speech",
+      "attached_first_last_images_count_toward_limit": true
     },
     {
       "job": "G24",
-      "status": "awaiting_candidate_review",
+      "status": "revised_pending_operator_review",
       "target_timeline_s": [
         84.5,
         87.5
@@ -838,14 +784,16 @@
           "source_job": "F",
           "source_local_in_s": 9,
           "source_local_out_s": 13,
-          "status": "not_generated",
+          "status": "source_not_registered",
           "purpose": "优先同场动作、灯光、服装、披帛延续",
-          "requires_interface_support": true
+          "requires_interface_support": true,
+          "source_time_basis": "accepted_edited_block_local_seconds",
+          "copy_audio": false
         }
       ],
       "max_image_count_with_optional": 5,
       "already_uploaded_to_video_tool": false,
-      "generated_video": false,
+      "generated_video": null,
       "example_source_duration_s": 5,
       "example_source_keep_s": [
         1,
@@ -854,7 +802,16 @@
       "source_duration_is_example_not_platform_minimum": true,
       "has_new_end_keyframe": false,
       "end_state_defined_by_text": true,
-      "id": "G24"
+      "id": "G24",
+      "source_duration_s": 5,
+      "source_keep_s": [
+        1,
+        4
+      ],
+      "source_to_global_offset_s": 83.5,
+      "generated_video_note": "No original sample registered here; user reports tests outside repository.",
+      "audio_generation_mode": "environment_only_no_speech",
+      "attached_first_last_images_count_toward_limit": true
     }
   ],
   "path_base_description": "All file and prompt_file paths are relative to the repository root.",
@@ -865,5 +822,38 @@
     "full": "C03_FULL_v01",
     "contact_sheet_human_review_only": "C03_ANGLES_EXPRESSIONS_v01"
   },
-  "github_asset_commit": "2f749070e7f486cb1aadf9a391c17d25a64f5763"
+  "schema_version": 3,
+  "image_reference_limit_source": "User confirmed current Seedance entry accepts a maximum of five image uploads.",
+  "image_limit_includes_optional_and_first_last": true,
+  "contact_sheet_workaround_prohibited": true,
+  "narrative_block_count": 7,
+  "executable_base_job_count": 11,
+  "audio_contract_file": "episodes/ep01/production/audio/dialogue_contract.json",
+  "audio_workflow_file": "episodes/ep01/production/audio/AV_SYNC_WORKFLOW.md",
+  "video_report_status": "User reports generated samples with AV problems; actual source videos are not present in this repository and have not been inspected.",
+  "reference_video_audio_policy": "If reference videos are attached, borrow appearance/motion only; do not copy dialogue, music or narration from them.",
+  "archived_previous_pack": "archive/production_pack_v2",
+  "edit_only_blocks": [
+    {
+      "id": "G",
+      "target_timeline_s": [
+        75,
+        90
+      ],
+      "executable": false,
+      "source_jobs": [
+        "G20",
+        "G21",
+        "G22",
+        "G23",
+        "G24"
+      ],
+      "title_card_timeline_s": [
+        87.5,
+        90
+      ],
+      "reason": "Five-location montage is assembled in edit; retired all-in-one prompt is archived only."
+    }
+  ],
+  "base_source_duration_total_s": 101
 }

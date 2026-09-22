@@ -1,0 +1,85 @@
+{
+  "baseline_integrity_pass": true,
+  "negative_cases_pass": true,
+  "negative_case_count": 10,
+  "scope": "Static mutated inputs only; no video/audio quality claim. Repository production files were not mutated by these probes.",
+  "cases": [
+    {
+      "case": "optional_sixth_image",
+      "rejected": true,
+      "errors": [
+        "G24: image budget 6 exceeds 5 including optional images"
+      ]
+    },
+    {
+      "case": "unbound_image_tag",
+      "rejected": true,
+      "errors": [
+        "G20: unbound image labels ['@图片9']"
+      ]
+    },
+    {
+      "case": "duplicate_slot",
+      "rejected": true,
+      "errors": [
+        "G20: image slots must be unique and consecutive ['@图片1', '@图片2', '@图片3', '@图片4', '@图片5'], got ['@图片1', '@图片1', '@图片3', '@图片4', '@图片5']",
+        "G20: unbound image labels ['@图片2']"
+      ]
+    },
+    {
+      "case": "emperor_line_assigned_to_xika",
+      "rejected": true,
+      "errors": [
+        "DLG08: wrong speaker identity C02",
+        "DLG08: visibility segment assigned to the wrong speaking face",
+        "DLG08: speaking character is also incorrectly assigned as a closed-mouth listener"
+      ]
+    },
+    {
+      "case": "D_J_cut_prefix_lost",
+      "rejected": true,
+      "errors": [
+        "DLG06: audio source offset maps to the wrong global time",
+        "DLG06: J-cut must come from one D recording [.1,4.6) mapped to [33.6,38.1)"
+      ]
+    },
+    {
+      "case": "D_picture_audio_wrong_global_offset",
+      "rejected": true,
+      "errors": [
+        "D: source picture/global mapping does not preserve the edit duration",
+        "D: required 14-second source, picture [.5,13.5), offset 33.5 was changed"
+      ]
+    },
+    {
+      "case": "reaction_listener_wrongly_lipsyncs_offscreen_line",
+      "rejected": true,
+      "errors": [
+        "DLG07: visible speech requires lip sync; offscreen/VO requires none"
+      ]
+    },
+    {
+      "case": "F_continuous_sentence_gap_at_cut",
+      "rejected": true,
+      "errors": [
+        "DLG12: visibility segments have a gap, overlap, or invalid interval",
+        "DLG12: visibility segments do not cover the entire dialogue"
+      ]
+    },
+    {
+      "case": "F_repair_restarts_sentence_at_cut",
+      "rejected": true,
+      "errors": [
+        "R_F_PAN: repair changes locked dialogue time or duration for DLG12",
+        "R_F_PAN: repair picture/audio do not share one source-to-global offset"
+      ]
+    },
+    {
+      "case": "unreceived_actual_frame_falsely_uploaded",
+      "rejected": true,
+      "errors": [
+        "R_E15: unextracted actual frame must remain explicitly pending"
+      ]
+    }
+  ]
+}
