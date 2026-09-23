@@ -14,6 +14,8 @@
 
 [N04歌舞修订](episodes/ep02/production/prompts/N04_PROMPT.txt)保留18秒歌舞、7秒面部近景；其它四段与21句对白不变。新资料打包：`python tools/build_next_bundles.py --out /tmp/DYS_EP03_05`；校验：`python tools/validate_next_pack.py`。最新上传状态见[同步记录](context/SYNC_STATUS.md)，资产看[画册](REVIEW_GALLERY.html)，后续AI先读[AGENTS.md](AGENTS.md)。
 
+本轮已[上传并核验370个文件](https://github.com/YuxiangLiu-lyx/DYS_history/commit/49c0ba12c02362e1550f96db73b0a334b24be52f)，旧版完整保留。
+
 以下保留第二回及第一回制作入口。
 
 **第二回《微服入江南，听松初逢卿》v1.1，5段×30秒，共150秒。** 29镜、21句对白；每段Prompt小于2000字符。新增两位微服定妆和4处场景，保留第一回原稿和全部素材。新图片及导演稿可审阅；尚未生成本章视频，首尾关键帧与完整Storyboard仍待补齐。

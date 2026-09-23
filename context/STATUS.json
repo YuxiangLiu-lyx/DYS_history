@@ -89,13 +89,13 @@
   "github": {
     "repository": "YuxiangLiu-lyx/DYS_history",
     "branch": "main",
-    "synced": false,
-    "previous_verified_commit": "11a6beabb19b92941fe8952f902f517c1c4cd97f",
-    "publication_status": "new_revision_prepared_pending_publish",
-    "remote_commit": "0e46f26c174178004237bf64fa18f9ef60d9ede2",
-    "verified_path_count": 295,
-    "receipt": "history/publication/EP02_v1_pack_receipt.json",
-    "verification_scope": "All 295 pack paths verified against remote Git blob SHA and mode; this metadata follows in a second commit."
+    "synced": true,
+    "previous_verified_commit": "cef84b8c6862328fe0c156f113a1cf940cf23789",
+    "publication_status": "EP03_05_and_EP02_N04_v1_1_published_and_verified",
+    "remote_commit": "49c0ba12c02362e1550f96db73b0a334b24be52f",
+    "verified_path_count": 370,
+    "receipt": "history/publication/EP03_05_pack_receipt.json",
+    "verification_scope": "All 370 pack paths verified against remote Git blob SHA and mode, zero deletions. This metadata follows in a second commit."
   },
   "video_generated": false,
   "audio_generated": false,
