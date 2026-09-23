@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-23",
+  "status": "static_checks_only_not_video_acceptance",
+  "duration": 150,
+  "shot_count": 29,
+  "dialogue_count": 21,
+  "unicode_definition": "Python len of UTF-8-decoded complete file; includes spaces, punctuation, @labels and newlines",
+  "prompt_characters": {
+    "N01": 733,
+    "N02": 732,
+    "N03": 833,
+    "N04": 841,
+    "N05": 879
+  },
+  "prompt_limit": 2000,
+  "prompt_target": 1800,
+  "max_dialogue_hanzi_per_second": 3.548,
+  "actual_av_checked": false
+}

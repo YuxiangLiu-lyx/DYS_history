@@ -1,7 +1,10 @@
 {
   "schema_version": 1,
   "project": "德云史记·慧后本纪",
-  "episode": "EP01",
+  "episodes": [
+    "EP01",
+    "EP02"
+  ],
   "selection_authority": "assets/current_selection.json",
   "generated_images_are_original_bytes": true,
   "new_scene_and_keyframe_approval": "pending_user_review",
@@ -22,6 +25,34 @@
         1024
       ],
       "usable_as_single_character_reference": false
+    },
+    {
+      "id": "C01_DISGUISE_FRONT_HALF_v01",
+      "path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+      "kind": "characters",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 1894389,
+      "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "usable_as_single_character_reference": true
+    },
+    {
+      "id": "C01_DISGUISE_FULL_v01",
+      "path": "assets/characters/C01/C01_DISGUISE_FULL_v01.png",
+      "kind": "characters",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 1997160,
+      "sha256": "24e1e8f98757042463f49d46a562fa8aeae67263bf474a44a5ad9a298808a342",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "usable_as_single_character_reference": true
     },
     {
       "id": "C01_FRONT_HALF_v01",
@@ -106,6 +137,34 @@
         1024
       ],
       "usable_as_single_character_reference": false
+    },
+    {
+      "id": "C03_DISGUISE_FRONT_HALF_v01",
+      "path": "assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png",
+      "kind": "characters",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2485610,
+      "sha256": "a042f817273a117dd720a24d48338859528b8f2753903d83cc1fcbabd41410ca",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "usable_as_single_character_reference": true
+    },
+    {
+      "id": "C03_DISGUISE_FULL_v01",
+      "path": "assets/characters/C03/C03_DISGUISE_FULL_v01.png",
+      "kind": "characters",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2051714,
+      "sha256": "779991c25b973bcc9f12771571ce86f9ada2c04c4b8e3557a27ab2562d49cd6b",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "usable_as_single_character_reference": true
     },
     {
       "id": "C03_FRONT_HALF_v01",
@@ -640,6 +699,34 @@
       "usable_as_single_character_reference": false
     },
     {
+      "id": "N04_DANCE_STUDY_v01",
+      "path": "assets/keyframes/EP02/N04_DANCE_STUDY_v01.png",
+      "kind": "keyframes",
+      "current": false,
+      "status": "rejected_stage_floor_geometry",
+      "bytes": 1992617,
+      "sha256": "deb8b03ab1465882e71a97e10d4daf3498f3fdb866183453edb0a0af9a830e3b",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "N04_DANCE_STUDY_v02",
+      "path": "assets/keyframes/EP02/N04_DANCE_STUDY_v02.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 1959654,
+      "sha256": "01b38f83e66563d019b0a35539cfa821f19bece6c57b4186a9ce00b0a3f5fd4b",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
       "id": "F_IN_v02",
       "path": "assets/keyframes/F/F_IN_v02.png",
       "kind": "keyframes",
@@ -969,6 +1056,62 @@
       "status": "candidate_pending_user_review",
       "bytes": 2476220,
       "sha256": "10d052125ad2b989432976fe9fd69255842331c54e07104a1c2832bdd062044f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "S09_STUDY_NIGHT_v01",
+      "path": "assets/scenes/S09_STUDY_NIGHT_v01.png",
+      "kind": "scenes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2005229,
+      "sha256": "497738f64bea5982d6106efdba8b2209fa0bf313a07b6afa0070ce09d74b3e2c",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "S10_HUIZHOU_STREET_v01",
+      "path": "assets/scenes/S10_HUIZHOU_STREET_v01.png",
+      "kind": "scenes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2641077,
+      "sha256": "0fb4fc0032b824a0eeed9362db4d1ecf6a6143d1604257e461cc9b020cf2e96d",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "S11_TEAHOUSE_v01",
+      "path": "assets/scenes/S11_TEAHOUSE_v01.png",
+      "kind": "scenes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2478863,
+      "sha256": "14d0223db9430f371f04add3e40ae56111ef287f4c46bf39e6cc6f115279e842",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "S12_SALON_STAGE_NIGHT_v01",
+      "path": "assets/scenes/S12_SALON_STAGE_NIGHT_v01.png",
+      "kind": "scenes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2550184,
+      "sha256": "f397ab338873d8519099bdfd68d8b19bcfa81a519f1f2d89529e13b7e248be98",
       "dimensions": [
         1672,
         941

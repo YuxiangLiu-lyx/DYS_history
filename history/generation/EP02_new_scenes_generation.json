@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "episode": "EP02",
+  "date": "2026-09-23",
+  "asset_status": "candidate_pending_user_review",
+  "generated_video": false,
+  "global_current_selection_modified": false,
+  "tool": "image_gen__imagegen",
+  "mode": "built_in",
+  "model_version": null,
+  "seed": null,
+  "cost": null,
+  "generation_note": "Each asset was generated in one separate built-in call. Reference inputs were visually inspected first. Output files copied byte-for-byte into repository; original tool files retained. All three are new scene candidates, not replacements of EP01 assets.",
+  "assets": [
+    {
+      "id": "S09_STUDY_NIGHT_v01",
+      "path": "assets/scenes/S09_STUDY_NIGHT_v01.png",
+      "status": "candidate_pending_user_review",
+      "full_prompt": "Use case: historical-scene. 为写实中国架空历史正剧《德云史记》生成一张独立的御书房夜间空场景母版，16:9横幅电影剧照，无人、无字、无拼图。参考图1仅供朴实木质材料、真实夜景摄影与冷暖光质；这是皇帝独用的另一间御书房，绝不是把原小腿偏室复制一遍。中等尺度的宫廷书房，深色木梁与温润暗朱立柱、灰石地、素雅木屏风，皇帝座位在书桌后、画面右侧，面向画面左前方；臣子应可站在桌前左侧宽敞地面，与帝位构成可拍过肩及正反打的明确空间轴线。主书桌斜向放在画面右半部，桌面右前固定一只正常大小铜烛台与短蜡烛，另有砚、笔架、折叠素纸密报，无可读文字，物件分开不融化。后左侧有关闭的双扇木门和独立木屏风，左侧窗透进适度冷月光，桌前暖烛火会照亮来人的面部，保留阴影中的细节、真实火焰与克制光比。皇帝靠椅是精致木椅、尺寸可信，不是巨大金龙王座。视点高1.55米、35mm镜头，自房间前左观察，画面右保留皇帝坐席与桌面，画面左保留臣子走入和站立空间，有前中后层次。布帘、书匣、少量卷册体现勤政，不堆奢侈摆饰。材料有使用痕迹，摄影级真实木纹、烛蜡、纸纤维、石材，视觉与参考同一历史剧。不要现代物、不仙侠、不游戏CG、不过量金色、不油画、不HDR、不夸张烟雾，不出现人物、人影、人脸、字幕、水印、摄影设备。",
+      "input_images": [
+        {
+          "path": "assets/scenes/S07_CHAMBER_NIGHT_v01.png",
+          "role": "historical materials and night photographic continuity; new imperial room"
+        }
+      ],
+      "actual_tool": "image_gen__imagegen",
+      "actual_model_version": null,
+      "requested_aspect_ratio": "16:9",
+      "requested_count": 1,
+      "generated_count": 1,
+      "seed": null,
+      "task_id": null,
+      "cost": null,
+      "original_output_tool_hint": "Generated images are saved to /workspace/scratch/217ce8a5e48d/generated_images as /workspace/scratch/217ce8a5e48d/generated_images/exec-487918e1-8578-43ed-9f1f-009a38c9f1c9.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "source_tool_file": "/workspace/scratch/217ce8a5e48d/generated_images/exec-487918e1-8578-43ed-9f1f-009a38c9f1c9.png",
+      "technical": {
+        "dimensions": [
+          1672,
+          941
+        ],
+        "bytes": 2005229,
+        "sha256": "497738f64bea5982d6106efdba8b2209fa0bf313a07b6afa0070ce09d74b3e2c",
+        "original_tool_bytes_preserved": true,
+        "format": "PNG"
+      },
+      "visual_review": {
+        "reviewer": "assistant",
+        "reviewed_in_conversation": true,
+        "decision": "candidate_ready_for_user_review",
+        "notes": [
+          "No people or readable lettering. Desk and imperial seat at image right; open ground for minister at left. Closed door rear left, cool window light left, warm candle desk right. Familiar furniture language retained but room geometry and screen distinguish it from S07."
+        ]
+      }
+    },
+    {
+      "id": "S10_HUIZHOU_STREET_v01",
+      "path": "assets/scenes/S10_HUIZHOU_STREET_v01.png",
+      "status": "candidate_pending_user_review",
+      "full_prompt": "Use case: historical-scene. 为写实中国架空历史正剧《德云史记》生成一张独立的徽州街市环境母版，16:9横幅单张电影剧照。参考图1仅锁定同城白墙黑瓦、雨后青石、建筑年代与真实摄影质感；新街道是官仓之外的日常街市，不能复制官仓大门。时间为数日后下午，阴天，雨刚停，灰白天光自然柔和，石路微湿但不是暴雨洪水。两侧低矮白墙黑瓦木构商铺，建筑贫旧而保持完整，不是战争废墟、灾难废土。35mm电影镜头，视点高1.55米，向前沿窄街望去有自然纵深。画面左近景是一间米铺的敞开铺面，木柜台有仅浅浅一层米的小木盘、一只空旧米升、一只完好的木斗，后面粮囤基本空，布袋瘪下；柜台前留出人站着问话的完整空间。画面右中景是朴实茶楼的木檐门廊，打开的门清楚通向偏暗木质室内，从街上可以真正走进去，门旁只挂一面无字素色小布幡；茶楼不是华丽听松楼。柜台、街道、茶楼入口三处关系清楚，后续摄影可跟随人物从街上画面中部向右进入茶楼。无人空场景，无人物或脸，以瘪粮袋与少米的升斗表现粮价危机，不靠尸体、成排乞丐、骷髅或额外剧情。少量竹筐、旧门板和真实日常生活痕迹，不把所有摊位塞满粮食。真实摄影，白墙霉痕克制、木材与瓦片有细节、柔和空气透视，不强HDR、不油画、不动漫、不游戏CG、无仙侠装饰、无现代电线招牌，无可读文字、数字、字幕、水印。",
+      "input_images": [
+        {
+          "path": "assets/scenes/S01_DAY_v01.png",
+          "role": "same city architecture, weather and photography; new street location"
+        }
+      ],
+      "actual_tool": "image_gen__imagegen",
+      "actual_model_version": null,
+      "requested_aspect_ratio": "16:9",
+      "requested_count": 1,
+      "generated_count": 1,
+      "seed": null,
+      "task_id": null,
+      "cost": null,
+      "original_output_tool_hint": "Generated images are saved to /workspace/scratch/217ce8a5e48d/generated_images as /workspace/scratch/217ce8a5e48d/generated_images/exec-81b31786-c489-4f30-a027-69a50589f859.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "source_tool_file": "/workspace/scratch/217ce8a5e48d/generated_images/exec-81b31786-c489-4f30-a027-69a50589f859.png",
+      "technical": {
+        "dimensions": [
+          1672,
+          941
+        ],
+        "bytes": 2641077,
+        "sha256": "0fb4fc0032b824a0eeed9362db4d1ecf6a6143d1604257e461cc9b020cf2e96d",
+        "original_tool_bytes_preserved": true,
+        "format": "PNG"
+      },
+      "visual_review": {
+        "reviewer": "assistant",
+        "reviewed_in_conversation": true,
+        "decision": "candidate_ready_for_user_review",
+        "notes": [
+          "No people or readable lettering. Rice counter left, open wooden teahouse right; rainy-day architectural continuity with S01. Rice supply appears limited at foreground counter; sacks alone do not establish quantities and may represent merchant stock."
+        ]
+      }
+    },
+    {
+      "id": "S11_TEAHOUSE_v01",
+      "path": "assets/scenes/S11_TEAHOUSE_v01.png",
+      "status": "candidate_pending_user_review",
+      "full_prompt": "Use case: historical-scene. 新生成一张写实中国架空历史正剧茶楼室内空场景母版，16:9横幅独立电影剧照，无人无字。参考图1是同一时间同一徽州街道：茶楼正是画面右侧朴实木檐茶铺，保持粗木柱、灰石地、暗木家具、竹帘及雨后阴天下午的光色。现在摄影机真正进入这家茶楼，从内部左侧向右前方门口斜看，镜头35mm、离地1.5米。敞开入口位于画面右后，门外能看见同一条湿青石街以及对面的旧米铺局部，步入门后从画面右侧走向画面中央，再坐到前右茶桌，动线无遮挡；不要把背景变成风景花园。后窗透柔和灰昼光，窗外为小院白墙和邻瓦，右门的室外灰光略强，室内保持真实可拍人物表演的曝光，暖色来自木材而不是夜景烛光。前右留一张完整方茶桌、两条长凳，可供年轻公子在右侧桌边落座，随从在他左后方站着。该桌固定：中间一把有壶盖的赤褐陶茶壶，壶嘴朝画面左，近侧两只浅灰陶茶碗，间隔明确，比例正常。画面左另有当地茶客用的小桌长凳，桌边能转身与右桌人物交谈，左桌只放一把粗陶壶与两只碗。保留至少一张后部小茶桌，放参考外景里看得到的简单白底青花茶具，使门外所见与内部可信连续。柱子位于边缘和两桌之间后方，不遮挡未来演员脸及互相视线。木柱有岁月磨损，木桌有水渍，泥陶纹理和竹帘真实，不堆满道具；民间清茶店、干净但简陋，与门外粮食昂贵并存，绝非富商豪宴、听松楼舞台或宫廷。近中远景关系清楚，横向可过肩拍公子和当地茶客的反打。真实古装电影实拍感，无现代物、玻璃大窗、电灯、菜单、文字水印，无人影人脸，无仙侠、游戏CG、磨皮和HDR。",
+      "input_images": [
+        {
+          "path": "assets/scenes/S10_HUIZHOU_STREET_v01.png",
+          "role": "same street teahouse exterior and doorway-to-room continuity"
+        }
+      ],
+      "actual_tool": "image_gen__imagegen",
+      "actual_model_version": null,
+      "requested_aspect_ratio": "16:9",
+      "requested_count": 1,
+      "generated_count": 1,
+      "seed": null,
+      "task_id": null,
+      "cost": null,
+      "original_output_tool_hint": "Generated images are saved to /workspace/scratch/217ce8a5e48d/generated_images as /workspace/scratch/217ce8a5e48d/generated_images/exec-fa847aed-3617-431e-976d-68f38b6ec374.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "source_tool_file": "/workspace/scratch/217ce8a5e48d/generated_images/exec-fa847aed-3617-431e-976d-68f38b6ec374.png",
+      "technical": {
+        "dimensions": [
+          1672,
+          941
+        ],
+        "bytes": 2478863,
+        "sha256": "14d0223db9430f371f04add3e40ae56111ef287f4c46bf39e6cc6f115279e842",
+        "original_tool_bytes_preserved": true,
+        "format": "PNG"
+      },
+      "visual_review": {
+        "reviewer": "assistant",
+        "reviewed_in_conversation": true,
+        "decision": "candidate_ready_for_user_review",
+        "notes": [
+          "No people or readable lettering. Main table front right, local-customer table left, doorway right with opposite rice shop visible. Fixed reddish clay pot with spout to image left and two bowls at main table. Rear blue-white tea set preserves the exterior-visible prop language.",
+          "S10 and S11 are independent spatial references, not measured 3D scan: exterior grain sacks and minor timber details differ. Use motivated doorway cut/column occlusion when crossing, not a promised seamless one-take. Once a generated video take is accepted, use its real continuation frames as continuity authority."
+        ]
+      }
+    }
+  ]
+}

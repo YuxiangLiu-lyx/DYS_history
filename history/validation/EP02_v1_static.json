@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-23",
+  "episode": "EP02",
+  "status": "independent_static_audit",
+  "integrity_pass": true,
+  "errors": [],
+  "warnings": [],
+  "duration_seconds": 150,
+  "source_seconds_per_block": 30,
+  "base_jobs": 5,
+  "narrative_shots": 29,
+  "dialogue_count": 21,
+  "prompt_character_count_definition": "Python len of complete UTF-8 decoded file, including whitespace, punctuation and reference labels",
+  "prompt_character_limit": 2000,
+  "prompt_characters": {
+    "N01": 733,
+    "N02": 732,
+    "N03": 833,
+    "N04": 841,
+    "N05": 879
+  },
+  "prompt_utf8_bytes": {
+    "N01": 2031,
+    "N02": 1996,
+    "N03": 2299,
+    "N04": 2393,
+    "N05": 2439
+  },
+  "dialogue_hanzi_per_second": {
+    "E2_D01": 2.963,
+    "E2_D02": 1.25,
+    "E2_D03": 3.0769,
+    "E2_D04": 2.7419,
+    "E2_D05": 3.1148,
+    "E2_D06": 3.0952,
+    "E2_D07": 2.9545,
+    "E2_D08": 2.963,
+    "E2_D09": 2.3529,
+    "E2_D10": 2.8947,
+    "E2_D11": 2.619,
+    "E2_D12": 3.3333,
+    "E2_D13": 3.125,
+    "E2_D14": 3.1034,
+    "E2_D15": 2.6316,
+    "E2_D16": 3.3333,
+    "E2_D17": 3.5484,
+    "E2_D18": 2.7273,
+    "E2_D19": 2.7692,
+    "E2_D20": 1.25,
+    "E2_D21": 2.2727
+  },
+  "max_dialogue_hanzi_per_second": 3.5484,
+  "image_counts": {
+    "N01": 3,
+    "N02": 3,
+    "N03": 6,
+    "N04": 5,
+    "N05": 5
+  },
+  "voice_reference_counts": {
+    "N01": 2,
+    "N02": 2,
+    "N03": 1,
+    "N04": 0,
+    "N05": 3
+  },
+  "reference_unique_file_count": 17,
+  "reference_sha256": {
+    "assets/characters/C01/C01_FRONT_HALF_v01.png": "3371302b239a11e0da68d66555e5a5792c8911d7806d054c21ecc220779c5e68",
+    "assets/characters/C03/C03_FRONT_HALF_v01.png": "41db169fbe61e413818ee53211f150132c07de9a5d703099453d663b68fa8e34",
+    "assets/scenes/S09_STUDY_NIGHT_v01.png": "497738f64bea5982d6106efdba8b2209fa0bf313a07b6afa0070ce09d74b3e2c",
+    "assets/audio/voice_references/01_sun_yalong.mp3": "0cac07f7dd3f4c3fda80f316d92d48d273982818950dc477cd99895edca21b64",
+    "assets/audio/voice_references/03_xiaotui.mp3": "132ac37ae05baee438507768b07bd793076f855f2146a350ff5ddbe33b4364d5",
+    "assets/characters/C02/C02_FRONT_HALF_v01.png": "545540955d27a66096a495d23a4149347a21ccf37e237b3dc2adc69b1b5f1ccd",
+    "assets/audio/voice_references/04_xika.mp3": "1bb51a6f9d154a43d073db6c83c681ef9a6ac66391a3a4c62a800b08706bbe6b",
+    "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
+    "assets/characters/C01/C01_DISGUISE_FULL_v01.png": "24e1e8f98757042463f49d46a562fa8aeae67263bf474a44a5ad9a298808a342",
+    "assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png": "a042f817273a117dd720a24d48338859528b8f2753903d83cc1fcbabd41410ca",
+    "assets/characters/C03/C03_DISGUISE_FULL_v01.png": "779991c25b973bcc9f12771571ce86f9ada2c04c4b8e3557a27ab2562d49cd6b",
+    "assets/scenes/S10_HUIZHOU_STREET_v01.png": "0fb4fc0032b824a0eeed9362db4d1ecf6a6143d1604257e461cc9b020cf2e96d",
+    "assets/scenes/S11_TEAHOUSE_v01.png": "14d0223db9430f371f04add3e40ae56111ef287f4c46bf39e6cc6f115279e842",
+    "assets/characters/C05/C05_FRONT_HALF_v04.png": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
+    "assets/characters/C05/C05_FULL_v03.png": "9dc75e9f1a2d82edad4f1d43c8837dfe26ae78f1b5da2a6211f97579e866e33f",
+    "assets/scenes/S12_SALON_STAGE_NIGHT_v01.png": "f397ab338873d8519099bdfd68d8b19bcfa81a519f1f2d89529e13b7e248be98",
+    "assets/audio/voice_references/02_pan_hui.mp3": "60413e1fe29a24dd1a2196a0add5001675ed4e54b69b0fc47c7c435d74ce06a1"
+  },
+  "ep01_baseline_file_count": 32,
+  "ep01_byte_unchanged": true,
+  "ep01_added_metadata_files": [
+    "episodes/ep01/STATUS_v4.json"
+  ],
+  "actual_media_audited": false,
+  "mouth_sync_verified_from_video": false,
+  "new_drama_voice_generated": false,
+  "limits": [
+    "This checks production data, not Seedance output quality.",
+    "Images and candidate choreography require human approval.",
+    "Source voice sample playback and likeness are not independently verified here.",
+    "Performance speed statistics are estimates; real delivery must be watched and listened to."
+  ]
+}

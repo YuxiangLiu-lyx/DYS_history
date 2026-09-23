@@ -1,6 +1,23 @@
 # 德云史记 · 慧后本纪
 
-**当前v4：第一回《风起徽州》，Seedance 2.5，三幕各30秒。** 成片90秒、24个叙事镜头＋片尾字卡，基础生成从11次整合为3次。保留原剧情、原台词和全部角色图；仅做已记录的时间调整。每幕用9/9/11张图与1/3/1段角色原声，不凑满素材额度。
+**当前续作：第二回《微服入江南，听松初逢卿》v1，5段×30秒，共150秒。** 29镜、21句对白；每段Prompt小于2000字符。新增两位微服定妆和4处场景，保留第一回原稿和全部素材。新图片及导演稿可审阅；尚未生成本章视频，首尾关键帧与完整Storyboard仍待补齐。
+
+| 第二回需要什么 | 入口 |
+|---|---|
+| 导演稿与对白 | [EP02导演版](episodes/ep02/script/EP02_DIRECTOR_v1.md) |
+| 每幕时间轴、动作、声音、Prompt | [EP02生产包](episodes/ep02/production/VIDEO_PRODUCTION_PACK.md) |
+| 按步骤制作 | [EP02操作流程](episodes/ep02/production/QUICKSTART.md) |
+| 单独复制Prompt | [N01密奏](episodes/ep02/production/prompts/N01_PROMPT.txt) · [N02议策](episodes/ep02/production/prompts/N02_PROMPT.txt) · [N03徽州](episodes/ep02/production/prompts/N03_PROMPT.txt) · [N04初见](episodes/ep02/production/prompts/N04_PROMPT.txt) · [N05诗会](episodes/ep02/production/prompts/N05_PROMPT.txt) |
+| 图音上传顺序 | [EP02 refs](episodes/ep02/production/refs_upload.json) |
+| 声音与后配卜卦 | [EP02后期手册](episodes/ep02/production/audio/AUDIO_POST_WORKFLOW.md) |
+| 微服与新场景 | [系列图像画册](REVIEW_GALLERY.html) · [生成记录](history/generation/) |
+| 重建5个按幕材料包 | `python tools/build_ep02_bundles.py --out /tmp/DYS_EP02_v1` |
+
+本回西卡留京；初见发生在听松楼，取代旧“第三回迎客松下初见”的未来规划。N04仅舞不唱、不生成配乐，用户后配《卜卦》，N05开始前音乐退下，保证低语听清。潘慧痣位仍由C05_FRONT_HALF_v04锁定。
+
+以下为第一回既有v4制作入口，保持有效。
+
+**第一回v4：第一回《风起徽州》，Seedance 2.5，三幕各30秒。** 成片90秒、24个叙事镜头＋片尾字卡，基础生成从11次整合为3次。保留原剧情、原台词和全部角色图；仅做已记录的时间调整。每幕用9/9/11张图与1/3/1段角色原声，不凑满素材额度。
 
 已[上传并核验全部256个文件](https://github.com/YuxiangLiu-lyx/DYS_history/commit/aa27eb60f996ec607735604db6e5cb6a4e254bb3)，包含5份用户原MP3；上传回执和当前状态另行随版本记录。
 

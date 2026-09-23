@@ -2,12 +2,16 @@
   "schema_version": 1,
   "current_paths": [
     "assets/characters/C01/C01_ANGLES_EXPRESSIONS_v01.png",
+    "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+    "assets/characters/C01/C01_DISGUISE_FULL_v01.png",
     "assets/characters/C01/C01_FRONT_HALF_v01.png",
     "assets/characters/C01/C01_FULL_v01.png",
     "assets/characters/C02/C02_ANGLES_EXPRESSIONS_v02.png",
     "assets/characters/C02/C02_FRONT_HALF_v01.png",
     "assets/characters/C02/C02_FULL_v01.png",
     "assets/characters/C03/C03_ANGLES_EXPRESSIONS_v01.png",
+    "assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png",
+    "assets/characters/C03/C03_DISGUISE_FULL_v01.png",
     "assets/characters/C03/C03_FRONT_HALF_v01.png",
     "assets/characters/C03/C03_FULL_v01.png",
     "assets/characters/C03/C03_WARDROBE_ONLY_v01.png",
@@ -36,6 +40,7 @@
     "assets/keyframes/D/D_OUT_v01.png",
     "assets/keyframes/E/E_IN_v02.png",
     "assets/keyframes/E/E_OUT_v01.png",
+    "assets/keyframes/EP02/N04_DANCE_STUDY_v02.png",
     "assets/keyframes/F/F_IN_v03.png",
     "assets/keyframes/F/F_OUT_v02.png",
     "assets/keyframes/G/G20_IN_v03.png",
@@ -52,7 +57,23 @@
     "assets/scenes/S05_SALON_v01.png",
     "assets/scenes/S06_ROOM_NIGHT_v01.png",
     "assets/scenes/S07_CHAMBER_NIGHT_v01.png",
-    "assets/scenes/S08_WALL_NIGHT_v01.png"
+    "assets/scenes/S08_WALL_NIGHT_v01.png",
+    "assets/scenes/S09_STUDY_NIGHT_v01.png",
+    "assets/scenes/S10_HUIZHOU_STREET_v01.png",
+    "assets/scenes/S11_TEAHOUSE_v01.png",
+    "assets/scenes/S12_SALON_STAGE_NIGHT_v01.png"
   ],
-  "selection_note": "基础角色设计用户认可；本轮小腿身份图、潘慧痣位与神态修正、场景和关键帧为当前候选待审，current表示选用候选而非用户逐张批准。C03用户图已明确指认身份；旧样衣只可参考服装。"
+  "selection_note": "基础角色设计用户认可；本轮小腿身份图、潘慧痣位与神态修正、场景和关键帧为当前候选待审，current表示选用候选而非用户逐张批准。C03用户图已明确指认身份；旧样衣只可参考服装。 2026-09-23新增EP02便服/场景/舞姿为待审候选，EP01已选资产保留；current不表示用户已逐张批准。",
+  "status_overrides": {
+    "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png": "candidate_pending_user_review",
+    "assets/characters/C01/C01_DISGUISE_FULL_v01.png": "candidate_pending_user_review",
+    "assets/scenes/S12_SALON_STAGE_NIGHT_v01.png": "candidate_pending_user_review",
+    "assets/keyframes/EP02/N04_DANCE_STUDY_v02.png": "candidate_pending_user_review",
+    "assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png": "candidate_pending_user_review",
+    "assets/characters/C03/C03_DISGUISE_FULL_v01.png": "candidate_pending_user_review",
+    "assets/scenes/S09_STUDY_NIGHT_v01.png": "candidate_pending_user_review",
+    "assets/scenes/S10_HUIZHOU_STREET_v01.png": "candidate_pending_user_review",
+    "assets/scenes/S11_TEAHOUSE_v01.png": "candidate_pending_user_review",
+    "assets/keyframes/EP02/N04_DANCE_STUDY_v01.png": "rejected_stage_floor_geometry"
+  }
 }

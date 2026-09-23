@@ -1,0 +1,114 @@
+[
+  {
+    "id": "C01_DISGUISE_FRONT_HALF_v01",
+    "date": "2026-09-23",
+    "tool": "image_gen.imagegen (built-in)",
+    "model_version": null,
+    "seed": null,
+    "cost": null,
+    "prompt": "为写实架空中国古代历史连续剧《德云史记》制作一张独立正脸上半身演员便服定妆照。参考图是已有笑皇孙亚龙的身份母版，严格保持同一成年青年男子的脸型宽度、眼型、眉毛、鼻翼、唇形、发际线、肤色、自然肤质和体型，不能换成瘦脸网红。唯一修改为微服出行装束：去掉帝冠、全部龙纹、金绣和金饰，头发仍高束但用一根朴素深木簪固定。穿青黛色纯色无纹细布交领长衫，米白内领，深褐素布腰带，不挂腰牌或武器。衣料有真实重量与细微褶皱，低调但质地整洁，像富裕人家远游公子，姿态挺拔从容有不自觉的威严，不故作凶狠。自然双手放低，构图头至腰部正面，视线平视镜头，闭口静息微严肃。延续参考图中性暖灰背景和柔和均匀的摄影棚光，高清真实皮肤与真实头发，历史电影演员试装。只一个人一幅图，无拼图，无文字，无滤镜，无奇幻元素。脸部身份一致优先于美化。竖幅3:4。",
+    "referenced_image_paths": [
+      "assets/characters/C01/C01_FRONT_HALF_v01.png"
+    ],
+    "output": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+    "tool_output_filename": "exec-5d3c8876-597c-4ce1-8e32-ce73eb828fbb.png",
+    "dimensions": [
+      1086,
+      1448
+    ],
+    "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
+    "status": "candidate_pending_user_review",
+    "actual_video": false,
+    "review": "已实看脸、服饰或场景空间；新资产待用户审阅。"
+  },
+  {
+    "id": "C01_DISGUISE_FULL_v01",
+    "date": "2026-09-23",
+    "tool": "image_gen.imagegen (built-in)",
+    "model_version": null,
+    "seed": null,
+    "cost": null,
+    "prompt": "根据参考图，生成同一位笑皇微服男子从头到脚的独立全身正面定妆照。严格原样继承参考图人物面孔、青黛色纯色细布交领长衫、米白内领、深褐布腰带及打结位置、束发髻和横向木簪。不要改变头肩比例和结实体型。下摆到脚踝但不拖地，布料自然垂坠，足穿深黑素布鞋，衣下没有铠甲，腰间没有饰品。人物挺拔平静，双臂自然垂于身体两侧，手指放松，视线平视闭口。灰褐中性背景与自然柔光同参考照片，真人历史电影演员试装，真实皮肤纹理，保留本人亲切而倔强的神态。全身完整不截鞋，单人单图，无文字无拼接，无帝冠、龙纹、金饰、官服、剑、刀。竖幅2:3。",
+    "referenced_image_paths": [
+      "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png"
+    ],
+    "output": "assets/characters/C01/C01_DISGUISE_FULL_v01.png",
+    "tool_output_filename": "exec-a6b9d363-b0f5-40bf-b5fe-801c92a22df3.png",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "sha256": "24e1e8f98757042463f49d46a562fa8aeae67263bf474a44a5ad9a298808a342",
+    "status": "candidate_pending_user_review",
+    "actual_video": false,
+    "review": "已实看脸、服饰或场景空间；新资产待用户审阅。"
+  },
+  {
+    "id": "S12_SALON_STAGE_NIGHT_v01",
+    "date": "2026-09-23",
+    "tool": "image_gen.imagegen (built-in)",
+    "model_version": null,
+    "seed": null,
+    "cost": null,
+    "prompt": "制作中国写实历史连续剧《德云史记》听松楼同一建筑内的公开歌舞雅厅空场景母版。使用附图S05雅舍的旧木料、米白灰墙、松影、浅蓝灰帘和临河窗格作为材质和建筑身份参考，但这是楼内另一间更开敞的公共厅，不要照搬小会客室布局。宽16:9，35mm电影摄影机位从入口一侧朝舞台。舞台位于画面后中略偏左，高约40厘米、宽约4米的低木台，两级台阶在舞台右端；后台素色窄帘，台上清空足够让单人走步转身舞蹈，禁止桌椅挡舞区。客席在画面前右，前右一个完整可用的木茶桌，两只素瓷杯和茶壶，桌画面左座留给主角，画面右侧桌后有亲随站立空间。右后是实际入厅门，留一条无遮挡过道通前右桌；两侧另外三四桌普通雅客座位，均空置无人。左侧临河窗外深蓝暮夜、远岸少量窗灯和一枝松影，厅内实际吊灯笼/油灯提供温暖克制光线，人物未来站位足够亮可看清脸，天空与外面为傍晚入夜不是白天。高级雅致的江南文会场所，有真实岁月痕迹，空间建筑结构合理，非妓院，非舞台综艺灯光，无红绸海、无霓虹，无仙侠雾，无HDR。空镜无人、无文字、无招牌、无乐器特写。自然写实电影布景，真实摄影质感。",
+    "referenced_image_paths": [
+      "assets/scenes/S05_SALON_v01.png"
+    ],
+    "output": "assets/scenes/S12_SALON_STAGE_NIGHT_v01.png",
+    "tool_output_filename": "exec-af6154d3-19a2-4bcd-8f23-9fd6a8922dc1.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "f397ab338873d8519099bdfd68d8b19bcfa81a519f1f2d89529e13b7e248be98",
+    "status": "candidate_pending_user_review",
+    "actual_video": false,
+    "review": "已实看脸、服饰或场景空间；新资产待用户审阅。"
+  },
+  {
+    "id": "N04_DANCE_STUDY_v01",
+    "date": "2026-09-23",
+    "tool": "image_gen.imagegen (built-in)",
+    "model_version": null,
+    "seed": null,
+    "cost": null,
+    "prompt": "生成一张16:9中国历史电影真实拍摄的舞蹈关键帧候选，不是人像写真。图1是潘慧脸部绝对身份基准，保留精确五官比例、眼型和微笑气质，特别是正脸画面右侧嘴角下方皮肤的细小棕色美人痣，和唇线有皮肤间隔、与玉簪同侧，不得镜像、不加别处痣。图2只锁定她的浅蓝灰外衣、象牙白内层、系带、半挽发髻与玉簪、裙长及布鞋，必须一模一样，不添加披帛或长水袖。图3锁定公开演舞厅的低木台与窗灯空间。画面：同一成年年轻女子站在低台台心，正面略偏15度但脸清晰可辨，全身含舞鞋和地面，右足已稳稳落地，右袖刚抬至胸下画成柔和低弧，左手随袖展开，手指自然准确。布料有重量跟随手臂，不悬浮。她抬眼望向普通客席，温婉清雅、眼神含笑略带妩媚，闭口不唱歌，不指向特定男子。摄像机在客席侧以50mm镜头中远全身取景，她足下原木地板、后方灰帘，画面左边临河夜窗与松影局部，实际灯笼火光温暖照脸，皮肤不过分磨平，留真实衣纹与发丝。前景最多极少虚焦客人肩部无可辨脸，舞者独一人。不要把整张空间全景变成图像拼贴，不复制图片边框，不加文字，非仙侠、非现代舞台、非游戏CG。此图只是舞步中一个落地姿势，不能长时间定格代替舞蹈。",
+    "referenced_image_paths": [
+      "assets/characters/C05/C05_FRONT_HALF_v04.png",
+      "assets/characters/C05/C05_FULL_v03.png",
+      "assets/scenes/S12_SALON_STAGE_NIGHT_v01.png"
+    ],
+    "output": "assets/keyframes/EP02/N04_DANCE_STUDY_v01.png",
+    "tool_output_filename": "exec-f95ce8b4-dd0b-4e44-a174-bbde5bc1f450.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "deb8b03ab1465882e71a97e10d4daf3498f3fdb866183453edb0a0af9a830e3b",
+    "status": "rejected_stage_floor_geometry",
+    "actual_video": false,
+    "review": "v01女子落在台下而非台上，改v02；v02已修舞台前缘、脚底位于同一台面，供舞姿人工审阅，不默认附视频输入。"
+  },
+  {
+    "id": "N04_DANCE_STUDY_v02",
+    "date": "2026-09-23",
+    "tool": "image_gen.imagegen (built-in)",
+    "model_version": null,
+    "seed": null,
+    "cost": null,
+    "prompt": "精确修改附图这张历史电影舞蹈关键帧，只修舞台空间高度，不改人物脸、嘴角下方的小痣、发型、浅蓝衣服、舞姿、手指、照明或构图。问题：现在女子像站在抬高木台前的厅堂地板上，台口挡板横在她身后，这是错误的。请把她足下平面变为与后方帘幕脚下同一高度的一整块连续木舞台台面；移除横在她膝腿后方的台口立面，把低台的前缘立面放到画面底部、人物双脚前面一段距离处，以明确她的双脚真实落在宽阔低台之上，所有脚底接触影在同一舞台平面。前景虚焦观众仍坐在台下，合理略低于舞台。不挪动五官，不重设服装，不添加人物或文字。真实木地板几何透视，单幅16:9，保留原图电影质感。",
+    "referenced_image_paths": [
+      "assets/keyframes/EP02/N04_DANCE_STUDY_v01.png"
+    ],
+    "output": "assets/keyframes/EP02/N04_DANCE_STUDY_v02.png",
+    "tool_output_filename": "exec-c71036dc-89bf-44ab-ba23-64f7a735824a.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "01b38f83e66563d019b0a35539cfa821f19bece6c57b4186a9ce00b0a3f5fd4b",
+    "status": "candidate_pending_user_review",
+    "actual_video": false,
+    "review": "v01女子落在台下而非台上，改v02；v02已修舞台前缘、脚底位于同一台面，供舞姿人工审阅，不默认附视频输入。"
+  }
+]

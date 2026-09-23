@@ -1,0 +1,88 @@
+{
+  "date": "2026-09-23",
+  "episode": "ep02",
+  "character_id": "C03",
+  "role": "腿校尉/小腿",
+  "purpose": "新增微服私访便装；保留第一回官服母版",
+  "status": "candidate_pending_user_review",
+  "generation_mode": "built_in",
+  "actual_entry": "tools.image_gen__imagegen",
+  "actual_model": null,
+  "seed": null,
+  "cost": null,
+  "review": {
+    "performed": true,
+    "scope": "visual inspection of generated stills and existing C03 reference stills; subjective continuity check, not biometric verification",
+    "face": "保留原版面部饱满度、眼眉鼻唇和发际线，半身全身可视为同一演员；未将人物改成尖下巴偶像。",
+    "wardrobe": "半身和全身均为灰褐无纹棉麻交领长衣、浅灰内领、深褐朴素布带、灰褐缠髻；去除原皮扣腰带和皮护腕，全身为深灰裤与哑光黑布靴。",
+    "pose": "正面自然站立闭嘴，脸无镜像；独立单人非多宫格。",
+    "needs_user_review": true
+  },
+  "outputs": [
+    {
+      "asset_id": "C03_DISGUISE_FRONT_HALF_v01",
+      "path": "assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png",
+      "prompt": "Use case: identity-preserve. Asset type: 第二章微服私访的小腿演员定妆，单人独立正脸半身母版。Input images: 图1为小腿现行正脸半身身份母版，图2为同一演员全身比例参考；两图只继承身份、年龄、体态、黑发发际线，服装按下文重做。严格保留这位成年青年男性原脸：略圆偏宽的面部、饱满双颊、自然粗眉与原眼型鼻唇比例、轻微唇周胡茬；不是尖下巴俊美偶像，脸不镜像、不变瘦、不磨皮。让他像原演员真实换装拍历史电影。换成灰褐带轻微灰绿色调的无纹棉麻窄袖交领长衣，浅灰内领，深褐色朴素布带打结（不是皮革扣带），袖口同一棉麻布，无护腕。黑发沿用同一发际线和整齐束髻，发髻以简单灰褐布发带固定，不用冠帽、不遮额头。无皮甲、无官腰牌、无刀剑、无金属饰物、无刺绣花纹。构图：头顶发髻完整，正面平视，从头到大腿上端的独立半身演员照，双臂自然垂于身侧并让腰带完整可见；神情年轻利落谨慎，嘴唇自然闭合，眼神正对镜头。中性灰褐无缝背景，自然柔光，真实肌理、细碎头发、棉麻纤维和自然布褶，写实中国古代历史电影摄影，无仙侠、无游戏CG、无文字、无拼板、无水印。",
+      "input_paths": [
+        "assets/characters/C03/C03_FRONT_HALF_v01.png",
+        "assets/characters/C03/C03_FULL_v01.png"
+      ],
+      "input_roles": [
+        "identity/hairline/body",
+        "original body proportion only; do not retain original uniform"
+      ],
+      "actual_output_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-b8589658-59d3-4b34-9c53-82acd4ef0920.png",
+      "actual_model": null,
+      "task_id": null,
+      "seed": null,
+      "cost": null,
+      "status": "candidate_pending_user_review",
+      "image_dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "format": "PNG",
+      "bytes": 2485610,
+      "sha256": "a042f817273a117dd720a24d48338859528b8f2753903d83cc1fcbabd41410ca",
+      "input_sha256": {
+        "assets/characters/C03/C03_FRONT_HALF_v01.png": "41db169fbe61e413818ee53211f150132c07de9a5d703099453d663b68fa8e34",
+        "assets/characters/C03/C03_FULL_v01.png": "f0dbef5e4854a9572ae6aa45d5be6745b29973ac69be32db67081e26e669feb3"
+      }
+    },
+    {
+      "asset_id": "C03_DISGUISE_FULL_v01",
+      "path": "assets/characters/C03/C03_DISGUISE_FULL_v01.png",
+      "prompt": "Use case: identity-preserve. Asset type: 《德云史记》第二章小腿微服便装独立全身定妆照。Input images: 图1是刚确定的灰褐便装半身母版，完整继承图1的演员面貌、灰褐无纹棉麻长衣、浅灰交领内层、深褐布带中央偏画面左的朴素结与两条垂带、灰褐布缠发髻、袖型及光色；图2仅参考这位同一演员原来的身高体型比例，绝不继承图2的蓝衣、皮护腕和皮扣带。Primary request: 将图1的同一个真人历史剧演员扩大构图为完整站姿全身照片，顶上发髻、两手、两脚全部入画，脚下少量地面留白。保留略圆宽脸、原眼型粗眉鼻唇、自然发际线、饱满双颊与细微胡茬；脸不镜像、不瘦脸、不帅化，不重新选演员。体型普通结实青年，不拉长成模特。灰褐棉麻窄袖交领长衣下摆至小腿中下段，深灰布裤，哑光黑色布靴；不是皮靴。手臂自然垂在身侧，放松手指，两脚稳立。简朴亲随旅装，利落谨慎，中性自然闭嘴正视镜头。无皮护腕、无皮甲、无官腰牌、无武器、无冠帽、无金属、无刺绣。中性灰褐无缝背景和地面，自然柔光，真实人物肌肤、真实棉麻纤维、自然布褶，写实中国古代历史电影定妆，照片质感，避免仙侠、游戏CG、动漫、塑料磨皮。单人单幅竖构图，无文字、无拼板、无水印。",
+      "input_paths": [
+        "assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png",
+        "assets/characters/C03/C03_FULL_v01.png"
+      ],
+      "input_roles": [
+        "new disguise mother image: face and complete visible costume",
+        "body proportion only; never transfer blue robe/leather accessories"
+      ],
+      "actual_output_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-4d497ac9-a592-45d4-89dc-b3bb78b739d0.png",
+      "actual_model": null,
+      "task_id": null,
+      "seed": null,
+      "cost": null,
+      "status": "candidate_pending_user_review",
+      "image_dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "format": "PNG",
+      "bytes": 2051714,
+      "sha256": "779991c25b973bcc9f12771571ce86f9ada2c04c4b8e3557a27ab2562d49cd6b",
+      "input_sha256": {
+        "assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png": "a042f817273a117dd720a24d48338859528b8f2753903d83cc1fcbabd41410ca",
+        "assets/characters/C03/C03_FULL_v01.png": "f0dbef5e4854a9572ae6aa45d5be6745b29973ac69be32db67081e26e669feb3"
+      }
+    }
+  ],
+  "notes": [
+    "原始生成输出直接复制，无裁剪、重绘、换脸或程序编辑。",
+    "旧图与当前第一回角色选择未覆盖。",
+    "同一角色新服装，不引入新的身份来源。"
+  ]
+}
