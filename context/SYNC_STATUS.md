@@ -1,6 +1,8 @@
-# EP02同步准备（2026-09-23）
+# EP02已同步（2026-09-23）
 
-第二回生产包、便服与场景资料准备完成，静态校验通过；正在按既有授权上传main，正式成功状态与commit待实际核验后追加。原第一回提交仍保留。
+第二回完整生产包、新便服/场景/舞姿原图及历史已上传：[提交0e46f26c](https://github.com/YuxiangLiu-lyx/DYS_history/commit/0e46f26c174178004237bf64fa18f9ef60d9ede2)。295文件逐路径、模式与blob SHA一致，零删除；原第一回文件和test.txt保留。
+
+回执：`history/publication/EP02_v1_pack_receipt.json`；快照：`history/publication/EP02_v1_pack_snapshot.json`。5个按幕ZIP已保存，仓库保留原料、重建工具和哈希。新导演稿与图片待审，实际视频、同期配音、完整首尾关键帧尚未生成。此回执随后以元数据提交保存。
 
 # 同步记录
 

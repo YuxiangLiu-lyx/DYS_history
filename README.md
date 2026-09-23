@@ -13,6 +13,8 @@
 | 微服与新场景 | [系列图像画册](REVIEW_GALLERY.html) · [生成记录](history/generation/) |
 | 重建5个按幕材料包 | `python tools/build_ep02_bundles.py --out /tmp/DYS_EP02_v1` |
 
+EP02已[上传并核验295个文件](https://github.com/YuxiangLiu-lyx/DYS_history/commit/0e46f26c174178004237bf64fa18f9ef60d9ede2)，回执在history/publication/，后续元数据提交保留该证据。
+
 本回西卡留京；初见发生在听松楼，取代旧“第三回迎客松下初见”的未来规划。N04仅舞不唱、不生成配乐，用户后配《卜卦》，N05开始前音乐退下，保证低语听清。潘慧痣位仍由C05_FRONT_HALF_v04锁定。
 
 以下为第一回既有v4制作入口，保持有效。
