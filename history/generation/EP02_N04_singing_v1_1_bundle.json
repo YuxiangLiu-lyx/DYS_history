@@ -1,0 +1,65 @@
+{
+  "episode": "EP02",
+  "revision": "v1_1",
+  "date": "2026-09-23",
+  "rebuild_command": "python3 tools/build_ep02_bundles.py --job N04 --revision v1_1 --out /tmp/DYS_EP02_v1_1",
+  "archives_are_derived_from_repository_files": true,
+  "reference_source": "episodes/ep02/production/refs_upload.json",
+  "reference_source_sha256": "5d23ab734f38263dd2aa16cf8396b0f22a6e2f8daa3fc09e93d2d890058ad4f1",
+  "zip_not_direct_seedance_input": true,
+  "new_visual_assets_status": "pending_user_review",
+  "video_generated": false,
+  "final_dialogue_audio_generated": false,
+  "actual_av_review_performed": false,
+  "actual_start_end_keyframes_included": false,
+  "actual_previous_video_or_tail_frame_included": false,
+  "bundles": [
+    {
+      "job": "N04",
+      "filename": "EP02_N04_Seedance25_v1_1.zip",
+      "bytes": 10387040,
+      "sha256": "8adf51236d9bd1a4e311ee6c91b8aab1217b1f4108d87d521f9384277759bc3b",
+      "images": 5,
+      "audio": 1,
+      "available_audio": 0,
+      "pending_required_references": [
+        {
+          "modality": "audio",
+          "slot": "@音频1",
+          "bundle_file": null,
+          "repository_file": null,
+          "sha256": null,
+          "role": "最终18秒演唱选段；待用户提供，生成前必须绑定",
+          "character_id": "C05",
+          "purpose": "final_song_segment_timing_and_phonemes",
+          "status": "awaiting_user_song_excerpt",
+          "required": true,
+          "expected_reference_seconds": [
+            0,
+            18
+          ],
+          "maps_to_video_seconds": [
+            4,
+            22
+          ]
+        }
+      ],
+      "ready_for_generation": false,
+      "prompt_unicode_characters": 882,
+      "zip_crc_verified": true,
+      "all_entries_byte_verified": true,
+      "source_file_sha256": {
+        "episodes/ep02/production/refs_upload.json": "5d23ab734f38263dd2aa16cf8396b0f22a6e2f8daa3fc09e93d2d890058ad4f1",
+        "episodes/ep02/production/QUICKSTART.md": "f4685562a290a84f350b558f5f81a110ee242e0fd1e6e9e45b94559ec52081b4",
+        "episodes/ep02/production/prompts/N04_PROMPT.txt": "42ebc1897501792fd873b80dee62ad2095d0a6086842f0f8fa97b7f932ae3445",
+        "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
+        "assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png": "a042f817273a117dd720a24d48338859528b8f2753903d83cc1fcbabd41410ca",
+        "assets/characters/C05/C05_FRONT_HALF_v04.png": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
+        "assets/characters/C05/C05_FULL_v03.png": "9dc75e9f1a2d82edad4f1d43c8837dfe26ae78f1b5da2a6211f97579e866e33f",
+        "assets/scenes/S12_SALON_STAGE_NIGHT_v01.png": "f397ab338873d8519099bdfd68d8b19bcfa81a519f1f2d89529e13b7e248be98"
+      }
+    }
+  ],
+  "storage_upload_status": "saved_as_replacement_of_N04_v1",
+  "saved_filename": "EP02_N04_Seedance25_v1_1.zip"
+}

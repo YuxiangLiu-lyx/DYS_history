@@ -48,6 +48,8 @@
     "assets/keyframes/G/G21_IN_v02.png",
     "assets/keyframes/G/G22_IN_v01.png",
     "assets/keyframes/G/G23_IN_v01.png",
+    "assets/props/EP03/P07_MOON_DRINKER_v01.png",
+    "assets/props/EP03/P08_IG2018_DREAM_v01.png",
     "assets/scenes/S01_DAY_v01.png",
     "assets/scenes/S01_NIGHT_v01.png",
     "assets/scenes/S02_DAY_v01.png",
@@ -61,9 +63,12 @@
     "assets/scenes/S09_STUDY_NIGHT_v01.png",
     "assets/scenes/S10_HUIZHOU_STREET_v01.png",
     "assets/scenes/S11_TEAHOUSE_v01.png",
-    "assets/scenes/S12_SALON_STAGE_NIGHT_v01.png"
+    "assets/scenes/S12_SALON_STAGE_NIGHT_v01.png",
+    "assets/scenes/S13_SALON_SIDE_ROOM_NIGHT_v01.png",
+    "assets/scenes/S14_INN_ROOM_NIGHT_v01.png",
+    "assets/scenes/S15_PINE_PATH_DAY_v01.png"
   ],
-  "selection_note": "基础角色设计用户认可；本轮小腿身份图、潘慧痣位与神态修正、场景和关键帧为当前候选待审，current表示选用候选而非用户逐张批准。C03用户图已明确指认身份；旧样衣只可参考服装。 2026-09-23新增EP02便服/场景/舞姿为待审候选，EP01已选资产保留；current不表示用户已逐张批准。",
+  "selection_note": "基础角色设计用户认可；本轮小腿身份图、潘慧痣位与神态修正、场景和关键帧为当前候选待审，current表示选用候选而非用户逐张批准。C03用户图已明确指认身份；旧样衣只可参考服装。 2026-09-23新增EP02便服/场景/舞姿为待审候选，EP01已选资产保留；current不表示用户已逐张批准。 2026-09-23续篇新增三空景与两梦图，均为当前待审候选；梦图P08是2018形象的AI重排。",
   "status_overrides": {
     "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png": "candidate_pending_user_review",
     "assets/characters/C01/C01_DISGUISE_FULL_v01.png": "candidate_pending_user_review",
@@ -74,6 +79,11 @@
     "assets/scenes/S09_STUDY_NIGHT_v01.png": "candidate_pending_user_review",
     "assets/scenes/S10_HUIZHOU_STREET_v01.png": "candidate_pending_user_review",
     "assets/scenes/S11_TEAHOUSE_v01.png": "candidate_pending_user_review",
-    "assets/keyframes/EP02/N04_DANCE_STUDY_v01.png": "rejected_stage_floor_geometry"
+    "assets/keyframes/EP02/N04_DANCE_STUDY_v01.png": "rejected_stage_floor_geometry",
+    "assets/props/EP03/P07_MOON_DRINKER_v01.png": "candidate_pending_user_review",
+    "assets/props/EP03/P08_IG2018_DREAM_v01.png": "candidate_pending_user_review",
+    "assets/scenes/S13_SALON_SIDE_ROOM_NIGHT_v01.png": "candidate_pending_user_review",
+    "assets/scenes/S14_INN_ROOM_NIGHT_v01.png": "candidate_pending_user_review",
+    "assets/scenes/S15_PINE_PATH_DAY_v01.png": "candidate_pending_user_review"
   }
 }

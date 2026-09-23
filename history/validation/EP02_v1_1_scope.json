@@ -1,0 +1,24 @@
+{
+  "baseline_commit": "cef84b8c6862328fe0c156f113a1cf940cf23789",
+  "dialogue_21_text_speaker_timing_unchanged": true,
+  "other_blocks": {
+    "N01": {
+      "prompt_byte_unchanged": true,
+      "shots_unchanged": true
+    },
+    "N02": {
+      "prompt_byte_unchanged": true,
+      "shots_unchanged": true
+    },
+    "N03": {
+      "prompt_byte_unchanged": true,
+      "shots_unchanged": true
+    },
+    "N05": {
+      "prompt_byte_unchanged": true,
+      "shots_unchanged": true
+    }
+  },
+  "csv_srt_byte_unchanged": true,
+  "scope_exception": "N05 previous-reference prose inherits Pan singing finished state; no N05 shot/dialogue/Prompt change."
+}

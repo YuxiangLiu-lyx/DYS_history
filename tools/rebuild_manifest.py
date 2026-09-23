@@ -29,7 +29,7 @@ def main():
         records.append(dict(id=path.stem,path=rel,kind=kind,current=rel in current,
             status=status,bytes=path.stat().st_size,sha256=digest(path),dimensions=dimensions,
             usable_as_single_character_reference=kind=='characters' and 'ANGLES' not in path.stem and 'WARDROBE_ONLY' not in path.stem and rel in current))
-    result = dict(schema_version=1,project='德云史记·慧后本纪',episodes=['EP01','EP02'],
+    result = dict(schema_version=1,project='德云史记·慧后本纪',episodes=['EP01','EP02','EP03','EP04','EP05'],
         selection_authority='assets/current_selection.json',
         generated_images_are_original_bytes=True,
         new_scene_and_keyframe_approval='pending_user_review',
@@ -38,8 +38,8 @@ def main():
         pan_identity_authority='assets/characters/C05/C05_FRONT_HALF_v04.png',assets=records)
     (ROOT/'assets/manifest.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     # Portable local review gallery, no external CDN or JavaScript dependency.
-    parts=['<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>德云史记 · 资产审阅</title><style>body{margin:0;background:#121513;color:#eee7d4;font:16px/1.6 system-ui}main{max-width:1500px;margin:auto;padding:32px}h1{font-family:serif}a{color:#d8bc7d}section{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}.card{background:#202720;padding:14px;border-radius:8px}.card img{width:100%;height:310px;object-fit:contain;background:#101210}small{word-break:break-all;color:#c6c1b1}h2{margin-top:42px}</style><main><h1>德云史记 · 系列资产与关键帧</h1><p>EP01保留90秒v4；EP02新增150秒导演稿及便服与场景候选。小腿按用户身份图建立母版；潘慧痣位在嘴角下方皮肤，与唇线留间隔。本轮人物修订、场景及关键帧为候选待审，图片本体均在本包内。<a href="episodes/ep02/production/VIDEO_PRODUCTION_PACK.md">第二回生产包</a> · <a href="episodes/ep01/production/VIDEO_PRODUCTION_PACK.md">第一回生产包</a> · <a href="episodes/ep01/production/SEEDANCE_QUICKSTART.md">Seedance流程</a> · <a href="AGENTS.md">新AI续作规则</a></p>']
-    for kind,title in [('characters','人物当前版本'),('scenes','场景空镜候选'),('keyframes','关键帧候选')]:
+    parts=['<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>德云史记 · 资产审阅</title><style>body{margin:0;background:#121513;color:#eee7d4;font:16px/1.6 system-ui}main{max-width:1500px;margin:auto;padding:32px}h1{font-family:serif}a{color:#d8bc7d}section{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}.card{background:#202720;padding:14px;border-radius:8px}.card img{width:100%;height:310px;object-fit:contain;background:#101210}small{word-break:break-all;color:#c6c1b1}h2{margin-top:42px}</style><main><h1>德云史记 · 系列资产与关键帧</h1><p>EP01保留90秒v4；EP02为150秒，N04已改边唱边舞；EP03—EP05新增240秒导演稿、三空景与两梦图。小腿按用户身份图建立母版；潘慧痣位在嘴角下方皮肤，与唇线留间隔。本轮人物修订、场景及关键帧为候选待审，图片本体均在本包内。<a href="episodes/ep02/production/VIDEO_PRODUCTION_PACK.md">第二回生产包</a> · <a href="episodes/ep01/production/VIDEO_PRODUCTION_PACK.md">第一回生产包</a> · <a href="episodes/ep01/production/SEEDANCE_QUICKSTART.md">Seedance流程</a> · <a href="AGENTS.md">新AI续作规则</a></p>']
+    for kind,title in [('characters','人物当前版本'),('scenes','场景空镜候选'),('keyframes','关键帧候选'),('props','梦图与道具候选')]:
         parts.append('<h2>'+title+'</h2><section>')
         for a in records:
             if a['kind'] != kind or not a['current']: continue

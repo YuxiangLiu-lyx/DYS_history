@@ -1,6 +1,22 @@
 # 德云史记 · 慧后本纪
 
-**当前续作：第二回《微服入江南，听松初逢卿》v1，5段×30秒，共150秒。** 29镜、21句对白；每段Prompt小于2000字符。新增两位微服定妆和4处场景，保留第一回原稿和全部素材。新图片及导演稿可审阅；尚未生成本章视频，首尾关键帧与完整Storyboard仍待补齐。
+**当前续篇：第三至五回，共8段×30秒、240秒。第二回N04同步修订为边唱边舞。**
+
+| 章节 | 分段与内容 | 制作入口 |
+|---|---|---|
+| 第三回《一梦悬双画，七字动满堂》 | P01/P02，60秒；两幅梦图、质疑、答联与“江—大—歌” | [导演稿](episodes/ep03/script/EP03_DIRECTOR_v1.md) · [生产包](episodes/ep03/production/VIDEO_PRODUCTION_PACK.md) · [操作步骤](episodes/ep03/production/QUICKSTART.md) |
+| 第四回《灯下问苍生，帘后起相思》 | Q01/Q02/Q03，90秒；音音、民生、魏笑线索、侍女打趣 | [导演稿](episodes/ep04/script/EP04_DIRECTOR_v1.md) · [生产包](episodes/ep04/production/VIDEO_PRODUCTION_PACK.md) · [操作步骤](episodes/ep04/production/QUICKSTART.md) |
+| 第五回《松下听卜卦，一曲定情深》 | R01/R02/R03，90秒；客栈议策、迎客松分唱与一吻 | [导演稿](episodes/ep05/script/EP05_DIRECTOR_v1.md) · [生产包](episodes/ep05/production/VIDEO_PRODUCTION_PACK.md) · [操作步骤](episodes/ep05/production/QUICKSTART.md) |
+
+每条完整Prompt均不超过2000字符，每段默认只用4–6张必要图片，另加真实尾帧时最多7张；图片/原声/道具/首尾状态/反打/环境声和跨段衔接见对应生产包。两张梦图、三处空景已生成，均待审；真实视频和完整逐镜Storyboard尚未生成。两张梦图是架空画作，现代IG画面由2018官方资料重构并把TheShy移至中央，不冒称原始纪实照片。
+
+**演唱口型尚待最终音频锁定。** 已搜到歌词资料与孙潘合唱条目，但没有取得用户实际使用的原声。R02/R03的秒表是预排；实际歌词/字音/笑场锚点为null。不要先生成随意哑口型再换任意配音。先提供最终两段30秒导唱时间线，再按同版音频驱动画面，移除生成声轨后铺原声。现有五人MP3仅为说话音色。研究依据与版本区别见[歌曲核对记录](history/research/EP03_05_song_research.md)。
+
+[N04歌舞修订](episodes/ep02/production/prompts/N04_PROMPT.txt)保留18秒歌舞、7秒面部近景；其它四段与21句对白不变。新资料打包：`python tools/build_next_bundles.py --out /tmp/DYS_EP03_05`；校验：`python tools/validate_next_pack.py`。最新上传状态见[同步记录](context/SYNC_STATUS.md)，资产看[画册](REVIEW_GALLERY.html)，后续AI先读[AGENTS.md](AGENTS.md)。
+
+以下保留第二回及第一回制作入口。
+
+**第二回《微服入江南，听松初逢卿》v1.1，5段×30秒，共150秒。** 29镜、21句对白；每段Prompt小于2000字符。新增两位微服定妆和4处场景，保留第一回原稿和全部素材。新图片及导演稿可审阅；尚未生成本章视频，首尾关键帧与完整Storyboard仍待补齐。
 
 | 第二回需要什么 | 入口 |
 |---|---|
@@ -15,7 +31,7 @@
 
 EP02已[上传并核验295个文件](https://github.com/YuxiangLiu-lyx/DYS_history/commit/0e46f26c174178004237bf64fa18f9ef60d9ede2)，回执在history/publication/，后续元数据提交保留该证据。
 
-本回西卡留京；初见发生在听松楼，取代旧“第三回迎客松下初见”的未来规划。N04仅舞不唱、不生成配乐，用户后配《卜卦》，N05开始前音乐退下，保证低语听清。潘慧痣位仍由C05_FRONT_HALF_v04锁定。
+本回西卡留京；初见发生在听松楼，取代旧“第三回迎客松下初见”的未来规划。N04边唱边舞，加入面部近景、口型与句间微笑，待补同版最终歌段作为口型导唱，交付不生成歌声，用户后配《卜卦》，N05开始前音乐退下，保证低语听清。潘慧痣位仍由C05_FRONT_HALF_v04锁定。
 
 以下为第一回既有v4制作入口，保持有效。
 

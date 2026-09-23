@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "episode": "EP04",
+  "date": "2026-09-23",
+  "path_base": "repository_root",
+  "model_target": "Seedance 2.5，依用户当前可用入口",
+  "source_duration_s": 30,
+  "picture_upload_policy": "每段只传指定独立图4至6张，绝不凑满额度；可选真实尾帧额外算一图，真实视频参考最多一段。",
+  "prompt_max_unicode_characters": 2000,
+  "prompt_target_max_unicode_characters": 1600,
+  "jobs": [
+    {
+      "id": "Q01",
+      "source_duration_s": 30,
+      "source_duration_seconds": 30,
+      "target_timeline_s": [
+        0,
+        30
+      ],
+      "source_keep_s": [
+        0,
+        30
+      ],
+      "prompt_file": "episodes/ep04/production/prompts/Q01_PROMPT.txt",
+      "image_count": 4,
+      "audio_count": 2,
+      "available_audio_count": 2,
+      "slots": [
+        {
+          "slot": "@图片1",
+          "file": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "role": "笑皇便服脸与衣",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89"
+        },
+        {
+          "slot": "@图片2",
+          "file": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "role": "潘慧脸、发髻和嘴角下方小痣",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d"
+        },
+        {
+          "slot": "@图片3",
+          "file": "assets/characters/C05/C05_FULL_v03.png",
+          "role": "潘慧浅蓝衣裙与全身比例",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "9dc75e9f1a2d82edad4f1d43c8837dfe26ae78f1b5da2a6211f97579e866e33f"
+        },
+        {
+          "slot": "@图片4",
+          "file": "assets/scenes/S13_SALON_SIDE_ROOM_NIGHT_v01.png",
+          "role": "听松楼屏风侧厅、茶案及半开门",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "8298ac24b8e2c128edc15e6b3d48aceee539aea0c79265023177f9339d4e58a2"
+        }
+      ],
+      "audio_slots": [
+        {
+          "slot": "@音频1",
+          "character_id": "C05",
+          "file": "assets/audio/voice_references/02_pan_hui.mp3",
+          "sha256": "60413e1fe29a24dd1a2196a0add5001675ed4e54b69b0fc47c7c435d74ce06a1",
+          "purpose": "timbre_only_new_script_dialogue",
+          "required": true,
+          "optional": false
+        },
+        {
+          "slot": "@音频2",
+          "character_id": "C01",
+          "file": "assets/audio/voice_references/01_sun_yalong.mp3",
+          "sha256": "0cac07f7dd3f4c3fda80f316d92d48d273982818950dc477cd99895edca21b64",
+          "purpose": "timbre_only_new_script_dialogue",
+          "required": true,
+          "optional": false
+        }
+      ],
+      "previous_reference": {
+        "required": false,
+        "from_block": "P02",
+        "source_segment_s": null,
+        "video_file": null,
+        "tail_frame_file": null,
+        "purpose": "可选静音片仅继承两人衣发和向侧厅走的方向；新空间用S13，不把舞台当密谈房间；时间省略至入座。 换场不上传上一空间尾帧充作起始帧；必要身份比对在人审完成。"
+      },
+      "optional_actual_tail_reference": null,
+      "status": "prepared_new_visual_assets_pending_user_review",
+      "ready_for_generation": false,
+      "required_references_ready": true,
+      "final_dialogue_audio_generated": false,
+      "prompt_unicode_characters": 676
+    },
+    {
+      "id": "Q02",
+      "source_duration_s": 30,
+      "source_duration_seconds": 30,
+      "target_timeline_s": [
+        30,
+        60
+      ],
+      "source_keep_s": [
+        0,
+        30
+      ],
+      "prompt_file": "episodes/ep04/production/prompts/Q02_PROMPT.txt",
+      "image_count": 4,
+      "audio_count": 2,
+      "available_audio_count": 2,
+      "slots": [
+        {
+          "slot": "@图片1",
+          "file": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "role": "笑皇便服脸与衣",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89"
+        },
+        {
+          "slot": "@图片2",
+          "file": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "role": "潘慧脸、发髻和嘴角下方小痣",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d"
+        },
+        {
+          "slot": "@图片3",
+          "file": "assets/characters/C05/C05_FULL_v03.png",
+          "role": "潘慧浅蓝衣裙与全身比例",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "9dc75e9f1a2d82edad4f1d43c8837dfe26ae78f1b5da2a6211f97579e866e33f"
+        },
+        {
+          "slot": "@图片4",
+          "file": "assets/scenes/S13_SALON_SIDE_ROOM_NIGHT_v01.png",
+          "role": "听松楼屏风侧厅、茶案及半开门",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "8298ac24b8e2c128edc15e6b3d48aceee539aea0c79265023177f9339d4e58a2"
+        }
+      ],
+      "audio_slots": [
+        {
+          "slot": "@音频1",
+          "character_id": "C05",
+          "file": "assets/audio/voice_references/02_pan_hui.mp3",
+          "sha256": "60413e1fe29a24dd1a2196a0add5001675ed4e54b69b0fc47c7c435d74ce06a1",
+          "purpose": "timbre_only_new_script_dialogue",
+          "required": true,
+          "optional": false
+        },
+        {
+          "slot": "@音频2",
+          "character_id": "C01",
+          "file": "assets/audio/voice_references/01_sun_yalong.mp3",
+          "sha256": "0cac07f7dd3f4c3fda80f316d92d48d273982818950dc477cd99895edca21b64",
+          "purpose": "timbre_only_new_script_dialogue",
+          "required": true,
+          "optional": false
+        }
+      ],
+      "previous_reference": {
+        "required": false,
+        "from_block": "Q01",
+        "source_segment_s": [
+          27,
+          30
+        ],
+        "video_file": null,
+        "tail_frame_file": null,
+        "purpose": "优先末3秒静音片或尾帧，连续接潘慧放下玩笑准备说内情的眼神、手位、茶盏和暖灯。"
+      },
+      "optional_actual_tail_reference": null,
+      "status": "prepared_new_visual_assets_pending_user_review",
+      "ready_for_generation": false,
+      "required_references_ready": true,
+      "final_dialogue_audio_generated": false,
+      "prompt_unicode_characters": 599
+    },
+    {
+      "id": "Q03",
+      "source_duration_s": 30,
+      "source_duration_seconds": 30,
+      "target_timeline_s": [
+        60,
+        90
+      ],
+      "source_keep_s": [
+        0,
+        30
+      ],
+      "prompt_file": "episodes/ep04/production/prompts/Q03_PROMPT.txt",
+      "image_count": 4,
+      "audio_count": 1,
+      "available_audio_count": 1,
+      "slots": [
+        {
+          "slot": "@图片1",
+          "file": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "role": "潘慧脸、发髻和嘴角下方小痣",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d"
+        },
+        {
+          "slot": "@图片2",
+          "file": "assets/characters/C05/C05_NIGHT_SHAWL_v05.png",
+          "role": "潘慧同衣裙夜间披肩",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "b7b9fddc4925e6f90bd68cfe4f7fb20381263c7a6118c348a4a664458105fec6"
+        },
+        {
+          "slot": "@图片3",
+          "file": "assets/characters/E06/E06_MAID_v01.png",
+          "role": "前作同一侍女",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "128b83413a4db8894901cc90791c72ae0861eeef389f40ea0b7c11b3dfd3525d"
+        },
+        {
+          "slot": "@图片4",
+          "file": "assets/scenes/S06_ROOM_NIGHT_v01.png",
+          "role": "潘慧夜间窗边房间",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "0dc7ef15d4084d008095e1ba1a16fc28f81ccd8b13d21c80dc6922c8714312d3"
+        }
+      ],
+      "audio_slots": [
+        {
+          "slot": "@音频1",
+          "character_id": "C05",
+          "file": "assets/audio/voice_references/02_pan_hui.mp3",
+          "sha256": "60413e1fe29a24dd1a2196a0add5001675ed4e54b69b0fc47c7c435d74ce06a1",
+          "purpose": "timbre_only_new_script_dialogue",
+          "required": true,
+          "optional": false
+        }
+      ],
+      "previous_reference": {
+        "required": false,
+        "from_block": "Q02",
+        "source_segment_s": null,
+        "video_file": null,
+        "tail_frame_file": null,
+        "purpose": "仅可选潘慧脸和发髻连续参考；时间和房间已经变，夜间披肩用既有新造型图，不继承男主座位或侧厅门。 换场不上传上一空间尾帧充作起始帧；必要身份比对在人审完成。"
+      },
+      "optional_actual_tail_reference": null,
+      "status": "prepared_new_visual_assets_pending_user_review",
+      "ready_for_generation": false,
+      "required_references_ready": true,
+      "final_dialogue_audio_generated": false,
+      "prompt_unicode_characters": 629
+    }
+  ],
+  "practical_image_counts": {
+    "Q01": 4,
+    "Q02": 4,
+    "Q03": 4
+  },
+  "practical_audio_counts": {
+    "Q01": 2,
+    "Q02": 2,
+    "Q03": 1
+  },
+  "available_audio_counts": {
+    "Q01": 2,
+    "Q02": 2,
+    "Q03": 1
+  },
+  "generated_media_status": "no_actual_video",
+  "pan_identity_lock": "C05_FRONT_HALF_v04；画面右侧嘴角下方皮肤，同玉簪侧，与唇线留空，不镜像。"
+}

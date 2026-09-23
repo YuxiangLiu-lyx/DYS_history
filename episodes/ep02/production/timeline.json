@@ -118,7 +118,7 @@
     },
     {
       "id": "N04",
-      "title": "听松一舞，初动君心",
+      "title": "听松歌舞，初动君心",
       "start": 90,
       "end": 120,
       "duration": 30,
@@ -127,17 +127,17 @@
       "source_to_global_offset_s": 90,
       "location": "听松楼雅厅小舞台",
       "story_time": "当晚",
-      "purpose": "完整18秒舞蹈先让人物魅力成立，再拍皇帝真切的一见倾心。",
-      "environment_audio": "仅客席旁最后两步、落座衣料与舞鞋落板声、克制观众呼吸；无交谈、报幕、歌唱、伴奏或人声哼鸣。",
-      "bgm": "不生成任何配乐或节拍器；用户后期配《卜卦》，当前未收到选段，不宣称卡点已完成。",
+      "purpose": "潘慧边唱边舞；完整18秒歌舞中加入7秒面部近景，呈现真实发音、含笑眼神与微表情，再拍皇帝一见倾心。",
+      "environment_audio": "脚步、衣料、舞鞋与杯底拟音；仅潘慧4–22秒演唱，帝腿及观众不唱不代口型。",
+      "bgm": "先绑定用户最终18秒演唱选段作口型与节奏依据，映射源4–22秒；后期铺同版同速音频，22秒后只留尾韵，进入N05低语前收尽。选段尚未收到。",
       "start_keyframe": {
         "status": "planned_description_not_rendered",
-        "description": "帝腿已由右后门入内，来到前右客席旁；只余最后两步，皇帝将落座、小腿将停右后半步；潘慧已在低台中央候舞。",
+        "description": "帝腿已入厅至前右客席旁，最后两步帝落座、腿停右后；潘慧台心抬眸吸气，准备开唱。",
         "file": null
       },
       "end_keyframe": {
         "status": "planned_description_not_rendered",
-        "description": "皇帝在侧前排客席，刚将杯子放回原位，望向舞台，惊艳渐成含蓄笑意；小腿在其右侧后半步。",
+        "description": "皇帝杯已放回原位，凝神含笑望台，小腿站右后；潘慧已经唱毕收袖，嘴自然收合，准备后续诗会。",
         "file": null
       },
       "previous_reference": {
@@ -185,7 +185,7 @@
         ],
         "video_file": null,
         "tail_frame_file": null,
-        "purpose": "优先引用合格N04末3秒去除音轨的视频，或另提取最后一张清晰尾帧，保持帝腿位置、杯子、座椅、舞台和潘慧收势。真实生成后才登记与绑定，当前不造假@视频。"
+        "purpose": "优先引用合格N04末3秒去音轨片或清晰尾帧，继承帝腿座位、杯已落桌及潘慧唱毕收袖闭口的状态；不重放歌声或重演举杯。真实素材生成后再登记标签。"
       }
     }
   ],
@@ -538,44 +538,44 @@
       "start_frame": 2160,
       "end_frame_exclusive": 2256,
       "camera": "客席旁中全景，轻跟帝腿最后两步",
-      "action": "首帧帝腿已由右后门入内至前右客席旁；两人只走最后两步，皇帝落座，小腿停在其右后半步；潘慧在低台中央准备起舞。不快进整段通道距离。",
-      "expression": "帝初来观察；腿辨认出入口。",
+      "action": "首帧帝腿已由右后门入内至前右客席旁；最后两步皇帝落座，小腿停右后。潘慧台心抬眸轻吸气，准备开唱，不快进长过道。",
+      "expression": "帝观察环境；潘慧含蓄轻笑，等待首音。",
       "transition_to_next": "切同侧舞台全身。",
-      "sfx": "最后两步与落座衣料轻响，无人报幕说话。",
+      "sfx": "脚步和落座衣料；4秒前无演唱发音。",
       "dialogue_ids": []
     },
     {
       "id": "20",
       "block": "N04",
       "start": 94,
-      "end": 100,
-      "duration": 6,
+      "end": 99,
+      "duration": 5,
       "source_start": 4,
-      "source_end": 10,
+      "source_end": 9,
       "start_frame": 2256,
-      "end_frame_exclusive": 2400,
-      "camera": "潘慧正侧全身，缓横移，脚不出框",
-      "action": "潘慧踏三步小圆步，轻抬右袖画出低弧，再展左袖；袖有重量，双脚着地。",
-      "expression": "含蓄、从容，目光随指尖短暂移动。",
-      "transition_to_next": "在右足落地后切同侧中远景，接同一袖势。",
-      "sfx": "真实舞鞋落板和轻衣声。",
+      "end_frame_exclusive": 2376,
+      "camera": "潘慧正侧全身，缓横移，双脚完整入框",
+      "action": "潘慧开唱同时三步小圆步，右袖画低弧、左袖展开；双脚真实承重，口型随实际歌词发音。",
+      "expression": "温婉从容，含笑眼神；不能用闭嘴微笑替代唱字。",
+      "transition_to_next": "接同一袖势切胸上近景，歌声和舞步不断。",
+      "sfx": "演唱选段0–5秒，对应视频4–9秒；舞鞋、衣料轻响。",
       "dialogue_ids": []
     },
     {
       "id": "21",
       "block": "N04",
-      "start": 100,
+      "start": 99,
       "end": 106,
-      "duration": 6,
-      "source_start": 10,
+      "duration": 7,
+      "source_start": 9,
       "source_end": 16,
-      "start_frame": 2400,
+      "start_frame": 2376,
       "end_frame_exclusive": 2544,
-      "camera": "潘慧中远景，稳定侧向跟移，保留膝下",
-      "action": "承右足支撑，缓转半身，左手收袖至腰侧，抬眸扫过客席；不连续旋转、不甩头。",
-      "expression": "温婉中有灵动媚意，微笑自然，不刻意挑逗皇帝。",
-      "transition_to_next": "身体朝台前回正时切全身收势。",
-      "sfx": "无歌声、无乐器、无节拍器。",
+      "camera": "潘慧胸上近景轻推面部，嘴唇、下颌、美人痣清楚",
+      "action": "承同一舞步小幅侧移，肩臂继续带袖，袖手不遮脸；视线从指尖抬向客席。按音轨辅音短合、元音延展和换气，近景中持续边唱边舞。",
+      "expression": "眼角含笑，眉眼舒展；唱字时唇形服从发音，句间才自然微笑，不全程咧嘴、不反复机械张合。",
+      "transition_to_next": "接同一臂势切中全景，保持歌句连续和手位。",
+      "sfx": "演唱选段5–12秒，对应视频9–16秒；不另生成歌词或伴奏。",
       "dialogue_ids": []
     },
     {
@@ -588,11 +588,11 @@
       "source_end": 22,
       "start_frame": 2544,
       "end_frame_exclusive": 2688,
-      "camera": "潘慧全身，固定",
-      "action": "两步回台心，重心稳定后两袖徐徐落下；于20秒完成最后动作，20至22秒自然福身致意，完成起承收。",
-      "expression": "呼吸真实，笑意仍轻。",
-      "transition_to_next": "落袖完成后切听者反应，不用空中动作硬接。",
-      "sfx": "袖声、轻足音，观众保持安静。",
+      "camera": "潘慧中全景，稳定同侧机位",
+      "action": "两步半转后回正，继续唱完乐句并收袖；最后音节结束才收唇，含笑轻颔首，22秒前自然完成歌舞收势。",
+      "expression": "句尾柔和，真实换气；不吞尾字，不背身遮掉整句。",
+      "transition_to_next": "歌舞收势后切皇帝反应，不裁掉末音。",
+      "sfx": "演唱选段12–18秒，对应视频16–22秒；之后仅自然余韵。",
       "dialogue_ids": []
     },
     {
@@ -609,7 +609,7 @@
       "action": "皇帝刚要举杯便被吸引，停一拍后把杯缓放回桌；目光一直在舞台，轻呼气，唇角渐有笑意。小腿右侧后半步看见他变化，保持沉默。",
       "expression": "初见惊艳转为真切倾心；不瞪眼、不张大嘴、不用心形特效。",
       "transition_to_next": "以杯已落桌、帝仍看台的姿态接N05。",
-      "sfx": "杯底轻触木案；无台词与画外声。",
+      "sfx": "杯底轻触木案；仅歌曲已结束后的尾韵，帝腿不唱不代口型。",
       "dialogue_ids": []
     },
     {
@@ -1063,6 +1063,38 @@
       "mouth_rule": "可见说话者逐字同步口型；其余可见人物闭嘴自然反应。"
     }
   ],
-  "voice_policy": "原声只借音色；按本回新台词生成同期对白，不复读MP3聊天、不自动加旁白；N04零台词零音乐。",
-  "title_policy": "片头片名、数日后/徽州/当晚、章节名与架空AI二创声明均后期叠字，不占新的剧情镜号。"
+  "voice_policy": "对白21句沿用原声音色和既定窗口；N04为独立演唱事件，用最终歌曲选段驱动4–22秒口型，不能用说话样本替代演唱时序。",
+  "title_policy": "片头片名、数日后/徽州/当晚、章节名与架空AI二创声明均后期叠字，不占新的剧情镜号。",
+  "revision": "v1.1_N04_singing",
+  "performance_block": {
+    "id": "N04",
+    "source_seconds": [
+      4,
+      22
+    ],
+    "timeline_seconds": [
+      94,
+      112
+    ],
+    "no_spoken_dialogue": true,
+    "singing": true,
+    "lips_follow_final_audio": true,
+    "music_excerpt_received": false,
+    "ready_for_generation": false,
+    "audio_reference_slot": "@音频1",
+    "final_audio_file": null,
+    "final_audio_sha256": null,
+    "audio_source_seconds": [
+      0,
+      18
+    ],
+    "mapping": "video_source_t = audio_t + 4; global_t = audio_t + 94",
+    "lyrics_text": null,
+    "lyrics_status": "awaiting_user_selected_song_excerpt; no lyrics invented",
+    "visible_mouth_closeup_source_seconds": [
+      9,
+      16
+    ],
+    "actual_lip_sync_verified": false
+  }
 }

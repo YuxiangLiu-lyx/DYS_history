@@ -1,0 +1,50 @@
+{
+  "images": [
+    {
+      "date": "2026-09-23",
+      "tool": "image_gen.imagegen",
+      "actual_model": null,
+      "seed": null,
+      "cost": null,
+      "purpose": "梦中画一：月映南湖，Faker身份独饮；架空画作，不是真人历史事件影像",
+      "prompt_file": "history/generation/EP03_P07_prompt.txt",
+      "prompt": "Create ONE finished 16:9 landscape image that is a strange dream picture painted by a young woman in an ancient Chinese historical drama. Use the supplied photograph ONLY as the facial identity reference for Faker (Lee Sang-hyeok): preserve his recognizable oval face, eyes, nose, modest mouth, dark straight fringe and thin round glasses. Do not copy the modern sports jersey. This is a deliberately uncanny cinematic oil-and-ink realist dream, not a collage and not a poster. A vast calm southern Chinese lake at night; a single bright full moon in the upper left and its clearly circular luminous reflection low in the water below, slight authentic ripples. On the lower right, one solitary adult man resembling Faker is seated on a low stone terrace beside a tiny dark wooden table, lifting a small ceramic wine cup and quietly looking at the lake. He wears a plain charcoal ancient scholar robe; modern thin round eyeglasses and recognizable haircut are an intentional dream detail. Long/wide environmental shot: seated person occupies about 30 percent of frame height, shown in readable left three-quarter profile, landscape occupies most of frame. His face must remain plausible and recognizable at this scale, not a large floating portrait. One small ceramic wine jug on the table, no other people, no second face. Moonlight silver blue water, soft mist far away, dark pine silhouettes, muted ivory silk-paper texture in the image surface; lyrical loneliness with sober fine detail, not fantasy glowing VFX. Front-on flat artwork content edge to edge, no frame, no scroll handles, no border, no calligraphy, no text, no logos. Balanced negative space on left lake; physically coherent reflection and hands.\n",
+      "references": [
+        "assets/source_photos/EP03/FAKER_T1_OFFICIAL_PORTRAIT.jpg"
+      ],
+      "original_tool_output": "/workspace/scratch/217ce8a5e48d/generated_images/exec-b9e50905-2c87-47d0-a005-986b019f7601.png",
+      "output": "assets/props/EP03/P07_MOON_DRINKER_v01.png",
+      "sha256": "48da527bd6bc0c3663a17ce8355f5a66556ba7e83cda7a72c2b74aeea6767adf",
+      "status": "candidate_pending_user_review",
+      "review": "单人、杯壶、月及倒影均存在；人物面貌与参考有相似性，最终神似程度由用户审阅；没有视频生成。",
+      "reference_provenance_note": "旧FAKER_T1_OFFICIAL_PORTRAIT文件来源无法确认，文件名不构成官方证明；已另找T1官网FAKER_T1_CURRENT_PROFILE作人工交叉核验，实际生成输入仍为旧图。"
+    },
+    {
+      "date": "2026-09-23",
+      "tool": "image_gen.imagegen",
+      "actual_model": null,
+      "seed": null,
+      "cost": null,
+      "purpose": "梦中画二：2018IG冠军人物与服装、旧奖杯要素；TheShy移至中央，是AI重排不是原始历史照片",
+      "prompt_file": "history/generation/EP03_P08_prompt.txt",
+      "prompt": "Generate ONE 16:9 landscape cinematic modern sports photograph for an intentionally anachronistic dream artwork inside a fictional ancient Chinese drama. Reconstruct the 2018 Invictus Gaming Worlds championship celebration using reference 1 for the six men's actual 2018 appearance, black champion jackets with subtle gold trim, blue medal ribbons, the ornate OLD 2018 silver Summoner's Cup, celebratory arena and camera-flash lighting. Use reference 2 to confirm FIVE starting players' facial identities: its LEFT TO RIGHT are TheShy, Ning, Rookie, JackeyLove, Baolan. In reference 1, LEFT TO RIGHT are Duke, TheShy, Baolan, JackeyLove, Rookie partly hidden, Ning on the extreme right with glasses. ESSENTIAL new composition: TheShy is unmistakably the central foremost C-position star, occupying x=50 percent, his youthful brown-haired narrow smiling face fully visible above the cup with no eyeglasses. This deliberately REARRANGES the original group photograph; it must not leave TheShy left of center. All SIX distinct teammates are present exactly once, nobody duplicated. Arrange from image LEFT to RIGHT: Duke (outer left slightly rear), Baolan (left inner with glasses), TheShy (front CENTER), Rookie (right inner slightly rear, face visible), JackeyLove (further right), Ning (outer right tall black fringe and glasses). Central TheShy holds the antique ornate silver Summoner's Cup securely at waist/chest height with both hands, trophy below chin NEVER obscures his face. Other teammates lean and gather toward him with genuine victorious smiles; some rest natural arms on adjacent shoulders without tangled hands. Accurate unretouched human faces, period 2018 hairstyles, real black nylon windbreakers, gold piping, blue medal ribbons, cream white undershirts. Full six-person medium-wide group, waist-up with trophy pedestal partly visible, all six heads unobscured. Vast dark esports stadium, blue-white stadium spotlights and gold confetti, white rim light on hair, professional on-location press-photo texture, not illustration, no ancient clothing, no painterly filter. Let small authentic jacket details remain natural; background team symbol may be defocused, no oversized text, no subtitles or watermarks, no fake documentary date stamp. Edge to edge artwork, no frame, no scroll, no collage. This is an AI dream-scene reconstruction, not a claim of an unaltered archival photograph.\n",
+      "references": [
+        "assets/source_photos/EP03/IG2018_CHAMPIONS_RIOT_2048.jpg",
+        "assets/source_photos/EP03/IG2018_RIOT_MEET_TEAM.png"
+      ],
+      "original_tool_output": "/workspace/scratch/217ce8a5e48d/generated_images/exec-f9a7ac78-f3c8-4dc4-9456-7da51aeedc5e.png",
+      "output": "assets/props/EP03/P08_IG2018_DREAM_v01.png",
+      "sha256": "7a29988af6800611ec66a3f67c77c613270d86bc770f8772d83df64d00efd66b",
+      "status": "candidate_pending_user_review",
+      "review": "六人均出现，TheShy中间持杯，脸无遮挡；实际图右侧先JackeyLove再Rookie，未逐字执行Prompt中两人的左右次序，但六人身份构成和中央目标保留，作为可审阅候选不为此无关差异重抽。脸部神似和细节待用户审阅。",
+      "observed_left_to_right": [
+        "Duke",
+        "Baolan",
+        "TheShy",
+        "JackeyLove",
+        "Rookie",
+        "Ning"
+      ]
+    }
+  ]
+}

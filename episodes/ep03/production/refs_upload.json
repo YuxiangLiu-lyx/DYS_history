@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "episode": "EP03",
+  "date": "2026-09-23",
+  "path_base": "repository_root",
+  "model_target": "Seedance 2.5，依用户当前可用入口",
+  "source_duration_s": 30,
+  "picture_upload_policy": "每段只传指定独立图4至6张，绝不凑满额度；可选真实尾帧额外算一图，真实视频参考最多一段。",
+  "prompt_max_unicode_characters": 2000,
+  "prompt_target_max_unicode_characters": 1600,
+  "jobs": [
+    {
+      "id": "P01",
+      "source_duration_s": 30,
+      "source_duration_seconds": 30,
+      "target_timeline_s": [
+        0,
+        30
+      ],
+      "source_keep_s": [
+        0,
+        30
+      ],
+      "prompt_file": "episodes/ep03/production/prompts/P01_PROMPT.txt",
+      "image_count": 6,
+      "audio_count": 1,
+      "available_audio_count": 1,
+      "slots": [
+        {
+          "slot": "@图片1",
+          "file": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "role": "潘慧脸、发髻和嘴角下方小痣",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d"
+        },
+        {
+          "slot": "@图片2",
+          "file": "assets/characters/C05/C05_FULL_v03.png",
+          "role": "潘慧浅蓝衣裙与全身比例",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "9dc75e9f1a2d82edad4f1d43c8837dfe26ae78f1b5da2a6211f97579e866e33f"
+        },
+        {
+          "slot": "@图片3",
+          "file": "assets/characters/E05/E05_SUITOR_v01.png",
+          "role": "质疑公子",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "17613c376c23b4fdac74a19c654e4a5a4d5c41c3a6153193a53931efe00da867"
+        },
+        {
+          "slot": "@图片4",
+          "file": "assets/scenes/S12_SALON_STAGE_NIGHT_v01.png",
+          "role": "听松楼低台和前右客席",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "f397ab338873d8519099bdfd68d8b19bcfa81a519f1f2d89529e13b7e248be98"
+        },
+        {
+          "slot": "@图片5",
+          "file": "assets/props/EP03/P07_MOON_DRINKER_v01.png",
+          "role": "梦图一：孤月、湖影与远处独饮男子",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "48da527bd6bc0c3663a17ce8355f5a66556ba7e83cda7a72c2b74aeea6767adf"
+        },
+        {
+          "slot": "@图片6",
+          "file": "assets/props/EP03/P08_IG2018_DREAM_v01.png",
+          "role": "梦图二：2018 IG夺冠形象梦境重绘，TheShy居中",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "7a29988af6800611ec66a3f67c77c613270d86bc770f8772d83df64d00efd66b"
+        }
+      ],
+      "audio_slots": [
+        {
+          "slot": "@音频1",
+          "character_id": "C05",
+          "file": "assets/audio/voice_references/02_pan_hui.mp3",
+          "sha256": "60413e1fe29a24dd1a2196a0add5001675ed4e54b69b0fc47c7c435d74ce06a1",
+          "purpose": "timbre_only_new_script_dialogue",
+          "required": true,
+          "optional": false
+        }
+      ],
+      "previous_reference": {
+        "required": false,
+        "from_block": "N05",
+        "source_segment_s": [
+          27,
+          30
+        ],
+        "video_file": null,
+        "tail_frame_file": null,
+        "purpose": "继承同晚客席、低台、灯火和帝已起身的状态；新主镜转向潘慧，画架于场间已备好，不倒播推杯。"
+      },
+      "optional_actual_tail_reference": null,
+      "status": "prepared_new_visual_assets_pending_user_review",
+      "ready_for_generation": false,
+      "required_references_ready": true,
+      "final_dialogue_audio_generated": false,
+      "prompt_unicode_characters": 761
+    },
+    {
+      "id": "P02",
+      "source_duration_s": 30,
+      "source_duration_seconds": 30,
+      "target_timeline_s": [
+        30,
+        60
+      ],
+      "source_keep_s": [
+        0,
+        30
+      ],
+      "prompt_file": "episodes/ep03/production/prompts/P02_PROMPT.txt",
+      "image_count": 6,
+      "audio_count": 2,
+      "available_audio_count": 2,
+      "slots": [
+        {
+          "slot": "@图片1",
+          "file": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "role": "笑皇便服脸与衣",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89"
+        },
+        {
+          "slot": "@图片2",
+          "file": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "role": "潘慧脸、发髻和嘴角下方小痣",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d"
+        },
+        {
+          "slot": "@图片3",
+          "file": "assets/characters/E05/E05_SUITOR_v01.png",
+          "role": "质疑公子",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "17613c376c23b4fdac74a19c654e4a5a4d5c41c3a6153193a53931efe00da867"
+        },
+        {
+          "slot": "@图片4",
+          "file": "assets/scenes/S12_SALON_STAGE_NIGHT_v01.png",
+          "role": "听松楼低台和前右客席",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "f397ab338873d8519099bdfd68d8b19bcfa81a519f1f2d89529e13b7e248be98"
+        },
+        {
+          "slot": "@图片5",
+          "file": "assets/props/EP03/P07_MOON_DRINKER_v01.png",
+          "role": "梦图一：孤月、湖影与远处独饮男子",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "48da527bd6bc0c3663a17ce8355f5a66556ba7e83cda7a72c2b74aeea6767adf"
+        },
+        {
+          "slot": "@图片6",
+          "file": "assets/props/EP03/P08_IG2018_DREAM_v01.png",
+          "role": "梦图二：2018 IG夺冠形象梦境重绘，TheShy居中",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "7a29988af6800611ec66a3f67c77c613270d86bc770f8772d83df64d00efd66b"
+        }
+      ],
+      "audio_slots": [
+        {
+          "slot": "@音频1",
+          "character_id": "C01",
+          "file": "assets/audio/voice_references/01_sun_yalong.mp3",
+          "sha256": "0cac07f7dd3f4c3fda80f316d92d48d273982818950dc477cd99895edca21b64",
+          "purpose": "timbre_only_new_script_dialogue",
+          "required": true,
+          "optional": false
+        },
+        {
+          "slot": "@音频2",
+          "character_id": "C05",
+          "file": "assets/audio/voice_references/02_pan_hui.mp3",
+          "sha256": "60413e1fe29a24dd1a2196a0add5001675ed4e54b69b0fc47c7c435d74ce06a1",
+          "purpose": "timbre_only_new_script_dialogue",
+          "required": true,
+          "optional": false
+        }
+      ],
+      "previous_reference": {
+        "required": false,
+        "from_block": "P01",
+        "source_segment_s": [
+          27,
+          30
+        ],
+        "video_file": null,
+        "tail_frame_file": null,
+        "purpose": "优先上段末3秒静音片或尾帧，固定质疑公子动作、画架与潘慧站位；片只作连续性，不复读上一句。"
+      },
+      "optional_actual_tail_reference": null,
+      "status": "prepared_new_visual_assets_pending_user_review",
+      "ready_for_generation": false,
+      "required_references_ready": true,
+      "final_dialogue_audio_generated": false,
+      "prompt_unicode_characters": 790
+    }
+  ],
+  "practical_image_counts": {
+    "P01": 6,
+    "P02": 6
+  },
+  "practical_audio_counts": {
+    "P01": 1,
+    "P02": 2
+  },
+  "available_audio_counts": {
+    "P01": 1,
+    "P02": 2
+  },
+  "generated_media_status": "no_actual_video",
+  "pan_identity_lock": "C05_FRONT_HALF_v04；画面右侧嘴角下方皮肤，同玉簪侧，与唇线留空，不镜像。"
+}

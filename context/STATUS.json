@@ -1,12 +1,15 @@
 {
   "project": "德云史记·慧后本纪",
   "updated_date": "2026-09-23",
-  "active_episode": "EP02",
-  "active_title": "微服入江南，听松初逢卿",
-  "status": "production_pack_prepared_new_assets_pending_review",
+  "active_episode": "EP03-EP05",
+  "active_title": "一梦悬双画／灯下问苍生／松下听卜卦",
+  "status": "new_chapters_prepared_song_clock_pending",
   "episode_directories": {
     "EP01": "episodes/ep01",
-    "EP02": "episodes/ep02"
+    "EP02": "episodes/ep02",
+    "EP03": "episodes/ep03",
+    "EP04": "episodes/ep04",
+    "EP05": "episodes/ep05"
   },
   "ep01": {
     "production_revision": "v4",
@@ -17,7 +20,7 @@
     "last_verified_commit": "11a6beabb19b92941fe8952f902f517c1c4cd97f"
   },
   "ep02": {
-    "production_revision": "v1",
+    "production_revision": "v1.1_N04_singing",
     "duration_seconds": 150,
     "base_generation_jobs": 5,
     "shot_count": 29,
@@ -38,7 +41,7 @@
       2,
       2,
       1,
-      0,
+      1,
       3
     ],
     "prompt_character_limit": 2000,
@@ -46,7 +49,7 @@
       733,
       732,
       833,
-      841,
+      882,
       879
     ],
     "generated_new_character_images": 4,
@@ -61,22 +64,34 @@
     "actual_av_review_performed": false,
     "music_excerpt_received": false,
     "download_bundles_saved": true,
-    "download_bundle_record": "history/generation/EP02_v1_delivery_bundles.json"
+    "download_bundle_record": "history/generation/EP02_v1_delivery_bundles.json",
+    "available_audio_counts": [
+      2,
+      2,
+      1,
+      0,
+      3
+    ],
+    "N04_singing": true,
+    "N04_ready_for_generation": false,
+    "N04_required_audio_received": false,
+    "N04_bundle_record": "history/generation/EP02_N04_singing_v1_1_bundle.json",
+    "N04_updated_download_bundle_saved": true
   },
   "voice_reference_manifest": "assets/audio/voice_references/manifest.json",
   "pan_identity_authority": "assets/characters/C05/C05_FRONT_HALF_v04.png",
   "pan_mole_lock": "正脸画面右侧嘴角下方皮肤，距唇线留间隔、同玉簪侧，不镜像",
   "next_actions": [
-    "审阅EP02导演稿与微服/场景/舞姿候选，确认角色和空间。",
-    "补足要使用的首尾关键帧并审阅，再按对应N01—N05上传清单制作视频。",
-    "先检查实际同期口型与角色音色，再做用户卜卦选段配乐、字幕及跨段连续性。"
+    "审阅第三至五回导演稿及五张新图，补必要首尾关键帧。",
+    "提供最终使用的N04约18秒歌段，以及R02/R03两段30秒完整时间线原声；标注实际字音和笑场后更新导唱、Prompt、refs与时码。",
+    "按每段ZIP/上传清单准备生成；实片逐句听看口型、说话人、反打和衔接，再后期混音。"
   ],
   "github": {
     "repository": "YuxiangLiu-lyx/DYS_history",
     "branch": "main",
-    "synced": true,
+    "synced": false,
     "previous_verified_commit": "11a6beabb19b92941fe8952f902f517c1c4cd97f",
-    "publication_status": "EP02_v1_published_and_verified",
+    "publication_status": "new_revision_prepared_pending_publish",
     "remote_commit": "0e46f26c174178004237bf64fa18f9ef60d9ede2",
     "verified_path_count": 295,
     "receipt": "history/publication/EP02_v1_pack_receipt.json",
@@ -97,5 +112,123 @@
   ],
   "actual_av_repair_performed": false,
   "actual_av_review_performed": false,
-  "shared_media_status_note": "沿用已收五份原声和EP01外部试片问题记录，表示当前仓库接收/产出范围，不冒称EP02已生成。"
+  "shared_media_status_note": "沿用已收五份原声和EP01外部试片问题记录，表示当前仓库接收/产出范围，不冒称EP02已生成。",
+  "new_chapters": {
+    "EP03": {
+      "title": "一梦悬双画，七字动满堂",
+      "revision": "v1",
+      "duration_seconds": 60,
+      "base_generation_jobs": 2,
+      "shot_count": 14,
+      "dialogue_count": 9,
+      "script": "episodes/ep03/script/EP03_DIRECTOR_v1.md",
+      "production_pack": "episodes/ep03/production/VIDEO_PRODUCTION_PACK.md",
+      "timeline": "episodes/ep03/production/timeline.json",
+      "references": "episodes/ep03/production/refs_upload.json",
+      "image_counts": {
+        "P01": 6,
+        "P02": 6
+      },
+      "prompt_lengths": {
+        "P01": 761,
+        "P02": 790
+      },
+      "script_user_locked": false,
+      "full_storyboard_generated": false,
+      "actual_video_generated": false,
+      "actual_av_review_performed": false,
+      "song_audio_pending": []
+    },
+    "EP04": {
+      "title": "灯下问苍生，帘后起相思",
+      "revision": "v1",
+      "duration_seconds": 90,
+      "base_generation_jobs": 3,
+      "shot_count": 15,
+      "dialogue_count": 13,
+      "script": "episodes/ep04/script/EP04_DIRECTOR_v1.md",
+      "production_pack": "episodes/ep04/production/VIDEO_PRODUCTION_PACK.md",
+      "timeline": "episodes/ep04/production/timeline.json",
+      "references": "episodes/ep04/production/refs_upload.json",
+      "image_counts": {
+        "Q01": 4,
+        "Q02": 4,
+        "Q03": 4
+      },
+      "prompt_lengths": {
+        "Q01": 676,
+        "Q02": 599,
+        "Q03": 629
+      },
+      "script_user_locked": false,
+      "full_storyboard_generated": false,
+      "actual_video_generated": false,
+      "actual_av_review_performed": false,
+      "song_audio_pending": []
+    },
+    "EP05": {
+      "title": "松下听卜卦，一曲定情深",
+      "revision": "v1",
+      "duration_seconds": 90,
+      "base_generation_jobs": 3,
+      "shot_count": 18,
+      "dialogue_count": 4,
+      "script": "episodes/ep05/script/EP05_DIRECTOR_v1.md",
+      "production_pack": "episodes/ep05/production/VIDEO_PRODUCTION_PACK.md",
+      "timeline": "episodes/ep05/production/timeline.json",
+      "references": "episodes/ep05/production/refs_upload.json",
+      "image_counts": {
+        "R01": 5,
+        "R02": 5,
+        "R03": 5
+      },
+      "prompt_lengths": {
+        "R01": 672,
+        "R02": 758,
+        "R03": 903
+      },
+      "script_user_locked": false,
+      "full_storyboard_generated": false,
+      "actual_video_generated": false,
+      "actual_av_review_performed": false,
+      "song_audio_pending": [
+        "R02",
+        "R03"
+      ]
+    }
+  },
+  "new_assets_this_revision": {
+    "scene_images": 3,
+    "dream_prop_images": 2,
+    "user_approved": false,
+    "current_selection": "assets/current_selection.json",
+    "generation_records": [
+      "history/generation/EP03_05_new_scenes_generation.json",
+      "history/generation/EP03_dream_props_generation.json"
+    ]
+  },
+  "required_missing_song_references": [
+    "EP02 N04 exact 18s final song excerpt",
+    "EP05 R02 final 30s guide including selected male song and interlude",
+    "EP05 R03 final 30s guide including split vocals, laugh and post-song tail"
+  ],
+  "new_chapters_total": {
+    "duration_seconds": 240,
+    "jobs": 8,
+    "narrative_shots": 47,
+    "spoken_dialogues": 26,
+    "prompt_character_range": [
+      599,
+      903
+    ],
+    "image_count_range": [
+      4,
+      6
+    ],
+    "optional_extra_tail_frame_count": 1,
+    "validation": "history/validation/EP03_05_static.json",
+    "story_review": "history/QA_20260923_EP03_05_story.md"
+  },
+  "new_chapters_download_bundles_saved": true,
+  "new_chapters_bundle_record": "history/generation/EP03_05_delivery_bundles.json"
 }

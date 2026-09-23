@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "episode": "EP03",
+  "date": "2026-09-23",
+  "fps": 24,
+  "total_seconds": 60,
+  "policy": "对白用已有原声仅借音色；R02/R03最终歌曲导唱必须另供，现为空，不能生成歌声音轨。",
+  "original_voice_samples_reused": true,
+  "new_final_dialogue_audio_generated": false,
+  "actual_source_video_received": false,
+  "actual_av_review_performed": false,
+  "dialogues": [
+    {
+      "speaker_id": "C05",
+      "text": "昨夜梦里，有位高人给我两幅画。我醒来，照着画了下来。",
+      "source_start": 0.4,
+      "source_end": 6.7,
+      "delivery": "认真、自然，不说现代“图片”。",
+      "visible_speaker": true,
+      "id": "E3_D01",
+      "block": "P01",
+      "start": 0.4,
+      "end": 6.7,
+      "voice_reference_file": "assets/audio/voice_references/02_pan_hui.mp3",
+      "voice_reference_is_final_dialogue": false,
+      "audible_source": "native_generated_dialogue",
+      "mouth_rule": "可见发言者逐字同步嘴型，其他人闭口；画外发声不驱动听者嘴。"
+    },
+    {
+      "speaker_id": "C05",
+      "text": "孤月映——南湖小酌。请诸位对这第二幅。",
+      "source_start": 15.5,
+      "source_end": 21.2,
+      "delivery": "“孤月映”后短停，联文本体固定“孤月映｜南湖小酌”。",
+      "visible_speaker": true,
+      "id": "E3_D02",
+      "block": "P01",
+      "start": 15.5,
+      "end": 21.2,
+      "voice_reference_file": "assets/audio/voice_references/02_pan_hui.mp3",
+      "voice_reference_is_final_dialogue": false,
+      "audible_source": "native_generated_dialogue",
+      "mouth_rule": "可见发言者逐字同步嘴型，其他人闭口；画外发声不驱动听者嘴。"
+    },
+    {
+      "speaker_id": "E05",
+      "text": "一幅是景，一幅是人，这如何作对？",
+      "source_start": 23,
+      "source_end": 28.6,
+      "delivery": "有理据的疑问，原创青年男声。",
+      "visible_speaker": true,
+      "id": "E3_D03",
+      "block": "P01",
+      "start": 23,
+      "end": 28.6,
+      "voice_reference_file": null,
+      "voice_reference_is_final_dialogue": false,
+      "audible_source": "native_generated_dialogue",
+      "mouth_rule": "可见发言者逐字同步嘴型，其他人闭口；画外发声不驱动听者嘴。"
+    },
+    {
+      "speaker_id": "E05",
+      "text": "姑娘若要拒客，大可直说，何必刁难？",
+      "source_start": 0.3,
+      "source_end": 5,
+      "delivery": "原创男声，承P01同一个人。",
+      "visible_speaker": true,
+      "id": "E3_D04",
+      "block": "P02",
+      "start": 30.3,
+      "end": 35,
+      "voice_reference_file": null,
+      "voice_reference_is_final_dialogue": false,
+      "audible_source": "native_generated_dialogue",
+      "mouth_rule": "可见发言者逐字同步嘴型，其他人闭口；画外发声不驱动听者嘴。"
+    },
+    {
+      "speaker_id": "C01",
+      "text": "众星拱北江大歌。",
+      "source_start": 6,
+      "source_end": 8.5,
+      "delivery": "正常音量一气答完；不读成“北江、大歌”。",
+      "visible_speaker": true,
+      "id": "E3_D05",
+      "block": "P02",
+      "start": 36,
+      "end": 38.5,
+      "voice_reference_file": "assets/audio/voice_references/01_sun_yalong.mp3",
+      "voice_reference_is_final_dialogue": false,
+      "audible_source": "native_generated_dialogue",
+      "mouth_rule": "可见发言者逐字同步嘴型，其他人闭口；画外发声不驱动听者嘴。"
+    },
+    {
+      "speaker_id": "C01",
+      "text": "江！大！歌！",
+      "source_start": 10.2,
+      "source_end": 12.7,
+      "delivery": "大声重复三字；江10.2–10.65，大11.0–11.45，歌11.8–12.7；字间各约0.35秒静默。",
+      "visible_speaker": true,
+      "id": "E3_D06",
+      "block": "P02",
+      "start": 40.2,
+      "end": 42.7,
+      "voice_reference_file": "assets/audio/voice_references/01_sun_yalong.mp3",
+      "voice_reference_is_final_dialogue": false,
+      "audible_source": "native_generated_dialogue",
+      "mouth_rule": "可见发言者逐字同步嘴型，其他人闭口；画外发声不驱动听者嘴。"
+    },
+    {
+      "speaker_id": "E05",
+      "text": "好工整啊！",
+      "source_start": 18,
+      "source_end": 19.5,
+      "delivery": "率先郑重点头，拍案一次。",
+      "visible_speaker": true,
+      "id": "E3_D07",
+      "block": "P02",
+      "start": 48,
+      "end": 49.5,
+      "voice_reference_file": null,
+      "voice_reference_is_final_dialogue": false,
+      "audible_source": "native_generated_dialogue",
+      "mouth_rule": "可见发言者逐字同步嘴型，其他人闭口；画外发声不驱动听者嘴。"
+    },
+    {
+      "speaker_id": "E11",
+      "text": "好工整啊！",
+      "source_start": 20,
+      "source_end": 21.5,
+      "delivery": "邻座稍后附和，原创另一男声，不与前人重叠。",
+      "visible_speaker": true,
+      "id": "E3_D08",
+      "block": "P02",
+      "start": 50,
+      "end": 51.5,
+      "voice_reference_file": null,
+      "voice_reference_is_final_dialogue": false,
+      "audible_source": "native_generated_dialogue",
+      "mouth_rule": "可见发言者逐字同步嘴型，其他人闭口；画外发声不驱动听者嘴。"
+    },
+    {
+      "speaker_id": "C05",
+      "text": "公子，请。",
+      "source_start": 24,
+      "source_end": 25.6,
+      "delivery": "微笑邀请，尚不知皇帝身份。",
+      "visible_speaker": true,
+      "id": "E3_D09",
+      "block": "P02",
+      "start": 54,
+      "end": 55.6,
+      "voice_reference_file": "assets/audio/voice_references/02_pan_hui.mp3",
+      "voice_reference_is_final_dialogue": false,
+      "audible_source": "native_generated_dialogue",
+      "mouth_rule": "可见发言者逐字同步嘴型，其他人闭口；画外发声不驱动听者嘴。"
+    }
+  ],
+  "source_mapping": [
+    {
+      "block": "P01",
+      "source_seconds": [
+        0,
+        30
+      ],
+      "timeline_seconds": [
+        0,
+        30
+      ]
+    },
+    {
+      "block": "P02",
+      "source_seconds": [
+        0,
+        30
+      ],
+      "timeline_seconds": [
+        30,
+        60
+      ]
+    }
+  ],
+  "acceptance": [
+    "口型先验实际说话者，听者不代说。",
+    "每句实测首字、中字和末字音画偏移；合唱另验转唱及笑场。",
+    "音色样本不是最终台词，更不是歌曲的节奏和歌词时钟。",
+    "对不上口型要局部重生或重新对口型；不能只加声音掩盖闭嘴。"
+  ]
+}

@@ -47,6 +47,8 @@ def validate(root: Path) -> dict:
     expected_blocks=['N01','N02','N03','N04','N05']
     blocks=timeline['blocks']; shots=timeline['shots']; dialogue=timeline['dialogues']
     jobs=refs['jobs']; prompts={}; char_counts={}; bytes_counts={}; rates={}; checked_assets={}
+    pending_references=[]; references_ready={}; generation_ready={}; visual_reviews={}
+    performance=contract.get('performance_block',{})
     check([b['id'] for b in blocks]==expected_blocks,'Expected five ordered 30-second blocks N01–N05')
     check([j['id'] for j in jobs]==expected_blocks,'Reference jobs must follow N01–N05')
     check(timeline['duration_seconds']==150 and timeline['fps']==24 and timeline['total_frames']==3600,'150 sec / 24 fps / 3600 frame contract mismatch')
@@ -99,13 +101,32 @@ def validate(root: Path) -> dict:
         check([s['slot'] for s in image_slots]==[f'@图片{n}' for n in range(1,len(image_slots)+1)],f'{bid}: nonsequential image slots')
         check([s['slot'] for s in audio_slots]==[f'@音频{n}' for n in range(1,len(audio_slots)+1)],f'{bid}: nonsequential audio slots')
         for item in allslots:
-            rel=item['file']; p=root/rel
+            rel=item['file']
+            is_song_reference=(bid=='N04' and item in audio_slots
+                and item.get('slot')=='@音频1' and item.get('character_id')=='C05'
+                and item.get('purpose')=='final_song_segment_timing_and_phonemes')
+            if rel is None:
+                allowed_pending=(is_song_reference and item.get('required') is True
+                    and item.get('sha256') is None and item.get('status')=='awaiting_user_song_excerpt')
+                check(allowed_pending,f'{bid}: undeclared or invalid null reference {item.get("slot")}')
+                if allowed_pending:
+                    pending_references.append({'block':bid,'slot':item['slot'],'character_id':'C05',
+                        'purpose':item['purpose'],'status':item['status'],'required':True,
+                        'file':None,'sha256':None,'source_seconds':[4,22]})
+                continue
+            check(isinstance(rel,str),f'{bid}: reference path must be a string or declared pending song')
+            if not isinstance(rel,str):
+                continue
+            p=root/rel
             check(p.is_file(),f'{bid}: missing reference {rel}')
             if p.is_file():
                 actual=sha(p); checked_assets[rel]=actual
                 check(item.get('sha256')==actual,f'{bid}: stale reference SHA256 {rel}')
             if item in audio_slots:
-                check(Path(rel).name==VOICE_FILES.get(item['character_id']),f'{bid}: wrong cast voice {item["character_id"]}')
+                if is_song_reference:
+                    check(Path(rel).name not in VOICE_FILES.values(),f'{bid}: spoken timbre sample cannot substitute for final song phoneme timing')
+                else:
+                    check(Path(rel).name==VOICE_FILES.get(item['character_id']),f'{bid}: wrong cast voice {item["character_id"]}')
             if bid in ['N03','N04','N05'] and '/characters/C01/' in rel:
                 check('DISGUISE' in rel,f'{bid}: emperor court image leaks into disguise job')
             if bid in ['N03','N04','N05'] and '/characters/C03/' in rel:
@@ -114,7 +135,16 @@ def validate(root: Path) -> dict:
         dd=[d for d in dialogue if d['block']==bid]
         check(re.findall('“([^”]+)”',prompt)==[d['text'] for d in dd],f'{bid}: Prompt dialogue text/order differs from 21-line contract')
         cast={d['speaker_id'] for d in dd if d['speaker_id'] in VOICE_FILES}
+        if bid=='N04' and performance.get('singing') is True:
+            cast.add('C05')
         check({s['character_id'] for s in audio_slots}==cast,f'{bid}: silent actor voice uploaded or speaking actor voice missing')
+        available_audio=sum(isinstance(s.get('file'),str) and (root/s['file']).is_file() for s in audio_slots)
+        if bid=='N04':
+            check(job.get('available_audio_count')==available_audio,f'{bid}: pending song incorrectly counted as available audio')
+            check(len(audio_slots)==1 and audio_slots[0].get('purpose')=='final_song_segment_timing_and_phonemes',f'{bid}: exactly one final-song reference must be planned')
+        references_ready[bid]=all(isinstance(s.get('file'),str) and (root/s['file']).is_file() for s in allslots)
+        visual_reviews[bid]=any('pending_user_review' in s.get('status','') for s in image_slots)
+        generation_ready[bid]=references_ready[bid] and not visual_reviews[bid]
         cursor=0
         for d in dd:
             did=d['id']; a=d['source_start']; b=d['source_end']
@@ -142,10 +172,21 @@ def validate(root: Path) -> dict:
             check(any(s['file']=='assets/characters/C05/C05_FRONT_HALF_v04.png' for s in image_slots),f'{bid}: missing Pan identity/mole authority')
             check(all(x in prompt for x in ['嘴角下方','皮肤','唇线','玉簪','镜像']),f'{bid}: Pan mole-side instructions missing')
 
-    check(not [d for d in dialogue if d['block']=='N04'],'N04 dance cannot have dialogue')
-    silent=contract['silent_block']
-    check(silent['id']=='N04' and silent['source_seconds']==[0,30] and all(silent[x] for x in ['no_dialogue','no_music','no_vocalization','user_music_post_only']), 'N04 silent dance policy mismatch')
-    check('不做唱歌口型' in prompts['N04'] and '后期配音乐' in prompts['N04'],'N04 cannot add singing mouth motions before user music')
+    check(not [d for d in dialogue if d['block']=='N04'],'N04 singing performance cannot add spoken dialogue')
+    check('silent_block' not in contract,'Retired silent-dance policy still present')
+    check(performance.get('id')=='N04' and performance.get('source_seconds')==[4,22], 'N04 singing window must be source 4–22 sec')
+    check(all(performance.get(x) is True for x in ['no_spoken_dialogue','singing','lips_follow_final_audio']), 'N04 singing and audio-driven lip policy missing')
+    check(performance.get('music_excerpt_received') is False and performance.get('ready_for_generation') is False
+        and performance.get('final_audio_file') is None and performance.get('audio_reference_slot')=='@音频1',
+        'N04 must accurately report missing final song and unavailable generation readiness')
+    check(any(p['block']=='N04' for p in pending_references),'N04 required final-song placeholder missing')
+    n04_shots=[s for s in shots if s['block']=='N04']
+    check([(s['source_start'],s['source_end']) for s in n04_shots]==[(0,4),(4,9),(9,16),(16,22),(22,30)],'N04 singing/closeup/reaction windows changed')
+    check(all(x in prompts['N04'] for x in ['@音频1','口型','近景'])
+        and any(x in prompts['N04'] for x in ['微笑','眼中含笑'])
+        and '句间' in prompts['N04'], 'N04 performance Prompt lacks final-song reference or face/lip/phrase-smile coverage')
+    for old_rule in ['不做唱歌口型','全30秒无台词、唱腔','所有人始终闭嘴']:
+        check(old_rule not in prompts['N04'],f'N04 contains retired conflicting policy: {old_rule}')
     check('西卡画外声' in prompts['N02'] and '始终闭嘴' in prompts['N02'],'N02 listener-mouth exception missing')
 
     with (root/base/'audio/dialogue_cues.csv').open(encoding='utf-8-sig',newline='') as f:
@@ -178,10 +219,14 @@ def validate(root: Path) -> dict:
         'prompt_character_limit':2000,'prompt_characters':char_counts,'prompt_utf8_bytes':bytes_counts,
         'dialogue_hanzi_per_second':rates,'max_dialogue_hanzi_per_second':max(rates.values()),
         'image_counts':{j['id']:j['image_count'] for j in jobs},'voice_reference_counts':{j['id']:j['audio_count'] for j in jobs},
+        'available_audio_reference_counts':{j['id']:sum(isinstance(s.get('file'),str) and (root/s['file']).is_file() for s in j['audio_slots']) for j in jobs},
+        'pending_required_references':pending_references,'required_references_ready_by_block':references_ready,
+        'candidate_visual_review_pending_by_block':visual_reviews,'ready_for_generation_by_block':generation_ready,
+        'generation_readiness_basis':'Required reference files must exist and candidate visual references must complete user review; static integrity alone is not generation readiness.',
         'reference_unique_file_count':len(checked_assets),'reference_sha256':checked_assets,
         'ep01_baseline_file_count':len(baseline),'ep01_byte_unchanged':ep01_unchanged,'ep01_added_metadata_files':added_ep01,
         'actual_media_audited':False,'mouth_sync_verified_from_video':False,'new_drama_voice_generated':False,
-        'limits':['This checks production data, not Seedance output quality.','Images and candidate choreography require human approval.','Source voice sample playback and likeness are not independently verified here.','Performance speed statistics are estimates; real delivery must be watched and listened to.'],
+        'limits':['This checks production data, not Seedance output quality.','Images and candidate choreography require human approval.','Source voice sample playback and likeness are not independently verified here.','Performance speed statistics are estimates; real delivery must be watched and listened to.','N04 requires the exact final 18-second song excerpt before phoneme timing, generation, or mouth synchronization can be verified.'],
     }
 
 def main():

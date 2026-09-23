@@ -1,0 +1,78 @@
+{
+  "date": "2026-09-23",
+  "tool": "image_gen.imagegen",
+  "model": null,
+  "requested_aspect_ratio": "16:9",
+  "seed": null,
+  "cost": null,
+  "assets": [
+    {
+      "id": "S13",
+      "version": "v01",
+      "prompt": "Generate one 16:9 cinematic production design master still for a realistic Chinese historical drama, empty environment only. This is S13, the small refined private conversation salon beside the Ting Song Lou performance hall at night, in the same actual building as references 1 and 2. Match their aged dark timber, restrained carved lattice windows, plaster panels, pale muted blue-grey silk curtains, warm practical paper lanterns and subtle cool blue night outside. Create a new coherent room, not a copy or collage. Camera eye height 1.45m, 32mm lens, straight architecture, full room view with an intimate but clearly respectable meeting salon, NOT a bedroom and no couch or bed. In the middle a modest rectangular dark wooden tea table, long edge parallel to the image plane; one proper wooden chair on screen-left facing inward and one on screen-right facing inward, allowing man left / woman right screen continuity. Teapot and exactly two plain cups on table. Enough unobstructed floor around each chair for people to approach and sit. Lattice river-view window on the left rear wall; on the back-right a visibly half-open door to a warmly lit corridor, with a freestanding wooden lattice privacy screen just outside the threshold leaving space where a maid can wait. Pale blue curtains frame the window without covering the doorway. A restrained landscape scroll without any readable characters; a small ceramic vase. Warm believable lamp light on the two seats, gentle blue night fill, dimensional shadows, realistic worn timber and textiles, soft photographic grain, natural exposure and filmic color. Expensive period film set photographed in camera, no fantasy, no game CGI, no exaggerated HDR, no sharpened plastic textures. No people, silhouettes, faces, text, labels, logos, modern fittings, rulers, arrows or inset panels. Single full-frame image.",
+      "references": [
+        "assets/scenes/S12_SALON_STAGE_NIGHT_v01.png",
+        "assets/scenes/S05_SALON_v01.png"
+      ],
+      "raw_output_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-1514747a-5081-4945-b8b6-82ef019615b7.png",
+      "repository_path": "assets/scenes/S13_SALON_SIDE_ROOM_NIGHT_v01.png",
+      "status": "generated_candidate_pending_user_review",
+      "visual_review": "Single empty meeting room; chairs at screen-left and screen-right; central tea table; pale blue curtains, river window and warm lanterns match existing Ting Song Lou; back-right open corridor and privacy screen. No bed or people.",
+      "sha256": "8298ac24b8e2c128edc15e6b3d48aceee539aea0c79265023177f9339d4e58a2",
+      "bytes": 2397273,
+      "width": 1672,
+      "height": 941,
+      "reference_sha256": {
+        "assets/scenes/S12_SALON_STAGE_NIGHT_v01.png": "f397ab338873d8519099bdfd68d8b19bcfa81a519f1f2d89529e13b7e248be98",
+        "assets/scenes/S05_SALON_v01.png": "59336348de5c8ccd46ae558599860e140182737b12f906c324f3afc6b1d37de4"
+      },
+      "task_id": null,
+      "seed": null,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "S14",
+      "version": "v01",
+      "prompt": "Create one 16:9 full-frame cinematic production-design master still for an empty modest Huizhou inn guest room at night in a realistic Chinese historical film. Use the attached Ting Song Lou room only to match this series' photographic realism, timber age, warm practical light and cool night exposure; this is a simpler, different lower-cost building. NO people. Wide establishing view from eye level 1.45m with a natural 35mm lens; straight coherent walls, real worn dark timber beams, off-white lime plaster, brown rough linen and old stone at doorway. Central substantial rectangular wooden table aligned parallel to the image plane, two simple backless wooden stools screen-left and screen-right with open space to sit, small bronze oil lamp with one flame on the table, a rolled-up cream paper scroll and one unfolded BLANK aged cream paper sheet lying flat, no writing or symbols. Two plain earthenware tea cups, no luxurious porcelain. A closed wooden door at back-right. A small closed lattice window at back-left admits restrained cool blue night light. Along back-left wall, a plain wooden luggage bench with a modest folded dark travel cloth; no luggage characters or emblems. Leave a clear walking route from door to table and clear two-person conversational space around table. This is the believable rented room of two discreet travellers discussing an investigation, not a palace, not a dungeon, not a modern themed hotel. Warm oil lamp light gently models the chairs and table; enough soft ambient night fill to read the room, realistic shadow falloff, photographed 35mm film texture, restrained contrast, no HDR, no game-CGI texture. No emperor insignia, dragons, armor, flags, calligraphy, text, faces, silhouettes, diagrams, inset panels, signage, modern objects. Single unoccupied practical film set with grounded materials and natural proportions.",
+      "references": [
+        "assets/scenes/S06_ROOM_NIGHT_v01.png"
+      ],
+      "raw_output_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-0dd29659-db11-4a5a-a835-7d1bfdadc621.png",
+      "repository_path": "assets/scenes/S14_INN_ROOM_NIGHT_v01.png",
+      "status": "generated_candidate_pending_user_review",
+      "visual_review": "Empty modest inn room with central blank paper on table, one oil lamp, two plain cups and two stools; closed back-right door and cool left window; no imperial emblem or text.",
+      "sha256": "c7e0dd88561ea96c4bf830293bfe45d048086af960f4bf02b37218252e72e7e8",
+      "bytes": 2083762,
+      "width": 1672,
+      "height": 941,
+      "reference_sha256": {
+        "assets/scenes/S06_ROOM_NIGHT_v01.png": "0dc7ef15d4084d008095e1ba1a16fc28f81ccd8b13d21c80dc6922c8714312d3"
+      },
+      "task_id": null,
+      "seed": null,
+      "original_bytes_preserved": true
+    },
+    {
+      "id": "S15",
+      "version": "v01",
+      "prompt": "Create one empty 16:9 wide cinematic location master still for a grounded Chinese historical drama: a welcoming old pine beside a rural stone path outside ancient Huizhou, early soft overcast morning after rain. Use the attached Huizhou street only for this series' natural photographic realism, weathered white-plaster grey-tile buildings, restrained moist greens, old stone and realistic atmosphere; this is a new open countryside location, not the street. Eye-height 1.5m, 35mm lens, practical film location photography. The old pine trunk stands on screen-right, elegant broad horizontal branches extending left across the upper third of the composition like a welcoming arm, realistic bark and needle clusters. A CLEAR, level, broad safe stone terrace fills the centre and foreground, roughly 7 metres wide and at least 4 metres deep, sufficient for two adults initially 3 metres apart then walking together; flat textured dry-enough paving, no central shrubs or furniture or obstacles. On screen-left a gently curving stone approach path joins the terrace at exactly the same ground level; this is the man's future entrance. On screen-right below the pine canopy is open standing space for the woman, with her back initially facing left path, no person in this image. Terrace surrounded by low grass and nearby level ground; NO cliff, dangerous drop, ravine, ledge, balcony or dramatic mountain precipice. Beyond the open terrace in the mid-background, a quiet low stone bank and shallow creek, some distant white-walled black-tiled Huizhou houses and gentle forested hills softened by natural morning humidity. Keep background subdued and real, not panoramic fantasy peaks. Soft pale warm daylight from upper left with gentle cool sky fill, romantic but sober natural colors, real moss, stone joints, visible pine texture, mild depth of field while space remains legible, filmic exposure with soft grain. No fairy glow, magic petals, excessive fog, CGI game look, artificial HDR, plastic textures. Absolutely no people, faces, figures, statues, written signs, captions, graphics, modern objects, railings or collage. Single full-frame photographed film environment.",
+      "references": [
+        "assets/scenes/S10_HUIZHOU_STREET_v01.png"
+      ],
+      "raw_output_path": "/workspace/scratch/217ce8a5e48d/generated_images/exec-6994fa66-33d6-48a4-99eb-76db54795947.png",
+      "repository_path": "assets/scenes/S15_PINE_PATH_DAY_v01.png",
+      "status": "generated_candidate_pending_user_review",
+      "visual_review": "Empty broad level stone terrace, right-side old pine and horizontal branches across top; left entrance path, open centre enables approach; shallow creek beyond low border, no cliff; Huizhou houses and natural morning illumination match series.",
+      "sha256": "d18685b08ba453b175feb316c9747ae051c9e9f44d01af3cf0f6a9ba80b62569",
+      "bytes": 3198559,
+      "width": 1672,
+      "height": 941,
+      "reference_sha256": {
+        "assets/scenes/S10_HUIZHOU_STREET_v01.png": "0fb4fc0032b824a0eeed9362db4d1ecf6a6143d1604257e461cc9b020cf2e96d"
+      },
+      "task_id": null,
+      "seed": null,
+      "original_bytes_preserved": true
+    }
+  ]
+}

@@ -3,7 +3,10 @@
   "project": "德云史记·慧后本纪",
   "episodes": [
     "EP01",
-    "EP02"
+    "EP02",
+    "EP03",
+    "EP04",
+    "EP05"
   ],
   "selection_authority": "assets/current_selection.json",
   "generated_images_are_original_bytes": true,
@@ -923,6 +926,34 @@
       "usable_as_single_character_reference": false
     },
     {
+      "id": "P07_MOON_DRINKER_v01",
+      "path": "assets/props/EP03/P07_MOON_DRINKER_v01.png",
+      "kind": "props",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2511361,
+      "sha256": "48da527bd6bc0c3663a17ce8355f5a66556ba7e83cda7a72c2b74aeea6767adf",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "P08_IG2018_DREAM_v01",
+      "path": "assets/props/EP03/P08_IG2018_DREAM_v01.png",
+      "kind": "props",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2732718,
+      "sha256": "7a29988af6800611ec66a3f67c77c613270d86bc770f8772d83df64d00efd66b",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
       "id": "S01_DAY_v01",
       "path": "assets/scenes/S01_DAY_v01.png",
       "kind": "scenes",
@@ -1119,6 +1150,48 @@
       "usable_as_single_character_reference": false
     },
     {
+      "id": "S13_SALON_SIDE_ROOM_NIGHT_v01",
+      "path": "assets/scenes/S13_SALON_SIDE_ROOM_NIGHT_v01.png",
+      "kind": "scenes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2397273,
+      "sha256": "8298ac24b8e2c128edc15e6b3d48aceee539aea0c79265023177f9339d4e58a2",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "S14_INN_ROOM_NIGHT_v01",
+      "path": "assets/scenes/S14_INN_ROOM_NIGHT_v01.png",
+      "kind": "scenes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2083762,
+      "sha256": "c7e0dd88561ea96c4bf830293bfe45d048086af960f4bf02b37218252e72e7e8",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "S15_PINE_PATH_DAY_v01",
+      "path": "assets/scenes/S15_PINE_PATH_DAY_v01.png",
+      "kind": "scenes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 3198559,
+      "sha256": "d18685b08ba453b175feb316c9747ae051c9e9f44d01af3cf0f6a9ba80b62569",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
       "id": "C03_user_identity_anchor",
       "path": "assets/source_photos/C03_user_identity_anchor.png",
       "kind": "source_photos",
@@ -1129,6 +1202,75 @@
       "dimensions": [
         522,
         430
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "DUKE_2018_RIOT_NAMED",
+      "path": "assets/source_photos/EP03/DUKE_2018_RIOT_NAMED.jpg",
+      "kind": "source_photos",
+      "current": false,
+      "status": "identity_provenance_only_not_video_reference",
+      "bytes": 134007,
+      "sha256": "0b28e958502389ea74a75cc9e77307b579233d8d3aec991e603e25f8b47bcc8b",
+      "dimensions": null,
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "FAKER_T1_CURRENT_PROFILE",
+      "path": "assets/source_photos/EP03/FAKER_T1_CURRENT_PROFILE.jpg",
+      "kind": "source_photos",
+      "current": false,
+      "status": "identity_provenance_only_not_video_reference",
+      "bytes": 65786,
+      "sha256": "5dfb128d6ecdfd4543c991033812f2180710c3262459e58151c4d5fb8316a83b",
+      "dimensions": null,
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "FAKER_T1_OFFICIAL_PORTRAIT",
+      "path": "assets/source_photos/EP03/FAKER_T1_OFFICIAL_PORTRAIT.jpg",
+      "kind": "source_photos",
+      "current": false,
+      "status": "identity_provenance_only_not_video_reference",
+      "bytes": 144948,
+      "sha256": "bd45f4782afc59e968347533e80519bb888106a329984adc68278131fa685ab1",
+      "dimensions": null,
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "IG2018_CHAMPIONS_RIOT_2048",
+      "path": "assets/source_photos/EP03/IG2018_CHAMPIONS_RIOT_2048.jpg",
+      "kind": "source_photos",
+      "current": false,
+      "status": "identity_provenance_only_not_video_reference",
+      "bytes": 777321,
+      "sha256": "4caa17493121e9ff821ea2f66e01663beb097802b7fe18914b1c30203e5e5df6",
+      "dimensions": null,
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "IG2018_CHAMPIONS_RIOT_OFFICIAL",
+      "path": "assets/source_photos/EP03/IG2018_CHAMPIONS_RIOT_OFFICIAL.jpg",
+      "kind": "source_photos",
+      "current": false,
+      "status": "identity_provenance_only_not_video_reference",
+      "bytes": 294122,
+      "sha256": "3ee6fb374a24123782e907b8044949fa0be05f9faf50962429502e322e968310",
+      "dimensions": null,
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "IG2018_RIOT_MEET_TEAM",
+      "path": "assets/source_photos/EP03/IG2018_RIOT_MEET_TEAM.png",
+      "kind": "source_photos",
+      "current": false,
+      "status": "identity_provenance_only_not_video_reference",
+      "bytes": 572543,
+      "sha256": "edb8116cd979e9d3e5521bd1e2c956f5bc39d22aa4dd3d012869a24b0b49ae2b",
+      "dimensions": [
+        873,
+        416
       ],
       "usable_as_single_character_reference": false
     },

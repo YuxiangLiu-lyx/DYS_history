@@ -347,18 +347,6 @@
       "mouth_rule": "可见说话者逐字同步口型；其余可见人物闭嘴自然反应。"
     }
   ],
-  "silent_block": {
-    "id": "N04",
-    "source_seconds": [
-      0,
-      30
-    ],
-    "no_dialogue": true,
-    "no_music": true,
-    "no_vocalization": true,
-    "allow_foley": true,
-    "user_music_post_only": true
-  },
   "source_mapping": {
     "N01": {
       "source_seconds": [
@@ -416,5 +404,37 @@
       "offset": 120
     }
   },
-  "acceptance": "实测嘴型首音、句中、尾字与声音的偏移，及切镜后的声音来源；尚未实测时记录null。"
+  "acceptance": "实测嘴型首音、句中、尾字与声音的偏移，及切镜后的声音来源；尚未实测时记录null。",
+  "performance_block": {
+    "id": "N04",
+    "source_seconds": [
+      4,
+      22
+    ],
+    "timeline_seconds": [
+      94,
+      112
+    ],
+    "no_spoken_dialogue": true,
+    "singing": true,
+    "lips_follow_final_audio": true,
+    "music_excerpt_received": false,
+    "ready_for_generation": false,
+    "audio_reference_slot": "@音频1",
+    "final_audio_file": null,
+    "final_audio_sha256": null,
+    "audio_source_seconds": [
+      0,
+      18
+    ],
+    "mapping": "video_source_t = audio_t + 4; global_t = audio_t + 94",
+    "lyrics_text": null,
+    "lyrics_status": "awaiting_user_selected_song_excerpt; no lyrics invented",
+    "visible_mouth_closeup_source_seconds": [
+      9,
+      16
+    ],
+    "actual_lip_sync_verified": false
+  },
+  "revision": "v1.1_N04_singing"
 }

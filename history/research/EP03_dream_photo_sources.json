@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-09-23",
+  "scope": "EP03 dream-image source references only; no generated output produced by this research task",
+  "source_files": [
+    {
+      "file": "assets/source_photos/EP03/FAKER_T1_OFFICIAL_PORTRAIT.jpg",
+      "bytes": 144948,
+      "sha256": "bd45f4782afc59e968347533e80519bb888106a329984adc68278131fa685ab1",
+      "visual_review_performed": true,
+      "download_transform": "none; stored source bytes unchanged",
+      "dimensions": [
+        1500,
+        1125
+      ],
+      "source_page_url": null,
+      "direct_image_url": null,
+      "author": null,
+      "rights_holder": null,
+      "license": "unknown",
+      "authorization_for_reuse": "unknown",
+      "identity_confidence": "unverified_original_provenance; intended Faker identity supplied by existing project filename and parent context",
+      "role": "historical P07 actual input; retain unchanged",
+      "source_note": "File pre-existed this research. Filename OFFICIAL is not evidence of official provenance. Original download URL and author have not been recovered. Do not relabel the generated P07 as having used the new official image.",
+      "download_date": null
+    },
+    {
+      "file": "assets/source_photos/EP03/FAKER_T1_CURRENT_PROFILE.jpg",
+      "bytes": 65786,
+      "sha256": "5dfb128d6ecdfd4543c991033812f2180710c3262459e58151c4d5fb8316a83b",
+      "visual_review_performed": true,
+      "download_transform": "none; stored source bytes unchanged",
+      "dimensions": [
+        600,
+        700
+      ],
+      "source_page_url": "https://www.t1.gg/teams/leagueoflegends",
+      "direct_image_url": "https://images.squarespace-cdn.com/content/v1/62d09f54a49d6f1c78455cce/494332ac-75c6-4610-be1b-ec82526e0854/Faker.jpg",
+      "author": "T1 official website; individual photographer not credited",
+      "rights_holder": "T1 or its licensor; exact image rights holder unconfirmed",
+      "license": "not stated on image/roster page",
+      "authorization_for_reuse": "unknown; public availability is not a license",
+      "identity_confidence": "high: official roster image visibly labels FAKER",
+      "role": "new official identity anchor and cross-check, not a retroactive replacement of P07 input",
+      "download_date": "2026-09-23",
+      "source_note": "Source page retrieved with HTTP 200. Asset is 600x700; current page display alone does not establish capture date. Use only face identity, no demand for this modern jersey in lake scene."
+    },
+    {
+      "file": "assets/source_photos/EP03/IG2018_CHAMPIONS_RIOT_OFFICIAL.jpg",
+      "bytes": 294122,
+      "sha256": "3ee6fb374a24123782e907b8044949fa0be05f9faf50962429502e322e968310",
+      "visual_review_performed": true,
+      "download_transform": "none; stored source bytes unchanged",
+      "dimensions": [
+        1024,
+        683
+      ],
+      "source_page_url": "https://www.flickr.com/photos/lolesports/30757965927/",
+      "direct_image_url": "https://live.staticflickr.com/4861/30757965927_8c36f2cd26_b.jpg",
+      "author": "LoL Esports Photos / lolesports official account; individual photographer not identified",
+      "rights_holder": "Riot Games (corroborated by linked Liquipedia image record)",
+      "license": "Flickr license 0: All Rights Reserved",
+      "authorization_for_reuse": "unknown for this project; Liquipedia permission is not transferable",
+      "identity_confidence": "high for official event and roster; left-to-right assignments are editorial cross-reference, not a caption printed on this frame",
+      "role": "lower-resolution unchanged official source",
+      "download_date": "2026-09-23",
+      "event_date": "2018-11-03",
+      "event": "2018 World Championship Finals, Incheon Munhak Stadium",
+      "source_note": "Both resolutions are advertised in the original Flickr page sizes object; no synthetic upscaling. Liquipedia source metadata contains a typo saying Worlds 2017, contradicted by its own date and the official Flickr caption/event; use 2018."
+    },
+    {
+      "file": "assets/source_photos/EP03/IG2018_CHAMPIONS_RIOT_2048.jpg",
+      "bytes": 777321,
+      "sha256": "4caa17493121e9ff821ea2f66e01663beb097802b7fe18914b1c30203e5e5df6",
+      "visual_review_performed": true,
+      "download_transform": "none; stored source bytes unchanged",
+      "dimensions": [
+        2048,
+        1365
+      ],
+      "source_page_url": "https://www.flickr.com/photos/lolesports/30757965927/",
+      "direct_image_url": "https://live.staticflickr.com/4861/30757965927_a5cefc61b9_k.jpg",
+      "author": "LoL Esports Photos / lolesports official account; individual photographer not identified",
+      "rights_holder": "Riot Games (corroborated by linked Liquipedia image record)",
+      "license": "Flickr license 0: All Rights Reserved",
+      "authorization_for_reuse": "unknown for this project; Liquipedia permission is not transferable",
+      "identity_confidence": "high for official event and roster; left-to-right assignments are editorial cross-reference, not a caption printed on this frame",
+      "role": "preferred generation reference: actual 2018 champions, trophy, jackets, staging",
+      "download_date": "2026-09-23",
+      "event_date": "2018-11-03",
+      "event": "2018 World Championship Finals, Incheon Munhak Stadium",
+      "source_note": "Both resolutions are advertised in the original Flickr page sizes object; no synthetic upscaling. Liquipedia source metadata contains a typo saying Worlds 2017, contradicted by its own date and the official Flickr caption/event; use 2018."
+    },
+    {
+      "file": "assets/source_photos/EP03/IG2018_RIOT_MEET_TEAM.png",
+      "bytes": 572543,
+      "sha256": "edb8116cd979e9d3e5521bd1e2c956f5bc39d22aa4dd3d012869a24b0b49ae2b",
+      "visual_review_performed": true,
+      "download_transform": "none; stored source bytes unchanged",
+      "dimensions": [
+        873,
+        416
+      ],
+      "source_page_url": "https://na.leagueoflegends.com/en/featured/worlds-2018-meet-the-teams",
+      "direct_image_url": "https://lolstatic-a.akamaihd.net/frontpage/apps/prod/rg-worlds-2018-meet-the-teams/en_US/488efe4a77c4d5f1141b623c4a661305c5e90fb3/assets/img/teams/team-ig.png",
+      "author": "Riot Games official Worlds 2018 presentation; individual photographer not identified",
+      "rights_holder": "Riot Games or its licensor",
+      "license": "not stated on retrieved asset/page",
+      "authorization_for_reuse": "unknown",
+      "identity_confidence": "high: official team panel pairs this asset with names in left-to-right order",
+      "role": "generation reference 2: five starting-player face identities; source jerseys differ from actual finals celebration jackets",
+      "download_date": "2026-09-23",
+      "left_to_right": [
+        "TheShy",
+        "Ning",
+        "Rookie",
+        "JackeyLove",
+        "Baolan"
+      ],
+      "source_note": "HTML team panel lpl3 contains team-ig.png and name-top THESHY, name-jungle NING, name-mid ROOKIE, name-adc JACKEYLOVE, name-support BAOLAN. Keep finals photo clothing when combining references."
+    },
+    {
+      "file": "assets/source_photos/EP03/DUKE_2018_RIOT_NAMED.jpg",
+      "bytes": 134007,
+      "sha256": "0b28e958502389ea74a75cc9e77307b579233d8d3aec991e603e25f8b47bcc8b",
+      "visual_review_performed": true,
+      "download_transform": "none; stored source bytes unchanged",
+      "dimensions": [
+        1024,
+        683
+      ],
+      "source_page_url": "https://www.flickr.com/photos/lolesports/30308844677/",
+      "direct_image_url": "https://live.staticflickr.com/1903/30308844677_dab4d73c91_b.jpg",
+      "author": "LoL Esports Photos / lolesports official account; individual photographer not identified",
+      "rights_holder": "Riot Games or its licensor",
+      "license": "Flickr license 0: All Rights Reserved",
+      "authorization_for_reuse": "unknown",
+      "identity_confidence": "high: official source title is IG DUKE",
+      "role": "cross-check sixth player in finals celebration; optional third generation reference if needed",
+      "download_date": "2026-09-23",
+      "event_date": "2018-10-11",
+      "source_note": "Named photo at Worlds 2018 group stage, not the finals celebration itself."
+    }
+  ],
+  "ig_final_photo_left_to_right": [
+    {
+      "position_from_image_left": 1,
+      "name": "Duke",
+      "appearance": "black bowl fringe, broader face, no glasses; left foreground",
+      "basis": "official named Duke reference plus six-player metadata; editorial spatial mapping"
+    },
+    {
+      "position_from_image_left": 2,
+      "name": "TheShy",
+      "appearance": "brown fringe, narrow smiling face, no glasses; behind left foreground pair",
+      "basis": "official 2018 team identity panel; editorial spatial mapping"
+    },
+    {
+      "position_from_image_left": 3,
+      "name": "Baolan",
+      "appearance": "slender face, black hair, rectangular glasses, V-sign near chest",
+      "basis": "official 2018 team identity panel; editorial spatial mapping"
+    },
+    {
+      "position_from_image_left": 4,
+      "name": "JackeyLove",
+      "appearance": "short black hair, rounder youthful face, near center under trophy",
+      "basis": "official 2018 team identity panel; editorial spatial mapping"
+    },
+    {
+      "position_from_image_left": 5,
+      "name": "Rookie",
+      "appearance": "black side fringe, face partly obscured on trophy right side",
+      "basis": "official 2018 team identity panel; editorial spatial mapping; partial occlusion makes this the weakest visible comparison"
+    },
+    {
+      "position_from_image_left": 6,
+      "name": "Ning",
+      "appearance": "tall right foreground, black fringe, glasses, arms extended toward trophy",
+      "basis": "official 2018 team identity panel plus team source; editorial spatial mapping"
+    }
+  ],
+  "ig_roster_sources": [
+    "https://na.leagueoflegends.com/en/featured/worlds-2018-meet-the-teams",
+    "https://liquipedia.net/commons/File:IG_Worlds_2018.jpg"
+  ],
+  "generation_recommendation": {
+    "input_order": [
+      "assets/source_photos/EP03/IG2018_CHAMPIONS_RIOT_2048.jpg",
+      "assets/source_photos/EP03/IG2018_RIOT_MEET_TEAM.png"
+    ],
+    "optional_third_reference": "assets/source_photos/EP03/DUKE_2018_RIOT_NAMED.jpg",
+    "people_count": 6,
+    "center_person": "TheShy",
+    "historical_photo_center_is_not_TheShy": true,
+    "description": "Rearrange the six 2018 champions around TheShy as an intentionally anachronistic dream illustration. Retain age-appropriate 2018 faces, black celebration jackets with subtle gold trim, blue medals, old large silver Summoner cup and stadium confetti. TheShy remains dark-brown fringe, no glasses. Do not confuse the original rightmost glasses-wearing Ning with TheShy.",
+    "truth_label": "AI梦境重构；人物站位按剧情重新编排，非2018现场原照片。"
+  },
+  "limitations": [
+    "Named official reference images support identity and year; the exact left-to-right finals-photo assignment is an editorial cross-reference, not an official labeled group caption.",
+    "P07 original Faker source URL remains unresolved; preserve actual input record and separate new corroborating anchor.",
+    "Public reference images do not establish a reuse license. Original copyrights remain with their rights holders."
+  ]
+}

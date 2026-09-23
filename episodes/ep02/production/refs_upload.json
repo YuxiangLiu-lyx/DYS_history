@@ -17,7 +17,7 @@
     "N01": 2,
     "N02": 2,
     "N03": 1,
-    "N04": 0,
+    "N04": 1,
     "N05": 3
   },
   "image_reference_limit_planned": 30,
@@ -272,7 +272,7 @@
       ],
       "prompt_file": "episodes/ep02/production/prompts/N04_PROMPT.txt",
       "image_count": 5,
-      "audio_count": 0,
+      "audio_count": 1,
       "slots": [
         {
           "slot": "@图片1",
@@ -315,7 +315,27 @@
           "sha256": "f397ab338873d8519099bdfd68d8b19bcfa81a519f1f2d89529e13b7e248be98"
         }
       ],
-      "audio_slots": [],
+      "audio_slots": [
+        {
+          "slot": "@音频1",
+          "character_id": "C05",
+          "file": null,
+          "sha256": null,
+          "purpose": "final_song_segment_timing_and_phonemes",
+          "status": "awaiting_user_song_excerpt",
+          "required": true,
+          "optional": false,
+          "expected_duration_seconds": 18,
+          "expected_reference_seconds": [
+            0,
+            18
+          ],
+          "maps_to_video_seconds": [
+            4,
+            22
+          ]
+        }
+      ],
       "previous_reference": {
         "required": false,
         "from_block": "N03",
@@ -333,9 +353,11 @@
         "file": null,
         "instruction": "真实合格前段生成后才能提取；若另加尾帧或静音参考片，记录标签并在Prompt中具体说明用途，图片总数随之+1。"
       },
-      "status": "prepared_new_visual_assets_pending_user_review",
+      "status": "awaiting_final_song_excerpt_and_static_review",
       "final_dialogue_audio_generated": false,
-      "prompt_unicode_characters": 841
+      "prompt_unicode_characters": 882,
+      "available_audio_count": 0,
+      "ready_for_generation": false
     },
     {
       "id": "N05",
@@ -425,7 +447,7 @@
         ],
         "video_file": null,
         "tail_frame_file": null,
-        "purpose": "优先引用合格N04末3秒去除音轨的视频，或另提取最后一张清晰尾帧，保持帝腿位置、杯子、座椅、舞台和潘慧收势。真实生成后才登记与绑定，当前不造假@视频。"
+        "purpose": "优先引用合格N04末3秒去音轨片或清晰尾帧，继承帝腿座位、杯已落桌及潘慧唱毕收袖闭口的状态；不重放歌声或重演举杯。真实素材生成后再登记标签。"
       },
       "optional_actual_tail_reference": {
         "currently_attached": false,
@@ -442,5 +464,14 @@
     "assets/audio/voice_references/05_weixiao.mp3"
   ],
   "generated_media_status": "no_video_or_final_audio_generated",
-  "pan_identity_lock": "C05_FRONT_HALF_v04：痣在正脸画面右侧嘴角下方皮肤上、与玉簪同侧，和唇线留皮肤间隔；不可镜像。"
+  "pan_identity_lock": "C05_FRONT_HALF_v04：痣在正脸画面右侧嘴角下方皮肤上、与玉簪同侧，和唇线留皮肤间隔；不可镜像。",
+  "available_audio_counts": {
+    "N01": 2,
+    "N02": 2,
+    "N03": 1,
+    "N04": 0,
+    "N05": 3
+  },
+  "revision": "v1.1_N04_singing",
+  "audio_reference_policy": "N01/N02/N03/N05为音色参考；N04计划1条最终演唱选段，目前0条收到。空file不是已上传素材。"
 }

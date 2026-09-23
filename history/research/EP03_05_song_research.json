@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-09-23",
+  "status": "web_researched_final_audio_pending",
+  "scope": "Public page metadata and line-start LRC only; no AV listening or phoneme measurement",
+  "audio_received": false,
+  "duet_audio_received": false,
+  "audio_bytes_downloaded": false,
+  "audio_listened": false,
+  "video_watched": false,
+  "phoneme_alignment_measured": false,
+  "actual_laughter_position_verified": false,
+  "user_assigned_singer_split_independently_verified": false,
+  "final_singing_timing_locked": false,
+  "voice_samples_are_not_song_timing_reference": true,
+  "sources": [
+    {
+      "id": "BILI_DUET",
+      "url": "https://www.bilibili.com/video/BV1ez4y1i7HK/",
+      "source_type": "public_user_video_listing",
+      "web_metadata_read": true,
+      "media_acquired": false,
+      "media_request_result": "HTTP 412",
+      "reliability": "title/posted date only; not event date, singer split or audio timing"
+    },
+    {
+      "id": "BILI_REACTION",
+      "url": "https://www.bilibili.com/video/BV1CYsbegEEL/",
+      "source_type": "reaction_repost_listing",
+      "web_metadata_read": "search result only",
+      "media_acquired": false,
+      "page_result": "HTTP 412",
+      "reliability": "candidate only"
+    },
+    {
+      "id": "KUGOU_STUDIO",
+      "url": "https://www.kugou.com/song/znn98.html",
+      "source_type": "music_platform_track_listing",
+      "web_metadata_read": true,
+      "media_acquired": false,
+      "reliability": "track metadata; no readable timecoded lyrics in retrieved text"
+    },
+    {
+      "id": "KUGOU_LIVE_2015",
+      "url": "https://www.kugou.com/song-36/c7s2s8b.html",
+      "source_type": "music_platform_live_LRC",
+      "web_metadata_read": true,
+      "media_acquired": false,
+      "recording_identity": "2015繁星年度盛典现场 Live / 崔子格",
+      "reliability": "readable LRC for different recording; provisional only"
+    },
+    {
+      "id": "THIRD_PARTY_STUDIO_LRC",
+      "url": "https://www.gecifang.com/song/1396535.html",
+      "source_type": "third_party_user_contributed_LRC",
+      "web_metadata_read": true,
+      "media_acquired": false,
+      "reliability": "unverified third-party timing; not Sun/Pan duet clock"
+    }
+  ],
+  "corrected_user_fragments": [
+    {
+      "user": "木枇杷",
+      "platform_lyric": "木琵琶"
+    },
+    {
+      "user": "四向远方牵挂",
+      "platform_lyric": "思念远方牵挂"
+    }
+  ],
+  "timing_reference_only": [
+    {
+      "source_id": "KUGOU_LIVE_2015",
+      "chorus_line_start_s": [
+        70.95,
+        75.95,
+        80.96,
+        86.04
+      ],
+      "next_verse_line_start_s": [
+        111.76,
+        115.87,
+        121.17,
+        126.05
+      ],
+      "following_line_start_s": 130.96,
+      "chorus_end_s": null,
+      "interval_between_section_starts_s": 40.81,
+      "measured_from_audio": false
+    },
+    {
+      "source_id": "THIRD_PARTY_STUDIO_LRC",
+      "chorus_line_start_s": [
+        70.94,
+        75.91,
+        80.93,
+        85.97
+      ],
+      "blank_marker_s": 91.29,
+      "next_verse_segment_start_s": [
+        111.42,
+        113.65,
+        115.9,
+        117.76,
+        121.2,
+        123.71,
+        125.85
+      ],
+      "following_line_start_s": 131.0,
+      "chorus_end_s": null,
+      "interval_between_section_starts_s": 40.48,
+      "measured_from_audio": false
+    }
+  ],
+  "planned_singer_assignment": [
+    {
+      "segment_id": "CHORUS_LINES_1_4",
+      "cast": [
+        "C01"
+      ],
+      "origin": "user instruction",
+      "actual_source_in_s": null,
+      "actual_source_out_s": null
+    },
+    {
+      "segment_id": "VERSE_LINES_1_2",
+      "cast": [
+        "C05"
+      ],
+      "origin": "user instruction",
+      "actual_source_in_s": null,
+      "actual_source_out_s": null
+    },
+    {
+      "segment_id": "VERSE_LINE_3_PREFIX",
+      "cast": [
+        "C01"
+      ],
+      "origin": "user instruction",
+      "actual_source_in_s": null,
+      "actual_source_out_s": null
+    },
+    {
+      "segment_id": "VERSE_LINE_3_SUFFIX",
+      "cast": [
+        "C05"
+      ],
+      "origin": "user instruction",
+      "actual_source_in_s": null,
+      "actual_source_out_s": null
+    },
+    {
+      "segment_id": "VERSE_LINE_4_PREFIX",
+      "cast": [
+        "C01",
+        "C05"
+      ],
+      "origin": "user instruction",
+      "actual_source_in_s": null,
+      "actual_source_out_s": null
+    },
+    {
+      "segment_id": "VERSE_LINE_4_SUFFIX",
+      "cast": [
+        "C05"
+      ],
+      "origin": "user instruction",
+      "laugh_inside": true,
+      "actual_laughter_in_s": null,
+      "actual_laughter_out_s": null,
+      "actual_source_in_s": null,
+      "actual_source_out_s": null
+    }
+  ],
+  "delivery_contract": {
+    "generated_singing_allowed": false,
+    "generated_humming_allowed": false,
+    "generated_lyric_recitation_allowed": false,
+    "user_supplies_final_mix_audio": true,
+    "guide_audio_required_for_precise_lips": true,
+    "guide_audio_must_equal_final_mix_edit": true,
+    "upload_song_audio_filename": null,
+    "upload_song_audio_sha256": null,
+    "new_unprovided_full_lyrics_saved": false
+  },
+  "layout_constraint": "Two 30s jobs require explicit instrumental edit or flexible acting tails; do not claim uncut source sequence. No lyric/phoneme times invented."
+}
