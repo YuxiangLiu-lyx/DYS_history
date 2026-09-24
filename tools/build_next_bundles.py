@@ -18,7 +18,7 @@ def jbytes(value: object) -> bytes:
     return (json.dumps(value, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
 
 
-def prepare() -> tuple[list[dict], dict[str, bytes], dict]:
+def prepare(episodes=EPISODES) -> tuple[list[dict], dict[str, bytes], dict]:
     validation = audit()
     if not validation["static_validation_pass"]:
         raise ValueError("Static source audit failed:\n" + "\n".join(validation["errors"]))
@@ -32,10 +32,11 @@ def prepare() -> tuple[list[dict], dict[str, bytes], dict]:
         sources[key] = data
         return data
 
-    for episode in EPISODES:
+    for episode in episodes:
         prod = Path("episodes") / episode / "production"
         refs = json.loads(read(prod / "refs_upload.json"))
         timeline = json.loads(read(prod / "timeline.json"))
+        revision = timeline.get("revision", "v1")
         contents, job_records = {}, []
         for job in refs["jobs"]:
             jid = job["id"]
@@ -90,15 +91,15 @@ def prepare() -> tuple[list[dict], dict[str, bytes], dict]:
             if (ROOT / file).is_file():
                 contents[f"documentation/{name}"] = read(file)
         for file in sorted((ROOT / prod / "audio").glob("*")):
-            if file.is_file() and file.suffix.lower() in {".json", ".md", ".csv"}:
+            if file.is_file() and file.suffix.lower() in {".json", ".md", ".csv", ".srt"}:
                 contents[f"documentation/audio/{file.name}"] = read(file.relative_to(ROOT))
         for file in sorted((ROOT / "episodes" / episode / "script").glob("*.md")):
             relative = file.relative_to(ROOT)
             contents[f"documentation/{file.name}"] = read(relative)
         contents["FICTION_NOTICE.txt"] = ("AI生成／AI辅助制作／架空历史二创。\n人物官职、事件与对白为艺术虚构；不得将生成画面作为真实私人事件的证据或司法结论。\n梦画中的夺冠合影如为AI重建或C位重排，属于梦境道具，不是2018年原始纪实照片。\n").encode("utf-8")
-        contents["README.md"] = (f"# {episode.upper()} Seedance 2.5 制作材料包 v1\n\n本章{len(job_records)}段，每段30秒。每个子目录各自是一项生成任务，不把整包所有图片同时塞入同一任务。\n\n1. 先审人物、场景与梦画；依剧本补齐必要首末Storyboard。\n2. 解压，进入对应P/Q/R目录，按UPLOAD_ORDER.md上传该段4–7张图片和对应音频。\n3. 选择入口实际支持的30秒、16:9，核对标签，只复制PROMPT.txt。\n4. R02、R03若有MISSING_GUIDE.txt，须先补用户最终演唱导轨并锁音节时间，不能先生成随意口型。\n5. 逐段审查同一张脸、嘴角下痣、发型服装、声音归属、口型、手部、轴线及尾字；合格后提取承接视频片段或尾帧。\n6. 成片中移除演唱段模型歌声，由用户后配同一最终原声；正常对白段保留经核验的同期声。\n\n本包不含真实视频、完整图像Storyboard、实际前段尾帧或最终演唱音轨。结构校验不能保证一次生成无错误。\n\n[权威仓库]({GITHUB}) · [本章生产包]({GITHUB}/blob/main/{prod}/VIDEO_PRODUCTION_PACK.md)\n").encode("utf-8")
-        contents["BUNDLE_MANIFEST.json"] = jbytes({"episode": episode.upper(), "revision": "v1", "jobs": job_records, "static_validation_pass": True, "real_video_generated": False, "source_repository": GITHUB})
-        bundles.append({"episode": episode.upper(), "contents": contents, "jobs": job_records})
+        contents["README.md"] = (f"# {episode.upper()} Seedance 2.5 制作材料包 {revision}\n\n本章{len(job_records)}段，每段30秒。每个子目录各自是一项生成任务，不把整包所有图片同时塞入同一任务。\n\n1. 先审人物、场景与梦画；依剧本补齐必要首末Storyboard。\n2. 解压，进入对应P/Q/R目录，按UPLOAD_ORDER.md上传该段4–7张图片和对应音频。\n3. 选择入口实际支持的30秒、16:9，核对标签，只复制PROMPT.txt。\n4. R02、R03若有MISSING_GUIDE.txt，须先补用户最终演唱导轨并锁音节时间，不能先生成随意口型。\n5. 逐段审查同一张脸、嘴角下痣、发型服装、声音归属、口型、手部、轴线及尾字；合格后提取承接视频片段或尾帧。\n6. 成片中移除演唱段模型歌声，由用户后配同一最终原声；正常对白段保留经核验的同期声。\n\n本包不含真实视频、完整图像Storyboard、实际前段尾帧或最终演唱音轨。结构校验不能保证一次生成无错误。\n\n[权威仓库]({GITHUB}) · [本章生产包]({GITHUB}/blob/main/{prod}/VIDEO_PRODUCTION_PACK.md)\n").encode("utf-8")
+        contents["BUNDLE_MANIFEST.json"] = jbytes({"episode": episode.upper(), "revision": revision, "jobs": job_records, "static_validation_pass": True, "real_video_generated": False, "source_repository": GITHUB})
+        bundles.append({"episode": episode.upper(), "revision": revision, "date": timeline["date"], "contents": contents, "jobs": job_records})
     for relative, data in sources.items():
         if safe_path(relative).read_bytes() != data:
             raise RuntimeError(f"Source changed during packaging; rerun: {relative}")
@@ -110,10 +111,11 @@ def main() -> None:
     parser.add_argument("--check", action="store_true")
     parser.add_argument("--out", type=Path)
     parser.add_argument("--record", type=Path)
+    parser.add_argument("--episode", choices=EPISODES, help="Rebuild only this episode")
     args = parser.parse_args()
     if not args.check and not args.out:
         parser.error("Supply --check or --out")
-    bundles, sources, validation = prepare()
+    bundles, sources, validation = prepare([args.episode] if args.episode else EPISODES)
     if args.check:
         print(json.dumps({"static_validation_pass": True, "source_files": len(sources), "episodes": [{"id": b["episode"], "jobs": [j["job"] for j in b["jobs"]]} for b in bundles], "production_ready": False}, ensure_ascii=False, indent=2))
         return
@@ -123,7 +125,8 @@ def main() -> None:
     out.mkdir(parents=True, exist_ok=True)
     records = []
     for bundle in bundles:
-        dest = out / f"{bundle['episode']}_Seedance25_v1.zip"
+        revision_tag = bundle["revision"].replace(".", "_")
+        dest = out / f"{bundle['episode']}_Seedance25_{revision_tag}.zip"
         contents = bundle["contents"]
         with tempfile.NamedTemporaryFile(dir=out, prefix=dest.name + ".", suffix=".tmp", delete=False) as temp:
             temporary = Path(temp.name)
@@ -143,7 +146,7 @@ def main() -> None:
         finally:
             temporary.unlink(missing_ok=True)
         records.append({"episode": bundle["episode"], "local_file": str(dest), "filename": dest.name, "bytes": dest.stat().st_size, "sha256": sha(dest.read_bytes()), "entry_count": len(contents), "jobs": [j["job"] for j in bundle["jobs"]], "missing_required_guide_jobs": [j["job"] for j in bundle["jobs"] if j["missing_required_audio_slots"]], "zip_crc_and_exact_entry_bytes_verified": True})
-    result = {"date": "2026-09-23", "builder": "tools/build_next_bundles.py", "derived_archives_stored_in_git": False, "generated_video_included": False, "actual_lip_sync_verified": False, "production_ready": False, "source_sha256": {p: sha(d) for p, d in sorted(sources.items())}, "bundles": records, "storage_upload_status": "not_performed_by_builder"}
+    result = {"date": max(b["date"] for b in bundles), "builder": "tools/build_next_bundles.py", "derived_archives_stored_in_git": False, "generated_video_included": False, "actual_lip_sync_verified": False, "production_ready": False, "source_sha256": {p: sha(d) for p, d in sorted(sources.items())}, "bundles": records, "storage_upload_status": "not_performed_by_builder"}
     if args.record:
         path = args.record if args.record.is_absolute() else ROOT / args.record
         path.parent.mkdir(parents=True, exist_ok=True)

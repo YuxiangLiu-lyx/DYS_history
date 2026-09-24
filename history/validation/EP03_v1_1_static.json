@@ -1,0 +1,378 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-24",
+  "scope": "EP03–EP05 static source audit",
+  "static_validation_pass": true,
+  "errors": [],
+  "warnings": [],
+  "pending_production_items": [
+    "P01: start_keyframe is a description, not a rendered keyframe",
+    "P01: end_keyframe is a description, not a rendered keyframe",
+    "P02: start_keyframe is a description, not a rendered keyframe",
+    "P02: end_keyframe is a description, not a rendered keyframe",
+    "Q01: start_keyframe is a description, not a rendered keyframe",
+    "Q01: end_keyframe is a description, not a rendered keyframe",
+    "Q02: start_keyframe is a description, not a rendered keyframe",
+    "Q02: end_keyframe is a description, not a rendered keyframe",
+    "Q03: start_keyframe is a description, not a rendered keyframe",
+    "Q03: end_keyframe is a description, not a rendered keyframe",
+    "R01: start_keyframe is a description, not a rendered keyframe",
+    "R01: end_keyframe is a description, not a rendered keyframe",
+    "R02: start_keyframe is a description, not a rendered keyframe",
+    "R02: end_keyframe is a description, not a rendered keyframe",
+    "R03: start_keyframe is a description, not a rendered keyframe",
+    "R03: end_keyframe is a description, not a rendered keyframe",
+    "R02/@音频1: required final song guide missing",
+    "R03/@音频1: required final song guide missing"
+  ],
+  "blocks": [
+    {
+      "episode": "EP03",
+      "id": "P01",
+      "duration_s": 30,
+      "shots": 7,
+      "spoken_lines": 3,
+      "images": 6,
+      "audio_slots": 1,
+      "available_audio_files": 1,
+      "prompt_unicode_characters": 761,
+      "all_declared_reference_files_ready": true,
+      "production_ready": false,
+      "dialogue_rates": [
+        {
+          "id": "E3_D01",
+          "speaker_id": "C05",
+          "spoken_characters": 22,
+          "duration_s": 6.3,
+          "characters_per_second": 3.492
+        },
+        {
+          "id": "E3_D02",
+          "speaker_id": "C05",
+          "spoken_characters": 15,
+          "duration_s": 5.7,
+          "characters_per_second": 2.632
+        },
+        {
+          "id": "E3_D03",
+          "speaker_id": "E05",
+          "spoken_characters": 13,
+          "duration_s": 5.6,
+          "characters_per_second": 2.321
+        }
+      ]
+    },
+    {
+      "episode": "EP03",
+      "id": "P02",
+      "duration_s": 30,
+      "shots": 7,
+      "spoken_lines": 6,
+      "images": 6,
+      "audio_slots": 2,
+      "available_audio_files": 2,
+      "prompt_unicode_characters": 804,
+      "all_declared_reference_files_ready": true,
+      "production_ready": false,
+      "dialogue_rates": [
+        {
+          "id": "E3_D04",
+          "speaker_id": "E05",
+          "spoken_characters": 14,
+          "duration_s": 4.7,
+          "characters_per_second": 2.979
+        },
+        {
+          "id": "E3_D05",
+          "speaker_id": "C01",
+          "spoken_characters": 4,
+          "duration_s": 2.5,
+          "characters_per_second": 1.6
+        },
+        {
+          "id": "E3_D06",
+          "speaker_id": "C01",
+          "spoken_characters": 3,
+          "duration_s": 2.5,
+          "characters_per_second": 1.2
+        },
+        {
+          "id": "E3_D07",
+          "speaker_id": "E05",
+          "spoken_characters": 4,
+          "duration_s": 1.5,
+          "characters_per_second": 2.667
+        },
+        {
+          "id": "E3_D08",
+          "speaker_id": "E11",
+          "spoken_characters": 4,
+          "duration_s": 1.5,
+          "characters_per_second": 2.667
+        },
+        {
+          "id": "E3_D09",
+          "speaker_id": "C05",
+          "spoken_characters": 3,
+          "duration_s": 1.6,
+          "characters_per_second": 1.875
+        }
+      ]
+    },
+    {
+      "episode": "EP04",
+      "id": "Q01",
+      "duration_s": 30,
+      "shots": 6,
+      "spoken_lines": 5,
+      "images": 4,
+      "audio_slots": 2,
+      "available_audio_files": 2,
+      "prompt_unicode_characters": 676,
+      "all_declared_reference_files_ready": true,
+      "production_ready": false,
+      "dialogue_rates": [
+        {
+          "id": "E4_D01",
+          "speaker_id": "C05",
+          "spoken_characters": 8,
+          "duration_s": 3.0,
+          "characters_per_second": 2.667
+        },
+        {
+          "id": "E4_D02",
+          "speaker_id": "C01",
+          "spoken_characters": 13,
+          "duration_s": 4.8,
+          "characters_per_second": 2.708
+        },
+        {
+          "id": "E4_D03",
+          "speaker_id": "C05",
+          "spoken_characters": 10,
+          "duration_s": 3.4,
+          "characters_per_second": 2.941
+        },
+        {
+          "id": "E4_D04",
+          "speaker_id": "C01",
+          "spoken_characters": 10,
+          "duration_s": 3.8,
+          "characters_per_second": 2.632
+        },
+        {
+          "id": "E4_D05",
+          "speaker_id": "C01",
+          "spoken_characters": 14,
+          "duration_s": 5.5,
+          "characters_per_second": 2.545
+        }
+      ]
+    },
+    {
+      "episode": "EP04",
+      "id": "Q02",
+      "duration_s": 30,
+      "shots": 4,
+      "spoken_lines": 4,
+      "images": 4,
+      "audio_slots": 2,
+      "available_audio_files": 2,
+      "prompt_unicode_characters": 599,
+      "all_declared_reference_files_ready": true,
+      "production_ready": false,
+      "dialogue_rates": [
+        {
+          "id": "E4_D06",
+          "speaker_id": "C05",
+          "spoken_characters": 23,
+          "duration_s": 8.0,
+          "characters_per_second": 2.875
+        },
+        {
+          "id": "E4_D07",
+          "speaker_id": "C01",
+          "spoken_characters": 6,
+          "duration_s": 2.2,
+          "characters_per_second": 2.727
+        },
+        {
+          "id": "E4_D08",
+          "speaker_id": "C05",
+          "spoken_characters": 22,
+          "duration_s": 9.0,
+          "characters_per_second": 2.444
+        },
+        {
+          "id": "E4_D09",
+          "speaker_id": "C01",
+          "spoken_characters": 12,
+          "duration_s": 3.8,
+          "characters_per_second": 3.158
+        }
+      ]
+    },
+    {
+      "episode": "EP04",
+      "id": "Q03",
+      "duration_s": 30,
+      "shots": 5,
+      "spoken_lines": 4,
+      "images": 4,
+      "audio_slots": 1,
+      "available_audio_files": 1,
+      "prompt_unicode_characters": 629,
+      "all_declared_reference_files_ready": true,
+      "production_ready": false,
+      "dialogue_rates": [
+        {
+          "id": "E4_D10",
+          "speaker_id": "C05",
+          "spoken_characters": 9,
+          "duration_s": 3.2,
+          "characters_per_second": 2.812
+        },
+        {
+          "id": "E4_D11",
+          "speaker_id": "E06",
+          "spoken_characters": 18,
+          "duration_s": 6.1,
+          "characters_per_second": 2.951
+        },
+        {
+          "id": "E4_D12",
+          "speaker_id": "C05",
+          "spoken_characters": 20,
+          "duration_s": 9,
+          "characters_per_second": 2.222
+        },
+        {
+          "id": "E4_D13",
+          "speaker_id": "C05",
+          "spoken_characters": 4,
+          "duration_s": 1.8,
+          "characters_per_second": 2.222
+        }
+      ]
+    },
+    {
+      "episode": "EP05",
+      "id": "R01",
+      "duration_s": 30,
+      "shots": 5,
+      "spoken_lines": 4,
+      "images": 5,
+      "audio_slots": 2,
+      "available_audio_files": 2,
+      "prompt_unicode_characters": 672,
+      "all_declared_reference_files_ready": true,
+      "production_ready": false,
+      "dialogue_rates": [
+        {
+          "id": "E5_D01",
+          "speaker_id": "C01",
+          "spoken_characters": 17,
+          "duration_s": 5.2,
+          "characters_per_second": 3.269
+        },
+        {
+          "id": "E5_D02",
+          "speaker_id": "C03",
+          "spoken_characters": 25,
+          "duration_s": 7.8,
+          "characters_per_second": 3.205
+        },
+        {
+          "id": "E5_D03",
+          "speaker_id": "C03",
+          "spoken_characters": 19,
+          "duration_s": 6.6,
+          "characters_per_second": 2.879
+        },
+        {
+          "id": "E5_D04",
+          "speaker_id": "C01",
+          "spoken_characters": 6,
+          "duration_s": 1.7,
+          "characters_per_second": 3.529
+        }
+      ]
+    },
+    {
+      "episode": "EP05",
+      "id": "R02",
+      "duration_s": 30,
+      "shots": 5,
+      "spoken_lines": 0,
+      "images": 5,
+      "audio_slots": 1,
+      "available_audio_files": 0,
+      "prompt_unicode_characters": 758,
+      "all_declared_reference_files_ready": false,
+      "production_ready": false,
+      "dialogue_rates": []
+    },
+    {
+      "episode": "EP05",
+      "id": "R03",
+      "duration_s": 30,
+      "shots": 8,
+      "spoken_lines": 0,
+      "images": 5,
+      "audio_slots": 1,
+      "available_audio_files": 0,
+      "prompt_unicode_characters": 903,
+      "all_declared_reference_files_ready": false,
+      "production_ready": false,
+      "dialogue_rates": []
+    }
+  ],
+  "block_count": 8,
+  "duration_seconds": 240,
+  "generated_video_checked": false,
+  "real_lip_sync_verified": false,
+  "source_performance_waveform_received": false,
+  "first_last_keyframe_images_generated": false,
+  "production_ready": false,
+  "source_file_sha256": {
+    "episodes/ep03/production/timeline.json": "cb21f5dcbeb3bf1376cd2409a4f77945ad420bccd958c3af32f76502d9ce3360",
+    "episodes/ep03/production/refs_upload.json": "3efaab093965b5d9a28cf17442ce65a309c008021140826578e1b6458659b28a",
+    "episodes/ep03/production/audio/dialogue_contract.json": "926ca226d7fe2f882479adbe3e42fe4b7d5492ba60af4f71f46371624a2e972b",
+    "assets/characters/C05/C05_FRONT_HALF_v04.png": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
+    "assets/characters/C05/C05_FULL_v03.png": "9dc75e9f1a2d82edad4f1d43c8837dfe26ae78f1b5da2a6211f97579e866e33f",
+    "assets/characters/E05/E05_SUITOR_v01.png": "17613c376c23b4fdac74a19c654e4a5a4d5c41c3a6153193a53931efe00da867",
+    "assets/scenes/S12_SALON_STAGE_NIGHT_v01.png": "f397ab338873d8519099bdfd68d8b19bcfa81a519f1f2d89529e13b7e248be98",
+    "assets/props/EP03/P07_MOON_DRINKER_v01.png": "48da527bd6bc0c3663a17ce8355f5a66556ba7e83cda7a72c2b74aeea6767adf",
+    "assets/props/EP03/P08_IG2018_DREAM_v01.png": "7a29988af6800611ec66a3f67c77c613270d86bc770f8772d83df64d00efd66b",
+    "assets/audio/voice_references/02_pan_hui.mp3": "60413e1fe29a24dd1a2196a0add5001675ed4e54b69b0fc47c7c435d74ce06a1",
+    "episodes/ep03/production/prompts/P01_PROMPT.txt": "bd07515d36fd952ec9e0892c93d8b7f41d6900eda6c408307d692dae5f599bc6",
+    "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
+    "assets/audio/voice_references/01_sun_yalong.mp3": "0cac07f7dd3f4c3fda80f316d92d48d273982818950dc477cd99895edca21b64",
+    "episodes/ep03/production/prompts/P02_PROMPT.txt": "c5c658ee337ae20cd62d35c62f0d11bfdcf1bbc614de4d2834b85d31c0105dc1",
+    "episodes/ep04/production/timeline.json": "5173b21b3a7476383dc74379b2a4a90a240ae64a6bb09c3a70202ff4477040ba",
+    "episodes/ep04/production/refs_upload.json": "7820d154fa74aabc68c40524f94b39f8a842a08090eadcd79250f98def65563d",
+    "episodes/ep04/production/audio/dialogue_contract.json": "232fe63041a2eaebd9c8a281091ba652e9b5180b2c892539036d9be83bb02162",
+    "assets/scenes/S13_SALON_SIDE_ROOM_NIGHT_v01.png": "8298ac24b8e2c128edc15e6b3d48aceee539aea0c79265023177f9339d4e58a2",
+    "episodes/ep04/production/prompts/Q01_PROMPT.txt": "3a1772aa96ee55091d23a7270eeaa83853862e2d24ff57b3368521c22cbb1a2c",
+    "episodes/ep04/production/prompts/Q02_PROMPT.txt": "4802d5df1ce9b031dcce52d8a4dce129b7a424fa6892136f567f153f5a9d8ede",
+    "assets/characters/C05/C05_NIGHT_SHAWL_v05.png": "b7b9fddc4925e6f90bd68cfe4f7fb20381263c7a6118c348a4a664458105fec6",
+    "assets/characters/E06/E06_MAID_v01.png": "128b83413a4db8894901cc90791c72ae0861eeef389f40ea0b7c11b3dfd3525d",
+    "assets/scenes/S06_ROOM_NIGHT_v01.png": "0dc7ef15d4084d008095e1ba1a16fc28f81ccd8b13d21c80dc6922c8714312d3",
+    "episodes/ep04/production/prompts/Q03_PROMPT.txt": "8f48036518583684121be91445b41b3774ab8c7b644bc237fcd33b4beff5ec14",
+    "episodes/ep05/production/timeline.json": "aed778dc901783c5028e7f1d3e736798fab92fc7549c11ef92625c506ad5b677",
+    "episodes/ep05/production/refs_upload.json": "c81a6f5463d66697a53ab7a70ace35c5e1d1afcd53950876c4fe67dbb459d23e",
+    "episodes/ep05/production/audio/dialogue_contract.json": "b49190000cefec36a365d4c3ce4cfce22b08b01d95b8707d2d2423729dc25128",
+    "assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png": "a042f817273a117dd720a24d48338859528b8f2753903d83cc1fcbabd41410ca",
+    "assets/scenes/S14_INN_ROOM_NIGHT_v01.png": "c7e0dd88561ea96c4bf830293bfe45d048086af960f4bf02b37218252e72e7e8",
+    "assets/scenes/S15_PINE_PATH_DAY_v01.png": "d18685b08ba453b175feb316c9747ae051c9e9f44d01af3cf0f6a9ba80b62569",
+    "assets/audio/voice_references/03_xiaotui.mp3": "132ac37ae05baee438507768b07bd793076f855f2146a350ff5ddbe33b4364d5",
+    "episodes/ep05/production/prompts/R01_PROMPT.txt": "0d9d53452f6962f8036018887fb90438cdf11d08308582c2f89883ef165232ca",
+    "assets/characters/C01/C01_DISGUISE_FULL_v01.png": "24e1e8f98757042463f49d46a562fa8aeae67263bf474a44a5ad9a298808a342",
+    "episodes/ep05/production/prompts/R02_PROMPT.txt": "4e424cc22f9d260e054bed3cd5fa89a1d9af3e0122c31b6e433d182c28df8b25",
+    "episodes/ep05/production/prompts/R03_PROMPT.txt": "46c79e63aa6c23e589393f7cd7e8a5b7f65621357eecf8760d37e59a74955701",
+    "episodes/ep03/production/audio/COMEDY_BEAT_CONTRACT.json": "8802cd8954fa2aec58e642b7ad018feec0be8b3ec86b397916451be9e7ba9a63",
+    "episodes/ep05/production/audio/song_cues.json": "c0d16580c03142f34ae1f276ba04e6ffef9d3f1a3553791a6266f80a4489c0d3",
+    "episodes/ep05/production/audio/song_cues.csv": "b3df1ea7045c5f95967cff8c7243eb73101ae98f888339e6e8cb06e0735172ca",
+    "episodes/ep05/production/audio/SONG_SYNC_WORKFLOW.md": "fbf5c25b45a0b46b84e08dfe1b377318fc4557a5404d84e67f5466273a478483"
+  }
+}

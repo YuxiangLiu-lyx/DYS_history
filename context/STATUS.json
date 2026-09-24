@@ -1,6 +1,6 @@
 {
   "project": "德云史记·慧后本纪",
-  "updated_date": "2026-09-23",
+  "updated_date": "2026-09-24",
   "active_episode": "EP03-EP05",
   "active_title": "一梦悬双画／灯下问苍生／松下听卜卦",
   "status": "new_chapters_prepared_song_clock_pending",
@@ -89,9 +89,9 @@
   "github": {
     "repository": "YuxiangLiu-lyx/DYS_history",
     "branch": "main",
-    "synced": true,
+    "synced": false,
     "previous_verified_commit": "cef84b8c6862328fe0c156f113a1cf940cf23789",
-    "publication_status": "EP03_05_and_EP02_N04_v1_1_published_and_verified",
+    "publication_status": "EP03_v1_1_prepared_pending_publish",
     "remote_commit": "49c0ba12c02362e1550f96db73b0a334b24be52f",
     "verified_path_count": 370,
     "receipt": "history/publication/EP03_05_pack_receipt.json",
@@ -116,7 +116,7 @@
   "new_chapters": {
     "EP03": {
       "title": "一梦悬双画，七字动满堂",
-      "revision": "v1",
+      "revision": "v1.1",
       "duration_seconds": 60,
       "base_generation_jobs": 2,
       "shot_count": 14,
@@ -131,13 +131,16 @@
       },
       "prompt_lengths": {
         "P01": 761,
-        "P02": 790
+        "P02": 804
       },
       "script_user_locked": false,
       "full_storyboard_generated": false,
       "actual_video_generated": false,
       "actual_av_review_performed": false,
-      "song_audio_pending": []
+      "song_audio_pending": [],
+      "bundle_record": "history/generation/EP03_v1_1_delivery_bundle.json",
+      "validation": "history/validation/EP03_v1_1_static.json",
+      "download_bundle_saved": true
     },
     "EP04": {
       "title": "灯下问苍生，帘后起相思",
@@ -230,5 +233,6 @@
     "story_review": "history/QA_20260923_EP03_05_story.md"
   },
   "new_chapters_download_bundles_saved": true,
-  "new_chapters_bundle_record": "history/generation/EP03_05_delivery_bundles.json"
+  "new_chapters_bundle_record": "history/generation/EP03_05_delivery_bundles.json",
+  "latest_change": "EP03 P02 four-character opening, pause, emphasized three-character ending; each part spoken once"
 }

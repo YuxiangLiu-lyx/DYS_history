@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+from datetime import datetime, timezone
 import hashlib
 import json
 import re
@@ -195,7 +196,7 @@ def audit() -> dict:
             issue(f"Required performance timing document missing: {relative}")
         else:
             source_hashes[relative] = sha(path.read_bytes())
-    return {"schema_version": "1.0", "date": "2026-09-23", "scope": "EP03–EP05 static source audit", "static_validation_pass": not errors, "errors": errors, "warnings": warnings, "pending_production_items": list(dict.fromkeys(pending)), "blocks": rows, "block_count": len(rows), "duration_seconds": sum(r["duration_s"] for r in rows), "generated_video_checked": False, "real_lip_sync_verified": False, "source_performance_waveform_received": False, "first_last_keyframe_images_generated": False, "production_ready": False, "source_file_sha256": source_hashes}
+    return {"schema_version": "1.0", "date": datetime.now(timezone.utc).date().isoformat(), "scope": "EP03–EP05 static source audit", "static_validation_pass": not errors, "errors": errors, "warnings": warnings, "pending_production_items": list(dict.fromkeys(pending)), "blocks": rows, "block_count": len(rows), "duration_seconds": sum(r["duration_s"] for r in rows), "generated_video_checked": False, "real_lip_sync_verified": False, "source_performance_waveform_received": False, "first_last_keyframe_images_generated": False, "production_ready": False, "source_file_sha256": source_hashes}
 
 
 def main() -> None:

@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-24",
+  "builder": "tools/build_next_bundles.py",
+  "derived_archives_stored_in_git": false,
+  "generated_video_included": false,
+  "actual_lip_sync_verified": false,
+  "production_ready": false,
+  "source_sha256": {
+    "assets/audio/voice_references/01_sun_yalong.mp3": "0cac07f7dd3f4c3fda80f316d92d48d273982818950dc477cd99895edca21b64",
+    "assets/audio/voice_references/02_pan_hui.mp3": "60413e1fe29a24dd1a2196a0add5001675ed4e54b69b0fc47c7c435d74ce06a1",
+    "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
+    "assets/characters/C05/C05_FRONT_HALF_v04.png": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
+    "assets/characters/C05/C05_FULL_v03.png": "9dc75e9f1a2d82edad4f1d43c8837dfe26ae78f1b5da2a6211f97579e866e33f",
+    "assets/characters/E05/E05_SUITOR_v01.png": "17613c376c23b4fdac74a19c654e4a5a4d5c41c3a6153193a53931efe00da867",
+    "assets/props/EP03/P07_MOON_DRINKER_v01.png": "48da527bd6bc0c3663a17ce8355f5a66556ba7e83cda7a72c2b74aeea6767adf",
+    "assets/props/EP03/P08_IG2018_DREAM_v01.png": "7a29988af6800611ec66a3f67c77c613270d86bc770f8772d83df64d00efd66b",
+    "assets/scenes/S12_SALON_STAGE_NIGHT_v01.png": "f397ab338873d8519099bdfd68d8b19bcfa81a519f1f2d89529e13b7e248be98",
+    "episodes/ep03/production/QUICKSTART.md": "c461c75220ca26db29e49a08d7a052b870c0d1faea73bbd5b1684f921d387f4a",
+    "episodes/ep03/production/VIDEO_PRODUCTION_PACK.md": "e95de52a99f02c00e94cfcbe2ad865a3aaafb052ccb064ef94849295d0e2b6be",
+    "episodes/ep03/production/audio/AUDIO_POST_WORKFLOW.md": "8821ba05292cfa66e01c2cf6ae4b6f379b9c5fab4c87f86d94fa405ec3eff665",
+    "episodes/ep03/production/audio/COMEDY_BEAT_CONTRACT.json": "8802cd8954fa2aec58e642b7ad018feec0be8b3ec86b397916451be9e7ba9a63",
+    "episodes/ep03/production/audio/dialogue_contract.json": "926ca226d7fe2f882479adbe3e42fe4b7d5492ba60af4f71f46371624a2e972b",
+    "episodes/ep03/production/audio/dialogue_timing.srt": "06751b11fb0d98afba8aab5b01085eb357d77fc911392aeddc0e4672f7f042ee",
+    "episodes/ep03/production/prompts/P01_PROMPT.txt": "bd07515d36fd952ec9e0892c93d8b7f41d6900eda6c408307d692dae5f599bc6",
+    "episodes/ep03/production/prompts/P02_PROMPT.txt": "c5c658ee337ae20cd62d35c62f0d11bfdcf1bbc614de4d2834b85d31c0105dc1",
+    "episodes/ep03/production/refs_upload.json": "3efaab093965b5d9a28cf17442ce65a309c008021140826578e1b6458659b28a",
+    "episodes/ep03/production/timeline.json": "cb21f5dcbeb3bf1376cd2409a4f77945ad420bccd958c3af32f76502d9ce3360",
+    "episodes/ep03/script/EP03_DIRECTOR_v1.md": "06317b18f2615ab50164cfd563616f322429c40dc49babbfa50f9900b641a41b"
+  },
+  "bundles": [
+    {
+      "episode": "EP03",
+      "local_file": "/workspace/scratch/217ce8a5e48d/deliverables/EP03_Seedance25_v1_1.zip",
+      "filename": "EP03_Seedance25_v1_1.zip",
+      "bytes": 27770721,
+      "sha256": "6532cdd869e8206e60f110a780d3d2cd122fd5bbeaa97fdb13e3e0f80ee07ffa",
+      "entry_count": 35,
+      "jobs": [
+        "P01",
+        "P02"
+      ],
+      "missing_required_guide_jobs": [],
+      "zip_crc_and_exact_entry_bytes_verified": true
+    }
+  ],
+  "storage_upload_status": "saved_as_replacement_of_EP03_v1"
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "episode": "EP03",
+  "block": "P02",
+  "status": "planned_performance_not_measured",
+  "complete_answer": {
+    "text": "众星拱北江大歌。",
+    "source_seconds": [
+      6,
+      8.5
+    ]
+  },
+  "pause_between_answer_and_repeat_seconds": [
+    8.5,
+    10.2
+  ],
+  "repeat": {
+    "text": "江！大！歌！",
+    "louder_than_first_answer": true,
+    "syllables": [
+      {
+        "text": "江",
+        "source_seconds": [
+          10.2,
+          10.65
+        ]
+      },
+      {
+        "text": "大",
+        "source_seconds": [
+          11,
+          11.45
+        ]
+      },
+      {
+        "text": "歌",
+        "source_seconds": [
+          11.8,
+          12.7
+        ]
+      }
+    ],
+    "silent_gaps_seconds": [
+      [
+        10.65,
+        11
+      ],
+      [
+        11.45,
+        11.8
+      ]
+    ]
+  },
+  "reaction_space_seconds": [
+    13.5,
+    17.5
+  ],
+  "cheers": [
+    {
+      "speaker": "E05",
+      "text": "好工整啊！",
+      "source_seconds": [
+        18,
+        19.5
+      ]
+    },
+    {
+      "speaker": "E11",
+      "text": "好工整啊！",
+      "source_seconds": [
+        20,
+        21.5
+      ]
+    }
+  ],
+  "rule": "不删重复、不连成一口念、不提前用掌声压掉末字。大家称工整是荒诞戏剧表演，不是客观对仗考据结论。",
+  "actual_audio_received": false,
+  "actual_av_review_performed": false
+}
