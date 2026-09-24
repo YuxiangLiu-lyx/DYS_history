@@ -1,0 +1,131 @@
+{
+  "id": "H05",
+  "name": "女声接曲，放琴相携",
+  "ordinal": 5,
+  "duration_seconds": 30,
+  "film_start_seconds": 120,
+  "production_ready": false,
+  "prompt_source": "releases/huibenji/chapter04_v1/prompts/H05.txt",
+  "prompt_sha256": "3ad0c8019fdcaadc1b70c9b28ee128de1168fa23e820ce9ed65276e506d0c986",
+  "prompt_characters_including_newline": 431,
+  "prompt_bundle_path": "05_H05/01_PROMPT.txt",
+  "images": [
+    {
+      "slot": 1,
+      "ref_id": "C01",
+      "label": "孙亚龙·便装",
+      "available": true,
+      "source_path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+      "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
+      "size_bytes": 1894389,
+      "bundle_path": "05_H05/02_images/01_C01.png",
+      "upload_this_file": true
+    },
+    {
+      "slot": 2,
+      "ref_id": "C05",
+      "label": "潘慧·身份母版",
+      "available": true,
+      "source_path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+      "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
+      "size_bytes": 1907493,
+      "bundle_path": "05_H05/02_images/02_C05.png",
+      "upload_this_file": true
+    },
+    {
+      "slot": 3,
+      "ref_id": "S15_NEW",
+      "label": "申时松下·石台折布新场景",
+      "available": false,
+      "source_path": null,
+      "sha256": null,
+      "size_bytes": null,
+      "bundle_path": "05_H05/02_images/03_S15_NEW_MISSING.md",
+      "upload_this_file": false
+    },
+    {
+      "slot": 4,
+      "ref_id": "P_RUAN",
+      "label": "小阮·道具",
+      "available": false,
+      "source_path": null,
+      "sha256": null,
+      "size_bytes": null,
+      "bundle_path": "05_H05/02_images/04_P_RUAN_MISSING.md",
+      "upload_this_file": false
+    },
+    {
+      "slot": 5,
+      "ref_id": "KF_H05_START",
+      "label": "H05起始关键帧",
+      "available": false,
+      "source_path": null,
+      "sha256": null,
+      "size_bytes": null,
+      "bundle_path": "05_H05/02_images/05_KF_H05_START_MISSING.md",
+      "upload_this_file": false
+    }
+  ],
+  "audio": [
+    {
+      "slot": 1,
+      "ref_id": "SONG_B_PENDING_MAX22S",
+      "label": "曲参B·本段真实歌曲（待补，最多22秒）",
+      "available": false,
+      "source_path": null,
+      "sha256": null,
+      "size_bytes": null,
+      "bundle_path": "05_H05/03_audio/01_SONG_B_PENDING_MAX22S_MISSING.md",
+      "upload_this_file": false,
+      "duration_seconds": null,
+      "maximum_planned_seconds": 22
+    },
+    {
+      "slot": 2,
+      "ref_id": "TIMBRE_C01_4S",
+      "label": "孙亚龙·4秒演唱音色参考",
+      "available": true,
+      "source_path": "assets/audio/ep05/C01_TIMBRE_4S_v01.wav",
+      "sha256": "cbc1ec7b6778382c09f39338bf006841aa4ab836ebe54c494cecbc9d35ef38a5",
+      "size_bytes": 352878,
+      "bundle_path": "05_H05/03_audio/02_TIMBRE_C01_4S.wav",
+      "upload_this_file": true,
+      "duration_seconds": 4.0,
+      "maximum_planned_seconds": 4.0
+    },
+    {
+      "slot": 3,
+      "ref_id": "TIMBRE_C05_4S",
+      "label": "潘慧·4秒演唱音色参考",
+      "available": true,
+      "source_path": "assets/audio/ep05/C05_TIMBRE_4S_v01.wav",
+      "sha256": "be89f1945d0cf8a5fb5633432bb0462fbdbcc747bf9a491b2329fee1e9f6afa6",
+      "size_bytes": 352878,
+      "bundle_path": "05_H05/03_audio/03_TIMBRE_C05_4S.wav",
+      "upload_this_file": true,
+      "duration_seconds": 4.0,
+      "maximum_planned_seconds": 4.0
+    }
+  ],
+  "previous_video": {
+    "source": "H04",
+    "range": [
+      0,
+      30
+    ],
+    "file": null,
+    "instruction": "优先同项目有声延长；只上传前次新增30秒，不上传累计60秒。新曲参B覆盖当前段音符，勿续唱A过门。"
+  },
+  "previous_video_bundle_readme": "05_H05/04_previous_video/README.md",
+  "first_frame_description": "潘已正侧向孙，吸气结束，孙抱阮距约2.5米。",
+  "last_frame_description": "小阮平放石台、孙潘手相携，另一手扶腰，刚开始慢步。",
+  "known_audio_seconds": 8.0,
+  "planned_maximum_audio_seconds": 30.0,
+  "missing_slot_ids": [
+    "S15_NEW",
+    "P_RUAN",
+    "KF_H05_START",
+    "SONG_B_PENDING_MAX22S"
+  ],
+  "other_required_checks": "H04实际有声30秒未生成；真实曲源、歌声时码及新关键帧未完成。"
+}

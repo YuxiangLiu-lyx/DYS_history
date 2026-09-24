@@ -1,0 +1,106 @@
+{
+  "id": "H01",
+  "name": "三梦惊醒",
+  "ordinal": 1,
+  "duration_seconds": 30,
+  "film_start_seconds": 0,
+  "production_ready": false,
+  "prompt_source": "releases/huibenji/chapter04_v1/prompts/H01.txt",
+  "prompt_sha256": "66150f98de9a086ad42cdc5f72964d30227d1e0acaa6bd4a737922939d8eb862",
+  "prompt_characters_including_newline": 541,
+  "prompt_bundle_path": "01_H01/01_PROMPT.txt",
+  "images": [
+    {
+      "slot": 1,
+      "ref_id": "C05",
+      "label": "潘慧·身份母版",
+      "available": true,
+      "source_path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+      "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
+      "size_bytes": 1907493,
+      "bundle_path": "01_H01/02_images/01_C05.png",
+      "upload_this_file": true
+    },
+    {
+      "slot": 2,
+      "ref_id": "E06",
+      "label": "侍女",
+      "available": true,
+      "source_path": "assets/characters/E06/E06_MAID_v01.png",
+      "sha256": "128b83413a4db8894901cc90791c72ae0861eeef389f40ea0b7c11b3dfd3525d",
+      "size_bytes": 2021105,
+      "bundle_path": "01_H01/02_images/02_E06.png",
+      "upload_this_file": true
+    },
+    {
+      "slot": 3,
+      "ref_id": "S06",
+      "label": "卧房·空间参考",
+      "available": true,
+      "source_path": "assets/scenes/S06_ROOM_NIGHT_v01.png",
+      "sha256": "0dc7ef15d4084d008095e1ba1a16fc28f81ccd8b13d21c80dc6922c8714312d3",
+      "size_bytes": 2518897,
+      "bundle_path": "01_H01/02_images/03_S06.png",
+      "upload_this_file": true
+    },
+    {
+      "slot": 4,
+      "ref_id": "D01",
+      "label": "梦一·密集弹幕图",
+      "available": true,
+      "source_path": "assets/props/CH04/D01_BARRAGE_DREAM.png",
+      "sha256": "64ecdae6ab6c6ca46f23e3afd1f5144f5e1a5fe597112d487c53e6430302324d",
+      "size_bytes": 3508582,
+      "bundle_path": "01_H01/02_images/04_D01.png",
+      "upload_this_file": true
+    },
+    {
+      "slot": 5,
+      "ref_id": "D02",
+      "label": "梦二·求婚图",
+      "available": true,
+      "source_path": "assets/props/CH04/D02_PROPOSAL_DREAM.png",
+      "sha256": "e195e8883298a7eb97a2a2dcb86cbdad7cc723bc7f152db66884b35858afeedf",
+      "size_bytes": 2531689,
+      "bundle_path": "01_H01/02_images/05_D02.png",
+      "upload_this_file": true
+    },
+    {
+      "slot": 6,
+      "ref_id": "D03",
+      "label": "梦三·打码聊天图",
+      "available": true,
+      "source_path": "assets/props/CH04/D03_CHAT_DREAM.png",
+      "sha256": "ebbc008e844d2e65ab866779f803076b33b7f1295395b581144aec2255b99e3a",
+      "size_bytes": 2356037,
+      "bundle_path": "01_H01/02_images/06_D03.png",
+      "upload_this_file": true
+    }
+  ],
+  "audio": [
+    {
+      "slot": 1,
+      "ref_id": "VOICE_C05",
+      "label": "潘慧·10秒对白音色",
+      "available": true,
+      "source_path": "assets/audio/ch04/C05_TIMBRE_10S_v01.wav",
+      "sha256": "992167a2d9e54082476ac70a7541049305d36dc3e48114c7c96cdc8f1022ae1f",
+      "size_bytes": 480078,
+      "bundle_path": "01_H01/03_audio/01_VOICE_C05.wav",
+      "upload_this_file": true,
+      "duration_seconds": 10.0,
+      "maximum_planned_seconds": 10.0
+    }
+  ],
+  "previous_video": {
+    "source": null,
+    "instruction": "本回开场新场景，不挪用上一回尾帧。"
+  },
+  "previous_video_bundle_readme": "01_H01/04_previous_video/README.md",
+  "first_frame_description": "床侧侍女陪坐，潘慧安睡。",
+  "last_frame_description": "侍女一手扶潘慧肩，潘慧看向她但未回答。",
+  "known_audio_seconds": 10.0,
+  "planned_maximum_audio_seconds": 10.0,
+  "missing_slot_ids": [],
+  "other_required_checks": "寝衣、松散睡发和卧床/惊醒关键帧仍需核定；现有母版只锁脸。"
+}

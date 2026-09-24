@@ -1,0 +1,127 @@
+{
+  "id": "H03",
+  "name": "以曲相邀，松下将逢",
+  "ordinal": 3,
+  "duration_seconds": 30,
+  "film_start_seconds": 60,
+  "production_ready": false,
+  "prompt_source": "releases/huibenji/chapter04_v1/prompts/H03.txt",
+  "prompt_sha256": "1cc4068d55607ae77fe5df700034461b4699b53c80c5295bc4df77cc14106254",
+  "prompt_characters_including_newline": 401,
+  "prompt_bundle_path": "03_H03/01_PROMPT.txt",
+  "images": [
+    {
+      "slot": 1,
+      "ref_id": "C01",
+      "label": "孙亚龙·便装",
+      "available": true,
+      "source_path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+      "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
+      "size_bytes": 1894389,
+      "bundle_path": "03_H03/02_images/01_C01.png",
+      "upload_this_file": true
+    },
+    {
+      "slot": 2,
+      "ref_id": "C03",
+      "label": "小腿·便装",
+      "available": true,
+      "source_path": "assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png",
+      "sha256": "a042f817273a117dd720a24d48338859528b8f2753903d83cc1fcbabd41410ca",
+      "size_bytes": 2485610,
+      "bundle_path": "03_H03/02_images/02_C03.png",
+      "upload_this_file": true
+    },
+    {
+      "slot": 3,
+      "ref_id": "S14",
+      "label": "客栈·空间参考（上午需改光）",
+      "available": true,
+      "source_path": "assets/scenes/S14_INN_ROOM_NIGHT_v01.png",
+      "sha256": "c7e0dd88561ea96c4bf830293bfe45d048086af960f4bf02b37218252e72e7e8",
+      "size_bytes": 2083762,
+      "bundle_path": "03_H03/02_images/03_S14.png",
+      "upload_this_file": true
+    },
+    {
+      "slot": 4,
+      "ref_id": "S15_NEW",
+      "label": "申时松下·石台折布新场景",
+      "available": false,
+      "source_path": null,
+      "sha256": null,
+      "size_bytes": null,
+      "bundle_path": "03_H03/02_images/04_S15_NEW_MISSING.md",
+      "upload_this_file": false
+    },
+    {
+      "slot": 5,
+      "ref_id": "P_RUAN",
+      "label": "小阮·道具",
+      "available": false,
+      "source_path": null,
+      "sha256": null,
+      "size_bytes": null,
+      "bundle_path": "03_H03/02_images/05_P_RUAN_MISSING.md",
+      "upload_this_file": false
+    },
+    {
+      "slot": 6,
+      "ref_id": "C05",
+      "label": "潘慧·身份母版",
+      "available": true,
+      "source_path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+      "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
+      "size_bytes": 1907493,
+      "bundle_path": "03_H03/02_images/06_C05.png",
+      "upload_this_file": true
+    }
+  ],
+  "audio": [
+    {
+      "slot": 1,
+      "ref_id": "VOICE_C01",
+      "label": "孙亚龙·10秒对白音色",
+      "available": true,
+      "source_path": "assets/audio/ch04/C01_TIMBRE_10S_v01.wav",
+      "sha256": "45f2b3625fd886eb7eef908fdc8455c8adc454f8a1e5883c251c4c5922db3ad8",
+      "size_bytes": 480078,
+      "bundle_path": "03_H03/03_audio/01_VOICE_C01.wav",
+      "upload_this_file": true,
+      "duration_seconds": 10.0,
+      "maximum_planned_seconds": 10.0
+    },
+    {
+      "slot": 2,
+      "ref_id": "VOICE_C03",
+      "label": "小腿·10秒对白音色",
+      "available": true,
+      "source_path": "assets/audio/ch04/C03_TIMBRE_10S_v01.wav",
+      "sha256": "6754e149f052bbdf9767d4d118963dc21bbfe781811e3b3b5ff3c91fa99772bb",
+      "size_bytes": 480078,
+      "bundle_path": "03_H03/03_audio/02_VOICE_C03.wav",
+      "upload_this_file": true,
+      "duration_seconds": 10.0,
+      "maximum_planned_seconds": 10.0
+    }
+  ],
+  "previous_video": {
+    "source": "H02",
+    "range": [
+      26,
+      30
+    ],
+    "file": null,
+    "instruction": "用客栈真实末4秒；当日下午另用新松下空间图。"
+  },
+  "previous_video_bundle_readme": "03_H03/04_previous_video/README.md",
+  "first_frame_description": "小腿继续看孙，接上一段提议。",
+  "last_frame_description": "孙画左前景抱小阮，潘慧画右4米外背身；石台已入画。",
+  "known_audio_seconds": 20.0,
+  "planned_maximum_audio_seconds": 20.0,
+  "missing_slot_ids": [
+    "S15_NEW",
+    "P_RUAN"
+  ],
+  "other_required_checks": "H02实际末4秒未生成；松下石台和小阮新图未生成。"
+}

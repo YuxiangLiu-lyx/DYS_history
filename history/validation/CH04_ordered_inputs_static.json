@@ -41,5 +41,57 @@
     "梦图经逐张查看确认，上传图片4/5/6并由Prompt显式调用。",
     "现有素材复制SHA验证；实际Seedance输出未生成或验收。",
     "缺少曲源、关键帧和上一段视频，保持真实缺项状态。"
-  ]
+  ],
+  "image_counts": {
+    "H01": {
+      "planned": 6,
+      "available": 6
+    },
+    "H02": {
+      "planned": 6,
+      "available": 6
+    },
+    "H03": {
+      "planned": 6,
+      "available": 4
+    },
+    "H04": {
+      "planned": 5,
+      "available": 2
+    },
+    "H05": {
+      "planned": 5,
+      "available": 2
+    },
+    "H06": {
+      "planned": 4,
+      "available": 2
+    }
+  },
+  "audio_counts": {
+    "H01": {
+      "planned": 1,
+      "available": 1
+    },
+    "H02": {
+      "planned": 3,
+      "available": 3
+    },
+    "H03": {
+      "planned": 2,
+      "available": 2
+    },
+    "H04": {
+      "planned": 3,
+      "available": 2
+    },
+    "H05": {
+      "planned": 3,
+      "available": 2
+    },
+    "H06": {
+      "planned": 3,
+      "available": 2
+    }
+  }
 }

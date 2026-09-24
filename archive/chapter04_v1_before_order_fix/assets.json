@@ -71,19 +71,6 @@
     ],
     "source_identity_verified": false,
     "insert_original_pixels": true,
-    "no_unmasking": true,
-    "labels": [
-      "密集弹幕图",
-      "求婚图",
-      "打码聊天图"
-    ],
-    "H01_image_slots": [
-      4,
-      5,
-      6
-    ],
-    "primary_mode": "explicit_in_prompt",
-    "fallback_mode": "post_replace_three_windows_only_if_generation_changes_source",
-    "upload_source_pixels_unchanged": true
+    "no_unmasking": true
   }
 }
