@@ -18,6 +18,7 @@
   "storyboard_complete": false,
   "video_generated": false,
   "audio_generated": false,
-  "github_synced": false,
-  "internal_old_episode_paths_preserved": true
+  "github_synced": true,
+  "internal_old_episode_paths_preserved": true,
+  "content_commit": "519f86a7bb6da078de4fc5cc2a47f2f8dc84883b"
 }

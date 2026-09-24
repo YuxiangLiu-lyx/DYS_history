@@ -89,12 +89,12 @@
   "github": {
     "repository": "YuxiangLiu-lyx/DYS_history",
     "branch": "main",
-    "synced": false,
+    "synced": true,
     "previous_verified_commit": "4402841b15c16dfae8d771997fac7699cb8dfdd5",
-    "publication_status": "EP04_v2_EP05_v3_published_and_verified",
-    "remote_commit": "95b6e32e223229848c1752f151418219cd8addda",
-    "verified_path_count": 452,
-    "receipt": "history/publication/EP04_v2_EP05_v3_pack_receipt.json",
+    "publication_status": "RELEASE_CH04_published_verified",
+    "remote_commit": "519f86a7bb6da078de4fc5cc2a47f2f8dc84883b",
+    "verified_path_count": 479,
+    "receipt": "history/publication/CH04_dream_duet_receipt.json",
     "verification_scope": "All 452 project paths verified against remote Git blob SHA and mode; zero deletions. Receipt and updated status stored in a following metadata commit."
   },
   "video_generated": false,
@@ -302,7 +302,7 @@
     "storyboard_complete": false,
     "video_generated": false,
     "audio_generated": false,
-    "github_synced": false,
+    "github_synced": true,
     "internal_old_episode_paths_preserved": true
   }
 }
