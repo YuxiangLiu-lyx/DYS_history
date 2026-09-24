@@ -1,6 +1,6 @@
 # 德云史记 · 慧后本纪
 
-**2026-09-24修订：EP03 v1.1**，P02只说“众星拱北”→停1.7秒→“江！大！歌！”逐字加重大声说，七字各说一次。更新后的材料包可用 `python tools/build_next_bundles.py --episode ep03 --out /tmp/DYS_EP03` 重建。
+**2026-09-24修订：EP03 v1.1**，P02只说“众星拱北”→停1.7秒→“江！大！歌！”逐字加重大声说，七字各说一次。已[上传并核验388个文件](https://github.com/YuxiangLiu-lyx/DYS_history/commit/6a6f10eb7908416d42fd4cb730e97b8712c61428)。更新后的材料包可用 `python tools/build_next_bundles.py --episode ep03 --out /tmp/DYS_EP03` 重建。
 
 **当前续篇：第三至五回，共8段×30秒、240秒。第二回N04同步修订为边唱边舞。**
 

@@ -1,3 +1,7 @@
+# 2026-09-24 · EP03 v1.1已同步
+
+P02改为前四字“众星拱北”→停1.7秒→后三字逐个加重大声说，七字各一次；台词、字幕、Prompt与合同一致。新版第三回ZIP已替换保存。[内容提交6a6f10eb](https://github.com/YuxiangLiu-lyx/DYS_history/commit/6a6f10eb7908416d42fd4cb730e97b8712c61428)，388路径blob与模式核验一致、零删除。回执及快照在history/publication/EP03_v1_1_pack_*。EP01/02/04/05及原图原声保持不变；没有生成新视频。以下均为此前历史。
+
 # 本轮新资料已同步（2026-09-23）
 
 EP02 N04 v1.1歌舞修订、EP03—EP05八段生产包、五张新图、来源/生成记录及AI续作声明已上传：[提交49c0ba12](https://github.com/YuxiangLiu-lyx/DYS_history/commit/49c0ba12c02362e1550f96db73b0a334b24be52f)。
