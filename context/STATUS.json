@@ -89,13 +89,13 @@
   "github": {
     "repository": "YuxiangLiu-lyx/DYS_history",
     "branch": "main",
-    "synced": false,
-    "previous_verified_commit": "4402841b15c16dfae8d771997fac7699cb8dfdd5",
-    "publication_status": "CH04_order_fix_prepared_not_pushed",
-    "remote_commit": "519f86a7bb6da078de4fc5cc2a47f2f8dc84883b",
-    "verified_path_count": 479,
-    "receipt": "history/publication/CH04_dream_duet_receipt.json",
-    "verification_scope": "All 452 project paths verified against remote Git blob SHA and mode; zero deletions. Receipt and updated status stored in a following metadata commit."
+    "synced": true,
+    "previous_verified_commit": "a360ffc9d7e6c1a5f03d0cdee9aad09a401a1036",
+    "publication_status": "CH04_ordered_inputs_published_verified",
+    "remote_commit": "d78983df9a368f741c0c49d44bebac219de590f8",
+    "verified_path_count": 522,
+    "receipt": "history/publication/CH04_ordered_inputs_receipt.json",
+    "verification_scope": "All 522 paths verified against remote Git blob SHA and mode; zero deletions. Publication/delivery metadata follows in a separate commit."
   },
   "video_generated": false,
   "audio_generated": false,
@@ -302,7 +302,7 @@
     "storyboard_complete": false,
     "video_generated": false,
     "audio_generated": false,
-    "github_synced": false,
+    "github_synced": true,
     "internal_old_episode_paths_preserved": true,
     "revision": "release_v1_1_ordered_dream_refs",
     "prompt_length_includes_trailing_newline": true,
@@ -313,6 +313,8 @@
       "求婚图",
       "打码聊天图"
     ],
-    "previous_content_commit": "519f86a7bb6da078de4fc5cc2a47f2f8dc84883b"
+    "previous_content_commit": "519f86a7bb6da078de4fc5cc2a47f2f8dc84883b",
+    "content_commit": "d78983df9a368f741c0c49d44bebac219de590f8",
+    "ordered_bundle_validated": true
   }
 }

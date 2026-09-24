@@ -18,7 +18,7 @@
   "storyboard_complete": false,
   "video_generated": false,
   "audio_generated": false,
-  "github_synced": false,
+  "github_synced": true,
   "internal_old_episode_paths_preserved": true,
   "revision": "release_v1_1_ordered_dream_refs",
   "prompt_length_includes_trailing_newline": true,
@@ -29,5 +29,7 @@
     "求婚图",
     "打码聊天图"
   ],
-  "previous_content_commit": "519f86a7bb6da078de4fc5cc2a47f2f8dc84883b"
+  "previous_content_commit": "519f86a7bb6da078de4fc5cc2a47f2f8dc84883b",
+  "content_commit": "d78983df9a368f741c0c49d44bebac219de590f8",
+  "ordered_bundle_validated": true
 }

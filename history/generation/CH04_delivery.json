@@ -1,17 +1,38 @@
 {
   "bundle": "CH04_Dream_Duet_Production_Pack_v1.zip",
+  "revision": "release_v1_1_ordered_dream_refs",
   "library_file_id": "libfile_275bf7a8e56c8191ac21e099d4af368a",
-  "version": 0,
-  "content_commit": "519f86a7bb6da078de4fc5cc2a47f2f8dc84883b",
-  "bundle_is_prepublication_snapshot": true,
+  "file_id": "file_00000000236881f5b72725e9f1a5ca09",
+  "version": 1,
+  "bytes": 48707475,
+  "sha256": "ae2ed8142591a32ccbb8e27e16e1b5e386fe92693c71bf3204803fa56d3f9410",
+  "content_commit": "d78983df9a368f741c0c49d44bebac219de590f8",
+  "content_verified_on_github": true,
+  "saved": true,
+  "bundle_is_prepublication_snapshot": false,
+  "bundle_scope": "Current six-scene production docs, numbered media and offline viewer; final receipt metadata lives in Git history.",
   "prompt_lengths": [
-    376,
-    410,
-    400,
-    432,
-    430,
-    441
+    541,
+    411,
+    401,
+    433,
+    431,
+    442
+  ],
+  "dream_image_order": [
+    "D01_barrage",
+    "D02_proposal",
+    "D03_censored_chat"
+  ],
+  "dream_image_slots": [
+    4,
+    5,
+    6
   ],
   "song_source_received": false,
-  "actual_av_review": false
+  "actual_av_review": false,
+  "new_images_generated": false,
+  "new_audio_generated": false,
+  "new_video_generated": false,
+  "ordered_entry": "releases/huibenji/chapter04_v1/ORDERED_INPUTS.md"
 }

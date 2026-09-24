@@ -1,0 +1,17 @@
+{
+  "bundle": "CH04_Dream_Duet_Production_Pack_v1.zip",
+  "library_file_id": "libfile_275bf7a8e56c8191ac21e099d4af368a",
+  "version": 0,
+  "content_commit": "519f86a7bb6da078de4fc5cc2a47f2f8dc84883b",
+  "bundle_is_prepublication_snapshot": true,
+  "prompt_lengths": [
+    376,
+    410,
+    400,
+    432,
+    430,
+    441
+  ],
+  "song_source_received": false,
+  "actual_av_review": false
+}
