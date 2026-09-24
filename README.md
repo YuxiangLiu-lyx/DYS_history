@@ -2,7 +2,7 @@
 
 **最新：第五回v2，原生演唱与有声延长。** 90秒仍为3段；R01客栈议策保留，R02男唱走近，R03接着延长，女声慢回头、交替/合唱、对视靠近与约5秒深情相吻。镜头18→13，每歌段5图＋歌曲参考≤22秒＋两人各4秒音色。完整Prompt均≤2000字符。入口：[第五回操作步骤](episodes/ep05/production/QUICKSTART.md) · [完整生产包](episodes/ep05/production/VIDEO_PRODUCTION_PACK.md) · [原生演唱研究](history/research/EP05_NATIVE_SINGING_20260924.md)。重建新版：`python tools/build_next_bundles.py --episode ep05 --out /tmp/DYS_EP05`。
 
-本版已制备两份4秒说话音色候选，**还缺实际《卜卦》音源**。只需提供一次希望使用的曲源，制作方再裁两段、核对换唱和音乐小节。R03继承R02有声视频，不移除合格生成歌声；说话样本和歌名不能保证本人唱腔或准确原曲。尚未生成或听看本版视频，必要关键帧仍待补审。当前同步状态见[记录](context/SYNC_STATUS.md)。
+本版已制备两份4秒说话音色候选，**还缺实际《卜卦》音源**。只需提供一次希望使用的曲源，制作方再裁两段、核对换唱和音乐小节。R03继承R02有声视频，不移除合格生成歌声；说话样本和歌名不能保证本人唱腔或准确原曲。尚未生成或听看本版视频，必要关键帧仍待补审。已[上传并核验414文件](https://github.com/YuxiangLiu-lyx/DYS_history/commit/ddb1e0d1cb26fa2e13e1d84627ad4a60b5fb4399)；[同步记录](context/SYNC_STATUS.md)。
 
 **2026-09-24修订：EP03 v1.1**，P02只说“众星拱北”→停1.7秒→“江！大！歌！”逐字加重大声说，七字各说一次。已[上传并核验388个文件](https://github.com/YuxiangLiu-lyx/DYS_history/commit/6a6f10eb7908416d42fd4cb730e97b8712c61428)。更新后的材料包可用 `python tools/build_next_bundles.py --episode ep03 --out /tmp/DYS_EP03` 重建。
 
