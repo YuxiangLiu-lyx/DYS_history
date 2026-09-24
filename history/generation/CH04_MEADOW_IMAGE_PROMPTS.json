@@ -1,0 +1,113 @@
+{
+  "date": "2026-09-24",
+  "tool": "image_gen.imagegen",
+  "model": "builtin_not_further_reported",
+  "seed": null,
+  "task_id": null,
+  "cost": null,
+  "jobs": [
+    {
+      "key": "meadow_scene_args",
+      "value": {
+        "prompt": "Use case: historical-scene. Create one breathtaking photorealistic Chinese historical romance film environment reference, 16:9 wide cinematic frame, no people. A very large ancient greeting pine on a gently rising soft natural grass meadow in rural Jiangnan. The majestic asymmetrical gnarled trunk stands just right of center on the crest, its immense elegant horizontally spreading layered umbrella canopy spans most of the picture, a real ancient pine perhaps 18m tall and 26m across, believable botanical structure. The place itself must feel like a dream of first love. Warm sunset low behind the trunk, sky pale gold soft peach barely pink gradients, delicate natural sunlight shafts through pine needles in a very light haze, distant layered blue-gray mountains and quiet misty valley. Soft meadow grasses with sparse tiny white wildflowers wave, a few windborne petals originating from ground flowers, not blossom-covered pine. Wide open empty grassy approach from lower-left foreground to tree, flat soft-grass area beside base for laying a lute. Camera 24mm at human height, deep readable landscape, textured bark and grass, restrained natural film color and gentle halation. Natural earthy green grass, rich delicate lighting, not oversaturated orange or neon green. No buildings, no paving, no stone platform, no furniture, no crowds, no banners, no supernatural effects, no anime, no fantasy game art, no glossy CG, no text or watermark. Real live-action feature film location, not a studio garden.",
+        "transparent_background": false
+      }
+    },
+    {
+      "key": "meadow_pair_jobs",
+      "value": [
+        {
+          "id": "KF_H04_START",
+          "file": "assets/keyframes/CH04/H04_START_MEADOW_v01.png",
+          "args": {
+            "referenced_image_paths": [
+              "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+              "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+              "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C05/C05_FRONT_HALF_v04.png",
+              "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C01/C01_RUAN_HOLD_v01.png"
+            ],
+            "transparent_background": false,
+            "prompt": "Use case identity-preserve / historical-scene. Create one 16:9 photorealistic Chinese feature film wide establishing keyframe. Reference1 is exact landscape location and sunset light, retain the same enormous ancient pine, broad umbrella canopy, meadow slope and distant misty hills, no stone platform. References2 and3 are exact male and female identities/costumes, reference4 fixes male holding same red lacquer gold-inlaid round ruan. Camera pulls much farther back than reference1 to show full gigantic tree plus extensive grassy approach, 24mm deep landscape. Sun Yalong is a small full-body figure at lower left viewed rear three-quarter, navy plain robe and dense black topknot, holding the ornate ruan at abdomen with neck diagonally upward, pausing and looking at Pan far away. Pan Hui is a very small pale-blue robed silhouette alone beneath pine at right of center, back turned looking over valley; her long dark hair and sleeve softly lifted by wind. Approx18m between them, their heads occupy small fraction of frame, tree towers12times their height, no closeups. A story of distance and quiet wonder, people belong to landscape. Grass natural, scattered tiny flowers, low gold/peach sunset, restrained natural haze, no overblown CG. Same faces as references when discernible, no extra people, no modern objects, no text, no stage poses, no tiled collage. This is the moment before he sings or steps forward."
+          }
+        },
+        {
+          "id": "KF_H05_START",
+          "file": "assets/keyframes/CH04/H05_START_MEADOW_v01.png",
+          "args": {
+            "referenced_image_paths": [
+              "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+              "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+              "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C05/C05_FRONT_HALF_v04.png",
+              "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C01/C01_RUAN_HOLD_v01.png"
+            ],
+            "transparent_background": false,
+            "prompt": "Use case identity-preserve / historical-scene. Create one 16:9 live-action historical romance film wide two-shot at sunset. Reference1 fixes giant pine, natural soft grassy clearing, misty Jiangnan hills and backlight; reference2 EXACT Sun Yalong identity, reference3 EXACT Pan Hui identity (short rounded face, full soft cheeks, original eyes nose lips and mole BELOW her mouth corner on frontal viewer-right jade-pin side; never generic long-faced beauty), reference4 same male clothes and ornate red/gold ruan instrument and holding. Camera75mm across meadow at mid-distance, two full-height figures on opposite sides separated by7m of grass, substantial negative space between. Sun at screen-left faces toward her screen-right, navy crosscollar plain robe creaminner brown sash, ruan held torso high neck angled up to screen-right, playing hand relaxed on strings, gentle gaze and subtle parted lips between song phrases, not grinning. Pan at screen-right, pale blue floral silk robe, jade hairpin, has just finished slowly turning toward him, tender surprised recognition smile, looking DIRECTLY at his eyes, not camera. Pine massive trunk beyond her on right, layered canopy overhead, sunset beams between them, wind in sleeves and hair, natural skin and good likeness. No physical touch; distance7m, not a couple portrait. No stone, paving, instrument stands, architecture, crowds, supernatural glow, plastic skin, model faces, text, collage."
+          }
+        }
+      ]
+    },
+    {
+      "key": "meadow_pair2_jobs",
+      "value": [
+        {
+          "id": "KF_H06_START",
+          "file": "assets/keyframes/CH04/H06_START_MEADOW_v01.png",
+          "args": {
+            "referenced_image_paths": [
+              "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/CH04/H05_START_MEADOW_v01.png",
+              "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+              "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C05/C05_FRONT_HALF_v04.png",
+              "/workspace/scratch/217ce8a5e48d/DYS_history/assets/props/CH04/P_RUAN_ORNATE_v01.png"
+            ],
+            "transparent_background": false,
+            "prompt": "Use case identity-preserve. One 16:9 realistic romantic historical feature film frame. Reference1 fixes scene geography and costumes, reference2 is mandatory EXACT male face, reference3 mandatory EXACT female face, reference4 fixes same red lacquer gold-inlaid round ruan. Sun must retain his natural face width, eyes, nose, mouth and dense topknot; not a generic handsome actor. Pan has the reference's short rounded oval face, soft cheeks, original eyes/nose/lips, small beauty mole below mouth corner on frontal viewer-right, jade-pin side, not on lip. Use gentle natural face light from sky, detailed skin, no long face, no pointed chin, no overbeautification. Advance their staging from first reference: Sun left now only1.8m from Pan right, under SAME huge pine on soft natural grass, same golden sunset behind them, pale peach/soft pink sky and misty blue-gray hills. Medium-wide knees-up two-shot with generous breathable gap between,55mm. Sun STILL HOLDS same ruan carefully before abdomen, neck angled upward to frame-right, left hand neck right hand over strings naturally; Pan smiles softly with parted lips as if next soft musical reply, Sun listens watching her eyes. They do not touch. Her arms low relaxed, sleeves move in small breeze. Their visible faces THREE-QUARTER facing inward, camera placed so both actual faces are identifiable, intimate tender communication. Soft sun rim on hair, lightly windblown strands, not aggressive orange face lighting. No furniture, no stone platform, no instrument on ground yet, no big stage expressions, no hand-holding or embrace, no extra people or objects, no text, no collage."
+          }
+        },
+        {
+          "id": "KF_H07_START",
+          "file": "assets/keyframes/CH04/H07_START_MEADOW_v01.png",
+          "args": {
+            "referenced_image_paths": [
+              "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/CH04/H05_START_MEADOW_v01.png",
+              "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+              "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C05/C05_FRONT_HALF_v04.png",
+              "/workspace/scratch/217ce8a5e48d/DYS_history/assets/props/CH04/P_RUAN_ORNATE_v01.png"
+            ],
+            "transparent_background": false,
+            "prompt": "Use case identity-preserve. One16:9 photorealistic cinematic historical romance frame for quiet pause before a first kiss, NOT kissing yet. Reference1 fixes scene geography and costumes, reference2 is mandatory EXACT male face, reference3 mandatory EXACT female face, reference4 fixes same red lacquer gold-inlaid round ruan. Sun must retain his natural face width, eyes, nose, mouth and dense topknot; not a generic handsome actor. Pan has the reference's short rounded oval face, soft cheeks, original eyes/nose/lips, small beauty mole below mouth corner on frontal viewer-right, jade-pin side, not on lip. Use gentle natural face light from sky, detailed skin, no long face, no pointed chin, no overbeautification. The SAME sunset meadow below enormous pine. Sun stands screen-left and Pan screen-right about1.2m apart; both hands relaxed at their OWN sides, absolutely no touch, no reaching, no hands clasped together. Mid-wide full-body two-shot,50mm, their body proportions natural. Sun watches her with quiet fond expectation, Pan has lowered her eyes with a tiny private smile and is about to lift them to meet his gaze, body angled toward him. Same navy/cream/brown male robes and delicate pale-blue female robe. Same exact round red/gold ruan has been laid FLAT SOUND BOARD UP on SOFT GRASS in lower-right a little behind Pan, neck directed toward the pine trunk, supported naturally by grass, not floating, ONLY ONE instrument, NONE in his hands. Huge bark behind right, atmospheric gold and peach sunset, gentle hair and sleeves breeze, natural fill keeps faces unburnt and clear. No stone table, no paving, no furniture, no hugging, no arm touch, no handholding, no stage poses, no modern effects, no text, no collage. All drama is in their eyes and the remaining space."
+          }
+        }
+      ]
+    },
+    {
+      "key": "meadow_pair3_jobs",
+      "value": [
+        {
+          "id": "KF_H07_END",
+          "file": "assets/keyframes/CH04/H07_END_MEADOW_v01.png",
+          "args": {
+            "referenced_image_paths": [
+              "/workspace/scratch/217ce8a5e48d/DYS_history/assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+              "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/CH04/H07_START_MEADOW_v01.png",
+              "/workspace/scratch/217ce8a5e48d/DYS_history/assets/props/CH04/P_RUAN_ORNATE_v01.png"
+            ],
+            "transparent_background": false,
+            "prompt": "Use case historical-scene / identity-preserve. One breathtaking16:9 photorealistic final frame of a Chinese historical romance movie. Same huge elegant gnarled pine and Jiangnan sunset meadow as reference1, same exact two fully clothed adults and garments as reference2, same red/gold ruan as reference3. Camera has slowly retreated FAR BACK and elevated to look across entire landscape, ultra-wide24mm, but still human and emotionally quiet, no drone distortion. The entire gigantic spreading umbrella pine occupies central upper composition with all canopy inside frame and clear sky around top, extensive soft grass foreground, distant misty layers of hills and pale gold/peach/pink sky; sun just touching ridge behind tree, slightly lower than ref1. Beneath it at trunk's left base are the same couple as VERY SMALL FULL BODY silhouettes only about7% of frame height. Man in navy at left and woman pale blue at right stand closely and share a gentle sustained consensual kiss, upright relaxed natural posture, his hand softly at her waist-side, her hand lightly gathers his sleeve near waist, NO neck/shoulder hold, no lifted legs, no dramatic dip. Their beautiful private moment is dwarfed by the land and immense pine. ONLY ONE red/gold round ruan lies FLAT on soft grass on their screen-right near tree base, no stand. Wind in grass and her hem, few tiny windborne wildflower petals, restrained halation and realistic film textures. No furniture, no stone platform, no paved paths, no architecture, no crowds, no modern items, no fantasy CG or glowing particles, no text, no collage."
+          }
+        },
+        {
+          "id": "KF_C05_TURN",
+          "file": "assets/keyframes/CH04/C05_TURN_MEADOW_v01.png",
+          "args": {
+            "referenced_image_paths": [
+              "/workspace/scratch/217ce8a5e48d/DYS_history/assets/characters/C05/C05_FRONT_HALF_v04.png",
+              "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/CH04/H05_START_MEADOW_v01.png"
+            ],
+            "transparent_background": false,
+            "prompt": "Use case identity-preserve. One16:9 photorealistic medium-close film shot of EXACT same Pan Hui from reference1. Her identity is overriding priority: same SHORT ROUNDED OVAL face, soft full cheek shape, eye spacing/eyelids, original nose and mouth, no lengthened face, no sharp chin, no generic model. Keep distinctive small mole BELOW mouth corner on frontal viewer-right jade-pin side, clear skin gap from lips. Reference2 is location/light and spatial direction only. Same pale blue patterned robe, cream inner, same jade hairpin and dark half-up long hair. At sunset under giant pine she has just slowly turned her head toward a man OFFSCREEN LEFT and is looking at HIS EYE LEVEL, not lens; head in gentle three-quarter angle toward screen-left, both eyes and mouth corner visible. Expression intimate recognition: a trace of surprise has softened into smallest closed-lip 'it is you' smile, warm eyes with no big grin, quietly beautiful and sensuous through subtle eyes, realistic not glamorous model. Chest-up composition, her face near right-of-center with open look space on left,85mm lens, hair moved softly by wind, pine branches and misty mountains softly out of focus, pale gold peach sunset backlight through hair, soft neutral sky fill ON face preserving natural skin color, fine actual skin texture no plastic retouching. No jewelry or makeup changes, no mirrored face, no face reshaping, no new person, no text/collage."
+          }
+        }
+      ]
+    }
+  ]
+}

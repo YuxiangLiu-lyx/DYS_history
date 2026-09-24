@@ -1,13 +1,13 @@
 {
   "id": "H06",
-  "name": "伴奏渐歇，清唱定情",
+  "name": "歌声渐歇，松下凝眸",
   "ordinal": 6,
   "duration_seconds": 30,
   "film_start_seconds": 150,
   "production_ready": false,
   "prompt_source": "releases/huibenji/chapter04_v1/prompts/H06.txt",
-  "prompt_sha256": "41b49c5ef0d76d1b2f50694c3fdc38cac9d0f09d83287550a0669c6c8b07b430",
-  "prompt_characters_including_newline": 442,
+  "prompt_sha256": "24e277003a038a50230e5e52a014b9a61d7a7144ebf34947b547de4706234c7d",
+  "prompt_characters_including_newline": 654,
   "prompt_bundle_path": "06_H06/01_PROMPT.txt",
   "images": [
     {
@@ -35,24 +35,67 @@
     {
       "slot": 3,
       "ref_id": "S15_NEW",
-      "label": "申时松下·石台折布新场景",
-      "available": false,
-      "source_path": null,
-      "sha256": null,
-      "size_bytes": null,
-      "bundle_path": "06_H06/02_images/03_S15_NEW_MISSING.md",
-      "upload_this_file": false
+      "label": "夕照草坡·巨大迎客松",
+      "available": true,
+      "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+      "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
+      "size_bytes": 2855464,
+      "bundle_path": "06_H06/02_images/03_S15_NEW.png",
+      "upload_this_file": true,
+      "review_status": "generated_candidate_available_for_review",
+      "actual_video_frame": false
     },
     {
       "slot": 4,
+      "ref_id": "P_RUAN",
+      "label": "朱漆金纹阮·道具",
+      "available": true,
+      "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
+      "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
+      "size_bytes": 2421203,
+      "bundle_path": "06_H06/02_images/04_P_RUAN.png",
+      "upload_this_file": true,
+      "review_status": "generated_candidate_available_for_review",
+      "actual_video_frame": false
+    },
+    {
+      "slot": 5,
       "ref_id": "KF_H06_START",
-      "label": "H06起始关键帧",
-      "available": false,
-      "source_path": null,
-      "sha256": null,
-      "size_bytes": null,
-      "bundle_path": "06_H06/02_images/04_KF_H06_START_MISSING.md",
-      "upload_this_file": false
+      "label": "H06起始规划帧",
+      "available": true,
+      "source_path": "assets/keyframes/CH04/H06_START_MEADOW_v01.png",
+      "sha256": "c82adbe1b223837cf9acfa765daf7ae1ba5c37d30aa4b1157fd20ba2617ae159",
+      "size_bytes": 2587536,
+      "bundle_path": "06_H06/02_images/05_KF_H06_START.png",
+      "upload_this_file": true,
+      "review_status": "generated_candidate_available_for_review",
+      "actual_video_frame": false
+    },
+    {
+      "slot": 6,
+      "ref_id": "C01_RUAN_HOLD",
+      "label": "孙亚龙·便装手持朱漆金纹阮",
+      "available": true,
+      "source_path": "assets/characters/C01/C01_RUAN_HOLD_v01.png",
+      "sha256": "dd40ae5e8f841783c65cd0891b2ca125a33c0ed2b3fae0650aa04431d70e502c",
+      "size_bytes": 2175435,
+      "bundle_path": "06_H06/02_images/06_C01_RUAN_HOLD.png",
+      "upload_this_file": true,
+      "review_status": "generated_candidate_available_for_review",
+      "actual_video_frame": false
+    },
+    {
+      "slot": 7,
+      "ref_id": "KF_H07_START",
+      "label": "H07起始规划帧",
+      "available": true,
+      "source_path": "assets/keyframes/CH04/H07_START_MEADOW_v02.png",
+      "sha256": "42e797acf39639d3848d00400ff81562614abc7bcc88cdfb4734c5073ac964bc",
+      "size_bytes": 2602844,
+      "bundle_path": "06_H06/02_images/07_KF_H07_START.png",
+      "upload_this_file": true,
+      "review_status": "generated_candidate_available_for_review",
+      "actual_video_frame": false
     }
   ],
   "audio": [
@@ -103,17 +146,21 @@
       30
     ],
     "file": null,
-    "instruction": "同项目有声延长；新曲参C负责本段，首音开始末段变体，不重复主歌或放琴。"
+    "instruction": "同项目有声续写或仅引用H05新增30秒；继承末态1.8米间距、孙仍持阮，不沿用废弃石台/牵手/扶腰关键帧；新曲参C负责末尾变体。"
   },
   "previous_video_bundle_readme": "06_H06/04_previous_video/README.md",
-  "first_frame_description": "沿用H05已牵手扶腰的站位，石台上阮可见。",
-  "last_frame_description": "孙扶潘腰，潘搭肩，双方完成持续吻；音乐已停。",
+  "first_frame_description": "孙左潘右相隔约1.8米，孙仍抱同一朱漆金纹阮，潘柔和相望；无相携扶腰姿态。",
+  "last_frame_description": "朱漆金纹阮已稳放孙身侧画左后方约半步、双方靠近路线之外的柔软草地，琴面朝上、琴颈指画左后方；两人直立约1.2米相望，双手自然垂放，未牵手未亲吻。",
+  "planning_frames_are_actual_video_frames": false,
+  "planning_keyframe_reference_ids": [
+    "KF_H06_START",
+    "KF_H07_START"
+  ],
+  "has_song_reference": true,
   "known_audio_seconds": 8.0,
   "planned_maximum_audio_seconds": 30.0,
   "missing_slot_ids": [
-    "S15_NEW",
-    "KF_H06_START",
     "SONG_C_PENDING_MAX22S"
   ],
-  "other_required_checks": "H05实际有声30秒未生成；真实曲源、歌声时码及新关键帧未完成。"
+  "other_required_checks": "H05实际有声30秒、真实曲源及歌声时码未完成；检查放琴到草地动作、人物距离与手指连续性。"
 }

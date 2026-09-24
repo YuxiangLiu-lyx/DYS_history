@@ -1,0 +1,184 @@
+{
+  "source_url": "https://www.kugou.com/song-36/c7s2s8b.html",
+  "source_version": "崔子格2015繁星年度盛典Live，仅核对结构；不是用户伴奏或孙潘现场实录",
+  "actual_backing_received": false,
+  "actual_duet_received": false,
+  "voice_samples_received": true,
+  "voice_samples_are_singing": false,
+  "cues": [
+    {
+      "id": "C1",
+      "block": "H04",
+      "singer": "C01",
+      "licensed_live_lrc_start": 70.95,
+      "planned_start": 0,
+      "planned_end": 5,
+      "actual_audio_start": null,
+      "actual_audio_end": null,
+      "phoneme_alignment": null
+    },
+    {
+      "id": "C2",
+      "block": "H04",
+      "singer": "C01",
+      "licensed_live_lrc_start": 75.95,
+      "planned_start": 5,
+      "planned_end": 10.01,
+      "actual_audio_start": null,
+      "actual_audio_end": null,
+      "phoneme_alignment": null
+    },
+    {
+      "id": "C3",
+      "block": "H04",
+      "singer": "C01",
+      "licensed_live_lrc_start": 80.96,
+      "planned_start": 10.01,
+      "planned_end": 15.09,
+      "actual_audio_start": null,
+      "actual_audio_end": null,
+      "phoneme_alignment": null
+    },
+    {
+      "id": "C4",
+      "block": "H04",
+      "singer": "C01",
+      "licensed_live_lrc_start": 86.04,
+      "planned_start": 15.09,
+      "planned_end": 20.5,
+      "actual_audio_start": null,
+      "actual_audio_end": null,
+      "phoneme_alignment": null
+    },
+    {
+      "id": "V1",
+      "block": "H05",
+      "singer": "C05",
+      "licensed_live_lrc_start": 111.76,
+      "planned_start": 0,
+      "planned_end": 4.11,
+      "actual_audio_start": null,
+      "actual_audio_end": null,
+      "phoneme_alignment": null
+    },
+    {
+      "id": "V2",
+      "block": "H05",
+      "singer": "C05",
+      "licensed_live_lrc_start": 115.87,
+      "planned_start": 4.11,
+      "planned_end": 9.41,
+      "actual_audio_start": null,
+      "actual_audio_end": null,
+      "phoneme_alignment": null
+    },
+    {
+      "id": "V3",
+      "block": "H05",
+      "singer": "C01_then_C05",
+      "licensed_live_lrc_start": 121.17,
+      "planned_start": 9.41,
+      "planned_end": 14.29,
+      "actual_audio_start": null,
+      "actual_audio_end": null,
+      "phoneme_alignment": null
+    },
+    {
+      "id": "V4",
+      "block": "H05",
+      "singer": "BOTH_then_C05",
+      "licensed_live_lrc_start": 126.05,
+      "planned_start": 14.29,
+      "planned_end": 19.2,
+      "actual_audio_start": null,
+      "actual_audio_end": null,
+      "phoneme_alignment": null
+    },
+    {
+      "id": "T1",
+      "block": "H06",
+      "singer": "C01",
+      "licensed_live_lrc_start": 171.43,
+      "planned_start": 0,
+      "planned_end": 4.39,
+      "actual_audio_start": null,
+      "actual_audio_end": null,
+      "phoneme_alignment": null
+    },
+    {
+      "id": "T2",
+      "block": "H06",
+      "singer": "C05",
+      "licensed_live_lrc_start": 175.82,
+      "planned_start": 4.39,
+      "planned_end": 9.54,
+      "actual_audio_start": null,
+      "actual_audio_end": null,
+      "phoneme_alignment": null
+    },
+    {
+      "id": "T3",
+      "block": "H06",
+      "singer": "BOTH",
+      "licensed_live_lrc_start": 180.97,
+      "planned_start": 9.54,
+      "planned_end": 14.42,
+      "actual_audio_start": null,
+      "actual_audio_end": null,
+      "phoneme_alignment": null
+    },
+    {
+      "id": "T4",
+      "block": "H06",
+      "singer": "BOTH",
+      "licensed_live_lrc_start": 185.85,
+      "planned_start": 14.42,
+      "planned_end": 19.8,
+      "actual_audio_start": null,
+      "actual_audio_end": null,
+      "phoneme_alignment": null
+    }
+  ],
+  "guide_mode": {
+    "preferred": "native_singing_with_music_reference",
+    "song_reference_per_block_max_s": 22,
+    "male_timbre_s": 4,
+    "female_timbre_s": 4,
+    "total_max_s": 30,
+    "reference_A": null,
+    "reference_B": null,
+    "reference_C": null,
+    "exact_backing_preserved_by_model": false
+  },
+  "precise_mode": {
+    "description": "需要严格真实伴奏/逐字时码时，先制90秒双人歌声母带，分3条30秒混合导唱；每任务只上传其30秒，不叠加4秒音色。",
+    "masters": [
+      null,
+      null,
+      null
+    ],
+    "requires_source_and_singing_track": true
+  },
+  "instrument_stop": {
+    "block": "H05",
+    "time": 19.2
+  },
+  "all_backing_stop": {
+    "block": "H06",
+    "time": 9.54,
+    "tolerance": "依T2歌尾与真实小节微调；全部乐器与残响退净",
+    "fade_window": [
+      8.94,
+      9.54
+    ]
+  },
+  "singing_stop": {
+    "block": "H06",
+    "time": 19.8
+  },
+  "kiss": {
+    "block": "H06",
+    "start": 24,
+    "end": 30
+  }
+}

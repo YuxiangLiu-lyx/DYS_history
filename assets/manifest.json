@@ -86,6 +86,20 @@
       "usable_as_single_character_reference": true
     },
     {
+      "id": "C01_RUAN_HOLD_v01",
+      "path": "assets/characters/C01/C01_RUAN_HOLD_v01.png",
+      "kind": "characters",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2175435,
+      "sha256": "dd40ae5e8f841783c65cd0891b2ca125a33c0ed2b3fae0650aa04431d70e502c",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "usable_as_single_character_reference": true
+    },
+    {
       "id": "C02_ANGLES_EXPRESSIONS_v02",
       "path": "assets/characters/C02/C02_ANGLES_EXPRESSIONS_v02.png",
       "kind": "characters",
@@ -632,6 +646,188 @@
       "usable_as_single_character_reference": false
     },
     {
+      "id": "C05_TURN_MEADOW_v01",
+      "path": "assets/keyframes/CH04/C05_TURN_MEADOW_v01.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2183177,
+      "sha256": "a18329cf8b283c3cba1efcd12365cb86eec995970378236f543b3d03ac56abc4",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "H04_START_MEADOW_v01",
+      "path": "assets/keyframes/CH04/H04_START_MEADOW_v01.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2815962,
+      "sha256": "b2a9ac06140ec832cc25575b4c0ff7b108aef09b50e7e1c7d9f7d9eac79cf4c5",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "H04_START_RUAN_v01",
+      "path": "assets/keyframes/CH04/H04_START_RUAN_v01.png",
+      "kind": "keyframes",
+      "current": false,
+      "status": "superseded_by_romantic_meadow_staging",
+      "bytes": 3020879,
+      "sha256": "256222846c7bf51ed915a0d588cfe7ed2e4921d6e5d649b3ebe098769c94a30f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "H05_START_MEADOW_v01",
+      "path": "assets/keyframes/CH04/H05_START_MEADOW_v01.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2800623,
+      "sha256": "fc38ff94b5a289e7f3cc796388afe84bb04bc94a171299a03f45e77f307eeb6d",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "H05_START_RUAN_v01",
+      "path": "assets/keyframes/CH04/H05_START_RUAN_v01.png",
+      "kind": "keyframes",
+      "current": false,
+      "status": "superseded_by_romantic_meadow_staging",
+      "bytes": 2908937,
+      "sha256": "c0e5acc5319186b95bbbf9fb191fb30688efb92f74364eccb97ddeb46aae5c17",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "H06_START_MEADOW_v01",
+      "path": "assets/keyframes/CH04/H06_START_MEADOW_v01.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2587536,
+      "sha256": "c82adbe1b223837cf9acfa765daf7ae1ba5c37d30aa4b1157fd20ba2617ae159",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "H06_START_RUAN_v01",
+      "path": "assets/keyframes/CH04/H06_START_RUAN_v01.png",
+      "kind": "keyframes",
+      "current": false,
+      "status": "superseded_by_romantic_meadow_staging",
+      "bytes": 2785342,
+      "sha256": "8814926a294f4330596fba10f78f68583cc2543bd824a619397b545668fb74a2",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "H06_START_RUAN_v02",
+      "path": "assets/keyframes/CH04/H06_START_RUAN_v02.png",
+      "kind": "keyframes",
+      "current": false,
+      "status": "superseded_by_romantic_meadow_staging",
+      "bytes": 2723290,
+      "sha256": "b3ca08f0ba4b0bb72fe3777b5626272c47293778d2e0c609b8d2e191a214df16",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "H07_END_MEADOW_v01",
+      "path": "assets/keyframes/CH04/H07_END_MEADOW_v01.png",
+      "kind": "keyframes",
+      "current": false,
+      "status": "superseded_by_romantic_meadow_staging",
+      "bytes": 2883084,
+      "sha256": "e2de0127e3024fb3acbc1e683330a157b2c467905d883898d8eb66dd9c299e1b",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "H07_END_MEADOW_v02",
+      "path": "assets/keyframes/CH04/H07_END_MEADOW_v02.png",
+      "kind": "keyframes",
+      "current": false,
+      "status": "superseded_by_romantic_meadow_staging",
+      "bytes": 2787497,
+      "sha256": "cc57dbffb1dcd36dac0b93e97a7d7fd486c0634eaf429d1c00bed0bc990c8ecb",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "H07_END_MEADOW_v03",
+      "path": "assets/keyframes/CH04/H07_END_MEADOW_v03.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2684428,
+      "sha256": "eebbb829cca1a73fe8ac7a2b8d5693975d73bd66471f85e0f130ece771f00eb9",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "H07_START_MEADOW_v01",
+      "path": "assets/keyframes/CH04/H07_START_MEADOW_v01.png",
+      "kind": "keyframes",
+      "current": false,
+      "status": "superseded_by_romantic_meadow_staging",
+      "bytes": 2663171,
+      "sha256": "8c23490c187cb048485f0e7828d9cc5f5f181d2dadff3a853f2cdcc687fed56c",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "H07_START_MEADOW_v02",
+      "path": "assets/keyframes/CH04/H07_START_MEADOW_v02.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2602844,
+      "sha256": "42e797acf39639d3848d00400ff81562614abc7bcc88cdfb4734c5073ac964bc",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
       "id": "D_IN_v01",
       "path": "assets/keyframes/D/D_IN_v01.png",
       "kind": "keyframes",
@@ -968,6 +1164,20 @@
       "usable_as_single_character_reference": false
     },
     {
+      "id": "P_RUAN_ORNATE_v01",
+      "path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
+      "kind": "props",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2421203,
+      "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
       "id": "P07_MOON_DRINKER_v01",
       "path": "assets/props/EP03/P07_MOON_DRINKER_v01.png",
       "kind": "props",
@@ -1220,6 +1430,20 @@
       "usable_as_single_character_reference": false
     },
     {
+      "id": "S15_PINE_MEADOW_SUNSET_v01",
+      "path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+      "kind": "scenes",
+      "current": true,
+      "status": "candidate_pending_user_review",
+      "bytes": 2855464,
+      "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
       "id": "S15_PINE_PATH_DAY_v01",
       "path": "assets/scenes/S15_PINE_PATH_DAY_v01.png",
       "kind": "scenes",
@@ -1230,6 +1454,20 @@
       "dimensions": [
         1672,
         941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "S15_PINE_RUAN_PLATFORM_v01",
+      "path": "assets/scenes/S15_PINE_RUAN_PLATFORM_v01.png",
+      "kind": "scenes",
+      "current": false,
+      "status": "superseded_by_romantic_meadow_staging",
+      "bytes": 3138061,
+      "sha256": "1e4ad169cab75bcda749808a1450cc1b779ff84d9c3577646b7b09e8c5c5b1fc",
+      "dimensions": [
+        1672,
+        940
       ],
       "usable_as_single_character_reference": false
     },

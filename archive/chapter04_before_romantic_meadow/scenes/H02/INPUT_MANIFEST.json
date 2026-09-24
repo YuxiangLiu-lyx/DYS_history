@@ -1,0 +1,137 @@
+{
+  "id": "H02",
+  "name": "梦醒未安，客栈议策",
+  "ordinal": 2,
+  "duration_seconds": 30,
+  "film_start_seconds": 30,
+  "production_ready": false,
+  "prompt_source": "releases/huibenji/chapter04_v1/prompts/H02.txt",
+  "prompt_sha256": "82761b26cf318a4c637c57e40e5d79e98c15c14f67ffdf19d9808b1b0b9001fc",
+  "prompt_characters_including_newline": 411,
+  "prompt_bundle_path": "02_H02/01_PROMPT.txt",
+  "images": [
+    {
+      "slot": 1,
+      "ref_id": "C05",
+      "label": "潘慧·身份母版",
+      "available": true,
+      "source_path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+      "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
+      "size_bytes": 1907493,
+      "bundle_path": "02_H02/02_images/01_C05.png",
+      "upload_this_file": true
+    },
+    {
+      "slot": 2,
+      "ref_id": "E06",
+      "label": "侍女",
+      "available": true,
+      "source_path": "assets/characters/E06/E06_MAID_v01.png",
+      "sha256": "128b83413a4db8894901cc90791c72ae0861eeef389f40ea0b7c11b3dfd3525d",
+      "size_bytes": 2021105,
+      "bundle_path": "02_H02/02_images/02_E06.png",
+      "upload_this_file": true
+    },
+    {
+      "slot": 3,
+      "ref_id": "S06",
+      "label": "卧房·空间参考",
+      "available": true,
+      "source_path": "assets/scenes/S06_ROOM_NIGHT_v01.png",
+      "sha256": "0dc7ef15d4084d008095e1ba1a16fc28f81ccd8b13d21c80dc6922c8714312d3",
+      "size_bytes": 2518897,
+      "bundle_path": "02_H02/02_images/03_S06.png",
+      "upload_this_file": true
+    },
+    {
+      "slot": 4,
+      "ref_id": "C01",
+      "label": "孙亚龙·便装",
+      "available": true,
+      "source_path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+      "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
+      "size_bytes": 1894389,
+      "bundle_path": "02_H02/02_images/04_C01.png",
+      "upload_this_file": true
+    },
+    {
+      "slot": 5,
+      "ref_id": "C03",
+      "label": "小腿·便装",
+      "available": true,
+      "source_path": "assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png",
+      "sha256": "a042f817273a117dd720a24d48338859528b8f2753903d83cc1fcbabd41410ca",
+      "size_bytes": 2485610,
+      "bundle_path": "02_H02/02_images/05_C03.png",
+      "upload_this_file": true
+    },
+    {
+      "slot": 6,
+      "ref_id": "S14",
+      "label": "客栈·空间参考（上午需改光）",
+      "available": true,
+      "source_path": "assets/scenes/S14_INN_ROOM_NIGHT_v01.png",
+      "sha256": "c7e0dd88561ea96c4bf830293bfe45d048086af960f4bf02b37218252e72e7e8",
+      "size_bytes": 2083762,
+      "bundle_path": "02_H02/02_images/06_S14.png",
+      "upload_this_file": true
+    }
+  ],
+  "audio": [
+    {
+      "slot": 1,
+      "ref_id": "VOICE_C05",
+      "label": "潘慧·10秒对白音色",
+      "available": true,
+      "source_path": "assets/audio/ch04/C05_TIMBRE_10S_v01.wav",
+      "sha256": "992167a2d9e54082476ac70a7541049305d36dc3e48114c7c96cdc8f1022ae1f",
+      "size_bytes": 480078,
+      "bundle_path": "02_H02/03_audio/01_VOICE_C05.wav",
+      "upload_this_file": true,
+      "duration_seconds": 10.0,
+      "maximum_planned_seconds": 10.0
+    },
+    {
+      "slot": 2,
+      "ref_id": "VOICE_C01",
+      "label": "孙亚龙·10秒对白音色",
+      "available": true,
+      "source_path": "assets/audio/ch04/C01_TIMBRE_10S_v01.wav",
+      "sha256": "45f2b3625fd886eb7eef908fdc8455c8adc454f8a1e5883c251c4c5922db3ad8",
+      "size_bytes": 480078,
+      "bundle_path": "02_H02/03_audio/02_VOICE_C01.wav",
+      "upload_this_file": true,
+      "duration_seconds": 10.0,
+      "maximum_planned_seconds": 10.0
+    },
+    {
+      "slot": 3,
+      "ref_id": "VOICE_C03",
+      "label": "小腿·10秒对白音色",
+      "available": true,
+      "source_path": "assets/audio/ch04/C03_TIMBRE_10S_v01.wav",
+      "sha256": "6754e149f052bbdf9767d4d118963dc21bbfe781811e3b3b5ff3c91fa99772bb",
+      "size_bytes": 480078,
+      "bundle_path": "02_H02/03_audio/03_VOICE_C03.wav",
+      "upload_this_file": true,
+      "duration_seconds": 10.0,
+      "maximum_planned_seconds": 10.0
+    }
+  ],
+  "previous_video": {
+    "source": "H01",
+    "range": [
+      26,
+      30
+    ],
+    "file": null,
+    "instruction": "用真实输出最后4秒或尾帧；仅对齐开头卧房，不把夜色带入客栈。"
+  },
+  "previous_video_bundle_readme": "02_H02/04_previous_video/README.md",
+  "first_frame_description": "延续H01扶肩与床内坐起姿态，潘慧准备回答。",
+  "last_frame_description": "客栈内小腿说完看向孙，孙正待回应。",
+  "known_audio_seconds": 30.0,
+  "planned_maximum_audio_seconds": 30.0,
+  "missing_slot_ids": [],
+  "other_required_checks": "H01实际末4秒未生成；客栈上午光新关键帧仍需核定。"
+}

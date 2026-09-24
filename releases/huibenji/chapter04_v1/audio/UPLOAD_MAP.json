@@ -28,5 +28,6 @@
   ],
   "dialogue_reference_duration_per_file": 10,
   "voice_listening_verified": false,
-  "source_samples_original_bytes_preserved": true
+  "source_samples_original_bytes_preserved": true,
+  "H07": []
 }

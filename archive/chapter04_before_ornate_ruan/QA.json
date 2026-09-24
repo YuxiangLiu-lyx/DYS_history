@@ -1,0 +1,45 @@
+{
+  "static_pass": true,
+  "prompts_within_2000": true,
+  "continuous_director_windows": true,
+  "ordered_bundle_validated": true,
+  "dream_image_explicit_refs": [
+    4,
+    5,
+    6
+  ],
+  "dream_order": [
+    "密集弹幕图",
+    "求婚图",
+    "打码聊天图"
+  ],
+  "dream_windows": [
+    [
+      4,
+      7
+    ],
+    [
+      9,
+      12
+    ],
+    [
+      15,
+      18
+    ]
+  ],
+  "dream_source_bytes_unchanged": true,
+  "H02_H06_blocks_unchanged": true,
+  "all_shots_dialogues_and_duration_unchanged": true,
+  "all_bundle_links_resolve": true,
+  "image_and_audio_slots_preserved": true,
+  "html_browser_render_verified": false,
+  "html_browser_render_note": "Runtime has no Chromium binary; HTML structure and local link targets checked, browser screenshot not produced.",
+  "actual_av_pass": null,
+  "actual_song_source_received": false,
+  "prompt_character_count_includes_trailing_newline": true,
+  "notes": [
+    "梦图经逐张查看确认，上传图片4/5/6并由Prompt显式调用。",
+    "现有素材复制SHA验证；实际Seedance输出未生成或验收。",
+    "缺少曲源、关键帧和上一段视频，保持真实缺项状态。"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "zip_files": [
+    {
+      "id": "H03",
+      "name": "以曲相邀，松下将逢",
+      "file_name": "CH04_H03.zip",
+      "local_path": "/workspace/scratch/217ce8a5e48d/deliverables/ch04_meadow/CH04_H03.zip",
+      "bytes": 19099177,
+      "sha256": "a9eb569154818cb2a4174ac6563e47e0374cf5312edadb53cca54a192a85b081",
+      "standalone_links_valid": true,
+      "missing_reference_ids": []
+    },
+    {
+      "id": "H04",
+      "name": "循声回首，暮色相望",
+      "file_name": "CH04_H04.zip",
+      "local_path": "/workspace/scratch/217ce8a5e48d/deliverables/ch04_meadow/CH04_H04.zip",
+      "bytes": 16629523,
+      "sha256": "60a3f2ec3f32501d177e36a11870c06a0f51ff1b12a86b2522df6be807be26e2",
+      "standalone_links_valid": true,
+      "missing_reference_ids": [
+        "SONG_A_PENDING_MAX22S"
+      ]
+    },
+    {
+      "id": "H05",
+      "name": "一曲相答，草间渐近",
+      "file_name": "CH04_H05.zip",
+      "local_path": "/workspace/scratch/217ce8a5e48d/deliverables/ch04_meadow/CH04_H05.zip",
+      "bytes": 14444317,
+      "sha256": "33d413a360efe3554008441a24524f9986455e5a68a0582fd30344be2e45aeb8",
+      "standalone_links_valid": true,
+      "missing_reference_ids": [
+        "SONG_B_PENDING_MAX22S"
+      ]
+    },
+    {
+      "id": "H06",
+      "name": "歌声渐歇，松下凝眸",
+      "file_name": "CH04_H06.zip",
+      "local_path": "/workspace/scratch/217ce8a5e48d/deliverables/ch04_meadow/CH04_H06.zip",
+      "bytes": 16822180,
+      "sha256": "b2c9fb6d8a3038016caa6c94b93a2e4062431b19e5cf8318b655f2ae08eea084",
+      "standalone_links_valid": true,
+      "missing_reference_ids": [
+        "SONG_C_PENDING_MAX22S"
+      ]
+    },
+    {
+      "id": "H07",
+      "name": "天地无声，松下相吻",
+      "file_name": "CH04_H07.zip",
+      "local_path": "/workspace/scratch/217ce8a5e48d/deliverables/ch04_meadow/CH04_H07.zip",
+      "bytes": 14238132,
+      "sha256": "be3de05a8ae0769ff24dd1e333c0c6d966451ceb525f4ada0166a4b64d419107",
+      "standalone_links_valid": true,
+      "missing_reference_ids": []
+    }
+  ],
+  "crc_pass": true,
+  "exact_source_media_copy": true,
+  "source": "releases/huibenji/chapter04_v1/UPLOAD_ORDER.json",
+  "actual_video_av_verified": false,
+  "all_five_saved_successfully": true,
+  "post_save_hash_and_crc_pass": true,
+  "prior_H01_H02_zip_bytes_unchanged": true,
+  "prompt_max_characters": 750,
+  "new_image_slot_counts": {
+    "H03": 8,
+    "H04": 7,
+    "H05": 6,
+    "H06": 7,
+    "H07": 6
+  }
+}

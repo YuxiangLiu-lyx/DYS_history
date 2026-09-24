@@ -6,13 +6,17 @@ from build_ch04_ordered import (ROOT, RELEASE, collect, digest, write_text,
     write_json, scene_markdown, render_html, previous_text, validate_archive_tree)
 
 
-def build(out):
+def build(out, blocks=None):
     manifest = collect()
+    selected = set(blocks) if blocks else {b['id'] for b in manifest['blocks']}
+    assert selected <= {b['id'] for b in manifest['blocks']}, 'Unknown scene selection'
     timeline = json.loads((RELEASE / 'timeline.json').read_text())
     contract = json.loads((RELEASE / 'audio/contract.json').read_text())
     results = []
     out.mkdir(parents=True, exist_ok=True)
     for original in manifest['blocks']:
+        if original['id'] not in selected:
+            continue
         block = copy.deepcopy(original)
         prefix = f"{block['ordinal']:02}_{block['id']}/"
         for key in ['prompt_bundle_path', 'previous_video_bundle_readme']:
@@ -36,6 +40,9 @@ def build(out):
                         assert digest(target.read_bytes()) == row['sha256']
                     else:
                         write_text(target, f"# 待补：{row['label']}\n\n固定编号{row['slot']}，不要前移后面的编号。此MD只是说明，不能上传Seedance。\n")
+            if not block['audio']:
+                write_text(stage / '03_audio/README.md',
+                    '# 本场不上传独立音频\n\n按01_PROMPT.txt保留自然风声、衣料与呼吸。此说明不是音频，不上传Seedance；不为无歌场景添加歌曲或音色占位。\n')
             write_text(stage / '00_UPLOAD_ORDER.md', scene_markdown(block, prompt,
                 stage / '00_UPLOAD_ORDER.md', lambda r: stage / r['bundle_path']))
             write_json(stage / 'INPUT_MANIFEST.json', block)
@@ -44,13 +51,12 @@ def build(out):
                 'music_cues': [c for c in contract['cues'] if c['block'] == block['id']]})
             write_text(stage / block['previous_video_bundle_readme'], previous_text(block) + '\n')
             page = render_html(one)
-            page = page.replace('六段×30秒。', f"本文件只包含{block['id']}，30秒。")
             page = page.replace('href="START_HERE.md"', 'href="00_UPLOAD_ORDER.md"')
             page = page.replace('href="UPLOAD_ORDER.json"', 'href="INPUT_MANIFEST.json"')
             page = page.replace('href="documentation/DIRECTOR_AND_PRODUCTION_PACK.md"', 'href="02_TIMELINE.json"')
             page = page.replace('导演生产稿</a>', '本场分镜</a>')
             write_text(stage / 'index.html', page)
-            if block['id'] in ['H04', 'H05', 'H06']:
+            if block['has_song_reference']:
                 write_text(stage / '03_MUSIC_README.md',
                     f"# {block['id']} 音频使用\n\n音频1：本场真实《卜卦》曲参，最长22秒，尚待补。音频2：孙亚龙4秒音色；音频3：潘慧4秒音色。后两份已有并随包提供。三份总长不得超过30秒。不要把说话样本当作歌声或伴奏。\n\n本场分唱与预排时码见02_TIMELINE.json的music_cues和01_PROMPT.txt。真实音源尚未锁定，需依实际歌句校准，不能声称已逐字对齐。\n\n如果改为一条完整30秒混合导唱，仅上传该导唱，并同步替换Prompt的音频约定；不再附加音色2/3。\n\n" + previous_text(block) + '\n')
             validate_archive_tree(stage, one)
@@ -73,9 +79,13 @@ def build(out):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--out', type=Path, required=True)
+    parser.add_argument('--blocks', nargs='+', choices=[f'H{i:02}' for i in range(1, 8)],
+                        help='Build only these scenes; other scene ZIPs are not touched.')
     args = parser.parse_args()
     dest = args.out.resolve()
     assert not dest.is_relative_to(ROOT), 'Deliver ZIPs outside the Git repository'
-    results = build(dest)
-    write_json(dest / 'BUILD_RECEIPT.json', results)
+    results = build(dest, args.blocks)
+    receipt_name = ('BUILD_RECEIPT_' + '_'.join(r['id'] for r in results) + '.json'
+                    if args.blocks else 'BUILD_RECEIPT.json')
+    write_json(dest / receipt_name, results)
     print(json.dumps(results, ensure_ascii=False, indent=2))

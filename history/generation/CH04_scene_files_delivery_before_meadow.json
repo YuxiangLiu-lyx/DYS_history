@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-24",
+  "format": "one_standalone_zip_per_scene",
+  "source": "releases/huibenji/chapter04_v1",
+  "files": [
+    {
+      "id": "H01",
+      "name": "三梦惊醒",
+      "file_name": "CH04_H01.zip",
+      "local_path": "/workspace/scratch/217ce8a5e48d/deliverables/ch04_scene_files/CH04_H01.zip",
+      "bytes": 15139575,
+      "sha256": "689322839d6d66780961d99830c7df021babe96f0fe307af5ffd5349e71bb36b",
+      "standalone_links_valid": true,
+      "missing_reference_ids": [],
+      "library_file_id": "libfile_8f0bd5843e288191a6284f26c23c3065",
+      "file_id": "file_00000000ce5081f5a326a27f9c96d84c",
+      "library_version": 0,
+      "saved": true,
+      "validated_after_save": true
+    },
+    {
+      "id": "H02",
+      "name": "梦醒未安，客栈议策",
+      "file_name": "CH04_H02.zip",
+      "local_path": "/workspace/scratch/217ce8a5e48d/deliverables/ch04_scene_files/CH04_H02.zip",
+      "bytes": 13877756,
+      "sha256": "647de39197cea3f28a6a9b18012a985f616bd1dda72ca1c74fa6590196de50e1",
+      "standalone_links_valid": true,
+      "missing_reference_ids": [],
+      "library_file_id": "libfile_6414096c5a588191be8d43b5f60f262a",
+      "file_id": "file_000000004c9881f591c72c1971f89ef3",
+      "library_version": 0,
+      "saved": true,
+      "validated_after_save": true
+    },
+    {
+      "id": "H03",
+      "name": "以曲相邀，松下将逢",
+      "file_name": "CH04_H03.zip",
+      "local_path": "/workspace/scratch/217ce8a5e48d/deliverables/ch04_scene_files/CH04_H03.zip",
+      "bytes": 9040146,
+      "sha256": "822eda565e4bcf0134592886057bb744f0235af7b9a1a22817ee8229077fb668",
+      "standalone_links_valid": true,
+      "missing_reference_ids": [
+        "S15_NEW",
+        "P_RUAN"
+      ],
+      "library_file_id": "libfile_e26f54c909b88191acddd7005c258c66",
+      "file_id": "file_00000000cce081f899d37c6e0f31e084",
+      "library_version": 0,
+      "saved": true,
+      "validated_after_save": true
+    },
+    {
+      "id": "H04",
+      "name": "男声起曲，她循声回首",
+      "file_name": "CH04_H04.zip",
+      "local_path": "/workspace/scratch/217ce8a5e48d/deliverables/ch04_scene_files/CH04_H04.zip",
+      "bytes": 4400030,
+      "sha256": "b82dea58144bbd995d48996e560f63896d6a1a77526885ed6ad691d20f2c2bda",
+      "standalone_links_valid": true,
+      "missing_reference_ids": [
+        "S15_NEW",
+        "P_RUAN",
+        "KF_H04_START",
+        "SONG_A_PENDING_MAX22S"
+      ],
+      "library_file_id": "libfile_7d5091e13808819197422f6702ce48a2",
+      "file_id": "file_00000000b8c881f8ad447b34be8e46b6",
+      "library_version": 0,
+      "saved": true,
+      "validated_after_save": true
+    },
+    {
+      "id": "H05",
+      "name": "女声接曲，放琴相携",
+      "file_name": "CH04_H05.zip",
+      "local_path": "/workspace/scratch/217ce8a5e48d/deliverables/ch04_scene_files/CH04_H05.zip",
+      "bytes": 4400258,
+      "sha256": "7787d9847ee3e3351bb81125951a9ed0c4427dd4e16f64056f5fc06a2c64ccd3",
+      "standalone_links_valid": true,
+      "missing_reference_ids": [
+        "S15_NEW",
+        "P_RUAN",
+        "KF_H05_START",
+        "SONG_B_PENDING_MAX22S"
+      ],
+      "library_file_id": "libfile_7000696e448081919aaacb966b6fa5ff",
+      "file_id": "file_00000000e570820d85edf2f6d5f1d23c",
+      "library_version": 0,
+      "saved": true,
+      "validated_after_save": true
+    },
+    {
+      "id": "H06",
+      "name": "伴奏渐歇，清唱定情",
+      "file_name": "CH04_H06.zip",
+      "local_path": "/workspace/scratch/217ce8a5e48d/deliverables/ch04_scene_files/CH04_H06.zip",
+      "bytes": 4399701,
+      "sha256": "308677ab16334764a23a4ddba2ea732417983495ae56fb1f447c653d5714eb12",
+      "standalone_links_valid": true,
+      "missing_reference_ids": [
+        "S15_NEW",
+        "KF_H06_START",
+        "SONG_C_PENDING_MAX22S"
+      ],
+      "library_file_id": "libfile_3b11248436b481919088ef07aa5566bb",
+      "file_id": "file_0000000071f881fd8a8bd20c2ad79df2",
+      "library_version": 0,
+      "saved": true,
+      "validated_after_save": true
+    }
+  ],
+  "all_saved_and_validated": true,
+  "plot_changed": false,
+  "new_media_generated": false
+}

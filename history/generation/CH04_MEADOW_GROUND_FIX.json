@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": "KF_H07_START",
+      "file": "assets/keyframes/CH04/H07_START_MEADOW_v02.png",
+      "args": {
+        "referenced_image_paths": [
+          "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/CH04/H07_START_MEADOW_v01.png"
+        ],
+        "transparent_background": false,
+        "prompt": "Precise local object-placement edit of this single historical film photograph. Keep the two people EXACTLY unchanged: identical faces, eyes, closed-mouth expressions, hair, clothes, relaxed arms, position, distance, scale and all landscape, huge pine, sunset and framing. MOVE ONLY the one ornate round red/gold lute currently lying on grass at the lower RIGHT of the woman to the GRASS JUST OUTSIDE THE MAN'S LEFT SIDE at lower-left of frame, about half a step behind and screen-left of his leftmost foot, comfortably within his own crouching reach and wholly OUTSIDE the gap/path between the two people. It lies flat, soundboard facing up, neck pointing diagonally toward upper-left/back of image, fully supported by grass. Same actual instrument scale relative to man, identical round body, red rim/gold pattern/fourstrings/two tassels. Remove lute from former right position and seamlessly restore grass there, ONLY ONE instrument in whole picture. Do not move or rescale people or camera, do not add gestures or hands. Natural photoreal edit, no stone or table or text."
+      }
+    },
+    {
+      "id": "KF_H07_END",
+      "file": "assets/keyframes/CH04/H07_END_MEADOW_v03.png",
+      "args": {
+        "referenced_image_paths": [
+          "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/CH04/H07_END_MEADOW_v02.png"
+        ],
+        "transparent_background": false,
+        "prompt": "Precise minimal object-placement edit. Keep this entire16:9 scenic final frame EXACTLY unchanged, particularly the VERY SMALL kissing couple, huge pine, landscape, sunset, lighting, camera and framing. Move ONLY the small round red-gold lute lying on grass to the right of the tiny couple: it must lie flat in the grass about half a step behind and to the LEFT OF THE NAVY MAN, so it is outside their shared path. Soundboard up, neck toward upper-left/back. Instrument must remain tiny and correctly proportioned to the tiny people (about half the man's height in total length), recognizable only as a small reddish round instrument shape. Seamlessly replace its previous location near tree right side with grass. Exactly ONE lute in entire picture. Do not enlarge the people, do not change their pose, do not move the giant tree or sunset, do not change any face, no new objects, no text."
+      }
+    }
+  ],
+  "reason": "落琴改孙身侧半步范围的画左后草地，避免跨越潘慧走位线路"
+}

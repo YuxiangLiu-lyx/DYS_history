@@ -1,0 +1,11 @@
+{
+  "args": {
+    "referenced_image_paths": [
+      "/workspace/scratch/217ce8a5e48d/DYS_history/assets/keyframes/CH04/H07_END_MEADOW_v01.png"
+    ],
+    "transparent_background": false,
+    "prompt": "Precise cinematic composition edit of this single photorealistic16:9 image. KEEP the entire landscape, the massive pine, grass hill, sunset colors, sun, mountains, image framing, lighting and texture unchanged. Make ONLY the two kissing fully-clothed adult people and their nearby lute considerably SMALLER to emphasize human smallness against the enormous ancient tree: the combined couple should be only about8% of frame HEIGHT, less than HALF their current height, still grounded on the same grassy crest to the LEFT of the huge trunk. They are small elegant silhouettes but retain the navy man at left, pale-blue woman at right, standing upright sharing the same quiet kiss, hands low at waist, no shoulder/neck embrace. Scale the lute by the same factor, keep it flat on grass to their right toward tree base. Repair old larger figure locations with seamless natural grass and distant landscape. Do not enlarge heads or render closeup, do not change the tree. No new objects, no text, no extra people. The majestic tree and sunset should overwhelmingly dominate the picture, a profoundly quiet feature-film ending."
+  },
+  "output": "assets/keyframes/CH04/H07_END_MEADOW_v02.png",
+  "reason": "人物体量缩小，环境主导"
+}

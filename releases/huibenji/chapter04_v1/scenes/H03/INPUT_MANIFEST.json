@@ -6,8 +6,8 @@
   "film_start_seconds": 60,
   "production_ready": false,
   "prompt_source": "releases/huibenji/chapter04_v1/prompts/H03.txt",
-  "prompt_sha256": "1cc4068d55607ae77fe5df700034461b4699b53c80c5295bc4df77cc14106254",
-  "prompt_characters_including_newline": 401,
+  "prompt_sha256": "f65f8e71e8395883ae921ee19122d8aafb61bdb3dacbe443c002e8b4d2b6701c",
+  "prompt_characters_including_newline": 549,
   "prompt_bundle_path": "03_H03/01_PROMPT.txt",
   "images": [
     {
@@ -46,24 +46,28 @@
     {
       "slot": 4,
       "ref_id": "S15_NEW",
-      "label": "申时松下·石台折布新场景",
-      "available": false,
-      "source_path": null,
-      "sha256": null,
-      "size_bytes": null,
-      "bundle_path": "03_H03/02_images/04_S15_NEW_MISSING.md",
-      "upload_this_file": false
+      "label": "夕照草坡·巨大迎客松",
+      "available": true,
+      "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+      "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
+      "size_bytes": 2855464,
+      "bundle_path": "03_H03/02_images/04_S15_NEW.png",
+      "upload_this_file": true,
+      "review_status": "generated_candidate_available_for_review",
+      "actual_video_frame": false
     },
     {
       "slot": 5,
       "ref_id": "P_RUAN",
-      "label": "小阮·道具",
-      "available": false,
-      "source_path": null,
-      "sha256": null,
-      "size_bytes": null,
-      "bundle_path": "03_H03/02_images/05_P_RUAN_MISSING.md",
-      "upload_this_file": false
+      "label": "朱漆金纹阮·道具",
+      "available": true,
+      "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
+      "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
+      "size_bytes": 2421203,
+      "bundle_path": "03_H03/02_images/05_P_RUAN.png",
+      "upload_this_file": true,
+      "review_status": "generated_candidate_available_for_review",
+      "actual_video_frame": false
     },
     {
       "slot": 6,
@@ -75,6 +79,32 @@
       "size_bytes": 1907493,
       "bundle_path": "03_H03/02_images/06_C05.png",
       "upload_this_file": true
+    },
+    {
+      "slot": 7,
+      "ref_id": "C01_RUAN_HOLD",
+      "label": "孙亚龙·便装手持朱漆金纹阮",
+      "available": true,
+      "source_path": "assets/characters/C01/C01_RUAN_HOLD_v01.png",
+      "sha256": "dd40ae5e8f841783c65cd0891b2ca125a33c0ed2b3fae0650aa04431d70e502c",
+      "size_bytes": 2175435,
+      "bundle_path": "03_H03/02_images/07_C01_RUAN_HOLD.png",
+      "upload_this_file": true,
+      "review_status": "generated_candidate_available_for_review",
+      "actual_video_frame": false
+    },
+    {
+      "slot": 8,
+      "ref_id": "KF_H04_START",
+      "label": "H04起始规划帧",
+      "available": true,
+      "source_path": "assets/keyframes/CH04/H04_START_MEADOW_v01.png",
+      "sha256": "b2a9ac06140ec832cc25575b4c0ff7b108aef09b50e7e1c7d9f7d9eac79cf4c5",
+      "size_bytes": 2815962,
+      "bundle_path": "03_H03/02_images/08_KF_H04_START.png",
+      "upload_this_file": true,
+      "review_status": "generated_candidate_available_for_review",
+      "actual_video_frame": false
     }
   ],
   "audio": [
@@ -112,16 +142,18 @@
       30
     ],
     "file": null,
-    "instruction": "用客栈真实末4秒；当日下午另用新松下空间图。"
+    "instruction": "用H02真实末4秒承接室内孙左腿右与光线；22秒明确时间跳跃到申时末夕阳草坡，以新空间图重建外景。"
   },
   "previous_video_bundle_readme": "03_H03/04_previous_video/README.md",
   "first_frame_description": "小腿继续看孙，接上一段提议。",
-  "last_frame_description": "孙画左前景抱小阮，潘慧画右4米外背身；石台已入画。",
+  "last_frame_description": "夕阳草坡；孙左前景抱朱漆金纹阮，约18米外潘慧背身立在巨大迎客松下；双人未接触，尚未弹唱。",
+  "planning_frames_are_actual_video_frames": false,
+  "planning_keyframe_reference_ids": [
+    "KF_H04_START"
+  ],
+  "has_song_reference": false,
   "known_audio_seconds": 20.0,
   "planned_maximum_audio_seconds": 20.0,
-  "missing_slot_ids": [
-    "S15_NEW",
-    "P_RUAN"
-  ],
-  "other_required_checks": "H02实际末4秒未生成；松下石台和小阮新图未生成。"
+  "missing_slot_ids": [],
+  "other_required_checks": "H02实际末4秒未生成；本场乐器、手持和松下新图已生成可审阅，实际连续性待实片核验。"
 }

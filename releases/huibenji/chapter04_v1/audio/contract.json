@@ -151,7 +151,7 @@
     "exact_backing_preserved_by_model": false
   },
   "precise_mode": {
-    "description": "需要严格真实伴奏/逐字时码时，先制90秒双人歌声母带，分3条30秒混合导唱；每任务只上传其30秒，不叠加4秒音色。",
+    "description": "需要严格真实伴奏/逐字时码时，先制H04–H06共90秒音乐母带，分3条30秒混合导唱；每任务只上传其30秒，不叠加4秒音色。H07单独30秒为环境与呼吸，无歌曲导唱。",
     "masters": [
       null,
       null,
@@ -160,25 +160,60 @@
     "requires_source_and_singing_track": true
   },
   "instrument_stop": {
-    "block": "H05",
-    "time": 19.2
+    "block": "H06",
+    "planned_time": 9.54,
+    "actual_time": null,
+    "anchor": "T2句尾最后一次轻拨与余音自然终止；持阮静手唱完T3/T4，19.8秒后才放琴。"
   },
   "all_backing_stop": {
     "block": "H06",
-    "time": 9.54,
-    "tolerance": "依T2歌尾与真实小节微调；全部乐器与残响退净",
-    "fade_window": [
-      8.94,
-      9.54
-    ]
+    "planned_time": 9.54,
+    "actual_time": null,
+    "anchor": "由选定音源T2完整句尾和末拍决定；T3/T4为清唱。",
+    "fade_window": null,
+    "instruction": "先按实际末拍自然收束伴奏与琴尾，不能照旧版8.94–9.54秒机械截断。必须保留人声；此处没有已测量音频。"
   },
   "singing_stop": {
     "block": "H06",
-    "time": 19.8
+    "planned_time": 19.8,
+    "actual_time": null,
+    "instruction": "T4完整尾音结束后闭口；不硬切半字，放琴动作只能在唱毕后。"
   },
   "kiss": {
+    "block": "H07",
+    "first": [
+      15,
+      17.5
+    ],
+    "pause": [
+      17.5,
+      19.5
+    ],
+    "second": [
+      19.5,
+      30
+    ],
+    "wide_ending_from": 24.5,
+    "no_singing": true
+  },
+  "revision": "release_v1_2_romantic_meadow",
+  "instrument_setdown": {
     "block": "H06",
-    "start": 24,
-    "end": 30
-  }
+    "planned_start": 19.8,
+    "planned_end": 25,
+    "surface": "孙身侧画左后方约半步、双方靠近路线之外的柔软草地",
+    "state": "双手放稳，琴面朝上、琴颈指画左后方，松手后直起；不绕过潘，H07全段位置不变"
+  },
+  "music_free_block": {
+    "block": "H07",
+    "external_audio_references": [],
+    "allowed_generated_audio": [
+      "自然呼吸",
+      "衣料",
+      "草叶",
+      "松风"
+    ],
+    "no_new_music": true
+  },
+  "director_timing_note": "所有 planned 时码是导演容量预算，非实际录音或逐字口型测量；对白与H01–H03时序原样保留，12个歌句分配原样保留。实源校准优先调整前段无词过门，保留H06约5秒完整放琴和末5秒静立；不得截歌尾挤动作。"
 }

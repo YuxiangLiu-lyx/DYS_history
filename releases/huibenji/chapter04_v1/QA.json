@@ -28,18 +28,38 @@
     ]
   ],
   "dream_source_bytes_unchanged": true,
-  "H02_H06_blocks_unchanged": true,
-  "all_shots_dialogues_and_duration_unchanged": true,
-  "all_bundle_links_resolve": true,
-  "image_and_audio_slots_preserved": true,
   "html_browser_render_verified": false,
   "html_browser_render_note": "Runtime has no Chromium binary; HTML structure and local link targets checked, browser screenshot not produced.",
   "actual_av_pass": null,
   "actual_song_source_received": false,
   "prompt_character_count_includes_trailing_newline": true,
   "notes": [
-    "梦图经逐张查看确认，上传图片4/5/6并由Prompt显式调用。",
-    "现有素材复制SHA验证；实际Seedance输出未生成或验收。",
-    "缺少曲源、关键帧和上一段视频，保持真实缺项状态。"
-  ]
+    "本轮静态检查覆盖七段30秒、连续镜头秒表、Prompt字符数与TXT一致。",
+    "H01/H02与草坡版归档基线完整相同；H03对白同字同秒。",
+    "七张新草坡/关键帧已生成、整合并目视审阅；两张朱漆阮/持阮资产沿用。ZIP及实片另行验收。",
+    "真实曲源与Seedance原片仍缺，未作音画验收。",
+    "T2伴奏收束以实际句尾为锚，actual_time=null；无固定8.94–9.54强切。",
+    "落琴固定孙身侧画左后方半步、避开靠近路线，琴颈画左后方；最终候选首/尾构图采用H07_START v02和H07_END v03。",
+    "第一次吻保留自然侧脸轮廓与鼻唇接触，不要求扭头露双脸。",
+    "实曲校准优先调前段无词过门，保留H06完整落琴与静立时间。"
+  ],
+  "H01_H02_blocks_unchanged": true,
+  "H03_dialogues_unchanged": true,
+  "duration_seconds": 210,
+  "blocks": 7,
+  "prompt_txt_matches_timeline": true,
+  "romantic_assets_visual_review": {
+    "performed": true,
+    "scope": "静帧景色、主要身份特征、落琴位置和镜头构图；不等于动态脸部/口型验收",
+    "user_approved": false
+  },
+  "H07_external_audio_empty": true,
+  "validated_bundle_ids": [
+    "H03",
+    "H04",
+    "H05",
+    "H06",
+    "H07"
+  ],
+  "prior_H01_H02_zip_untouched": true
 }

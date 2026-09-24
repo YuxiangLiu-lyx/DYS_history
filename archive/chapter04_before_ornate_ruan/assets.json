@@ -1,0 +1,89 @@
+{
+  "refs": {
+    "C01": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+    "C05": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+    "C03": "assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png",
+    "E06": "assets/characters/E06/E06_MAID_v01.png",
+    "S06": "assets/scenes/S06_ROOM_NIGHT_v01.png",
+    "S14": "assets/scenes/S14_INN_ROOM_NIGHT_v01.png",
+    "S15_NEW": null,
+    "P_RUAN": null,
+    "KF_H04_START": null,
+    "KF_H05_START": null,
+    "KF_H06_START": null,
+    "D01": "assets/props/CH04/D01_BARRAGE_DREAM.png",
+    "D02": "assets/props/CH04/D02_PROPOSAL_DREAM.png",
+    "D03": "assets/props/CH04/D03_CHAT_DREAM.png",
+    "VOICE_C01": "assets/audio/ch04/C01_TIMBRE_10S_v01.wav",
+    "VOICE_C05": "assets/audio/ch04/C05_TIMBRE_10S_v01.wav",
+    "VOICE_C03": "assets/audio/ch04/C03_TIMBRE_10S_v01.wav",
+    "TIMBRE_C01_4S": "assets/audio/ep05/C01_TIMBRE_4S_v01.wav",
+    "TIMBRE_C05_4S": "assets/audio/ep05/C05_TIMBRE_4S_v01.wav"
+  },
+  "available": {
+    "C01": true,
+    "C05": true,
+    "C03": true,
+    "E06": true,
+    "S06": true,
+    "S14": true,
+    "S15_NEW": false,
+    "P_RUAN": false,
+    "KF_H04_START": false,
+    "KF_H05_START": false,
+    "KF_H06_START": false,
+    "D01": true,
+    "D02": true,
+    "D03": true,
+    "VOICE_C01": true,
+    "VOICE_C05": true,
+    "VOICE_C03": true,
+    "TIMBRE_C01_4S": true,
+    "TIMBRE_C05_4S": true
+  },
+  "missing_reference_spec": {
+    "S15_NEW": "由S15_PINE_PATH_DAY_v01布局派生申时平坦松下空间，固定画右石台折布；空景及双人站位先审。",
+    "P_RUAN": "轻便四弦小阮外观和手持版本，同尺寸；无肩带、无现代拾音器。",
+    "KF_H04_START": "孙左抱阮，潘右背身，相距4米，石台画右。",
+    "KF_H05_START": "潘正侧向孙，距离2.5米，孙仍抱阮。",
+    "KF_H06_START": "阮平放石台折布，男女相携扶腰，站位承前。",
+    "additional": "潘米白寝衣与松散睡发、客栈上午光需要新关键帧核定；既有夜景图只供空间，不能假称已生成日景。"
+  },
+  "dreams": {
+    "order": [
+      "D01",
+      "D02",
+      "D03"
+    ],
+    "edit_windows": [
+      [
+        4,
+        7
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        15,
+        18
+      ]
+    ],
+    "source_identity_verified": false,
+    "insert_original_pixels": true,
+    "no_unmasking": true,
+    "labels": [
+      "密集弹幕图",
+      "求婚图",
+      "打码聊天图"
+    ],
+    "H01_image_slots": [
+      4,
+      5,
+      6
+    ],
+    "primary_mode": "explicit_in_prompt",
+    "fallback_mode": "post_replace_three_windows_only_if_generation_changes_source",
+    "upload_source_pixels_unchanged": true
+  }
+}

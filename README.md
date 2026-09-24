@@ -1,8 +1,12 @@
-[第四回 · 六个独立场景文件](releases/huibenji/chapter04_v1/SCENE_FILES.md)
+# 当前制作：第四回草坡浪漫版
 
-[第四回 · 按场景使用Prompt、编号图片与音频](releases/huibenji/chapter04_v1/ORDERED_INPUTS.md)
+《梦里惊前尘，松间诉衷情》：**7×30秒，共210秒**。三梦和客栈对白保留；巨型迎客松、夕阳草坡、缓慢弹唱靠近；琴放孙身侧画左草地；最后独立30秒用于凝视、轻吻停顿、再次相吻和大远景。旧石台、牵手转圈与扶臂版本停止使用。
 
-> 当前投稿第四回重制入口：[梦里惊前尘，松间诉衷情](releases/huibenji/chapter04_v1/START_HERE.md)，180秒、6段。旧制作编号保留。
+[七个独立场景文件](releases/huibenji/chapter04_v1/SCENE_FILES.md) · [按顺序使用Prompt、图片、音频](releases/huibenji/chapter04_v1/ORDERED_INPUTS.md) · [导演与秒表](releases/huibenji/chapter04_v1/DIRECTOR_AND_PRODUCTION_PACK.md) · [新AI先读](AGENTS.md)
+
+乐器单图、孙亚龙持阮图及七张新巨松草坡规划图已备，每段6–8图，Prompt最长750字符。H01/H02原包沿用，H03–H06更新，新增H07。角色原声样本已附；真实《卜卦》曲源仍缺，未生成Seedance成片或验证口型。新图是可审阅候选，不冒充实拍首尾帧。
+
+以下为历史制作记录，旧“最新”仅指当时版本；第四回当前执行以上方入口和AGENTS顶部为准。
 
 # 德云史记 · 慧后本纪
 

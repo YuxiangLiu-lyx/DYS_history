@@ -1,0 +1,35 @@
+{
+  "chapter": 4,
+  "title": "梦里惊前尘，松间诉衷情",
+  "status": "director_pack_ready_assets_and_song_pending",
+  "duration_seconds": 180,
+  "blocks": 6,
+  "prompt_lengths": {
+    "H01": 541,
+    "H02": 411,
+    "H03": 401,
+    "H04": 433,
+    "H05": 431,
+    "H06": 442
+  },
+  "dream_images_received": 3,
+  "voice_samples_received": true,
+  "song_received": false,
+  "storyboard_complete": false,
+  "video_generated": false,
+  "audio_generated": false,
+  "github_synced": true,
+  "internal_old_episode_paths_preserved": true,
+  "revision": "release_v1_1_ordered_dream_refs",
+  "prompt_length_includes_trailing_newline": true,
+  "ordered_assets_entry": "ORDERED_INPUTS.md",
+  "dream_image_prompt_refs_fixed": true,
+  "dream_image_order": [
+    "密集弹幕图",
+    "求婚图",
+    "打码聊天图"
+  ],
+  "previous_content_commit": "519f86a7bb6da078de4fc5cc2a47f2f8dc84883b",
+  "content_commit": "d78983df9a368f741c0c49d44bebac219de590f8",
+  "ordered_bundle_validated": true
+}

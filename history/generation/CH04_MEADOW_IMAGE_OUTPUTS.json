@@ -1,0 +1,268 @@
+{
+  "date": "2026-09-24",
+  "tool": "image_gen.imagegen",
+  "model": "built-in model; precise model not returned",
+  "new_meadow_generation_calls": 10,
+  "selected_meadow_images": 7,
+  "reused_instrument_images": 2,
+  "prompt_records": [
+    "history/generation/CH04_MEADOW_IMAGE_PROMPTS.json",
+    "history/generation/CH04_MEADOW_END_SCALE_FIX.json",
+    "history/generation/CH04_MEADOW_GROUND_FIX.json"
+  ],
+  "prior_instrument_prompt_files": [
+    "history/generation/CH04_ruan_C01_RUAN_HOLD_prompt.txt",
+    "history/generation/CH04_ruan_KF_H04_START_prompt.txt",
+    "history/generation/CH04_ruan_KF_H05_START_prompt.txt",
+    "history/generation/CH04_ruan_KF_H06_START_FIX_prompt.txt",
+    "history/generation/CH04_ruan_KF_H06_START_prompt.txt",
+    "history/generation/CH04_ruan_P_RUAN_prompt.txt",
+    "history/generation/CH04_ruan_S15_NEW_prompt.txt"
+  ],
+  "previous_waist_edit_aborted": {
+    "status": "aborted_by_user",
+    "output": null,
+    "superseded_by": "Latest user removes the arm-hold / old waist pose and stone-platform design."
+  },
+  "visual_review": "已查看输出；景色/角色/痣位/道具/大致构图及落琴方位可审；远景不能用于逐像素脸型或弦数验收。用户尚未逐张确认。",
+  "files": [
+    {
+      "path": "assets/characters/C01/C01_RUAN_HOLD_v01.png",
+      "sha256": "dd40ae5e8f841783c65cd0891b2ca125a33c0ed2b3fae0650aa04431d70e502c",
+      "bytes": 2175435,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "selected": true,
+      "review_status": "candidate_pending_user_review",
+      "seed": null,
+      "task_id": null,
+      "cost": null
+    },
+    {
+      "path": "assets/keyframes/CH04/C05_TURN_MEADOW_v01.png",
+      "sha256": "a18329cf8b283c3cba1efcd12365cb86eec995970378236f543b3d03ac56abc4",
+      "bytes": 2183177,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": true,
+      "review_status": "candidate_pending_user_review",
+      "seed": null,
+      "task_id": null,
+      "cost": null
+    },
+    {
+      "path": "assets/keyframes/CH04/H04_START_MEADOW_v01.png",
+      "sha256": "b2a9ac06140ec832cc25575b4c0ff7b108aef09b50e7e1c7d9f7d9eac79cf4c5",
+      "bytes": 2815962,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": true,
+      "review_status": "candidate_pending_user_review",
+      "seed": null,
+      "task_id": null,
+      "cost": null
+    },
+    {
+      "path": "assets/keyframes/CH04/H04_START_RUAN_v01.png",
+      "sha256": "256222846c7bf51ed915a0d588cfe7ed2e4921d6e5d649b3ebe098769c94a30f",
+      "bytes": 3020879,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": false,
+      "review_status": "superseded_by_romantic_meadow_staging",
+      "seed": null,
+      "task_id": null,
+      "cost": null
+    },
+    {
+      "path": "assets/keyframes/CH04/H05_START_MEADOW_v01.png",
+      "sha256": "fc38ff94b5a289e7f3cc796388afe84bb04bc94a171299a03f45e77f307eeb6d",
+      "bytes": 2800623,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": true,
+      "review_status": "candidate_pending_user_review",
+      "seed": null,
+      "task_id": null,
+      "cost": null
+    },
+    {
+      "path": "assets/keyframes/CH04/H05_START_RUAN_v01.png",
+      "sha256": "c0e5acc5319186b95bbbf9fb191fb30688efb92f74364eccb97ddeb46aae5c17",
+      "bytes": 2908937,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": false,
+      "review_status": "superseded_by_romantic_meadow_staging",
+      "seed": null,
+      "task_id": null,
+      "cost": null
+    },
+    {
+      "path": "assets/keyframes/CH04/H06_START_MEADOW_v01.png",
+      "sha256": "c82adbe1b223837cf9acfa765daf7ae1ba5c37d30aa4b1157fd20ba2617ae159",
+      "bytes": 2587536,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": true,
+      "review_status": "candidate_pending_user_review",
+      "seed": null,
+      "task_id": null,
+      "cost": null
+    },
+    {
+      "path": "assets/keyframes/CH04/H06_START_RUAN_v01.png",
+      "sha256": "8814926a294f4330596fba10f78f68583cc2543bd824a619397b545668fb74a2",
+      "bytes": 2785342,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": false,
+      "review_status": "superseded_by_romantic_meadow_staging",
+      "seed": null,
+      "task_id": null,
+      "cost": null
+    },
+    {
+      "path": "assets/keyframes/CH04/H06_START_RUAN_v02.png",
+      "sha256": "b3ca08f0ba4b0bb72fe3777b5626272c47293778d2e0c609b8d2e191a214df16",
+      "bytes": 2723290,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": false,
+      "review_status": "superseded_by_romantic_meadow_staging",
+      "seed": null,
+      "task_id": null,
+      "cost": null
+    },
+    {
+      "path": "assets/keyframes/CH04/H07_END_MEADOW_v01.png",
+      "sha256": "e2de0127e3024fb3acbc1e683330a157b2c467905d883898d8eb66dd9c299e1b",
+      "bytes": 2883084,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": false,
+      "review_status": "superseded_by_romantic_meadow_staging",
+      "seed": null,
+      "task_id": null,
+      "cost": null
+    },
+    {
+      "path": "assets/keyframes/CH04/H07_END_MEADOW_v02.png",
+      "sha256": "cc57dbffb1dcd36dac0b93e97a7d7fd486c0634eaf429d1c00bed0bc990c8ecb",
+      "bytes": 2787497,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": false,
+      "review_status": "superseded_by_romantic_meadow_staging",
+      "seed": null,
+      "task_id": null,
+      "cost": null
+    },
+    {
+      "path": "assets/keyframes/CH04/H07_END_MEADOW_v03.png",
+      "sha256": "eebbb829cca1a73fe8ac7a2b8d5693975d73bd66471f85e0f130ece771f00eb9",
+      "bytes": 2684428,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": true,
+      "review_status": "candidate_pending_user_review",
+      "seed": null,
+      "task_id": null,
+      "cost": null
+    },
+    {
+      "path": "assets/keyframes/CH04/H07_START_MEADOW_v01.png",
+      "sha256": "8c23490c187cb048485f0e7828d9cc5f5f181d2dadff3a853f2cdcc687fed56c",
+      "bytes": 2663171,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": false,
+      "review_status": "superseded_by_romantic_meadow_staging",
+      "seed": null,
+      "task_id": null,
+      "cost": null
+    },
+    {
+      "path": "assets/keyframes/CH04/H07_START_MEADOW_v02.png",
+      "sha256": "42e797acf39639d3848d00400ff81562614abc7bcc88cdfb4734c5073ac964bc",
+      "bytes": 2602844,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": true,
+      "review_status": "candidate_pending_user_review",
+      "seed": null,
+      "task_id": null,
+      "cost": null
+    },
+    {
+      "path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
+      "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
+      "bytes": 2421203,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "selected": true,
+      "review_status": "candidate_pending_user_review",
+      "seed": null,
+      "task_id": null,
+      "cost": null
+    },
+    {
+      "path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+      "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
+      "bytes": 2855464,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected": true,
+      "review_status": "candidate_pending_user_review",
+      "seed": null,
+      "task_id": null,
+      "cost": null
+    },
+    {
+      "path": "assets/scenes/S15_PINE_RUAN_PLATFORM_v01.png",
+      "sha256": "1e4ad169cab75bcda749808a1450cc1b779ff84d9c3577646b7b09e8c5c5b1fc",
+      "bytes": 3138061,
+      "dimensions": [
+        1672,
+        940
+      ],
+      "selected": false,
+      "review_status": "superseded_by_romantic_meadow_staging",
+      "seed": null,
+      "task_id": null,
+      "cost": null
+    }
+  ]
+}
