@@ -1,9 +1,9 @@
 {
   "project": "德云史记·慧后本纪",
   "updated_date": "2026-09-24",
-  "active_episode": "EP03-EP05",
-  "active_title": "一梦悬双画／灯下问苍生／松下听卜卦",
-  "status": "new_chapters_prepared_song_clock_pending",
+  "active_episode": "EP05",
+  "active_title": "松下听卜卦，一曲定情深",
+  "status": "EP05_v2_pack_complete_song_source_pending",
   "episode_directories": {
     "EP01": "episodes/ep01",
     "EP02": "episodes/ep02",
@@ -82,16 +82,16 @@
   "pan_identity_authority": "assets/characters/C05/C05_FRONT_HALF_v04.png",
   "pan_mole_lock": "正脸画面右侧嘴角下方皮肤，距唇线留间隔、同玉簪侧，不镜像",
   "next_actions": [
-    "审阅第三至五回导演稿及五张新图，补必要首尾关键帧。",
-    "提供最终使用的N04约18秒歌段，以及R02/R03两段30秒完整时间线原声；标注实际字音和笑场后更新导唱、Prompt、refs与时码。",
-    "按每段ZIP/上传清单准备生成；实片逐句听看口型、说话人、反打和衔接，再后期混音。"
+    "提供一次最终希望采用的《卜卦》音源或孙潘合唱录音，由制作方裁两段≤22秒曲参并校准唱句/音乐小节；试听已有两条4秒音色候选。",
+    "审阅第五回优化稿及必要关键帧；R01已有合格视频则直接复用，不再重生成。",
+    "补曲源并完成必要Storyboard后，先生成可直接采用的R02原生歌声+BGM；核验后用R02有声视频延长R03，再检查音乐接缝、口型与相吻。"
   ],
   "github": {
     "repository": "YuxiangLiu-lyx/DYS_history",
     "branch": "main",
-    "synced": true,
-    "previous_verified_commit": "0074f17a79cd298c8b05fba612f3d0e2f3231651",
-    "publication_status": "EP03_v1_1_published_and_verified",
+    "synced": false,
+    "previous_verified_commit": "972ab5644379921d5723f31f8b96c7945a1e4d7a",
+    "publication_status": "EP05_v2_preparing_for_publish",
     "remote_commit": "6a6f10eb7908416d42fd4cb730e97b8712c61428",
     "verified_path_count": 388,
     "receipt": "history/publication/EP03_v1_1_pack_receipt.json",
@@ -171,10 +171,10 @@
     },
     "EP05": {
       "title": "松下听卜卦，一曲定情深",
-      "revision": "v1",
+      "revision": "v2",
       "duration_seconds": 90,
       "base_generation_jobs": 3,
-      "shot_count": 18,
+      "shot_count": 13,
       "dialogue_count": 4,
       "script": "episodes/ep05/script/EP05_DIRECTOR_v1.md",
       "production_pack": "episodes/ep05/production/VIDEO_PRODUCTION_PACK.md",
@@ -187,8 +187,8 @@
       },
       "prompt_lengths": {
         "R01": 672,
-        "R02": 758,
-        "R03": 903
+        "R02": 760,
+        "R03": 905
       },
       "script_user_locked": false,
       "full_storyboard_generated": false,
@@ -197,42 +197,74 @@
       "song_audio_pending": [
         "R02",
         "R03"
-      ]
+      ],
+      "audio_mode": "native_singing_with_music",
+      "generate_audio": true,
+      "derived_voice_reference_manifest": "assets/audio/ep05/manifest.json",
+      "voice_reference_candidate_count": 2,
+      "voice_reference_durations_s": [
+        4,
+        4
+      ],
+      "voice_reference_listening_verified": false,
+      "actual_song_audio_received": false,
+      "singing_jobs": 2,
+      "continuation": "R03 requires R02 original 0–30s video with audio; extend by 30s",
+      "reference_audio_budget_s": {
+        "song_max": 22,
+        "male": 4,
+        "female": 4,
+        "total_max": 30
+      },
+      "bundle_record": "history/generation/EP05_v2_delivery_bundle.json",
+      "validation": "history/validation/EP05_v2_static.json",
+      "download_bundle_saved": true,
+      "static_validation_pass": true,
+      "audio_counts": {
+        "R01": 2,
+        "R02": 3,
+        "R03": 3
+      },
+      "available_audio_counts": {
+        "R01": 2,
+        "R02": 2,
+        "R03": 2
+      }
     }
   },
   "new_assets_this_revision": {
-    "scene_images": 3,
-    "dream_prop_images": 2,
-    "user_approved": false,
-    "current_selection": "assets/current_selection.json",
+    "scene_images": 0,
+    "character_images": 0,
+    "derived_voice_reference_clips": 2,
+    "source_audio_preserved": true,
+    "technical_audio_checks_pass": true,
+    "voice_singing_similarity_verified": false,
     "generation_records": [
-      "history/generation/EP03_05_new_scenes_generation.json",
-      "history/generation/EP03_dream_props_generation.json"
+      "assets/audio/ep05/manifest.json"
     ]
   },
   "required_missing_song_references": [
-    "EP02 N04 exact 18s final song excerpt",
-    "EP05 R02 final 30s guide including selected male song and interlude",
-    "EP05 R03 final 30s guide including split vocals, laugh and post-song tail"
+    "EP02 N04 exact 18s final song excerpt (unchanged outside this revision)",
+    "EP05 one actual selected song/duet recording; producer derives the two <=22s melody/lyric/accompaniment references"
   ],
   "new_chapters_total": {
     "duration_seconds": 240,
     "jobs": 8,
-    "narrative_shots": 47,
+    "narrative_shots": 42,
     "spoken_dialogues": 26,
     "prompt_character_range": [
       599,
-      903
+      905
     ],
     "image_count_range": [
       4,
       6
     ],
     "optional_extra_tail_frame_count": 1,
-    "validation": "history/validation/EP03_05_static.json",
+    "validation": "history/validation/EP05_v2_static.json",
     "story_review": "history/QA_20260923_EP03_05_story.md"
   },
   "new_chapters_download_bundles_saved": true,
   "new_chapters_bundle_record": "history/generation/EP03_05_delivery_bundles.json",
-  "latest_change": "EP03 P02 four-character opening, pause, emphasized three-character ending; each part spoken once"
+  "latest_change": "EP05 v2 native singing with accompaniment; 13 shots; male walks, female turn bridges blocks, duet, sustained mutual kiss; preserve voiced R02 for R03 extension"
 }

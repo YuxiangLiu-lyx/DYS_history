@@ -1,0 +1,69 @@
+{
+  "date": "2026-09-24",
+  "revision": "v1",
+  "assets": [
+    {
+      "id": "C01_TIMBRE_4S_v01",
+      "character_id": "C01",
+      "file": "assets/audio/ep05/C01_TIMBRE_4S_v01.wav",
+      "sha256": "cbc1ec7b6778382c09f39338bf006841aa4ab836ebe54c494cecbc9d35ef38a5",
+      "source_file": "assets/audio/voice_references/01_sun_yalong.mp3",
+      "source_sha256": "0cac07f7dd3f4c3fda80f316d92d48d273982818950dc477cd99895edca21b64",
+      "source_segment_s": [
+        1.65,
+        5.65
+      ],
+      "duration_seconds": 4.0,
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "sample_peak_dbfs": -4.5449087641639005,
+      "rms_dbfs": -18.964408687813375,
+      "transformation": "decode; trim; -1dB gain for headroom; 44.1kHz mono PCM16 WAV; no voice synthesis, denoise, pitch or tempo change",
+      "source_bytes_preserved": true,
+      "selection_basis": "C01 amplitude-silence boundaries; C05 interior 4s candidate. Not listening-verified.",
+      "review": {
+        "full_decode_pass": true,
+        "listened_by_assistant": false,
+        "sole_target_speaker_verified": false,
+        "clean_speech_verified": false,
+        "singing_similarity_verified": false
+      },
+      "purpose": "speech timbre conditioning only; never copy sample words into song"
+    },
+    {
+      "id": "C05_TIMBRE_4S_v01",
+      "character_id": "C05",
+      "file": "assets/audio/ep05/C05_TIMBRE_4S_v01.wav",
+      "sha256": "be89f1945d0cf8a5fb5633432bb0462fbdbcc747bf9a491b2329fee1e9f6afa6",
+      "source_file": "assets/audio/voice_references/02_pan_hui.mp3",
+      "source_sha256": "60413e1fe29a24dd1a2196a0add5001675ed4e54b69b0fc47c7c435d74ce06a1",
+      "source_segment_s": [
+        2.0,
+        6.0
+      ],
+      "duration_seconds": 4.0,
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "sample_peak_dbfs": -3.0721763900878223,
+      "rms_dbfs": -18.00702180237998,
+      "transformation": "decode; trim; -1dB gain for headroom; 44.1kHz mono PCM16 WAV; no voice synthesis, denoise, pitch or tempo change",
+      "source_bytes_preserved": true,
+      "selection_basis": "C01 amplitude-silence boundaries; C05 interior 4s candidate. Not listening-verified.",
+      "review": {
+        "full_decode_pass": true,
+        "listened_by_assistant": false,
+        "sole_target_speaker_verified": false,
+        "clean_speech_verified": false,
+        "singing_similarity_verified": false
+      },
+      "purpose": "speech timbre conditioning only; never copy sample words into song"
+    }
+  ],
+  "audio_budget_per_singing_task": {
+    "song_reference_max_s": 22,
+    "C01_s": 4,
+    "C05_s": 4,
+    "max_total_s": 30
+  },
+  "new_singing_audio_generated": false
+}

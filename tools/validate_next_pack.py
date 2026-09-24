@@ -7,11 +7,13 @@ from datetime import datetime, timezone
 import hashlib
 import json
 import re
+import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 EPISODES = {"ep03": ["P01", "P02"], "ep04": ["Q01", "Q02", "Q03"], "ep05": ["R01", "R02", "R03"]}
 SINGING = {"R02", "R03"}
+NATIVE_SINGING = "native_singing_with_music"
 
 
 def sha(data: bytes) -> str:
@@ -29,10 +31,24 @@ def safe_path(relative: str) -> Path:
     return path
 
 
+def media_info(path: Path) -> dict:
+    """Inspect actual reference bytes; declarations are not audio verification."""
+    result = subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration:stream=codec_type,duration",
+         "-of", "json", str(path)], capture_output=True, text=True, timeout=15, check=True,
+    )
+    data = json.loads(result.stdout)
+    duration = data.get("format", {}).get("duration")
+    if duration is None:
+        duration = max(float(s["duration"]) for s in data.get("streams", []) if s.get("duration") not in {None, "N/A"})
+    return {"duration_seconds": float(duration), "has_audio_stream": any(s.get("codec_type") == "audio" for s in data.get("streams", []))}
+
+
 def audit() -> dict:
     errors, warnings, pending, rows = [], [], [], []
     all_blocks, previous_rows = {}, []
     source_hashes = {}
+    media_cache = {}
 
     def issue(message: str, target: list = errors) -> None:
         target.append(message)
@@ -90,15 +106,29 @@ def audit() -> dict:
                     issue(f"{jid}: {side} is a description, not a rendered keyframe", pending)
         for job in jobs:
             jid = job["id"]
+            block = next((b for b in blocks if b["id"] == jid), {})
+            native = job.get("audio_mode", block.get("audio_mode")) == NATIVE_SINGING
             job_pending = []
             images, audio = job.get("slots", []), job.get("audio_slots", [])
+            audio_durations, planned_audio_seconds = [], 0.0
             if not 4 <= len(images) <= 7:
                 issue(f"{jid}: expected a restrained 4–7 image upload set, got {len(images)}")
             if job.get("source_duration_s") != 30 or job.get("source_keep_s") != [0, 30]:
                 issue(f"{jid}: job must retain source [0,30]")
             if job.get("image_count") != len(images) or job.get("audio_count") != len(audio):
                 issue(f"{jid}: declared reference count mismatch")
+            if native and len(images) != 5:
+                issue(f"{jid}: native singing uses exactly five selected image references")
+            if len(audio) > 10:
+                issue(f"{jid}: audio reference count exceeds the Seedance 2.5 limit of 10")
+            previous = job.get("previous_reference", {})
+            if previous != block.get("previous_reference", {}):
+                issue(f"{jid}: timeline and upload previous_reference differ")
             bound = set()
+            if previous.get("slot"):
+                bound.add(previous["slot"])
+            if previous.get("required") and not previous.get("video_file"):
+                job_pending.append(f"{jid}: required preceding video is awaiting generation ({previous.get('from_block')})")
             for field, label in [(images, "图片"), (audio, "音频")]:
                 for n, ref in enumerate(field, 1):
                     slot = ref.get("slot")
@@ -107,9 +137,17 @@ def audit() -> dict:
                     bound.add(slot)
                     relative = ref.get("file")
                     if not relative:
-                        message = f"{jid}/{slot}: required final song guide missing" if jid in SINGING and label == "音频" else f"{jid}/{slot}: reference file missing"
-                        if not (jid in SINGING and label == "音频" and ref.get("required") is True):
+                        allowed_missing_song = jid in SINGING and label == "音频" and ref.get("required") is True and (not native or n == 1)
+                        message = f"{jid}/{slot}: required song source missing" if allowed_missing_song else f"{jid}/{slot}: reference file missing"
+                        if not allowed_missing_song:
                             issue(message)
+                        if label == "音频":
+                            expected_duration = ref.get("expected_duration_seconds")
+                            if native and not isinstance(expected_duration, (int, float)):
+                                issue(f"{jid}/{slot}: missing song source needs an explicit expected_duration_seconds budget")
+                            elif isinstance(expected_duration, (int, float)):
+                                planned_audio_seconds += expected_duration
+                                audio_durations.append({"slot": slot, "duration_seconds": None, "reserved_seconds": expected_duration, "measured": False})
                         job_pending.append(message)
                         continue
                     path = safe_path(relative)
@@ -121,8 +159,25 @@ def audit() -> dict:
                     source_hashes[relative] = actual
                     if ref.get("sha256") != actual:
                         issue(f"{jid}/{slot}: missing or stale SHA-256 for {relative}")
+                    if label == "音频":
+                        try:
+                            if actual not in media_cache:
+                                media_cache[actual] = media_info(path)
+                            metadata = media_cache[actual]
+                            duration = metadata["duration_seconds"]
+                            audio_durations.append({"slot": slot, "duration_seconds": round(duration, 6), "measured": True})
+                            planned_audio_seconds += duration
+                            if not metadata["has_audio_stream"] or not 1.95 <= duration <= 30.05:
+                                issue(f"{jid}/{slot}: reference must contain audio lasting 2–30 seconds")
+                            expected_duration = ref.get("expected_duration_seconds")
+                            if native and isinstance(expected_duration, (int, float)) and duration > expected_duration + 0.000001:
+                                issue(f"{jid}/{slot}: actual audio duration exceeds its allocated budget")
+                        except (OSError, ValueError, subprocess.SubprocessError) as exc:
+                            issue(f"{jid}/{slot}: ffprobe could not verify audio duration: {exc}")
                     if label == "图片" and re.search(r"ANGLES|EXPRESSIONS|CONTACT|COLLAGE|REVIEW", path.name, re.I):
                         issue(f"{jid}: review/contact board included as model image input: {relative}")
+            if planned_audio_seconds > 30.000001:
+                issue(f"{jid}: actual audio plus missing-source reservations total {planned_audio_seconds:.3f}s, exceeding 30s")
             prompt_file = job.get("prompt_file")
             try:
                 prompt_bytes = safe_path(prompt_file).read_bytes()
@@ -140,12 +195,32 @@ def audit() -> dict:
             if mentioned - bound:
                 issue(f"{jid}: unbound reference tags {sorted(mentioned - bound)}")
             if jid in SINGING:
-                if len(audio) != 1 or audio[0].get("required") is not True:
+                if native:
+                    if len(audio) != 3 or any(a.get("required") is not True for a in audio):
+                        issue(f"{jid}: native singing requires one song source and two timbre samples")
+                    if [a.get("character_id") for a in audio[1:]] != ["C01", "C05"]:
+                        issue(f"{jid}: native singing timbre slots must bind C01 then C05")
+                    song_budget = audio[0].get("expected_duration_seconds") if audio else None
+                    if not isinstance(song_budget, (int, float)) or not 2 <= song_budget <= 22:
+                        issue(f"{jid}: native song source must reserve 2–22 seconds")
+                    if any(a.get("expected_duration_seconds") != 4 for a in audio[1:]):
+                        issue(f"{jid}: each native singing timbre sample must reserve exactly four seconds")
+                    if job.get("generate_audio", block.get("generate_audio")) is not True or block.get("generate_audio") is not True:
+                        issue(f"{jid}: native singing must enable generated audio")
+                    if any(term in prompt for term in ["禁止生成歌声", "输出无歌声", "移除生成声轨", "后配原声"]):
+                        issue(f"{jid}: native singing prompt contains obsolete mute/dub instructions")
+                    if jid == "R03" and (previous.get("from_block") != "R02" or previous.get("required") is not True or previous.get("source_segment_s") != [0, 30] or previous.get("preserve_audio") is not True or previous.get("slot") != "@视频1"):
+                        issue("R03: require full preceding [0,30] video in @视频1 with its audio preserved")
+                elif len(audio) != 1 or audio[0].get("required") is not True:
                     issue(f"{jid}: one mandatory final-performance guide slot required")
-                if not audio[0].get("file") and job.get("ready_for_generation") is not False:
+                if not audio or (not audio[0].get("file") and job.get("ready_for_generation") is not False):
                     issue(f"{jid}: cannot mark generation ready without the final song guide")
                 if "口型" not in prompt or "@音频1" not in prompt:
                     issue(f"{jid}: final guide and lip instructions must both be present")
+                if timeline.get("revision", "").startswith("v2") and not native:
+                    issue(f"{jid}: EP05 v2 must explicitly select native_singing_with_music")
+            if job_pending and (job.get("ready_for_generation") is not False or block.get("ready_for_generation") is not False):
+                issue(f"{jid}: missing required media cannot be marked ready for generation")
             dialogues = [d for d in timeline.get("dialogues", []) if d.get("block") == jid]
             rates = []
             for d in dialogues:
@@ -169,7 +244,7 @@ def audit() -> dict:
                 if not any(s.get("source_start", 31) <= start and s.get("source_end", -1) >= end for s in timeline.get("shots", []) if s.get("block") == jid and d.get("id") in s.get("dialogue_ids", [])):
                     issue(f"{jid}/{d.get('id')}: dialogue window is not contained in its assigned shot")
             pending.extend(job_pending)
-            rows.append({"episode": episode.upper(), "id": jid, "duration_s": 30, "shots": sum(s.get("block") == jid for s in timeline.get("shots", [])), "spoken_lines": len(dialogues), "images": len(images), "audio_slots": len(audio), "available_audio_files": sum(bool(a.get("file")) for a in audio), "prompt_unicode_characters": count, "all_declared_reference_files_ready": not job_pending, "production_ready": False, "dialogue_rates": rates})
+            rows.append({"episode": episode.upper(), "id": jid, "duration_s": 30, "shots": sum(s.get("block") == jid for s in timeline.get("shots", [])), "spoken_lines": len(dialogues), "images": len(images), "audio_slots": len(audio), "available_audio_files": sum(bool(a.get("file")) for a in audio), "audio_reference_durations": audio_durations, "planned_audio_budget_seconds": round(planned_audio_seconds, 6), "audio_mode": job.get("audio_mode", block.get("audio_mode")), "prompt_unicode_characters": count, "all_declared_reference_files_ready": not job_pending, "production_ready": False, "dialogue_rates": rates})
     for jid, previous in previous_rows:
         source = previous.get("from_block")
         segment = previous.get("source_segment_s")
@@ -179,6 +254,22 @@ def audit() -> dict:
             issue(f"{jid}: previous source interval outside [0,30]")
         if not previous.get("purpose"):
             issue(f"{jid}: missing explicit continuity purpose")
+        if previous.get("video_file"):
+            try:
+                previous_path = safe_path(previous["video_file"])
+                previous_sha = sha(previous_path.read_bytes())
+                source_hashes[previous["video_file"]] = previous_sha
+                previous_media = media_info(previous_path)
+                if not 1.95 <= previous_media["duration_seconds"] <= 30.05:
+                    issue(f"{jid}: preceding reference video must last 2–30 seconds")
+                if segment and segment[1] > previous_media["duration_seconds"] + 0.05:
+                    issue(f"{jid}: preceding video interval exceeds its actual duration")
+                if previous.get("preserve_audio") and not previous_media["has_audio_stream"]:
+                    issue(f"{jid}: preceding reference video has lost the required audio stream")
+            except (OSError, ValueError, subprocess.SubprocessError) as exc:
+                issue(f"{jid}: preceding video could not be verified: {exc}")
+        elif previous.get("required"):
+            issue(f"{jid}: required preceding video has not been generated", pending)
         previous_scene = all_blocks.get(source, {}).get("end_scene_id")
         current_scene = all_blocks[jid].get("start_scene_id")
         if not previous_scene or not current_scene:

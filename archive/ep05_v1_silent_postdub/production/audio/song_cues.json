@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
   "episode": "EP05",
-  "date": "2026-09-24",
-  "status": "awaiting_one_actual_song_source_for_native_singing",
+  "date": "2026-09-23",
+  "status": "awaiting_user_final_duet_source_and_edited_guide",
   "source_clip_received": false,
   "source_clip_listened": false,
   "source_video_url_candidate": "https://www.bilibili.com/video/BV1ez4y1i7HK/",
   "source_video_is_downloaded_or_verified": false,
   "reference_research": "history/research/EP03_05_song_research.md",
   "lyrics_policy": "只保留用户给出的短锚点与必要正字核对，不保存或补写网页完整歌词；中间句用ID。",
-  "timing_policy": "provisional_window_seconds是导演容量；参考音频拍点与实际生成歌声口型分别实测，所有actual/final_audio/phoneme值保持null直到相应文件实际收到并核验。",
+  "timing_policy": "provisional_window_seconds是导演排演容量；所有actual/final_audio/phoneme值为null直至拿到并实测最终音轨。",
   "full_song_clock_is_master": false,
   "third_party_original_lrc_gap_estimate_seconds": 40.48,
   "licensed_live_lrc_gap_estimate_seconds": 40.81,
   "these_are_not_user_duet_measured_clocks": true,
-  "output_policy": "原生歌声、伴奏与画面同期生成；实际曲源尚缺，未测口型。",
+  "output_policy": "不生成歌声、哼唱、念词、伴奏及模拟真实笑场音轨。最终原声和真实笑声由用户后配；生成导唱残留须在验画后移除。",
   "guides": [
     {
       "block": "R02",
@@ -22,15 +22,13 @@
       "file": null,
       "sha256": null,
       "required": true,
-      "expected_duration_seconds": 22,
-      "max_duration_seconds": 22,
+      "expected_duration_seconds": 30,
       "silent_placeholder_allowed": false,
-      "contains_song_melody_lyrics_accompaniment": true,
-      "reference_singer_timbre_used": false,
-      "mapping_to_video": "实际音乐小节与生成歌句核验后锁定，非整段1:1后配时钟",
+      "contains_final_selected_singing": true,
+      "contains_final_scheduled_silence_or_bridge": true,
+      "mapping_to_video": "audio t -> source video t; intended same duration and speed after final edit",
       "source_audio_edl": null,
-      "actual_lip_sync_verified": false,
-      "reference_is_final_output": false
+      "actual_lip_sync_verified": false
     },
     {
       "block": "R03",
@@ -38,15 +36,13 @@
       "file": null,
       "sha256": null,
       "required": true,
-      "expected_duration_seconds": 22,
-      "max_duration_seconds": 22,
+      "expected_duration_seconds": 30,
       "silent_placeholder_allowed": false,
-      "contains_song_melody_lyrics_accompaniment": true,
-      "reference_singer_timbre_used": false,
-      "mapping_to_video": "实际音乐小节与生成歌句核验后锁定，非整段1:1后配时钟",
+      "contains_final_selected_singing": true,
+      "contains_final_scheduled_silence_or_bridge": true,
+      "mapping_to_video": "audio t -> source video t; intended same duration and speed after final edit",
       "source_audio_edl": null,
-      "actual_lip_sync_verified": false,
-      "reference_is_final_output": false
+      "actual_lip_sync_verified": false
     }
   ],
   "laugh": {
@@ -57,9 +53,7 @@
     "actual_audio_end": null,
     "lyric_phoneme_at_start": null,
     "resumed_singing_after_laugh": null,
-    "verified": false,
-    "basis": "new_fictional_performance_not_verified_historical_laugh",
-    "planned": "F4句内自然换气处短轻笑，收好尾音；不固定到未经实测的字。"
+    "verified": false
   },
   "cues": [
     {
@@ -82,9 +76,8 @@
       "last_phoneme_time": null,
       "phonemes": null,
       "actual_singer_assignment_verified": false,
-      "visual_note": "男同期唱，随后小步走近；女背向静听。",
-      "lyrics_text_complete": false,
-      "audio_mode": "native_singing_with_music"
+      "visual_note": "帝正面或正侧清楚演唱；潘慧背向闭口。",
+      "lyrics_text_complete": false
     },
     {
       "block": "R02",
@@ -106,9 +99,8 @@
       "last_phoneme_time": null,
       "phonemes": null,
       "actual_singer_assignment_verified": false,
-      "visual_note": "只随歌曲参考，不抄未提供歌词；男唱中继续小步走近。",
-      "lyrics_text_complete": false,
-      "audio_mode": "native_singing_with_music"
+      "visual_note": "具体字仅从用户最终音轨标音，不从歌词网页补全。",
+      "lyrics_text_complete": false
     },
     {
       "block": "R02",
@@ -130,9 +122,8 @@
       "last_phoneme_time": null,
       "phonemes": null,
       "actual_singer_assignment_verified": false,
-      "visual_note": "双人同框男唱，女手指松袖和肩背反应，不代唱。",
-      "lyrics_text_complete": false,
-      "audio_mode": "native_singing_with_music"
+      "visual_note": "男唱在画外延续；潘慧侧背反应不代唱。",
+      "lyrics_text_complete": false
     },
     {
       "block": "R02",
@@ -154,9 +145,8 @@
       "last_phoneme_time": null,
       "phonemes": null,
       "actual_singer_assignment_verified": false,
-      "visual_note": "男唱完末音才闭嘴，已前移总计约0.6米，两人相距1.4米。",
-      "lyrics_text_complete": false,
-      "audio_mode": "native_singing_with_music"
+      "visual_note": "保留真实末音，结束后才闭嘴；此句完整文字未从网页补写。",
+      "lyrics_text_complete": false
     },
     {
       "block": "R02",
@@ -176,9 +166,8 @@
       "last_phoneme_time": null,
       "phonemes": null,
       "actual_singer_assignment_verified": false,
-      "visual_note": "无词伴奏按小节缩短长间奏，末1秒女开始回头，声画连续延长。",
-      "lyrics_text_complete": false,
-      "audio_mode": "native_singing_with_music"
+      "visual_note": "无词间奏内剪辑缩短；潘慧仅肩背微动，不完整回头。",
+      "lyrics_text_complete": false
     },
     {
       "block": "R03",
@@ -200,9 +189,8 @@
       "last_phoneme_time": null,
       "phonemes": null,
       "actual_singer_assignment_verified": false,
-      "visual_note": "承上段回头，首音前嘴已可见，约2秒内看向男方；实际入声可在0–0.8秒。",
-      "lyrics_text_complete": false,
-      "audio_mode": "native_singing_with_music"
+      "visual_note": "首镜潘慧回头接唱，约一秒内见嘴；首音不得被背脸全遮。",
+      "lyrics_text_complete": false
     },
     {
       "block": "R03",
@@ -224,9 +212,8 @@
       "last_phoneme_time": null,
       "phonemes": null,
       "actual_singer_assignment_verified": false,
-      "visual_note": "潘慧女唱，眼神含笑，嘴型服从同期发音。",
-      "lyrics_text_complete": false,
-      "audio_mode": "native_singing_with_music"
+      "visual_note": "只以句尾定位，完整未提供歌词不补写；唱字不强行笑嘴。",
+      "lyrics_text_complete": false
     },
     {
       "block": "R03",
@@ -248,9 +235,8 @@
       "last_phoneme_time": null,
       "phonemes": null,
       "actual_singer_assignment_verified": false,
-      "visual_note": "双人中近景不快速切镜，男接唱、女静听。",
-      "lyrics_text_complete": false,
-      "audio_mode": "native_singing_with_music"
+      "visual_note": "笑皇唱；潘慧闭口听。",
+      "lyrics_text_complete": false
     },
     {
       "block": "R03",
@@ -272,9 +258,8 @@
       "last_phoneme_time": null,
       "phonemes": null,
       "actual_singer_assignment_verified": false,
-      "visual_note": "同一镜女接唱、男静听。",
-      "lyrics_text_complete": false,
-      "audio_mode": "native_singing_with_music"
+      "visual_note": "潘慧接唱；笑皇嘴收住。",
+      "lyrics_text_complete": false
     },
     {
       "block": "R03",
@@ -297,9 +282,8 @@
       "last_phoneme_time": null,
       "phonemes": null,
       "actual_singer_assignment_verified": false,
-      "visual_note": "双人同框合唱、两脸同焦，两声线保留各自身份。",
-      "lyrics_text_complete": false,
-      "audio_mode": "native_singing_with_music"
+      "visual_note": "只有此处二人同时演唱，正面嘴都清楚。",
+      "lyrics_text_complete": false
     },
     {
       "block": "R03",
@@ -311,7 +295,7 @@
       "text_basis": "user_provided_anchor_with_brief_verified_orthography",
       "provisional_window_seconds": [
         17,
-        20.5
+        21
       ],
       "final_audio_source_start": null,
       "final_audio_source_end": null,
@@ -321,9 +305,8 @@
       "last_phoneme_time": null,
       "phonemes": null,
       "actual_singer_assignment_verified": false,
-      "visual_note": "女接唱时新表演短轻笑，收好尾音；不声称复刻真实笑场。",
-      "lyrics_text_complete": false,
-      "audio_mode": "native_singing_with_music"
+      "visual_note": "潘慧唱，中途笑场位置、是否续字以及呼吸按最终原录音，当前全部未核实。",
+      "lyrics_text_complete": false
     },
     {
       "block": "R03",
@@ -332,8 +315,8 @@
       "anchor_text": null,
       "text_basis": "post_singing_mutual_approach",
       "provisional_window_seconds": [
-        20.5,
-        25
+        21,
+        27.5
       ],
       "final_audio_source_start": null,
       "final_audio_source_end": null,
@@ -343,9 +326,8 @@
       "last_phoneme_time": null,
       "phonemes": null,
       "actual_singer_assignment_verified": false,
-      "visual_note": "唱毕先对视，双方各前进约0.45米，袖边轻触回应后倾身。",
-      "lyrics_text_complete": false,
-      "audio_mode": "native_singing_with_music"
+      "visual_note": "先对视两秒，双方各迈步，轻触袖边回应，嘴不再唱。",
+      "lyrics_text_complete": false
     },
     {
       "block": "R03",
@@ -354,7 +336,7 @@
       "anchor_text": null,
       "text_basis": "fictional_brief_consensual_kiss",
       "provisional_window_seconds": [
-        25,
+        27.5,
         30
       ],
       "final_audio_source_start": null,
@@ -365,24 +347,8 @@
       "last_phoneme_time": null,
       "phonemes": null,
       "actual_singer_assignment_verified": false,
-      "visual_note": "双方自愿、持续约五秒温柔深情相吻，嘴不再唱，面部不融化。",
-      "lyrics_text_complete": false,
-      "audio_mode": "native_singing_with_music"
+      "visual_note": "侧面缓靠近，最后约两秒自然短吻，梦剧虚构，不作为真人原视频事实。",
+      "lyrics_text_complete": false
     }
-  ],
-  "revision": "v2",
-  "audio_mode": "native_singing_with_music",
-  "generate_audio": true,
-  "output_singing_audio": true,
-  "policy": "R01原声只借音色生成同期对白；R02/R03原生生成歌声、伴奏、口型及环境声。歌曲参考规定旋律、唱词和音乐结构，两条4秒样本分别规定男女人物近似音色；不是高保真歌唱克隆保证。不再要求用户制作换声导唱或后期替换歌声。",
-  "native_generated_laugh_is_historical_recreation": false,
-  "reference_preparation": {
-    "one_actual_song_source_needed": true,
-    "user_required_to_make_voice_conversion": false,
-    "assistant_prepares_two_song_references_max_seconds": 22,
-    "trim_only_wordless_bridge_by_musical_bars": true,
-    "literal_fixed_10_48_second_cut_allowed": false,
-    "total_uploaded_audio_max_seconds": 30,
-    "actual_source_edl": null
-  }
+  ]
 }

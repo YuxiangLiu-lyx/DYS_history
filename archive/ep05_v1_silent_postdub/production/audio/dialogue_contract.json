@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "episode": "EP05",
-  "date": "2026-09-24",
+  "date": "2026-09-23",
   "fps": 24,
   "total_seconds": 90,
-  "policy": "R01原声只借音色生成同期对白；R02/R03原生生成歌声、伴奏、口型及环境声。歌曲参考规定旋律、唱词和音乐结构，两条4秒样本分别规定男女人物近似音色；不是高保真歌唱克隆保证。不再要求用户制作换声导唱或后期替换歌声。",
+  "policy": "对白用已有原声仅借音色；R02/R03最终歌曲导唱必须另供，现为空，不能生成歌声音轨。",
   "original_voice_samples_reused": true,
   "new_final_dialogue_audio_generated": false,
   "actual_source_video_received": false,
@@ -111,12 +111,10 @@
     }
   ],
   "acceptance": [
-    "R01对白及声音归属不变。",
-    "演唱检查旋律、词序、原生嘴型和男女分唱，不能仅验输出有音轨。",
-    "两条4秒说话样本只借音色，实际歌唱相似度须听看，不能标已克隆。",
-    "R03完整保留R02视频音轨作连续延长输入，验无重启伴奏、串声或重复男句。",
-    "相吻前唱声必须结束，双方主动靠近，连续接触不融脸。",
-    "官方API有声输出为单声道混合音轨；实际入口声道以文件核验，无分轨保证。"
+    "口型先验实际说话者，听者不代说。",
+    "每句实测首字、中字和末字音画偏移；合唱另验转唱及笑场。",
+    "音色样本不是最终台词，更不是歌曲的节奏和歌词时钟。",
+    "对不上口型要局部重生或重新对口型；不能只加声音掩盖闭嘴。"
   ],
   "song_performance_blocks": [
     {
@@ -125,19 +123,10 @@
       "final_audio_file": null,
       "final_audio_sha256": null,
       "ready_for_generation": false,
-      "output_singing_audio": true,
+      "output_singing_audio": false,
       "actual_lip_sync_verified": false,
       "cues_file": "episodes/ep05/production/audio/song_cues.json",
-      "timing_status": "director_windows_pending_actual_reference_and_generated_take",
-      "required_references": [
-        "@音频1",
-        "@音频2",
-        "@音频3"
-      ],
-      "audio_mode": "native_singing_with_music",
-      "generate_audio": true,
-      "source_song_file": null,
-      "source_song_sha256": null
+      "timing_status": "provisional_only_pending_actual_source"
     },
     {
       "block": "R03",
@@ -145,44 +134,10 @@
       "final_audio_file": null,
       "final_audio_sha256": null,
       "ready_for_generation": false,
-      "output_singing_audio": true,
+      "output_singing_audio": false,
       "actual_lip_sync_verified": false,
       "cues_file": "episodes/ep05/production/audio/song_cues.json",
-      "timing_status": "director_windows_pending_actual_reference_and_generated_take",
-      "required_references": [
-        "@音频1",
-        "@音频2",
-        "@音频3",
-        "@视频1"
-      ],
-      "audio_mode": "native_singing_with_music",
-      "generate_audio": true,
-      "source_song_file": null,
-      "source_song_sha256": null,
-      "previous_reference": {
-        "required": true,
-        "from_block": "R02",
-        "source_segment_s": [
-          0,
-          30
-        ],
-        "video_file": null,
-        "tail_frame_file": null,
-        "purpose": "必须引用验收后的R02完整0–30秒有声视频，保留音轨，执行extend新增30秒；承接伴奏、声线、晨光、1.4米站位和正在发生的回头，不从头重唱。",
-        "preserve_audio": true,
-        "include_audio": true,
-        "strip_audio": false,
-        "operation": "extend",
-        "newly_generated_seconds": 30,
-        "slot": "@视频1"
-      }
+      "timing_status": "provisional_only_pending_actual_source"
     }
-  ],
-  "revision": "v2",
-  "audio_mode": "native_singing_with_music",
-  "generate_audio": true,
-  "source_song_received": false,
-  "output_audio_channels": null,
-  "separate_audio_stems_guaranteed": false,
-  "official_api_output_audio_channels": 1
+  ]
 }

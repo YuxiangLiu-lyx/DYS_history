@@ -1,5 +1,9 @@
 # 德云史记 · 慧后本纪
 
+**最新：第五回v2，原生演唱与有声延长。** 90秒仍为3段；R01客栈议策保留，R02男唱走近，R03接着延长，女声慢回头、交替/合唱、对视靠近与约5秒深情相吻。镜头18→13，每歌段5图＋歌曲参考≤22秒＋两人各4秒音色。完整Prompt均≤2000字符。入口：[第五回操作步骤](episodes/ep05/production/QUICKSTART.md) · [完整生产包](episodes/ep05/production/VIDEO_PRODUCTION_PACK.md) · [原生演唱研究](history/research/EP05_NATIVE_SINGING_20260924.md)。重建新版：`python tools/build_next_bundles.py --episode ep05 --out /tmp/DYS_EP05`。
+
+本版已制备两份4秒说话音色候选，**还缺实际《卜卦》音源**。只需提供一次希望使用的曲源，制作方再裁两段、核对换唱和音乐小节。R03继承R02有声视频，不移除合格生成歌声；说话样本和歌名不能保证本人唱腔或准确原曲。尚未生成或听看本版视频，必要关键帧仍待补审。当前同步状态见[记录](context/SYNC_STATUS.md)。
+
 **2026-09-24修订：EP03 v1.1**，P02只说“众星拱北”→停1.7秒→“江！大！歌！”逐字加重大声说，七字各说一次。已[上传并核验388个文件](https://github.com/YuxiangLiu-lyx/DYS_history/commit/6a6f10eb7908416d42fd4cb730e97b8712c61428)。更新后的材料包可用 `python tools/build_next_bundles.py --episode ep03 --out /tmp/DYS_EP03` 重建。
 
 **当前续篇：第三至五回，共8段×30秒、240秒。第二回N04同步修订为边唱边舞。**
@@ -12,7 +16,7 @@
 
 每条完整Prompt均不超过2000字符，每段默认只用4–6张必要图片，另加真实尾帧时最多7张；图片/原声/道具/首尾状态/反打/环境声和跨段衔接见对应生产包。两张梦图、三处空景已生成，均待审；真实视频和完整逐镜Storyboard尚未生成。两张梦图是架空画作，现代IG画面由2018官方资料重构并把TheShy移至中央，不冒称原始纪实照片。
 
-**演唱口型尚待最终音频锁定。** 已搜到歌词资料与孙潘合唱条目，但没有取得用户实际使用的原声。R02/R03的秒表是预排；实际歌词/字音/笑场锚点为null。不要先生成随意哑口型再换任意配音。先提供最终两段30秒导唱时间线，再按同版音频驱动画面，移除生成声轨后铺原声。现有五人MP3仅为说话音色。研究依据与版本区别见[歌曲核对记录](history/research/EP03_05_song_research.md)。
+**演唱依据仍待实际音频。** 第五回v2已覆盖旧的两条30秒后配导唱流程，改为原生演唱＋伴奏、R02→R03有声延长；一份实际曲源由制作方分段即可。第一、二、三、四回保持各自规则。网页LRC仅辅助排布，不冒称字音或真实笑场已实测。
 
 [N04歌舞修订](episodes/ep02/production/prompts/N04_PROMPT.txt)保留18秒歌舞、7秒面部近景；其它四段与21句对白不变。新资料打包：`python tools/build_next_bundles.py --out /tmp/DYS_EP03_05`；校验：`python tools/validate_next_pack.py`。最新上传状态见[同步记录](context/SYNC_STATUS.md)，资产看[画册](REVIEW_GALLERY.html)，后续AI先读[AGENTS.md](AGENTS.md)。
 

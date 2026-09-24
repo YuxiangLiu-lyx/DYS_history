@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "episode": "EP05",
-  "date": "2026-09-24",
+  "date": "2026-09-23",
   "path_base": "repository_root",
   "model_target": "Seedance 2.5，依用户当前可用入口",
   "source_duration_s": 30,
-  "picture_upload_policy": "R01/R02/R03默认各5张指定独立图，不堆图；R03另引用R02完整30秒有声视频作为extend输入，不把尾帧代替有声音视频上下文。",
+  "picture_upload_policy": "每段只传指定独立图4至6张，绝不凑满额度；可选真实尾帧额外算一图，真实视频参考最多一段。",
   "prompt_max_unicode_characters": 2000,
   "prompt_target_max_unicode_characters": 1600,
   "jobs": [
@@ -116,8 +116,8 @@
       ],
       "prompt_file": "episodes/ep05/production/prompts/R02_PROMPT.txt",
       "image_count": 5,
-      "audio_count": 3,
-      "available_audio_count": 2,
+      "audio_count": 1,
+      "available_audio_count": 0,
       "slots": [
         {
           "slot": "@图片1",
@@ -163,53 +163,24 @@
       "audio_slots": [
         {
           "slot": "@音频1",
-          "character_id": [
-            "C01",
-            "C05"
-          ],
+          "character_id": "C01",
           "file": null,
           "sha256": null,
-          "purpose": "song_melody_lyrics_timing_accompaniment_not_original_singer_timbre",
+          "purpose": "final_selected_song_audio_timing_phonemes_not_voice_sample",
           "required": true,
           "optional": false,
-          "status": "awaiting_one_actual_song_source_then_assistant_prepares_clip",
-          "expected_duration_seconds": 22,
-          "max_duration_seconds": 22,
-          "expected_reference_seconds": null,
-          "maps_to_video_seconds": null,
+          "status": "awaiting_user_final_song_excerpt",
+          "expected_duration_seconds": 30,
+          "expected_reference_seconds": [
+            0,
+            30
+          ],
+          "maps_to_video_seconds": [
+            0,
+            30
+          ],
           "actual_phoneme_times": null,
-          "output_singing_audio": true,
-          "reference_is_final_output_audio": false
-        },
-        {
-          "slot": "@音频2",
-          "character_id": "C01",
-          "file": "assets/audio/ep05/C01_TIMBRE_4S_v01.wav",
-          "sha256": "cbc1ec7b6778382c09f39338bf006841aa4ab836ebe54c494cecbc9d35ef38a5",
-          "purpose": "timbre_only_native_singing_do_not_repeat_sample_content",
-          "required": true,
-          "optional": false,
-          "status": "derived_voice_sample_technically_verified_auditory_review_pending",
-          "expected_duration_seconds": 4,
-          "max_duration_seconds": 4,
-          "singing_voice_clone_verified": false,
-          "technical_duration_verified": true,
-          "auditory_single_speaker_purity_verified": false
-        },
-        {
-          "slot": "@音频3",
-          "character_id": "C05",
-          "file": "assets/audio/ep05/C05_TIMBRE_4S_v01.wav",
-          "sha256": "be89f1945d0cf8a5fb5633432bb0462fbdbcc747bf9a491b2329fee1e9f6afa6",
-          "purpose": "timbre_only_native_singing_do_not_repeat_sample_content",
-          "required": true,
-          "optional": false,
-          "status": "derived_voice_sample_technically_verified_auditory_review_pending",
-          "expected_duration_seconds": 4,
-          "max_duration_seconds": 4,
-          "singing_voice_clone_verified": false,
-          "technical_duration_verified": true,
-          "auditory_single_speaker_purity_verified": false
+          "output_singing_audio": false
         }
       ],
       "previous_reference": {
@@ -221,30 +192,14 @@
         ],
         "video_file": null,
         "tail_frame_file": null,
-        "purpose": "可选R01松下最后3秒，仅场景声、无对白；继承日光、脚位及两米间距，不引入客栈对白。",
-        "preserve_audio": true,
-        "include_audio": true
+        "purpose": "优先松下末3秒静音片或尾帧，只继承日光、脚位、左右关系与两米间距；丢弃客栈夜景及对白。"
       },
       "optional_actual_tail_reference": null,
-      "status": "awaiting_actual_song_reference_and_audio_visual_context",
+      "status": "awaiting_final_song_audio_and_static_review",
       "ready_for_generation": false,
       "required_references_ready": false,
       "final_dialogue_audio_generated": false,
-      "prompt_unicode_characters": 760,
-      "audio_mode": "native_singing_with_music",
-      "generate_audio": true,
-      "output_singing_audio": true,
-      "audio_budget": {
-        "uploaded_audio_max_seconds": 30,
-        "song_reference_max_seconds": 22,
-        "C01_timbre_seconds": 4,
-        "C05_timbre_seconds": 4,
-        "actual_total_seconds": null,
-        "timing_reference_is_not_final_output": true
-      },
-      "first_generation_is_usable_production_take": true,
-      "extra_paid_pilot_required": false,
-      "voice_reference_auditory_review_performed": false
+      "prompt_unicode_characters": 758
     },
     {
       "id": "R03",
@@ -260,8 +215,8 @@
       ],
       "prompt_file": "episodes/ep05/production/prompts/R03_PROMPT.txt",
       "image_count": 5,
-      "audio_count": 3,
-      "available_audio_count": 2,
+      "audio_count": 1,
+      "available_audio_count": 0,
       "slots": [
         {
           "slot": "@图片1",
@@ -308,95 +263,45 @@
         {
           "slot": "@音频1",
           "character_id": [
-            "C01",
-            "C05"
+            "C05",
+            "C01"
           ],
           "file": null,
           "sha256": null,
-          "purpose": "song_melody_lyrics_timing_accompaniment_not_original_singer_timbre",
+          "purpose": "final_selected_song_audio_timing_phonemes_not_voice_sample",
           "required": true,
           "optional": false,
-          "status": "awaiting_one_actual_song_source_then_assistant_prepares_clip",
-          "expected_duration_seconds": 22,
-          "max_duration_seconds": 22,
-          "expected_reference_seconds": null,
-          "maps_to_video_seconds": null,
+          "status": "awaiting_user_final_song_excerpt",
+          "expected_duration_seconds": 30,
+          "expected_reference_seconds": [
+            0,
+            30
+          ],
+          "maps_to_video_seconds": [
+            0,
+            30
+          ],
           "actual_phoneme_times": null,
-          "output_singing_audio": true,
-          "reference_is_final_output_audio": false
-        },
-        {
-          "slot": "@音频2",
-          "character_id": "C01",
-          "file": "assets/audio/ep05/C01_TIMBRE_4S_v01.wav",
-          "sha256": "cbc1ec7b6778382c09f39338bf006841aa4ab836ebe54c494cecbc9d35ef38a5",
-          "purpose": "timbre_only_native_singing_do_not_repeat_sample_content",
-          "required": true,
-          "optional": false,
-          "status": "derived_voice_sample_technically_verified_auditory_review_pending",
-          "expected_duration_seconds": 4,
-          "max_duration_seconds": 4,
-          "singing_voice_clone_verified": false,
-          "technical_duration_verified": true,
-          "auditory_single_speaker_purity_verified": false
-        },
-        {
-          "slot": "@音频3",
-          "character_id": "C05",
-          "file": "assets/audio/ep05/C05_TIMBRE_4S_v01.wav",
-          "sha256": "be89f1945d0cf8a5fb5633432bb0462fbdbcc747bf9a491b2329fee1e9f6afa6",
-          "purpose": "timbre_only_native_singing_do_not_repeat_sample_content",
-          "required": true,
-          "optional": false,
-          "status": "derived_voice_sample_technically_verified_auditory_review_pending",
-          "expected_duration_seconds": 4,
-          "max_duration_seconds": 4,
-          "singing_voice_clone_verified": false,
-          "technical_duration_verified": true,
-          "auditory_single_speaker_purity_verified": false
+          "output_singing_audio": false
         }
       ],
       "previous_reference": {
-        "required": true,
+        "required": false,
         "from_block": "R02",
         "source_segment_s": [
-          0,
+          27,
           30
         ],
         "video_file": null,
         "tail_frame_file": null,
-        "purpose": "必须引用验收后的R02完整0–30秒有声视频，保留音轨，执行extend新增30秒；承接伴奏、声线、晨光、1.4米站位和正在发生的回头，不从头重唱。",
-        "preserve_audio": true,
-        "include_audio": true,
-        "strip_audio": false,
-        "operation": "extend",
-        "newly_generated_seconds": 30,
-        "slot": "@视频1"
+        "purpose": "优先末3秒静音片或清晰尾帧，锁左右、眼线、两米间距和回头前肩位；不引用带男歌声音轨造成复唱。"
       },
       "optional_actual_tail_reference": null,
-      "status": "awaiting_actual_song_reference_and_audio_visual_context",
+      "status": "awaiting_final_song_audio_and_static_review",
       "ready_for_generation": false,
       "required_references_ready": false,
       "final_dialogue_audio_generated": false,
-      "prompt_unicode_characters": 905,
-      "audio_mode": "native_singing_with_music",
-      "generate_audio": true,
-      "output_singing_audio": true,
-      "audio_budget": {
-        "uploaded_audio_max_seconds": 30,
-        "song_reference_max_seconds": 22,
-        "C01_timbre_seconds": 4,
-        "C05_timbre_seconds": 4,
-        "actual_total_seconds": null,
-        "timing_reference_is_not_final_output": true
-      },
-      "first_generation_is_usable_production_take": true,
-      "extra_paid_pilot_required": false,
-      "operation": "extend",
-      "newly_generated_seconds": 30,
-      "source_video_required": true,
-      "video_reference_count": 1,
-      "voice_reference_auditory_review_performed": false
+      "prompt_unicode_characters": 903
     }
   ],
   "practical_image_counts": {
@@ -406,26 +311,14 @@
   },
   "practical_audio_counts": {
     "R01": 2,
-    "R02": 3,
-    "R03": 3
+    "R02": 1,
+    "R03": 1
   },
   "available_audio_counts": {
     "R01": 2,
-    "R02": 2,
-    "R03": 2
+    "R02": 0,
+    "R03": 0
   },
   "generated_media_status": "no_actual_video",
-  "pan_identity_lock": "C05_FRONT_HALF_v04；画面右侧嘴角下方皮肤，同玉簪侧，与唇线留空，不镜像。",
-  "revision": "v2",
-  "audio_mode": "native_singing_with_music",
-  "generate_audio": true,
-  "audio_budget_policy": {
-    "max_uploaded_audio_seconds": 30,
-    "song_reference_max_seconds": 22,
-    "two_timbre_references_seconds": [
-      4,
-      4
-    ],
-    "video_reference_audio_policy": "R03视频音轨必须保留；30秒为单独音频上传预算。实际入口若合并计算视频音轨则先调整接口方案，不能超限或私自静音。"
-  }
+  "pan_identity_lock": "C05_FRONT_HALF_v04；画面右侧嘴角下方皮肤，同玉簪侧，与唇线留空，不镜像。"
 }
