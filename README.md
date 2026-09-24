@@ -2,7 +2,7 @@
 
 **最新分章：第四回v2／第五回v3。** 第四回120秒，密谈、侍女谈心后接客栈议策赴约；第五回独立90秒歌曲高潮，男唱→较充分间奏→慢回头接唱/分唱→新增双人副歌回唱→对视靠近与约6.5秒深情相吻。共7次30秒任务，只多一次歌段生成。原角色图和剧情台词复用。
 
-[第四回制作流程](episodes/ep04/production/QUICKSTART.md) · [第五回制作流程](episodes/ep05/production/QUICKSTART.md) · [分章与音乐依据](history/research/EP04_05_CLIMAX_SPLIT_20260924.md) · [素材迁移表](history/EP04_05_CLIMAX_MIGRATION.json)。第五回三段均开启歌声和伴奏，连续延长两次；每次5图、曲参≤22秒＋两人各4秒音色。R01/R03复用副歌曲参，实际曲源仍待用户提供一次后由制作方裁片。没有生成/验收本版演唱视频。最新同步见[记录](context/SYNC_STATUS.md)。
+[第四回制作流程](episodes/ep04/production/QUICKSTART.md) · [第五回制作流程](episodes/ep05/production/QUICKSTART.md) · [分章与音乐依据](history/research/EP04_05_CLIMAX_SPLIT_20260924.md) · [素材迁移表](history/EP04_05_CLIMAX_MIGRATION.json)。第五回三段均开启歌声和伴奏，连续延长两次；每次5图、曲参≤22秒＋两人各4秒音色。R01/R03复用副歌曲参，实际曲源仍待用户提供一次后由制作方裁片。没有生成/验收本版演唱视频。已[上传并核验452文件](https://github.com/YuxiangLiu-lyx/DYS_history/commit/95b6e32e223229848c1752f151418219cd8addda)；[同步记录](context/SYNC_STATUS.md)。
 
 以下保留此前版本记录，执行以本条和各章当前生产包为准。
 

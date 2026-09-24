@@ -89,13 +89,13 @@
   "github": {
     "repository": "YuxiangLiu-lyx/DYS_history",
     "branch": "main",
-    "synced": false,
+    "synced": true,
     "previous_verified_commit": "4402841b15c16dfae8d771997fac7699cb8dfdd5",
-    "publication_status": "EP04_v2_EP05_v3_preparing",
-    "remote_commit": "ddb1e0d1cb26fa2e13e1d84627ad4a60b5fb4399",
-    "verified_path_count": 414,
-    "receipt": "history/publication/EP05_v2_pack_receipt.json",
-    "verification_scope": "All 414 project paths verified against remote Git blob SHA and mode; zero deletions. Receipt and this status follow in a metadata commit."
+    "publication_status": "EP04_v2_EP05_v3_published_and_verified",
+    "remote_commit": "95b6e32e223229848c1752f151418219cd8addda",
+    "verified_path_count": 452,
+    "receipt": "history/publication/EP04_v2_EP05_v3_pack_receipt.json",
+    "verification_scope": "All 452 project paths verified against remote Git blob SHA and mode; zero deletions. Receipt and updated status stored in a following metadata commit."
   },
   "video_generated": false,
   "audio_generated": false,
