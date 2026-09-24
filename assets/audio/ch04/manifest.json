@@ -1,0 +1,38 @@
+[
+  {
+    "role": "C01",
+    "path": "assets/audio/ch04/C01_TIMBRE_10S_v01.wav",
+    "source": "assets/audio/voice_references/01_sun_yalong.mp3",
+    "source_cut": [
+      0,
+      10
+    ],
+    "duration": 10.0,
+    "sha256": "45f2b3625fd886eb7eef908fdc8455c8adc454f8a1e5883c251c4c5922db3ad8",
+    "listening_verified": false
+  },
+  {
+    "role": "C05",
+    "path": "assets/audio/ch04/C05_TIMBRE_10S_v01.wav",
+    "source": "assets/audio/voice_references/02_pan_hui.mp3",
+    "source_cut": [
+      0,
+      10
+    ],
+    "duration": 10.0,
+    "sha256": "992167a2d9e54082476ac70a7541049305d36dc3e48114c7c96cdc8f1022ae1f",
+    "listening_verified": false
+  },
+  {
+    "role": "C03",
+    "path": "assets/audio/ch04/C03_TIMBRE_10S_v01.wav",
+    "source": "assets/audio/voice_references/03_xiaotui.mp3",
+    "source_cut": [
+      0,
+      10
+    ],
+    "duration": 10.0,
+    "sha256": "6754e149f052bbdf9767d4d118963dc21bbfe781811e3b3b5ff3c91fa99772bb",
+    "listening_verified": false
+  }
+]

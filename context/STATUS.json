@@ -1,9 +1,9 @@
 {
   "project": "德云史记·慧后本纪",
   "updated_date": "2026-09-24",
-  "active_episode": "EP04-EP05",
-  "active_title": "灯下问苍生／松下听卜卦",
-  "status": "two_chapters_pack_complete_song_source_pending",
+  "active_episode": "RELEASE_CH04",
+  "active_title": "梦里惊前尘，松间诉衷情",
+  "status": "chapter04_rewrite_prepared_music_and_keyframes_pending",
   "episode_directories": {
     "EP01": "episodes/ep01",
     "EP02": "episodes/ep02",
@@ -82,14 +82,14 @@
   "pan_identity_authority": "assets/characters/C05/C05_FRONT_HALF_v04.png",
   "pan_mole_lock": "正脸画面右侧嘴角下方皮肤，距唇线留间隔、同玉簪侧，不镜像",
   "next_actions": [
-    "提供一次实际希望使用的《卜卦》曲源或合唱录像，由制作方裁副歌曲参A与主歌曲参B、校准歌尾和小节；A在第五回R01/R03复用。",
-    "审阅两章划分与必要关键帧；第四回Q04迁用旧第五回R01剧情素材，已合格旧片不重拍。",
-    "第五回R01生成30秒后连续有声延长两次；第三段只有上一任务新增30秒作视频参考，完成后验收回唱与深吻。"
+    "补睡衣/客栈日光/小阮石台及松下起始关键帧。",
+    "取得一次实际伴奏和同版带人声示范，按新包三组曲参锁时。",
+    "逐段原生生成，核对清唱静乐及放琴、扶腰、一吻，合格才拼接。"
   ],
   "github": {
     "repository": "YuxiangLiu-lyx/DYS_history",
     "branch": "main",
-    "synced": true,
+    "synced": false,
     "previous_verified_commit": "4402841b15c16dfae8d771997fac7699cb8dfdd5",
     "publication_status": "EP04_v2_EP05_v3_published_and_verified",
     "remote_commit": "95b6e32e223229848c1752f151418219cd8addda",
@@ -280,5 +280,29 @@
   },
   "new_chapters_download_bundles_saved": true,
   "new_chapters_bundle_record": "history/generation/EP04_v2_EP05_v3_delivery_bundles.json",
-  "latest_change": "Move former EP05 R01 to EP04 Q04; independent 90s EP05 song climax adds duet chorus reprise; 7 total tasks"
+  "latest_change": "Dream images → cautious investigation → 90s duet with visible instrument set-down, dance, a cappella and kiss",
+  "active_production_pack": "releases/huibenji/chapter04_v1/DIRECTOR_AND_PRODUCTION_PACK.md",
+  "release_ch04": {
+    "chapter": 4,
+    "title": "梦里惊前尘，松间诉衷情",
+    "status": "director_pack_ready_assets_and_song_pending",
+    "duration_seconds": 180,
+    "blocks": 6,
+    "prompt_lengths": {
+      "H01": 376,
+      "H02": 410,
+      "H03": 400,
+      "H04": 432,
+      "H05": 430,
+      "H06": 441
+    },
+    "dream_images_received": 3,
+    "voice_samples_received": true,
+    "song_received": false,
+    "storyboard_complete": false,
+    "video_generated": false,
+    "audio_generated": false,
+    "github_synced": false,
+    "internal_old_episode_paths_preserved": true
+  }
 }

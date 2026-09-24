@@ -1,0 +1,26 @@
+[
+  {
+    "id": "D01",
+    "path": "assets/props/CH04/D01_BARRAGE_DREAM.png",
+    "uploaded_filename": "3202584c-bfc4-49da-90d4-865bec056433.png",
+    "label": "弹幕覆盖画面",
+    "sha256": "64ecdae6ab6c6ca46f23e3afd1f5144f5e1a5fe597112d487c53e6430302324d",
+    "original_pixels_unchanged": true
+  },
+  {
+    "id": "D02",
+    "path": "assets/props/CH04/D02_PROPOSAL_DREAM.png",
+    "uploaded_filename": "4c81567e-6b5a-4bfd-a1e9-1cd99db49fcc.png",
+    "label": "求婚画面",
+    "sha256": "e195e8883298a7eb97a2a2dcb86cbdad7cc723bc7f152db66884b35858afeedf",
+    "original_pixels_unchanged": true
+  },
+  {
+    "id": "D03",
+    "path": "assets/props/CH04/D03_CHAT_DREAM.png",
+    "uploaded_filename": "c4ad2387-ef82-4fe8-97c2-859e6a263062.png",
+    "label": "模糊聊天画面",
+    "sha256": "ebbc008e844d2e65ab866779f803076b33b7f1295395b581144aec2255b99e3a",
+    "original_pixels_unchanged": true
+  }
+]

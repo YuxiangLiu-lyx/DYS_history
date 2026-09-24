@@ -1,0 +1,23 @@
+{
+  "chapter": 4,
+  "title": "梦里惊前尘，松间诉衷情",
+  "status": "director_pack_ready_assets_and_song_pending",
+  "duration_seconds": 180,
+  "blocks": 6,
+  "prompt_lengths": {
+    "H01": 376,
+    "H02": 410,
+    "H03": 400,
+    "H04": 432,
+    "H05": 430,
+    "H06": 441
+  },
+  "dream_images_received": 3,
+  "voice_samples_received": true,
+  "song_received": false,
+  "storyboard_complete": false,
+  "video_generated": false,
+  "audio_generated": false,
+  "github_synced": false,
+  "internal_old_episode_paths_preserved": true
+}

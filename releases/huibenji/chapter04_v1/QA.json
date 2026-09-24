@@ -1,0 +1,12 @@
+{
+  "static_pass": true,
+  "prompts_within_2000": true,
+  "continuous_director_windows": true,
+  "actual_av_pass": null,
+  "notes": [
+    "歌句边界由官方歌词页辅助，真实曲源仍待锁时。",
+    "新道具/构图Reference未生成已明确null。",
+    "梦图顺序按本次附件。",
+    "前情与旧制作章只索引，不删除。"
+  ]
+}

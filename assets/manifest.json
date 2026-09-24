@@ -926,6 +926,48 @@
       "usable_as_single_character_reference": false
     },
     {
+      "id": "D01_BARRAGE_DREAM",
+      "path": "assets/props/CH04/D01_BARRAGE_DREAM.png",
+      "kind": "props",
+      "current": false,
+      "status": "candidate_pending_user_review",
+      "bytes": 3508582,
+      "sha256": "64ecdae6ab6c6ca46f23e3afd1f5144f5e1a5fe597112d487c53e6430302324d",
+      "dimensions": [
+        2048,
+        1261
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "D02_PROPOSAL_DREAM",
+      "path": "assets/props/CH04/D02_PROPOSAL_DREAM.png",
+      "kind": "props",
+      "current": false,
+      "status": "candidate_pending_user_review",
+      "bytes": 2531689,
+      "sha256": "e195e8883298a7eb97a2a2dcb86cbdad7cc723bc7f152db66884b35858afeedf",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "D03_CHAT_DREAM",
+      "path": "assets/props/CH04/D03_CHAT_DREAM.png",
+      "kind": "props",
+      "current": false,
+      "status": "candidate_pending_user_review",
+      "bytes": 2356037,
+      "sha256": "ebbc008e844d2e65ab866779f803076b33b7f1295395b581144aec2255b99e3a",
+      "dimensions": [
+        963,
+        1632
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
       "id": "P07_MOON_DRINKER_v01",
       "path": "assets/props/EP03/P07_MOON_DRINKER_v01.png",
       "kind": "props",
