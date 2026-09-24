@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-24",
+  "records": [
+    {
+      "episode": "EP04",
+      "record": "history/generation/EP04_v2_delivery_bundle.json",
+      "file_id": "file_00000000433081fd8ad35ef8ed19bc3b",
+      "library_file_id": "libfile_1cee3ad5ea008191a58799e31c87ad4b",
+      "file_name": "EP04_Seedance25_v2.zip",
+      "version": 1
+    },
+    {
+      "episode": "EP05",
+      "record": "history/generation/EP05_v3_delivery_bundle.json",
+      "file_id": "file_00000000300481fd8aee14aaaa89c77d",
+      "library_file_id": "libfile_2e30aff0f4408191b209cd1c208abebc",
+      "file_name": "EP05_Seedance25_v3.zip",
+      "version": 2
+    }
+  ],
+  "both_saved": true,
+  "actual_video_generated": false,
+  "actual_song_audio_received": false,
+  "source_migration": "history/EP04_05_CLIMAX_MIGRATION.json"
+}

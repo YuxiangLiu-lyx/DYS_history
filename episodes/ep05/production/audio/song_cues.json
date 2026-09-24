@@ -17,6 +17,25 @@
   "output_policy": "原生歌声、伴奏与画面同期生成；实际曲源尚缺，未测口型。",
   "guides": [
     {
+      "block": "R01",
+      "slot": "@音频1",
+      "file": null,
+      "sha256": null,
+      "required": true,
+      "expected_duration_seconds": 22,
+      "max_duration_seconds": 22,
+      "silent_placeholder_allowed": false,
+      "contains_song_melody_lyrics_accompaniment": true,
+      "reference_singer_timbre_used": false,
+      "mapping_to_video": "副歌曲源A供本段首音起唱，R01男唱、R03双人回唱；实际小节与歌尾需核验。",
+      "source_audio_edl": null,
+      "actual_lip_sync_verified": false,
+      "reference_is_final_output": false,
+      "song_reference_id": "SONG_A_CHORUS",
+      "reuse_same_clip_as_block": null,
+      "provisional_reference_leadin_seconds": null
+    },
+    {
       "block": "R02",
       "slot": "@音频1",
       "file": null,
@@ -27,10 +46,16 @@
       "silent_placeholder_allowed": false,
       "contains_song_melody_lyrics_accompaniment": true,
       "reference_singer_timbre_used": false,
-      "mapping_to_video": "实际音乐小节与生成歌句核验后锁定，非整段1:1后配时钟",
+      "mapping_to_video": "曲源B含约2–3秒前奏余量，参考进程约从本段7秒后进入，女首音约9.5秒；不是从视频0秒机械复制。",
       "source_audio_edl": null,
       "actual_lip_sync_verified": false,
-      "reference_is_final_output": false
+      "reference_is_final_output": false,
+      "song_reference_id": "SONG_B_VERSE",
+      "reuse_same_clip_as_block": null,
+      "provisional_reference_leadin_seconds": [
+        2,
+        3
+      ]
     },
     {
       "block": "R03",
@@ -43,14 +68,17 @@
       "silent_placeholder_allowed": false,
       "contains_song_melody_lyrics_accompaniment": true,
       "reference_singer_timbre_used": false,
-      "mapping_to_video": "实际音乐小节与生成歌句核验后锁定，非整段1:1后配时钟",
+      "mapping_to_video": "副歌曲源A供本段首音起唱，R01男唱、R03双人回唱；实际小节与歌尾需核验。",
       "source_audio_edl": null,
       "actual_lip_sync_verified": false,
-      "reference_is_final_output": false
+      "reference_is_final_output": false,
+      "song_reference_id": "SONG_A_CHORUS",
+      "reuse_same_clip_as_block": "R01",
+      "provisional_reference_leadin_seconds": null
     }
   ],
   "laugh": {
-    "block": "R03",
+    "block": "R02",
     "cue_id": "F4",
     "requested": true,
     "actual_audio_start": null,
@@ -63,7 +91,7 @@
   },
   "cues": [
     {
-      "block": "R02",
+      "block": "R01",
       "cue_id": "M1",
       "speaker_ids": [
         "C01"
@@ -87,7 +115,7 @@
       "audio_mode": "native_singing_with_music"
     },
     {
-      "block": "R02",
+      "block": "R01",
       "cue_id": "M2",
       "speaker_ids": [
         "C01"
@@ -111,7 +139,7 @@
       "audio_mode": "native_singing_with_music"
     },
     {
-      "block": "R02",
+      "block": "R01",
       "cue_id": "M3",
       "speaker_ids": [
         "C01"
@@ -135,7 +163,7 @@
       "audio_mode": "native_singing_with_music"
     },
     {
-      "block": "R02",
+      "block": "R01",
       "cue_id": "M4",
       "speaker_ids": [
         "C01"
@@ -159,11 +187,11 @@
       "audio_mode": "native_singing_with_music"
     },
     {
-      "block": "R02",
-      "cue_id": "I1",
+      "block": "R01",
+      "cue_id": "I1A",
       "speaker_ids": [],
       "anchor_text": null,
-      "text_basis": "wordless_bridge_edit_pending",
+      "text_basis": "wordless_interlude",
       "provisional_window_seconds": [
         20.5,
         30
@@ -176,21 +204,19 @@
       "last_phoneme_time": null,
       "phonemes": null,
       "actual_singer_assignment_verified": false,
-      "visual_note": "无词伴奏按小节缩短长间奏，末1秒女开始回头，声画连续延长。",
+      "visual_note": "较长间奏前部，松肩侧耳，30秒边界无词。",
       "lyrics_text_complete": false,
       "audio_mode": "native_singing_with_music"
     },
     {
-      "block": "R03",
-      "cue_id": "F1",
-      "speaker_ids": [
-        "C05"
-      ],
-      "anchor_text": "风吹沙，蝶恋花",
-      "text_basis": "user_provided_anchor",
+      "block": "R02",
+      "cue_id": "I1B",
+      "speaker_ids": [],
+      "anchor_text": null,
+      "text_basis": "wordless_interlude_continuation",
       "provisional_window_seconds": [
         0,
-        5
+        9.5
       ],
       "final_audio_source_start": null,
       "final_audio_source_end": null,
@@ -200,12 +226,36 @@
       "last_phoneme_time": null,
       "phonemes": null,
       "actual_singer_assignment_verified": false,
-      "visual_note": "承上段回头，首音前嘴已可见，约2秒内看向男方；实际入声可在0–0.8秒。",
+      "visual_note": "承上段间奏，6.5–10秒渐回头；首音前嘴可见。",
       "lyrics_text_complete": false,
       "audio_mode": "native_singing_with_music"
     },
     {
-      "block": "R03",
+      "block": "R02",
+      "cue_id": "F1",
+      "speaker_ids": [
+        "C05"
+      ],
+      "anchor_text": "风吹沙，蝶恋花",
+      "text_basis": "user_provided_anchor",
+      "provisional_window_seconds": [
+        9.5,
+        14.5
+      ],
+      "final_audio_source_start": null,
+      "final_audio_source_end": null,
+      "actual_video_start": null,
+      "actual_video_end": null,
+      "first_phoneme_time": null,
+      "last_phoneme_time": null,
+      "phonemes": null,
+      "actual_singer_assignment_verified": false,
+      "visual_note": "承本段6.5–10秒回头，约9.5秒首音前嘴已可见；具体入声点待实测。",
+      "lyrics_text_complete": false,
+      "audio_mode": "native_singing_with_music"
+    },
+    {
+      "block": "R02",
       "cue_id": "F2",
       "speaker_ids": [
         "C05"
@@ -213,8 +263,8 @@
       "anchor_text": "情迷着镜中花",
       "text_basis": "user_provided_end_anchor",
       "provisional_window_seconds": [
-        5,
-        10
+        14.5,
+        19.5
       ],
       "final_audio_source_start": null,
       "final_audio_source_end": null,
@@ -229,7 +279,7 @@
       "audio_mode": "native_singing_with_music"
     },
     {
-      "block": "R03",
+      "block": "R02",
       "cue_id": "M5",
       "speaker_ids": [
         "C01"
@@ -237,8 +287,8 @@
       "anchor_text": "竹篱笆，木琵琶",
       "text_basis": "user_provided_anchor_with_brief_verified_orthography",
       "provisional_window_seconds": [
-        10,
-        12.5
+        19.5,
+        21.6
       ],
       "final_audio_source_start": null,
       "final_audio_source_end": null,
@@ -253,7 +303,7 @@
       "audio_mode": "native_singing_with_music"
     },
     {
-      "block": "R03",
+      "block": "R02",
       "cue_id": "F3",
       "speaker_ids": [
         "C05"
@@ -261,8 +311,8 @@
       "anchor_text": "拱桥月下",
       "text_basis": "user_provided_anchor",
       "provisional_window_seconds": [
-        12.5,
-        15
+        21.6,
+        24
       ],
       "final_audio_source_start": null,
       "final_audio_source_end": null,
@@ -277,7 +327,7 @@
       "audio_mode": "native_singing_with_music"
     },
     {
-      "block": "R03",
+      "block": "R02",
       "cue_id": "DU1",
       "speaker_ids": [
         "C01",
@@ -286,8 +336,8 @@
       "anchor_text": "谁在弹唱",
       "text_basis": "user_provided_duet_anchor",
       "provisional_window_seconds": [
-        15,
-        17
+        24,
+        25.8
       ],
       "final_audio_source_start": null,
       "final_audio_source_end": null,
@@ -302,7 +352,7 @@
       "audio_mode": "native_singing_with_music"
     },
     {
-      "block": "R03",
+      "block": "R02",
       "cue_id": "F4",
       "speaker_ids": [
         "C05"
@@ -310,8 +360,8 @@
       "anchor_text": "思念远方牵挂",
       "text_basis": "user_provided_anchor_with_brief_verified_orthography",
       "provisional_window_seconds": [
-        17,
-        20.5
+        25.8,
+        28.5
       ],
       "final_audio_source_start": null,
       "final_audio_source_end": null,
@@ -326,35 +376,13 @@
       "audio_mode": "native_singing_with_music"
     },
     {
-      "block": "R03",
-      "cue_id": "A1",
+      "block": "R02",
+      "cue_id": "I2",
       "speaker_ids": [],
       "anchor_text": null,
-      "text_basis": "post_singing_mutual_approach",
+      "text_basis": "wordless_bridge_before_adapted_reprise",
       "provisional_window_seconds": [
-        20.5,
-        25
-      ],
-      "final_audio_source_start": null,
-      "final_audio_source_end": null,
-      "actual_video_start": null,
-      "actual_video_end": null,
-      "first_phoneme_time": null,
-      "last_phoneme_time": null,
-      "phonemes": null,
-      "actual_singer_assignment_verified": false,
-      "visual_note": "唱毕先对视，双方各前进约0.45米，袖边轻触回应后倾身。",
-      "lyrics_text_complete": false,
-      "audio_mode": "native_singing_with_music"
-    },
-    {
-      "block": "R03",
-      "cue_id": "A2",
-      "speaker_ids": [],
-      "anchor_text": null,
-      "text_basis": "fictional_brief_consensual_kiss",
-      "provisional_window_seconds": [
-        25,
+        28.5,
         30
       ],
       "final_audio_source_start": null,
@@ -365,16 +393,164 @@
       "last_phoneme_time": null,
       "phonemes": null,
       "actual_singer_assignment_verified": false,
-      "visual_note": "双方自愿、持续约五秒温柔深情相吻，嘴不再唱，面部不融化。",
+      "visual_note": "女声收完尾音后留无词桥，新副歌在R03句首进入；必要时只调无词音乐句法。",
+      "lyrics_text_complete": false,
+      "audio_mode": "native_singing_with_music"
+    },
+    {
+      "block": "R03",
+      "cue_id": "RM1",
+      "speaker_ids": [
+        "C01",
+        "C05"
+      ],
+      "anchor_text": "不停的猜猜猜又卜了一卦",
+      "text_basis": "fictional_duet_reprise_of_user_selected_chorus",
+      "provisional_window_seconds": [
+        0,
+        5
+      ],
+      "final_audio_source_start": null,
+      "final_audio_source_end": null,
+      "actual_video_start": null,
+      "actual_video_end": null,
+      "first_phoneme_time": null,
+      "last_phoneme_time": null,
+      "phonemes": null,
+      "actual_singer_assignment_verified": false,
+      "visual_note": "新增双人副歌回唱；两人都唱同一歌词，保留各自声线，不称原曲未剪顺序或真实现场复刻。",
+      "lyrics_text_complete": false,
+      "audio_mode": "native_singing_with_music",
+      "reprises_cue_id": "M1"
+    },
+    {
+      "block": "R03",
+      "cue_id": "RM2",
+      "speaker_ids": [
+        "C01",
+        "C05"
+      ],
+      "anchor_text": null,
+      "text_basis": "fictional_duet_reprise_of_user_selected_chorus",
+      "provisional_window_seconds": [
+        5,
+        10
+      ],
+      "final_audio_source_start": null,
+      "final_audio_source_end": null,
+      "actual_video_start": null,
+      "actual_video_end": null,
+      "first_phoneme_time": null,
+      "last_phoneme_time": null,
+      "phonemes": null,
+      "actual_singer_assignment_verified": false,
+      "visual_note": "新增双人副歌回唱；两人都唱同一歌词，保留各自声线，不称原曲未剪顺序或真实现场复刻。",
+      "lyrics_text_complete": false,
+      "audio_mode": "native_singing_with_music",
+      "reprises_cue_id": "M2"
+    },
+    {
+      "block": "R03",
+      "cue_id": "RM3",
+      "speaker_ids": [
+        "C01",
+        "C05"
+      ],
+      "anchor_text": null,
+      "text_basis": "fictional_duet_reprise_of_user_selected_chorus",
+      "provisional_window_seconds": [
+        10,
+        15
+      ],
+      "final_audio_source_start": null,
+      "final_audio_source_end": null,
+      "actual_video_start": null,
+      "actual_video_end": null,
+      "first_phoneme_time": null,
+      "last_phoneme_time": null,
+      "phonemes": null,
+      "actual_singer_assignment_verified": false,
+      "visual_note": "新增双人副歌回唱；两人都唱同一歌词，保留各自声线，不称原曲未剪顺序或真实现场复刻。",
+      "lyrics_text_complete": false,
+      "audio_mode": "native_singing_with_music",
+      "reprises_cue_id": "M3"
+    },
+    {
+      "block": "R03",
+      "cue_id": "RM4",
+      "speaker_ids": [
+        "C01",
+        "C05"
+      ],
+      "anchor_text": "缘分阴错阳差",
+      "text_basis": "fictional_duet_reprise_of_user_selected_chorus",
+      "provisional_window_seconds": [
+        15,
+        20.5
+      ],
+      "final_audio_source_start": null,
+      "final_audio_source_end": null,
+      "actual_video_start": null,
+      "actual_video_end": null,
+      "first_phoneme_time": null,
+      "last_phoneme_time": null,
+      "phonemes": null,
+      "actual_singer_assignment_verified": false,
+      "visual_note": "新增双人副歌回唱；两人都唱同一歌词，保留各自声线，不称原曲未剪顺序或真实现场复刻。",
+      "lyrics_text_complete": false,
+      "audio_mode": "native_singing_with_music",
+      "reprises_cue_id": "M4"
+    },
+    {
+      "block": "R03",
+      "cue_id": "A1",
+      "speaker_ids": [],
+      "anchor_text": null,
+      "text_basis": "post_singing_mutual_approach",
+      "provisional_window_seconds": [
+        20.5,
+        23.5
+      ],
+      "final_audio_source_start": null,
+      "final_audio_source_end": null,
+      "actual_video_start": null,
+      "actual_video_end": null,
+      "first_phoneme_time": null,
+      "last_phoneme_time": null,
+      "phonemes": null,
+      "actual_singer_assignment_verified": false,
+      "visual_note": "唱声真正结束后互看，双方各近0.2米，轻触袖边回应，再缓慢倾身。",
+      "lyrics_text_complete": false,
+      "audio_mode": "native_singing_with_music"
+    },
+    {
+      "block": "R03",
+      "cue_id": "A2",
+      "speaker_ids": [],
+      "anchor_text": null,
+      "text_basis": "fictional_sustained_consensual_kiss",
+      "provisional_window_seconds": [
+        23.5,
+        30
+      ],
+      "final_audio_source_start": null,
+      "final_audio_source_end": null,
+      "actual_video_start": null,
+      "actual_video_end": null,
+      "first_phoneme_time": null,
+      "last_phoneme_time": null,
+      "phonemes": null,
+      "actual_singer_assignment_verified": false,
+      "visual_note": "双方主动持续深情相吻约6.5秒；无演唱，面部轮廓不融化。",
       "lyrics_text_complete": false,
       "audio_mode": "native_singing_with_music"
     }
   ],
-  "revision": "v2",
+  "revision": "v3",
   "audio_mode": "native_singing_with_music",
   "generate_audio": true,
   "output_singing_audio": true,
-  "policy": "R01原声只借音色生成同期对白；R02/R03原生生成歌声、伴奏、口型及环境声。歌曲参考规定旋律、唱词和音乐结构，两条4秒样本分别规定男女人物近似音色；不是高保真歌唱克隆保证。不再要求用户制作换声导唱或后期替换歌声。",
+  "policy": "第五回独立90秒歌曲高潮，R01/R02/R03全部原生生成歌声、伴奏、口型及环境声；旧客栈议策移至EP04 Q04。歌曲参考规定旋律、词序、节奏、配器；男女人物各4秒样本只借音色，不复读说话。R03为本剧新增双人副歌回唱，省去原曲后续另一组主歌，不称原曲未剪或现场复刻。",
   "native_generated_laugh_is_historical_recreation": false,
   "reference_preparation": {
     "one_actual_song_source_needed": true,
@@ -383,6 +559,24 @@
     "trim_only_wordless_bridge_by_musical_bars": true,
     "literal_fixed_10_48_second_cut_allowed": false,
     "total_uploaded_audio_max_seconds": 30,
-    "actual_source_edl": null
+    "actual_source_edl": null,
+    "unique_song_reference_count": 2,
+    "song_reference_usage": {
+      "R01": "SONG_A_CHORUS",
+      "R02": "SONG_B_VERSE",
+      "R03": "SONG_A_CHORUS"
+    }
+  },
+  "music_arrangement": {
+    "is_unedited_original_song": false,
+    "is_verified_historical_duet_recreation": false,
+    "R03": "副歌M1–M4的新增双人回唱，省去原曲后续另一组主歌",
+    "live_lrc_estimate_only": {
+      "first_chorus_start_s": 70.95,
+      "selected_verse_start_s": 111.76,
+      "following_different_verse_start_s": 130.96,
+      "next_actual_chorus_start_s": 151.07
+    },
+    "note": "130.96秒不是副歌；这些是Live网页行级时间，并非用户孙潘音轨实测。"
   }
 }

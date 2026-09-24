@@ -1,5 +1,11 @@
 # 德云史记 · 慧后本纪
 
+**最新分章：第四回v2／第五回v3。** 第四回120秒，密谈、侍女谈心后接客栈议策赴约；第五回独立90秒歌曲高潮，男唱→较充分间奏→慢回头接唱/分唱→新增双人副歌回唱→对视靠近与约6.5秒深情相吻。共7次30秒任务，只多一次歌段生成。原角色图和剧情台词复用。
+
+[第四回制作流程](episodes/ep04/production/QUICKSTART.md) · [第五回制作流程](episodes/ep05/production/QUICKSTART.md) · [分章与音乐依据](history/research/EP04_05_CLIMAX_SPLIT_20260924.md) · [素材迁移表](history/EP04_05_CLIMAX_MIGRATION.json)。第五回三段均开启歌声和伴奏，连续延长两次；每次5图、曲参≤22秒＋两人各4秒音色。R01/R03复用副歌曲参，实际曲源仍待用户提供一次后由制作方裁片。没有生成/验收本版演唱视频。最新同步见[记录](context/SYNC_STATUS.md)。
+
+以下保留此前版本记录，执行以本条和各章当前生产包为准。
+
 **最新：第五回v2，原生演唱与有声延长。** 90秒仍为3段；R01客栈议策保留，R02男唱走近，R03接着延长，女声慢回头、交替/合唱、对视靠近与约5秒深情相吻。镜头18→13，每歌段5图＋歌曲参考≤22秒＋两人各4秒音色。完整Prompt均≤2000字符。入口：[第五回操作步骤](episodes/ep05/production/QUICKSTART.md) · [完整生产包](episodes/ep05/production/VIDEO_PRODUCTION_PACK.md) · [原生演唱研究](history/research/EP05_NATIVE_SINGING_20260924.md)。重建新版：`python tools/build_next_bundles.py --episode ep05 --out /tmp/DYS_EP05`。
 
 本版已制备两份4秒说话音色候选，**还缺实际《卜卦》音源**。只需提供一次希望使用的曲源，制作方再裁两段、核对换唱和音乐小节。R03继承R02有声视频，不移除合格生成歌声；说话样本和歌名不能保证本人唱腔或准确原曲。尚未生成或听看本版视频，必要关键帧仍待补审。已[上传并核验414文件](https://github.com/YuxiangLiu-lyx/DYS_history/commit/ddb1e0d1cb26fa2e13e1d84627ad4a60b5fb4399)；[同步记录](context/SYNC_STATUS.md)。
@@ -11,8 +17,8 @@
 | 章节 | 分段与内容 | 制作入口 |
 |---|---|---|
 | 第三回《一梦悬双画，七字动满堂》 | P01/P02，60秒；两幅梦图、质疑、答联与“江—大—歌” | [导演稿](episodes/ep03/script/EP03_DIRECTOR_v1.md) · [生产包](episodes/ep03/production/VIDEO_PRODUCTION_PACK.md) · [操作步骤](episodes/ep03/production/QUICKSTART.md) |
-| 第四回《灯下问苍生，帘后起相思》 | Q01/Q02/Q03，90秒；音音、民生、魏笑线索、侍女打趣 | [导演稿](episodes/ep04/script/EP04_DIRECTOR_v1.md) · [生产包](episodes/ep04/production/VIDEO_PRODUCTION_PACK.md) · [操作步骤](episodes/ep04/production/QUICKSTART.md) |
-| 第五回《松下听卜卦，一曲定情深》 | R01/R02/R03，90秒；客栈议策、迎客松分唱与一吻 | [导演稿](episodes/ep05/script/EP05_DIRECTOR_v1.md) · [生产包](episodes/ep05/production/VIDEO_PRODUCTION_PACK.md) · [操作步骤](episodes/ep05/production/QUICKSTART.md) |
+| 第四回《灯下问苍生，帘后起相思》 | Q01—Q04，120秒；音音、民生、魏笑线索、侍女打趣、客栈议策赴约 | [导演稿](episodes/ep04/script/EP04_DIRECTOR_v1.md) · [生产包](episodes/ep04/production/VIDEO_PRODUCTION_PACK.md) · [操作步骤](episodes/ep04/production/QUICKSTART.md) |
+| 第五回《松下听卜卦，一曲定情深》 | R01/R02/R03，90秒；独立迎客松男唱、分唱、双人副歌回唱与深吻 | [导演稿](episodes/ep05/script/EP05_DIRECTOR_v1.md) · [生产包](episodes/ep05/production/VIDEO_PRODUCTION_PACK.md) · [操作步骤](episodes/ep05/production/QUICKSTART.md) |
 
 每条完整Prompt均不超过2000字符，每段默认只用4–6张必要图片，另加真实尾帧时最多7张；图片/原声/道具/首尾状态/反打/环境声和跨段衔接见对应生产包。两张梦图、三处空景已生成，均待审；真实视频和完整逐镜Storyboard尚未生成。两张梦图是架空画作，现代IG画面由2018官方资料重构并把TheShy移至中央，不冒称原始纪实照片。
 

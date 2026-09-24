@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-24",
+  "source_commit": "4402841b15c16dfae8d771997fac7699cb8dfdd5",
+  "old_episodes": {"EP04": "v1", "EP05": "v2"},
+  "new_episodes": {"EP04": "v2", "EP05": "v3"},
+  "mappings": [
+    {"from": "EP04 Q01-Q03", "to": "EP04 Q01-Q03", "content": "same dialogue and shot local times"},
+    {"from": "EP05 v2 R01", "to": "EP04 v2 Q04", "content": "same four lines and 30s prompt; episode/global timing and transition identifiers migrated", "new_global_s": [90,120]},
+    {"from": "EP05 v2 R02", "to": "EP05 v3 R01", "content": "male chorus retained; longer musical scene continues next block"},
+    {"from": "EP05 v2 R03 singing portion", "to": "EP05 v3 R02", "content": "original requested singer order retained after longer interlude; kiss moves to following block"},
+    {"from": null, "to": "EP05 v3 R03 chorus reprise", "content": "new duet arrangement of same chorus; not unedited original song order"},
+    {"from": "EP05 v2 R03 ending", "to": "EP05 v3 R03 ending", "content": "mutual approach and sustained intimate kiss; nominal kiss 23.5–30s"}
+  ],
+  "old_total_seconds": 180,
+  "new_total_seconds": 210,
+  "old_song_scene_seconds": 60,
+  "new_song_scene_seconds": 90,
+  "new_video_jobs": 7,
+  "additional_video_jobs": 1,
+  "actual_video_reused": false,
+  "actual_video_generated": false,
+  "source_audio_received": false,
+  "archives": ["archive/ep04_v1_before_climax_split/", "archive/ep05_v2_before_climax_split/"]
+}

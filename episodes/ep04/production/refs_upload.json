@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "episode": "EP04",
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "path_base": "repository_root",
   "model_target": "Seedance 2.5，依用户当前可用入口",
   "source_duration_s": 30,
-  "picture_upload_policy": "每段只传指定独立图4至6张，绝不凑满额度；可选真实尾帧额外算一图，真实视频参考最多一段。",
+  "picture_upload_policy": "Q01/Q02/Q03各4张，Q04共5张，均只用指定独立图；Q02可选真实前段末片或尾帧，换场不借上一房间。",
   "prompt_max_unicode_characters": 2000,
   "prompt_target_max_unicode_characters": 1600,
   "jobs": [
@@ -257,23 +257,120 @@
       "required_references_ready": true,
       "final_dialogue_audio_generated": false,
       "prompt_unicode_characters": 629
+    },
+    {
+      "id": "Q04",
+      "source_duration_s": 30,
+      "source_duration_seconds": 30,
+      "target_timeline_s": [
+        90,
+        120
+      ],
+      "source_keep_s": [
+        0,
+        30
+      ],
+      "prompt_file": "episodes/ep04/production/prompts/Q04_PROMPT.txt",
+      "image_count": 5,
+      "audio_count": 2,
+      "available_audio_count": 2,
+      "slots": [
+        {
+          "slot": "@图片1",
+          "file": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "role": "笑皇便服脸与衣",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89"
+        },
+        {
+          "slot": "@图片2",
+          "file": "assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png",
+          "role": "小腿便服脸与衣",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "a042f817273a117dd720a24d48338859528b8f2753903d83cc1fcbabd41410ca"
+        },
+        {
+          "slot": "@图片3",
+          "file": "assets/characters/C05/C05_FULL_v03.png",
+          "role": "潘慧浅蓝衣裙与全身比例",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "9dc75e9f1a2d82edad4f1d43c8837dfe26ae78f1b5da2a6211f97579e866e33f"
+        },
+        {
+          "slot": "@图片4",
+          "file": "assets/scenes/S14_INN_ROOM_NIGHT_v01.png",
+          "role": "客栈内室、木案和油灯",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "c7e0dd88561ea96c4bf830293bfe45d048086af960f4bf02b37218252e72e7e8"
+        },
+        {
+          "slot": "@图片5",
+          "file": "assets/scenes/S15_PINE_PATH_DAY_v01.png",
+          "role": "迎客松下安全宽阔石台、左侧来路",
+          "status": "generated_candidate_pending_user_review",
+          "optional": false,
+          "sha256": "d18685b08ba453b175feb316c9747ae051c9e9f44d01af3cf0f6a9ba80b62569"
+        }
+      ],
+      "audio_slots": [
+        {
+          "slot": "@音频1",
+          "character_id": "C01",
+          "file": "assets/audio/voice_references/01_sun_yalong.mp3",
+          "sha256": "0cac07f7dd3f4c3fda80f316d92d48d273982818950dc477cd99895edca21b64",
+          "purpose": "timbre_only_new_script_dialogue",
+          "required": true,
+          "optional": false
+        },
+        {
+          "slot": "@音频2",
+          "character_id": "C03",
+          "file": "assets/audio/voice_references/03_xiaotui.mp3",
+          "sha256": "132ac37ae05baee438507768b07bd793076f855f2146a350ff5ddbe33b4364d5",
+          "purpose": "timbre_only_new_script_dialogue",
+          "required": true,
+          "optional": false
+        }
+      ],
+      "previous_reference": {
+        "required": false,
+        "from_block": "Q03",
+        "source_segment_s": null,
+        "video_file": null,
+        "tail_frame_file": null,
+        "purpose": "换到客栈，不引用潘慧闺房尾帧作起始。帝腿延续便服母版；后半转松下是明确隔夜省略。"
+      },
+      "optional_actual_tail_reference": null,
+      "status": "prepared_new_visual_assets_pending_user_review",
+      "ready_for_generation": false,
+      "required_references_ready": true,
+      "final_dialogue_audio_generated": false,
+      "prompt_unicode_characters": 672
     }
   ],
   "practical_image_counts": {
     "Q01": 4,
     "Q02": 4,
-    "Q03": 4
+    "Q03": 4,
+    "Q04": 5
   },
   "practical_audio_counts": {
     "Q01": 2,
     "Q02": 2,
-    "Q03": 1
+    "Q03": 1,
+    "Q04": 2
   },
   "available_audio_counts": {
     "Q01": 2,
     "Q02": 2,
-    "Q03": 1
+    "Q03": 1,
+    "Q04": 2
   },
   "generated_media_status": "no_actual_video",
-  "pan_identity_lock": "C05_FRONT_HALF_v04；画面右侧嘴角下方皮肤，同玉簪侧，与唇线留空，不镜像。"
+  "pan_identity_lock": "C05_FRONT_HALF_v04；画面右侧嘴角下方皮肤，同玉簪侧，与唇线留空，不镜像。",
+  "revision": "v2"
 }

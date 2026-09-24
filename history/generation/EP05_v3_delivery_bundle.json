@@ -1,0 +1,65 @@
+{
+  "date": "2026-09-24",
+  "builder": "tools/build_next_bundles.py",
+  "derived_archives_stored_in_git": false,
+  "generated_video_included": false,
+  "actual_lip_sync_verified": false,
+  "production_ready": false,
+  "source_sha256": {
+    "assets/audio/ep05/C01_TIMBRE_4S_v01.wav": "cbc1ec7b6778382c09f39338bf006841aa4ab836ebe54c494cecbc9d35ef38a5",
+    "assets/audio/ep05/C05_TIMBRE_4S_v01.wav": "be89f1945d0cf8a5fb5633432bb0462fbdbcc747bf9a491b2329fee1e9f6afa6",
+    "assets/audio/ep05/README.md": "17774e53f6422074fbe25defddf4615aaa7c4f6745c5520a851353023a356b80",
+    "assets/audio/ep05/manifest.json": "9a861c65c29619bdf85a53c80fc62c5237e3fe059d6bae0548440995148956d7",
+    "assets/audio/voice_references/manifest.json": "21b89ac4f1b0756660830e0e90dfafe0adceda9d1ca07e866e0df6aa7ae875e2",
+    "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
+    "assets/characters/C01/C01_DISGUISE_FULL_v01.png": "24e1e8f98757042463f49d46a562fa8aeae67263bf474a44a5ad9a298808a342",
+    "assets/characters/C05/C05_FRONT_HALF_v04.png": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
+    "assets/characters/C05/C05_FULL_v03.png": "9dc75e9f1a2d82edad4f1d43c8837dfe26ae78f1b5da2a6211f97579e866e33f",
+    "assets/scenes/S15_PINE_PATH_DAY_v01.png": "d18685b08ba453b175feb316c9747ae051c9e9f44d01af3cf0f6a9ba80b62569",
+    "episodes/ep05/production/QUICKSTART.md": "b7af8ffaf5372604d68a62e2f9ee6b0d0e0925c5c7de9096bb62180d88a1f3a2",
+    "episodes/ep05/production/VIDEO_PRODUCTION_PACK.md": "f6b9704f086ce05dd55b1ec9e8ed50626f255b19b5c2c432158f010c6ae0b4c5",
+    "episodes/ep05/production/audio/AUDIO_POST_WORKFLOW.md": "044290ba5f87a2430560b3015304fc2e5e10d3d5065e754804cdb59d33243d8e",
+    "episodes/ep05/production/audio/SONG_SYNC_WORKFLOW.md": "c1eff3139f408298efd9ee201207f23e86ab04c032b04c1d7f72fe4283405f1d",
+    "episodes/ep05/production/audio/dialogue_contract.json": "ccff7a6847decf888ae50daf748bceaa51ff7dbee8deacf3c0a25252beb94be4",
+    "episodes/ep05/production/audio/dialogue_timing.srt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "episodes/ep05/production/audio/song_cues.csv": "c2fdb078e709f888744a6dc3a5a53eabbb34b8ffcf95472571a525258df45d53",
+    "episodes/ep05/production/audio/song_cues.json": "c26a8b9b26d192f85e8651be60ca3641d513b1f2d9d6c4c2430d2e9cd3a9c914",
+    "episodes/ep05/production/prompts/R01_PROMPT.txt": "8398284dc110e32b1b0c11cf0ae5c1072efda387ef6f2c1a9733dee171e24d6c",
+    "episodes/ep05/production/prompts/R02_PROMPT.txt": "76e7f0bf4e58b922add29a4fb0822bafa5ca7e91f70c34a329fd6fd25e6bdae7",
+    "episodes/ep05/production/prompts/R03_PROMPT.txt": "0b8b41c087c75c2cb6f952caa76845f7927e642dda3ba602f3673e93300d2ab9",
+    "episodes/ep05/production/refs_upload.json": "7f761457609562b56f3b120cf712fb653c0ebc2a1c3f036b7c4a920d79a92234",
+    "episodes/ep05/production/timeline.json": "3fc0b5aa04d1a8edc622784bd4d2be4762a9f68c86015facd99724b44e694d74",
+    "episodes/ep05/script/EP05_DIRECTOR_v1.md": "dbc265c8632df6870051b3df5a41cdf3c339f1e620665624c420ab7e1d144ed4",
+    "history/research/EP04_05_CLIMAX_SPLIT_20260924.md": "f727fff1588e9f2f367314a8200178e068b1b8245c7ebed189e334b795120e8b",
+    "history/research/EP05_NATIVE_SINGING_20260924.md": "a5f60c0d389cea3d16dd647df598e654842034c6ff134e959cba47763090f803"
+  },
+  "bundles": [
+    {
+      "episode": "EP05",
+      "local_file": "/workspace/scratch/217ce8a5e48d/deliverables/EP05_Seedance25_v3.zip",
+      "filename": "EP05_Seedance25_v3.zip",
+      "bytes": 33507264,
+      "sha256": "e145447051770ce12dc50dcb3f8494c711cb5113e7b71254389ac1132b4838c0",
+      "entry_count": 60,
+      "jobs": [
+        "R01",
+        "R02",
+        "R03"
+      ],
+      "missing_required_guide_jobs": [
+        "R01",
+        "R02",
+        "R03"
+      ],
+      "zip_crc_and_exact_entry_bytes_verified": true
+    }
+  ],
+  "storage_upload_status": "succeeded",
+  "library_save": {
+    "file_id": "file_00000000300481fd8aee14aaaa89c77d",
+    "library_file_id": "libfile_2e30aff0f4408191b209cd1c208abebc",
+    "file_name": "EP05_Seedance25_v3.zip",
+    "version": 2,
+    "local_metadata_applied": true
+  }
+}

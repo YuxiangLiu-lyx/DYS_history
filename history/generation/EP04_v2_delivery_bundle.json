@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-24",
+  "builder": "tools/build_next_bundles.py",
+  "derived_archives_stored_in_git": false,
+  "generated_video_included": false,
+  "actual_lip_sync_verified": false,
+  "production_ready": false,
+  "source_sha256": {
+    "assets/audio/voice_references/01_sun_yalong.mp3": "0cac07f7dd3f4c3fda80f316d92d48d273982818950dc477cd99895edca21b64",
+    "assets/audio/voice_references/02_pan_hui.mp3": "60413e1fe29a24dd1a2196a0add5001675ed4e54b69b0fc47c7c435d74ce06a1",
+    "assets/audio/voice_references/03_xiaotui.mp3": "132ac37ae05baee438507768b07bd793076f855f2146a350ff5ddbe33b4364d5",
+    "assets/audio/voice_references/manifest.json": "21b89ac4f1b0756660830e0e90dfafe0adceda9d1ca07e866e0df6aa7ae875e2",
+    "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
+    "assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png": "a042f817273a117dd720a24d48338859528b8f2753903d83cc1fcbabd41410ca",
+    "assets/characters/C05/C05_FRONT_HALF_v04.png": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
+    "assets/characters/C05/C05_FULL_v03.png": "9dc75e9f1a2d82edad4f1d43c8837dfe26ae78f1b5da2a6211f97579e866e33f",
+    "assets/characters/C05/C05_NIGHT_SHAWL_v05.png": "b7b9fddc4925e6f90bd68cfe4f7fb20381263c7a6118c348a4a664458105fec6",
+    "assets/characters/E06/E06_MAID_v01.png": "128b83413a4db8894901cc90791c72ae0861eeef389f40ea0b7c11b3dfd3525d",
+    "assets/scenes/S06_ROOM_NIGHT_v01.png": "0dc7ef15d4084d008095e1ba1a16fc28f81ccd8b13d21c80dc6922c8714312d3",
+    "assets/scenes/S13_SALON_SIDE_ROOM_NIGHT_v01.png": "8298ac24b8e2c128edc15e6b3d48aceee539aea0c79265023177f9339d4e58a2",
+    "assets/scenes/S14_INN_ROOM_NIGHT_v01.png": "c7e0dd88561ea96c4bf830293bfe45d048086af960f4bf02b37218252e72e7e8",
+    "assets/scenes/S15_PINE_PATH_DAY_v01.png": "d18685b08ba453b175feb316c9747ae051c9e9f44d01af3cf0f6a9ba80b62569",
+    "episodes/ep04/production/QUICKSTART.md": "90e2e98fcdf7defc1736b69a2884a681632741e00809f203f1fc30e6fc3d19cb",
+    "episodes/ep04/production/VIDEO_PRODUCTION_PACK.md": "26d5444ce062007d869995ed235c7380749a212484a3a7b9b92121b77a570b55",
+    "episodes/ep04/production/audio/AUDIO_POST_WORKFLOW.md": "a745fdb839eeb440197411170792dd7d823d75f3ba4aa9f39ef29df89a972980",
+    "episodes/ep04/production/audio/dialogue_contract.json": "59f3b9f22e22d5c2f8dee1381e4e358c2d6bfeb1ca2fb79fe497ef9ded5d38f0",
+    "episodes/ep04/production/audio/dialogue_timing.srt": "e2e18148be9da0b3a0e35aa8ea85de13d19e005aaa70b723d52a91c02538713f",
+    "episodes/ep04/production/prompts/Q01_PROMPT.txt": "3a1772aa96ee55091d23a7270eeaa83853862e2d24ff57b3368521c22cbb1a2c",
+    "episodes/ep04/production/prompts/Q02_PROMPT.txt": "4802d5df1ce9b031dcce52d8a4dce129b7a424fa6892136f567f153f5a9d8ede",
+    "episodes/ep04/production/prompts/Q03_PROMPT.txt": "8f48036518583684121be91445b41b3774ab8c7b644bc237fcd33b4beff5ec14",
+    "episodes/ep04/production/prompts/Q04_PROMPT.txt": "0d9d53452f6962f8036018887fb90438cdf11d08308582c2f89883ef165232ca",
+    "episodes/ep04/production/refs_upload.json": "c3a6e295488cf5c1537808d7153bc7da08bd2fd2005de2a63d427ea431e2e195",
+    "episodes/ep04/production/timeline.json": "3fbe461f3b1e8034b9a9cabaaf25315e11595796342b7b6296ef112fec29dc95",
+    "episodes/ep04/script/EP04_DIRECTOR_v1.md": "6dd8e0e9697f6476a4c5ed68c8196fc7593091f74d4f95da9fdc54d3c6f056ad",
+    "history/research/EP04_05_CLIMAX_SPLIT_20260924.md": "f727fff1588e9f2f367314a8200178e068b1b8245c7ebed189e334b795120e8b"
+  },
+  "bundles": [
+    {
+      "episode": "EP04",
+      "local_file": "/workspace/scratch/217ce8a5e48d/deliverables/EP04_Seedance25_v2.zip",
+      "filename": "EP04_Seedance25_v2.zip",
+      "bytes": 37473349,
+      "sha256": "e08776b57f7d119d3e82026e52fde90c4f5cf66ed93da42223f5b0380a28c14e",
+      "entry_count": 57,
+      "jobs": [
+        "Q01",
+        "Q02",
+        "Q03",
+        "Q04"
+      ],
+      "missing_required_guide_jobs": [],
+      "zip_crc_and_exact_entry_bytes_verified": true
+    }
+  ],
+  "storage_upload_status": "succeeded",
+  "library_save": {
+    "file_id": "file_00000000433081fd8ad35ef8ed19bc3b",
+    "library_file_id": "libfile_1cee3ad5ea008191a58799e31c87ad4b",
+    "file_name": "EP04_Seedance25_v2.zip",
+    "version": 1,
+    "local_metadata_applied": true
+  }
+}

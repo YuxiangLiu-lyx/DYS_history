@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "episode": "EP04",
+  "date": "2026-09-23",
+  "fps": 24,
+  "total_seconds": 90,
+  "policy": "对白用已有原声仅借音色；R02/R03最终歌曲导唱必须另供，现为空，不能生成歌声音轨。",
+  "original_voice_samples_reused": true,
+  "new_final_dialogue_audio_generated": false,
+  "actual_source_video_received": false,
+  "actual_av_review_performed": false,
+  "dialogues": [
+    {
+      "speaker_id": "C05",
+      "text": "公子叫我音音便是。",
+      "source_start": 0.7,
+      "source_end": 3.7,
+      "delivery": "温柔坦然，音音是私称，不改人物ID。",
+      "visible_speaker": true,
+      "id": "E4_D01",
+      "block": "Q01",
+      "start": 0.7,
+      "end": 3.7,
+      "voice_reference_file": "assets/audio/voice_references/02_pan_hui.mp3",
+      "voice_reference_is_final_dialogue": false,
+      "audible_source": "native_generated_dialogue",
+      "mouth_rule": "可见发言者逐字同步嘴型，其他人闭口；画外发声不驱动听者嘴。"
+    },
+    {
+      "speaker_id": "C01",
+      "text": "音音姑娘，城中粮荒，你可知内情？",
+      "source_start": 5.8,
+      "source_end": 10.6,
+      "delivery": "询问不是审讯。",
+      "visible_speaker": true,
+      "id": "E4_D02",
+      "block": "Q01",
+      "start": 5.8,
+      "end": 10.6,
+      "voice_reference_file": "assets/audio/voice_references/01_sun_yalong.mp3",
+      "voice_reference_is_final_dialogue": false,
+      "audible_source": "native_generated_dialogue",
+      "mouth_rule": "可见发言者逐字同步嘴型，其他人闭口；画外发声不驱动听者嘴。"
+    },
+    {
+      "speaker_id": "C05",
+      "text": "公子来见我，竟只问这些？",
+      "source_start": 11.9,
+      "source_end": 15.3,
+      "delivery": "含笑试探，没有怨气。",
+      "visible_speaker": true,
+      "id": "E4_D03",
+      "block": "Q01",
+      "start": 11.9,
+      "end": 15.3,
+      "voice_reference_file": "assets/audio/voice_references/02_pan_hui.mp3",
+      "voice_reference_is_final_dialogue": false,
+      "audible_source": "native_generated_dialogue",
+      "mouth_rule": "可见发言者逐字同步嘴型，其他人闭口；画外发声不驱动听者嘴。"
+    },
+    {
+      "speaker_id": "C01",
+      "text": "初见姑娘，已是惊为天人。",
+      "source_start": 16.7,
+      "source_end": 20.5,
+      "delivery": "诚恳，不油滑。",
+      "visible_speaker": true,
+      "id": "E4_D04",
+      "block": "Q01",
+      "start": 16.7,
+      "end": 20.5,
+      "voice_reference_file": "assets/audio/voice_references/01_sun_yalong.mp3",
+      "voice_reference_is_final_dialogue": false,
+      "audible_source": "native_generated_dialogue",
+      "mouth_rule": "可见发言者逐字同步嘴型，其他人闭口；画外发声不驱动听者嘴。"
+    },
+    {
+      "speaker_id": "C01",
+      "text": "可百姓受苦，我怎能痴于儿女情长？",
+      "source_start": 21.4,
+      "source_end": 26.9,
+      "delivery": "坚定而克制，不喊口号。",
+      "visible_speaker": true,
+      "id": "E4_D05",
+      "block": "Q01",
+      "start": 21.4,
+      "end": 26.9,
+      "voice_reference_file": "assets/audio/voice_references/01_sun_yalong.mp3",
+      "voice_reference_is_final_dialogue": false,
+      "audible_source": "native_generated_dialogue",
+      "mouth_rule": "可见发言者逐字同步嘴型，其他人闭口；画外发声不驱动听者嘴。"
+    },
+    {
+      "speaker_id": "C05",
+      "text": "赈粮到了徽州，却进了粮商私仓。魏转运使只说官仓无米。",
+      "source_start": 0.6,
+      "source_end": 8.6,
+      "delivery": "世界内角色转述见闻；不把真人行为标成事实。",
+      "visible_speaker": true,
+      "id": "E4_D06",
+      "block": "Q02",
+      "start": 30.6,
+      "end": 38.6,
+      "voice_reference_file": "assets/audio/voice_references/02_pan_hui.mp3",
+      "voice_reference_is_final_dialogue": false,
+      "audible_source": "native_generated_dialogue",
+      "mouth_rule": "可见发言者逐字同步嘴型，其他人闭口；画外发声不驱动听者嘴。"
+    },
+    {
+      "speaker_id": "C01",
+      "text": "此事可有凭据？",
+      "source_start": 9.8,
+      "source_end": 12,
+      "delivery": "先询问证据。",
+      "visible_speaker": true,
+      "id": "E4_D07",
+      "block": "Q02",
+      "start": 39.8,
+      "end": 42,
+      "voice_reference_file": "assets/audio/voice_references/01_sun_yalong.mp3",
+      "voice_reference_is_final_dialogue": false,
+      "audible_source": "native_generated_dialogue",
+      "mouth_rule": "可见发言者逐字同步嘴型，其他人闭口；画外发声不驱动听者嘴。"
+    },
+    {
+      "speaker_id": "C05",
+      "text": "西埠夜里运粮。船工认得粮袋上的官印，却没人敢作证。",
+      "source_start": 13.7,
+      "source_end": 22.7,
+      "delivery": "交代可去查访的地点与害怕的见证人，不等于证据已锁死。",
+      "visible_speaker": true,
+      "id": "E4_D08",
+      "block": "Q02",
+      "start": 43.7,
+      "end": 52.7,
+      "voice_reference_file": "assets/audio/voice_references/02_pan_hui.mp3",
+      "voice_reference_is_final_dialogue": false,
+      "audible_source": "native_generated_dialogue",
+      "mouth_rule": "可见发言者逐字同步嘴型，其他人闭口；画外发声不驱动听者嘴。"
+    },
+    {
+      "speaker_id": "C01",
+      "text": "多谢。人证未稳，先不惊动他们。",
+      "source_start": 25.1,
+      "source_end": 28.9,
+      "delivery": "有判断也有谨慎，不能当场宣布处刑。",
+      "visible_speaker": true,
+      "id": "E4_D09",
+      "block": "Q02",
+      "start": 55.1,
+      "end": 58.9,
+      "voice_reference_file": "assets/audio/voice_references/01_sun_yalong.mp3",
+      "voice_reference_is_final_dialogue": false,
+      "audible_source": "native_generated_dialogue",
+      "mouth_rule": "可见发言者逐字同步嘴型，其他人闭口；画外发声不驱动听者嘴。"
+    },
+    {
+      "speaker_id": "C05",
+      "text": "他有一头茂密的头发。",
+      "source_start": 0.3,
+      "source_end": 3.5,
+      "delivery": "第一句逐字保留，郑重自然。",
+      "visible_speaker": true,
+      "id": "E4_D10",
+      "block": "Q03",
+      "start": 60.3,
+      "end": 63.5,
+      "voice_reference_file": "assets/audio/voice_references/02_pan_hui.mp3",
+      "voice_reference_is_final_dialogue": false,
+      "audible_source": "native_generated_dialogue",
+      "mouth_rule": "可见发言者逐字同步嘴型，其他人闭口；画外发声不驱动听者嘴。"
+    },
+    {
+      "speaker_id": "E06",
+      "text": "小姐，你已经夸了半个时辰了，莫不是心动了？",
+      "source_start": 5.2,
+      "source_end": 11.3,
+      "delivery": "轻笑着打趣；用原创侍女音色。",
+      "visible_speaker": true,
+      "id": "E4_D11",
+      "block": "Q03",
+      "start": 65.2,
+      "end": 71.3,
+      "voice_reference_file": null,
+      "voice_reference_is_final_dialogue": false,
+      "audible_source": "native_generated_dialogue",
+      "mouth_rule": "可见发言者逐字同步嘴型，其他人闭口；画外发声不驱动听者嘴。"
+    },
+    {
+      "speaker_id": "C05",
+      "text": "他如此坦荡，眼神清澈，气度又好，还这样心系百姓。",
+      "source_start": 13,
+      "source_end": 22,
+      "delivery": "温柔认真，保留欣赏眼神与气质及担当的全部意思。",
+      "visible_speaker": true,
+      "id": "E4_D12",
+      "block": "Q03",
+      "start": 73,
+      "end": 82,
+      "voice_reference_file": "assets/audio/voice_references/02_pan_hui.mp3",
+      "voice_reference_is_final_dialogue": false,
+      "audible_source": "native_generated_dialogue",
+      "mouth_rule": "可见发言者逐字同步嘴型，其他人闭口；画外发声不驱动听者嘴。"
+    },
+    {
+      "speaker_id": "C05",
+      "text": "他不一样。",
+      "source_start": 24,
+      "source_end": 25.8,
+      "delivery": "轻而笃定，随后闭口。",
+      "visible_speaker": true,
+      "id": "E4_D13",
+      "block": "Q03",
+      "start": 84,
+      "end": 85.8,
+      "voice_reference_file": "assets/audio/voice_references/02_pan_hui.mp3",
+      "voice_reference_is_final_dialogue": false,
+      "audible_source": "native_generated_dialogue",
+      "mouth_rule": "可见发言者逐字同步嘴型，其他人闭口；画外发声不驱动听者嘴。"
+    }
+  ],
+  "source_mapping": [
+    {
+      "block": "Q01",
+      "source_seconds": [
+        0,
+        30
+      ],
+      "timeline_seconds": [
+        0,
+        30
+      ]
+    },
+    {
+      "block": "Q02",
+      "source_seconds": [
+        0,
+        30
+      ],
+      "timeline_seconds": [
+        30,
+        60
+      ]
+    },
+    {
+      "block": "Q03",
+      "source_seconds": [
+        0,
+        30
+      ],
+      "timeline_seconds": [
+        60,
+        90
+      ]
+    }
+  ],
+  "acceptance": [
+    "口型先验实际说话者，听者不代说。",
+    "每句实测首字、中字和末字音画偏移；合唱另验转唱及笑场。",
+    "音色样本不是最终台词，更不是歌曲的节奏和歌词时钟。",
+    "对不上口型要局部重生或重新对口型；不能只加声音掩盖闭嘴。"
+  ]
+}
