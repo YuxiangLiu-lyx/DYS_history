@@ -1,3 +1,5 @@
+**当前交付：每场一个独立ZIP，下载目录见 [SCENE_FILES.md](SCENE_FILES.md)。**
+
 # 第四回制作入口
 
 先打开 [ORDERED_INPUTS.md](ORDERED_INPUTS.md)，按H01→H06逐场使用。每场依次摆放完整Prompt、图片1至末张的预览、音频1至末条、前段视频引用。下载包解压后打开index.html，也可直接进入01_H01至06_H06。详细导演稿与音频规则保留在本目录。

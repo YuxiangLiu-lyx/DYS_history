@@ -1,5 +1,9 @@
 # AI 续作与保存声明
 
+## 最新交付格式：每场一个独立文件（2026-09-24）
+
+用户明确纠正：要多个独立文件，每个文件含本场Prompt、图片与音频。默认交付H01–H06六个独立ZIP，不能只给一个总包或只给总包内文件夹。入口 `releases/huibenji/chapter04_v1/SCENE_FILES.md`。运行 `python3 tools/build_ch04_scene_files.py --out <目录>` 可从已锁输入重建六包。每包内部编号、梦图4/5/6、待补图/音频编号均保持；未收到歌曲不能伪造。旧总包保留作历史与可选合集。
+
 ## 当前执行补丁：第四回按场景排序与三梦引用修复（2026-09-24）
 
 当前制作入口改为 `releases/huibenji/chapter04_v1/ORDERED_INPUTS.md`，其每场顺序为完整Prompt、按槽位排列的图片预览、音频、上段视频。机器清单为同目录 `UPLOAD_ORDER.json`；逐场文件在 `scenes/H01` 至 `scenes/H06`。用 `python3 tools/build_ch04_ordered.py --out <目录>` 重建六场编号素材ZIP及离线index.html，不能只存没有原文件的文字清单。

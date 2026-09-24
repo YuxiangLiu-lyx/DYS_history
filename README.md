@@ -1,3 +1,5 @@
+[第四回 · 六个独立场景文件](releases/huibenji/chapter04_v1/SCENE_FILES.md)
+
 [第四回 · 按场景使用Prompt、编号图片与音频](releases/huibenji/chapter04_v1/ORDERED_INPUTS.md)
 
 > 当前投稿第四回重制入口：[梦里惊前尘，松间诉衷情](releases/huibenji/chapter04_v1/START_HERE.md)，180秒、6段。旧制作编号保留。

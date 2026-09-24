@@ -280,7 +280,7 @@
   },
   "new_chapters_download_bundles_saved": true,
   "new_chapters_bundle_record": "history/generation/EP04_v2_EP05_v3_delivery_bundles.json",
-  "latest_change": "CH04 scene-ordered prompts/images/audio; H01 explicitly binds barrage→proposal→censored chat as image4/5/6",
+  "latest_change": "Six separately downloadable scene ZIPs, each containing prompt, images and audio",
   "active_production_pack": "releases/huibenji/chapter04_v1/ORDERED_INPUTS.md",
   "release_ch04": {
     "chapter": 4,
@@ -315,6 +315,10 @@
     ],
     "previous_content_commit": "519f86a7bb6da078de4fc5cc2a47f2f8dc84883b",
     "content_commit": "d78983df9a368f741c0c49d44bebac219de590f8",
-    "ordered_bundle_validated": true
-  }
+    "ordered_bundle_validated": true,
+    "scene_files_entry": "releases/huibenji/chapter04_v1/SCENE_FILES.md",
+    "standalone_scene_files_saved": 6,
+    "standalone_delivery_record": "history/generation/CH04_scene_files_delivery.json"
+  },
+  "preferred_delivery_format": "one_standalone_zip_per_scene"
 }
