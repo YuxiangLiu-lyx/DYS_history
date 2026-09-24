@@ -89,13 +89,13 @@
   "github": {
     "repository": "YuxiangLiu-lyx/DYS_history",
     "branch": "main",
-    "synced": false,
+    "synced": true,
     "previous_verified_commit": "747b701ea00e6abafa528ac9a3cc6013ebbaa9b7",
-    "publication_status": "CH04_meadow_ready_for_publication",
-    "remote_commit": "d78983df9a368f741c0c49d44bebac219de590f8",
-    "verified_path_count": 522,
-    "receipt": "history/publication/CH04_ordered_inputs_receipt.json",
-    "verification_scope": "All 522 paths verified against remote Git blob SHA and mode; zero deletions. Publication/delivery metadata follows in a separate commit."
+    "publication_status": "CH04_meadow_content_published_verified",
+    "remote_commit": "a79ac272b889aba0cdd2a7571aab077339a00003",
+    "verified_path_count": 640,
+    "receipt": "history/publication/CH04_MEADOW_receipt.json",
+    "verification_scope": "全部640路径Git blob SHA和mode一致；无删除。回执/状态在后一元数据提交保存。"
   },
   "video_generated": false,
   "audio_generated": false,
@@ -303,7 +303,7 @@
     "storyboard_complete": false,
     "video_generated": false,
     "audio_generated": false,
-    "github_synced": false,
+    "github_synced": true,
     "internal_old_episode_paths_preserved": true,
     "revision": "release_v1_2_romantic_meadow",
     "prompt_length_includes_trailing_newline": true,
@@ -321,7 +321,7 @@
     "H01_H02_unchanged": true,
     "H03_dialogues_unchanged": true,
     "actual_AV_verified": false,
-    "new_content_commit": null,
+    "new_content_commit": "a79ac272b889aba0cdd2a7571aab077339a00003",
     "new_reference_images_available": 9,
     "selected_meadow_images": 7,
     "retained_instrument_images": 2,
@@ -333,7 +333,9 @@
     "build_receipt": "history/validation/CH04_MEADOW_SCENE_ZIPS.json",
     "standalone_scene_files_saved": 7,
     "updated_scene_files_saved": 5,
-    "standalone_delivery_record": "history/generation/CH04_scene_files_delivery.json"
+    "standalone_delivery_record": "history/generation/CH04_scene_files_delivery.json",
+    "publication_receipt": "history/publication/CH04_MEADOW_receipt.json",
+    "publication_note": "完整内容在此提交核验640路径；本回执和状态在随后的元数据提交入库。"
   },
   "preferred_delivery_format": "one_standalone_zip_per_scene"
 }

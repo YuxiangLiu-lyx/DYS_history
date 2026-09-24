@@ -1,0 +1,16 @@
+{
+  "repository": "YuxiangLiu-lyx/DYS_history",
+  "branch": "main",
+  "parent": "747b701ea00e6abafa528ac9a3cc6013ebbaa9b7",
+  "commit": "a79ac272b889aba0cdd2a7571aab077339a00003",
+  "tree": "49d5f13ff4cf97a116438c023722d2610cb7a7df",
+  "published": true,
+  "verified": true,
+  "verified_path_count": 640,
+  "changed_path_count": 155,
+  "retired_paths": [],
+  "mismatches": [],
+  "snapshot": "history/publication/CH04_MEADOW_snapshot.json",
+  "verified_at": "2026-09-24T23:29:13.562718+00:00",
+  "commit_url": "https://github.com/YuxiangLiu-lyx/DYS_history/commit/a79ac272b889aba0cdd2a7571aab077339a00003"
+}

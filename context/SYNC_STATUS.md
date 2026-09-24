@@ -1,3 +1,17 @@
+# 最新同步：第四回草坡巨松浪漫版
+
+2026-09-24：内容已上传并核验全部640个路径，未删除历史文件。
+
+提交：https://github.com/YuxiangLiu-lyx/DYS_history/commit/a79ac272b889aba0cdd2a7571aab077339a00003
+
+七段共210秒；七张新草坡/关键帧与朱漆阮/持阮图已按槽位入包。H03–H06独立ZIP更新，H07新增，五包保存后哈希和ZIP完整性再次通过；H01/H02原包不变。下载记录：`history/generation/CH04_scene_files_delivery.json`。
+
+真实曲源和Seedance视频仍缺，未完成音画验收；不能将静帧、预排秒表或本次同步校验当作视频验收。
+
+回执：`history/publication/CH04_MEADOW_receipt.json`；这是内容提交的核验，回执与状态本身随后另存元数据提交。
+
+---
+
 # 2026-09-24 · EP04 v2／EP05 v3已同步
 
 两章分立制作包已[上传并核验452文件](https://github.com/YuxiangLiu-lyx/DYS_history/commit/95b6e32e223229848c1752f151418219cd8addda)，71路径更新、零删除。第四回120秒/4任务，旧第五回客栈议策迁为Q04；第五回独立90秒/3任务，原生歌声与伴奏、较充分间奏、原分唱、双人副歌回唱与末约6.5秒相吻。只比上一版多一次30秒歌段。
