@@ -2,6 +2,8 @@
 
 ## 当前最高优先：v1.6 人物母版与Seedance文字动作（2026-09-25）
 
+本轮内容提交`e97adfe24a365d2eff71679b394a0ddae0ff68c1`已核验929路径、零删除，9文件已保存。回执history/publication/CH04_v16_receipt.json与history/generation/CH04_v16_delivery.json；当前Prompt修订完成，不代表视频已生成。
+
 最新要求见history/requests/20260925_CH04_SEEDANCE_PROMPT_MOTION.md。本节覆盖下方“静态吻图缺失就不能执行”和“歌后全程禁止拥抱”的旧限制；v1.5完整存archive/chapter04_before_seedance_inference_v16。
 
 - H01–H03及29个冻结文件不变，完整60秒音轨不变；唱者/口型时码仍待核，H04/H05正式演唱Prompt未签发。

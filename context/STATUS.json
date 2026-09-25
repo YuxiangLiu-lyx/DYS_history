@@ -89,13 +89,13 @@
   "github": {
     "repository": "YuxiangLiu-lyx/DYS_history",
     "branch": "main",
-    "synced": false,
+    "synced": true,
     "previous_verified_commit": "a5e1986ad0f2c35a60e4f8020c13159ae47709ba",
-    "publication_status": "v16_saved_ready_for_sync",
-    "remote_commit": "152cee97f7c4968326cf35ddab74f7ba0928d93d",
-    "verified_path_count": 857,
-    "receipt": "history/publication/CH04_v15_receipt.json",
-    "verification_scope": "内容提交857路径Git blob SHA与mode逐项一致，零删除；本回执与同步状态随后单独提交。未完成真实唱者核听、接吻关键图与动态视频验收。"
+    "publication_status": "v16_content_published_and_verified",
+    "remote_commit": "e97adfe24a365d2eff71679b394a0ddae0ff68c1",
+    "verified_path_count": 929,
+    "receipt": "history/publication/CH04_v16_receipt.json",
+    "verification_scope": "内容929路径Git blob SHA与mode逐项一致，零删除；当前Prompt路线更新完成，音频唱者核听与动态验收仍未完成。回执及同步状态随后单独提交。"
   },
   "video_generated": false,
   "audio_generated": false,
@@ -344,7 +344,7 @@
     "new_images_user_approved": false,
     "new_video_generated": false,
     "actual_AV_verified": false,
-    "github_synced": false,
+    "github_synced": true,
     "source_archive": "archive/chapter04_before_seedance_inference_v16",
     "blockers": [
       {
@@ -396,7 +396,9 @@
     "current_input_image_count_per_block": 5,
     "post_song_prompts_ready": true,
     "static_package_qa_pass": true,
-    "current_prompt_revision_complete": true
+    "current_prompt_revision_complete": true,
+    "verified_content_commit": "e97adfe24a365d2eff71679b394a0ddae0ff68c1",
+    "publication_receipt": "history/publication/CH04_v16_receipt.json"
   },
   "preferred_delivery_format": "one_standalone_zip_per_scene",
   "received_completed_ch04_video_files": false,

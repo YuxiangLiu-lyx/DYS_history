@@ -59,7 +59,7 @@
   "new_images_user_approved": false,
   "new_video_generated": false,
   "actual_AV_verified": false,
-  "github_synced": false,
+  "github_synced": true,
   "source_archive": "archive/chapter04_before_seedance_inference_v16",
   "blockers": [
     {
@@ -111,5 +111,7 @@
   "current_input_image_count_per_block": 5,
   "post_song_prompts_ready": true,
   "static_package_qa_pass": true,
-  "current_prompt_revision_complete": true
+  "current_prompt_revision_complete": true,
+  "verified_content_commit": "e97adfe24a365d2eff71679b394a0ddae0ff68c1",
+  "publication_receipt": "history/publication/CH04_v16_receipt.json"
 }
