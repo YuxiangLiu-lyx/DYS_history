@@ -1,0 +1,53 @@
+{
+  "status": "accepted_user_master_pending_singer_and_lipsync_audit",
+  "selected_master": "assets/audio/ch04/BUGUA_FINAL60_USER_MASTER_v01.mp3",
+  "sha256": "4b3d1a9460a9f7aab6e565b423b7d8867222f982e2dc45233d968ad82b388ccd",
+  "duration": 60,
+  "master_received": true,
+  "previous_rejected_search_source_superseded": true,
+  "new_song_search_performed": false,
+  "same_audio_crosscheck": {
+    "ai_mv": "41521382979-1-192.mp4",
+    "offset_seconds": 31.999875,
+    "whole_correlation": 0.9537129631,
+    "five_second_windows_correlation_range": [
+      0.9311,
+      0.9838
+    ],
+    "allowed_evidence": "same audio and candidate subtitle text only; never singer identity from generated mouths"
+  },
+  "historical_live_video_match": {
+    "file": "1159171533-1-192.mp4",
+    "piecewise_offsets": [
+      {
+        "master_range": [
+          0,
+          20
+        ],
+        "offset": 131.3835,
+        "corr": 0.7701
+      },
+      {
+        "master_range": [
+          20,
+          21
+        ],
+        "offset": null,
+        "status": "transition not resolved"
+      },
+      {
+        "master_range": [
+          21,
+          60
+        ],
+        "offset": 148.55025,
+        "status": "after 25s correlation 0.8966–0.9504"
+      }
+    ],
+    "caution": "one offset for the entire 60s is invalid; low-res visual crops do not verify individual singing voices"
+  },
+  "asr_disagreement": "corresponding line ends 39.56 vs 40.56; segmentation differs at 50–56.7. Precision cannot be inferred from number of decimals.",
+  "actual_listening_completed": false,
+  "singer_status": "all actual singer fields remain null",
+  "next_required": "Listen to this exact unchanged master and check each lead/overlap/stop before writing singing prompts. No song reselection."
+}

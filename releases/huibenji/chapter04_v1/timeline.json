@@ -1,7 +1,7 @@
 {
   "title": "梦里惊前尘，松间诉衷情",
   "chapter": 4,
-  "revision": "release_v1_5_final60_audio",
+  "revision": "release_v1_6_identity_prompt_motion",
   "duration_seconds": 218,
   "continuation_duration_seconds": 128,
   "song_duration_seconds": 60,
@@ -387,10 +387,9 @@
       "image_reference_ids": [
         "C01",
         "C05",
+        "V15_SMILE",
         "S15_NEW",
-        "P_RUAN",
-        "V15_SOLO",
-        "V15_SMILE"
+        "P_RUAN"
       ],
       "first_frame_description": "孙画左抱同一朱漆金纹阮，在约18米外静看画右巨松下背身的潘；尾秒轻吸气，右手停弦前，尚不唱不弹。",
       "last_frame_description": "歌曲30.000秒连续边界，孙仍站立持阮持续拨弦，位置、口型相位与距离以实际H04尾帧为准。",
@@ -406,7 +405,9 @@
         "tail_seconds": 4,
         "instruction": "引用真实前段最后4秒仅继承姿势/构图/光线和拨弦相位；新增音频从本块零时刻接入，不重放前段。H03已由用户完成，不重做。"
       },
-      "identity_rules": "PAN_HUI_IDENTITY_RULES.md"
+      "identity_rules": "PAN_HUI_IDENTITY_RULES.md",
+      "visual_route": "identity_masters_plus_prompt_motion",
+      "static_kiss_reference_required": false
     },
     {
       "id": "H05",
@@ -449,9 +450,9 @@
       "image_reference_ids": [
         "C01",
         "C05",
+        "V15_SMILE",
         "S15_NEW",
-        "P_RUAN",
-        "V15_DUET"
+        "P_RUAN"
       ],
       "first_frame_description": "歌曲30.000秒连续边界，孙仍站立持阮持续拨弦，位置、口型相位与距离以实际H04尾帧为准。",
       "last_frame_description": "完整60秒音轨到文件终点；两人站立约1.8米，孙仍双手持阮，右手刚完成末次拨弦；潘已朝向孙，未触碰。",
@@ -467,7 +468,9 @@
         "tail_seconds": 4,
         "instruction": "引用真实前段最后4秒仅继承姿势/构图/光线和拨弦相位；新增音频从本块零时刻接入，不重放前段。H03已由用户完成，不重做。"
       },
-      "identity_rules": "PAN_HUI_IDENTITY_RULES.md"
+      "identity_rules": "PAN_HUI_IDENTITY_RULES.md",
+      "visual_route": "identity_masters_plus_prompt_motion",
+      "static_kiss_reference_required": false
     },
     {
       "id": "H06",
@@ -500,13 +503,14 @@
         }
       ],
       "dialogues": [],
-      "prompt": "【PAN HUI IDENTITY LOCK—HIGHEST PRIORITY】图1孙、图2潘为唯一主要身份母版；场景、新旧AI图和前片只管姿势构图光线连续性，不替代脸。本人还原>连续性>表演>美化。潘横长偏窄杏眼、眼尾微扬，不放大眼睛，不圆大幼态或楚楚可怜；眉眼距离眉形、鼻宽鼻长鼻尖、原唇形微扬嘴角、下颌和下巴长度与脸宽比例不变。痣按正脸图2画面右嘴角下方皮肤的精确位置大小距离，不镜像；成熟灵动略媚，不网红脸、不韩式整容脸、不generic Chinese costume drama beauty face。Identity similarity takes priority over beautification。孙保持图1宽自然脸、原五官发际线与年龄；深蓝便装白领棕带高髻。潘浅蓝花纹外衣米白领玉簪固定。图3只定巨松草坡、远山及后右夕阳；图4只定同一圆形深木面朱红缘金纹阮、四弦两短红穗，展示支架不入场。孙左潘右，同轴不越线；自然衣料发丝草木微动，无现代物件、台词、旁白、自动字幕、舞蹈、转圈、扶腰搭肩搂颈。\nH06，新增12秒，16:9。视频1接H05真实末4秒，歌曲已完整播放至60.000秒。新段不续唱、不重弹、不添尾奏，只有轻风衣料气息。0–0.8秒停弹后轻停；0.8–5.5秒双手稳放阮到画左后方草地，琴面朝上、颈朝左后方，先触地再松手。镜头小幅跟随，不做道具重点特写。5.5–8秒孙起身抬头，潘向前极小一步，留约1.2米。8–12秒两人安静互望，潘眼尾含笑、嘴角轻扬，不睁大眼睛，不立即吻。潘首次可辨脸依母版近正脸，约0–15°。",
-      "prompt_status": "director_prompt_ready_for_review",
+      "prompt": "【PAN HUI IDENTITY LOCK—HIGHEST PRIORITY】图1孙亚龙、图2 PanHui Identity Master是唯一主要身份母版；图3为用户指定的潘慧单人微笑图，只参考笑意，不能覆盖图2五官。本人还原>人物连续性>表演>美化。潘横长偏窄杏眼、眼尾微扬，不放大眼睛，不圆大幼态或楚楚可怜；眉眼距离眉形、鼻宽鼻长鼻尖、原唇形微扬嘴角、下颌下巴长度与脸宽比例均按图2。美人痣保持图2正脸画面右嘴角下方皮肤的精确位置、大小和距离，不镜像；成熟灵动略媚，不网红化、不韩式整容脸、不generic Chinese costume drama beauty face。Identity similarity takes priority over beautification。孙保留图1原五官、宽自然脸、发际线和年龄，深蓝便装白领棕带高髻；潘浅蓝花纹外衣米白领玉簪固定。图4只定巨松草坡、远山和夕阳；图5只定同一圆形深木面朱红缘金纹阮、四弦两短红穗，展示支架不入场。人物姿态与动作由上述母版结合文字生成，不使用双人场景脸或合成脸作为身份参考。视频1仅继承实际前片位置、动作相位、构图、服装与光线。孙左潘右，同轴不越线，夕阳逆光保留脸部柔和层次。无新台词、旁白、自动字幕、舞蹈、转圈；衣料发丝草木自然微动。\nH06，新增12秒，16:9。视频1接H05真实末4秒，用户完整60秒音轨已结束后才停止弹奏。本段只有晚风、松枝、衣料和自然呼吸。0–0.8秒孙停弹、持琴短停；0.8–5.5秒从容弯身，双手稳放阮到画左后方草地，面朝上、琴颈朝左后方，触地稳住再松手。镜头短暂小幅跟随放琴，不做乐器重点特写。5.5–8秒孙起身抬头，潘向前极小一步，约1.2米。8–12秒镜头到双人中近景，两人安静看彼此眼睛；潘先眼尾带笑再嘴角轻扬，保持图3熟悉灵动的笑意而不睁圆眼。潘近正脸约0–15°。手自然下垂，停留在对视，没有新的触碰。阮自落地后始终原位。",
+      "prompt_status": "prompt_ready_awaiting_actual_previous_clip",
       "production_ready": false,
       "actual_av_review": false,
       "image_reference_ids": [
         "C01",
         "C05",
+        "V15_SMILE",
         "S15_NEW",
         "P_RUAN"
       ],
@@ -524,7 +528,10 @@
         "tail_seconds": 4,
         "instruction": "继承真实末4秒全部状态，新增片段不重复前片内容，不添歌曲。"
       },
-      "identity_rules": "PAN_HUI_IDENTITY_RULES.md"
+      "identity_rules": "PAN_HUI_IDENTITY_RULES.md",
+      "visual_route": "identity_masters_plus_prompt_motion",
+      "static_kiss_reference_required": false,
+      "prompt_prepared": true
     },
     {
       "id": "H07",
@@ -562,16 +569,16 @@
         }
       ],
       "dialogues": [],
-      "prompt": "【PAN HUI IDENTITY LOCK—HIGHEST PRIORITY】图1孙、图2潘为唯一主要身份母版；场景、新旧AI图和前片只管姿势构图光线连续性，不替代脸。本人还原>连续性>表演>美化。潘横长偏窄杏眼、眼尾微扬，不放大眼睛，不圆大幼态或楚楚可怜；眉眼距离眉形、鼻宽鼻长鼻尖、原唇形微扬嘴角、下颌和下巴长度与脸宽比例不变。痣按正脸图2画面右嘴角下方皮肤的精确位置大小距离，不镜像；成熟灵动略媚，不网红脸、不韩式整容脸、不generic Chinese costume drama beauty face。Identity similarity takes priority over beautification。孙保持图1宽自然脸、原五官发际线与年龄；深蓝便装白领棕带高髻。潘浅蓝花纹外衣米白领玉簪固定。图3只定巨松草坡、远山及后右夕阳；图4只定同一圆形深木面朱红缘金纹阮、四弦两短红穗，展示支架不入场。孙左潘右，同轴不越线；自然衣料发丝草木微动，无现代物件、台词、旁白、自动字幕、舞蹈、转圈、扶腰搭肩搂颈。\nH07，新增18秒，16:9。图5只供10–16秒约30–45°的对视构图，不能当开场正脸，也不能拿它改脸。视频1接H06末4秒，琴已放在画左后方，不再放一遍。0–6秒近孙肩侧机位，潘近正脸，长时间只看彼此眼睛，安静呼吸。6–10秒孙进一步后停，潘不退，潘相对摄影机逐至15°；10–13秒潘也靠近一点再停，镜头同轴推进至双人近景，潘约30°。13–16秒极短看唇再看眼睛，潘微抬头，孙缓靠，潘约45°；16–18秒脸距约6厘米停住，尚不吻。正脸→15°→30°→45°由同侧机位小幅调整与自然转头完成，不机械扭头、不看摄影机。手自然下垂，眼神呼吸推动，没有夸张肢体动作。琴全段原地不动。",
-      "prompt_status": "director_prompt_ready_for_review",
+      "prompt": "【PAN HUI IDENTITY LOCK—HIGHEST PRIORITY】图1孙亚龙、图2 PanHui Identity Master是唯一主要身份母版；图3为用户指定的潘慧单人微笑图，只参考笑意，不能覆盖图2五官。本人还原>人物连续性>表演>美化。潘横长偏窄杏眼、眼尾微扬，不放大眼睛，不圆大幼态或楚楚可怜；眉眼距离眉形、鼻宽鼻长鼻尖、原唇形微扬嘴角、下颌下巴长度与脸宽比例均按图2。美人痣保持图2正脸画面右嘴角下方皮肤的精确位置、大小和距离，不镜像；成熟灵动略媚，不网红化、不韩式整容脸、不generic Chinese costume drama beauty face。Identity similarity takes priority over beautification。孙保留图1原五官、宽自然脸、发际线和年龄，深蓝便装白领棕带高髻；潘浅蓝花纹外衣米白领玉簪固定。图4只定巨松草坡、远山和夕阳；图5只定同一圆形深木面朱红缘金纹阮、四弦两短红穗，展示支架不入场。人物姿态与动作由上述母版结合文字生成，不使用双人场景脸或合成脸作为身份参考。视频1仅继承实际前片位置、动作相位、构图、服装与光线。孙左潘右，同轴不越线，夕阳逆光保留脸部柔和层次。无新台词、旁白、自动字幕、舞蹈、转圈；衣料发丝草木自然微动。\nH07，新增18秒，16:9。视频1接H06真实末4秒，琴已放画左后方草地。由图1、图2和文字生成对视与靠近，不需要双人对视参考图。0–6秒双人中近景，机位邻近孙肩侧建立潘近正脸，长时间望着彼此眼睛，克制自然；潘保留图3微笑，晚风吹动发丝衣袖。6–10秒孙缓进一点后停，潘不退；摄影机沿同侧小幅移近，潘约15°。10–13秒潘也自然靠近一点再停，逐渐到双人近景、约30°。13–16秒视线短暂落到对方嘴唇再回眼睛；潘微抬头，孙缓近，潘约45°。16–18秒额头鼻尖距离很近，仍留清楚间隙和吻前停顿，嘴唇尚未接触。正脸→15°→30°→45°是渐进机位与自然转头，不机械扭头、不看镜头。身体与双手放松，靠目光与呼吸推进；本段不拥抱，琴保持原位。",
+      "prompt_status": "prompt_ready_awaiting_actual_previous_clip",
       "production_ready": false,
       "actual_av_review": false,
       "image_reference_ids": [
         "C01",
         "C05",
+        "V15_SMILE",
         "S15_NEW",
-        "P_RUAN",
-        "V15_GAZE"
+        "P_RUAN"
       ],
       "first_frame_description": "琴已面朝上稳放画左后方草地，琴颈指左后方，离二人靠近路线半步；孙起身站稳，孙左潘右约1.2米安静互望，双手自然下垂。",
       "last_frame_description": "潘相对摄影机约45°，略抬头，双方近至约6厘米，刚完成吻前停顿，嘴唇尚未接触；琴固定画左后方草地。",
@@ -614,11 +621,14 @@
           "end": 18,
           "approx_degrees": 45
         }
-      ]
+      ],
+      "visual_route": "identity_masters_plus_prompt_motion",
+      "static_kiss_reference_required": false,
+      "prompt_prepared": true
     },
     {
       "id": "H08",
-      "name": "慢慢吻上，保持片刻",
+      "name": "缓慢吻上，轻拥停留",
       "duration": 14,
       "global_start": 180,
       "global_start_expression": "180",
@@ -638,28 +648,28 @@
         {
           "start": 6,
           "end": 11,
-          "action": "持续、从容、真诚的吻逐渐更坚定，保持自然接触，不快速啄离、不安排机械二次吻。"
+          "action": "同一次自然克制的吻稳定后，孙手臂缓缓轻环潘上背外衣，潘手轻放孙上臂，形成放松轻拥；手不遮脸，不拉头。"
         },
         {
           "start": 11,
           "end": 14,
-          "action": "亲吻状态最稳定时停留，保持动态呼吸、发丝衣袖与草枝轻动，摄影机几乎不动。"
+          "action": "保持相拥亲吻，不分开；呼吸、发丝衣袖、松枝草仍自然微动，不冻结画面。"
         }
       ],
       "dialogues": [],
-      "prompt": "【PAN HUI IDENTITY LOCK—HIGHEST PRIORITY】图1孙、图2潘为唯一主要身份母版；场景、新旧AI图和前片只管姿势构图光线连续性，不替代脸。本人还原>连续性>表演>美化。潘横长偏窄杏眼、眼尾微扬，不放大眼睛，不圆大幼态或楚楚可怜；眉眼距离眉形、鼻宽鼻长鼻尖、原唇形微扬嘴角、下颌和下巴长度与脸宽比例不变。痣按正脸图2画面右嘴角下方皮肤的精确位置大小距离，不镜像；成熟灵动略媚，不网红脸、不韩式整容脸、不generic Chinese costume drama beauty face。Identity similarity takes priority over beautification。孙保持图1宽自然脸、原五官发际线与年龄；深蓝便装白领棕带高髻。潘浅蓝花纹外衣米白领玉簪固定。图3只定巨松草坡、远山及后右夕阳；图4只定同一圆形深木面朱红缘金纹阮、四弦两短红穗，展示支架不入场。孙左潘右，同轴不越线；自然衣料发丝草木微动，无现代物件、台词、旁白、自动字幕、舞蹈、转圈、扶腰搭肩搂颈。\nH08，新增14秒，16:9。【导演待审：接吻关键图生成被服务安全审核拒绝，本包尚不能标为投料就绪。】图5仅为不含接触的近距离对视替代参考，不是接吻图，不据它宣称接吻已完成。视频1接H07末4秒，已完成正脸至45°身份建立；琴在画左后方。0–3秒继承约45°与吻前停顿，潘微抬头，不突跳侧脸。3–6秒双方缓近、鼻尖自然错开，随后嘴唇轻合进入真正近景。6–11秒持续自然深情相吻，温柔克制而坚定，不快速啄离、不安排两次机械吻，无张大嘴、舌部或情色化动作，无拥抱搭肩扶腰搂颈；手自然下垂或极轻触袖。11–14秒在稳定漂亮的情绪高点停留，人物保持亲吻但不是冻结帧，风、发丝、衣袖、树枝与草细微运动。此段末不切远，不添歌或台词。",
-      "prompt_status": "director_draft_missing_kiss_reference",
+      "prompt": "【PAN HUI IDENTITY LOCK—HIGHEST PRIORITY】图1孙亚龙、图2 PanHui Identity Master是唯一主要身份母版；图3为用户指定的潘慧单人微笑图，只参考笑意，不能覆盖图2五官。本人还原>人物连续性>表演>美化。潘横长偏窄杏眼、眼尾微扬，不放大眼睛，不圆大幼态或楚楚可怜；眉眼距离眉形、鼻宽鼻长鼻尖、原唇形微扬嘴角、下颌下巴长度与脸宽比例均按图2。美人痣保持图2正脸画面右嘴角下方皮肤的精确位置、大小和距离，不镜像；成熟灵动略媚，不网红化、不韩式整容脸、不generic Chinese costume drama beauty face。Identity similarity takes priority over beautification。孙保留图1原五官、宽自然脸、发际线和年龄，深蓝便装白领棕带高髻；潘浅蓝花纹外衣米白领玉簪固定。图4只定巨松草坡、远山和夕阳；图5只定同一圆形深木面朱红缘金纹阮、四弦两短红穗，展示支架不入场。人物姿态与动作由上述母版结合文字生成，不使用双人场景脸或合成脸作为身份参考。视频1仅继承实际前片位置、动作相位、构图、服装与光线。孙左潘右，同轴不越线，夕阳逆光保留脸部柔和层次。无新台词、旁白、自动字幕、舞蹈、转圈；衣料发丝草木自然微动。\nH08，新增14秒，16:9。视频1接H07真实末4秒，已建立潘正脸至45°身份。直接依据人物母版与动作文字生成，不需要预先生成亲吻图。0–3秒承接双人近景和吻前停顿，长看彼此眼睛，潘微抬头、嘴角留熟悉笑意。3–6秒孙缓慢靠近，潘自然迎向他，鼻尖轻微错开；近在咫尺再稍停，随后自然温柔地吻上。6–11秒保持同一次缓慢深情的亲吻，情感真诚、克制，双方自愿回应；接吻稳定后孙手臂缓缓轻环潘上背外衣，潘手轻放孙上臂，形成放松轻拥。手不遮脸、不拉头、不挤压身体。11–14秒停留在相拥亲吻最稳定的状态，两人不分开，发丝衣袖、草与松枝仍轻动，这是情绪停留而非冻结帧。以同侧三分之二侧面为主，必要时自然稍侧，保持五官稳定和潘痣位。成年恋人浪漫电影式亲吻，无色情露骨表现；不夸张张嘴，不出现舌头动作、脸部拉伸融合或身体穿模。夕阳穿松枝形成柔和轮廓光，琴仍在画左后方。本段末保持近景相拥亲吻。",
+      "prompt_status": "prompt_ready_awaiting_actual_previous_clip",
       "production_ready": false,
       "actual_av_review": false,
       "image_reference_ids": [
         "C01",
         "C05",
+        "V15_SMILE",
         "S15_NEW",
-        "P_RUAN",
-        "V15_PRECONTACT"
+        "P_RUAN"
       ],
       "first_frame_description": "潘相对摄影机约45°，略抬头，双方近至约6厘米，刚完成吻前停顿，嘴唇尚未接触；琴固定画左后方草地。",
-      "last_frame_description": "双人近景中已进入稳定、缓慢、自然的深情亲吻，两人放松克制，手在身体下方；发丝衣袖仍轻动，琴在画左后方原位。",
+      "last_frame_description": "双人近景中双方保持稳定的温柔亲吻与放松轻拥：孙轻环潘上背外衣，潘手轻放孙上臂，手不遮脸；发丝衣袖轻动，琴在画左后方原位。",
       "first_frame_file": null,
       "last_frame_file": null,
       "previous_reference": {
@@ -672,7 +682,10 @@
         "tail_seconds": 4,
         "instruction": "继承真实末4秒全部状态，新增片段不重复前片内容，不添歌曲。"
       },
-      "identity_rules": "PAN_HUI_IDENTITY_RULES.md"
+      "identity_rules": "PAN_HUI_IDENTITY_RULES.md",
+      "visual_route": "identity_masters_plus_prompt_motion",
+      "static_kiss_reference_required": false,
+      "prompt_prepared": true
     },
     {
       "id": "H09",
@@ -686,7 +699,7 @@
         {
           "start": 0,
           "end": 3,
-          "action": "同一近景继续保持亲吻的情绪高点，风、发丝、衣袖轻动。"
+          "action": "延续H08同一近景及相拥亲吻状态，手位头位匹配，发丝衣袖微动，不分开。"
         },
         {
           "start": 3,
@@ -701,24 +714,23 @@
         {
           "start": 19,
           "end": 24,
-          "action": "完整巨大迎客松、晚霞、远山与树下小小二人进入大远景，镜头逐渐缓停，亲吻延续。"
+          "action": "完整巨松、晚霞、草坡远山与小小二人进入大远景，摄影机缓停；二人直到末帧仍轻拥亲吻，琴保持原位。"
         }
       ],
       "dialogues": [],
-      "prompt": "【PAN HUI IDENTITY LOCK—HIGHEST PRIORITY】图1孙、图2潘为唯一主要身份母版；场景、新旧AI图和前片只管姿势构图光线连续性，不替代脸。本人还原>连续性>表演>美化。潘横长偏窄杏眼、眼尾微扬，不放大眼睛，不圆大幼态或楚楚可怜；眉眼距离眉形、鼻宽鼻长鼻尖、原唇形微扬嘴角、下颌和下巴长度与脸宽比例不变。痣按正脸图2画面右嘴角下方皮肤的精确位置大小距离，不镜像；成熟灵动略媚，不网红脸、不韩式整容脸、不generic Chinese costume drama beauty face。Identity similarity takes priority over beautification。孙保持图1宽自然脸、原五官发际线与年龄；深蓝便装白领棕带高髻。潘浅蓝花纹外衣米白领玉簪固定。图3只定巨松草坡、远山及后右夕阳；图4只定同一圆形深木面朱红缘金纹阮、四弦两短红穗，展示支架不入场。孙左潘右，同轴不越线；自然衣料发丝草木微动，无现代物件、台词、旁白、自动字幕、舞蹈、转圈、扶腰搭肩搂颈。\nH09，新增24秒，16:9。【导演待审：实际接吻关键图缺失。】图5是非接触近距对视替代，图6只定远景环境与站位，不是亲吻终态图；两图不改身份。视频1接H08真实末4秒，直接继承同一吻与同一机位状态，不再执行一次吻。0–3秒仍停在动态近景高点；3–9秒极缓后退至双人中景，9–19秒同一连续镜头缓退轻升，19–24秒完整巨松、草坡、晚霞、远山与树下二人纳入远景并缓停。禁止突然切大全景、快速飞远、冻结图片、突然换太阳位置。两人保持亲吻，随呼吸自然微动，不摆拍站僵；阮始终面朝上静放画左后方草地，琴颈向左后方，不转移不消失，最终远景仍可辨其轮廓和红穗。天地和巨松很大，两个人很小，情绪留在画面里。只保留松风、衣料、气息。",
-      "prompt_status": "director_draft_missing_kiss_reference",
+      "prompt": "【PAN HUI IDENTITY LOCK—HIGHEST PRIORITY】图1孙亚龙、图2 PanHui Identity Master是唯一主要身份母版；图3为用户指定的潘慧单人微笑图，只参考笑意，不能覆盖图2五官。本人还原>人物连续性>表演>美化。潘横长偏窄杏眼、眼尾微扬，不放大眼睛，不圆大幼态或楚楚可怜；眉眼距离眉形、鼻宽鼻长鼻尖、原唇形微扬嘴角、下颌下巴长度与脸宽比例均按图2。美人痣保持图2正脸画面右嘴角下方皮肤的精确位置、大小和距离，不镜像；成熟灵动略媚，不网红化、不韩式整容脸、不generic Chinese costume drama beauty face。Identity similarity takes priority over beautification。孙保留图1原五官、宽自然脸、发际线和年龄，深蓝便装白领棕带高髻；潘浅蓝花纹外衣米白领玉簪固定。图4只定巨松草坡、远山和夕阳；图5只定同一圆形深木面朱红缘金纹阮、四弦两短红穗，展示支架不入场。人物姿态与动作由上述母版结合文字生成，不使用双人场景脸或合成脸作为身份参考。视频1仅继承实际前片位置、动作相位、构图、服装与光线。孙左潘右，同轴不越线，夕阳逆光保留脸部柔和层次。无新台词、旁白、自动字幕、舞蹈、转圈；衣料发丝草木自然微动。\nH09，新增24秒，16:9。视频1必须接H08实际合格成片末4秒，继承相拥亲吻、手的位置、头部朝向与同一近景机位。直接从两个人物母版、空景与文字推演拉远，不需要亲吻远景参考图。0–3秒继续保持同一次相拥亲吻的情绪高点；两人不分开、不重新吻一次，呼吸、发丝和衣袖仍细微运动。3–9秒摄影机极慢向后移动，近景逐渐成为双人中景；9–19秒同一连续镜头稳定缓退并轻微升高，草坡、树干、放在画左后方的阮和远山逐渐进入；19–24秒巨大的迎客松完整展开，金橙浅粉晚霞、草地、远山和树下很小的两人进入远景，镜头缓停。直到最后一帧两人仍轻拥亲吻，不放手转身，不变成分开站立；接触处不滑移、不穿模。情绪停留不是静帧，草与松枝始终随风轻动。全程无硬切大全景、快速飞远或骤变太阳方向。琴面朝上、琴颈朝左后方，位置不变；远景保留可辨轮廓，不为看清装饰放大乐器。天地与巨松很大，两个人很小，保留古装爱情电影的宁静浪漫。只有晚风、松枝、衣料与自然气息。",
+      "prompt_status": "prompt_ready_awaiting_actual_previous_clip",
       "production_ready": false,
       "actual_av_review": false,
       "image_reference_ids": [
         "C01",
         "C05",
+        "V15_SMILE",
         "S15_NEW",
-        "P_RUAN",
-        "V15_PRECONTACT",
-        "V15_WIDE_LAYOUT"
+        "P_RUAN"
       ],
-      "first_frame_description": "双人近景中已进入稳定、缓慢、自然的深情亲吻，两人放松克制，手在身体下方；发丝衣袖仍轻动，琴在画左后方原位。",
-      "last_frame_description": "完整巨松占据天空，草坡、金粉晚霞、远山薄雾、树下亲吻的小小二人与画左草地阮同入远景，摄影机缓停。",
+      "first_frame_description": "双人近景中双方保持稳定的温柔亲吻与放松轻拥：孙轻环潘上背外衣，潘手轻放孙上臂，手不遮脸；发丝衣袖轻动，琴在画左后方原位。",
+      "last_frame_description": "完整巨松、金粉晚霞、草坡、远山和树下始终相拥亲吻的小小二人同入远景；琴仍放画左后方草地，镜头缓停，两人没有分开。",
       "first_frame_file": null,
       "last_frame_file": null,
       "previous_reference": {
@@ -731,7 +743,10 @@
         "tail_seconds": 4,
         "instruction": "继承真实末4秒全部状态，新增片段不重复前片内容，不添歌曲。"
       },
-      "identity_rules": "PAN_HUI_IDENTITY_RULES.md"
+      "identity_rules": "PAN_HUI_IDENTITY_RULES.md",
+      "visual_route": "identity_masters_plus_prompt_motion",
+      "static_kiss_reference_required": false,
+      "prompt_prepared": true
     }
   ],
   "final_duration_locked": false,
@@ -748,5 +763,7 @@
     "H07",
     "H08",
     "H09"
-  ]
+  ],
+  "visual_route": "identity_masters_plus_prompt_motion",
+  "static_contact_keyframes_required": false
 }

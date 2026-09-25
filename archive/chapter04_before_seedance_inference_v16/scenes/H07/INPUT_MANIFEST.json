@@ -1,0 +1,70 @@
+{
+  "revision": "release_v1_5_final60_audio",
+  "id": "H07",
+  "name": "长对视，逐次靠近",
+  "duration_seconds": 18,
+  "global_start": 162,
+  "song_range": null,
+  "prompt_status": "director_prompt_ready_for_review",
+  "production_ready": false,
+  "images": [
+    {
+      "slot": 1,
+      "ref_id": "C01",
+      "source_path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+      "bundle_path": "02_images/01_C01.png",
+      "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
+      "role": "identity_master",
+      "upload": true
+    },
+    {
+      "slot": 2,
+      "ref_id": "C05",
+      "source_path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+      "bundle_path": "02_images/02_C05.png",
+      "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
+      "role": "identity_master",
+      "upload": true
+    },
+    {
+      "slot": 3,
+      "ref_id": "S15_NEW",
+      "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+      "bundle_path": "02_images/03_S15_NEW.png",
+      "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
+      "role": "environment_or_prop",
+      "upload": true
+    },
+    {
+      "slot": 4,
+      "ref_id": "P_RUAN",
+      "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
+      "bundle_path": "02_images/04_P_RUAN.png",
+      "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
+      "role": "environment_or_prop",
+      "upload": true
+    },
+    {
+      "slot": 5,
+      "ref_id": "V15_GAZE",
+      "source_path": "assets/keyframes/CH04/V15_GAZE_v01.png",
+      "bundle_path": "02_images/05_V15_GAZE.png",
+      "sha256": "6ff453ec7226bc094e8b76b8642b4b414c2abf6c0591f85fb0607dd450db4c13",
+      "role": "new_performance_candidate_not_identity_master",
+      "upload": true
+    }
+  ],
+  "audio": [],
+  "previous_video": {
+    "source": "H06",
+    "file": null,
+    "range": [
+      8,
+      12
+    ],
+    "tail_seconds": 4,
+    "instruction": "继承真实末4秒全部状态，新增片段不重复前片内容，不添歌曲。"
+  },
+  "actual_video_review": false,
+  "prompt_bundle_path": "01_PROMPT.txt"
+}

@@ -1,0 +1,114 @@
+{
+  "chapter": 4,
+  "title": "梦里惊前尘，松间诉衷情",
+  "revision": "release_v1_5_final60_audio",
+  "updated_date": "2026-09-25",
+  "status": "review_package_complete_singer_clock_and_kiss_reference_blocked",
+  "production_ready": false,
+  "master_received": true,
+  "master_user_selected_final": true,
+  "song_duration_seconds": 60,
+  "planned_continuation_seconds": 128,
+  "planned_total_seconds": 218,
+  "user_reported_completed_blocks": [
+    "H01",
+    "H02",
+    "H03"
+  ],
+  "completed_video_files_received": [],
+  "completed_blocks_content_unchanged": true,
+  "active_blocks": [
+    "H04",
+    "H05",
+    "H06",
+    "H07",
+    "H08",
+    "H09"
+  ],
+  "block_durations": {
+    "H01": 30,
+    "H02": 30,
+    "H03": 30,
+    "H04": 30,
+    "H05": 30,
+    "H06": 12,
+    "H07": 18,
+    "H08": 14,
+    "H09": 24
+  },
+  "prompt_lengths": {
+    "H01": 579,
+    "H02": 455,
+    "H03": 1012,
+    "H04": 112,
+    "H05": 113,
+    "H06": 679,
+    "H07": 757,
+    "H08": 773,
+    "H09": 772
+  },
+  "song_prompts_withheld": [
+    "H04",
+    "H05"
+  ],
+  "lyrics_alignment_verified": false,
+  "singer_alignment_verified": false,
+  "actual_audio_listened": false,
+  "audio_waveform_and_asr_analyzed": true,
+  "new_images_generated_this_revision": true,
+  "new_images_user_approved": false,
+  "new_video_generated": false,
+  "actual_AV_verified": false,
+  "github_synced": true,
+  "source_archive": "archive/chapter04_before_final_audio_v15",
+  "blockers": [
+    {
+      "id": "REAL_SINGER_LYRIC_CLOCK",
+      "reason": "Two ASR runs and source-waveform checks are not an audible singer/word-boundary audit. Formal H04/H05 prompts withheld."
+    },
+    {
+      "id": "ACTUAL_H03_TAIL",
+      "reason": "H03 completed by user; actual file/tail not received, cannot claim frame-exact seam verified."
+    },
+    {
+      "id": "MOTION_QA",
+      "reason": "No new Seedance clips generated or reviewed."
+    },
+    {
+      "id": "KISS_REFERENCE_BLOCKED",
+      "reason": "Image service safety moderation rejected the requested kiss reference with sexual category. Non-contact alternatives do not fulfill the kiss reference request."
+    }
+  ],
+  "requested_kiss_reference_generated": false,
+  "image_moderation_rejection": {
+    "action": "Generate close-up kissing image of the two referenced adults",
+    "stage": "output",
+    "category": "sexual",
+    "request_id": "4f3951b3-6a81-45b3-b82c-a2d302788c29",
+    "same_action_retried": false
+  },
+  "new_image_files_selected": 6,
+  "new_image_files_generated": 8,
+  "image_generation_requests": 9,
+  "image_generation_failed_requests": 1,
+  "new_images_static_visual_review": true,
+  "requested_keyframe_classes_completed": [
+    "standing_solo",
+    "Pan_frontal_smile",
+    "duet_expression",
+    "post_song_gaze"
+  ],
+  "non_contact_substitute_images": 2,
+  "image_generation_record": "history/generation/CH04_v15_IMAGE_GENERATIONS.json",
+  "active_scene_files_built": 6,
+  "ordered_bundle_validated": true,
+  "build_receipt": "history/validation/CH04_v15_SCENE_ZIPS.json",
+  "audio_integrity_receipt": "history/validation/CH04_v15_AUDIO_INTEGRITY.json",
+  "full_user_task_completed": false,
+  "independent_review_completed": true,
+  "independent_review_findings_fixed": true,
+  "download_files_saved": true,
+  "delivery_record": "history/generation/CH04_v15_delivery.json",
+  "verified_content_commit": "152cee97f7c4968326cf35ddab74f7ba0928d93d",
+  "publication_receipt": "history/publication/CH04_v15_receipt.json"
+}

@@ -1,0 +1,80 @@
+{
+  "base_commit": "155597ae232c94e8eb9d05f3fccc3fef3afa0c05",
+  "user_reported_completed_blocks": [
+    "H01",
+    "H02",
+    "H03"
+  ],
+  "completed_video_files_received": false,
+  "do_not_regenerate": true,
+  "do_not_edit_prompt_or_content": true,
+  "files": {
+    "assets/audio/ch04/C01_TIMBRE_10S_v01.wav": "45f2b3625fd886eb7eef908fdc8455c8adc454f8a1e5883c251c4c5922db3ad8",
+    "assets/audio/ch04/C03_TIMBRE_10S_v01.wav": "6754e149f052bbdf9767d4d118963dc21bbfe781811e3b3b5ff3c91fa99772bb",
+    "assets/audio/ch04/C05_TIMBRE_10S_v01.wav": "992167a2d9e54082476ac70a7541049305d36dc3e48114c7c96cdc8f1022ae1f",
+    "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
+    "assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png": "a042f817273a117dd720a24d48338859528b8f2753903d83cc1fcbabd41410ca",
+    "assets/characters/C05/C05_FRONT_HALF_v04.png": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
+    "assets/characters/E06/E06_MAID_v01.png": "128b83413a4db8894901cc90791c72ae0861eeef389f40ea0b7c11b3dfd3525d",
+    "assets/keyframes/CH04/H01_SLEEP_BEDSIDE_v01.png": "81abeaeb855051cff25940f7767781badd2d12246d994929e88daf85e48170f6",
+    "assets/props/CH04/D01_BARRAGE_DREAM.png": "64ecdae6ab6c6ca46f23e3afd1f5144f5e1a5fe597112d487c53e6430302324d",
+    "assets/props/CH04/D02_PROPOSAL_DREAM.png": "e195e8883298a7eb97a2a2dcb86cbdad7cc723bc7f152db66884b35858afeedf",
+    "assets/props/CH04/D03_CHAT_DREAM.png": "ebbc008e844d2e65ab866779f803076b33b7f1295395b581144aec2255b99e3a",
+    "assets/scenes/S06_ROOM_NIGHT_v01.png": "0dc7ef15d4084d008095e1ba1a16fc28f81ccd8b13d21c80dc6922c8714312d3",
+    "assets/scenes/S14_INN_ROOM_MORNING_v01.png": "f95754b10d940aedafd289c96f9072f7831bad7e0c83f0fca6b6dc7a5b526364",
+    "releases/huibenji/chapter04_v1/prompts/H01.txt": "4344b3c28cd4b625b31a91a3c61e5260069c0a22e1af1284f3a0fa711b177d8a",
+    "releases/huibenji/chapter04_v1/prompts/H02.txt": "8005106757c1338fb239e83e12dced178babaf22d19c2f5aa4d7f9c0d50905c8",
+    "releases/huibenji/chapter04_v1/scenes/H01/INPUT_MANIFEST.json": "c763d2994e76972638f6db02fb51a9130e40312a83c996ba5ffff48bebbf2985",
+    "releases/huibenji/chapter04_v1/scenes/H01/PROMPT.txt": "4344b3c28cd4b625b31a91a3c61e5260069c0a22e1af1284f3a0fa711b177d8a",
+    "releases/huibenji/chapter04_v1/scenes/H01/README.md": "e03dd708ed97e917481023dcbd3b9aef87a6f06d562ed9afac6919fe5d81aa9c",
+    "releases/huibenji/chapter04_v1/scenes/H02/INPUT_MANIFEST.json": "97b1e944be4a238fdb3af14a0c54f0aa838b4fdcf787d6ae7d6a0d4eb35949cf",
+    "releases/huibenji/chapter04_v1/scenes/H02/PROMPT.txt": "8005106757c1338fb239e83e12dced178babaf22d19c2f5aa4d7f9c0d50905c8",
+    "releases/huibenji/chapter04_v1/scenes/H02/README.md": "9b79c8b5c105716ca052215fb0c5f642e15b92f1c558dbb0889c2a7ea2e1bb32",
+    "releases/huibenji/chapter04_v1/scenes/H03/README.md": "04e22d2be39664f6d7f799c1a2091402855d35d16357122121fe4b93f51f7775",
+    "releases/huibenji/chapter04_v1/scenes/H03/INPUT_MANIFEST.json": "cab47005c5b75621ec543d46aea0f82ad6364bba33b4eba9fbd4be1d60224bd8",
+    "releases/huibenji/chapter04_v1/scenes/H03/PROMPT.txt": "981ceefbeaeafd0145ded377322309c5d213c8b14fc150888383efb8146d9efc",
+    "releases/huibenji/chapter04_v1/prompts/H03.txt": "981ceefbeaeafd0145ded377322309c5d213c8b14fc150888383efb8146d9efc",
+    "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
+    "assets/props/CH04/P_RUAN_ORNATE_v01.png": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
+    "assets/characters/C01/C01_RUAN_HOLD_v01.png": "dd40ae5e8f841783c65cd0891b2ca125a33c0ed2b3fae0650aa04431d70e502c",
+    "assets/keyframes/CH04/H04_START_MEADOW_v01.png": "b2a9ac06140ec832cc25575b4c0ff7b108aef09b50e7e1c7d9f7d9eac79cf4c5"
+  },
+  "blocks": {
+    "H01": "501756e57fde30778e04681b7e405fef905511c90084c9e6f50783fd3a02f076",
+    "H02": "dda75886efe0c31ab79fb9f9cd8e2028a5b35f3531107b946cfb914140bb116e",
+    "H03": "fe5c11be52b9df228d08ab34e8e6298da809f96baed3a4d464540ec2a8125b14"
+  },
+  "H03_locked_dialogues": [
+    {
+      "start": 0.5,
+      "end": 14.8,
+      "speaker": "C03",
+      "text": "她每日申时，独自在迎客松下，谁唤也不应。听说她最爱《卜卦》，公子不妨以曲相邀。"
+    },
+    {
+      "start": 15.8,
+      "end": 19.1,
+      "speaker": "C01",
+      "text": "得你相助，实乃我幸。"
+    }
+  ],
+  "H03_locked_shots_before_20s": [
+    {
+      "start": 0,
+      "end": 15.5,
+      "framing": "孙听者近景→小腿反打",
+      "action": "腿告知申时、迎客松与所爱曲，孙由凝眉转有主意。",
+      "sound": "同期对白；0–0.5秒先留屋底"
+    },
+    {
+      "start": 15.5,
+      "end": 20,
+      "framing": "双人中景",
+      "action": "孙笑着称幸，轻拍腿肩；腿淡笑回礼，不下跪。",
+      "sound": "衣袖、说话、起身声"
+    }
+  ],
+  "revision": "release_v1_5_final60_audio",
+  "baseline": "archive/chapter04_before_final_audio_v15",
+  "video_files_received": []
+}

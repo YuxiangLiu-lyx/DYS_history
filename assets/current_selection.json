@@ -73,12 +73,7 @@
     "assets/scenes/S14_INN_ROOM_NIGHT_v01.png",
     "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
     "assets/scenes/S15_PINE_PATH_DAY_v01.png",
-    "assets/keyframes/CH04/V15_SUN_SINGING_v02.png",
-    "assets/keyframes/CH04/V15_PAN_SMILE_v01.png",
-    "assets/keyframes/CH04/V15_DUET_v01.png",
-    "assets/keyframes/CH04/V15_GAZE_v01.png",
-    "assets/keyframes/CH04/V15_PRECONTACT_v01.png",
-    "assets/keyframes/CH04/V15_WIDE_LAYOUT_v02.png"
+    "assets/keyframes/CH04/V15_PAN_SMILE_v01.png"
   ],
   "selection_note": "CH04 v1.5: preserve frozen H01-H03 references; H04-H09 only original identity masters + new v15 performance candidates. Non-contact substitutes are not kiss references.",
   "status_overrides": {
@@ -118,11 +113,11 @@
     "assets/keyframes/CH04/H01_SLEEP_BEDSIDE_v01.png": "generated_candidate_not_user_approved",
     "assets/keyframes/CH04/H06_SETDOWN_MEADOW_v01.png": "generated_candidate_not_user_approved",
     "assets/keyframes/CH04/H07_PREKISS_MEADOW_v01.png": "historical_candidate_not_uploaded_v14",
-    "assets/keyframes/CH04/V15_SUN_SINGING_v02.png": "candidate_standing_performance_not_actual_H03_tail",
+    "assets/keyframes/CH04/V15_SUN_SINGING_v02.png": "retired_from_v16_inputs_identity_drift_risk_prompt_motion_replaces_scene_still",
     "assets/keyframes/CH04/V15_PAN_SMILE_v01.png": "candidate_near_frontal_smile_not_new_master",
-    "assets/keyframes/CH04/V15_DUET_v01.png": "candidate_duet_expression_not_audible_timing_evidence",
-    "assets/keyframes/CH04/V15_GAZE_v01.png": "candidate_30_45_degree_post_song_not_opening",
-    "assets/keyframes/CH04/V15_PRECONTACT_v01.png": "non_contact_alternative_not_kiss_reference",
-    "assets/keyframes/CH04/V15_WIDE_LAYOUT_v02.png": "spatial_layout_only_not_kissing_final_state"
+    "assets/keyframes/CH04/V15_DUET_v01.png": "retired_from_v16_inputs_identity_drift_risk_prompt_motion_replaces_scene_still",
+    "assets/keyframes/CH04/V15_GAZE_v01.png": "retired_from_v16_inputs_identity_drift_risk_prompt_motion_replaces_scene_still",
+    "assets/keyframes/CH04/V15_PRECONTACT_v01.png": "retired_from_v16_inputs_identity_drift_risk_prompt_motion_replaces_scene_still",
+    "assets/keyframes/CH04/V15_WIDE_LAYOUT_v02.png": "retired_from_v16_inputs_identity_drift_risk_prompt_motion_replaces_scene_still"
   }
 }

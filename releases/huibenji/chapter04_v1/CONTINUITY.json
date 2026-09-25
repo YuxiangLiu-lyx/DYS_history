@@ -1,5 +1,5 @@
 {
-  "revision": "release_v1_5_final60_audio",
+  "revision": "release_v1_6_identity_prompt_motion",
   "world_axis": "孙画左/潘画右，摄影机不越二人轴线；S15_NEW决定地形、巨松、山脊及夕阳方向。",
   "prop_lock": "以 P_RUAN 原图为准：圆形深木色面板、朱红琴缘与金纹、四弦、两束短红穗；不是整面鲜红的新琴。道具展示支架不进入实景。",
   "mole_lock": "自然短圆脸、自然脸颊、本人眉眼鼻唇与年龄感；浅蓝花纹外衣、米白内领，玉簪依母版。痣按母版正脸画面右嘴角下方并留皮肤间隔，不镜像。睡眠场景可散发米白寝衣，脸不变。",
@@ -84,10 +84,9 @@
       "reference_ids": [
         "C01",
         "C05",
+        "V15_SMILE",
         "S15_NEW",
-        "P_RUAN",
-        "V15_SOLO",
-        "V15_SMILE"
+        "P_RUAN"
       ],
       "previous_video": {
         "source": "H03",
@@ -101,7 +100,8 @@
       },
       "light": "继承实际H03柔暖申时夕照及后右光位，不重设",
       "prop_state": "站立持续持阮拨弦到60秒",
-      "actual_video_verified": false
+      "actual_video_verified": false,
+      "static_kiss_reference_required": false
     },
     {
       "id": "H05",
@@ -110,9 +110,9 @@
       "reference_ids": [
         "C01",
         "C05",
+        "V15_SMILE",
         "S15_NEW",
-        "P_RUAN",
-        "V15_DUET"
+        "P_RUAN"
       ],
       "previous_video": {
         "source": "H04",
@@ -126,7 +126,8 @@
       },
       "light": "继承实际H03柔暖申时夕照及后右光位，不重设",
       "prop_state": "站立持续持阮拨弦到60秒",
-      "actual_video_verified": false
+      "actual_video_verified": false,
+      "static_kiss_reference_required": false
     },
     {
       "id": "H06",
@@ -135,6 +136,7 @@
       "reference_ids": [
         "C01",
         "C05",
+        "V15_SMILE",
         "S15_NEW",
         "P_RUAN"
       ],
@@ -150,7 +152,8 @@
       },
       "light": "继承实际H03柔暖申时夕照及后右光位，不重设",
       "prop_state": "H06先放画左后方草地；其后全程固定同位",
-      "actual_video_verified": false
+      "actual_video_verified": false,
+      "static_kiss_reference_required": false
     },
     {
       "id": "H07",
@@ -159,9 +162,9 @@
       "reference_ids": [
         "C01",
         "C05",
+        "V15_SMILE",
         "S15_NEW",
-        "P_RUAN",
-        "V15_GAZE"
+        "P_RUAN"
       ],
       "previous_video": {
         "source": "H06",
@@ -175,18 +178,19 @@
       },
       "light": "继承实际H03柔暖申时夕照及后右光位，不重设",
       "prop_state": "H06先放画左后方草地；其后全程固定同位",
-      "actual_video_verified": false
+      "actual_video_verified": false,
+      "static_kiss_reference_required": false
     },
     {
       "id": "H08",
       "start": "潘相对摄影机约45°，略抬头，双方近至约6厘米，刚完成吻前停顿，嘴唇尚未接触；琴固定画左后方草地。",
-      "end": "双人近景中已进入稳定、缓慢、自然的深情亲吻，两人放松克制，手在身体下方；发丝衣袖仍轻动，琴在画左后方原位。",
+      "end": "双人近景中双方保持稳定的温柔亲吻与放松轻拥：孙轻环潘上背外衣，潘手轻放孙上臂，手不遮脸；发丝衣袖轻动，琴在画左后方原位。",
       "reference_ids": [
         "C01",
         "C05",
+        "V15_SMILE",
         "S15_NEW",
-        "P_RUAN",
-        "V15_PRECONTACT"
+        "P_RUAN"
       ],
       "previous_video": {
         "source": "H07",
@@ -200,19 +204,19 @@
       },
       "light": "继承实际H03柔暖申时夕照及后右光位，不重设",
       "prop_state": "H06先放画左后方草地；其后全程固定同位",
-      "actual_video_verified": false
+      "actual_video_verified": false,
+      "static_kiss_reference_required": false
     },
     {
       "id": "H09",
-      "start": "双人近景中已进入稳定、缓慢、自然的深情亲吻，两人放松克制，手在身体下方；发丝衣袖仍轻动，琴在画左后方原位。",
-      "end": "完整巨松占据天空，草坡、金粉晚霞、远山薄雾、树下亲吻的小小二人与画左草地阮同入远景，摄影机缓停。",
+      "start": "双人近景中双方保持稳定的温柔亲吻与放松轻拥：孙轻环潘上背外衣，潘手轻放孙上臂，手不遮脸；发丝衣袖轻动，琴在画左后方原位。",
+      "end": "完整巨松、金粉晚霞、草坡、远山和树下始终相拥亲吻的小小二人同入远景；琴仍放画左后方草地，镜头缓停，两人没有分开。",
       "reference_ids": [
         "C01",
         "C05",
+        "V15_SMILE",
         "S15_NEW",
-        "P_RUAN",
-        "V15_PRECONTACT",
-        "V15_WIDE_LAYOUT"
+        "P_RUAN"
       ],
       "previous_video": {
         "source": "H08",
@@ -226,7 +230,8 @@
       },
       "light": "继承实际H03柔暖申时夕照及后右光位，不重设",
       "prop_state": "H06先放画左后方草地；其后全程固定同位",
-      "actual_video_verified": false
+      "actual_video_verified": false,
+      "static_kiss_reference_required": false
     }
   ],
   "completed_blocks_user_reported": [
@@ -240,5 +245,7 @@
     15,
     30,
     45
-  ]
+  ],
+  "visual_route": "identity_masters_plus_prompt_motion",
+  "contact_policy": "歌曲0–60秒无拥抱亲吻；H06/H07静默互望逐渐靠近；H08吻稳定后自然轻拥，H09保持同一轻拥亲吻至末帧。"
 }

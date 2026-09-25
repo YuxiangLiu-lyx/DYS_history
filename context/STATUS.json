@@ -3,7 +3,7 @@
   "updated_date": "2026-09-25",
   "active_episode": "RELEASE_CH04",
   "active_title": "梦里惊前尘，松间诉衷情",
-  "status": "review_package_complete_singer_clock_and_kiss_reference_blocked",
+  "status": "visual_prompts_prepared_awaiting_audio_cues_and_actual_clips",
   "episode_directories": {
     "EP01": "episodes/ep01",
     "EP02": "episodes/ep02",
@@ -82,17 +82,16 @@
   "pan_identity_authority": "assets/characters/C05/C05_FRONT_HALF_v04.png",
   "pan_mole_lock": "正脸画面右侧嘴角下方皮肤，距唇线留间隔、同玉簪侧，不镜像",
   "next_actions": [
-    "只核听这条用户最终音轨，确认逐句歌词、孙/潘/合唱起止后签发H04/H05正式Prompt。",
-    "用用户已完成H03真实尾4秒续接，不重做前镜。",
-    "接吻关键图仍为被图像服务审核阻断的缺项；替代对视和远景不能标成吻图。",
-    "新候选图与后续视频仍需人物身份、琴位和动态口型验收。"
+    "核定既有完整音频逐句唱者与嘴型边界，再完成H04/H05。",
+    "用户按五图与文字路线制作H06–H09，逐段引用实际合格前片末4秒；不需要先生成静态吻图。",
+    "实片检查人物身份、亲吻接触、轻拥手位、琴位及结尾仍在亲吻。"
   ],
   "github": {
     "repository": "YuxiangLiu-lyx/DYS_history",
     "branch": "main",
-    "synced": true,
-    "previous_verified_commit": "c4d60c376fa61e8ba7e8606ab2805a51ead33801",
-    "publication_status": "v15_content_published_and_verified",
+    "synced": false,
+    "previous_verified_commit": "a5e1986ad0f2c35a60e4f8020c13159ae47709ba",
+    "publication_status": "v16_saved_ready_for_sync",
     "remote_commit": "152cee97f7c4968326cf35ddab74f7ba0928d93d",
     "verified_path_count": 857,
     "receipt": "history/publication/CH04_v15_receipt.json",
@@ -287,9 +286,9 @@
   "release_ch04": {
     "chapter": 4,
     "title": "梦里惊前尘，松间诉衷情",
-    "revision": "release_v1_5_final60_audio",
+    "revision": "release_v1_6_identity_prompt_motion",
     "updated_date": "2026-09-25",
-    "status": "review_package_complete_singer_clock_and_kiss_reference_blocked",
+    "status": "visual_prompts_prepared_awaiting_audio_cues_and_actual_clips",
     "production_ready": false,
     "master_received": true,
     "master_user_selected_final": true,
@@ -328,10 +327,10 @@
       "H03": 1012,
       "H04": 112,
       "H05": 113,
-      "H06": 679,
-      "H07": 757,
-      "H08": 773,
-      "H09": 772
+      "H06": 828,
+      "H07": 885,
+      "H08": 952,
+      "H09": 977
     },
     "song_prompts_withheld": [
       "H04",
@@ -341,12 +340,12 @@
     "singer_alignment_verified": false,
     "actual_audio_listened": false,
     "audio_waveform_and_asr_analyzed": true,
-    "new_images_generated_this_revision": true,
+    "new_images_generated_this_revision": false,
     "new_images_user_approved": false,
     "new_video_generated": false,
     "actual_AV_verified": false,
-    "github_synced": true,
-    "source_archive": "archive/chapter04_before_final_audio_v15",
+    "github_synced": false,
+    "source_archive": "archive/chapter04_before_seedance_inference_v16",
     "blockers": [
       {
         "id": "REAL_SINGER_LYRIC_CLOCK",
@@ -359,44 +358,45 @@
       {
         "id": "MOTION_QA",
         "reason": "No new Seedance clips generated or reviewed."
-      },
-      {
-        "id": "KISS_REFERENCE_BLOCKED",
-        "reason": "Image service safety moderation rejected the requested kiss reference with sexual category. Non-contact alternatives do not fulfill the kiss reference request."
       }
     ],
     "requested_kiss_reference_generated": false,
-    "image_moderation_rejection": {
+    "new_image_files_selected": 0,
+    "new_image_files_generated": 0,
+    "image_generation_requests": 0,
+    "image_generation_failed_requests": 0,
+    "new_images_static_visual_review": false,
+    "non_contact_substitute_images": 0,
+    "image_generation_record": "history/generation/CH04_v15_IMAGE_GENERATIONS.json",
+    "active_scene_files_built": 6,
+    "ordered_bundle_validated": true,
+    "build_receipt": "history/validation/CH04_v16_SCENE_ZIPS.json",
+    "audio_integrity_receipt": "history/validation/CH04_v15_AUDIO_INTEGRITY.json",
+    "full_user_task_completed": false,
+    "independent_review_completed": false,
+    "independent_review_findings_fixed": false,
+    "download_files_saved": true,
+    "delivery_record": "history/generation/CH04_v16_delivery.json",
+    "static_kiss_reference_required": false,
+    "kiss_reference_gate": "removed_by_explicit_user_prompt_motion_request",
+    "visual_route": "identity_masters_plus_prompt_motion",
+    "prior_v15_image_moderation_rejection": {
       "action": "Generate close-up kissing image of the two referenced adults",
       "stage": "output",
       "category": "sexual",
       "request_id": "4f3951b3-6a81-45b3-b82c-a2d302788c29",
       "same_action_retried": false
     },
-    "new_image_files_selected": 6,
-    "new_image_files_generated": 8,
-    "image_generation_requests": 9,
-    "image_generation_failed_requests": 1,
-    "new_images_static_visual_review": true,
-    "requested_keyframe_classes_completed": [
+    "prior_v15_requested_keyframe_classes": [
       "standing_solo",
       "Pan_frontal_smile",
       "duet_expression",
       "post_song_gaze"
     ],
-    "non_contact_substitute_images": 2,
-    "image_generation_record": "history/generation/CH04_v15_IMAGE_GENERATIONS.json",
-    "active_scene_files_built": 6,
-    "ordered_bundle_validated": true,
-    "build_receipt": "history/validation/CH04_v15_SCENE_ZIPS.json",
-    "audio_integrity_receipt": "history/validation/CH04_v15_AUDIO_INTEGRITY.json",
-    "full_user_task_completed": false,
-    "independent_review_completed": true,
-    "independent_review_findings_fixed": true,
-    "download_files_saved": true,
-    "delivery_record": "history/generation/CH04_v15_delivery.json",
-    "verified_content_commit": "152cee97f7c4968326cf35ddab74f7ba0928d93d",
-    "publication_receipt": "history/publication/CH04_v15_receipt.json"
+    "current_input_image_count_per_block": 5,
+    "post_song_prompts_ready": true,
+    "static_package_qa_pass": true,
+    "current_prompt_revision_complete": true
   },
   "preferred_delivery_format": "one_standalone_zip_per_scene",
   "received_completed_ch04_video_files": false,

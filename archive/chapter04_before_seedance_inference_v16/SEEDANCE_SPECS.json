@@ -1,0 +1,42 @@
+{
+  "checked_date": "2026-09-25",
+  "model": "doubao-seedance-2-5-260628",
+  "verification": "official public documentation via search; actual target UI not inspected",
+  "max_duration_seconds": 30,
+  "max_images": 30,
+  "max_videos": 10,
+  "max_audios": 10,
+  "max_references_total": 50,
+  "audio_formats": [
+    "wav",
+    "mp3"
+  ],
+  "audio_each_duration_seconds": [
+    2,
+    30
+  ],
+  "audio_total_max_seconds": 30,
+  "audio_each_max_MB": 15,
+  "request_audio_total_max_MB": 64,
+  "video_total_max_seconds": 30,
+  "resolutions": [
+    "480p",
+    "720p",
+    "1080p"
+  ],
+  "default_resolution": "720p",
+  "output_4k_claimed": false,
+  "native_audio_supported": true,
+  "exact_singing_lipsync_guaranteed": false,
+  "strict_first_last_with_omni_references_supported": false,
+  "planned_mode": "multimodal reference mode; first/last images are soft composition references, not API first_frame/last_frame roles",
+  "prompt_character_limit": 2000,
+  "prompt_limit_authority": "user workflow requirement, not independently verified API hard limit",
+  "sources": [
+    "https://seed.bytedance.com/zh/seedance2_5",
+    "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+    "https://docs.volcengine.com/docs/ark/create-video-generation-task-api?lang=zh&redirect=1",
+    "https://docs.volcengine.com/docs/ark/seedance-2-5-prompt-guide?lang=zh"
+  ],
+  "available_connector_note": "Runway account authenticated, free workspace with no available video models. Exposed generate_video wrapper has no reference_audio argument. No paid video task submitted."
+}

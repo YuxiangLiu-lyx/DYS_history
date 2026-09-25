@@ -1,0 +1,49 @@
+{
+  "revision": "release_v1_5_final60_audio",
+  "checked_date": "2026-09-25",
+  "static_integrity_pass": true,
+  "frozen_blocks": [
+    "H01",
+    "H02",
+    "H03"
+  ],
+  "frozen_source_file_count": 29,
+  "frozen_blocks_and_files_unchanged": true,
+  "identity_master_hashes_unchanged": true,
+  "new_image_generation_record": "history/generation/CH04_v15_IMAGE_GENERATIONS.json",
+  "new_selected_images": 6,
+  "requested_kiss_image_completed": false,
+  "non_contact_alternatives_labeled": true,
+  "full_original_audio_copy_exact": true,
+  "audio_duration_decoded": 60.0,
+  "reference_split": [
+    30,
+    30
+  ],
+  "concatenated_pcm_identical_to_full_decode": true,
+  "audio_review_html_embedded_mp3_bytes_exact": true,
+  "audio_review_js_syntax_pass": true,
+  "source_audio_listened": false,
+  "lyrics_and_singer_alignment_verified": false,
+  "asr_precise_lipsync_claimed": false,
+  "h04_h05_executable_prompts_withheld": true,
+  "h06_h07_director_prompts_available": true,
+  "h08_h09_draft_missing_kiss_reference": true,
+  "post_song_seconds": 68,
+  "local_bundle_links_and_media_hashes_valid": true,
+  "six_scene_zips_crc_pass": true,
+  "old_ep01_static_gate_pass": true,
+  "actual_new_video_generated": false,
+  "actual_av_review": false,
+  "full_user_task_completed": false,
+  "remaining": [
+    "Actual lyric/singer/word-boundary aural verification",
+    "Requested kiss reference blocked by image service safety moderation",
+    "Actual H03 tail file not received",
+    "New moving clips and AV QA"
+  ],
+  "independent_review_completed": true,
+  "independent_review_findings_fixed": true,
+  "independent_review_report": "history/QA_20260925_CH04_v15_INDEPENDENT.md",
+  "review_correction_package_checks_pass": true
+}

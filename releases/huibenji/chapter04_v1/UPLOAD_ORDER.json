@@ -1,5 +1,5 @@
 {
-  "revision": "release_v1_5_final60_audio",
+  "revision": "release_v1_6_identity_prompt_motion",
   "active_blocks": [
     "H04",
     "H05",
@@ -10,7 +10,7 @@
   ],
   "blocks": [
     {
-      "revision": "release_v1_5_final60_audio",
+      "revision": "release_v1_6_identity_prompt_motion",
       "id": "H04",
       "name": "完整音轨前30秒",
       "duration_seconds": 30,
@@ -42,38 +42,29 @@
         },
         {
           "slot": 3,
+          "ref_id": "V15_SMILE",
+          "source_path": "assets/keyframes/CH04/V15_PAN_SMILE_v01.png",
+          "bundle_path": "02_images/03_V15_SMILE.png",
+          "sha256": "3bd92bf18f31fc7ac99fbf4d23758f8ce031d07958b8eb825a0fad122ec2f4be",
+          "role": "user_selected_smile_expression_only_not_identity_master",
+          "upload": true
+        },
+        {
+          "slot": 4,
           "ref_id": "S15_NEW",
           "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
-          "bundle_path": "02_images/03_S15_NEW.png",
+          "bundle_path": "02_images/04_S15_NEW.png",
           "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
           "role": "environment_or_prop",
           "upload": true
         },
         {
-          "slot": 4,
+          "slot": 5,
           "ref_id": "P_RUAN",
           "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
-          "bundle_path": "02_images/04_P_RUAN.png",
+          "bundle_path": "02_images/05_P_RUAN.png",
           "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
           "role": "environment_or_prop",
-          "upload": true
-        },
-        {
-          "slot": 5,
-          "ref_id": "V15_SOLO",
-          "source_path": "assets/keyframes/CH04/V15_SUN_SINGING_v02.png",
-          "bundle_path": "02_images/05_V15_SOLO.png",
-          "sha256": "8f17af734011bb2999ed1ad0a8477e2560cebd450d5ebf74640c4c0488be0ea9",
-          "role": "new_performance_candidate_not_identity_master",
-          "upload": true
-        },
-        {
-          "slot": 6,
-          "ref_id": "V15_SMILE",
-          "source_path": "assets/keyframes/CH04/V15_PAN_SMILE_v01.png",
-          "bundle_path": "02_images/06_V15_SMILE.png",
-          "sha256": "3bd92bf18f31fc7ac99fbf4d23758f8ce031d07958b8eb825a0fad122ec2f4be",
-          "role": "new_performance_candidate_not_identity_master",
           "upload": true
         }
       ],
@@ -99,10 +90,12 @@
         "instruction": "引用真实前段最后4秒仅继承姿势/构图/光线和拨弦相位；新增音频从本块零时刻接入，不重放前段。H03已由用户完成，不重做。"
       },
       "actual_video_review": false,
+      "static_kiss_reference_required": false,
+      "visual_route": "identity_masters_plus_prompt_motion",
       "prompt_bundle_path": "01_PROMPT_NOT_READY.md"
     },
     {
-      "revision": "release_v1_5_final60_audio",
+      "revision": "release_v1_6_identity_prompt_motion",
       "id": "H05",
       "name": "完整音轨后30秒",
       "duration_seconds": 30,
@@ -134,29 +127,29 @@
         },
         {
           "slot": 3,
+          "ref_id": "V15_SMILE",
+          "source_path": "assets/keyframes/CH04/V15_PAN_SMILE_v01.png",
+          "bundle_path": "02_images/03_V15_SMILE.png",
+          "sha256": "3bd92bf18f31fc7ac99fbf4d23758f8ce031d07958b8eb825a0fad122ec2f4be",
+          "role": "user_selected_smile_expression_only_not_identity_master",
+          "upload": true
+        },
+        {
+          "slot": 4,
           "ref_id": "S15_NEW",
           "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
-          "bundle_path": "02_images/03_S15_NEW.png",
+          "bundle_path": "02_images/04_S15_NEW.png",
           "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
           "role": "environment_or_prop",
           "upload": true
         },
         {
-          "slot": 4,
+          "slot": 5,
           "ref_id": "P_RUAN",
           "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
-          "bundle_path": "02_images/04_P_RUAN.png",
+          "bundle_path": "02_images/05_P_RUAN.png",
           "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
           "role": "environment_or_prop",
-          "upload": true
-        },
-        {
-          "slot": 5,
-          "ref_id": "V15_DUET",
-          "source_path": "assets/keyframes/CH04/V15_DUET_v01.png",
-          "bundle_path": "02_images/05_V15_DUET.png",
-          "sha256": "1ba82eb7bdfbc3eece65766a934e8cf34c66e0549d454aec2db9f390cc67306f",
-          "role": "new_performance_candidate_not_identity_master",
           "upload": true
         }
       ],
@@ -182,16 +175,18 @@
         "instruction": "引用真实前段最后4秒仅继承姿势/构图/光线和拨弦相位；新增音频从本块零时刻接入，不重放前段。H03已由用户完成，不重做。"
       },
       "actual_video_review": false,
+      "static_kiss_reference_required": false,
+      "visual_route": "identity_masters_plus_prompt_motion",
       "prompt_bundle_path": "01_PROMPT_NOT_READY.md"
     },
     {
-      "revision": "release_v1_5_final60_audio",
+      "revision": "release_v1_6_identity_prompt_motion",
       "id": "H06",
       "name": "歌毕放琴，静下来",
       "duration_seconds": 12,
       "global_start": 150,
       "song_range": null,
-      "prompt_status": "director_prompt_ready_for_review",
+      "prompt_status": "prompt_ready_awaiting_actual_previous_clip",
       "production_ready": false,
       "images": [
         {
@@ -214,18 +209,27 @@
         },
         {
           "slot": 3,
+          "ref_id": "V15_SMILE",
+          "source_path": "assets/keyframes/CH04/V15_PAN_SMILE_v01.png",
+          "bundle_path": "02_images/03_V15_SMILE.png",
+          "sha256": "3bd92bf18f31fc7ac99fbf4d23758f8ce031d07958b8eb825a0fad122ec2f4be",
+          "role": "user_selected_smile_expression_only_not_identity_master",
+          "upload": true
+        },
+        {
+          "slot": 4,
           "ref_id": "S15_NEW",
           "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
-          "bundle_path": "02_images/03_S15_NEW.png",
+          "bundle_path": "02_images/04_S15_NEW.png",
           "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
           "role": "environment_or_prop",
           "upload": true
         },
         {
-          "slot": 4,
+          "slot": 5,
           "ref_id": "P_RUAN",
           "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
-          "bundle_path": "02_images/04_P_RUAN.png",
+          "bundle_path": "02_images/05_P_RUAN.png",
           "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
           "role": "environment_or_prop",
           "upload": true
@@ -243,16 +247,18 @@
         "instruction": "继承真实末4秒全部状态，新增片段不重复前片内容，不添歌曲。"
       },
       "actual_video_review": false,
+      "static_kiss_reference_required": false,
+      "visual_route": "identity_masters_plus_prompt_motion",
       "prompt_bundle_path": "01_PROMPT.txt"
     },
     {
-      "revision": "release_v1_5_final60_audio",
+      "revision": "release_v1_6_identity_prompt_motion",
       "id": "H07",
       "name": "长对视，逐次靠近",
       "duration_seconds": 18,
       "global_start": 162,
       "song_range": null,
-      "prompt_status": "director_prompt_ready_for_review",
+      "prompt_status": "prompt_ready_awaiting_actual_previous_clip",
       "production_ready": false,
       "images": [
         {
@@ -275,29 +281,29 @@
         },
         {
           "slot": 3,
+          "ref_id": "V15_SMILE",
+          "source_path": "assets/keyframes/CH04/V15_PAN_SMILE_v01.png",
+          "bundle_path": "02_images/03_V15_SMILE.png",
+          "sha256": "3bd92bf18f31fc7ac99fbf4d23758f8ce031d07958b8eb825a0fad122ec2f4be",
+          "role": "user_selected_smile_expression_only_not_identity_master",
+          "upload": true
+        },
+        {
+          "slot": 4,
           "ref_id": "S15_NEW",
           "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
-          "bundle_path": "02_images/03_S15_NEW.png",
+          "bundle_path": "02_images/04_S15_NEW.png",
           "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
           "role": "environment_or_prop",
           "upload": true
         },
         {
-          "slot": 4,
+          "slot": 5,
           "ref_id": "P_RUAN",
           "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
-          "bundle_path": "02_images/04_P_RUAN.png",
+          "bundle_path": "02_images/05_P_RUAN.png",
           "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
           "role": "environment_or_prop",
-          "upload": true
-        },
-        {
-          "slot": 5,
-          "ref_id": "V15_GAZE",
-          "source_path": "assets/keyframes/CH04/V15_GAZE_v01.png",
-          "bundle_path": "02_images/05_V15_GAZE.png",
-          "sha256": "6ff453ec7226bc094e8b76b8642b4b414c2abf6c0591f85fb0607dd450db4c13",
-          "role": "new_performance_candidate_not_identity_master",
           "upload": true
         }
       ],
@@ -313,16 +319,18 @@
         "instruction": "继承真实末4秒全部状态，新增片段不重复前片内容，不添歌曲。"
       },
       "actual_video_review": false,
+      "static_kiss_reference_required": false,
+      "visual_route": "identity_masters_plus_prompt_motion",
       "prompt_bundle_path": "01_PROMPT.txt"
     },
     {
-      "revision": "release_v1_5_final60_audio",
+      "revision": "release_v1_6_identity_prompt_motion",
       "id": "H08",
-      "name": "慢慢吻上，保持片刻",
+      "name": "缓慢吻上，轻拥停留",
       "duration_seconds": 14,
       "global_start": 180,
       "song_range": null,
-      "prompt_status": "director_draft_missing_kiss_reference",
+      "prompt_status": "prompt_ready_awaiting_actual_previous_clip",
       "production_ready": false,
       "images": [
         {
@@ -345,29 +353,29 @@
         },
         {
           "slot": 3,
+          "ref_id": "V15_SMILE",
+          "source_path": "assets/keyframes/CH04/V15_PAN_SMILE_v01.png",
+          "bundle_path": "02_images/03_V15_SMILE.png",
+          "sha256": "3bd92bf18f31fc7ac99fbf4d23758f8ce031d07958b8eb825a0fad122ec2f4be",
+          "role": "user_selected_smile_expression_only_not_identity_master",
+          "upload": true
+        },
+        {
+          "slot": 4,
           "ref_id": "S15_NEW",
           "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
-          "bundle_path": "02_images/03_S15_NEW.png",
+          "bundle_path": "02_images/04_S15_NEW.png",
           "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
           "role": "environment_or_prop",
           "upload": true
         },
         {
-          "slot": 4,
+          "slot": 5,
           "ref_id": "P_RUAN",
           "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
-          "bundle_path": "02_images/04_P_RUAN.png",
+          "bundle_path": "02_images/05_P_RUAN.png",
           "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
           "role": "environment_or_prop",
-          "upload": true
-        },
-        {
-          "slot": 5,
-          "ref_id": "V15_PRECONTACT",
-          "source_path": "assets/keyframes/CH04/V15_PRECONTACT_v01.png",
-          "bundle_path": "02_images/05_V15_PRECONTACT.png",
-          "sha256": "f0fce243872bc54bf3bdc00835b4a9e8531398c5073efb7fd4fec8fabbd61434",
-          "role": "new_performance_candidate_not_identity_master",
           "upload": true
         }
       ],
@@ -383,16 +391,18 @@
         "instruction": "继承真实末4秒全部状态，新增片段不重复前片内容，不添歌曲。"
       },
       "actual_video_review": false,
+      "static_kiss_reference_required": false,
+      "visual_route": "identity_masters_plus_prompt_motion",
       "prompt_bundle_path": "01_PROMPT.txt"
     },
     {
-      "revision": "release_v1_5_final60_audio",
+      "revision": "release_v1_6_identity_prompt_motion",
       "id": "H09",
       "name": "极慢拉远，天地与二人",
       "duration_seconds": 24,
       "global_start": 194,
       "song_range": null,
-      "prompt_status": "director_draft_missing_kiss_reference",
+      "prompt_status": "prompt_ready_awaiting_actual_previous_clip",
       "production_ready": false,
       "images": [
         {
@@ -415,38 +425,29 @@
         },
         {
           "slot": 3,
+          "ref_id": "V15_SMILE",
+          "source_path": "assets/keyframes/CH04/V15_PAN_SMILE_v01.png",
+          "bundle_path": "02_images/03_V15_SMILE.png",
+          "sha256": "3bd92bf18f31fc7ac99fbf4d23758f8ce031d07958b8eb825a0fad122ec2f4be",
+          "role": "user_selected_smile_expression_only_not_identity_master",
+          "upload": true
+        },
+        {
+          "slot": 4,
           "ref_id": "S15_NEW",
           "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
-          "bundle_path": "02_images/03_S15_NEW.png",
+          "bundle_path": "02_images/04_S15_NEW.png",
           "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
           "role": "environment_or_prop",
           "upload": true
         },
         {
-          "slot": 4,
+          "slot": 5,
           "ref_id": "P_RUAN",
           "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
-          "bundle_path": "02_images/04_P_RUAN.png",
+          "bundle_path": "02_images/05_P_RUAN.png",
           "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
           "role": "environment_or_prop",
-          "upload": true
-        },
-        {
-          "slot": 5,
-          "ref_id": "V15_PRECONTACT",
-          "source_path": "assets/keyframes/CH04/V15_PRECONTACT_v01.png",
-          "bundle_path": "02_images/05_V15_PRECONTACT.png",
-          "sha256": "f0fce243872bc54bf3bdc00835b4a9e8531398c5073efb7fd4fec8fabbd61434",
-          "role": "new_performance_candidate_not_identity_master",
-          "upload": true
-        },
-        {
-          "slot": 6,
-          "ref_id": "V15_WIDE_LAYOUT",
-          "source_path": "assets/keyframes/CH04/V15_WIDE_LAYOUT_v02.png",
-          "bundle_path": "02_images/06_V15_WIDE_LAYOUT.png",
-          "sha256": "b91ff55f714d3988f2df84a467920f62d54b81b70ef58217e0bd4d11b737febc",
-          "role": "new_performance_candidate_not_identity_master",
           "upload": true
         }
       ],
@@ -462,6 +463,8 @@
         "instruction": "继承真实末4秒全部状态，新增片段不重复前片内容，不添歌曲。"
       },
       "actual_video_review": false,
+      "static_kiss_reference_required": false,
+      "visual_route": "identity_masters_plus_prompt_motion",
       "prompt_bundle_path": "01_PROMPT.txt"
     }
   ]

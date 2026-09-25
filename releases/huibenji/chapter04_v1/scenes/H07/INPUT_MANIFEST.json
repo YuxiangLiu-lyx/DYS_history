@@ -1,11 +1,11 @@
 {
-  "revision": "release_v1_5_final60_audio",
+  "revision": "release_v1_6_identity_prompt_motion",
   "id": "H07",
   "name": "长对视，逐次靠近",
   "duration_seconds": 18,
   "global_start": 162,
   "song_range": null,
-  "prompt_status": "director_prompt_ready_for_review",
+  "prompt_status": "prompt_ready_awaiting_actual_previous_clip",
   "production_ready": false,
   "images": [
     {
@@ -28,29 +28,29 @@
     },
     {
       "slot": 3,
+      "ref_id": "V15_SMILE",
+      "source_path": "assets/keyframes/CH04/V15_PAN_SMILE_v01.png",
+      "bundle_path": "02_images/03_V15_SMILE.png",
+      "sha256": "3bd92bf18f31fc7ac99fbf4d23758f8ce031d07958b8eb825a0fad122ec2f4be",
+      "role": "user_selected_smile_expression_only_not_identity_master",
+      "upload": true
+    },
+    {
+      "slot": 4,
       "ref_id": "S15_NEW",
       "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
-      "bundle_path": "02_images/03_S15_NEW.png",
+      "bundle_path": "02_images/04_S15_NEW.png",
       "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
       "role": "environment_or_prop",
       "upload": true
     },
     {
-      "slot": 4,
+      "slot": 5,
       "ref_id": "P_RUAN",
       "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
-      "bundle_path": "02_images/04_P_RUAN.png",
+      "bundle_path": "02_images/05_P_RUAN.png",
       "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
       "role": "environment_or_prop",
-      "upload": true
-    },
-    {
-      "slot": 5,
-      "ref_id": "V15_GAZE",
-      "source_path": "assets/keyframes/CH04/V15_GAZE_v01.png",
-      "bundle_path": "02_images/05_V15_GAZE.png",
-      "sha256": "6ff453ec7226bc094e8b76b8642b4b414c2abf6c0591f85fb0607dd450db4c13",
-      "role": "new_performance_candidate_not_identity_master",
       "upload": true
     }
   ],
@@ -66,5 +66,7 @@
     "instruction": "继承真实末4秒全部状态，新增片段不重复前片内容，不添歌曲。"
   },
   "actual_video_review": false,
+  "static_kiss_reference_required": false,
+  "visual_route": "identity_masters_plus_prompt_motion",
   "prompt_bundle_path": "01_PROMPT.txt"
 }

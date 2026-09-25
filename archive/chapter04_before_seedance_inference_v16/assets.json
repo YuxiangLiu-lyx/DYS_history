@@ -1,0 +1,156 @@
+{
+  "refs": {
+    "C01": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+    "C05": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+    "C03": "assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png",
+    "E06": "assets/characters/E06/E06_MAID_v01.png",
+    "S06": "assets/scenes/S06_ROOM_NIGHT_v01.png",
+    "S14": "assets/scenes/S14_INN_ROOM_MORNING_v01.png",
+    "S15_NEW": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+    "P_RUAN": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
+    "KF_H04_START": "assets/keyframes/CH04/H04_START_MEADOW_v01.png",
+    "KF_H05_START": "assets/keyframes/CH04/H05_START_MEADOW_v01.png",
+    "KF_H06_START": "assets/keyframes/CH04/H06_START_MEADOW_v01.png",
+    "D01": "assets/props/CH04/D01_BARRAGE_DREAM.png",
+    "D02": "assets/props/CH04/D02_PROPOSAL_DREAM.png",
+    "D03": "assets/props/CH04/D03_CHAT_DREAM.png",
+    "VOICE_C01": "assets/audio/ch04/C01_TIMBRE_10S_v01.wav",
+    "VOICE_C05": "assets/audio/ch04/C05_TIMBRE_10S_v01.wav",
+    "VOICE_C03": "assets/audio/ch04/C03_TIMBRE_10S_v01.wav",
+    "TIMBRE_C01_4S": "assets/audio/ep05/C01_TIMBRE_4S_v01.wav",
+    "TIMBRE_C05_4S": "assets/audio/ep05/C05_TIMBRE_4S_v01.wav",
+    "C01_RUAN_HOLD": "assets/characters/C01/C01_RUAN_HOLD_v01.png",
+    "KF_H07_START": "assets/keyframes/CH04/H07_START_MEADOW_v02.png",
+    "KF_H07_END": "assets/keyframes/CH04/H07_END_MEADOW_v03.png",
+    "KF_C05_TURN": "assets/keyframes/CH04/C05_TURN_MEADOW_v01.png",
+    "KF_H01_SLEEP": "assets/keyframes/CH04/H01_SLEEP_BEDSIDE_v01.png",
+    "KF_SETDOWN": "assets/keyframes/CH04/H06_SETDOWN_MEADOW_v01.png",
+    "KF_PREKISS": "assets/keyframes/CH04/H07_PREKISS_MEADOW_v01.png",
+    "V15_SOLO": "assets/keyframes/CH04/V15_SUN_SINGING_v02.png",
+    "V15_SMILE": "assets/keyframes/CH04/V15_PAN_SMILE_v01.png",
+    "V15_DUET": "assets/keyframes/CH04/V15_DUET_v01.png",
+    "V15_GAZE": "assets/keyframes/CH04/V15_GAZE_v01.png",
+    "SONG_FINAL60": "assets/audio/ch04/BUGUA_FINAL60_USER_MASTER_v01.mp3",
+    "SONG_PART1": "assets/audio/ch04/BUGUA_FINAL60_PART_1_v01.wav",
+    "SONG_PART2": "assets/audio/ch04/BUGUA_FINAL60_PART_2_v01.wav",
+    "V15_PRECONTACT": "assets/keyframes/CH04/V15_PRECONTACT_v01.png",
+    "V15_WIDE_LAYOUT": "assets/keyframes/CH04/V15_WIDE_LAYOUT_v02.png"
+  },
+  "available": {
+    "C01": true,
+    "C05": true,
+    "C03": true,
+    "E06": true,
+    "S06": true,
+    "S14": true,
+    "S15_NEW": true,
+    "P_RUAN": true,
+    "KF_H04_START": true,
+    "KF_H05_START": true,
+    "KF_H06_START": true,
+    "D01": true,
+    "D02": true,
+    "D03": true,
+    "VOICE_C01": true,
+    "VOICE_C05": true,
+    "VOICE_C03": true,
+    "TIMBRE_C01_4S": true,
+    "TIMBRE_C05_4S": true,
+    "C01_RUAN_HOLD": true,
+    "KF_H07_START": true,
+    "KF_H07_END": true,
+    "KF_C05_TURN": true,
+    "KF_H01_SLEEP": true,
+    "KF_SETDOWN": true,
+    "KF_PREKISS": true,
+    "V15_SOLO": true,
+    "V15_SMILE": true,
+    "V15_DUET": true,
+    "V15_GAZE": true,
+    "V15_PRECONTACT": true,
+    "V15_WIDE_LAYOUT": true,
+    "SONG_FINAL60": true,
+    "SONG_PART1": true,
+    "SONG_PART2": true
+  },
+  "missing_reference_spec": {
+    "actual_previous_video_frames": "H01/H02/H03 user-completed; actual files not received. Inherit actual H03 tail, never regenerate it.",
+    "verified_singer_clock": "User master received and fixed; actual lyrics/singer mouth times still unverified.",
+    "actual_kiss_reference": "Image service output safety moderation rejected kiss image as sexual; not generated. Non-contact stills are labeled alternatives, not a completed kiss."
+  },
+  "dreams": {
+    "order": [
+      "D01",
+      "D02",
+      "D03"
+    ],
+    "edit_windows": [
+      [
+        4,
+        7
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        15,
+        18
+      ]
+    ],
+    "source_identity_verified": false,
+    "insert_original_pixels": true,
+    "no_unmasking": true,
+    "labels": [
+      "密集弹幕图",
+      "求婚图",
+      "打码聊天图"
+    ],
+    "H01_image_slots": [
+      4,
+      5,
+      6
+    ],
+    "primary_mode": "explicit_in_prompt",
+    "fallback_mode": "post_replace_three_windows_only_if_generation_changes_source",
+    "upload_source_pixels_unchanged": true
+  },
+  "review_status": {
+    "P_RUAN": "generated_candidate_available_for_review",
+    "C01_RUAN_HOLD": "generated_candidate_available_for_review",
+    "S15_NEW": "generated_candidate_available_for_review",
+    "KF_H04_START": "generated_candidate_available_for_review",
+    "KF_H05_START": "generated_candidate_available_for_review",
+    "KF_H06_START": "generated_candidate_available_for_review",
+    "KF_H07_START": "generated_candidate_available_for_review",
+    "KF_H07_END": "generated_candidate_available_for_review",
+    "KF_C05_TURN": "historical_candidate_not_uploaded_v14_identity_angle_conflict",
+    "S14": "generated_candidate_visual_reviewed_not_user_approved",
+    "KF_H01_SLEEP": "generated_candidate_visual_reviewed_not_user_approved",
+    "KF_SETDOWN": "generated_candidate_visual_reviewed_not_user_approved",
+    "KF_PREKISS": "historical_candidate_not_uploaded_v14_identity_angle_conflict",
+    "V15_SOLO": "candidate_standing_performance_not_actual_H03_tail",
+    "V15_SMILE": "candidate_near_frontal_smile_not_new_master",
+    "V15_DUET": "candidate_duet_expression_not_audible_timing_evidence",
+    "V15_GAZE": "candidate_30_45_degree_post_song_not_opening",
+    "V15_PRECONTACT": "non_contact_alternative_not_kiss_reference",
+    "V15_WIDE_LAYOUT": "spatial_layout_only_not_kissing_final_state"
+  },
+  "actual_video_frames": false,
+  "latest_visual_spec": {
+    "setting": "夕阳江南开阔草坡，巨大舒展迎客松，远山薄雾，无石台/石板路",
+    "identity_priority": [
+      "C01",
+      "C05",
+      "C03"
+    ],
+    "prop": "以 P_RUAN 原图为准：圆形深木色面板、朱红琴缘与金纹、四弦、两束短红穗；不是整面鲜红的新琴。道具展示支架不进入实景。",
+    "ground_position": "孙身侧画左后方半步、两人靠近路线之外草地，琴面朝上、琴颈向画左后方",
+    "retired_reference_warning": "All pre-v1.5 scene faces are excluded from active H04-H09; original files remain for history/frozen H03. Sole identity masters unchanged.",
+    "image_count_policy": "H04/H05/H06/H07/H08/H09 = 6/5/4/5/5/6. Original masters remain image1/2.",
+    "keyframe_filename_note": "V15 files refer only to this revision; no promotion to identity master.",
+    "pan_hui_identity_rule": "PAN_HUI_IDENTITY_RULES.md",
+    "pan_face_angle_policy": "H04 first recognisable view frontal; H06 near-frontal 0–15 degrees; H07 deliberately establishes 0→15→30→45 degrees; H08 inherits45 and approaches the kissing angle only after a pause."
+  },
+  "revision": "release_v1_5_final60_audio"
+}

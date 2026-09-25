@@ -1,0 +1,56 @@
+[
+  {
+    "id": "H04",
+    "file": "/workspace/scratch/8535481924e4/deliverables_v16/CH04_H04_v16.zip",
+    "bytes": 17571840,
+    "sha256": "1c45cb1dec9ffe08cde9ddb5f732dab755121aba7b507c44529664e0003ab646",
+    "prompt_status": "withheld_pending_real_singer_and_lyric_clock",
+    "media_hashes_match": true,
+    "local_links_valid": true
+  },
+  {
+    "id": "H05",
+    "file": "/workspace/scratch/8535481924e4/deliverables_v16/CH04_H05_v16.zip",
+    "bytes": 17632537,
+    "sha256": "bc76d1099d01d83b4e816cdb44bb91db55cb26afaf1146c200891533f1f4ca3b",
+    "prompt_status": "withheld_pending_real_singer_and_lyric_clock",
+    "media_hashes_match": true,
+    "local_links_valid": true
+  },
+  {
+    "id": "H06",
+    "file": "/workspace/scratch/8535481924e4/deliverables_v16/CH04_H06_v16.zip",
+    "bytes": 11163490,
+    "sha256": "441262470f88a401750b9e6e633ebc1fa0ff1b5702f628c9a98168b4325d4f10",
+    "prompt_status": "prompt_ready_awaiting_actual_previous_clip",
+    "media_hashes_match": true,
+    "local_links_valid": true
+  },
+  {
+    "id": "H07",
+    "file": "/workspace/scratch/8535481924e4/deliverables_v16/CH04_H07_v16.zip",
+    "bytes": 11163706,
+    "sha256": "13e4aa61660b0747d626a99b7bfcc17875f0947ae2baf0f21a75f33b88b41ca8",
+    "prompt_status": "prompt_ready_awaiting_actual_previous_clip",
+    "media_hashes_match": true,
+    "local_links_valid": true
+  },
+  {
+    "id": "H08",
+    "file": "/workspace/scratch/8535481924e4/deliverables_v16/CH04_H08_v16.zip",
+    "bytes": 11164054,
+    "sha256": "0b5318ccd99a5e25691731aa62264ab5fb93e95cfc150af653fc0b5f40c98845",
+    "prompt_status": "prompt_ready_awaiting_actual_previous_clip",
+    "media_hashes_match": true,
+    "local_links_valid": true
+  },
+  {
+    "id": "H09",
+    "file": "/workspace/scratch/8535481924e4/deliverables_v16/CH04_H09_v16.zip",
+    "bytes": 11164282,
+    "sha256": "23ee1965ebde57fa19e4d9dd07931e680f339dc127912e26ca63bf04d8657e86",
+    "prompt_status": "prompt_ready_awaiting_actual_previous_clip",
+    "media_hashes_match": true,
+    "local_links_valid": true
+  }
+]

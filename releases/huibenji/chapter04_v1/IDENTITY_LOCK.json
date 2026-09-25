@@ -77,5 +77,14 @@
   "recursion_rule": "Every new image must include the unchanged character master as identity authority. Prior frames are composition only.",
   "failure_rule": "If identity fails, reject and regenerate affected short shot from master; do not promote drifted frames.",
   "pan_hui_highest_priority_rule": "PAN_HUI_IDENTITY_RULES.md",
-  "reference_angle_candidates_are_not_identity_masters": true
+  "reference_angle_candidates_are_not_identity_masters": true,
+  "version": "v1.6",
+  "performance_reference": {
+    "id": "V15_SMILE",
+    "file": "assets/keyframes/CH04/V15_PAN_SMILE_v01.png",
+    "role": "expression_only_user_selected",
+    "replaces_identity_master": false
+  },
+  "video_motion_route": "identity_masters_and_text_no_multi_person_scene_face_reference",
+  "static_contact_keyframe_required": false
 }

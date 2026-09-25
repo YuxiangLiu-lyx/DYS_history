@@ -1,9 +1,9 @@
 {
   "chapter": 4,
   "title": "梦里惊前尘，松间诉衷情",
-  "revision": "release_v1_5_final60_audio",
+  "revision": "release_v1_6_identity_prompt_motion",
   "updated_date": "2026-09-25",
-  "status": "review_package_complete_singer_clock_and_kiss_reference_blocked",
+  "status": "visual_prompts_prepared_awaiting_audio_cues_and_actual_clips",
   "production_ready": false,
   "master_received": true,
   "master_user_selected_final": true,
@@ -42,10 +42,10 @@
     "H03": 1012,
     "H04": 112,
     "H05": 113,
-    "H06": 679,
-    "H07": 757,
-    "H08": 773,
-    "H09": 772
+    "H06": 828,
+    "H07": 885,
+    "H08": 952,
+    "H09": 977
   },
   "song_prompts_withheld": [
     "H04",
@@ -55,12 +55,12 @@
   "singer_alignment_verified": false,
   "actual_audio_listened": false,
   "audio_waveform_and_asr_analyzed": true,
-  "new_images_generated_this_revision": true,
+  "new_images_generated_this_revision": false,
   "new_images_user_approved": false,
   "new_video_generated": false,
   "actual_AV_verified": false,
-  "github_synced": true,
-  "source_archive": "archive/chapter04_before_final_audio_v15",
+  "github_synced": false,
+  "source_archive": "archive/chapter04_before_seedance_inference_v16",
   "blockers": [
     {
       "id": "REAL_SINGER_LYRIC_CLOCK",
@@ -73,42 +73,43 @@
     {
       "id": "MOTION_QA",
       "reason": "No new Seedance clips generated or reviewed."
-    },
-    {
-      "id": "KISS_REFERENCE_BLOCKED",
-      "reason": "Image service safety moderation rejected the requested kiss reference with sexual category. Non-contact alternatives do not fulfill the kiss reference request."
     }
   ],
   "requested_kiss_reference_generated": false,
-  "image_moderation_rejection": {
+  "new_image_files_selected": 0,
+  "new_image_files_generated": 0,
+  "image_generation_requests": 0,
+  "image_generation_failed_requests": 0,
+  "new_images_static_visual_review": false,
+  "non_contact_substitute_images": 0,
+  "image_generation_record": "history/generation/CH04_v15_IMAGE_GENERATIONS.json",
+  "active_scene_files_built": 6,
+  "ordered_bundle_validated": true,
+  "build_receipt": "history/validation/CH04_v16_SCENE_ZIPS.json",
+  "audio_integrity_receipt": "history/validation/CH04_v15_AUDIO_INTEGRITY.json",
+  "full_user_task_completed": false,
+  "independent_review_completed": false,
+  "independent_review_findings_fixed": false,
+  "download_files_saved": true,
+  "delivery_record": "history/generation/CH04_v16_delivery.json",
+  "static_kiss_reference_required": false,
+  "kiss_reference_gate": "removed_by_explicit_user_prompt_motion_request",
+  "visual_route": "identity_masters_plus_prompt_motion",
+  "prior_v15_image_moderation_rejection": {
     "action": "Generate close-up kissing image of the two referenced adults",
     "stage": "output",
     "category": "sexual",
     "request_id": "4f3951b3-6a81-45b3-b82c-a2d302788c29",
     "same_action_retried": false
   },
-  "new_image_files_selected": 6,
-  "new_image_files_generated": 8,
-  "image_generation_requests": 9,
-  "image_generation_failed_requests": 1,
-  "new_images_static_visual_review": true,
-  "requested_keyframe_classes_completed": [
+  "prior_v15_requested_keyframe_classes": [
     "standing_solo",
     "Pan_frontal_smile",
     "duet_expression",
     "post_song_gaze"
   ],
-  "non_contact_substitute_images": 2,
-  "image_generation_record": "history/generation/CH04_v15_IMAGE_GENERATIONS.json",
-  "active_scene_files_built": 6,
-  "ordered_bundle_validated": true,
-  "build_receipt": "history/validation/CH04_v15_SCENE_ZIPS.json",
-  "audio_integrity_receipt": "history/validation/CH04_v15_AUDIO_INTEGRITY.json",
-  "full_user_task_completed": false,
-  "independent_review_completed": true,
-  "independent_review_findings_fixed": true,
-  "download_files_saved": true,
-  "delivery_record": "history/generation/CH04_v15_delivery.json",
-  "verified_content_commit": "152cee97f7c4968326cf35ddab74f7ba0928d93d",
-  "publication_receipt": "history/publication/CH04_v15_receipt.json"
+  "current_input_image_count_per_block": 5,
+  "post_song_prompts_ready": true,
+  "static_package_qa_pass": true,
+  "current_prompt_revision_complete": true
 }

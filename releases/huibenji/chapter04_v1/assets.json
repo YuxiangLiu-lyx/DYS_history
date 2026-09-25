@@ -75,8 +75,7 @@
   },
   "missing_reference_spec": {
     "actual_previous_video_frames": "H01/H02/H03 user-completed; actual files not received. Inherit actual H03 tail, never regenerate it.",
-    "verified_singer_clock": "User master received and fixed; actual lyrics/singer mouth times still unverified.",
-    "actual_kiss_reference": "Image service output safety moderation rejected kiss image as sexual; not generated. Non-contact stills are labeled alternatives, not a completed kiss."
+    "verified_singer_clock": "User master received and fixed; actual lyrics/singer mouth times still unverified."
   },
   "dreams": {
     "order": [
@@ -129,12 +128,12 @@
     "KF_H01_SLEEP": "generated_candidate_visual_reviewed_not_user_approved",
     "KF_SETDOWN": "generated_candidate_visual_reviewed_not_user_approved",
     "KF_PREKISS": "historical_candidate_not_uploaded_v14_identity_angle_conflict",
-    "V15_SOLO": "candidate_standing_performance_not_actual_H03_tail",
-    "V15_SMILE": "candidate_near_frontal_smile_not_new_master",
-    "V15_DUET": "candidate_duet_expression_not_audible_timing_evidence",
-    "V15_GAZE": "candidate_30_45_degree_post_song_not_opening",
-    "V15_PRECONTACT": "non_contact_alternative_not_kiss_reference",
-    "V15_WIDE_LAYOUT": "spatial_layout_only_not_kissing_final_state"
+    "V15_SOLO": "retired_from_v16_inputs_identity_drift_risk_prompt_motion_replaces_scene_still",
+    "V15_SMILE": "user_selected_single_portrait_smile_reference_identity_master_still_C05",
+    "V15_DUET": "retired_from_v16_inputs_identity_drift_risk_prompt_motion_replaces_scene_still",
+    "V15_GAZE": "retired_from_v16_inputs_identity_drift_risk_prompt_motion_replaces_scene_still",
+    "V15_PRECONTACT": "retired_from_v16_inputs_identity_drift_risk_prompt_motion_replaces_scene_still",
+    "V15_WIDE_LAYOUT": "retired_from_v16_inputs_identity_drift_risk_prompt_motion_replaces_scene_still"
   },
   "actual_video_frames": false,
   "latest_visual_spec": {
@@ -147,10 +146,12 @@
     "prop": "以 P_RUAN 原图为准：圆形深木色面板、朱红琴缘与金纹、四弦、两束短红穗；不是整面鲜红的新琴。道具展示支架不进入实景。",
     "ground_position": "孙身侧画左后方半步、两人靠近路线之外草地，琴面朝上、琴颈向画左后方",
     "retired_reference_warning": "All pre-v1.5 scene faces are excluded from active H04-H09; original files remain for history/frozen H03. Sole identity masters unchanged.",
-    "image_count_policy": "H04/H05/H06/H07/H08/H09 = 6/5/4/5/5/6. Original masters remain image1/2.",
-    "keyframe_filename_note": "V15 files refer only to this revision; no promotion to identity master.",
+    "image_count_policy": "H04–H09 each5: C01/C05/V15_SMILE/S15_NEW/P_RUAN",
+    "keyframe_filename_note": "V15_SMILE only supports expression. All multi-person v15 stills and V15_SOLO are excluded from current inputs.",
     "pan_hui_identity_rule": "PAN_HUI_IDENTITY_RULES.md",
-    "pan_face_angle_policy": "H04 first recognisable view frontal; H06 near-frontal 0–15 degrees; H07 deliberately establishes 0→15→30→45 degrees; H08 inherits45 and approaches the kissing angle only after a pause."
+    "pan_face_angle_policy": "H04 first recognisable view frontal; H06 near-frontal 0–15 degrees; H07 deliberately establishes 0→15→30→45 degrees; H08 inherits45 and approaches the kissing angle only after a pause.",
+    "contact_motion_route": "Seedance user-executed prompts derive gaze, approach, gentle embrace, kiss and pullback from identity masters. No contact still prerequisite; no new video generated.",
+    "final_state": "Still gently embracing and kissing under the huge pine at the last frame."
   },
-  "revision": "release_v1_5_final60_audio"
+  "revision": "release_v1_6_identity_prompt_motion"
 }

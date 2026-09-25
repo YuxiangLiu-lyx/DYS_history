@@ -1,0 +1,83 @@
+{
+  "revision": "release_v1_5_final60_audio",
+  "id": "H05",
+  "name": "完整音轨后30秒",
+  "duration_seconds": 30,
+  "global_start": 120,
+  "song_range": [
+    30,
+    60
+  ],
+  "prompt_status": "withheld_pending_real_singer_and_lyric_clock",
+  "production_ready": false,
+  "images": [
+    {
+      "slot": 1,
+      "ref_id": "C01",
+      "source_path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+      "bundle_path": "02_images/01_C01.png",
+      "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
+      "role": "identity_master",
+      "upload": true
+    },
+    {
+      "slot": 2,
+      "ref_id": "C05",
+      "source_path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+      "bundle_path": "02_images/02_C05.png",
+      "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
+      "role": "identity_master",
+      "upload": true
+    },
+    {
+      "slot": 3,
+      "ref_id": "S15_NEW",
+      "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+      "bundle_path": "02_images/03_S15_NEW.png",
+      "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
+      "role": "environment_or_prop",
+      "upload": true
+    },
+    {
+      "slot": 4,
+      "ref_id": "P_RUAN",
+      "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
+      "bundle_path": "02_images/04_P_RUAN.png",
+      "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
+      "role": "environment_or_prop",
+      "upload": true
+    },
+    {
+      "slot": 5,
+      "ref_id": "V15_DUET",
+      "source_path": "assets/keyframes/CH04/V15_DUET_v01.png",
+      "bundle_path": "02_images/05_V15_DUET.png",
+      "sha256": "1ba82eb7bdfbc3eece65766a934e8cf34c66e0549d454aec2db9f390cc67306f",
+      "role": "new_performance_candidate_not_identity_master",
+      "upload": true
+    }
+  ],
+  "audio": [
+    {
+      "slot": 1,
+      "ref_id": "SONG_PART2",
+      "source_path": "assets/audio/ch04/BUGUA_FINAL60_PART_2_v01.wav",
+      "bundle_path": "03_audio/01_SONG_PART2.wav",
+      "sha256": "ed3fde51b5ffab0c79b7120c207429824f0b0b7e3e472f9b5c593727f1a8bcdd",
+      "role": "exact_audio_slice",
+      "upload": true
+    }
+  ],
+  "previous_video": {
+    "source": "H04",
+    "file": null,
+    "range": [
+      26,
+      30
+    ],
+    "tail_seconds": 4,
+    "instruction": "引用真实前段最后4秒仅继承姿势/构图/光线和拨弦相位；新增音频从本块零时刻接入，不重放前段。H03已由用户完成，不重做。"
+  },
+  "actual_video_review": false,
+  "prompt_bundle_path": "01_PROMPT_NOT_READY.md"
+}
