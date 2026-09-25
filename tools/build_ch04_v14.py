@@ -151,6 +151,8 @@ def validate_tree(stage,m):
   assert (stage/html.unescape(target)).is_file(),target
  for q in read(stage/'05_IDENTITY_LOCK.json')['identities']:
   assert digest((stage/q['bundle_master_file']).read_bytes())==q['master_sha256']
+ assert (stage/read(stage/'05_IDENTITY_LOCK.json')['pan_hui_highest_priority_rule']).is_file()
+ assert (stage/read(stage/'02_TIMELINE.json')['block']['identity_rules']).is_file()
 
 def build(out,selection=None,docs_only=False):
  manifest=validate();selected=set(selection or ACTIVE_IDS);assert selected<=set(ACTIVE_IDS),'H01/H02 are completed and frozen'
@@ -188,7 +190,7 @@ def build(out,selection=None,docs_only=False):
     for q in localident['identities']:q['bundle_master_file']=byid[q['id']]['bundle_path']
     js(stage/'05_IDENTITY_LOCK.json',localident)
     shutil.copyfile(RELEASE/'IDENTITY_LOCK.md',stage/'05_REFERENCE_RULES.md')
-    shutil.copyfile(RELEASE/'PAN_HUI_IDENTITY_RULES.md',stage/'11_PAN_HUI_IDENTITY_RULES.md')
+    shutil.copyfile(RELEASE/'PAN_HUI_IDENTITY_RULES.md',stage/'PAN_HUI_IDENTITY_RULES.md')
     js(stage/'06_CONTINUITY.json',{'world_axis':continuity['world_axis'],'prop_lock':continuity['prop_lock'],'block':next(x for x in continuity['blocks'] if x['id']==m['id'])})
     js(stage/'07_AUDIO_STATUS.json',contract)
     shutil.copyfile(RELEASE/'SEEDANCE_SPECS.md',stage/'08_SEEDANCE_SPECS.md')

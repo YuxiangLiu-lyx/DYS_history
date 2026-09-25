@@ -59,7 +59,7 @@
   "storyboard_complete": false,
   "first_last_actual_video_frames_available": false,
   "git_base_commit": "155597ae232c94e8eb9d05f3fccc3fef3afa0c05",
-  "github_synced": false,
+  "github_synced": true,
   "source_archive": "archive/chapter04_before_identity_detail_v14",
   "ordered_assets_entry": "ORDERED_INPUTS.md",
   "scene_files_entry": "SCENE_FILES.md",
@@ -125,5 +125,8 @@
     "H07"
   ],
   "identity_rules_and_H03_prompt_saved": true,
-  "delivery_record": "history/generation/CH04_v14_delivery.json"
+  "delivery_record": "history/generation/CH04_v14_delivery.json",
+  "new_content_commit": "db39c789fc22c88bf6e8441a463269c06967c452",
+  "publication_receipt": "history/publication/CH04_v14_receipt.json",
+  "publication_note": "初次内容提交核验769路径。包内规则路径修正、最终交付版本及本回执状态在随后元数据提交保存。"
 }

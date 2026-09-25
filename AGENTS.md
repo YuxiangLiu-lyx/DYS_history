@@ -2,6 +2,8 @@
 
 ## 当前最高优先：v1.4 潘慧细部身份锁与已完成前两段（2026-09-25）
 
+本版内容提交 `db39c789fc22c88bf6e8441a463269c06967c452` 已核验769路径；H03–H07五个独立ZIP、完整潘慧规则及H03单独TXT均已保存。回执 `history/publication/CH04_v14_receipt.json`、`history/generation/CH04_v14_delivery.json`；最终交付以后一回执/路径修正提交为准。
+
 最新用户要求见 `history/requests/20260925_CH04_PAN_IDENTITY_AND_H03_SCOPE.md`。本节覆盖下方与之冲突的“前两段待制作”“早段大侧脸吻前图”和H03转场时间。旧v1.3完整归档 `archive/chapter04_before_identity_detail_v14/`。
 
 - H01、H02用户已完成，既有Prompt/分镜/逐场文件/源素材冻结，不改、不重做。以 `COMPLETED_BLOCKS_LOCK.json`（在当前release内）校验。只在总状态记录用户报告完成；本轮未收到/观看这两段视频，不伪造路径或动态验收。

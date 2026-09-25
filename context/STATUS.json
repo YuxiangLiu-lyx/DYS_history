@@ -89,13 +89,13 @@
   "github": {
     "repository": "YuxiangLiu-lyx/DYS_history",
     "branch": "main",
-    "synced": false,
+    "synced": true,
     "previous_verified_commit": "155597ae232c94e8eb9d05f3fccc3fef3afa0c05",
-    "publication_status": "v14_prepared_not_published",
-    "remote_commit": "dcbc3919a1fa3ce5b1e5e46de827c473c496535e",
-    "verified_path_count": 706,
-    "receipt": "history/publication/CH04_v13_receipt.json",
-    "verification_scope": "制作内容全部706路径的Git blob SHA及mode一致，无删除。回执与状态在下一元数据提交记录。"
+    "publication_status": "CH04_v14_content_published_verified",
+    "remote_commit": "db39c789fc22c88bf6e8441a463269c06967c452",
+    "verified_path_count": 769,
+    "receipt": "history/publication/CH04_v14_receipt.json",
+    "verification_scope": "初次内容769路径Git blob SHA与mode一致，无删除；最终包内规则路径、交付版本与回执在随后元数据提交保存。"
   },
   "video_generated": false,
   "audio_generated": false,
@@ -343,7 +343,7 @@
     "storyboard_complete": false,
     "first_last_actual_video_frames_available": false,
     "git_base_commit": "155597ae232c94e8eb9d05f3fccc3fef3afa0c05",
-    "github_synced": false,
+    "github_synced": true,
     "source_archive": "archive/chapter04_before_identity_detail_v14",
     "ordered_assets_entry": "ORDERED_INPUTS.md",
     "scene_files_entry": "SCENE_FILES.md",
@@ -409,7 +409,10 @@
       "H07"
     ],
     "identity_rules_and_H03_prompt_saved": true,
-    "delivery_record": "history/generation/CH04_v14_delivery.json"
+    "delivery_record": "history/generation/CH04_v14_delivery.json",
+    "new_content_commit": "db39c789fc22c88bf6e8441a463269c06967c452",
+    "publication_receipt": "history/publication/CH04_v14_receipt.json",
+    "publication_note": "初次内容提交核验769路径。包内规则路径修正、最终交付版本及本回执状态在随后元数据提交保存。"
   },
   "preferred_delivery_format": "one_standalone_zip_per_scene"
 }

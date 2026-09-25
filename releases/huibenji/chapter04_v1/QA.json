@@ -97,5 +97,6 @@
   "independent_review_record": "history/QA_20260925_CH04_v14_INDEPENDENT.md",
   "independent_findings_fixed": [
     "H04 lipsync fallback now respects near-frontal/small-angle restriction"
-  ]
+  ],
+  "portable_identity_rule_paths_verified": true
 }
