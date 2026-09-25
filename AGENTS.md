@@ -2,6 +2,8 @@
 
 ## 当前最高优先：第四回身份锁与真实对唱修订 v1.3（2026-09-25）
 
+内容已提交 `dcbc3919a1fa3ce5b1e5e46de827c473c496535e` 并核验706路径；7个独立场景ZIP与导演稿均已实际保存。回执：`history/publication/CH04_v13_receipt.json`、`history/generation/CH04_v13_delivery.json`。这不代表真实歌曲和成片已经完成。
+
 本节覆盖下方第四回210秒、H04–H06三段90秒唱段、22秒曲参+4+4声线、H07扶腰等旧安排。完整用户要求见 `history/requests/20260925_CH04_IDENTITY_REAL_DUET.md`；上一权威版本完整归档在 `archive/chapter04_before_identity_audio_v13/`，不删除历史。
 
 - 权威入口仍 `releases/huibenji/chapter04_v1/START_HERE.md`。先读该目录STATUS、导演稿、timeline、IDENTITY_LOCK、CONTINUITY、SEEDANCE_SPECS及audio/contract。前三块对白/时码和梦图顺序窗口保留；H01追加床侧图7，客栈采用上午光新候选。H03拍小腿肩是原致谢动作；孙潘爱情段禁止搭肩扶腰。

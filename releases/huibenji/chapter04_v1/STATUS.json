@@ -59,7 +59,7 @@
   "storyboard_complete": false,
   "first_last_actual_video_frames_available": false,
   "git_base_commit": "be62579e016b31d7f0ba1e8d62f3ec9a3527a000",
-  "github_synced": false,
+  "github_synced": true,
   "source_archive": "archive/chapter04_before_identity_audio_v13",
   "ordered_assets_entry": "ORDERED_INPUTS.md",
   "scene_files_entry": "SCENE_FILES.md",
@@ -86,5 +86,8 @@
   "director_file_saved": true,
   "delivery_record": "history/generation/CH04_v13_delivery.json",
   "build_receipt": "history/validation/CH04_v13_SCENE_ZIPS.json",
-  "ordered_bundle_validated": true
+  "ordered_bundle_validated": true,
+  "new_content_commit": "dcbc3919a1fa3ce5b1e5e46de827c473c496535e",
+  "publication_receipt": "history/publication/CH04_v13_receipt.json",
+  "publication_note": "制作内容与交付记录在此内容提交核验706路径；本回执和状态通过随后的元数据提交保存。"
 }
