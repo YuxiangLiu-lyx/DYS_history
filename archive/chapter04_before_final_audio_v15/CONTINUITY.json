@@ -1,0 +1,222 @@
+{
+  "revision": "release_v1_4_pan_identity_detail",
+  "world_axis": "孙画左/潘画右，摄影机不越二人轴线；S15_NEW决定地形、巨松、山脊及夕阳方向。",
+  "prop_lock": "以 P_RUAN 原图为准：圆形深木色面板、朱红琴缘与金纹、四弦、两束短红穗；不是整面鲜红的新琴。道具展示支架不进入实景。",
+  "mole_lock": "自然短圆脸、自然脸颊、本人眉眼鼻唇与年龄感；浅蓝花纹外衣、米白内领，玉簪依母版。痣按母版正脸画面右嘴角下方并留皮肤间隔，不镜像。睡眠场景可散发米白寝衣，脸不变。",
+  "blocks": [
+    {
+      "id": "H01",
+      "start": "床侧侍女陪坐，潘慧安睡。",
+      "end": "侍女一手扶潘慧肩，潘慧看向她但未回答。",
+      "reference_ids": [
+        "C05",
+        "E06",
+        "S06",
+        "D01",
+        "D02",
+        "D03",
+        "KF_H01_SLEEP"
+      ],
+      "previous_video": {
+        "source": null,
+        "instruction": "本回开场新场景，不挪用上一回尾帧。"
+      },
+      "light": "夜间床侧暖灯+右窗冷光",
+      "prop_state": "未出现阮",
+      "actual_video_verified": false
+    },
+    {
+      "id": "H02",
+      "start": "延续H01扶肩与床内坐起姿态，潘慧准备回答。",
+      "end": "客栈内小腿说完看向孙，孙正待回应。",
+      "reference_ids": [
+        "C05",
+        "E06",
+        "S06",
+        "C01",
+        "C03",
+        "S14"
+      ],
+      "previous_video": {
+        "source": "H01",
+        "range": [
+          26,
+          30
+        ],
+        "file": null,
+        "instruction": "用真实输出最后4秒或尾帧；仅对齐开头卧房，不把夜色带入客栈。"
+      },
+      "light": "H02先床侧夜灯、对白完转上午客栈；H03室内上午、20秒后申时末夕阳",
+      "prop_state": "未出现阮",
+      "actual_video_verified": false
+    },
+    {
+      "id": "H03",
+      "start": "小腿继续看孙，接上一段提议。",
+      "end": "孙画左抱同一朱漆金纹阮，在约18米外静看画右巨松下背身的潘；尾秒轻吸气，右手停弦前，尚不唱不弹。",
+      "reference_ids": [
+        "C01",
+        "C03",
+        "S14",
+        "S15_NEW",
+        "P_RUAN",
+        "C05",
+        "C01_RUAN_HOLD",
+        "KF_H04_START"
+      ],
+      "previous_video": {
+        "source": "H02",
+        "range": [
+          26,
+          30
+        ],
+        "file": null,
+        "instruction": "用用户已完成H02的真实末4秒接室内孙左腿右与光线；本轮未收到该片。20–24秒为衣袍转场，24秒起明确当日下午申时巨松草坡外景。"
+      },
+      "light": "0–20秒保持H02上午客栈；20–24秒衣袍遮挡、松涛先入；24秒起当日下午申时外景。",
+      "prop_state": "末段持琴",
+      "actual_video_verified": false
+    },
+    {
+      "id": "H04",
+      "start": "孙画左抱同一朱漆金纹阮，在约18米外静看画右巨松下背身的潘；尾秒轻吸气，右手停弦前，尚不唱不弹。",
+      "end": "完整歌句与自然尾音结束；两人约1.8米相望，孙仍双手持阮，无接触。",
+      "reference_ids": [
+        "C01",
+        "C05",
+        "S15_NEW",
+        "P_RUAN",
+        "C01_RUAN_HOLD",
+        "KF_H04_START",
+        "KF_H06_START"
+      ],
+      "previous_video": {
+        "source": "H03",
+        "file": null,
+        "range": [
+          26,
+          30
+        ],
+        "tail_seconds": 4,
+        "instruction": "接 H03 末4秒的18米站位、草坡、阮与天光；H04长度服从最终音频，不用旧90秒三段方案。"
+      },
+      "light": "固定S15_NEW夕阳方向，不能跨块跳太阳",
+      "prop_state": "全段持琴、琴尾结束",
+      "actual_video_verified": false
+    },
+    {
+      "id": "H05",
+      "start": "完整歌句与自然尾音结束；两人约1.8米相望，孙仍双手持阮，无接触。",
+      "end": "琴已稳放画左后方、靠近路线外，面朝上颈朝左后方；孙左潘右，双手下垂，约1.2米互望。",
+      "reference_ids": [
+        "C01",
+        "C05",
+        "S15_NEW",
+        "P_RUAN",
+        "C01_RUAN_HOLD",
+        "KF_H06_START",
+        "KF_SETDOWN",
+        "KF_H07_START"
+      ],
+      "previous_video": {
+        "source": "H04",
+        "file": null,
+        "range": null,
+        "tail_seconds": 4,
+        "instruction": "取 H04 最后4秒并确认歌句和琴尾完整结束，接约1.8米与双手持阮。音源未锁前不能填写全片起点。"
+      },
+      "light": "固定S15_NEW夕阳方向，不能跨块跳太阳",
+      "prop_state": "从持琴到落地、触地稳住后松手",
+      "actual_video_verified": false
+    },
+    {
+      "id": "H06",
+      "start": "琴已稳放画左后方、靠近路线外，面朝上颈朝左后方；孙左潘右，双手下垂，约1.2米互望。",
+      "end": "孙左潘右已经互相缓近，潘相对机位约45°，略抬头，鼻尖将触但未吻；五官痣位已从正脸逐步建立；琴留画左后方草地原处。",
+      "reference_ids": [
+        "C01",
+        "C05",
+        "S15_NEW",
+        "P_RUAN",
+        "KF_H07_START"
+      ],
+      "previous_video": {
+        "source": "H05",
+        "file": null,
+        "range": [
+          6,
+          10
+        ],
+        "tail_seconds": 4,
+        "instruction": "接 H05 最后4秒，孙已站稳并到1.2米；琴静置画左后方，继承纯环境，不重放琴。"
+      },
+      "light": "固定S15_NEW夕阳方向，不能跨块跳太阳",
+      "prop_state": "始终静置画左后方草地，面朝上颈朝左后方",
+      "actual_video_verified": false,
+      "pan_face_angle_schedule": [
+        {
+          "start": 0,
+          "end": 3,
+          "approx_degrees": 0
+        },
+        {
+          "start": 3,
+          "end": 5,
+          "approx_degrees": 15
+        },
+        {
+          "start": 5,
+          "end": 8,
+          "approx_degrees": 30
+        },
+        {
+          "start": 8,
+          "end": 10,
+          "approx_degrees": 45
+        },
+        {
+          "start": 10,
+          "end": 12,
+          "approx_degrees": 45
+        }
+      ]
+    },
+    {
+      "id": "H07",
+      "start": "孙左潘右已经互相缓近，潘相对机位约45°，略抬头，鼻尖将触但未吻；五官痣位已从正脸逐步建立；琴留画左后方草地原处。",
+      "end": "大全景：巨大迎客松、草坡、晚霞、远山与雾；树下两人相吻的小剪影，同一阮仍在画左草地原位。",
+      "reference_ids": [
+        "C01",
+        "C05",
+        "S15_NEW",
+        "P_RUAN",
+        "KF_H07_END"
+      ],
+      "previous_video": {
+        "source": "H06",
+        "file": null,
+        "range": [
+          8,
+          12
+        ],
+        "tail_seconds": 4,
+        "instruction": "接H06真实最后4秒，潘已按正脸→15°→30°→45°建立身份；开头继承约45°与吻前停顿，不跳大侧脸、不重新走近或放琴。"
+      },
+      "light": "固定S15_NEW夕阳方向，不能跨块跳太阳",
+      "prop_state": "始终静置画左后方草地，面朝上颈朝左后方",
+      "actual_video_verified": false,
+      "pan_starting_face_angle_degrees": 45
+    }
+  ],
+  "completed_blocks_user_reported": [
+    "H01",
+    "H02"
+  ],
+  "pan_identity_rule": "PAN_HUI_IDENTITY_RULES.md",
+  "pan_angle_sequence": [
+    0,
+    15,
+    30,
+    45
+  ]
+}

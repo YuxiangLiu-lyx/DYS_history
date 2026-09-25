@@ -1,84 +1,57 @@
 {
+  "revision": "release_v1_5_final60_audio",
   "id": "H07",
-  "name": "轻吻再吻，天地辽阔",
+  "name": "长对视，逐次靠近",
   "duration_seconds": 18,
-  "target_duration_range": [
-    18,
-    18
-  ],
-  "film_start_seconds": null,
-  "global_start_expression": "112 + D_H04",
-  "time_domain": "local_director_clock",
+  "global_start": 162,
+  "song_range": null,
   "prompt_status": "director_prompt_ready_for_review",
   "production_ready": false,
-  "prompt_characters": 1113,
-  "prompt_sha256": "bc77892fe902840e86a7805d6cf6add82fd531e21075ae1cdc56084a0aaf7110",
-  "prompt_bundle_path": "01_PROMPT.txt",
   "images": [
     {
       "slot": 1,
       "ref_id": "C01",
-      "available": true,
-      "upload_this_file": true,
       "source_path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
       "bundle_path": "02_images/01_C01.png",
       "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
-      "bytes": 1894389,
       "role": "identity_master",
-      "actual_video_frame": false,
-      "review_status": "existing_reference"
+      "upload": true
     },
     {
       "slot": 2,
       "ref_id": "C05",
-      "available": true,
-      "upload_this_file": true,
       "source_path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
       "bundle_path": "02_images/02_C05.png",
       "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
-      "bytes": 1907493,
       "role": "identity_master",
-      "actual_video_frame": false,
-      "review_status": "existing_reference"
+      "upload": true
     },
     {
       "slot": 3,
       "ref_id": "S15_NEW",
-      "available": true,
-      "upload_this_file": true,
       "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
       "bundle_path": "02_images/03_S15_NEW.png",
       "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
-      "bytes": 2855464,
-      "role": "source_image",
-      "actual_video_frame": false,
-      "review_status": "generated_candidate_available_for_review"
+      "role": "environment_or_prop",
+      "upload": true
     },
     {
       "slot": 4,
       "ref_id": "P_RUAN",
-      "available": true,
-      "upload_this_file": true,
       "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
       "bundle_path": "02_images/04_P_RUAN.png",
       "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
-      "bytes": 2421203,
-      "role": "source_image",
-      "actual_video_frame": false,
-      "review_status": "generated_candidate_available_for_review"
+      "role": "environment_or_prop",
+      "upload": true
     },
     {
       "slot": 5,
-      "ref_id": "KF_H07_END",
-      "available": true,
-      "upload_this_file": true,
-      "source_path": "assets/keyframes/CH04/H07_END_MEADOW_v03.png",
-      "bundle_path": "02_images/05_KF_H07_END.png",
-      "sha256": "eebbb829cca1a73fe8ac7a2b8d5693975d73bd66471f85e0f130ece771f00eb9",
-      "bytes": 2684428,
-      "role": "pose_and_composition_only",
-      "actual_video_frame": false,
-      "review_status": "generated_candidate_available_for_review"
+      "ref_id": "V15_GAZE",
+      "source_path": "assets/keyframes/CH04/V15_GAZE_v01.png",
+      "bundle_path": "02_images/05_V15_GAZE.png",
+      "sha256": "6ff453ec7226bc094e8b76b8642b4b414c2abf6c0591f85fb0607dd450db4c13",
+      "role": "new_performance_candidate_not_identity_master",
+      "upload": true
     }
   ],
   "audio": [],
@@ -90,14 +63,8 @@
       12
     ],
     "tail_seconds": 4,
-    "instruction": "接H06真实最后4秒，潘已按正脸→15°→30°→45°建立身份；开头继承约45°与吻前停顿，不跳大侧脸、不重新走近或放琴。"
+    "instruction": "继承真实末4秒全部状态，新增片段不重复前片内容，不添歌曲。"
   },
-  "first_frame_description": "孙左潘右已经互相缓近，潘相对机位约45°，略抬头，鼻尖将触但未吻；五官痣位已从正脸逐步建立；琴留画左后方草地原处。",
-  "last_frame_description": "大全景：巨大迎客松、草坡、晚霞、远山与雾；树下两人相吻的小剪影，同一阮仍在画左草地原位。",
-  "planning_frames_are_actual_video_frames": false,
-  "identity_lock": "05_IDENTITY_LOCK.json",
-  "continuity": "06_CONTINUITY.json",
-  "audio_status": "07_AUDIO_STATUS.json",
-  "missing_reference_ids": [],
-  "gate": "requires actual previous video and moving-shot QA"
+  "actual_video_review": false,
+  "prompt_bundle_path": "01_PROMPT.txt"
 }

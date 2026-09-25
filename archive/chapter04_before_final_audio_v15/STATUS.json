@@ -1,0 +1,132 @@
+{
+  "chapter": 4,
+  "title": "梦里惊前尘，松间诉衷情",
+  "revision": "release_v1_4_pan_identity_detail",
+  "updated_date": "2026-09-25",
+  "status": "pan_identity_rules_updated_H01_H02_user_completed",
+  "production_ready": false,
+  "duration_seconds": null,
+  "duration_range_seconds": [
+    150,
+    160
+  ],
+  "blocks": 7,
+  "block_durations": {
+    "H01": 30,
+    "H02": 30,
+    "H03": 30,
+    "H04": null,
+    "H05": 10,
+    "H06": 12,
+    "H07": 18
+  },
+  "prompt_lengths": {
+    "H01": 579,
+    "H02": 455,
+    "H03": 1012,
+    "H04": 1165,
+    "H05": 988,
+    "H06": 1042,
+    "H07": 1113
+  },
+  "prompt_length_includes_trailing_newline": true,
+  "locked_dialogues_preserved": true,
+  "H01_H02_shots_preserved": true,
+  "H03_dialogues_unchanged": true,
+  "dream_image_order": [
+    "密集弹幕图",
+    "求婚图",
+    "打码聊天图"
+  ],
+  "identity_masters_reused": [
+    "C01",
+    "C05",
+    "C03"
+  ],
+  "new_image_files": 0,
+  "new_images_user_approved": false,
+  "new_images_static_visual_review": false,
+  "candidate_media_downloaded": true,
+  "accepted_song_master": false,
+  "song_received": false,
+  "listened_candidate_audio": false,
+  "automated_transcription_performed": true,
+  "lyrics_alignment_verified": false,
+  "singer_alignment_verified": false,
+  "video_generated": false,
+  "audio_generated": false,
+  "actual_AV_verified": false,
+  "storyboard_complete": false,
+  "first_last_actual_video_frames_available": false,
+  "git_base_commit": "155597ae232c94e8eb9d05f3fccc3fef3afa0c05",
+  "github_synced": true,
+  "source_archive": "archive/chapter04_before_identity_detail_v14",
+  "ordered_assets_entry": "ORDERED_INPUTS.md",
+  "scene_files_entry": "SCENE_FILES.md",
+  "standalone_scene_files_saved": 5,
+  "blockers": [
+    {
+      "id": "BUGUA_MASTER",
+      "scope": "H04 final prompt / exact lyrics / singer times / global final duration",
+      "reason": "本轮可访问转载未通过母带验收；没有可核验的连续20–30秒干净真实对唱。",
+      "resume": "继续无解说源定位、试听/裁片/对齐；字段当前null，禁止填估算值。"
+    },
+    {
+      "id": "REAL_VIDEO_QA",
+      "scope": "final moving identity / contact / lipsync",
+      "reason": "未生成Seedance视频或收到可检查的本回实片。",
+      "resume": "有适用生产入口及母带后生成最短难点验证，再逐段制作。"
+    }
+  ],
+  "next_actions": [
+    "从用户已完成H02末4秒续制H03，不重新生产前两段。",
+    "继续自主恢复合格真实对唱母带并校准H04歌词/唱者/时码；既有音源阻塞事实不改。",
+    "所有潘慧镜头只认C05母版；H06正脸到45°递进后才拍吻，逐段验脸、痣、笑法与口型。"
+  ],
+  "new_image_static_review_this_revision": false,
+  "new_images_generated_this_revision": false,
+  "user_reported_completed_blocks": [
+    "H01",
+    "H02"
+  ],
+  "completed_video_files_received": [],
+  "completed_blocks_content_unchanged": true,
+  "completed_blocks_lock": "COMPLETED_BLOCKS_LOCK.json",
+  "active_blocks": [
+    "H03",
+    "H04",
+    "H05",
+    "H06",
+    "H07"
+  ],
+  "pan_hui_identity_rule": "PAN_HUI_IDENTITY_RULES.md",
+  "pan_user_selected_reference_pixel_match": true,
+  "pan_face_angle_progression": [
+    0,
+    15,
+    30,
+    45
+  ],
+  "H03_dialogue_unchanged": true,
+  "H03_transition_seconds": [
+    20,
+    24
+  ],
+  "H03_outdoor_revision_start_seconds": 24,
+  "video_generated_field_scope": "new videos produced by this assistant; H01/H02 separately user-reported completed",
+  "ordered_bundle_validated": true,
+  "active_scene_files_built": 5,
+  "build_receipt": "history/validation/CH04_v14_SCENE_ZIPS.json",
+  "standalone_saved_scene_ids": [
+    "H03",
+    "H04",
+    "H05",
+    "H06",
+    "H07"
+  ],
+  "identity_rules_and_H03_prompt_saved": true,
+  "delivery_record": "history/generation/CH04_v14_delivery.json",
+  "new_content_commit": "db39c789fc22c88bf6e8441a463269c06967c452",
+  "publication_receipt": "history/publication/CH04_v14_receipt.json",
+  "publication_note": "初次内容提交核验769路径。包内规则路径修正、最终交付版本及本回执状态在随后元数据提交保存。"
+}

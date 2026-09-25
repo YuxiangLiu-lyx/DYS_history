@@ -25,7 +25,16 @@
     "KF_C05_TURN": "assets/keyframes/CH04/C05_TURN_MEADOW_v01.png",
     "KF_H01_SLEEP": "assets/keyframes/CH04/H01_SLEEP_BEDSIDE_v01.png",
     "KF_SETDOWN": "assets/keyframes/CH04/H06_SETDOWN_MEADOW_v01.png",
-    "KF_PREKISS": "assets/keyframes/CH04/H07_PREKISS_MEADOW_v01.png"
+    "KF_PREKISS": "assets/keyframes/CH04/H07_PREKISS_MEADOW_v01.png",
+    "V15_SOLO": "assets/keyframes/CH04/V15_SUN_SINGING_v02.png",
+    "V15_SMILE": "assets/keyframes/CH04/V15_PAN_SMILE_v01.png",
+    "V15_DUET": "assets/keyframes/CH04/V15_DUET_v01.png",
+    "V15_GAZE": "assets/keyframes/CH04/V15_GAZE_v01.png",
+    "SONG_FINAL60": "assets/audio/ch04/BUGUA_FINAL60_USER_MASTER_v01.mp3",
+    "SONG_PART1": "assets/audio/ch04/BUGUA_FINAL60_PART_1_v01.wav",
+    "SONG_PART2": "assets/audio/ch04/BUGUA_FINAL60_PART_2_v01.wav",
+    "V15_PRECONTACT": "assets/keyframes/CH04/V15_PRECONTACT_v01.png",
+    "V15_WIDE_LAYOUT": "assets/keyframes/CH04/V15_WIDE_LAYOUT_v02.png"
   },
   "available": {
     "C01": true,
@@ -53,11 +62,21 @@
     "KF_C05_TURN": true,
     "KF_H01_SLEEP": true,
     "KF_SETDOWN": true,
-    "KF_PREKISS": true
+    "KF_PREKISS": true,
+    "V15_SOLO": true,
+    "V15_SMILE": true,
+    "V15_DUET": true,
+    "V15_GAZE": true,
+    "V15_PRECONTACT": true,
+    "V15_WIDE_LAYOUT": true,
+    "SONG_FINAL60": true,
+    "SONG_PART1": true,
+    "SONG_PART2": true
   },
   "missing_reference_spec": {
-    "actual_previous_video_frames": "尚无任何 Seedance 实际视频或首尾帧；规划图只供构图参考。",
-    "actual_song_master": "H04 缺合格孙潘真实对唱母带与逐句校准。"
+    "actual_previous_video_frames": "H01/H02/H03 user-completed; actual files not received. Inherit actual H03 tail, never regenerate it.",
+    "verified_singer_clock": "User master received and fixed; actual lyrics/singer mouth times still unverified.",
+    "actual_kiss_reference": "Image service output safety moderation rejected kiss image as sexual; not generated. Non-contact stills are labeled alternatives, not a completed kiss."
   },
   "dreams": {
     "order": [
@@ -109,7 +128,13 @@
     "S14": "generated_candidate_visual_reviewed_not_user_approved",
     "KF_H01_SLEEP": "generated_candidate_visual_reviewed_not_user_approved",
     "KF_SETDOWN": "generated_candidate_visual_reviewed_not_user_approved",
-    "KF_PREKISS": "historical_candidate_not_uploaded_v14_identity_angle_conflict"
+    "KF_PREKISS": "historical_candidate_not_uploaded_v14_identity_angle_conflict",
+    "V15_SOLO": "candidate_standing_performance_not_actual_H03_tail",
+    "V15_SMILE": "candidate_near_frontal_smile_not_new_master",
+    "V15_DUET": "candidate_duet_expression_not_audible_timing_evidence",
+    "V15_GAZE": "candidate_30_45_degree_post_song_not_opening",
+    "V15_PRECONTACT": "non_contact_alternative_not_kiss_reference",
+    "V15_WIDE_LAYOUT": "spatial_layout_only_not_kissing_final_state"
   },
   "actual_video_frames": false,
   "latest_visual_spec": {
@@ -121,11 +146,11 @@
     ],
     "prop": "以 P_RUAN 原图为准：圆形深木色面板、朱红琴缘与金纹、四弦、两束短红穗；不是整面鲜红的新琴。道具展示支架不进入实景。",
     "ground_position": "孙身侧画左后方半步、两人靠近路线之外草地，琴面朝上、琴颈向画左后方",
-    "retired_reference_warning": "H04/H05/H06_START_RUAN及S15_PINE_RUAN_PLATFORM均旧石台调度，禁止混入当前草坡任务。H07_START_MEADOW v01、END v01/v02落琴在画右，已被v02/v03替代。 v1.4: KF_C05_TURN、KF_PREKISS从H03–H07投料退出，近脸候选不得导致早段大侧脸；保留历史原文件。",
-    "image_count_policy": "H03/H04/H05/H06/H07为8/7/8/5/5张；仅固定C05母版供身份，近脸旧角度图退出当前投料。H01/H02不变。",
-    "keyframe_filename_note": "H06_SETDOWN文件本版仍供H05放琴；H07_PREKISS不再投料。KF_H07_START只定H05/H06距离和地面琴位，不取脸。",
+    "retired_reference_warning": "All pre-v1.5 scene faces are excluded from active H04-H09; original files remain for history/frozen H03. Sole identity masters unchanged.",
+    "image_count_policy": "H04/H05/H06/H07/H08/H09 = 6/5/4/5/5/6. Original masters remain image1/2.",
+    "keyframe_filename_note": "V15 files refer only to this revision; no promotion to identity master.",
     "pan_hui_identity_rule": "PAN_HUI_IDENTITY_RULES.md",
-    "pan_face_angle_policy": "H04 first recognisable view frontal; H06 0→15→30→45 degrees; H07 starts45 and only after pause enters kissing angle."
+    "pan_face_angle_policy": "H04 first recognisable view frontal; H06 near-frontal 0–15 degrees; H07 deliberately establishes 0→15→30→45 degrees; H08 inherits45 and approaches the kissing angle only after a pause."
   },
-  "revision": "release_v1_4_pan_identity_detail"
+  "revision": "release_v1_5_final60_audio"
 }

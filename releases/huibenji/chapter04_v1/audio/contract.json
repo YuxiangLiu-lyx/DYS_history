@@ -1,60 +1,54 @@
 {
-  "schema": "ch04_exact_duet_audio_contract_v13",
-  "status": "blocked_no_accepted_duet_master",
-  "source_report": "BUGUA_SOURCE_REPORT.json",
-  "preferred_excerpt_seconds": [
-    20,
-    30
+  "schema": "ch04_final_user_audio_v15",
+  "revision": "release_v1_5_final60_audio",
+  "status": "accepted_user_master_pending_singer_and_lipsync_audit",
+  "master_file": "assets/audio/ch04/BUGUA_FINAL60_USER_MASTER_v01.mp3",
+  "master_sha256": "4b3d1a9460a9f7aab6e565b423b7d8867222f982e2dc45233d968ad82b388ccd",
+  "source_library_file_id": "libfile_bd47065d993c8191b546c6704c00506a",
+  "source_original_filename": "卜卦_开头至对话前_60秒(1).mp3",
+  "source_user_selected_final": true,
+  "master_duration_seconds": 60.0,
+  "decoded_sample_rate": 44100,
+  "decoded_frames": 2646000,
+  "original_bytes_preserved": true,
+  "final_mix_uses_full_original": true,
+  "new_music_allowed": false,
+  "trim_reorder_fade_time_stretch_allowed": false,
+  "split_for_reference_upload_only": [
+    {
+      "block": "H04",
+      "range": [
+        0,
+        30
+      ],
+      "file": "assets/audio/ch04/BUGUA_FINAL60_PART_1_v01.wav"
+    },
+    {
+      "block": "H05",
+      "range": [
+        30,
+        60
+      ],
+      "file": "assets/audio/ch04/BUGUA_FINAL60_PART_2_v01.wav"
+    }
   ],
-  "preferred_singing_blocks": 1,
-  "may_split_into_two_if_musically_necessary": true,
-  "selected_source_url": null,
-  "source_sha256": null,
-  "source_duration_seconds": null,
-  "clip_start_seconds": null,
-  "clip_end_seconds": null,
-  "clip_duration_seconds": null,
-  "master_file": null,
-  "master_sha256": null,
+  "split_join_pcm_identical": true,
+  "soundtrack_authority": "the complete unchanged user MP3; never concatenate generated video audio as the song master",
   "listened_audio": false,
+  "automated_transcription_performed": true,
+  "asr_models": [
+    "faster-whisper-small",
+    "faster-whisper-medium"
+  ],
   "lyrics_verified": false,
   "singer_alignment_verified": false,
-  "actual_duet_received": false,
-  "voice_samples_received": true,
-  "voice_samples_are_singing": false,
+  "word_boundary_alignment_verified": false,
   "cues": [],
-  "audio_upload_policy": {
-    "H04": "single exact reference_audio master, <=30s; no timbre samples appended",
-    "H05_H07": "no song or voice references; natural ambience only"
-  },
-  "timing_authority": "only accepted audio + corrected observed cue boundaries; previous Cui Zige Live LRC is retired",
-  "final_audio_replacement": "preserve accepted real master; correct video and edit instead of changing song to match wrong mouths",
-  "required_cue_fields": [
-    "start",
-    "end",
-    "singer",
-    "lyrics",
-    "source_start",
-    "source_end",
-    "evidence",
-    "action",
-    "framing",
-    "distance"
-  ],
-  "allowed_singers": [
-    "C01",
-    "C05",
-    "BOTH"
-  ],
-  "required_release_gates": [
-    "source recovered",
-    "source quality audited by listening",
-    "natural phrase boundaries selected",
-    "actual WAV exported and hashed",
-    "lyrics checked against actual audio",
-    "actual singer checked",
-    "cue timestamps measured",
-    "H04 prompt regenerated with cues",
-    "later global times derived from actual master duration"
-  ]
+  "candidate_cues_file": "CUE_REVIEW.json",
+  "final_endpoint_seconds": 60.0,
+  "natural_musical_resolution_verified": false,
+  "endpoint_note": "Last 0.5s decoded RMS approximately -9.60 dBFS; file end is not silence or a verified natural cadence. Preserve the supplied endpoint without inventing a fade/coda. Post-song actions begin only after file end.",
+  "mouth_policy": "No executable H04/H05 singing prompt until actual singers and lyric boundaries have been heard and verified. Do not infer roles from AI MV mouths or ASR alone.",
+  "previous_video_status": "H03 user-completed, actual file not received in this workspace",
+  "source_report": "BUGUA_SOURCE_REPORT.json"
 }

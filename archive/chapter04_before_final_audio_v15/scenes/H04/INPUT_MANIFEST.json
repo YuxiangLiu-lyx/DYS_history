@@ -1,0 +1,144 @@
+{
+  "id": "H04",
+  "name": "真实对唱，回眸渐近",
+  "duration_seconds": null,
+  "target_duration_range": [
+    20,
+    30
+  ],
+  "film_start_seconds": 90,
+  "global_start_expression": "90",
+  "time_domain": "audio_event_order_pending",
+  "prompt_status": "blocked_pending_real_audio_alignment",
+  "production_ready": false,
+  "prompt_characters": 1165,
+  "prompt_sha256": "3117a3e3ca6dccb21383714bfde53ef48d9503e508fe5a3ea0774bf72cda21f9",
+  "prompt_bundle_path": "01_PROMPT.txt",
+  "images": [
+    {
+      "slot": 1,
+      "ref_id": "C01",
+      "available": true,
+      "upload_this_file": true,
+      "source_path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+      "bundle_path": "02_images/01_C01.png",
+      "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
+      "bytes": 1894389,
+      "role": "identity_master",
+      "actual_video_frame": false,
+      "review_status": "existing_reference"
+    },
+    {
+      "slot": 2,
+      "ref_id": "C05",
+      "available": true,
+      "upload_this_file": true,
+      "source_path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+      "bundle_path": "02_images/02_C05.png",
+      "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
+      "bytes": 1907493,
+      "role": "identity_master",
+      "actual_video_frame": false,
+      "review_status": "existing_reference"
+    },
+    {
+      "slot": 3,
+      "ref_id": "S15_NEW",
+      "available": true,
+      "upload_this_file": true,
+      "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+      "bundle_path": "02_images/03_S15_NEW.png",
+      "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
+      "bytes": 2855464,
+      "role": "source_image",
+      "actual_video_frame": false,
+      "review_status": "generated_candidate_available_for_review"
+    },
+    {
+      "slot": 4,
+      "ref_id": "P_RUAN",
+      "available": true,
+      "upload_this_file": true,
+      "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
+      "bundle_path": "02_images/04_P_RUAN.png",
+      "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
+      "bytes": 2421203,
+      "role": "source_image",
+      "actual_video_frame": false,
+      "review_status": "generated_candidate_available_for_review"
+    },
+    {
+      "slot": 5,
+      "ref_id": "C01_RUAN_HOLD",
+      "available": true,
+      "upload_this_file": true,
+      "source_path": "assets/characters/C01/C01_RUAN_HOLD_v01.png",
+      "bundle_path": "02_images/05_C01_RUAN_HOLD.png",
+      "sha256": "dd40ae5e8f841783c65cd0891b2ca125a33c0ed2b3fae0650aa04431d70e502c",
+      "bytes": 2175435,
+      "role": "pose_and_composition_only",
+      "actual_video_frame": false,
+      "review_status": "generated_candidate_available_for_review"
+    },
+    {
+      "slot": 6,
+      "ref_id": "KF_H04_START",
+      "available": true,
+      "upload_this_file": true,
+      "source_path": "assets/keyframes/CH04/H04_START_MEADOW_v01.png",
+      "bundle_path": "02_images/06_KF_H04_START.png",
+      "sha256": "b2a9ac06140ec832cc25575b4c0ff7b108aef09b50e7e1c7d9f7d9eac79cf4c5",
+      "bytes": 2815962,
+      "role": "pose_and_composition_only",
+      "actual_video_frame": false,
+      "review_status": "generated_candidate_available_for_review"
+    },
+    {
+      "slot": 7,
+      "ref_id": "KF_H06_START",
+      "available": true,
+      "upload_this_file": true,
+      "source_path": "assets/keyframes/CH04/H06_START_MEADOW_v01.png",
+      "bundle_path": "02_images/07_KF_H06_START.png",
+      "sha256": "c82adbe1b223837cf9acfa765daf7ae1ba5c37d30aa4b1157fd20ba2617ae159",
+      "bytes": 2587536,
+      "role": "pose_and_composition_only",
+      "actual_video_frame": false,
+      "review_status": "generated_candidate_available_for_review"
+    }
+  ],
+  "audio": [
+    {
+      "slot": 1,
+      "ref_id": "SONG_DUET_MASTER_PENDING",
+      "available": false,
+      "upload_this_file": false,
+      "source_path": null,
+      "bundle_path": "03_audio/01_SONG_DUET_MASTER_PENDING_MISSING.md",
+      "sha256": null,
+      "bytes": null,
+      "duration_seconds": null,
+      "maximum_seconds": 30
+    }
+  ],
+  "previous_video": {
+    "source": "H03",
+    "file": null,
+    "range": [
+      26,
+      30
+    ],
+    "tail_seconds": 4,
+    "instruction": "接 H03 末4秒的18米站位、草坡、阮与天光；H04长度服从最终音频，不用旧90秒三段方案。"
+  },
+  "first_frame_description": "孙画左抱同一朱漆金纹阮，在约18米外静看画右巨松下背身的潘；尾秒轻吸气，右手停弦前，尚不唱不弹。",
+  "last_frame_description": "完整歌句与自然尾音结束；两人约1.8米相望，孙仍双手持阮，无接触。",
+  "planning_frames_are_actual_video_frames": false,
+  "identity_lock": "05_IDENTITY_LOCK.json",
+  "continuity": "06_CONTINUITY.json",
+  "audio_status": "07_AUDIO_STATUS.json",
+  "missing_reference_ids": [
+    "SONG_DUET_MASTER_PENDING"
+  ],
+  "gate": "actual song, singer and lyric timecodes required"
+}

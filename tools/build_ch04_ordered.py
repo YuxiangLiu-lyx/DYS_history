@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-"""Compatibility entry: current CH04 builder; H01/H02 are frozen."""
-from build_ch04_v14 import main
-if __name__ == "__main__":
-    main()
+"""Compatibility entry for current CH04 release. Historical implementation is archived."""
+from build_ch04_v15 import main
+if __name__ == "__main__": main()

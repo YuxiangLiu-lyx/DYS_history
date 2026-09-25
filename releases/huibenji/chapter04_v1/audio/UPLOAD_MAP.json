@@ -12,9 +12,13 @@
     "VOICE_C03"
   ],
   "H04": [
-    "SONG_DUET_MASTER_PENDING"
+    "SONG_PART1"
   ],
-  "H05": [],
+  "H05": [
+    "SONG_PART2"
+  ],
   "H06": [],
-  "H07": []
+  "H07": [],
+  "H08": [],
+  "H09": []
 }

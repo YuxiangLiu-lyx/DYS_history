@@ -1,0 +1,20 @@
+{
+  "H01": [
+    "VOICE_C05"
+  ],
+  "H02": [
+    "VOICE_C05",
+    "VOICE_C01",
+    "VOICE_C03"
+  ],
+  "H03": [
+    "VOICE_C01",
+    "VOICE_C03"
+  ],
+  "H04": [
+    "SONG_DUET_MASTER_PENDING"
+  ],
+  "H05": [],
+  "H06": [],
+  "H07": []
+}

@@ -1,0 +1,81 @@
+{
+  "revision": "release_v1_4_pan_identity_detail",
+  "identities": [
+    {
+      "id": "C01",
+      "name": "孙亚龙",
+      "master_file": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+      "master_sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
+      "provenance_file": "assets/source_photos/xiaoxiao_2013_interview.jpg",
+      "provenance_sha256": "836220eeacc14ca6ce43622272684b80a9eb57813d3bb0e216376ff6c635f7d1",
+      "master_is_new_this_revision": false,
+      "lock": "保留宽自然脸型、真实眉眼鼻口和发际线；深蓝便服、白内领、棕腰带、高发髻；不尖下巴、不陌生古装俊男。",
+      "generation_priority": "master identity > continuity > performance > beautification",
+      "planning_keyframes_may_replace_master": false,
+      "mole_anatomical_side_verified": null,
+      "user_reapproval_claimed": false
+    },
+    {
+      "id": "C05",
+      "name": "潘慧",
+      "master_file": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+      "master_sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
+      "provenance_file": "assets/source_photos/pan_ref2015_b.jpg",
+      "provenance_sha256": "f8a82d4e6153a51dde7e28b1b34589bfd1244d01eaf857c2d68254c57a365ea5",
+      "master_is_new_this_revision": false,
+      "lock": "自然短圆脸、自然脸颊、本人眉眼鼻唇与年龄感；浅蓝花纹外衣、米白内领，玉簪依母版。痣按母版正脸画面右嘴角下方并留皮肤间隔，不镜像。睡眠场景可散发米白寝衣，脸不变。；横向较长、不过分放大的杏眼；眼裂相对偏窄，眼尾自然略微上扬；禁止圆大、幼态、楚楚可怜式古偶眼睛；眉眼距离和眉形与母版一致；鼻宽、鼻长、鼻尖比例不变，不自动高鼻梁化；原始唇形及自然微上扬嘴角不变；下颌、下巴长度与脸宽比例不变；美人痣相对嘴角的位置、大小、距离不变；成熟、灵动、略带媚意，不幼态化；不网红化，不韩式整容脸，不generic Chinese costume drama beauty face；不为更漂亮改变身份",
+      "generation_priority": "master identity > continuity > performance > beautification",
+      "planning_keyframes_may_replace_master": false,
+      "mole_anatomical_side_verified": false,
+      "user_reapproval_claimed": false,
+      "priority": "HIGHEST PRIORITY",
+      "feature_lock": [
+        "横向较长、不过分放大的杏眼",
+        "眼裂相对偏窄，眼尾自然略微上扬",
+        "禁止圆大、幼态、楚楚可怜式古偶眼睛",
+        "眉眼距离和眉形与母版一致",
+        "鼻宽、鼻长、鼻尖比例不变，不自动高鼻梁化",
+        "原始唇形及自然微上扬嘴角不变",
+        "下颌、下巴长度与脸宽比例不变",
+        "美人痣相对嘴角的位置、大小、距离不变",
+        "成熟、灵动、略带媚意，不幼态化",
+        "不网红化，不韩式整容脸，不generic Chinese costume drama beauty face",
+        "不为更漂亮改变身份"
+      ],
+      "expression_rule": "当潘慧看到孙亚龙并微笑时，不要睁大眼睛。她先以眼神回应，眼尾略带笑意，随后嘴角轻轻扬起，是一种克制、熟悉、略带媚意的笑，而不是天真甜妹式笑容。",
+      "angle_progression_degrees": [
+        0,
+        15,
+        30,
+        45
+      ],
+      "sole_primary_identity_master": true,
+      "user_selected_stable_reference": {
+        "library_file_id": "libfile_aa73c633362c81919054ae2bdc152923",
+        "filename": "0c084de5-3513-48e3-a87a-23c1c4ac18ed.png",
+        "file_sha256": "eef1defc7d996c3eecf18f5bcf4ab1820655350e1142271d35780c48da96ecd9",
+        "decoded_rgb_identical_to_master": true,
+        "comparison_scope": "same dimensions and SHA256 of decoded RGB pixel bytes; PNG container bytes differ"
+      }
+    },
+    {
+      "id": "C03",
+      "name": "小腿",
+      "master_file": "assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png",
+      "master_sha256": "a042f817273a117dd720a24d48338859528b8f2753903d83cc1fcbabd41410ca",
+      "provenance_file": "assets/source_photos/C03_user_identity_anchor.png",
+      "provenance_sha256": "c3a82ec9071427b1f494e61f15380d0bd3b480c85719c267debf3f29c73a2de2",
+      "master_is_new_this_revision": false,
+      "lock": "用户指定本人面孔；保留宽脸、眉眼鼻口和年龄感，棕色微服；不继承溯源图动漫发型服装。",
+      "generation_priority": "master identity > continuity > performance > beautification",
+      "planning_keyframes_may_replace_master": false,
+      "mole_anatomical_side_verified": null,
+      "user_reapproval_claimed": false
+    }
+  ],
+  "source_images_use": "provenance for human review; use single costumed master per person for video",
+  "recursion_rule": "Every new image must include the unchanged character master as identity authority. Prior frames are composition only.",
+  "failure_rule": "If identity fails, reject and regenerate affected short shot from master; do not promote drifted frames.",
+  "pan_hui_highest_priority_rule": "PAN_HUI_IDENTITY_RULES.md",
+  "reference_angle_candidates_are_not_identity_masters": true
+}

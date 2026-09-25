@@ -1,0 +1,102 @@
+{
+  "revision": "release_v1_4_pan_identity_detail",
+  "date": "2026-09-25",
+  "scope": "rules, prompts, static files and ZIPs; no newly generated images or videos",
+  "static_checks_passed": true,
+  "locked_H01_H03_dialogues_unchanged": true,
+  "H01_H02_complete_blocks_and_files_unchanged": true,
+  "H03_dialogue_and_20_24_transition_preserved": true,
+  "PanHui_detail_lock_and_angle_progression_present": true,
+  "dream_order_windows_and_bytes_unchanged": true,
+  "no_fabricated_song_or_timecodes": true,
+  "references_exist_and_numbered": true,
+  "all_prompts_under_2000_characters": true,
+  "actual_video_QA_performed": false,
+  "user_reported_completed_blocks": [
+    "H01",
+    "H02"
+  ],
+  "received_completed_video_files": false,
+  "frozen_file_count": 21,
+  "frozen_blocks_identical": true,
+  "frozen_files_identical": true,
+  "pan_selected_reference_matches_existing_master_pixels": true,
+  "new_images_generated": 0,
+  "new_videos_generated": 0,
+  "new_scene_zip_ids": [
+    "H03",
+    "H04",
+    "H05",
+    "H06",
+    "H07"
+  ],
+  "zip_media_sha_and_links_checked": true,
+  "prompt_lengths": {
+    "H03": 1012,
+    "H04": 1165,
+    "H05": 988,
+    "H06": 1042,
+    "H07": 1113
+  },
+  "H03_transition": [
+    20,
+    24
+  ],
+  "H03_outdoor_revision_start": 24,
+  "H03_dialogue_wording_and_times_unchanged": true,
+  "pan_angle_schedule_H06": [
+    {
+      "seconds": [
+        0,
+        3
+      ],
+      "degrees": 0
+    },
+    {
+      "seconds": [
+        3,
+        5
+      ],
+      "degrees": 15
+    },
+    {
+      "seconds": [
+        5,
+        8
+      ],
+      "degrees": 30
+    },
+    {
+      "seconds": [
+        8,
+        10
+      ],
+      "degrees": 45
+    },
+    {
+      "seconds": [
+        10,
+        12
+      ],
+      "degrees": 45
+    }
+  ],
+  "H07_starts_at_approx_45_degrees": true,
+  "early_profile_references_excluded": [
+    "KF_C05_TURN",
+    "KF_PREKISS"
+  ],
+  "song_source_researched_this_revision": false,
+  "accepted_song_master": false,
+  "lyrics_and_singer_times_verified": false,
+  "dynamic_identity_or_lipsync_verified": false,
+  "H04_production_ready": false,
+  "overall_episode_complete": false,
+  "note": "H01/H02完成来自用户明确报告，不是本轮接收/审片。规则修订完成不代表已验证视频能保持身份。",
+  "independent_review_performed": true,
+  "independent_review_record": "history/QA_20260925_CH04_v14_INDEPENDENT.md",
+  "independent_findings_fixed": [
+    "H04 lipsync fallback now respects near-frontal/small-angle restriction"
+  ],
+  "portable_identity_rule_paths_verified": true
+}

@@ -1,275 +1,53 @@
 {
-  "schema": "ch04_real_song_source_review_v1",
-  "checked_date": "2026-09-25",
-  "status": "blocked_no_accepted_duet_master",
-  "original_historical_event_verified": false,
-  "sources": [
-    {
-      "url": "https://www.bilibili.com/video/BV1ez4y1i7HK/",
-      "title": "德云色珍贵历史影像，孙亚龙和潘慧合唱卜卦",
-      "access": "search page metadata available; media request HTTP 412; cloud browser timed out; no bypass attempted",
-      "accepted": false
-    },
-    {
-      "url": "https://news.zhibo8.com/game/2024-09-24/66f29cac67de3native.htm",
-      "title": "Kid看潘慧孙亚龙合唱卜卦当场沉浸",
-      "publication_date": "2024-09-24",
-      "event_date": null,
-      "public_player_url": "https://vodzz.duoduocdn.com/vod-player/1251542705/1397757893717957184/tcplayer/console/vod-player.html?autoplay=false&width=960&height=540",
-      "public_api_url": "https://playvideo.qcloud.com/getplayinfo/v4/1251542705/1397757893717957184",
-      "media_url": "https://1251542705.vod2.myqcloud.com/9665f9bfvodgzp1251542705/baaf24411397757893717957184/ZzmiooqlwZAA.mp4",
-      "duration_seconds": 169.853832,
-      "bytes": 22068344,
-      "sha256": "9b11cec90f08bbe3e6cea540520bd592c6cc754589e79e59c09718b1722161c6",
-      "video": "H264 1280x720 30fps",
-      "audio": "AAC 44100Hz stereo",
-      "downloaded_and_decoded": true,
-      "frame_sampling_performed": true,
-      "listened_audio": false,
-      "watched_full_motion": false,
-      "observed_content": "潘的直播画面、孙的KTV画面和Kid反应窗组成的剪辑；不能据此认定二人在同一现场对唱。",
-      "asr_model": "faster-whisper 1.2.1 / multilingual small / cpu int8 / zh / beam 5 / word timestamps",
-      "asr_automated_transcription_performed": true,
-      "asr_quality": "frequent commentary/transcribed speech; not reliable singing transcription or singer diarization",
-      "asr_segments": 49,
-      "accepted": false,
-      "reason": "未获得可核验的连续20–30秒纯净孙潘对唱，解说/直播说话多次覆盖；未完成试听、歌词校正及演唱者对齐。",
-      "asr_speech_intervals": [
-        {
-          "start": 1.16,
-          "end": 2.6
-        },
-        {
-          "start": 8.9,
-          "end": 10.28
-        },
-        {
-          "start": 16.02,
-          "end": 17.58
-        },
-        {
-          "start": 22.58,
-          "end": 23.78
-        },
-        {
-          "start": 23.78,
-          "end": 25.28
-        },
-        {
-          "start": 27.02,
-          "end": 28.58
-        },
-        {
-          "start": 30.0,
-          "end": 32.0
-        },
-        {
-          "start": 35.88,
-          "end": 37.28
-        },
-        {
-          "start": 37.28,
-          "end": 39.52
-        },
-        {
-          "start": 39.52,
-          "end": 40.54
-        },
-        {
-          "start": 46.72,
-          "end": 48.6
-        },
-        {
-          "start": 60.44,
-          "end": 61.54
-        },
-        {
-          "start": 62.16,
-          "end": 63.0
-        },
-        {
-          "start": 68.04,
-          "end": 68.44
-        },
-        {
-          "start": 71.76,
-          "end": 72.56
-        },
-        {
-          "start": 72.56,
-          "end": 78.44
-        },
-        {
-          "start": 78.44,
-          "end": 78.64
-        },
-        {
-          "start": 78.64,
-          "end": 79.46
-        },
-        {
-          "start": 79.46,
-          "end": 80.1
-        },
-        {
-          "start": 80.1,
-          "end": 81.16
-        },
-        {
-          "start": 82.04,
-          "end": 82.76
-        },
-        {
-          "start": 83.7,
-          "end": 84.6
-        },
-        {
-          "start": 91.18,
-          "end": 93.74
-        },
-        {
-          "start": 95.14,
-          "end": 104.12
-        },
-        {
-          "start": 104.88,
-          "end": 107.6
-        },
-        {
-          "start": 109.9,
-          "end": 110.62
-        },
-        {
-          "start": 121.56,
-          "end": 121.92
-        },
-        {
-          "start": 121.92,
-          "end": 124.0
-        },
-        {
-          "start": 124.0,
-          "end": 125.08
-        },
-        {
-          "start": 126.14,
-          "end": 128.78
-        },
-        {
-          "start": 129.3,
-          "end": 130.3
-        },
-        {
-          "start": 130.94,
-          "end": 132.46
-        },
-        {
-          "start": 132.46,
-          "end": 134.68
-        },
-        {
-          "start": 137.82,
-          "end": 139.32
-        },
-        {
-          "start": 139.32,
-          "end": 141.64
-        },
-        {
-          "start": 142.2,
-          "end": 143.7
-        },
-        {
-          "start": 143.7,
-          "end": 146.34
-        },
-        {
-          "start": 146.88,
-          "end": 147.6
-        },
-        {
-          "start": 147.6,
-          "end": 149.18
-        },
-        {
-          "start": 149.18,
-          "end": 150.12
-        },
-        {
-          "start": 150.12,
-          "end": 151.56
-        },
-        {
-          "start": 151.56,
-          "end": 152.04
-        },
-        {
-          "start": 154.68,
-          "end": 156.02
-        },
-        {
-          "start": 157.8,
-          "end": 158.7
-        },
-        {
-          "start": 158.7,
-          "end": 159.94
-        },
-        {
-          "start": 159.94,
-          "end": 161.1
-        },
-        {
-          "start": 164.16,
-          "end": 164.52
-        },
-        {
-          "start": 167.6,
-          "end": 168.12
-        },
-        {
-          "start": 169.32,
-          "end": 169.82
-        }
-      ],
-      "largest_unlabelled_gaps": [
-        {
-          "start": 48.6,
-          "end": 60.44,
-          "duration": 11.84
-        },
-        {
-          "start": 110.62,
-          "end": 121.56,
-          "duration": 10.94
-        },
-        {
-          "start": 84.6,
-          "end": 91.18,
-          "duration": 6.58
-        },
-        {
-          "start": 2.6,
-          "end": 8.9,
-          "duration": 6.3
-        },
-        {
-          "start": 40.54,
-          "end": 46.72,
-          "duration": 6.18
-        }
-      ],
-      "gap_interpretation": "ASR未标注区间不等于干净唱段或静音。它不能证明所有版本都无可用片段；仅为当前候选的筛查证据。"
-    }
-  ],
-  "selected_source": null,
-  "clip_start_seconds": null,
-  "clip_end_seconds": null,
-  "clip_duration_seconds": null,
-  "final_audio_file": null,
-  "lyrics_verified": false,
-  "singer_alignment_verified": false,
-  "rights_or_license_verified": false,
-  "raw_third_party_media_committed": false,
-  "next_search": "继续找原上传者或无解说单轨；首先核验是实际同场对唱还是后期分屏合成。不要转交用户代做研究。"
+  "status": "accepted_user_master_pending_singer_and_lipsync_audit",
+  "selected_master": "assets/audio/ch04/BUGUA_FINAL60_USER_MASTER_v01.mp3",
+  "sha256": "4b3d1a9460a9f7aab6e565b423b7d8867222f982e2dc45233d968ad82b388ccd",
+  "duration": 60,
+  "master_received": true,
+  "previous_rejected_search_source_superseded": true,
+  "new_song_search_performed": false,
+  "same_audio_crosscheck": {
+    "ai_mv": "41521382979-1-192.mp4",
+    "offset_seconds": 31.999875,
+    "whole_correlation": 0.9537129631,
+    "five_second_windows_correlation_range": [
+      0.9311,
+      0.9838
+    ],
+    "allowed_evidence": "same audio and candidate subtitle text only; never singer identity from generated mouths"
+  },
+  "historical_live_video_match": {
+    "file": "1159171533-1-192.mp4",
+    "piecewise_offsets": [
+      {
+        "master_range": [
+          0,
+          20
+        ],
+        "offset": 131.3835,
+        "corr": 0.7701
+      },
+      {
+        "master_range": [
+          20,
+          21
+        ],
+        "offset": null,
+        "status": "transition not resolved"
+      },
+      {
+        "master_range": [
+          21,
+          60
+        ],
+        "offset": 148.55025,
+        "status": "after 25s correlation 0.8966–0.9504"
+      }
+    ],
+    "caution": "one offset for the entire 60s is invalid; low-res visual crops do not verify individual singing voices"
+  },
+  "asr_disagreement": "corresponding line ends 39.56 vs 40.56; segmentation differs at 50–56.7. Precision cannot be inferred from number of decimals.",
+  "actual_listening_completed": false,
+  "singer_status": "all actual singer fields remain null",
+  "next_required": "Listen to this exact unchanged master and check each lead/overlap/stop before writing singing prompts. No song reselection."
 }

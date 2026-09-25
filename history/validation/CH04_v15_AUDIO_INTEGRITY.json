@@ -1,0 +1,15 @@
+{
+  "original_sha256": "4b3d1a9460a9f7aab6e565b423b7d8867222f982e2dc45233d968ad82b388ccd",
+  "original_copy_identical": true,
+  "decode_duration": 60.0,
+  "sample_rate": 44100,
+  "frames": 2646000,
+  "channels": 2,
+  "split_sample": 1323000,
+  "split_duration": [
+    30,
+    30
+  ],
+  "transformation": "MP3 decoded once to PCM; contiguous samples partitioned at 30s. No fade, normalize, resample, missing sample or overlap. Original MP3 is final mix authority.",
+  "concatenated_pcm_matches_full_decode": true
+}

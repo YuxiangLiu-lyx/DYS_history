@@ -1,0 +1,60 @@
+{
+  "schema": "ch04_exact_duet_audio_contract_v13",
+  "status": "blocked_no_accepted_duet_master",
+  "source_report": "BUGUA_SOURCE_REPORT.json",
+  "preferred_excerpt_seconds": [
+    20,
+    30
+  ],
+  "preferred_singing_blocks": 1,
+  "may_split_into_two_if_musically_necessary": true,
+  "selected_source_url": null,
+  "source_sha256": null,
+  "source_duration_seconds": null,
+  "clip_start_seconds": null,
+  "clip_end_seconds": null,
+  "clip_duration_seconds": null,
+  "master_file": null,
+  "master_sha256": null,
+  "listened_audio": false,
+  "lyrics_verified": false,
+  "singer_alignment_verified": false,
+  "actual_duet_received": false,
+  "voice_samples_received": true,
+  "voice_samples_are_singing": false,
+  "cues": [],
+  "audio_upload_policy": {
+    "H04": "single exact reference_audio master, <=30s; no timbre samples appended",
+    "H05_H07": "no song or voice references; natural ambience only"
+  },
+  "timing_authority": "only accepted audio + corrected observed cue boundaries; previous Cui Zige Live LRC is retired",
+  "final_audio_replacement": "preserve accepted real master; correct video and edit instead of changing song to match wrong mouths",
+  "required_cue_fields": [
+    "start",
+    "end",
+    "singer",
+    "lyrics",
+    "source_start",
+    "source_end",
+    "evidence",
+    "action",
+    "framing",
+    "distance"
+  ],
+  "allowed_singers": [
+    "C01",
+    "C05",
+    "BOTH"
+  ],
+  "required_release_gates": [
+    "source recovered",
+    "source quality audited by listening",
+    "natural phrase boundaries selected",
+    "actual WAV exported and hashed",
+    "lyrics checked against actual audio",
+    "actual singer checked",
+    "cue timestamps measured",
+    "H04 prompt regenerated with cues",
+    "later global times derived from actual master duration"
+  ]
+}

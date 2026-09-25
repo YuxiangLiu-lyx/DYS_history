@@ -1,0 +1,354 @@
+{
+  "revision": "release_v1_5_final60_audio",
+  "tool": "builtin_image_gen",
+  "identity_sources_unchanged": true,
+  "no_recursive_generated_face_reference": true,
+  "attempts": [
+    {
+      "key": "smile",
+      "args": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/workspace/scratch/8535481924e4/DYS_history/assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png"
+        ],
+        "prompt": "Use case: identity-preserve. Project asset: photorealistic historical film still, one coherent 16:9 landscape frame, no collage, no text. Identity fidelity is higher priority than continuity, acting, and beautification. The primary identity masters override every scene/pose image. Keep real skin texture, adult maturity, original facial ratios; do not idealize into generic costume-drama leads. Preserve the established pale blue floral/ivory robe and jade hairpin for Pan Hui and navy robe/ivory collar/brown sash/high bun for Sun. Pan Hui must retain the reference's horizontally long, relatively narrow almond eyes and subtly upturned outer corners, eyebrow shape and brow-eye distance, exact nose width/length/tip, original lip shape and subtly upturned corners, jaw/chin length to face width. Her small beauty mole stays on the skin below the mouth corner at image-right in a frontal view, with the same gap, size and relative position. Do not mirror. No round enlarged eyes, no childlike or pleading expression, no cosmetic-surgery or influencer face. Sunset light comes from back-right. No other people, no invented scenery or wardrobe.\nImage 1 is the sole Pan Hui identity master. Image 2 is ONLY pine/meadow/sunset environment. Create the key moment after Pan Hui recognizes Sun singing off screen toward image-left: she has just finished turning, camera beside Sun sees her NEAR FRONTAL face (0 to 5 degrees), upper body and waist, in focus. She looks just left of camera at him, not at the viewer. The long narrow almond eyes soften with real amusement first, then the distinctive corners of her lips lift into a clearly visible, warm, restrained, familiar, slightly coquettish smile. Show a real smile, not a blank serious gaze; she is silently listening, not singing. Do not widen eyes or make a sweet innocent girl. Huge pine trunk softly present behind at screen-right, warm meadow and distant mountains; subtle rim light and breeze, natural skin color. Facial identity must look like the unchanged first reference person. No exaggerated head turn or side profile. The reference face is the target, not a prettier replacement."
+      },
+      "result_available": true,
+      "inputs": [
+        {
+          "path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d"
+        },
+        {
+          "path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+          "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815"
+        }
+      ],
+      "status": "selected_candidate_not_user_approved",
+      "output_file": "assets/keyframes/CH04/V15_PAN_SMILE_v01.png",
+      "output_sha256": "3bd92bf18f31fc7ac99fbf4d23758f8ce031d07958b8eb825a0fad122ec2f4be",
+      "selected": true,
+      "static_visual_review": true,
+      "static_review_note": "近正脸、窄杏眼与嘴角笑意可见；痣及玉簪同项目侧；候选非用户批准。"
+    },
+    {
+      "key": "solo",
+      "args": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/workspace/scratch/8535481924e4/DYS_history/assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/props/CH04/P_RUAN_ORNATE_v01.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/characters/C01/C01_RUAN_HOLD_v01.png"
+        ],
+        "prompt": "Use case: identity-preserve. Project asset: photorealistic historical film still, one coherent 16:9 landscape frame, no collage, no text. Identity fidelity is higher priority than continuity, acting, and beautification. The primary identity masters override every scene/pose image. Keep real skin texture, adult maturity, original facial ratios; do not idealize into generic costume-drama leads. Preserve the established pale blue floral/ivory robe and jade hairpin for Pan Hui and navy robe/ivory collar/brown sash/high bun for Sun. Pan Hui must retain the reference's horizontally long, relatively narrow almond eyes and subtly upturned outer corners, eyebrow shape and brow-eye distance, exact nose width/length/tip, original lip shape and subtly upturned corners, jaw/chin length to face width. Her small beauty mole stays on the skin below the mouth corner at image-right in a frontal view, with the same gap, size and relative position. Do not mirror. No round enlarged eyes, no childlike or pleading expression, no cosmetic-surgery or influencer face. Sunset light comes from back-right. No other people, no invented scenery or wardrobe.\nImage 1 sole Sun Yalong identity master; image 2 sole Pan identity master; image 3 environment only; image 4 exact instrument design; image 5 hand/holding pose only, never face authority. New SINGING key reference after arrival is already over. Medium three-quarter frontal shot of Sun filling the left half, clearly already singing quietly and genuinely PLAYING the same ornate ruan, left hand fretting neck, right fingers captured just in a small pluck across the four strings. His unchanged face from image 1 is easy to recognize, mouth naturally open for singing, eyes attentive toward the woman on image-right, no operatic grimace. Navy plain costume unchanged. Pan is small and softly out of focus about 18 metres deeper in the screen-right background, BACK turned under the enormous pine, not singing. Camera on the same established side; this is a performance close view, not a new arrival or a new discovery. Retain instrument round dark wood soundboard, red edge, exact gold floral ring, two soundholes, 4 strings, flower headstock and two SHORT red tassels at neck tuning pegs; no stand, no guitar, no extra arm or neck. Warm late-afternoon pine meadow, mountain sunset back-right. Full circular instrument body and both working hands clearly in frame. No touch between the two people."
+      },
+      "result_available": true,
+      "inputs": [
+        {
+          "path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89"
+        },
+        {
+          "path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d"
+        },
+        {
+          "path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+          "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815"
+        },
+        {
+          "path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
+          "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43"
+        },
+        {
+          "path": "assets/characters/C01/C01_RUAN_HOLD_v01.png",
+          "sha256": "dd40ae5e8f841783c65cd0891b2ca125a33c0ed2b3fae0650aa04431d70e502c"
+        }
+      ],
+      "status": "rejected_sitting_pose_inconsistent_with_standing_walk",
+      "output_file": "archive/chapter04_v15_rejected_images/SUN_SEATED_REJECTED.png",
+      "output_sha256": "1797b694508cabc0fe5d6ee0bb8d165f9fc0274105691af93603826c933364e5",
+      "selected": false,
+      "static_visual_review": false
+    },
+    {
+      "key": "solo2",
+      "args": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/workspace/scratch/8535481924e4/DYS_history/assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/props/CH04/P_RUAN_ORNATE_v01.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/characters/C01/C01_RUAN_HOLD_v01.png"
+        ],
+        "prompt": "Use case: identity-preserve. Project asset: photorealistic historical film still, one coherent 16:9 landscape frame, no collage, no text. Identity fidelity is higher priority than continuity, acting, and beautification. The primary identity masters override every scene/pose image. Keep real skin texture, adult maturity, original facial ratios; do not idealize into generic costume-drama leads. Preserve the established pale blue floral/ivory robe and jade hairpin for Pan Hui and navy robe/ivory collar/brown sash/high bun for Sun. Pan Hui must retain the reference's horizontally long, relatively narrow almond eyes and subtly upturned outer corners, eyebrow shape and brow-eye distance, exact nose width/length/tip, original lip shape and subtly upturned corners, jaw/chin length to face width. Her small beauty mole stays on the skin below the mouth corner at image-right in a frontal view, with the same gap, size and relative position. Do not mirror. No round enlarged eyes, no childlike or pleading expression, no cosmetic-surgery or influencer face. Sunset light comes from back-right. No other people, no invented scenery or wardrobe.\nImage 1 sole Sun Yalong identity master; image 2 sole Pan identity master; image 3 environment only; image 4 exact instrument design; image 5 hand/holding pose only, never face authority. New SINGING key reference after arrival is already over. Medium three-quarter frontal shot of Sun filling the left half, clearly already singing quietly and genuinely PLAYING the same ornate ruan, left hand fretting neck, right fingers captured just in a small pluck across the four strings. His unchanged face from image 1 is easy to recognize, mouth naturally open for singing, eyes attentive toward the woman on image-right, no operatic grimace. Navy plain costume unchanged. Pan is small and softly out of focus about 18 metres deeper in the screen-right background, BACK turned under the enormous pine, not singing. Camera on the same established side; this is a performance close view, not a new arrival or a new discovery. Retain instrument round dark wood soundboard, red edge, exact gold floral ring, two soundholes, 4 strings, flower headstock and two SHORT red tassels at neck tuning pegs; no stand, no guitar, no extra arm or neck. Warm late-afternoon pine meadow, mountain sunset back-right. Full circular instrument body and both working hands clearly in frame. No touch between the two people.\nCRITICAL CORRECTION: Both people are STANDING UPRIGHT. Sun is already taking a very small standing step forward while playing, photographed from the knees up; straight vertical robe and clearly weight-bearing legs, no bent seated thigh in foreground. Pan is a SMALL FULL STANDING FIGURE far away under the pine, seen from behind, not seated and not kneeling. No chair, no rock seat, no crouching. Do not reproduce the last output's sitting arrangement. Use only the original identity references supplied, not any newly generated face. Sun's body must be upright and his face retains the original broad natural shape, not narrowed. The scene is a standing serenade."
+      },
+      "result_available": true,
+      "inputs": [
+        {
+          "path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89"
+        },
+        {
+          "path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d"
+        },
+        {
+          "path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+          "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815"
+        },
+        {
+          "path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
+          "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43"
+        },
+        {
+          "path": "assets/characters/C01/C01_RUAN_HOLD_v01.png",
+          "sha256": "dd40ae5e8f841783c65cd0891b2ca125a33c0ed2b3fae0650aa04431d70e502c"
+        }
+      ],
+      "status": "selected_candidate_not_user_approved",
+      "output_file": "assets/keyframes/CH04/V15_SUN_SINGING_v02.png",
+      "output_sha256": "8f17af734011bb2999ed1ad0a8477e2560cebd450d5ebf74640c4c0488be0ea9",
+      "selected": true,
+      "static_visual_review": true,
+      "static_review_note": "修复坐姿，二人站立，孙持阮双手各司其位；候选距离不当作实际H03尾帧。"
+    },
+    {
+      "key": "duet",
+      "args": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/workspace/scratch/8535481924e4/DYS_history/assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/props/CH04/P_RUAN_ORNATE_v01.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/characters/C01/C01_RUAN_HOLD_v01.png"
+        ],
+        "prompt": "Use case: identity-preserve. Project asset: photorealistic historical film still, one coherent 16:9 landscape frame, no collage, no text. Identity fidelity is higher priority than continuity, acting, and beautification. The primary identity masters override every scene/pose image. Keep real skin texture, adult maturity, original facial ratios; do not idealize into generic costume-drama leads. Preserve the established pale blue floral/ivory robe and jade hairpin for Pan Hui and navy robe/ivory collar/brown sash/high bun for Sun. Pan Hui must retain the reference's horizontally long, relatively narrow almond eyes and subtly upturned outer corners, eyebrow shape and brow-eye distance, exact nose width/length/tip, original lip shape and subtly upturned corners, jaw/chin length to face width. Her small beauty mole stays on the skin below the mouth corner at image-right in a frontal view, with the same gap, size and relative position. Do not mirror. No round enlarged eyes, no childlike or pleading expression, no cosmetic-surgery or influencer face. Sunset light comes from back-right. No other people, no invented scenery or wardrobe.\nImage 1 and 2 are unchanged primary identity masters. Image 3 environment only, image 4 exact ruan, image 5 hand position only. Key reference for an ACTUAL DUET MOMENT, not a designated audio timestamp. Both are fully STANDING UPRIGHT on the grass, about 1.8 metres apart, knees-up medium two-shot. Sun screen-left still supports and actively plucks the identical ruan with his right hand, left hand frets; he looks toward Pan while singing, mouth naturally open. Pan screen-right faces him, camera placed near his shoulder line so her face is close to frontal with only a gentle 10–15-degree turn and eyes directed to Sun, never the viewer. Pan sings a light open-vowel with a visible familiar smile in her narrow eyes and distinctive mouth corners, subtly playful and adult, no widened eyes. Keep face width, jaw and nose from her identity image. No physical contact, no embrace, no hands reaching toward each other. Full instrument and working hands in frame, exactly two short red tassels, four strings, dark round body with red rim and gold floral ring; no stand. Warm sunset from behind right through the same huge pine, grass and mountain background, natural gentle breeze. This is only an expressive duet still; never borrow a new generated face for identity."
+      },
+      "result_available": true,
+      "inputs": [
+        {
+          "path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89"
+        },
+        {
+          "path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d"
+        },
+        {
+          "path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+          "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815"
+        },
+        {
+          "path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
+          "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43"
+        },
+        {
+          "path": "assets/characters/C01/C01_RUAN_HOLD_v01.png",
+          "sha256": "dd40ae5e8f841783c65cd0891b2ca125a33c0ed2b3fae0650aa04431d70e502c"
+        }
+      ],
+      "status": "selected_candidate_not_user_approved",
+      "output_file": "assets/keyframes/CH04/V15_DUET_v01.png",
+      "output_sha256": "1ba82eb7bdfbc3eece65766a934e8cf34c66e0549d454aec2db9f390cc67306f",
+      "selected": true,
+      "static_visual_review": true,
+      "static_review_note": "双人唱态、孙持续持阮；潘脸约30度，非要求精确15度的几何验收。此图不证明真实合唱时点。"
+    },
+    {
+      "key": "gaze",
+      "args": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/workspace/scratch/8535481924e4/DYS_history/assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/props/CH04/P_RUAN_ORNATE_v01.png"
+        ],
+        "prompt": "Use case: identity-preserve. Project asset: photorealistic historical film still, one coherent 16:9 landscape frame, no collage, no text. Identity fidelity is higher priority than continuity, acting, and beautification. The primary identity masters override every scene/pose image. Keep real skin texture, adult maturity, original facial ratios; do not idealize into generic costume-drama leads. Preserve the established pale blue floral/ivory robe and jade hairpin for Pan Hui and navy robe/ivory collar/brown sash/high bun for Sun. Pan Hui must retain the reference's horizontally long, relatively narrow almond eyes and subtly upturned outer corners, eyebrow shape and brow-eye distance, exact nose width/length/tip, original lip shape and subtly upturned corners, jaw/chin length to face width. Her small beauty mole stays on the skin below the mouth corner at image-right in a frontal view, with the same gap, size and relative position. Do not mirror. No round enlarged eyes, no childlike or pleading expression, no cosmetic-surgery or influencer face. Sunset light comes from back-right. No other people, no invented scenery or wardrobe.\nImage1 Sun identity, image2 Pan identity, image3 environment ONLY, image4 exact instrument ONLY. New key reference AFTER all singing has ended and the instrument has been safely laid down: quiet prolonged mutual gaze before any kiss. Both STANDING. A natural intimate medium two-shot, Sun on screen-left and Pan on screen-right, approx1.2m apart, heads-to-knees composition. Camera close to Sun's shoulder line on the established same side, so Pan's face stays in a restrained near-frontal / gentle 15–25-degree view; Sun is seen in three-quarter view. Pan's narrow almond eyes look at Sun's eyes, with mature familiar warmth and a small recognizable upturn of her original lips, mouth closed. Sun raises his gaze back to her with quiet tenderness, mouth closed. Neither looks at camera. Hands relax by their own bodies; no reaching, no touching, no embrace, no kiss, no widened eyes. The SAME round darkwood gold-floral ruan now rests FACE UP on the grass at screen-left behind Sun, safely outside their approach line, neck toward back-left and two short red tassels at neck. Let it be visible naturally near lower-left edge, NOT a huge foreground hero object, NO stand or table. Maintain the same pine, back-right sunset and grass; only gentle wind lifts loose hair and sleeves. The faces must remain those two real adults from the original master references, not beautified actors."
+      },
+      "result_available": true,
+      "inputs": [
+        {
+          "path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89"
+        },
+        {
+          "path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d"
+        },
+        {
+          "path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+          "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815"
+        },
+        {
+          "path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
+          "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43"
+        }
+      ],
+      "status": "selected_candidate_not_user_approved",
+      "output_file": "assets/keyframes/CH04/V15_GAZE_v01.png",
+      "output_sha256": "6ff453ec7226bc094e8b76b8642b4b414c2abf6c0591f85fb0607dd450db4c13",
+      "selected": true,
+      "static_visual_review": true,
+      "static_review_note": "约30–45度的歌后对视，阮面朝上画左草地；只供H07中后段，非开场正脸。"
+    },
+    {
+      "key": "kiss",
+      "args": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/workspace/scratch/8535481924e4/DYS_history/assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png"
+        ],
+        "prompt": "Use case: identity-preserve. Project asset: photorealistic historical film still, one coherent 16:9 landscape frame, no collage, no text. Identity fidelity is higher priority than continuity, acting, and beautification. The primary identity masters override every scene/pose image. Keep real skin texture, adult maturity, original facial ratios; do not idealize into generic costume-drama leads. Preserve the established pale blue floral/ivory robe and jade hairpin for Pan Hui and navy robe/ivory collar/brown sash/high bun for Sun. Pan Hui must retain the reference's horizontally long, relatively narrow almond eyes and subtly upturned outer corners, eyebrow shape and brow-eye distance, exact nose width/length/tip, original lip shape and subtly upturned corners, jaw/chin length to face width. Her small beauty mole stays on the skin below the mouth corner at image-right in a frontal view, with the same gap, size and relative position. Do not mirror. No round enlarged eyes, no childlike or pleading expression, no cosmetic-surgery or influencer face. Sunset light comes from back-right. No other people, no invented scenery or wardrobe.\nImages 1 and 2 are sole unchanged Sun and Pan identity masters. Image 3 only the established sunset pine setting, no previous generated faces are supplied. Generate a candid cinematic CLOSE TWO-SHOT of the slow, sincere, sustained romantic kiss that happens only AFTER singing, setting the instrument down, long mutual gaze and gradual front→15→30→45-degree identity establishment. Both adults fully clothed, STANDING. Sun at image-left, Pan at image-right. Show heads and upper chest, noses naturally offset, lips gently meeting in one relaxed believable kiss, eyes softly closed, her chin raised only slightly as he leans a little toward her. Face angle is now allowed to naturally approach profile, but choose a soft oblique camera that still reads their original cheeks, nose and jaw—not a silhouette and not two replacement actors. Preserve Sun's broad adult face and natural nose, preserve Pan's exact short rounded face, original nose width and tip, small chin, original lips and image-right-below-mouth mole position in the corresponding facial anatomy. No sharp generic high nose, no narrowed glam face, no porcelain retouch. This is tenderness and long-held affection, not erotic posing: no tongues, no exaggerated open mouths, no hands on neck/waist/shoulders, no embrace. Arms below frame by their sides, no new ornaments. The instrument has been placed on grass back-left OUTSIDE this tight frame; do not show it held, hanging or floating. Soft pine branches and sunset back-right in bokeh, light natural wind in hair, true fabric texture. One single 16:9 photo, no grid, no caption."
+      },
+      "result_available": false,
+      "inputs": [
+        {
+          "path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89"
+        },
+        {
+          "path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d"
+        },
+        {
+          "path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+          "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815"
+        }
+      ],
+      "status": "failed_safety_moderation",
+      "category": "sexual",
+      "stage": "output",
+      "request_id": "4f3951b3-6a81-45b3-b82c-a2d302788c29",
+      "output_file": null,
+      "same_action_retried": false,
+      "selected": false
+    },
+    {
+      "key": "precontact",
+      "args": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/workspace/scratch/8535481924e4/DYS_history/assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png"
+        ],
+        "prompt": "Use case: identity-preserve. Project asset: photorealistic historical film still, one coherent 16:9 landscape frame, no collage, no text. Identity fidelity is higher priority than continuity, acting, and beautification. The primary identity masters override every scene/pose image. Keep real skin texture, adult maturity, original facial ratios; do not idealize into generic costume-drama leads. Preserve the established pale blue floral/ivory robe and jade hairpin for Pan Hui and navy robe/ivory collar/brown sash/high bun for Sun. Pan Hui must retain the reference's horizontally long, relatively narrow almond eyes and subtly upturned outer corners, eyebrow shape and brow-eye distance, exact nose width/length/tip, original lip shape and subtly upturned corners, jaw/chin length to face width. Her small beauty mole stays on the skin below the mouth corner at image-right in a frontal view, with the same gap, size and relative position. Do not mirror. No round enlarged eyes, no childlike or pleading expression, no cosmetic-surgery or influencer face. Sunset light comes from back-right. No other people, no invented scenery or wardrobe.\nImage1 and2 sole unchanged adult identity masters, image3 environment only. Make a new close two-person portrait of a completely NON-CONTACT moment of silent mutual eye contact. Sun at screen-left, Pan at screen-right, both fully clothed and standing, about 30 centimetres of clearly visible open air between their faces. Neither touches the other, both mouths CLOSED, eyes OPEN and meeting the other's eyes. Calm thoughtful familiar warmth, a very slight recognizable upturn at Pan's mouth corners. Camera shows both heads and shoulders and maintains a gentle oblique view of Pan around30–45 degrees, Sun's natural broad cheek and original profile. Preserve their exact facial anatomy and adult ages from the two original master images. Hands outside the frame and at their own sides. Instrument has already been placed on grass outside the tight crop. Pine and warm sunset back-right softly out of focus, subtle wind in loose hair, documentary-like real skin and cloth. No romantic physical contact or embrace; this image depicts quiet looking only, an open breathing space between two people. No caption, no split-screen, one 16:9 landscape film still."
+      },
+      "result_available": true,
+      "inputs": [
+        {
+          "path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89"
+        },
+        {
+          "path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d"
+        },
+        {
+          "path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+          "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815"
+        }
+      ],
+      "status": "selected_candidate_not_user_approved",
+      "output_file": "assets/keyframes/CH04/V15_PRECONTACT_v01.png",
+      "output_sha256": "f0fce243872bc54bf3bdc00835b4a9e8531398c5073efb7fd4fec8fabbd61434",
+      "selected": true,
+      "static_visual_review": true,
+      "static_review_note": "实际非接触对视，两人嘴闭、双眼睁开；不是吻图，也不是鼻尖将触末态。"
+    },
+    {
+      "key": "wide",
+      "args": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/workspace/scratch/8535481924e4/DYS_history/assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/props/CH04/P_RUAN_ORNATE_v01.png"
+        ],
+        "prompt": "Use case: identity-preserve. Project asset: photorealistic historical film still, one coherent 16:9 landscape frame, no collage, no text. Identity fidelity is higher priority than continuity, acting, and beautification. The primary identity masters override every scene/pose image. Keep real skin texture, adult maturity, original facial ratios; do not idealize into generic costume-drama leads. Preserve the established pale blue floral/ivory robe and jade hairpin for Pan Hui and navy robe/ivory collar/brown sash/high bun for Sun. Pan Hui must retain the reference's horizontally long, relatively narrow almond eyes and subtly upturned outer corners, eyebrow shape and brow-eye distance, exact nose width/length/tip, original lip shape and subtly upturned corners, jaw/chin length to face width. Her small beauty mole stays on the skin below the mouth corner at image-right in a frontal view, with the same gap, size and relative position. Do not mirror. No round enlarged eyes, no childlike or pleading expression, no cosmetic-surgery or influencer face. Sunset light comes from back-right. No other people, no invented scenery or wardrobe.\nImage1 Sun identity and costume, image2 Pan identity and costume, image3 the exact ENVIRONMENT AND WIDE COMPOSITION anchor, image4 exact ruan prop. Generate a distant WIDE LAYOUT reference only, no physical intimacy. Preserve the huge asymmetrical umbrella-like pine's trunk and spreading branches, grassy hill slope, right-back sunset and distant mountains from image3. Two small fully clothed adults STANDING SEPARATELY beneath the tree near its trunk, Sun screen-left, Pan screen-right, about 1.2m between them, quietly facing and looking at one another, no touching. Their entire standing figures should each occupy only about 8–10 percent of total frame height: tree and landscape dominate, open sunset sky and layered misty mountains feel vast. The same round darkwood red-rimmed gold-floral ruan rests FACE UP on grass screen-left and half a step behind Sun, safely outside the gap between them, neck pointing back-left, two short red tassels; no stand/table, not held. Instrument body about one third of their standing height at most and not a huge foreground object. Keep it discernible through its circular red/gold outline. Natural light breeze and warm realistic textures. This is a non-contact spatial and camera-ending layout study, not an action completion still. One 16:9 cinematic frame, no text."
+      },
+      "result_available": true,
+      "inputs": [
+        {
+          "path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89"
+        },
+        {
+          "path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d"
+        },
+        {
+          "path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+          "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815"
+        },
+        {
+          "path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
+          "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43"
+        }
+      ],
+      "status": "rejected_people_too_large_for_extreme_long_layout",
+      "output_file": "archive/chapter04_v15_rejected_images/WIDE_TOO_CLOSE_REJECTED.png",
+      "output_sha256": "3fc2494baf27b9c5b3a5a15611f0a315a9dcfaee1d37fabc7b28b795e7892d7d",
+      "selected": false,
+      "static_visual_review": false
+    },
+    {
+      "key": "wide2",
+      "args": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/workspace/scratch/8535481924e4/DYS_history/assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+          "/workspace/scratch/8535481924e4/DYS_history/assets/props/CH04/P_RUAN_ORNATE_v01.png"
+        ],
+        "prompt": "Use case: identity-preserve. Project asset: photorealistic historical film still, one coherent 16:9 landscape frame, no collage, no text. Identity fidelity is higher priority than continuity, acting, and beautification. The primary identity masters override every scene/pose image. Keep real skin texture, adult maturity, original facial ratios; do not idealize into generic costume-drama leads. Preserve the established pale blue floral/ivory robe and jade hairpin for Pan Hui and navy robe/ivory collar/brown sash/high bun for Sun. Pan Hui must retain the reference's horizontally long, relatively narrow almond eyes and subtly upturned outer corners, eyebrow shape and brow-eye distance, exact nose width/length/tip, original lip shape and subtly upturned corners, jaw/chin length to face width. Her small beauty mole stays on the skin below the mouth corner at image-right in a frontal view, with the same gap, size and relative position. Do not mirror. No round enlarged eyes, no childlike or pleading expression, no cosmetic-surgery or influencer face. Sunset light comes from back-right. No other people, no invented scenery or wardrobe.\nImage1 Sun identity and costume, image2 Pan identity and costume, image3 the exact ENVIRONMENT AND WIDE COMPOSITION anchor, image4 exact ruan prop. Generate a distant WIDE LAYOUT reference only, no physical intimacy. Preserve the huge asymmetrical umbrella-like pine's trunk and spreading branches, grassy hill slope, right-back sunset and distant mountains from image3. Two small fully clothed adults STANDING SEPARATELY beneath the tree near its trunk, Sun screen-left, Pan screen-right, about 1.2m between them, quietly facing and looking at one another, no touching. Their entire standing figures should each occupy only about 8–10 percent of total frame height: tree and landscape dominate, open sunset sky and layered misty mountains feel vast. The same round darkwood red-rimmed gold-floral ruan rests FACE UP on grass screen-left and half a step behind Sun, safely outside the gap between them, neck pointing back-left, two short red tassels; no stand/table, not held. Instrument body about one third of their standing height at most and not a huge foreground object. Keep it discernible through its circular red/gold outline. Natural light breeze and warm realistic textures. This is a non-contact spatial and camera-ending layout study, not an action completion still. One 16:9 cinematic frame, no text.\nCOMPOSITION CORRECTION: This must be an EXTREME LONG SHOT from very far away, NOT a full-body portrait or a medium-wide shot. Entire pine canopy must fit fully inside all frame edges with generous sky margins. In a roughly 940-pixel-tall image each person is ONLY 75–95 pixels tall (8–10% of image height), tiny compared with the gigantic tree. Put the tiny pair near lower centre-right by the base of the trunk. Landscape, sky, tree and open grass take nearly the whole image. Small people are NOT enlarged for face visibility. Keep both standing separately with NO contact, as a spatial layout only. The round instrument is a small 20–30-pixel discernible red/gold shape on the grass immediately to their screen-left, not foreground. The camera is much farther back than the original reference, while retaining the same tree architecture, horizon and light. Never crop tree branches. Subject scale is the most important correction."
+      },
+      "result_available": true,
+      "inputs": [
+        {
+          "path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89"
+        },
+        {
+          "path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d"
+        },
+        {
+          "path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+          "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815"
+        },
+        {
+          "path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
+          "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43"
+        }
+      ],
+      "output_file": "assets/keyframes/CH04/V15_WIDE_LAYOUT_v02.png",
+      "output_sha256": "b91ff55f714d3988f2df84a467920f62d54b81b70ef58217e0bd4d11b737febc",
+      "selected": true,
+      "static_visual_review": true,
+      "static_review_note": "人物缩小、树与天空主导，琴在左侧。两人分离，是环境取景布局，不是亲吻终态；新增前景细节不覆盖实际H03环境。",
+      "status": "selected_candidate_not_user_approved"
+    }
+  ],
+  "generated_output_count": 8,
+  "selected_candidate_count": 6,
+  "rejected_output_count": 2,
+  "failed_request_count": 1,
+  "requested_kiss_reference_generated": false,
+  "non_contact_alternatives": [
+    "precontact",
+    "wide2"
+  ],
+  "actual_video_QA": false
+}

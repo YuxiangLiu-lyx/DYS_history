@@ -1,0 +1,56 @@
+[
+  {
+    "id": "H04",
+    "file": "/workspace/scratch/8535481924e4/deliverables_v15/CH04_H04_v15.zip",
+    "bytes": 20015322,
+    "sha256": "bc8bc0ffb07009fb460373581436f91b3b85fbab936f5c5a53af7fc189d83ac3",
+    "prompt_status": "withheld_pending_real_singer_and_lyric_clock",
+    "media_hashes_match": true,
+    "local_links_valid": true
+  },
+  {
+    "id": "H05",
+    "file": "/workspace/scratch/8535481924e4/deliverables_v15/CH04_H05_v15.zip",
+    "bytes": 17958018,
+    "sha256": "2423b0d91f794ffd7d995ca6cb627368ccb9aa9fc78ec869732643f0c646952d",
+    "prompt_status": "withheld_pending_real_singer_and_lyric_clock",
+    "media_hashes_match": true,
+    "local_links_valid": true
+  },
+  {
+    "id": "H06",
+    "file": "/workspace/scratch/8535481924e4/deliverables_v15/CH04_H06_v15.zip",
+    "bytes": 8985198,
+    "sha256": "5b028bc7ace89d77d3713e9c657bba9c3c2cfb93142080f97b3ca40657f2b0e6",
+    "prompt_status": "director_prompt_ready_for_review",
+    "media_hashes_match": true,
+    "local_links_valid": true
+  },
+  {
+    "id": "H07",
+    "file": "/workspace/scratch/8535481924e4/deliverables_v15/CH04_H07_v15.zip",
+    "bytes": 11592025,
+    "sha256": "8b30e4cc4d11efc9e552fff92012f38cc35ebf1a4da4374c3033cf398c32f7eb",
+    "prompt_status": "director_prompt_ready_for_review",
+    "media_hashes_match": true,
+    "local_links_valid": true
+  },
+  {
+    "id": "H08",
+    "file": "/workspace/scratch/8535481924e4/deliverables_v15/CH04_H08_v15.zip",
+    "bytes": 11256933,
+    "sha256": "7fcde8d11250cf0020d3d13ef31b56f9488b8dee80012be5a2501303dffbdf11",
+    "prompt_status": "director_draft_missing_kiss_reference",
+    "media_hashes_match": true,
+    "local_links_valid": true
+  },
+  {
+    "id": "H09",
+    "file": "/workspace/scratch/8535481924e4/deliverables_v15/CH04_H09_v15.zip",
+    "bytes": 13936720,
+    "sha256": "9e375c23e9c716df38d10204312376e17e28fe901154d350e756e6050d2042f2",
+    "prompt_status": "director_draft_missing_kiss_reference",
+    "media_hashes_match": true,
+    "local_links_valid": true
+  }
+]

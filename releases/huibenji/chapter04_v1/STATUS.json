@@ -1,132 +1,112 @@
 {
   "chapter": 4,
   "title": "梦里惊前尘，松间诉衷情",
-  "revision": "release_v1_4_pan_identity_detail",
+  "revision": "release_v1_5_final60_audio",
   "updated_date": "2026-09-25",
-  "status": "pan_identity_rules_updated_H01_H02_user_completed",
+  "status": "review_package_complete_singer_clock_and_kiss_reference_blocked",
   "production_ready": false,
-  "duration_seconds": null,
-  "duration_range_seconds": [
-    150,
-    160
+  "master_received": true,
+  "master_user_selected_final": true,
+  "song_duration_seconds": 60,
+  "planned_continuation_seconds": 128,
+  "planned_total_seconds": 218,
+  "user_reported_completed_blocks": [
+    "H01",
+    "H02",
+    "H03"
   ],
-  "blocks": 7,
+  "completed_video_files_received": [],
+  "completed_blocks_content_unchanged": true,
+  "active_blocks": [
+    "H04",
+    "H05",
+    "H06",
+    "H07",
+    "H08",
+    "H09"
+  ],
   "block_durations": {
     "H01": 30,
     "H02": 30,
     "H03": 30,
-    "H04": null,
-    "H05": 10,
+    "H04": 30,
+    "H05": 30,
     "H06": 12,
-    "H07": 18
+    "H07": 18,
+    "H08": 14,
+    "H09": 24
   },
   "prompt_lengths": {
     "H01": 579,
     "H02": 455,
     "H03": 1012,
-    "H04": 1165,
-    "H05": 988,
-    "H06": 1042,
-    "H07": 1113
+    "H04": 112,
+    "H05": 113,
+    "H06": 679,
+    "H07": 757,
+    "H08": 773,
+    "H09": 772
   },
-  "prompt_length_includes_trailing_newline": true,
-  "locked_dialogues_preserved": true,
-  "H01_H02_shots_preserved": true,
-  "H03_dialogues_unchanged": true,
-  "dream_image_order": [
-    "密集弹幕图",
-    "求婚图",
-    "打码聊天图"
+  "song_prompts_withheld": [
+    "H04",
+    "H05"
   ],
-  "identity_masters_reused": [
-    "C01",
-    "C05",
-    "C03"
-  ],
-  "new_image_files": 0,
-  "new_images_user_approved": false,
-  "new_images_static_visual_review": false,
-  "candidate_media_downloaded": true,
-  "accepted_song_master": false,
-  "song_received": false,
-  "listened_candidate_audio": false,
-  "automated_transcription_performed": true,
   "lyrics_alignment_verified": false,
   "singer_alignment_verified": false,
-  "video_generated": false,
-  "audio_generated": false,
+  "actual_audio_listened": false,
+  "audio_waveform_and_asr_analyzed": true,
+  "new_images_generated_this_revision": true,
+  "new_images_user_approved": false,
+  "new_video_generated": false,
   "actual_AV_verified": false,
-  "storyboard_complete": false,
-  "first_last_actual_video_frames_available": false,
-  "git_base_commit": "155597ae232c94e8eb9d05f3fccc3fef3afa0c05",
-  "github_synced": true,
-  "source_archive": "archive/chapter04_before_identity_detail_v14",
-  "ordered_assets_entry": "ORDERED_INPUTS.md",
-  "scene_files_entry": "SCENE_FILES.md",
-  "standalone_scene_files_saved": 5,
+  "github_synced": false,
+  "source_archive": "archive/chapter04_before_final_audio_v15",
   "blockers": [
     {
-      "id": "BUGUA_MASTER",
-      "scope": "H04 final prompt / exact lyrics / singer times / global final duration",
-      "reason": "本轮可访问转载未通过母带验收；没有可核验的连续20–30秒干净真实对唱。",
-      "resume": "继续无解说源定位、试听/裁片/对齐；字段当前null，禁止填估算值。"
+      "id": "REAL_SINGER_LYRIC_CLOCK",
+      "reason": "Two ASR runs and source-waveform checks are not an audible singer/word-boundary audit. Formal H04/H05 prompts withheld."
     },
     {
-      "id": "REAL_VIDEO_QA",
-      "scope": "final moving identity / contact / lipsync",
-      "reason": "未生成Seedance视频或收到可检查的本回实片。",
-      "resume": "有适用生产入口及母带后生成最短难点验证，再逐段制作。"
+      "id": "ACTUAL_H03_TAIL",
+      "reason": "H03 completed by user; actual file/tail not received, cannot claim frame-exact seam verified."
+    },
+    {
+      "id": "MOTION_QA",
+      "reason": "No new Seedance clips generated or reviewed."
+    },
+    {
+      "id": "KISS_REFERENCE_BLOCKED",
+      "reason": "Image service safety moderation rejected the requested kiss reference with sexual category. Non-contact alternatives do not fulfill the kiss reference request."
     }
   ],
-  "next_actions": [
-    "从用户已完成H02末4秒续制H03，不重新生产前两段。",
-    "继续自主恢复合格真实对唱母带并校准H04歌词/唱者/时码；既有音源阻塞事实不改。",
-    "所有潘慧镜头只认C05母版；H06正脸到45°递进后才拍吻，逐段验脸、痣、笑法与口型。"
+  "requested_kiss_reference_generated": false,
+  "image_moderation_rejection": {
+    "action": "Generate close-up kissing image of the two referenced adults",
+    "stage": "output",
+    "category": "sexual",
+    "request_id": "4f3951b3-6a81-45b3-b82c-a2d302788c29",
+    "same_action_retried": false
+  },
+  "new_image_files_selected": 6,
+  "new_image_files_generated": 8,
+  "image_generation_requests": 9,
+  "image_generation_failed_requests": 1,
+  "new_images_static_visual_review": true,
+  "requested_keyframe_classes_completed": [
+    "standing_solo",
+    "Pan_frontal_smile",
+    "duet_expression",
+    "post_song_gaze"
   ],
-  "new_image_static_review_this_revision": false,
-  "new_images_generated_this_revision": false,
-  "user_reported_completed_blocks": [
-    "H01",
-    "H02"
-  ],
-  "completed_video_files_received": [],
-  "completed_blocks_content_unchanged": true,
-  "completed_blocks_lock": "COMPLETED_BLOCKS_LOCK.json",
-  "active_blocks": [
-    "H03",
-    "H04",
-    "H05",
-    "H06",
-    "H07"
-  ],
-  "pan_hui_identity_rule": "PAN_HUI_IDENTITY_RULES.md",
-  "pan_user_selected_reference_pixel_match": true,
-  "pan_face_angle_progression": [
-    0,
-    15,
-    30,
-    45
-  ],
-  "H03_dialogue_unchanged": true,
-  "H03_transition_seconds": [
-    20,
-    24
-  ],
-  "H03_outdoor_revision_start_seconds": 24,
-  "video_generated_field_scope": "new videos produced by this assistant; H01/H02 separately user-reported completed",
+  "non_contact_substitute_images": 2,
+  "image_generation_record": "history/generation/CH04_v15_IMAGE_GENERATIONS.json",
+  "active_scene_files_built": 6,
   "ordered_bundle_validated": true,
-  "active_scene_files_built": 5,
-  "build_receipt": "history/validation/CH04_v14_SCENE_ZIPS.json",
-  "standalone_saved_scene_ids": [
-    "H03",
-    "H04",
-    "H05",
-    "H06",
-    "H07"
-  ],
-  "identity_rules_and_H03_prompt_saved": true,
-  "delivery_record": "history/generation/CH04_v14_delivery.json",
-  "new_content_commit": "db39c789fc22c88bf6e8441a463269c06967c452",
-  "publication_receipt": "history/publication/CH04_v14_receipt.json",
-  "publication_note": "初次内容提交核验769路径。包内规则路径修正、最终交付版本及本回执状态在随后元数据提交保存。"
+  "build_receipt": "history/validation/CH04_v15_SCENE_ZIPS.json",
+  "audio_integrity_receipt": "history/validation/CH04_v15_AUDIO_INTEGRITY.json",
+  "full_user_task_completed": false,
+  "independent_review_completed": true,
+  "independent_review_findings_fixed": true,
+  "download_files_saved": true,
+  "delivery_record": "history/generation/CH04_v15_delivery.json"
 }

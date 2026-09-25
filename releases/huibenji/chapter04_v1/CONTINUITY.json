@@ -1,5 +1,5 @@
 {
-  "revision": "release_v1_4_pan_identity_detail",
+  "revision": "release_v1_5_final60_audio",
   "world_axis": "孙画左/潘画右，摄影机不越二人轴线；S15_NEW决定地形、巨松、山脊及夕阳方向。",
   "prop_lock": "以 P_RUAN 原图为准：圆形深木色面板、朱红琴缘与金纹、四弦、两束短红穗；不是整面鲜红的新琴。道具展示支架不进入实景。",
   "mole_lock": "自然短圆脸、自然脸颊、本人眉眼鼻唇与年龄感；浅蓝花纹外衣、米白内领，玉簪依母版。痣按母版正脸画面右嘴角下方并留皮肤间隔，不镜像。睡眠场景可散发米白寝衣，脸不变。",
@@ -80,15 +80,14 @@
     {
       "id": "H04",
       "start": "孙画左抱同一朱漆金纹阮，在约18米外静看画右巨松下背身的潘；尾秒轻吸气，右手停弦前，尚不唱不弹。",
-      "end": "完整歌句与自然尾音结束；两人约1.8米相望，孙仍双手持阮，无接触。",
+      "end": "歌曲30.000秒连续边界，孙仍站立持阮持续拨弦，位置、口型相位与距离以实际H04尾帧为准。",
       "reference_ids": [
         "C01",
         "C05",
         "S15_NEW",
         "P_RUAN",
-        "C01_RUAN_HOLD",
-        "KF_H04_START",
-        "KF_H06_START"
+        "V15_SOLO",
+        "V15_SMILE"
       ],
       "previous_video": {
         "source": "H03",
@@ -98,99 +97,71 @@
           30
         ],
         "tail_seconds": 4,
-        "instruction": "接 H03 末4秒的18米站位、草坡、阮与天光；H04长度服从最终音频，不用旧90秒三段方案。"
+        "instruction": "引用真实前段最后4秒仅继承姿势/构图/光线和拨弦相位；新增音频从本块零时刻接入，不重放前段。H03已由用户完成，不重做。"
       },
-      "light": "固定S15_NEW夕阳方向，不能跨块跳太阳",
-      "prop_state": "全段持琴、琴尾结束",
+      "light": "继承实际H03柔暖申时夕照及后右光位，不重设",
+      "prop_state": "站立持续持阮拨弦到60秒",
       "actual_video_verified": false
     },
     {
       "id": "H05",
-      "start": "完整歌句与自然尾音结束；两人约1.8米相望，孙仍双手持阮，无接触。",
-      "end": "琴已稳放画左后方、靠近路线外，面朝上颈朝左后方；孙左潘右，双手下垂，约1.2米互望。",
+      "start": "歌曲30.000秒连续边界，孙仍站立持阮持续拨弦，位置、口型相位与距离以实际H04尾帧为准。",
+      "end": "完整60秒音轨到文件终点；两人站立约1.8米，孙仍双手持阮，右手刚完成末次拨弦；潘已朝向孙，未触碰。",
       "reference_ids": [
         "C01",
         "C05",
         "S15_NEW",
         "P_RUAN",
-        "C01_RUAN_HOLD",
-        "KF_H06_START",
-        "KF_SETDOWN",
-        "KF_H07_START"
+        "V15_DUET"
       ],
       "previous_video": {
         "source": "H04",
         "file": null,
-        "range": null,
+        "range": [
+          26,
+          30
+        ],
         "tail_seconds": 4,
-        "instruction": "取 H04 最后4秒并确认歌句和琴尾完整结束，接约1.8米与双手持阮。音源未锁前不能填写全片起点。"
+        "instruction": "引用真实前段最后4秒仅继承姿势/构图/光线和拨弦相位；新增音频从本块零时刻接入，不重放前段。H03已由用户完成，不重做。"
       },
-      "light": "固定S15_NEW夕阳方向，不能跨块跳太阳",
-      "prop_state": "从持琴到落地、触地稳住后松手",
+      "light": "继承实际H03柔暖申时夕照及后右光位，不重设",
+      "prop_state": "站立持续持阮拨弦到60秒",
       "actual_video_verified": false
     },
     {
       "id": "H06",
-      "start": "琴已稳放画左后方、靠近路线外，面朝上颈朝左后方；孙左潘右，双手下垂，约1.2米互望。",
-      "end": "孙左潘右已经互相缓近，潘相对机位约45°，略抬头，鼻尖将触但未吻；五官痣位已从正脸逐步建立；琴留画左后方草地原处。",
+      "start": "完整60秒音轨到文件终点；两人站立约1.8米，孙仍双手持阮，右手刚完成末次拨弦；潘已朝向孙，未触碰。",
+      "end": "琴已面朝上稳放画左后方草地，琴颈指左后方，离二人靠近路线半步；孙起身站稳，孙左潘右约1.2米安静互望，双手自然下垂。",
       "reference_ids": [
         "C01",
         "C05",
         "S15_NEW",
-        "P_RUAN",
-        "KF_H07_START"
+        "P_RUAN"
       ],
       "previous_video": {
         "source": "H05",
         "file": null,
         "range": [
-          6,
-          10
+          26,
+          30
         ],
         "tail_seconds": 4,
-        "instruction": "接 H05 最后4秒，孙已站稳并到1.2米；琴静置画左后方，继承纯环境，不重放琴。"
+        "instruction": "继承真实末4秒全部状态，新增片段不重复前片内容，不添歌曲。"
       },
-      "light": "固定S15_NEW夕阳方向，不能跨块跳太阳",
-      "prop_state": "始终静置画左后方草地，面朝上颈朝左后方",
-      "actual_video_verified": false,
-      "pan_face_angle_schedule": [
-        {
-          "start": 0,
-          "end": 3,
-          "approx_degrees": 0
-        },
-        {
-          "start": 3,
-          "end": 5,
-          "approx_degrees": 15
-        },
-        {
-          "start": 5,
-          "end": 8,
-          "approx_degrees": 30
-        },
-        {
-          "start": 8,
-          "end": 10,
-          "approx_degrees": 45
-        },
-        {
-          "start": 10,
-          "end": 12,
-          "approx_degrees": 45
-        }
-      ]
+      "light": "继承实际H03柔暖申时夕照及后右光位，不重设",
+      "prop_state": "H06先放画左后方草地；其后全程固定同位",
+      "actual_video_verified": false
     },
     {
       "id": "H07",
-      "start": "孙左潘右已经互相缓近，潘相对机位约45°，略抬头，鼻尖将触但未吻；五官痣位已从正脸逐步建立；琴留画左后方草地原处。",
-      "end": "大全景：巨大迎客松、草坡、晚霞、远山与雾；树下两人相吻的小剪影，同一阮仍在画左草地原位。",
+      "start": "琴已面朝上稳放画左后方草地，琴颈指左后方，离二人靠近路线半步；孙起身站稳，孙左潘右约1.2米安静互望，双手自然下垂。",
+      "end": "潘相对摄影机约45°，略抬头，双方近至约6厘米，刚完成吻前停顿，嘴唇尚未接触；琴固定画左后方草地。",
       "reference_ids": [
         "C01",
         "C05",
         "S15_NEW",
         "P_RUAN",
-        "KF_H07_END"
+        "V15_GAZE"
       ],
       "previous_video": {
         "source": "H06",
@@ -200,17 +171,68 @@
           12
         ],
         "tail_seconds": 4,
-        "instruction": "接H06真实最后4秒，潘已按正脸→15°→30°→45°建立身份；开头继承约45°与吻前停顿，不跳大侧脸、不重新走近或放琴。"
+        "instruction": "继承真实末4秒全部状态，新增片段不重复前片内容，不添歌曲。"
       },
-      "light": "固定S15_NEW夕阳方向，不能跨块跳太阳",
-      "prop_state": "始终静置画左后方草地，面朝上颈朝左后方",
-      "actual_video_verified": false,
-      "pan_starting_face_angle_degrees": 45
+      "light": "继承实际H03柔暖申时夕照及后右光位，不重设",
+      "prop_state": "H06先放画左后方草地；其后全程固定同位",
+      "actual_video_verified": false
+    },
+    {
+      "id": "H08",
+      "start": "潘相对摄影机约45°，略抬头，双方近至约6厘米，刚完成吻前停顿，嘴唇尚未接触；琴固定画左后方草地。",
+      "end": "双人近景中已进入稳定、缓慢、自然的深情亲吻，两人放松克制，手在身体下方；发丝衣袖仍轻动，琴在画左后方原位。",
+      "reference_ids": [
+        "C01",
+        "C05",
+        "S15_NEW",
+        "P_RUAN",
+        "V15_PRECONTACT"
+      ],
+      "previous_video": {
+        "source": "H07",
+        "file": null,
+        "range": [
+          14,
+          18
+        ],
+        "tail_seconds": 4,
+        "instruction": "继承真实末4秒全部状态，新增片段不重复前片内容，不添歌曲。"
+      },
+      "light": "继承实际H03柔暖申时夕照及后右光位，不重设",
+      "prop_state": "H06先放画左后方草地；其后全程固定同位",
+      "actual_video_verified": false
+    },
+    {
+      "id": "H09",
+      "start": "双人近景中已进入稳定、缓慢、自然的深情亲吻，两人放松克制，手在身体下方；发丝衣袖仍轻动，琴在画左后方原位。",
+      "end": "完整巨松占据天空，草坡、金粉晚霞、远山薄雾、树下亲吻的小小二人与画左草地阮同入远景，摄影机缓停。",
+      "reference_ids": [
+        "C01",
+        "C05",
+        "S15_NEW",
+        "P_RUAN",
+        "V15_PRECONTACT",
+        "V15_WIDE_LAYOUT"
+      ],
+      "previous_video": {
+        "source": "H08",
+        "file": null,
+        "range": [
+          10,
+          14
+        ],
+        "tail_seconds": 4,
+        "instruction": "继承真实末4秒全部状态，新增片段不重复前片内容，不添歌曲。"
+      },
+      "light": "继承实际H03柔暖申时夕照及后右光位，不重设",
+      "prop_state": "H06先放画左后方草地；其后全程固定同位",
+      "actual_video_verified": false
     }
   ],
   "completed_blocks_user_reported": [
     "H01",
-    "H02"
+    "H02",
+    "H03"
   ],
   "pan_identity_rule": "PAN_HUI_IDENTITY_RULES.md",
   "pan_angle_sequence": [

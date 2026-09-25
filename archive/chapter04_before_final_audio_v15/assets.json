@@ -1,0 +1,131 @@
+{
+  "refs": {
+    "C01": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+    "C05": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+    "C03": "assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png",
+    "E06": "assets/characters/E06/E06_MAID_v01.png",
+    "S06": "assets/scenes/S06_ROOM_NIGHT_v01.png",
+    "S14": "assets/scenes/S14_INN_ROOM_MORNING_v01.png",
+    "S15_NEW": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+    "P_RUAN": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
+    "KF_H04_START": "assets/keyframes/CH04/H04_START_MEADOW_v01.png",
+    "KF_H05_START": "assets/keyframes/CH04/H05_START_MEADOW_v01.png",
+    "KF_H06_START": "assets/keyframes/CH04/H06_START_MEADOW_v01.png",
+    "D01": "assets/props/CH04/D01_BARRAGE_DREAM.png",
+    "D02": "assets/props/CH04/D02_PROPOSAL_DREAM.png",
+    "D03": "assets/props/CH04/D03_CHAT_DREAM.png",
+    "VOICE_C01": "assets/audio/ch04/C01_TIMBRE_10S_v01.wav",
+    "VOICE_C05": "assets/audio/ch04/C05_TIMBRE_10S_v01.wav",
+    "VOICE_C03": "assets/audio/ch04/C03_TIMBRE_10S_v01.wav",
+    "TIMBRE_C01_4S": "assets/audio/ep05/C01_TIMBRE_4S_v01.wav",
+    "TIMBRE_C05_4S": "assets/audio/ep05/C05_TIMBRE_4S_v01.wav",
+    "C01_RUAN_HOLD": "assets/characters/C01/C01_RUAN_HOLD_v01.png",
+    "KF_H07_START": "assets/keyframes/CH04/H07_START_MEADOW_v02.png",
+    "KF_H07_END": "assets/keyframes/CH04/H07_END_MEADOW_v03.png",
+    "KF_C05_TURN": "assets/keyframes/CH04/C05_TURN_MEADOW_v01.png",
+    "KF_H01_SLEEP": "assets/keyframes/CH04/H01_SLEEP_BEDSIDE_v01.png",
+    "KF_SETDOWN": "assets/keyframes/CH04/H06_SETDOWN_MEADOW_v01.png",
+    "KF_PREKISS": "assets/keyframes/CH04/H07_PREKISS_MEADOW_v01.png"
+  },
+  "available": {
+    "C01": true,
+    "C05": true,
+    "C03": true,
+    "E06": true,
+    "S06": true,
+    "S14": true,
+    "S15_NEW": true,
+    "P_RUAN": true,
+    "KF_H04_START": true,
+    "KF_H05_START": true,
+    "KF_H06_START": true,
+    "D01": true,
+    "D02": true,
+    "D03": true,
+    "VOICE_C01": true,
+    "VOICE_C05": true,
+    "VOICE_C03": true,
+    "TIMBRE_C01_4S": true,
+    "TIMBRE_C05_4S": true,
+    "C01_RUAN_HOLD": true,
+    "KF_H07_START": true,
+    "KF_H07_END": true,
+    "KF_C05_TURN": true,
+    "KF_H01_SLEEP": true,
+    "KF_SETDOWN": true,
+    "KF_PREKISS": true
+  },
+  "missing_reference_spec": {
+    "actual_previous_video_frames": "尚无任何 Seedance 实际视频或首尾帧；规划图只供构图参考。",
+    "actual_song_master": "H04 缺合格孙潘真实对唱母带与逐句校准。"
+  },
+  "dreams": {
+    "order": [
+      "D01",
+      "D02",
+      "D03"
+    ],
+    "edit_windows": [
+      [
+        4,
+        7
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        15,
+        18
+      ]
+    ],
+    "source_identity_verified": false,
+    "insert_original_pixels": true,
+    "no_unmasking": true,
+    "labels": [
+      "密集弹幕图",
+      "求婚图",
+      "打码聊天图"
+    ],
+    "H01_image_slots": [
+      4,
+      5,
+      6
+    ],
+    "primary_mode": "explicit_in_prompt",
+    "fallback_mode": "post_replace_three_windows_only_if_generation_changes_source",
+    "upload_source_pixels_unchanged": true
+  },
+  "review_status": {
+    "P_RUAN": "generated_candidate_available_for_review",
+    "C01_RUAN_HOLD": "generated_candidate_available_for_review",
+    "S15_NEW": "generated_candidate_available_for_review",
+    "KF_H04_START": "generated_candidate_available_for_review",
+    "KF_H05_START": "generated_candidate_available_for_review",
+    "KF_H06_START": "generated_candidate_available_for_review",
+    "KF_H07_START": "generated_candidate_available_for_review",
+    "KF_H07_END": "generated_candidate_available_for_review",
+    "KF_C05_TURN": "historical_candidate_not_uploaded_v14_identity_angle_conflict",
+    "S14": "generated_candidate_visual_reviewed_not_user_approved",
+    "KF_H01_SLEEP": "generated_candidate_visual_reviewed_not_user_approved",
+    "KF_SETDOWN": "generated_candidate_visual_reviewed_not_user_approved",
+    "KF_PREKISS": "historical_candidate_not_uploaded_v14_identity_angle_conflict"
+  },
+  "actual_video_frames": false,
+  "latest_visual_spec": {
+    "setting": "夕阳江南开阔草坡，巨大舒展迎客松，远山薄雾，无石台/石板路",
+    "identity_priority": [
+      "C01",
+      "C05",
+      "C03"
+    ],
+    "prop": "以 P_RUAN 原图为准：圆形深木色面板、朱红琴缘与金纹、四弦、两束短红穗；不是整面鲜红的新琴。道具展示支架不进入实景。",
+    "ground_position": "孙身侧画左后方半步、两人靠近路线之外草地，琴面朝上、琴颈向画左后方",
+    "retired_reference_warning": "H04/H05/H06_START_RUAN及S15_PINE_RUAN_PLATFORM均旧石台调度，禁止混入当前草坡任务。H07_START_MEADOW v01、END v01/v02落琴在画右，已被v02/v03替代。 v1.4: KF_C05_TURN、KF_PREKISS从H03–H07投料退出，近脸候选不得导致早段大侧脸；保留历史原文件。",
+    "image_count_policy": "H03/H04/H05/H06/H07为8/7/8/5/5张；仅固定C05母版供身份，近脸旧角度图退出当前投料。H01/H02不变。",
+    "keyframe_filename_note": "H06_SETDOWN文件本版仍供H05放琴；H07_PREKISS不再投料。KF_H07_START只定H05/H06距离和地面琴位，不取脸。",
+    "pan_hui_identity_rule": "PAN_HUI_IDENTITY_RULES.md",
+    "pan_face_angle_policy": "H04 first recognisable view frontal; H06 0→15→30→45 degrees; H07 starts45 and only after pause enters kissing angle."
+  },
+  "revision": "release_v1_4_pan_identity_detail"
+}
