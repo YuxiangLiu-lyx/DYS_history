@@ -1,0 +1,83 @@
+{
+  "validation": {
+    "locked_H01_H03_dialogues_unchanged": true,
+    "H01_H02_complete_blocks_and_files_unchanged": true,
+    "H03_dialogue_and_20_24_transition_preserved": true,
+    "PanHui_detail_lock_and_angle_progression_present": true,
+    "dream_order_windows_and_bytes_unchanged": true,
+    "no_fabricated_song_or_timecodes": true,
+    "references_exist_and_numbered": true,
+    "all_prompts_under_2000_characters": true,
+    "actual_video_QA_performed": false
+  },
+  "bundles": [
+    {
+      "id": "H03",
+      "name": "以曲相邀，松下将逢",
+      "file_name": "CH04_H03_v14.zip",
+      "local_path": "/workspace/scratch/8535481924e4/deliverables_v14/CH04_H03_v14.zip",
+      "bytes": 19398176,
+      "sha256": "947ae51a00ed29f6f1a1d835dab2dbac6d72135b9851a42d87fd1c58fe52e5dc",
+      "standalone_links_valid": true,
+      "media_hashes_match": true,
+      "prompt_characters": 1012,
+      "missing_reference_ids": [],
+      "production_ready": false
+    },
+    {
+      "id": "H04",
+      "name": "真实对唱，回眸渐近",
+      "file_name": "CH04_H04_v14.zip",
+      "local_path": "/workspace/scratch/8535481924e4/deliverables_v14/CH04_H04_v14.zip",
+      "bytes": 16436451,
+      "sha256": "7bd463b3e8fa58055150d8eac0cf89aaa2fd01c5cfd469cd033c06e81f817200",
+      "standalone_links_valid": true,
+      "media_hashes_match": true,
+      "prompt_characters": 1165,
+      "missing_reference_ids": [
+        "SONG_DUET_MASTER_PENDING"
+      ],
+      "production_ready": false
+    },
+    {
+      "id": "H05",
+      "name": "琴落草间，歌后静默",
+      "file_name": "CH04_H05_v14.zip",
+      "local_path": "/workspace/scratch/8535481924e4/deliverables_v14/CH04_H05_v14.zip",
+      "bytes": 18882328,
+      "sha256": "c008a6ad2a5c6d716624332b72d215a71f919eb9f8dfbcf31a6e11b1f9d16f9a",
+      "standalone_links_valid": true,
+      "media_hashes_match": true,
+      "prompt_characters": 988,
+      "missing_reference_ids": [],
+      "production_ready": false
+    },
+    {
+      "id": "H06",
+      "name": "无声互迎，吻前停顿",
+      "file_name": "CH04_H06_v14.zip",
+      "local_path": "/workspace/scratch/8535481924e4/deliverables_v14/CH04_H06_v14.zip",
+      "bytes": 11581845,
+      "sha256": "c9845c2fda840be6cb04936ca456e6ee49d5aaac6f92a16bdfa82fd4ac27114d",
+      "standalone_links_valid": true,
+      "media_hashes_match": true,
+      "prompt_characters": 1042,
+      "missing_reference_ids": [],
+      "production_ready": false
+    },
+    {
+      "id": "H07",
+      "name": "轻吻再吻，天地辽阔",
+      "file_name": "CH04_H07_v14.zip",
+      "local_path": "/workspace/scratch/8535481924e4/deliverables_v14/CH04_H07_v14.zip",
+      "bytes": 11663248,
+      "sha256": "a7345b12f5a7a800781d93575c23840a4cc9a8ef2c79dc8861d3ed0d2f2164aa",
+      "standalone_links_valid": true,
+      "media_hashes_match": true,
+      "prompt_characters": 1113,
+      "missing_reference_ids": [],
+      "production_ready": false
+    }
+  ],
+  "production_ready": false
+}

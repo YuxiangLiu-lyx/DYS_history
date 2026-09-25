@@ -1,0 +1,43 @@
+{
+  "revision": "release_v1_3_identity_real_duet",
+  "date": "2026-09-25",
+  "scope": "static production preparation; not audio or moving-video acceptance",
+  "static_checks_passed": true,
+  "locked_dialogue_and_shots_preserved": true,
+  "identity_master_and_dream_source_bytes_preserved": true,
+  "prompt_lengths": {
+    "H01": 579,
+    "H02": 455,
+    "H03": 564,
+    "H04": 771,
+    "H05": 627,
+    "H06": 591,
+    "H07": 740
+  },
+  "all_prompts_under_2000": true,
+  "current_scene_zips_built": 7,
+  "standalone_links_and_media_sha_verified": true,
+  "duration_seconds": null,
+  "duration_range_seconds": [
+    150,
+    160
+  ],
+  "independent_review_agent": "ch04_independent_review",
+  "independent_review_scope": "user request, canonical docs, protected content, numbered references, four new still images; not final builder/ZIPs",
+  "independent_findings_fixed": [
+    "replaced stale v1.2 QA record",
+    "rebuilt old ordered inputs and per-scene manifests",
+    "H03 face rule now names C03 slot 2",
+    "H05 reference wording no longer implies extra four seconds of song-tail silence"
+  ],
+  "new_images_user_approved": false,
+  "new_image_static_review": true,
+  "original_audio_audition_performed": false,
+  "automated_transcription_performed": true,
+  "final_duet_master_exported": false,
+  "lyrics_and_singer_times_measured": false,
+  "actual_video_generated": false,
+  "actual_AV_verified": false,
+  "overall_complete": false,
+  "gate": "H04 blocked; exact song, measured lyric/singer timings, dynamic identity and contact QA remain incomplete"
+}

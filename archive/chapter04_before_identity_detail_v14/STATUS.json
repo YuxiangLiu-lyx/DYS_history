@@ -1,0 +1,93 @@
+{
+  "chapter": 4,
+  "title": "梦里惊前尘，松间诉衷情",
+  "revision": "release_v1_3_identity_real_duet",
+  "updated_date": "2026-09-25",
+  "status": "production_documents_updated_real_duet_blocked",
+  "production_ready": false,
+  "duration_seconds": null,
+  "duration_range_seconds": [
+    150,
+    160
+  ],
+  "blocks": 7,
+  "block_durations": {
+    "H01": 30,
+    "H02": 30,
+    "H03": 30,
+    "H04": null,
+    "H05": 10,
+    "H06": 12,
+    "H07": 18
+  },
+  "prompt_lengths": {
+    "H01": 579,
+    "H02": 455,
+    "H03": 564,
+    "H04": 771,
+    "H05": 627,
+    "H06": 591,
+    "H07": 740
+  },
+  "prompt_length_includes_trailing_newline": true,
+  "locked_dialogues_preserved": true,
+  "H01_H02_shots_preserved": true,
+  "H03_dialogues_unchanged": true,
+  "dream_image_order": [
+    "密集弹幕图",
+    "求婚图",
+    "打码聊天图"
+  ],
+  "identity_masters_reused": [
+    "C01",
+    "C05",
+    "C03"
+  ],
+  "new_image_files": 4,
+  "new_images_user_approved": false,
+  "new_images_static_visual_review": true,
+  "candidate_media_downloaded": true,
+  "accepted_song_master": false,
+  "song_received": false,
+  "listened_candidate_audio": false,
+  "automated_transcription_performed": true,
+  "lyrics_alignment_verified": false,
+  "singer_alignment_verified": false,
+  "video_generated": false,
+  "audio_generated": false,
+  "actual_AV_verified": false,
+  "storyboard_complete": false,
+  "first_last_actual_video_frames_available": false,
+  "git_base_commit": "be62579e016b31d7f0ba1e8d62f3ec9a3527a000",
+  "github_synced": true,
+  "source_archive": "archive/chapter04_before_identity_audio_v13",
+  "ordered_assets_entry": "ORDERED_INPUTS.md",
+  "scene_files_entry": "SCENE_FILES.md",
+  "standalone_scene_files_saved": 7,
+  "blockers": [
+    {
+      "id": "BUGUA_MASTER",
+      "scope": "H04 final prompt / exact lyrics / singer times / global final duration",
+      "reason": "本轮可访问转载未通过母带验收；没有可核验的连续20–30秒干净真实对唱。",
+      "resume": "继续无解说源定位、试听/裁片/对齐；字段当前null，禁止填估算值。"
+    },
+    {
+      "id": "REAL_VIDEO_QA",
+      "scope": "final moving identity / contact / lipsync",
+      "reason": "未生成Seedance视频或收到可检查的本回实片。",
+      "resume": "有适用生产入口及母带后生成最短难点验证，再逐段制作。"
+    }
+  ],
+  "next_actions": [
+    "继续自主寻找并核验无解说孙潘真实歌源，明确是否同场演唱。",
+    "实际试听选择完整唱段，导出真实WAV，校对逐句唱者/歌词/时点并再生H04 Prompt。",
+    "从母带长度推导后续全局时间；按现有母版和真实尾片逐段生产，完成动态身份与音画QA。"
+  ],
+  "director_file_saved": true,
+  "delivery_record": "history/generation/CH04_v13_delivery.json",
+  "build_receipt": "history/validation/CH04_v13_SCENE_ZIPS.json",
+  "ordered_bundle_validated": true,
+  "new_content_commit": "dcbc3919a1fa3ce5b1e5e46de827c473c496535e",
+  "publication_receipt": "history/publication/CH04_v13_receipt.json",
+  "publication_note": "制作内容与交付记录在此内容提交核验706路径；本回执和状态通过随后的元数据提交保存。"
+}

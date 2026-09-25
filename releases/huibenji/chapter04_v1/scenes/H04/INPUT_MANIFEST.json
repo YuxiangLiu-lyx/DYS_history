@@ -11,8 +11,8 @@
   "time_domain": "audio_event_order_pending",
   "prompt_status": "blocked_pending_real_audio_alignment",
   "production_ready": false,
-  "prompt_characters": 771,
-  "prompt_sha256": "603540adc4240d109ce493807ffa103296f6000939c4f2cbb646792c3c09d6eb",
+  "prompt_characters": 1165,
+  "prompt_sha256": "3117a3e3ca6dccb21383714bfde53ef48d9503e508fe5a3ea0774bf72cda21f9",
   "prompt_bundle_path": "01_PROMPT.txt",
   "images": [
     {
@@ -95,24 +95,11 @@
     },
     {
       "slot": 7,
-      "ref_id": "KF_C05_TURN",
-      "available": true,
-      "upload_this_file": true,
-      "source_path": "assets/keyframes/CH04/C05_TURN_MEADOW_v01.png",
-      "bundle_path": "02_images/07_KF_C05_TURN.png",
-      "sha256": "a18329cf8b283c3cba1efcd12365cb86eec995970378236f543b3d03ac56abc4",
-      "bytes": 2183177,
-      "role": "pose_and_composition_only",
-      "actual_video_frame": false,
-      "review_status": "generated_candidate_available_for_review"
-    },
-    {
-      "slot": 8,
       "ref_id": "KF_H06_START",
       "available": true,
       "upload_this_file": true,
       "source_path": "assets/keyframes/CH04/H06_START_MEADOW_v01.png",
-      "bundle_path": "02_images/08_KF_H06_START.png",
+      "bundle_path": "02_images/07_KF_H06_START.png",
       "sha256": "c82adbe1b223837cf9acfa765daf7ae1ba5c37d30aa4b1157fd20ba2617ae159",
       "bytes": 2587536,
       "role": "pose_and_composition_only",
@@ -144,7 +131,7 @@
     "tail_seconds": 4,
     "instruction": "接 H03 末4秒的18米站位、草坡、阮与天光；H04长度服从最终音频，不用旧90秒三段方案。"
   },
-  "first_frame_description": "孙左抱阮，潘右背侧立于巨松下，相隔约18米；孙已停步静望，尚未起唱。",
+  "first_frame_description": "孙画左抱同一朱漆金纹阮，在约18米外静看画右巨松下背身的潘；尾秒轻吸气，右手停弦前，尚不唱不弹。",
   "last_frame_description": "完整歌句与自然尾音结束；两人约1.8米相望，孙仍双手持阮，无接触。",
   "planning_frames_are_actual_video_frames": false,
   "identity_lock": "05_IDENTITY_LOCK.json",

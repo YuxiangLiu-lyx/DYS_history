@@ -11,8 +11,8 @@
   "time_domain": "local_director_clock",
   "prompt_status": "director_prompt_ready_for_review",
   "production_ready": false,
-  "prompt_characters": 627,
-  "prompt_sha256": "98cf6e3b4011ebec6dfed218ccac9a64acbebee27d75ed831c0fba9fdf0ebe88",
+  "prompt_characters": 988,
+  "prompt_sha256": "d93d82d929b76c87d810f572177756196bf4a515fa148eac07c18cfcf7688f21",
   "prompt_bundle_path": "01_PROMPT.txt",
   "images": [
     {

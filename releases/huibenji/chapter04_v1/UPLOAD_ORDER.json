@@ -1,7 +1,18 @@
 {
-  "schema": "ch04_scene_inputs_v13",
+  "schema": "ch04_scene_inputs_v14",
+  "completed_blocks_user_reported": [
+    "H01",
+    "H02"
+  ],
+  "active_blocks": [
+    "H03",
+    "H04",
+    "H05",
+    "H06",
+    "H07"
+  ],
   "title": "梦里惊前尘，松间诉衷情",
-  "revision": "release_v1_3_identity_real_duet",
+  "revision": "release_v1_4_pan_identity_detail",
   "production_ready": false,
   "duration_seconds": null,
   "duration_range_seconds": [
@@ -310,8 +321,8 @@
       "time_domain": "locked_director_clock_not_measured_speech",
       "prompt_status": "director_prompt_ready_for_review",
       "production_ready": false,
-      "prompt_characters": 564,
-      "prompt_sha256": "c434cff0e3816660dba561ee13089e1ae3168b5c08d918c76cbb594bb1c02123",
+      "prompt_characters": 1012,
+      "prompt_sha256": "981ceefbeaeafd0145ded377322309c5d213c8b14fc150888383efb8146d9efc",
       "prompt_bundle_path": "01_PROMPT.txt",
       "images": [
         {
@@ -452,10 +463,10 @@
           30
         ],
         "file": null,
-        "instruction": "用H02真实末4秒承接室内孙左腿右与光线；22秒明确时间跳跃到申时末夕阳草坡，以新空间图重建外景。"
+        "instruction": "用用户已完成H02的真实末4秒接室内孙左腿右与光线；本轮未收到该片。20–24秒为衣袍转场，24秒起明确当日下午申时巨松草坡外景。"
       },
       "first_frame_description": "小腿继续看孙，接上一段提议。",
-      "last_frame_description": "夕阳草坡；孙左前景抱朱漆金纹阮，约18米外潘慧背身立在巨大迎客松下；双人未接触，尚未弹唱。",
+      "last_frame_description": "孙画左抱同一朱漆金纹阮，在约18米外静看画右巨松下背身的潘；尾秒轻吸气，右手停弦前，尚不唱不弹。",
       "planning_frames_are_actual_video_frames": false,
       "identity_lock": "05_IDENTITY_LOCK.json",
       "continuity": "06_CONTINUITY.json",
@@ -476,8 +487,8 @@
       "time_domain": "audio_event_order_pending",
       "prompt_status": "blocked_pending_real_audio_alignment",
       "production_ready": false,
-      "prompt_characters": 771,
-      "prompt_sha256": "603540adc4240d109ce493807ffa103296f6000939c4f2cbb646792c3c09d6eb",
+      "prompt_characters": 1165,
+      "prompt_sha256": "3117a3e3ca6dccb21383714bfde53ef48d9503e508fe5a3ea0774bf72cda21f9",
       "prompt_bundle_path": "01_PROMPT.txt",
       "images": [
         {
@@ -560,24 +571,11 @@
         },
         {
           "slot": 7,
-          "ref_id": "KF_C05_TURN",
-          "available": true,
-          "upload_this_file": true,
-          "source_path": "assets/keyframes/CH04/C05_TURN_MEADOW_v01.png",
-          "bundle_path": "02_images/07_KF_C05_TURN.png",
-          "sha256": "a18329cf8b283c3cba1efcd12365cb86eec995970378236f543b3d03ac56abc4",
-          "bytes": 2183177,
-          "role": "pose_and_composition_only",
-          "actual_video_frame": false,
-          "review_status": "generated_candidate_available_for_review"
-        },
-        {
-          "slot": 8,
           "ref_id": "KF_H06_START",
           "available": true,
           "upload_this_file": true,
           "source_path": "assets/keyframes/CH04/H06_START_MEADOW_v01.png",
-          "bundle_path": "02_images/08_KF_H06_START.png",
+          "bundle_path": "02_images/07_KF_H06_START.png",
           "sha256": "c82adbe1b223837cf9acfa765daf7ae1ba5c37d30aa4b1157fd20ba2617ae159",
           "bytes": 2587536,
           "role": "pose_and_composition_only",
@@ -609,7 +607,7 @@
         "tail_seconds": 4,
         "instruction": "接 H03 末4秒的18米站位、草坡、阮与天光；H04长度服从最终音频，不用旧90秒三段方案。"
       },
-      "first_frame_description": "孙左抱阮，潘右背侧立于巨松下，相隔约18米；孙已停步静望，尚未起唱。",
+      "first_frame_description": "孙画左抱同一朱漆金纹阮，在约18米外静看画右巨松下背身的潘；尾秒轻吸气，右手停弦前，尚不唱不弹。",
       "last_frame_description": "完整歌句与自然尾音结束；两人约1.8米相望，孙仍双手持阮，无接触。",
       "planning_frames_are_actual_video_frames": false,
       "identity_lock": "05_IDENTITY_LOCK.json",
@@ -633,8 +631,8 @@
       "time_domain": "local_director_clock",
       "prompt_status": "director_prompt_ready_for_review",
       "production_ready": false,
-      "prompt_characters": 627,
-      "prompt_sha256": "98cf6e3b4011ebec6dfed218ccac9a64acbebee27d75ed831c0fba9fdf0ebe88",
+      "prompt_characters": 988,
+      "prompt_sha256": "d93d82d929b76c87d810f572177756196bf4a515fa148eac07c18cfcf7688f21",
       "prompt_bundle_path": "01_PROMPT.txt",
       "images": [
         {
@@ -772,8 +770,8 @@
       "time_domain": "local_director_clock",
       "prompt_status": "director_prompt_ready_for_review",
       "production_ready": false,
-      "prompt_characters": 591,
-      "prompt_sha256": "4cd89a841d3444279716801b45916f33e4c1abf9ba9a2759efb4d94d5071f93f",
+      "prompt_characters": 1042,
+      "prompt_sha256": "2375fca18634f2e4e3cc7f4ce9b41a769addd01b4f357f81853061a3bf6b9c08",
       "prompt_bundle_path": "01_PROMPT.txt",
       "images": [
         {
@@ -840,19 +838,6 @@
           "role": "pose_and_composition_only",
           "actual_video_frame": false,
           "review_status": "generated_candidate_available_for_review"
-        },
-        {
-          "slot": 6,
-          "ref_id": "KF_PREKISS",
-          "available": true,
-          "upload_this_file": true,
-          "source_path": "assets/keyframes/CH04/H07_PREKISS_MEADOW_v01.png",
-          "bundle_path": "02_images/06_KF_PREKISS.png",
-          "sha256": "8c968fbd992249fee1e5ee7b1afd4660e41bd4d03b2f421712f37d0f9e6631f2",
-          "bytes": 2253448,
-          "role": "pose_and_composition_only",
-          "actual_video_frame": false,
-          "review_status": "generated_candidate_visual_reviewed_not_user_approved"
         }
       ],
       "audio": [],
@@ -867,7 +852,7 @@
         "instruction": "接 H05 最后4秒，孙已站稳并到1.2米；琴静置画左后方，继承纯环境，不重放琴。"
       },
       "first_frame_description": "琴已稳放画左后方、靠近路线外，面朝上颈朝左后方；孙左潘右，双手下垂，约1.2米互望。",
-      "last_frame_description": "孙左潘右近距离互望，微偏头，潘略抬头，鼻尖将触但未吻；琴留画左草地。",
+      "last_frame_description": "孙左潘右已经互相缓近，潘相对机位约45°，略抬头，鼻尖将触但未吻；五官痣位已从正脸逐步建立；琴留画左后方草地原处。",
       "planning_frames_are_actual_video_frames": false,
       "identity_lock": "05_IDENTITY_LOCK.json",
       "continuity": "06_CONTINUITY.json",
@@ -888,8 +873,8 @@
       "time_domain": "local_director_clock",
       "prompt_status": "director_prompt_ready_for_review",
       "production_ready": false,
-      "prompt_characters": 740,
-      "prompt_sha256": "757ce0676254af64cf214565fed797771799360daa776c7886b672a698fe2244",
+      "prompt_characters": 1113,
+      "prompt_sha256": "bc77892fe902840e86a7805d6cf6add82fd531e21075ae1cdc56084a0aaf7110",
       "prompt_bundle_path": "01_PROMPT.txt",
       "images": [
         {
@@ -946,24 +931,11 @@
         },
         {
           "slot": 5,
-          "ref_id": "KF_PREKISS",
-          "available": true,
-          "upload_this_file": true,
-          "source_path": "assets/keyframes/CH04/H07_PREKISS_MEADOW_v01.png",
-          "bundle_path": "02_images/05_KF_PREKISS.png",
-          "sha256": "8c968fbd992249fee1e5ee7b1afd4660e41bd4d03b2f421712f37d0f9e6631f2",
-          "bytes": 2253448,
-          "role": "pose_and_composition_only",
-          "actual_video_frame": false,
-          "review_status": "generated_candidate_visual_reviewed_not_user_approved"
-        },
-        {
-          "slot": 6,
           "ref_id": "KF_H07_END",
           "available": true,
           "upload_this_file": true,
           "source_path": "assets/keyframes/CH04/H07_END_MEADOW_v03.png",
-          "bundle_path": "02_images/06_KF_H07_END.png",
+          "bundle_path": "02_images/05_KF_H07_END.png",
           "sha256": "eebbb829cca1a73fe8ac7a2b8d5693975d73bd66471f85e0f130ece771f00eb9",
           "bytes": 2684428,
           "role": "pose_and_composition_only",
@@ -980,9 +952,9 @@
           12
         ],
         "tail_seconds": 4,
-        "instruction": "接 H06 最后4秒吻前状态，不重走1.2米，不重演放琴；第一吻在本场发生。"
+        "instruction": "接H06真实最后4秒，潘已按正脸→15°→30°→45°建立身份；开头继承约45°与吻前停顿，不跳大侧脸、不重新走近或放琴。"
       },
-      "first_frame_description": "孙左潘右近距离互望，微偏头，潘略抬头，鼻尖将触但未吻；琴留画左草地。",
+      "first_frame_description": "孙左潘右已经互相缓近，潘相对机位约45°，略抬头，鼻尖将触但未吻；五官痣位已从正脸逐步建立；琴留画左后方草地原处。",
       "last_frame_description": "大全景：巨大迎客松、草坡、晚霞、远山与雾；树下两人相吻的小剪影，同一阮仍在画左草地原位。",
       "planning_frames_are_actual_video_frames": false,
       "identity_lock": "05_IDENTITY_LOCK.json",
@@ -994,7 +966,9 @@
   ],
   "validation": {
     "locked_H01_H03_dialogues_unchanged": true,
-    "H01_H02_shots_unchanged": true,
+    "H01_H02_complete_blocks_and_files_unchanged": true,
+    "H03_dialogue_and_20_24_transition_preserved": true,
+    "PanHui_detail_lock_and_angle_progression_present": true,
     "dream_order_windows_and_bytes_unchanged": true,
     "no_fabricated_song_or_timecodes": true,
     "references_exist_and_numbered": true,

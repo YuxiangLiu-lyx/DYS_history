@@ -11,8 +11,8 @@
   "time_domain": "locked_director_clock_not_measured_speech",
   "prompt_status": "director_prompt_ready_for_review",
   "production_ready": false,
-  "prompt_characters": 564,
-  "prompt_sha256": "c434cff0e3816660dba561ee13089e1ae3168b5c08d918c76cbb594bb1c02123",
+  "prompt_characters": 1012,
+  "prompt_sha256": "981ceefbeaeafd0145ded377322309c5d213c8b14fc150888383efb8146d9efc",
   "prompt_bundle_path": "01_PROMPT.txt",
   "images": [
     {
@@ -153,10 +153,10 @@
       30
     ],
     "file": null,
-    "instruction": "用H02真实末4秒承接室内孙左腿右与光线；22秒明确时间跳跃到申时末夕阳草坡，以新空间图重建外景。"
+    "instruction": "用用户已完成H02的真实末4秒接室内孙左腿右与光线；本轮未收到该片。20–24秒为衣袍转场，24秒起明确当日下午申时巨松草坡外景。"
   },
   "first_frame_description": "小腿继续看孙，接上一段提议。",
-  "last_frame_description": "夕阳草坡；孙左前景抱朱漆金纹阮，约18米外潘慧背身立在巨大迎客松下；双人未接触，尚未弹唱。",
+  "last_frame_description": "孙画左抱同一朱漆金纹阮，在约18米外静看画右巨松下背身的潘；尾秒轻吸气，右手停弦前，尚不唱不弹。",
   "planning_frames_are_actual_video_frames": false,
   "identity_lock": "05_IDENTITY_LOCK.json",
   "continuity": "06_CONTINUITY.json",

@@ -105,11 +105,11 @@
     "KF_H06_START": "generated_candidate_available_for_review",
     "KF_H07_START": "generated_candidate_available_for_review",
     "KF_H07_END": "generated_candidate_available_for_review",
-    "KF_C05_TURN": "generated_candidate_available_for_review",
+    "KF_C05_TURN": "historical_candidate_not_uploaded_v14_identity_angle_conflict",
     "S14": "generated_candidate_visual_reviewed_not_user_approved",
     "KF_H01_SLEEP": "generated_candidate_visual_reviewed_not_user_approved",
     "KF_SETDOWN": "generated_candidate_visual_reviewed_not_user_approved",
-    "KF_PREKISS": "generated_candidate_visual_reviewed_not_user_approved"
+    "KF_PREKISS": "historical_candidate_not_uploaded_v14_identity_angle_conflict"
   },
   "actual_video_frames": false,
   "latest_visual_spec": {
@@ -121,9 +121,11 @@
     ],
     "prop": "以 P_RUAN 原图为准：圆形深木色面板、朱红琴缘与金纹、四弦、两束短红穗；不是整面鲜红的新琴。道具展示支架不进入实景。",
     "ground_position": "孙身侧画左后方半步、两人靠近路线之外草地，琴面朝上、琴颈向画左后方",
-    "retired_reference_warning": "H04/H05/H06_START_RUAN及S15_PINE_RUAN_PLATFORM均旧石台调度，禁止混入当前草坡任务。H07_START_MEADOW v01、END v01/v02落琴在画右，已被v02/v03替代。",
-    "image_count_policy": "以各场映射为准；独立人物母版优先，规划帧只约束指定动作状态。",
-    "keyframe_filename_note": "沿用素材原生成文件名；H06_SETDOWN 本版用于 H05，H07_PREKISS 本版用于 H06 末态/H07 起态，不按历史文件名推断剧情场次。"
+    "retired_reference_warning": "H04/H05/H06_START_RUAN及S15_PINE_RUAN_PLATFORM均旧石台调度，禁止混入当前草坡任务。H07_START_MEADOW v01、END v01/v02落琴在画右，已被v02/v03替代。 v1.4: KF_C05_TURN、KF_PREKISS从H03–H07投料退出，近脸候选不得导致早段大侧脸；保留历史原文件。",
+    "image_count_policy": "H03/H04/H05/H06/H07为8/7/8/5/5张；仅固定C05母版供身份，近脸旧角度图退出当前投料。H01/H02不变。",
+    "keyframe_filename_note": "H06_SETDOWN文件本版仍供H05放琴；H07_PREKISS不再投料。KF_H07_START只定H05/H06距离和地面琴位，不取脸。",
+    "pan_hui_identity_rule": "PAN_HUI_IDENTITY_RULES.md",
+    "pan_face_angle_policy": "H04 first recognisable view frontal; H06 0→15→30→45 degrees; H07 starts45 and only after pause enters kissing angle."
   },
-  "revision": "release_v1_3_identity_real_duet"
+  "revision": "release_v1_4_pan_identity_detail"
 }

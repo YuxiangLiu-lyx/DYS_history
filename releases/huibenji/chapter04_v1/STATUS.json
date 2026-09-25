@@ -1,9 +1,9 @@
 {
   "chapter": 4,
   "title": "梦里惊前尘，松间诉衷情",
-  "revision": "release_v1_3_identity_real_duet",
+  "revision": "release_v1_4_pan_identity_detail",
   "updated_date": "2026-09-25",
-  "status": "production_documents_updated_real_duet_blocked",
+  "status": "pan_identity_rules_updated_H01_H02_user_completed",
   "production_ready": false,
   "duration_seconds": null,
   "duration_range_seconds": [
@@ -23,11 +23,11 @@
   "prompt_lengths": {
     "H01": 579,
     "H02": 455,
-    "H03": 564,
-    "H04": 771,
-    "H05": 627,
-    "H06": 591,
-    "H07": 740
+    "H03": 1012,
+    "H04": 1165,
+    "H05": 988,
+    "H06": 1042,
+    "H07": 1113
   },
   "prompt_length_includes_trailing_newline": true,
   "locked_dialogues_preserved": true,
@@ -43,9 +43,9 @@
     "C05",
     "C03"
   ],
-  "new_image_files": 4,
+  "new_image_files": 0,
   "new_images_user_approved": false,
-  "new_images_static_visual_review": true,
+  "new_images_static_visual_review": false,
   "candidate_media_downloaded": true,
   "accepted_song_master": false,
   "song_received": false,
@@ -58,12 +58,12 @@
   "actual_AV_verified": false,
   "storyboard_complete": false,
   "first_last_actual_video_frames_available": false,
-  "git_base_commit": "be62579e016b31d7f0ba1e8d62f3ec9a3527a000",
-  "github_synced": true,
-  "source_archive": "archive/chapter04_before_identity_audio_v13",
+  "git_base_commit": "155597ae232c94e8eb9d05f3fccc3fef3afa0c05",
+  "github_synced": false,
+  "source_archive": "archive/chapter04_before_identity_detail_v14",
   "ordered_assets_entry": "ORDERED_INPUTS.md",
   "scene_files_entry": "SCENE_FILES.md",
-  "standalone_scene_files_saved": 7,
+  "standalone_scene_files_saved": 5,
   "blockers": [
     {
       "id": "BUGUA_MASTER",
@@ -79,15 +79,51 @@
     }
   ],
   "next_actions": [
-    "继续自主寻找并核验无解说孙潘真实歌源，明确是否同场演唱。",
-    "实际试听选择完整唱段，导出真实WAV，校对逐句唱者/歌词/时点并再生H04 Prompt。",
-    "从母带长度推导后续全局时间；按现有母版和真实尾片逐段生产，完成动态身份与音画QA。"
+    "从用户已完成H02末4秒续制H03，不重新生产前两段。",
+    "继续自主恢复合格真实对唱母带并校准H04歌词/唱者/时码；既有音源阻塞事实不改。",
+    "所有潘慧镜头只认C05母版；H06正脸到45°递进后才拍吻，逐段验脸、痣、笑法与口型。"
   ],
-  "director_file_saved": true,
-  "delivery_record": "history/generation/CH04_v13_delivery.json",
-  "build_receipt": "history/validation/CH04_v13_SCENE_ZIPS.json",
+  "new_image_static_review_this_revision": false,
+  "new_images_generated_this_revision": false,
+  "user_reported_completed_blocks": [
+    "H01",
+    "H02"
+  ],
+  "completed_video_files_received": [],
+  "completed_blocks_content_unchanged": true,
+  "completed_blocks_lock": "COMPLETED_BLOCKS_LOCK.json",
+  "active_blocks": [
+    "H03",
+    "H04",
+    "H05",
+    "H06",
+    "H07"
+  ],
+  "pan_hui_identity_rule": "PAN_HUI_IDENTITY_RULES.md",
+  "pan_user_selected_reference_pixel_match": true,
+  "pan_face_angle_progression": [
+    0,
+    15,
+    30,
+    45
+  ],
+  "H03_dialogue_unchanged": true,
+  "H03_transition_seconds": [
+    20,
+    24
+  ],
+  "H03_outdoor_revision_start_seconds": 24,
+  "video_generated_field_scope": "new videos produced by this assistant; H01/H02 separately user-reported completed",
   "ordered_bundle_validated": true,
-  "new_content_commit": "dcbc3919a1fa3ce5b1e5e46de827c473c496535e",
-  "publication_receipt": "history/publication/CH04_v13_receipt.json",
-  "publication_note": "制作内容与交付记录在此内容提交核验706路径；本回执和状态通过随后的元数据提交保存。"
+  "active_scene_files_built": 5,
+  "build_receipt": "history/validation/CH04_v14_SCENE_ZIPS.json",
+  "standalone_saved_scene_ids": [
+    "H03",
+    "H04",
+    "H05",
+    "H06",
+    "H07"
+  ],
+  "identity_rules_and_H03_prompt_saved": true,
+  "delivery_record": "history/generation/CH04_v14_delivery.json"
 }

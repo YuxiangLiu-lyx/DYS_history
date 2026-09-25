@@ -1,0 +1,102 @@
+{
+  "revision": "release_v1_4_pan_identity_detail",
+  "saved_at": "2026-09-25T01:01:23.210632+00:00",
+  "saved_scene_zips": 5,
+  "saved_scene_ids": [
+    "H03",
+    "H04",
+    "H05",
+    "H06",
+    "H07"
+  ],
+  "H01_H02_rebuilt": false,
+  "standalone_rules_and_H03_prompt_saved": true,
+  "files": [
+    {
+      "local_path": "/workspace/scratch/8535481924e4/deliverables_v14/CH04_H03_v14.zip",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_000000005014822fba1254ace3a5b1f9",
+      "library_file_id": "libfile_2c3e2c8af4cc8191809046fbf8feb37a",
+      "file_name": "CH04_H03_v14.zip",
+      "local_metadata_applied": true,
+      "path": "/CH04_H03_v14.zip",
+      "current_version_number": 0
+    },
+    {
+      "local_path": "/workspace/scratch/8535481924e4/deliverables_v14/CH04_H04_v14.zip",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_00000000ecc8822fa3d7ce52a2e5273e",
+      "library_file_id": "libfile_eead2dca07848191aa3fda00ee7cf4fe",
+      "file_name": "CH04_H04_v14.zip",
+      "local_metadata_applied": true,
+      "path": "/CH04_H04_v14.zip",
+      "current_version_number": 0
+    },
+    {
+      "local_path": "/workspace/scratch/8535481924e4/deliverables_v14/CH04_H05_v14.zip",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_00000000ad74822fb04ec7ea35a3307a",
+      "library_file_id": "libfile_abfa23687c40819189de4ce2f33a7c94",
+      "file_name": "CH04_H05_v14.zip",
+      "local_metadata_applied": true,
+      "path": "/CH04_H05_v14.zip",
+      "current_version_number": 0
+    },
+    {
+      "local_path": "/workspace/scratch/8535481924e4/deliverables_v14/CH04_H06_v14.zip",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_000000003b9c822f92641da656031c7b",
+      "library_file_id": "libfile_03eaeb09cd708191b67345648ecc0f69",
+      "file_name": "CH04_H06_v14.zip",
+      "local_metadata_applied": true,
+      "path": "/CH04_H06_v14.zip",
+      "current_version_number": 0
+    },
+    {
+      "local_path": "/workspace/scratch/8535481924e4/deliverables_v14/CH04_H07_v14.zip",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_00000000e5c0822fafb06a01034bfd7e",
+      "library_file_id": "libfile_21e1bb1cbfdc819194b6ecb6a1a4adb3",
+      "file_name": "CH04_H07_v14.zip",
+      "local_metadata_applied": true,
+      "path": "/CH04_H07_v14.zip",
+      "current_version_number": 0
+    },
+    {
+      "local_path": "/workspace/scratch/8535481924e4/deliverables_v14/CH04_v14_PanHui_Rules.md",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_0000000052fc822f9b0ba0d5092088cd",
+      "library_file_id": "libfile_72d211913e88819183902aab1c93a106",
+      "file_name": "CH04_v14_PanHui_Rules.md",
+      "local_metadata_applied": true,
+      "path": "/CH04_v14_PanHui_Rules.md",
+      "current_version_number": 0
+    },
+    {
+      "local_path": "/workspace/scratch/8535481924e4/deliverables_v14/CH04_H03_v14.txt",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_0000000079a4820c83b9901fe24df796",
+      "library_file_id": "libfile_b85f337bd74481918e1903ff92fcae50",
+      "file_name": "CH04_H03_v14.txt",
+      "local_metadata_applied": true,
+      "path": "/CH04_H03_v14.txt",
+      "current_version_number": 0
+    }
+  ],
+  "build_receipt": "history/validation/CH04_v14_SCENE_ZIPS.json",
+  "zip_hashes": {
+    "H03": "947ae51a00ed29f6f1a1d835dab2dbac6d72135b9851a42d87fd1c58fe52e5dc",
+    "H04": "7bd463b3e8fa58055150d8eac0cf89aaa2fd01c5cfd469cd033c06e81f817200",
+    "H05": "c008a6ad2a5c6d716624332b72d215a71f919eb9f8dfbcf31a6e11b1f9d16f9a",
+    "H06": "c9845c2fda840be6cb04936ca456e6ee49d5aaac6f92a16bdfa82fd4ac27114d",
+    "H07": "a7345b12f5a7a800781d93575c23840a4cc9a8ef2c79dc8861d3ed0d2f2164aa"
+  },
+  "accepted_song_master_included": false
+}

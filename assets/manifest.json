@@ -649,8 +649,8 @@
       "id": "C05_TURN_MEADOW_v01",
       "path": "assets/keyframes/CH04/C05_TURN_MEADOW_v01.png",
       "kind": "keyframes",
-      "current": true,
-      "status": "candidate_pending_user_review",
+      "current": false,
+      "status": "historical_candidate_not_uploaded_v14",
       "bytes": 2183177,
       "sha256": "a18329cf8b283c3cba1efcd12365cb86eec995970378236f543b3d03ac56abc4",
       "dimensions": [
@@ -831,8 +831,8 @@
       "id": "H07_PREKISS_MEADOW_v01",
       "path": "assets/keyframes/CH04/H07_PREKISS_MEADOW_v01.png",
       "kind": "keyframes",
-      "current": true,
-      "status": "generated_candidate_not_user_approved",
+      "current": false,
+      "status": "historical_candidate_not_uploaded_v14",
       "bytes": 2253448,
       "sha256": "8c968fbd992249fee1e5ee7b1afd4660e41bd4d03b2f421712f37d0f9e6631f2",
       "dimensions": [

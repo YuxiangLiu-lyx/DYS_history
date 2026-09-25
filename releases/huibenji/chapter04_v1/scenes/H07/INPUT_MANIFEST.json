@@ -11,8 +11,8 @@
   "time_domain": "local_director_clock",
   "prompt_status": "director_prompt_ready_for_review",
   "production_ready": false,
-  "prompt_characters": 740,
-  "prompt_sha256": "757ce0676254af64cf214565fed797771799360daa776c7886b672a698fe2244",
+  "prompt_characters": 1113,
+  "prompt_sha256": "bc77892fe902840e86a7805d6cf6add82fd531e21075ae1cdc56084a0aaf7110",
   "prompt_bundle_path": "01_PROMPT.txt",
   "images": [
     {
@@ -69,24 +69,11 @@
     },
     {
       "slot": 5,
-      "ref_id": "KF_PREKISS",
-      "available": true,
-      "upload_this_file": true,
-      "source_path": "assets/keyframes/CH04/H07_PREKISS_MEADOW_v01.png",
-      "bundle_path": "02_images/05_KF_PREKISS.png",
-      "sha256": "8c968fbd992249fee1e5ee7b1afd4660e41bd4d03b2f421712f37d0f9e6631f2",
-      "bytes": 2253448,
-      "role": "pose_and_composition_only",
-      "actual_video_frame": false,
-      "review_status": "generated_candidate_visual_reviewed_not_user_approved"
-    },
-    {
-      "slot": 6,
       "ref_id": "KF_H07_END",
       "available": true,
       "upload_this_file": true,
       "source_path": "assets/keyframes/CH04/H07_END_MEADOW_v03.png",
-      "bundle_path": "02_images/06_KF_H07_END.png",
+      "bundle_path": "02_images/05_KF_H07_END.png",
       "sha256": "eebbb829cca1a73fe8ac7a2b8d5693975d73bd66471f85e0f130ece771f00eb9",
       "bytes": 2684428,
       "role": "pose_and_composition_only",
@@ -103,9 +90,9 @@
       12
     ],
     "tail_seconds": 4,
-    "instruction": "接 H06 最后4秒吻前状态，不重走1.2米，不重演放琴；第一吻在本场发生。"
+    "instruction": "接H06真实最后4秒，潘已按正脸→15°→30°→45°建立身份；开头继承约45°与吻前停顿，不跳大侧脸、不重新走近或放琴。"
   },
-  "first_frame_description": "孙左潘右近距离互望，微偏头，潘略抬头，鼻尖将触但未吻；琴留画左草地。",
+  "first_frame_description": "孙左潘右已经互相缓近，潘相对机位约45°，略抬头，鼻尖将触但未吻；五官痣位已从正脸逐步建立；琴留画左后方草地原处。",
   "last_frame_description": "大全景：巨大迎客松、草坡、晚霞、远山与雾；树下两人相吻的小剪影，同一阮仍在画左草地原位。",
   "planning_frames_are_actual_video_frames": false,
   "identity_lock": "05_IDENTITY_LOCK.json",

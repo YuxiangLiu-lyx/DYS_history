@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-25",
+  "selected_reference_library_file_id": "libfile_aa73c633362c81919054ae2bdc152923",
+  "selected_reference_filename": "0c084de5-3513-48e3-a87a-23c1c4ac18ed.png",
+  "reference_sha256": "eef1defc7d996c3eecf18f5bcf4ab1820655350e1142271d35780c48da96ecd9",
+  "existing_master": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+  "master_sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
+  "dimensions": [
+    1086,
+    1448
+  ],
+  "decoded_rgb_sha256": "e7916b4d421f262e1f150c854ab8bfe9f5bd653dc407ec8dc259a209a328e6ae",
+  "pixel_identical": true,
+  "master_replaced": false,
+  "new_images_generated": 0
+}
