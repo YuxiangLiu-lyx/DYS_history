@@ -59,7 +59,7 @@
   "new_images_user_approved": false,
   "new_video_generated": false,
   "actual_AV_verified": false,
-  "github_synced": false,
+  "github_synced": true,
   "source_archive": "archive/chapter04_before_final_audio_v15",
   "blockers": [
     {
@@ -108,5 +108,7 @@
   "independent_review_completed": true,
   "independent_review_findings_fixed": true,
   "download_files_saved": true,
-  "delivery_record": "history/generation/CH04_v15_delivery.json"
+  "delivery_record": "history/generation/CH04_v15_delivery.json",
+  "verified_content_commit": "152cee97f7c4968326cf35ddab74f7ba0928d93d",
+  "publication_receipt": "history/publication/CH04_v15_receipt.json"
 }

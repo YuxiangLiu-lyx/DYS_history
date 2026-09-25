@@ -2,6 +2,8 @@
 
 ## 当前最高优先：v1.5 用户完整60秒正式音轨与已完成H03（2026-09-25）
 
+本轮内容提交 `152cee97f7c4968326cf35ddab74f7ba0928d93d` 已核验857路径、零删除；六个独立场景ZIP、新参考合集、核听HTML与导演稿9文件均已保存。回执 `history/publication/CH04_v15_receipt.json`、`history/generation/CH04_v15_delivery.json`。这仍是保留唱者核听和实际吻图缺项的审阅包，不是全部生产就绪。
+
 最新要求在 `history/requests/20260925_CH04_FINAL_AUDIO_EXECUTION.md`。本节覆盖所有下方H03待制作、20–30秒待选母带、旧H05放琴、两次吻和旧关键图安排。旧v1.4完整归档 `archive/chapter04_before_final_audio_v15/`。
 
 - H01/H02/H03用户均已完成，不改、不重做；完整块及源文件按 `COMPLETED_BLOCKS_LOCK.json` 冻结。实际成片文件未收到，不谎称逐帧无缝已验收。只用真实H03末4秒接歌，不能重新发现潘或建立场景。

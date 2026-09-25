@@ -1,0 +1,16 @@
+{
+  "repository": "YuxiangLiu-lyx/DYS_history",
+  "branch": "main",
+  "parent": "c4d60c376fa61e8ba7e8606ab2805a51ead33801",
+  "commit": "152cee97f7c4968326cf35ddab74f7ba0928d93d",
+  "tree": "14b24f11e2d522a5c850a6616460664350243a97",
+  "published": true,
+  "verified": true,
+  "verified_path_count": 857,
+  "changed_path_count": 138,
+  "retired_paths": [],
+  "mismatches": [],
+  "snapshot": "/workspace/scratch/8535481924e4/ch04_v15_content_snapshot.json",
+  "verified_at": "2026-09-25T03:14:04.036787+00:00",
+  "commit_url": "https://github.com/YuxiangLiu-lyx/DYS_history/commit/152cee97f7c4968326cf35ddab74f7ba0928d93d"
+}

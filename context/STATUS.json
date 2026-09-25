@@ -90,13 +90,13 @@
   "github": {
     "repository": "YuxiangLiu-lyx/DYS_history",
     "branch": "main",
-    "synced": false,
+    "synced": true,
     "previous_verified_commit": "c4d60c376fa61e8ba7e8606ab2805a51ead33801",
-    "publication_status": "v15_files_saved_ready_for_sync",
-    "remote_commit": "db39c789fc22c88bf6e8441a463269c06967c452",
-    "verified_path_count": 769,
-    "receipt": "history/publication/CH04_v14_receipt.json",
-    "verification_scope": "初次内容769路径Git blob SHA与mode一致，无删除；最终包内规则路径、交付版本与回执在随后元数据提交保存。"
+    "publication_status": "v15_content_published_and_verified",
+    "remote_commit": "152cee97f7c4968326cf35ddab74f7ba0928d93d",
+    "verified_path_count": 857,
+    "receipt": "history/publication/CH04_v15_receipt.json",
+    "verification_scope": "内容提交857路径Git blob SHA与mode逐项一致，零删除；本回执与同步状态随后单独提交。未完成真实唱者核听、接吻关键图与动态视频验收。"
   },
   "video_generated": false,
   "audio_generated": false,
@@ -345,7 +345,7 @@
     "new_images_user_approved": false,
     "new_video_generated": false,
     "actual_AV_verified": false,
-    "github_synced": false,
+    "github_synced": true,
     "source_archive": "archive/chapter04_before_final_audio_v15",
     "blockers": [
       {
@@ -394,7 +394,9 @@
     "independent_review_completed": true,
     "independent_review_findings_fixed": true,
     "download_files_saved": true,
-    "delivery_record": "history/generation/CH04_v15_delivery.json"
+    "delivery_record": "history/generation/CH04_v15_delivery.json",
+    "verified_content_commit": "152cee97f7c4968326cf35ddab74f7ba0928d93d",
+    "publication_receipt": "history/publication/CH04_v15_receipt.json"
   },
   "preferred_delivery_format": "one_standalone_zip_per_scene",
   "received_completed_ch04_video_files": false,
