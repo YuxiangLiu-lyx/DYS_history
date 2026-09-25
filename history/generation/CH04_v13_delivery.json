@@ -1,0 +1,108 @@
+{
+  "revision": "release_v1_3_identity_real_duet",
+  "saved_at": "2026-09-25T00:35:02.152015+00:00",
+  "saved_scene_zips": 7,
+  "director_saved": true,
+  "files": [
+    {
+      "local_path": "/workspace/scratch/8535481924e4/deliverables/CH04_H01_v13.zip",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_0000000032e8822f98ccf33c4c152548",
+      "library_file_id": "libfile_20838db42fcc8191820426e5903c42fd",
+      "file_name": "CH04_H01_v13.zip",
+      "local_metadata_applied": true,
+      "path": "/CH04_H01_v13.zip",
+      "current_version_number": 0
+    },
+    {
+      "local_path": "/workspace/scratch/8535481924e4/deliverables/CH04_H02_v13.zip",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_00000000cc54822fbbf83e62e079ec63",
+      "library_file_id": "libfile_5682608dbc5c8191ab21a7943ac89156",
+      "file_name": "CH04_H02_v13.zip",
+      "local_metadata_applied": true,
+      "path": "/CH04_H02_v13.zip",
+      "current_version_number": 0
+    },
+    {
+      "local_path": "/workspace/scratch/8535481924e4/deliverables/CH04_H03_v13.zip",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_00000000c49c822fb3d9448be7c6ce19",
+      "library_file_id": "libfile_e237b5aec46c8191a2ca97057f9fb50e",
+      "file_name": "CH04_H03_v13.zip",
+      "local_metadata_applied": true,
+      "path": "/CH04_H03_v13.zip",
+      "current_version_number": 0
+    },
+    {
+      "local_path": "/workspace/scratch/8535481924e4/deliverables/CH04_H04_v13.zip",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_00000000877881f5a5f0c739af6706d1",
+      "library_file_id": "libfile_da533813bcc8819195692d4f895ddab7",
+      "file_name": "CH04_H04_v13.zip",
+      "local_metadata_applied": true,
+      "path": "/CH04_H04_v13.zip",
+      "current_version_number": 0
+    },
+    {
+      "local_path": "/workspace/scratch/8535481924e4/deliverables/CH04_H05_v13.zip",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_00000000c2e881f6bdcd550570a8a62f",
+      "library_file_id": "libfile_7d9ddb09af048191aaaf5e59c2f0db41",
+      "file_name": "CH04_H05_v13.zip",
+      "local_metadata_applied": true,
+      "path": "/CH04_H05_v13.zip",
+      "current_version_number": 0
+    },
+    {
+      "local_path": "/workspace/scratch/8535481924e4/deliverables/CH04_H06_v13.zip",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_000000008f3081f59649a604999704c2",
+      "library_file_id": "libfile_2cf2624acafc8191a5beb722f62c9f6c",
+      "file_name": "CH04_H06_v13.zip",
+      "local_metadata_applied": true,
+      "path": "/CH04_H06_v13.zip",
+      "current_version_number": 0
+    },
+    {
+      "local_path": "/workspace/scratch/8535481924e4/deliverables/CH04_H07_v13.zip",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_000000007fe4822fa584493960ae4f6a",
+      "library_file_id": "libfile_8f4b1f9482708191800c0129da853936",
+      "file_name": "CH04_H07_v13.zip",
+      "local_metadata_applied": true,
+      "path": "/CH04_H07_v13.zip",
+      "current_version_number": 0
+    },
+    {
+      "local_path": "/workspace/scratch/8535481924e4/deliverables/CH04_v13_Director.md",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_00000000bb58822f89750620de593994",
+      "library_file_id": "libfile_ebb1b73f40208191940263ef9c0e9d3a",
+      "file_name": "CH04_v13_Director.md",
+      "local_metadata_applied": true,
+      "path": "/CH04_v13_Director.md",
+      "current_version_number": 0
+    }
+  ],
+  "build_receipt": "history/validation/CH04_v13_SCENE_ZIPS.json",
+  "zip_hashes": {
+    "H01": "fe3de2f18a389fb89d16a89ff406ac79fbefb7a3f237f7b3c9ea60785dc0caa2",
+    "H02": "d858f7b4940b06518ef9232c7e614b22cf9605ee5cf8a8b6655aa46e6b4836b3",
+    "H03": "65e2aeb2f1941f73aa72cb231ce2dd77733c052e9891f08874b1ff6e0dc0e3f5",
+    "H04": "f11afda6a2ee4aa3603d20322e3acfe535f53a7d494d33338767928fb5411deb",
+    "H05": "74e3d27ecdedabae09b1cc5ac711af5f73bb6673df0e557a2750b8bceb66bc17",
+    "H06": "38270decacc81bc6c0f2de09ab759c0d2657678164d437b8756acf7714f46f10",
+    "H07": "cf857f559a602129e8abe6fc5b4be890722724051a29176a09e2b427ba10f7a2"
+  },
+  "actual_song_master_included": false,
+  "production_ready": false
+}

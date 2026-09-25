@@ -1,0 +1,93 @@
+{
+  "schema": "image_generation_record_v1",
+  "records": [
+    {
+      "key": "morning",
+      "date": "2026-09-25",
+      "tool": "builtin_imagegen",
+      "model": "not_returned",
+      "task_id": null,
+      "seed": null,
+      "cost": null,
+      "prompt": "Use case: lighting-weather. Edit this exact empty ancient Chinese inn room image for a film continuity reference. Change ONLY time-of-day and illumination from night to a natural late morning: soft diffuse neutral-warm daylight through the existing LEFT lattice window, daytime sky and roofs outside, readable natural wood and plaster textures, gentle shadow direction from left to right. Oil lamp remains on the same table but unlit. Keep the identical camera position, 16:9 composition, closed rear door, table, two stools, paper scrolls, cups, shelves and every object in place. No people, no added props, no text or watermarks. Realistic period-drama cinematography, no fantasy beams, no golden sunset. Preserve the original room architecture exactly.",
+      "referenced_image_paths": [
+        "assets/scenes/S14_INN_ROOM_NIGHT_v01.png"
+      ],
+      "transparent_background": false,
+      "output_file": "assets/scenes/S14_INN_ROOM_MORNING_v01.png",
+      "used_in": "H02,H03",
+      "status": "generated_candidate_static_reviewed_not_user_approved",
+      "actual_video_frame": false,
+      "selection_reason": "保持客栈布局的上午光候选",
+      "limitations": "静态规划图，未验证动态身份、口型或接触动作。"
+    },
+    {
+      "key": "sleep",
+      "date": "2026-09-25",
+      "tool": "builtin_imagegen",
+      "model": "not_returned",
+      "task_id": null,
+      "seed": null,
+      "cost": null,
+      "prompt": "Use case: identity-preserve. Single 16:9 realistic Chinese period-film continuity frame, NOT a collage. Image 1 is the only facial identity master for Pan Hui: preserve her exact short rounded facial contour, natural cheek fullness, eyelids, nose, mouth, age and small mole below the mouth on the image-right side in a frontal view; do not idealize into a different actress. Image 2 supplies the wooden riverside bedroom architecture and night-light palette, not its exact camera position. Image 3 is the maid's face and olive-grey clothing master. In the bedroom's inner sleeping chamber, Pan Hui is peacefully asleep on her side on a normal wooden bed, head supported on a pale pillow, natural relaxed closed eyelids and mouth, wearing a fully opaque modest ivory ancient sleeping robe with closed collar, soft loose black hair resting on the pillow, no high bun or hair ornament while asleep. Covered below the chest by a soft blue-grey quilt. Pan's face visible in gentle three-quarter angle, easily comparable to identity master, no glamorous makeup changes. The maid sits beside the bed farther to the left, looking down at a small piece of sewing in her own hands. One warm low oil lamp beside the maid, soft cool moonlight from right lattice window. Medium-wide bedside shot, camera on the same side as the front of the bed, enough room for Pan to sit up later. Quiet safe domestic atmosphere before a dream, natural skin, no smiles yet, no fear, no modern objects, no text, no watermarks, no duplicate bodies or fingers.",
+      "referenced_image_paths": [
+        "assets/characters/C05/C05_FRONT_HALF_v04.png",
+        "assets/scenes/S06_ROOM_NIGHT_v01.png",
+        "assets/characters/E06/E06_MAID_v01.png"
+      ],
+      "transparent_background": false,
+      "output_file": "assets/keyframes/CH04/H01_SLEEP_BEDSIDE_v01.png",
+      "used_in": "H01",
+      "status": "generated_candidate_static_reviewed_not_user_approved",
+      "actual_video_frame": false,
+      "selection_reason": "补开场卧床与侍女构图，固定母版锁脸",
+      "limitations": "静态规划图，未验证动态身份、口型或接触动作。"
+    },
+    {
+      "key": "setdown",
+      "date": "2026-09-25",
+      "tool": "builtin_imagegen",
+      "model": "not_returned",
+      "task_id": null,
+      "seed": null,
+      "cost": null,
+      "prompt": "Use case: identity-preserve, continuity action reference. Create ONE realistic 16:9 Chinese historical romance film frame. Image 1 is the male Sun Yalong's authoritative face and navy costume, image 2 is Pan Hui's authoritative face and pale blue embroidered costume, image 3 is the exact round four-string ruan instrument design, image 4 is the established meadow and enormous pine, image 5 is the AFTER-action layout only, not a facial source. Keep both recognizable exactly as their first two identity images, natural faces and age, no beautifying or reshaping. The action happens just BEFORE image 5: man at frame left gently squats beside his own left/rear side, both hands securely SUPPORTING and LOWERING the ruan onto soft grass at screen-left, outside the path between the people. One hand supports under the round soundbox rim, the other grips and supports the neck near heel without touching/fusing through strings. Instrument almost horizontal, soundboard facing UP, neck pointing toward upper-left/rear, just 5 centimetres above grass, not already floating unattended. Ruan has dark brown wood soundboard, vermilion lacquer rim, gold floral inlay, exactly four strings and four tuning pegs, two short red tassels; preserve dimensions and pattern of image 3, do not add pedestal. Pan stands still at right, 1.8 metres from his original standing point, hands relaxed low, watches him with a tiny warm smile, no touching or reaching. Wide medium-full shot showing entire man, both hands, the WHOLE instrument and ground contact zone; both faces visible three-quarter, no frontal posing. Keep soft amber sunset behind between them slightly to left, enormous pine trunk on the right, same misty mountain valley and natural meadow. Photographic skin and linen, natural graceful ordinary motion, no kneeling proposal, no dance, no embrace, no text, no collage, no new background.",
+      "referenced_image_paths": [
+        "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+        "assets/characters/C05/C05_FRONT_HALF_v04.png",
+        "assets/props/CH04/P_RUAN_ORNATE_v01.png",
+        "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+        "assets/keyframes/CH04/H07_START_MEADOW_v02.png"
+      ],
+      "transparent_background": false,
+      "output_file": "assets/keyframes/CH04/H06_SETDOWN_MEADOW_v01.png",
+      "used_in": "H05",
+      "status": "generated_candidate_static_reviewed_not_user_approved",
+      "actual_video_frame": false,
+      "selection_reason": "补两手托琴到草地的连续动作参考",
+      "limitations": "静态规划图，未验证动态身份、口型或接触动作。"
+    },
+    {
+      "key": "prekiss",
+      "date": "2026-09-25",
+      "tool": "builtin_imagegen",
+      "model": "not_returned",
+      "task_id": null,
+      "seed": null,
+      "cost": null,
+      "prompt": "Use case: identity-preserve. Create ONE 16:9 cinematic close two-shot for a fictional Chinese historical romance, the moment BEFORE a first gentle kiss, with NO lip contact yet. Image 1 is the ONLY authoritative male Sun Yalong face and navy robe. Image 2 is the ONLY authoritative Pan Hui face and pale blue embroidered robe. Image 3 is the established sunset meadow location. Preserve image 1's real broad cheek/jaw contour, eyelids, nose, lips and hairline exactly; no younger generic handsome actor. Preserve image 2's short rounded face, natural cheek fullness, eye and nose proportions, mouth and tiny mole BELOW the screen-right corner of her mouth in the master frontal view; the mole does not move or mirror. Hair pin remains same side as the mole. Man on frame LEFT facing right, woman on RIGHT facing left, a natural close three-quarter angle with both nose silhouettes visible. They stand still about a forearm apart; neither leaning forward aggressively. Eyes meet softly; both mouths closed, gentle serious emotional attention, no big smile. The woman lifts her chin only slightly, both people have paused and are choosing to come nearer. Show from chest up with natural proportions, no hands touching, no embracing, no hands on shoulders or waist, no instrument held; instrument is already on the ground outside this crop. Backlit strands of hair, soft neutral reflected fill on faces so facial features stay readable, restrained pale gold sunset, blurred pine boughs and misty mountain valley behind. Do not copy distant people or make a collage. No fantasy glow, no beauty-filter face smoothing, no text, no watermark, no kiss yet. Most important: the two faces must remain those from references 1 and 2, not inferred from other generated scene images.",
+      "referenced_image_paths": [
+        "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+        "assets/characters/C05/C05_FRONT_HALF_v04.png",
+        "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png"
+      ],
+      "transparent_background": false,
+      "output_file": "assets/keyframes/CH04/H07_PREKISS_MEADOW_v01.png",
+      "used_in": "H06,H07",
+      "status": "generated_candidate_static_reviewed_not_user_approved",
+      "actual_video_frame": false,
+      "selection_reason": "补双方互迎后的近距离停顿与本人侧脸参考",
+      "limitations": "静态规划图，未验证动态身份、口型或接触动作。"
+    }
+  ]
+}

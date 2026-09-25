@@ -1,0 +1,107 @@
+{
+  "validation": {
+    "locked_H01_H03_dialogues_unchanged": true,
+    "H01_H02_shots_unchanged": true,
+    "dream_order_windows_and_bytes_unchanged": true,
+    "no_fabricated_song_or_timecodes": true,
+    "references_exist_and_numbered": true,
+    "all_prompts_under_2000_characters": true,
+    "actual_video_QA_performed": false
+  },
+  "bundles": [
+    {
+      "id": "H01",
+      "name": "三梦惊醒",
+      "file_name": "CH04_H01_v13.zip",
+      "local_path": "/workspace/scratch/8535481924e4/deliverables/CH04_H01_v13.zip",
+      "bytes": 17230942,
+      "sha256": "fe3de2f18a389fb89d16a89ff406ac79fbefb7a3f237f7b3c9ea60785dc0caa2",
+      "standalone_links_valid": true,
+      "media_hashes_match": true,
+      "prompt_characters": 579,
+      "missing_reference_ids": [],
+      "production_ready": false
+    },
+    {
+      "id": "H02",
+      "name": "梦醒未安，客栈议策",
+      "file_name": "CH04_H02_v13.zip",
+      "local_path": "/workspace/scratch/8535481924e4/deliverables/CH04_H02_v13.zip",
+      "bytes": 14169111,
+      "sha256": "d858f7b4940b06518ef9232c7e614b22cf9605ee5cf8a8b6655aa46e6b4836b3",
+      "standalone_links_valid": true,
+      "media_hashes_match": true,
+      "prompt_characters": 455,
+      "missing_reference_ids": [],
+      "production_ready": false
+    },
+    {
+      "id": "H03",
+      "name": "以曲相邀，松下将逢",
+      "file_name": "CH04_H03_v13.zip",
+      "local_path": "/workspace/scratch/8535481924e4/deliverables/CH04_H03_v13.zip",
+      "bytes": 19390143,
+      "sha256": "65e2aeb2f1941f73aa72cb231ce2dd77733c052e9891f08874b1ff6e0dc0e3f5",
+      "standalone_links_valid": true,
+      "media_hashes_match": true,
+      "prompt_characters": 564,
+      "missing_reference_ids": [],
+      "production_ready": false
+    },
+    {
+      "id": "H04",
+      "name": "真实对唱，回眸渐近",
+      "file_name": "CH04_H04_v13.zip",
+      "local_path": "/workspace/scratch/8535481924e4/deliverables/CH04_H04_v13.zip",
+      "bytes": 18599178,
+      "sha256": "f11afda6a2ee4aa3603d20322e3acfe535f53a7d494d33338767928fb5411deb",
+      "standalone_links_valid": true,
+      "media_hashes_match": true,
+      "prompt_characters": 771,
+      "missing_reference_ids": [
+        "SONG_DUET_MASTER_PENDING"
+      ],
+      "production_ready": false
+    },
+    {
+      "id": "H05",
+      "name": "琴落草间，歌后静默",
+      "file_name": "CH04_H05_v13.zip",
+      "local_path": "/workspace/scratch/8535481924e4/deliverables/CH04_H05_v13.zip",
+      "bytes": 18875053,
+      "sha256": "74e3d27ecdedabae09b1cc5ac711af5f73bb6673df0e557a2750b8bceb66bc17",
+      "standalone_links_valid": true,
+      "media_hashes_match": true,
+      "prompt_characters": 627,
+      "missing_reference_ids": [],
+      "production_ready": false
+    },
+    {
+      "id": "H06",
+      "name": "无声互迎，吻前停顿",
+      "file_name": "CH04_H06_v13.zip",
+      "local_path": "/workspace/scratch/8535481924e4/deliverables/CH04_H06_v13.zip",
+      "bytes": 13815364,
+      "sha256": "38270decacc81bc6c0f2de09ab759c0d2657678164d437b8756acf7714f46f10",
+      "standalone_links_valid": true,
+      "media_hashes_match": true,
+      "prompt_characters": 591,
+      "missing_reference_ids": [],
+      "production_ready": false
+    },
+    {
+      "id": "H07",
+      "name": "轻吻再吻，天地辽阔",
+      "file_name": "CH04_H07_v13.zip",
+      "local_path": "/workspace/scratch/8535481924e4/deliverables/CH04_H07_v13.zip",
+      "bytes": 13897170,
+      "sha256": "cf857f559a602129e8abe6fc5b4be890722724051a29176a09e2b427ba10f7a2",
+      "standalone_links_valid": true,
+      "media_hashes_match": true,
+      "prompt_characters": 740,
+      "missing_reference_ids": [],
+      "production_ready": false
+    }
+  ],
+  "production_ready": false
+}

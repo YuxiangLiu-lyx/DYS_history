@@ -1,0 +1,50 @@
+{
+  "revision": "release_v1_3_identity_real_duet",
+  "identities": [
+    {
+      "id": "C01",
+      "name": "孙亚龙",
+      "master_file": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+      "master_sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
+      "provenance_file": "assets/source_photos/xiaoxiao_2013_interview.jpg",
+      "provenance_sha256": "836220eeacc14ca6ce43622272684b80a9eb57813d3bb0e216376ff6c635f7d1",
+      "master_is_new_this_revision": false,
+      "lock": "保留宽自然脸型、真实眉眼鼻口和发际线；深蓝便服、白内领、棕腰带、高发髻；不尖下巴、不陌生古装俊男。",
+      "generation_priority": "master identity > continuity > performance > beautification",
+      "planning_keyframes_may_replace_master": false,
+      "mole_anatomical_side_verified": null,
+      "user_reapproval_claimed": false
+    },
+    {
+      "id": "C05",
+      "name": "潘慧",
+      "master_file": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+      "master_sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
+      "provenance_file": "assets/source_photos/pan_ref2015_b.jpg",
+      "provenance_sha256": "f8a82d4e6153a51dde7e28b1b34589bfd1244d01eaf857c2d68254c57a365ea5",
+      "master_is_new_this_revision": false,
+      "lock": "自然短圆脸、自然脸颊、本人眉眼鼻唇与年龄感；浅蓝花纹外衣、米白内领，玉簪依母版。痣按母版正脸画面右嘴角下方并留皮肤间隔，不镜像。睡眠场景可散发米白寝衣，脸不变。",
+      "generation_priority": "master identity > continuity > performance > beautification",
+      "planning_keyframes_may_replace_master": false,
+      "mole_anatomical_side_verified": false,
+      "user_reapproval_claimed": false
+    },
+    {
+      "id": "C03",
+      "name": "小腿",
+      "master_file": "assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png",
+      "master_sha256": "a042f817273a117dd720a24d48338859528b8f2753903d83cc1fcbabd41410ca",
+      "provenance_file": "assets/source_photos/C03_user_identity_anchor.png",
+      "provenance_sha256": "c3a82ec9071427b1f494e61f15380d0bd3b480c85719c267debf3f29c73a2de2",
+      "master_is_new_this_revision": false,
+      "lock": "用户指定本人面孔；保留宽脸、眉眼鼻口和年龄感，棕色微服；不继承溯源图动漫发型服装。",
+      "generation_priority": "master identity > continuity > performance > beautification",
+      "planning_keyframes_may_replace_master": false,
+      "mole_anatomical_side_verified": null,
+      "user_reapproval_claimed": false
+    }
+  ],
+  "source_images_use": "provenance for human review; use single costumed master per person for video",
+  "recursion_rule": "Every new image must include the unchanged character master as identity authority. Prior frames are composition only.",
+  "failure_rule": "If identity fails, reject and regenerate affected short shot from master; do not promote drifted frames."
+}

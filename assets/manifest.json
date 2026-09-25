@@ -660,6 +660,20 @@
       "usable_as_single_character_reference": false
     },
     {
+      "id": "H01_SLEEP_BEDSIDE_v01",
+      "path": "assets/keyframes/CH04/H01_SLEEP_BEDSIDE_v01.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "generated_candidate_not_user_approved",
+      "bytes": 2094381,
+      "sha256": "81abeaeb855051cff25940f7767781badd2d12246d994929e88daf85e48170f6",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
       "id": "H04_START_MEADOW_v01",
       "path": "assets/keyframes/CH04/H04_START_MEADOW_v01.png",
       "kind": "keyframes",
@@ -709,6 +723,20 @@
       "status": "superseded_by_romantic_meadow_staging",
       "bytes": 2908937,
       "sha256": "c0e5acc5319186b95bbbf9fb191fb30688efb92f74364eccb97ddeb46aae5c17",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "H06_SETDOWN_MEADOW_v01",
+      "path": "assets/keyframes/CH04/H06_SETDOWN_MEADOW_v01.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "generated_candidate_not_user_approved",
+      "bytes": 2672411,
+      "sha256": "c356d7b4b792e004b7f18cf01c3fa08f316e20d6cf7abfb608cc0b467d5bf236",
       "dimensions": [
         1672,
         941
@@ -793,6 +821,20 @@
       "status": "candidate_pending_user_review",
       "bytes": 2684428,
       "sha256": "eebbb829cca1a73fe8ac7a2b8d5693975d73bd66471f85e0f130ece771f00eb9",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "H07_PREKISS_MEADOW_v01",
+      "path": "assets/keyframes/CH04/H07_PREKISS_MEADOW_v01.png",
+      "kind": "keyframes",
+      "current": true,
+      "status": "generated_candidate_not_user_approved",
+      "bytes": 2253448,
+      "sha256": "8c968fbd992249fee1e5ee7b1afd4660e41bd4d03b2f421712f37d0f9e6631f2",
       "dimensions": [
         1672,
         941
@@ -1409,6 +1451,20 @@
       "status": "candidate_pending_user_review",
       "bytes": 2397273,
       "sha256": "8298ac24b8e2c128edc15e6b3d48aceee539aea0c79265023177f9339d4e58a2",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "usable_as_single_character_reference": false
+    },
+    {
+      "id": "S14_INN_ROOM_MORNING_v01",
+      "path": "assets/scenes/S14_INN_ROOM_MORNING_v01.png",
+      "kind": "scenes",
+      "current": true,
+      "status": "generated_candidate_not_user_approved",
+      "bytes": 2365885,
+      "sha256": "f95754b10d940aedafd289c96f9072f7831bad7e0c83f0fca6b6dc7a5b526364",
       "dimensions": [
         1672,
         941

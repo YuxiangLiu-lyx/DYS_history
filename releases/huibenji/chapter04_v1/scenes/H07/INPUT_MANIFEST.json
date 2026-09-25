@@ -1,111 +1,116 @@
 {
   "id": "H07",
-  "name": "天地无声，松下相吻",
-  "ordinal": 7,
-  "duration_seconds": 30,
-  "film_start_seconds": 180,
+  "name": "轻吻再吻，天地辽阔",
+  "duration_seconds": 18,
+  "target_duration_range": [
+    18,
+    18
+  ],
+  "film_start_seconds": null,
+  "global_start_expression": "112 + D_H04",
+  "time_domain": "local_director_clock",
+  "prompt_status": "director_prompt_ready_for_review",
   "production_ready": false,
-  "prompt_source": "releases/huibenji/chapter04_v1/prompts/H07.txt",
-  "prompt_sha256": "b884c02a55736b19dc1b893589b375428122975a01f09daf2e75b710a2f78cb9",
-  "prompt_characters_including_newline": 750,
-  "prompt_bundle_path": "07_H07/01_PROMPT.txt",
+  "prompt_characters": 740,
+  "prompt_sha256": "757ce0676254af64cf214565fed797771799360daa776c7886b672a698fe2244",
+  "prompt_bundle_path": "01_PROMPT.txt",
   "images": [
     {
       "slot": 1,
       "ref_id": "C01",
-      "label": "孙亚龙·便装",
       "available": true,
+      "upload_this_file": true,
       "source_path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+      "bundle_path": "02_images/01_C01.png",
       "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
-      "size_bytes": 1894389,
-      "bundle_path": "07_H07/02_images/01_C01.png",
-      "upload_this_file": true
+      "bytes": 1894389,
+      "role": "identity_master",
+      "actual_video_frame": false,
+      "review_status": "existing_reference"
     },
     {
       "slot": 2,
       "ref_id": "C05",
-      "label": "潘慧·身份母版",
       "available": true,
+      "upload_this_file": true,
       "source_path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+      "bundle_path": "02_images/02_C05.png",
       "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
-      "size_bytes": 1907493,
-      "bundle_path": "07_H07/02_images/02_C05.png",
-      "upload_this_file": true
+      "bytes": 1907493,
+      "role": "identity_master",
+      "actual_video_frame": false,
+      "review_status": "existing_reference"
     },
     {
       "slot": 3,
       "ref_id": "S15_NEW",
-      "label": "夕照草坡·巨大迎客松",
       "available": true,
-      "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
-      "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
-      "size_bytes": 2855464,
-      "bundle_path": "07_H07/02_images/03_S15_NEW.png",
       "upload_this_file": true,
-      "review_status": "generated_candidate_available_for_review",
-      "actual_video_frame": false
+      "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+      "bundle_path": "02_images/03_S15_NEW.png",
+      "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
+      "bytes": 2855464,
+      "role": "source_image",
+      "actual_video_frame": false,
+      "review_status": "generated_candidate_available_for_review"
     },
     {
       "slot": 4,
       "ref_id": "P_RUAN",
-      "label": "朱漆金纹阮·道具",
       "available": true,
-      "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
-      "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
-      "size_bytes": 2421203,
-      "bundle_path": "07_H07/02_images/04_P_RUAN.png",
       "upload_this_file": true,
-      "review_status": "generated_candidate_available_for_review",
-      "actual_video_frame": false
+      "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
+      "bundle_path": "02_images/04_P_RUAN.png",
+      "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
+      "bytes": 2421203,
+      "role": "source_image",
+      "actual_video_frame": false,
+      "review_status": "generated_candidate_available_for_review"
     },
     {
       "slot": 5,
-      "ref_id": "KF_H07_START",
-      "label": "H07起始规划帧",
+      "ref_id": "KF_PREKISS",
       "available": true,
-      "source_path": "assets/keyframes/CH04/H07_START_MEADOW_v02.png",
-      "sha256": "42e797acf39639d3848d00400ff81562614abc7bcc88cdfb4734c5073ac964bc",
-      "size_bytes": 2602844,
-      "bundle_path": "07_H07/02_images/05_KF_H07_START.png",
       "upload_this_file": true,
-      "review_status": "generated_candidate_available_for_review",
-      "actual_video_frame": false
+      "source_path": "assets/keyframes/CH04/H07_PREKISS_MEADOW_v01.png",
+      "bundle_path": "02_images/05_KF_PREKISS.png",
+      "sha256": "8c968fbd992249fee1e5ee7b1afd4660e41bd4d03b2f421712f37d0f9e6631f2",
+      "bytes": 2253448,
+      "role": "pose_and_composition_only",
+      "actual_video_frame": false,
+      "review_status": "generated_candidate_visual_reviewed_not_user_approved"
     },
     {
       "slot": 6,
       "ref_id": "KF_H07_END",
-      "label": "H07结尾规划帧",
       "available": true,
-      "source_path": "assets/keyframes/CH04/H07_END_MEADOW_v03.png",
-      "sha256": "eebbb829cca1a73fe8ac7a2b8d5693975d73bd66471f85e0f130ece771f00eb9",
-      "size_bytes": 2684428,
-      "bundle_path": "07_H07/02_images/06_KF_H07_END.png",
       "upload_this_file": true,
-      "review_status": "generated_candidate_available_for_review",
-      "actual_video_frame": false
+      "source_path": "assets/keyframes/CH04/H07_END_MEADOW_v03.png",
+      "bundle_path": "02_images/06_KF_H07_END.png",
+      "sha256": "eebbb829cca1a73fe8ac7a2b8d5693975d73bd66471f85e0f130ece771f00eb9",
+      "bytes": 2684428,
+      "role": "pose_and_composition_only",
+      "actual_video_frame": false,
+      "review_status": "generated_candidate_available_for_review"
     }
   ],
   "audio": [],
   "previous_video": {
     "source": "H06",
-    "range": [
-      26,
-      30
-    ],
     "file": null,
-    "instruction": "优先同项目无新音乐续写；独立参考仅用H06最后4秒真实有声片段，接草地琴的位置、1.2米间距、环境音和未吻状态，不重新唱或重演放琴。"
+    "range": [
+      8,
+      12
+    ],
+    "tail_seconds": 4,
+    "instruction": "接 H06 最后4秒吻前状态，不重走1.2米，不重演放琴；第一吻在本场发生。"
   },
-  "previous_video_bundle_readme": "07_H07/04_previous_video/README.md",
-  "first_frame_description": "朱漆金纹阮已稳放孙身侧画左后方约半步、双方靠近路线之外的柔软草地，琴面朝上、琴颈指画左后方；两人直立约1.2米相望，双手自然垂放，未牵手未亲吻。",
-  "last_frame_description": "同侧大全景：巨大迎客松、晚霞远山与草坡占画面，两人深情相吻的小剪影；阮平放孙身侧画左后方草地、避开靠近路线，琴面朝上、琴颈指画左后方，镜头缓升后退。",
+  "first_frame_description": "孙左潘右近距离互望，微偏头，潘略抬头，鼻尖将触但未吻；琴留画左草地。",
+  "last_frame_description": "大全景：巨大迎客松、草坡、晚霞、远山与雾；树下两人相吻的小剪影，同一阮仍在画左草地原位。",
   "planning_frames_are_actual_video_frames": false,
-  "planning_keyframe_reference_ids": [
-    "KF_H07_START",
-    "KF_H07_END"
-  ],
-  "has_song_reference": false,
-  "known_audio_seconds": 0,
-  "planned_maximum_audio_seconds": 0,
-  "missing_slot_ids": [],
-  "other_required_checks": "H06实际末段视频未生成；检查停唱后的对视、渐近、两次亲吻及拉远中的身份和肢体连续性。"
+  "identity_lock": "05_IDENTITY_LOCK.json",
+  "continuity": "06_CONTINUITY.json",
+  "audio_status": "07_AUDIO_STATUS.json",
+  "missing_reference_ids": [],
+  "gate": "requires actual previous video and moving-shot QA"
 }

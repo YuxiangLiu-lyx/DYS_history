@@ -1,284 +1,282 @@
 {
-  "schema": "ch04_ordered_inputs_v2_romantic_meadow",
-  "chapter": 4,
+  "schema": "ch04_scene_inputs_v13",
   "title": "梦里惊前尘，松间诉衷情",
-  "duration_seconds": 210,
+  "revision": "release_v1_3_identity_real_duet",
   "production_ready": false,
-  "plot_validation": {
-    "baseline": "archive/chapter04_before_romantic_meadow/timeline.json",
-    "baseline_sha256": "0c7efb11d015deb72ff90a4f26c6a21965ad763804d95233e9da89b0a696b3c0",
-    "H01_H02_unchanged": true,
-    "H03_dialogues_unchanged": true,
-    "authorized_revision": "H03结尾改夕照巨松草坡；H04-H06重调弹唱、回应与放琴；H07新增克制靠近、两次吻与大远景",
-    "seven_contiguous_30_second_blocks": true,
-    "shot_intervals_cover_each_block_without_gap_or_overlap": true,
-    "planning_art_not_mislabelled_as_actual_video": true
-  },
-  "note": "现有素材已按槽位整理；缺项用Markdown说明保留编号，不能上传说明文件，也不能把后续素材向前补位。",
-  "dream_order": [
-    "D01",
-    "D02",
-    "D03"
+  "duration_seconds": null,
+  "duration_range_seconds": [
+    150,
+    160
   ],
-  "dream_slots_in_H01": [
-    4,
-    5,
-    6
-  ],
-  "dream_windows_seconds": [
-    [
-      4,
-      7
-    ],
-    [
-      9,
-      12
-    ],
-    [
-      15,
-      18
-    ]
-  ],
-  "source_checksums": {
-    "releases/huibenji/chapter04_v1/timeline.json": "ee3db8d0007d85a25b162b34b93b29bca55cf3e943e9c8b7129a475dd660720c",
-    "releases/huibenji/chapter04_v1/assets.json": "d7f7808dc04664dd793e02acbcf39bcc93ce70bf54cccabc43bf5d3df7aa717b",
-    "releases/huibenji/chapter04_v1/audio/UPLOAD_MAP.json": "9f9db6f1bb318c799d6a73999fa3915a1f30e5f2df04154033bebcb4dbff1412",
-    "releases/huibenji/chapter04_v1/prompts/H01.txt": "66150f98de9a086ad42cdc5f72964d30227d1e0acaa6bd4a737922939d8eb862",
-    "releases/huibenji/chapter04_v1/prompts/H02.txt": "82761b26cf318a4c637c57e40e5d79e98c15c14f67ffdf19d9808b1b0b9001fc",
-    "releases/huibenji/chapter04_v1/prompts/H03.txt": "f65f8e71e8395883ae921ee19122d8aafb61bdb3dacbe443c002e8b4d2b6701c",
-    "releases/huibenji/chapter04_v1/prompts/H04.txt": "f2b60c17d5a0972b2052fa4e00e257eb8751c23c5d05285a0ab0509a3dbdc79e",
-    "releases/huibenji/chapter04_v1/prompts/H05.txt": "041a8e8b6c1cb8ddc6f45555f8a312fe831c4c426444629870c045f99d19bd7d",
-    "releases/huibenji/chapter04_v1/prompts/H06.txt": "24e277003a038a50230e5e52a014b9a61d7a7144ebf34947b547de4706234c7d",
-    "releases/huibenji/chapter04_v1/prompts/H07.txt": "b884c02a55736b19dc1b893589b375428122975a01f09daf2e75b710a2f78cb9"
-  },
   "blocks": [
     {
       "id": "H01",
       "name": "三梦惊醒",
-      "ordinal": 1,
       "duration_seconds": 30,
+      "target_duration_range": [
+        30,
+        30
+      ],
       "film_start_seconds": 0,
+      "global_start_expression": "0",
+      "time_domain": "locked_director_clock_not_measured_speech",
+      "prompt_status": "director_prompt_ready_for_review",
       "production_ready": false,
-      "prompt_source": "releases/huibenji/chapter04_v1/prompts/H01.txt",
-      "prompt_sha256": "66150f98de9a086ad42cdc5f72964d30227d1e0acaa6bd4a737922939d8eb862",
-      "prompt_characters_including_newline": 541,
-      "prompt_bundle_path": "01_H01/01_PROMPT.txt",
+      "prompt_characters": 579,
+      "prompt_sha256": "4344b3c28cd4b625b31a91a3c61e5260069c0a22e1af1284f3a0fa711b177d8a",
+      "prompt_bundle_path": "01_PROMPT.txt",
       "images": [
         {
           "slot": 1,
           "ref_id": "C05",
-          "label": "潘慧·身份母版",
           "available": true,
+          "upload_this_file": true,
           "source_path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "bundle_path": "02_images/01_C05.png",
           "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
-          "size_bytes": 1907493,
-          "bundle_path": "01_H01/02_images/01_C05.png",
-          "upload_this_file": true
+          "bytes": 1907493,
+          "role": "identity_master",
+          "actual_video_frame": false,
+          "review_status": "existing_reference"
         },
         {
           "slot": 2,
           "ref_id": "E06",
-          "label": "侍女",
           "available": true,
+          "upload_this_file": true,
           "source_path": "assets/characters/E06/E06_MAID_v01.png",
+          "bundle_path": "02_images/02_E06.png",
           "sha256": "128b83413a4db8894901cc90791c72ae0861eeef389f40ea0b7c11b3dfd3525d",
-          "size_bytes": 2021105,
-          "bundle_path": "01_H01/02_images/02_E06.png",
-          "upload_this_file": true
+          "bytes": 2021105,
+          "role": "source_image",
+          "actual_video_frame": false,
+          "review_status": "existing_reference"
         },
         {
           "slot": 3,
           "ref_id": "S06",
-          "label": "卧房·空间参考",
           "available": true,
+          "upload_this_file": true,
           "source_path": "assets/scenes/S06_ROOM_NIGHT_v01.png",
+          "bundle_path": "02_images/03_S06.png",
           "sha256": "0dc7ef15d4084d008095e1ba1a16fc28f81ccd8b13d21c80dc6922c8714312d3",
-          "size_bytes": 2518897,
-          "bundle_path": "01_H01/02_images/03_S06.png",
-          "upload_this_file": true
+          "bytes": 2518897,
+          "role": "source_image",
+          "actual_video_frame": false,
+          "review_status": "existing_reference"
         },
         {
           "slot": 4,
           "ref_id": "D01",
-          "label": "梦一·密集弹幕图",
           "available": true,
+          "upload_this_file": true,
           "source_path": "assets/props/CH04/D01_BARRAGE_DREAM.png",
+          "bundle_path": "02_images/04_D01.png",
           "sha256": "64ecdae6ab6c6ca46f23e3afd1f5144f5e1a5fe597112d487c53e6430302324d",
-          "size_bytes": 3508582,
-          "bundle_path": "01_H01/02_images/04_D01.png",
-          "upload_this_file": true
+          "bytes": 3508582,
+          "role": "source_image",
+          "actual_video_frame": false,
+          "review_status": "existing_reference"
         },
         {
           "slot": 5,
           "ref_id": "D02",
-          "label": "梦二·求婚图",
           "available": true,
+          "upload_this_file": true,
           "source_path": "assets/props/CH04/D02_PROPOSAL_DREAM.png",
+          "bundle_path": "02_images/05_D02.png",
           "sha256": "e195e8883298a7eb97a2a2dcb86cbdad7cc723bc7f152db66884b35858afeedf",
-          "size_bytes": 2531689,
-          "bundle_path": "01_H01/02_images/05_D02.png",
-          "upload_this_file": true
+          "bytes": 2531689,
+          "role": "source_image",
+          "actual_video_frame": false,
+          "review_status": "existing_reference"
         },
         {
           "slot": 6,
           "ref_id": "D03",
-          "label": "梦三·打码聊天图",
           "available": true,
+          "upload_this_file": true,
           "source_path": "assets/props/CH04/D03_CHAT_DREAM.png",
+          "bundle_path": "02_images/06_D03.png",
           "sha256": "ebbc008e844d2e65ab866779f803076b33b7f1295395b581144aec2255b99e3a",
-          "size_bytes": 2356037,
-          "bundle_path": "01_H01/02_images/06_D03.png",
-          "upload_this_file": true
+          "bytes": 2356037,
+          "role": "source_image",
+          "actual_video_frame": false,
+          "review_status": "existing_reference"
+        },
+        {
+          "slot": 7,
+          "ref_id": "KF_H01_SLEEP",
+          "available": true,
+          "upload_this_file": true,
+          "source_path": "assets/keyframes/CH04/H01_SLEEP_BEDSIDE_v01.png",
+          "bundle_path": "02_images/07_KF_H01_SLEEP.png",
+          "sha256": "81abeaeb855051cff25940f7767781badd2d12246d994929e88daf85e48170f6",
+          "bytes": 2094381,
+          "role": "pose_and_composition_only",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_visual_reviewed_not_user_approved"
         }
       ],
       "audio": [
         {
           "slot": 1,
           "ref_id": "VOICE_C05",
-          "label": "潘慧·10秒对白音色",
           "available": true,
-          "source_path": "assets/audio/ch04/C05_TIMBRE_10S_v01.wav",
-          "sha256": "992167a2d9e54082476ac70a7541049305d36dc3e48114c7c96cdc8f1022ae1f",
-          "size_bytes": 480078,
-          "bundle_path": "01_H01/03_audio/01_VOICE_C05.wav",
           "upload_this_file": true,
+          "source_path": "assets/audio/ch04/C05_TIMBRE_10S_v01.wav",
+          "bundle_path": "03_audio/01_VOICE_C05.wav",
+          "sha256": "992167a2d9e54082476ac70a7541049305d36dc3e48114c7c96cdc8f1022ae1f",
+          "bytes": 480078,
           "duration_seconds": 10.0,
-          "maximum_planned_seconds": 10.0
+          "maximum_seconds": 10.0
         }
       ],
       "previous_video": {
         "source": null,
         "instruction": "本回开场新场景，不挪用上一回尾帧。"
       },
-      "previous_video_bundle_readme": "01_H01/04_previous_video/README.md",
       "first_frame_description": "床侧侍女陪坐，潘慧安睡。",
       "last_frame_description": "侍女一手扶潘慧肩，潘慧看向她但未回答。",
       "planning_frames_are_actual_video_frames": false,
-      "planning_keyframe_reference_ids": [],
-      "has_song_reference": false,
-      "known_audio_seconds": 10.0,
-      "planned_maximum_audio_seconds": 10.0,
-      "missing_slot_ids": [],
-      "other_required_checks": "寝衣、松散睡发和卧床/惊醒关键帧仍需核定；现有母版只锁脸。"
+      "identity_lock": "05_IDENTITY_LOCK.json",
+      "continuity": "06_CONTINUITY.json",
+      "audio_status": "07_AUDIO_STATUS.json",
+      "missing_reference_ids": [],
+      "gate": "static reference review complete; real video and AV QA not performed"
     },
     {
       "id": "H02",
       "name": "梦醒未安，客栈议策",
-      "ordinal": 2,
       "duration_seconds": 30,
+      "target_duration_range": [
+        30,
+        30
+      ],
       "film_start_seconds": 30,
+      "global_start_expression": "30",
+      "time_domain": "locked_director_clock_not_measured_speech",
+      "prompt_status": "director_prompt_ready_for_review",
       "production_ready": false,
-      "prompt_source": "releases/huibenji/chapter04_v1/prompts/H02.txt",
-      "prompt_sha256": "82761b26cf318a4c637c57e40e5d79e98c15c14f67ffdf19d9808b1b0b9001fc",
-      "prompt_characters_including_newline": 411,
-      "prompt_bundle_path": "02_H02/01_PROMPT.txt",
+      "prompt_characters": 455,
+      "prompt_sha256": "8005106757c1338fb239e83e12dced178babaf22d19c2f5aa4d7f9c0d50905c8",
+      "prompt_bundle_path": "01_PROMPT.txt",
       "images": [
         {
           "slot": 1,
           "ref_id": "C05",
-          "label": "潘慧·身份母版",
           "available": true,
+          "upload_this_file": true,
           "source_path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "bundle_path": "02_images/01_C05.png",
           "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
-          "size_bytes": 1907493,
-          "bundle_path": "02_H02/02_images/01_C05.png",
-          "upload_this_file": true
+          "bytes": 1907493,
+          "role": "identity_master",
+          "actual_video_frame": false,
+          "review_status": "existing_reference"
         },
         {
           "slot": 2,
           "ref_id": "E06",
-          "label": "侍女",
           "available": true,
+          "upload_this_file": true,
           "source_path": "assets/characters/E06/E06_MAID_v01.png",
+          "bundle_path": "02_images/02_E06.png",
           "sha256": "128b83413a4db8894901cc90791c72ae0861eeef389f40ea0b7c11b3dfd3525d",
-          "size_bytes": 2021105,
-          "bundle_path": "02_H02/02_images/02_E06.png",
-          "upload_this_file": true
+          "bytes": 2021105,
+          "role": "source_image",
+          "actual_video_frame": false,
+          "review_status": "existing_reference"
         },
         {
           "slot": 3,
           "ref_id": "S06",
-          "label": "卧房·空间参考",
           "available": true,
+          "upload_this_file": true,
           "source_path": "assets/scenes/S06_ROOM_NIGHT_v01.png",
+          "bundle_path": "02_images/03_S06.png",
           "sha256": "0dc7ef15d4084d008095e1ba1a16fc28f81ccd8b13d21c80dc6922c8714312d3",
-          "size_bytes": 2518897,
-          "bundle_path": "02_H02/02_images/03_S06.png",
-          "upload_this_file": true
+          "bytes": 2518897,
+          "role": "source_image",
+          "actual_video_frame": false,
+          "review_status": "existing_reference"
         },
         {
           "slot": 4,
           "ref_id": "C01",
-          "label": "孙亚龙·便装",
           "available": true,
+          "upload_this_file": true,
           "source_path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "bundle_path": "02_images/04_C01.png",
           "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
-          "size_bytes": 1894389,
-          "bundle_path": "02_H02/02_images/04_C01.png",
-          "upload_this_file": true
+          "bytes": 1894389,
+          "role": "identity_master",
+          "actual_video_frame": false,
+          "review_status": "existing_reference"
         },
         {
           "slot": 5,
           "ref_id": "C03",
-          "label": "小腿·便装",
           "available": true,
+          "upload_this_file": true,
           "source_path": "assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png",
+          "bundle_path": "02_images/05_C03.png",
           "sha256": "a042f817273a117dd720a24d48338859528b8f2753903d83cc1fcbabd41410ca",
-          "size_bytes": 2485610,
-          "bundle_path": "02_H02/02_images/05_C03.png",
-          "upload_this_file": true
+          "bytes": 2485610,
+          "role": "identity_master",
+          "actual_video_frame": false,
+          "review_status": "existing_reference"
         },
         {
           "slot": 6,
           "ref_id": "S14",
-          "label": "客栈·空间参考（上午需改光）",
           "available": true,
-          "source_path": "assets/scenes/S14_INN_ROOM_NIGHT_v01.png",
-          "sha256": "c7e0dd88561ea96c4bf830293bfe45d048086af960f4bf02b37218252e72e7e8",
-          "size_bytes": 2083762,
-          "bundle_path": "02_H02/02_images/06_S14.png",
-          "upload_this_file": true
+          "upload_this_file": true,
+          "source_path": "assets/scenes/S14_INN_ROOM_MORNING_v01.png",
+          "bundle_path": "02_images/06_S14.png",
+          "sha256": "f95754b10d940aedafd289c96f9072f7831bad7e0c83f0fca6b6dc7a5b526364",
+          "bytes": 2365885,
+          "role": "source_image",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_visual_reviewed_not_user_approved"
         }
       ],
       "audio": [
         {
           "slot": 1,
           "ref_id": "VOICE_C05",
-          "label": "潘慧·10秒对白音色",
           "available": true,
-          "source_path": "assets/audio/ch04/C05_TIMBRE_10S_v01.wav",
-          "sha256": "992167a2d9e54082476ac70a7541049305d36dc3e48114c7c96cdc8f1022ae1f",
-          "size_bytes": 480078,
-          "bundle_path": "02_H02/03_audio/01_VOICE_C05.wav",
           "upload_this_file": true,
+          "source_path": "assets/audio/ch04/C05_TIMBRE_10S_v01.wav",
+          "bundle_path": "03_audio/01_VOICE_C05.wav",
+          "sha256": "992167a2d9e54082476ac70a7541049305d36dc3e48114c7c96cdc8f1022ae1f",
+          "bytes": 480078,
           "duration_seconds": 10.0,
-          "maximum_planned_seconds": 10.0
+          "maximum_seconds": 10.0
         },
         {
           "slot": 2,
           "ref_id": "VOICE_C01",
-          "label": "孙亚龙·10秒对白音色",
           "available": true,
-          "source_path": "assets/audio/ch04/C01_TIMBRE_10S_v01.wav",
-          "sha256": "45f2b3625fd886eb7eef908fdc8455c8adc454f8a1e5883c251c4c5922db3ad8",
-          "size_bytes": 480078,
-          "bundle_path": "02_H02/03_audio/02_VOICE_C01.wav",
           "upload_this_file": true,
+          "source_path": "assets/audio/ch04/C01_TIMBRE_10S_v01.wav",
+          "bundle_path": "03_audio/02_VOICE_C01.wav",
+          "sha256": "45f2b3625fd886eb7eef908fdc8455c8adc454f8a1e5883c251c4c5922db3ad8",
+          "bytes": 480078,
           "duration_seconds": 10.0,
-          "maximum_planned_seconds": 10.0
+          "maximum_seconds": 10.0
         },
         {
           "slot": 3,
           "ref_id": "VOICE_C03",
-          "label": "小腿·10秒对白音色",
           "available": true,
-          "source_path": "assets/audio/ch04/C03_TIMBRE_10S_v01.wav",
-          "sha256": "6754e149f052bbdf9767d4d118963dc21bbfe781811e3b3b5ff3c91fa99772bb",
-          "size_bytes": 480078,
-          "bundle_path": "02_H02/03_audio/03_VOICE_C03.wav",
           "upload_this_file": true,
+          "source_path": "assets/audio/ch04/C03_TIMBRE_10S_v01.wav",
+          "bundle_path": "03_audio/03_VOICE_C03.wav",
+          "sha256": "6754e149f052bbdf9767d4d118963dc21bbfe781811e3b3b5ff3c91fa99772bb",
+          "bytes": 480078,
           "duration_seconds": 10.0,
-          "maximum_planned_seconds": 10.0
+          "maximum_seconds": 10.0
         }
       ],
       "previous_video": {
@@ -290,152 +288,161 @@
         "file": null,
         "instruction": "用真实输出最后4秒或尾帧；仅对齐开头卧房，不把夜色带入客栈。"
       },
-      "previous_video_bundle_readme": "02_H02/04_previous_video/README.md",
       "first_frame_description": "延续H01扶肩与床内坐起姿态，潘慧准备回答。",
       "last_frame_description": "客栈内小腿说完看向孙，孙正待回应。",
       "planning_frames_are_actual_video_frames": false,
-      "planning_keyframe_reference_ids": [],
-      "has_song_reference": false,
-      "known_audio_seconds": 30.0,
-      "planned_maximum_audio_seconds": 30.0,
-      "missing_slot_ids": [],
-      "other_required_checks": "H01实际末4秒未生成；客栈上午光新关键帧仍需核定。"
+      "identity_lock": "05_IDENTITY_LOCK.json",
+      "continuity": "06_CONTINUITY.json",
+      "audio_status": "07_AUDIO_STATUS.json",
+      "missing_reference_ids": [],
+      "gate": "requires actual previous video and moving-shot QA"
     },
     {
       "id": "H03",
       "name": "以曲相邀，松下将逢",
-      "ordinal": 3,
       "duration_seconds": 30,
+      "target_duration_range": [
+        30,
+        30
+      ],
       "film_start_seconds": 60,
+      "global_start_expression": "60",
+      "time_domain": "locked_director_clock_not_measured_speech",
+      "prompt_status": "director_prompt_ready_for_review",
       "production_ready": false,
-      "prompt_source": "releases/huibenji/chapter04_v1/prompts/H03.txt",
-      "prompt_sha256": "f65f8e71e8395883ae921ee19122d8aafb61bdb3dacbe443c002e8b4d2b6701c",
-      "prompt_characters_including_newline": 549,
-      "prompt_bundle_path": "03_H03/01_PROMPT.txt",
+      "prompt_characters": 564,
+      "prompt_sha256": "c434cff0e3816660dba561ee13089e1ae3168b5c08d918c76cbb594bb1c02123",
+      "prompt_bundle_path": "01_PROMPT.txt",
       "images": [
         {
           "slot": 1,
           "ref_id": "C01",
-          "label": "孙亚龙·便装",
           "available": true,
+          "upload_this_file": true,
           "source_path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "bundle_path": "02_images/01_C01.png",
           "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
-          "size_bytes": 1894389,
-          "bundle_path": "03_H03/02_images/01_C01.png",
-          "upload_this_file": true
+          "bytes": 1894389,
+          "role": "identity_master",
+          "actual_video_frame": false,
+          "review_status": "existing_reference"
         },
         {
           "slot": 2,
           "ref_id": "C03",
-          "label": "小腿·便装",
           "available": true,
+          "upload_this_file": true,
           "source_path": "assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png",
+          "bundle_path": "02_images/02_C03.png",
           "sha256": "a042f817273a117dd720a24d48338859528b8f2753903d83cc1fcbabd41410ca",
-          "size_bytes": 2485610,
-          "bundle_path": "03_H03/02_images/02_C03.png",
-          "upload_this_file": true
+          "bytes": 2485610,
+          "role": "identity_master",
+          "actual_video_frame": false,
+          "review_status": "existing_reference"
         },
         {
           "slot": 3,
           "ref_id": "S14",
-          "label": "客栈·空间参考（上午需改光）",
           "available": true,
-          "source_path": "assets/scenes/S14_INN_ROOM_NIGHT_v01.png",
-          "sha256": "c7e0dd88561ea96c4bf830293bfe45d048086af960f4bf02b37218252e72e7e8",
-          "size_bytes": 2083762,
-          "bundle_path": "03_H03/02_images/03_S14.png",
-          "upload_this_file": true
+          "upload_this_file": true,
+          "source_path": "assets/scenes/S14_INN_ROOM_MORNING_v01.png",
+          "bundle_path": "02_images/03_S14.png",
+          "sha256": "f95754b10d940aedafd289c96f9072f7831bad7e0c83f0fca6b6dc7a5b526364",
+          "bytes": 2365885,
+          "role": "source_image",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_visual_reviewed_not_user_approved"
         },
         {
           "slot": 4,
           "ref_id": "S15_NEW",
-          "label": "夕照草坡·巨大迎客松",
           "available": true,
-          "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
-          "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
-          "size_bytes": 2855464,
-          "bundle_path": "03_H03/02_images/04_S15_NEW.png",
           "upload_this_file": true,
-          "review_status": "generated_candidate_available_for_review",
-          "actual_video_frame": false
+          "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+          "bundle_path": "02_images/04_S15_NEW.png",
+          "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
+          "bytes": 2855464,
+          "role": "source_image",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_available_for_review"
         },
         {
           "slot": 5,
           "ref_id": "P_RUAN",
-          "label": "朱漆金纹阮·道具",
           "available": true,
-          "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
-          "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
-          "size_bytes": 2421203,
-          "bundle_path": "03_H03/02_images/05_P_RUAN.png",
           "upload_this_file": true,
-          "review_status": "generated_candidate_available_for_review",
-          "actual_video_frame": false
+          "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
+          "bundle_path": "02_images/05_P_RUAN.png",
+          "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
+          "bytes": 2421203,
+          "role": "source_image",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_available_for_review"
         },
         {
           "slot": 6,
           "ref_id": "C05",
-          "label": "潘慧·身份母版",
           "available": true,
+          "upload_this_file": true,
           "source_path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "bundle_path": "02_images/06_C05.png",
           "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
-          "size_bytes": 1907493,
-          "bundle_path": "03_H03/02_images/06_C05.png",
-          "upload_this_file": true
+          "bytes": 1907493,
+          "role": "identity_master",
+          "actual_video_frame": false,
+          "review_status": "existing_reference"
         },
         {
           "slot": 7,
           "ref_id": "C01_RUAN_HOLD",
-          "label": "孙亚龙·便装手持朱漆金纹阮",
           "available": true,
-          "source_path": "assets/characters/C01/C01_RUAN_HOLD_v01.png",
-          "sha256": "dd40ae5e8f841783c65cd0891b2ca125a33c0ed2b3fae0650aa04431d70e502c",
-          "size_bytes": 2175435,
-          "bundle_path": "03_H03/02_images/07_C01_RUAN_HOLD.png",
           "upload_this_file": true,
-          "review_status": "generated_candidate_available_for_review",
-          "actual_video_frame": false
+          "source_path": "assets/characters/C01/C01_RUAN_HOLD_v01.png",
+          "bundle_path": "02_images/07_C01_RUAN_HOLD.png",
+          "sha256": "dd40ae5e8f841783c65cd0891b2ca125a33c0ed2b3fae0650aa04431d70e502c",
+          "bytes": 2175435,
+          "role": "pose_and_composition_only",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_available_for_review"
         },
         {
           "slot": 8,
           "ref_id": "KF_H04_START",
-          "label": "H04起始规划帧",
           "available": true,
-          "source_path": "assets/keyframes/CH04/H04_START_MEADOW_v01.png",
-          "sha256": "b2a9ac06140ec832cc25575b4c0ff7b108aef09b50e7e1c7d9f7d9eac79cf4c5",
-          "size_bytes": 2815962,
-          "bundle_path": "03_H03/02_images/08_KF_H04_START.png",
           "upload_this_file": true,
-          "review_status": "generated_candidate_available_for_review",
-          "actual_video_frame": false
+          "source_path": "assets/keyframes/CH04/H04_START_MEADOW_v01.png",
+          "bundle_path": "02_images/08_KF_H04_START.png",
+          "sha256": "b2a9ac06140ec832cc25575b4c0ff7b108aef09b50e7e1c7d9f7d9eac79cf4c5",
+          "bytes": 2815962,
+          "role": "pose_and_composition_only",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_available_for_review"
         }
       ],
       "audio": [
         {
           "slot": 1,
           "ref_id": "VOICE_C01",
-          "label": "孙亚龙·10秒对白音色",
           "available": true,
-          "source_path": "assets/audio/ch04/C01_TIMBRE_10S_v01.wav",
-          "sha256": "45f2b3625fd886eb7eef908fdc8455c8adc454f8a1e5883c251c4c5922db3ad8",
-          "size_bytes": 480078,
-          "bundle_path": "03_H03/03_audio/01_VOICE_C01.wav",
           "upload_this_file": true,
+          "source_path": "assets/audio/ch04/C01_TIMBRE_10S_v01.wav",
+          "bundle_path": "03_audio/01_VOICE_C01.wav",
+          "sha256": "45f2b3625fd886eb7eef908fdc8455c8adc454f8a1e5883c251c4c5922db3ad8",
+          "bytes": 480078,
           "duration_seconds": 10.0,
-          "maximum_planned_seconds": 10.0
+          "maximum_seconds": 10.0
         },
         {
           "slot": 2,
           "ref_id": "VOICE_C03",
-          "label": "小腿·10秒对白音色",
           "available": true,
-          "source_path": "assets/audio/ch04/C03_TIMBRE_10S_v01.wav",
-          "sha256": "6754e149f052bbdf9767d4d118963dc21bbfe781811e3b3b5ff3c91fa99772bb",
-          "size_bytes": 480078,
-          "bundle_path": "03_H03/03_audio/02_VOICE_C03.wav",
           "upload_this_file": true,
+          "source_path": "assets/audio/ch04/C03_TIMBRE_10S_v01.wav",
+          "bundle_path": "03_audio/02_VOICE_C03.wav",
+          "sha256": "6754e149f052bbdf9767d4d118963dc21bbfe781811e3b3b5ff3c91fa99772bb",
+          "bytes": 480078,
           "duration_seconds": 10.0,
-          "maximum_planned_seconds": 10.0
+          "maximum_seconds": 10.0
         }
       ],
       "previous_video": {
@@ -447,613 +454,551 @@
         "file": null,
         "instruction": "用H02真实末4秒承接室内孙左腿右与光线；22秒明确时间跳跃到申时末夕阳草坡，以新空间图重建外景。"
       },
-      "previous_video_bundle_readme": "03_H03/04_previous_video/README.md",
       "first_frame_description": "小腿继续看孙，接上一段提议。",
       "last_frame_description": "夕阳草坡；孙左前景抱朱漆金纹阮，约18米外潘慧背身立在巨大迎客松下；双人未接触，尚未弹唱。",
       "planning_frames_are_actual_video_frames": false,
-      "planning_keyframe_reference_ids": [
-        "KF_H04_START"
-      ],
-      "has_song_reference": false,
-      "known_audio_seconds": 20.0,
-      "planned_maximum_audio_seconds": 20.0,
-      "missing_slot_ids": [],
-      "other_required_checks": "H02实际末4秒未生成；本场乐器、手持和松下新图已生成可审阅，实际连续性待实片核验。"
+      "identity_lock": "05_IDENTITY_LOCK.json",
+      "continuity": "06_CONTINUITY.json",
+      "audio_status": "07_AUDIO_STATUS.json",
+      "missing_reference_ids": [],
+      "gate": "requires actual previous video and moving-shot QA"
     },
     {
       "id": "H04",
-      "name": "循声回首，暮色相望",
-      "ordinal": 4,
-      "duration_seconds": 30,
+      "name": "真实对唱，回眸渐近",
+      "duration_seconds": null,
+      "target_duration_range": [
+        20,
+        30
+      ],
       "film_start_seconds": 90,
+      "global_start_expression": "90",
+      "time_domain": "audio_event_order_pending",
+      "prompt_status": "blocked_pending_real_audio_alignment",
       "production_ready": false,
-      "prompt_source": "releases/huibenji/chapter04_v1/prompts/H04.txt",
-      "prompt_sha256": "f2b60c17d5a0972b2052fa4e00e257eb8751c23c5d05285a0ab0509a3dbdc79e",
-      "prompt_characters_including_newline": 616,
-      "prompt_bundle_path": "04_H04/01_PROMPT.txt",
+      "prompt_characters": 771,
+      "prompt_sha256": "603540adc4240d109ce493807ffa103296f6000939c4f2cbb646792c3c09d6eb",
+      "prompt_bundle_path": "01_PROMPT.txt",
       "images": [
         {
           "slot": 1,
           "ref_id": "C01",
-          "label": "孙亚龙·便装",
           "available": true,
+          "upload_this_file": true,
           "source_path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "bundle_path": "02_images/01_C01.png",
           "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
-          "size_bytes": 1894389,
-          "bundle_path": "04_H04/02_images/01_C01.png",
-          "upload_this_file": true
+          "bytes": 1894389,
+          "role": "identity_master",
+          "actual_video_frame": false,
+          "review_status": "existing_reference"
         },
         {
           "slot": 2,
           "ref_id": "C05",
-          "label": "潘慧·身份母版",
           "available": true,
+          "upload_this_file": true,
           "source_path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "bundle_path": "02_images/02_C05.png",
           "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
-          "size_bytes": 1907493,
-          "bundle_path": "04_H04/02_images/02_C05.png",
-          "upload_this_file": true
+          "bytes": 1907493,
+          "role": "identity_master",
+          "actual_video_frame": false,
+          "review_status": "existing_reference"
         },
         {
           "slot": 3,
           "ref_id": "S15_NEW",
-          "label": "夕照草坡·巨大迎客松",
           "available": true,
-          "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
-          "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
-          "size_bytes": 2855464,
-          "bundle_path": "04_H04/02_images/03_S15_NEW.png",
           "upload_this_file": true,
-          "review_status": "generated_candidate_available_for_review",
-          "actual_video_frame": false
+          "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+          "bundle_path": "02_images/03_S15_NEW.png",
+          "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
+          "bytes": 2855464,
+          "role": "source_image",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_available_for_review"
         },
         {
           "slot": 4,
           "ref_id": "P_RUAN",
-          "label": "朱漆金纹阮·道具",
           "available": true,
-          "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
-          "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
-          "size_bytes": 2421203,
-          "bundle_path": "04_H04/02_images/04_P_RUAN.png",
           "upload_this_file": true,
-          "review_status": "generated_candidate_available_for_review",
-          "actual_video_frame": false
+          "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
+          "bundle_path": "02_images/04_P_RUAN.png",
+          "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
+          "bytes": 2421203,
+          "role": "source_image",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_available_for_review"
         },
         {
           "slot": 5,
-          "ref_id": "KF_H04_START",
-          "label": "H04起始规划帧",
+          "ref_id": "C01_RUAN_HOLD",
           "available": true,
-          "source_path": "assets/keyframes/CH04/H04_START_MEADOW_v01.png",
-          "sha256": "b2a9ac06140ec832cc25575b4c0ff7b108aef09b50e7e1c7d9f7d9eac79cf4c5",
-          "size_bytes": 2815962,
-          "bundle_path": "04_H04/02_images/05_KF_H04_START.png",
           "upload_this_file": true,
-          "review_status": "generated_candidate_available_for_review",
-          "actual_video_frame": false
+          "source_path": "assets/characters/C01/C01_RUAN_HOLD_v01.png",
+          "bundle_path": "02_images/05_C01_RUAN_HOLD.png",
+          "sha256": "dd40ae5e8f841783c65cd0891b2ca125a33c0ed2b3fae0650aa04431d70e502c",
+          "bytes": 2175435,
+          "role": "pose_and_composition_only",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_available_for_review"
         },
         {
           "slot": 6,
-          "ref_id": "C01_RUAN_HOLD",
-          "label": "孙亚龙·便装手持朱漆金纹阮",
+          "ref_id": "KF_H04_START",
           "available": true,
-          "source_path": "assets/characters/C01/C01_RUAN_HOLD_v01.png",
-          "sha256": "dd40ae5e8f841783c65cd0891b2ca125a33c0ed2b3fae0650aa04431d70e502c",
-          "size_bytes": 2175435,
-          "bundle_path": "04_H04/02_images/06_C01_RUAN_HOLD.png",
           "upload_this_file": true,
-          "review_status": "generated_candidate_available_for_review",
-          "actual_video_frame": false
+          "source_path": "assets/keyframes/CH04/H04_START_MEADOW_v01.png",
+          "bundle_path": "02_images/06_KF_H04_START.png",
+          "sha256": "b2a9ac06140ec832cc25575b4c0ff7b108aef09b50e7e1c7d9f7d9eac79cf4c5",
+          "bytes": 2815962,
+          "role": "pose_and_composition_only",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_available_for_review"
         },
         {
           "slot": 7,
           "ref_id": "KF_C05_TURN",
-          "label": "潘慧回头·逆光近景",
           "available": true,
-          "source_path": "assets/keyframes/CH04/C05_TURN_MEADOW_v01.png",
-          "sha256": "a18329cf8b283c3cba1efcd12365cb86eec995970378236f543b3d03ac56abc4",
-          "size_bytes": 2183177,
-          "bundle_path": "04_H04/02_images/07_KF_C05_TURN.png",
           "upload_this_file": true,
-          "review_status": "generated_candidate_available_for_review",
-          "actual_video_frame": false
+          "source_path": "assets/keyframes/CH04/C05_TURN_MEADOW_v01.png",
+          "bundle_path": "02_images/07_KF_C05_TURN.png",
+          "sha256": "a18329cf8b283c3cba1efcd12365cb86eec995970378236f543b3d03ac56abc4",
+          "bytes": 2183177,
+          "role": "pose_and_composition_only",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_available_for_review"
+        },
+        {
+          "slot": 8,
+          "ref_id": "KF_H06_START",
+          "available": true,
+          "upload_this_file": true,
+          "source_path": "assets/keyframes/CH04/H06_START_MEADOW_v01.png",
+          "bundle_path": "02_images/08_KF_H06_START.png",
+          "sha256": "c82adbe1b223837cf9acfa765daf7ae1ba5c37d30aa4b1157fd20ba2617ae159",
+          "bytes": 2587536,
+          "role": "pose_and_composition_only",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_available_for_review"
         }
       ],
       "audio": [
         {
           "slot": 1,
-          "ref_id": "SONG_A_PENDING_MAX22S",
-          "label": "曲参A·本段真实歌曲（待补，最多22秒）",
+          "ref_id": "SONG_DUET_MASTER_PENDING",
           "available": false,
-          "source_path": null,
-          "sha256": null,
-          "size_bytes": null,
-          "bundle_path": "04_H04/03_audio/01_SONG_A_PENDING_MAX22S_MISSING.md",
           "upload_this_file": false,
+          "source_path": null,
+          "bundle_path": "03_audio/01_SONG_DUET_MASTER_PENDING_MISSING.md",
+          "sha256": null,
+          "bytes": null,
           "duration_seconds": null,
-          "maximum_planned_seconds": 22
-        },
-        {
-          "slot": 2,
-          "ref_id": "TIMBRE_C01_4S",
-          "label": "孙亚龙·4秒演唱音色参考",
-          "available": true,
-          "source_path": "assets/audio/ep05/C01_TIMBRE_4S_v01.wav",
-          "sha256": "cbc1ec7b6778382c09f39338bf006841aa4ab836ebe54c494cecbc9d35ef38a5",
-          "size_bytes": 352878,
-          "bundle_path": "04_H04/03_audio/02_TIMBRE_C01_4S.wav",
-          "upload_this_file": true,
-          "duration_seconds": 4.0,
-          "maximum_planned_seconds": 4.0
-        },
-        {
-          "slot": 3,
-          "ref_id": "TIMBRE_C05_4S",
-          "label": "潘慧·4秒演唱音色参考",
-          "available": true,
-          "source_path": "assets/audio/ep05/C05_TIMBRE_4S_v01.wav",
-          "sha256": "be89f1945d0cf8a5fb5633432bb0462fbdbcc747bf9a491b2329fee1e9f6afa6",
-          "size_bytes": 352878,
-          "bundle_path": "04_H04/03_audio/03_TIMBRE_C05_4S.wav",
-          "upload_this_file": true,
-          "duration_seconds": 4.0,
-          "maximum_planned_seconds": 4.0
+          "maximum_seconds": 30
         }
       ],
       "previous_video": {
         "source": "H03",
+        "file": null,
         "range": [
           26,
           30
         ],
-        "file": null,
-        "instruction": "用H03真实末4秒或其尾帧接同一草坡与18米距离，H04首拍才起唱；图5只作规划构图，不能冒充视频尾帧。"
+        "tail_seconds": 4,
+        "instruction": "接 H03 末4秒的18米站位、草坡、阮与天光；H04长度服从最终音频，不用旧90秒三段方案。"
       },
-      "previous_video_bundle_readme": "04_H04/04_previous_video/README.md",
-      "first_frame_description": "承H03约18米外静望末态：孙左抱阮，潘右远处背身，巨大迎客松居中央高处，夕阳逆光。",
-      "last_frame_description": "孙抱阮在潘约7米外，潘已回头温柔浅笑，正侧脸可见并吸气待接唱。",
+      "first_frame_description": "孙左抱阮，潘右背侧立于巨松下，相隔约18米；孙已停步静望，尚未起唱。",
+      "last_frame_description": "完整歌句与自然尾音结束；两人约1.8米相望，孙仍双手持阮，无接触。",
       "planning_frames_are_actual_video_frames": false,
-      "planning_keyframe_reference_ids": [
-        "KF_H04_START",
-        "KF_C05_TURN"
+      "identity_lock": "05_IDENTITY_LOCK.json",
+      "continuity": "06_CONTINUITY.json",
+      "audio_status": "07_AUDIO_STATUS.json",
+      "missing_reference_ids": [
+        "SONG_DUET_MASTER_PENDING"
       ],
-      "has_song_reference": true,
-      "known_audio_seconds": 8.0,
-      "planned_maximum_audio_seconds": 30.0,
-      "missing_slot_ids": [
-        "SONG_A_PENDING_MAX22S"
-      ],
-      "other_required_checks": "H03实际末4秒、真实曲源及歌声时码未完成；本场新图和构图关键帧已生成可审阅。"
+      "gate": "actual song, singer and lyric timecodes required"
     },
     {
       "id": "H05",
-      "name": "一曲相答，草间渐近",
-      "ordinal": 5,
-      "duration_seconds": 30,
-      "film_start_seconds": 120,
+      "name": "琴落草间，歌后静默",
+      "duration_seconds": 10,
+      "target_duration_range": [
+        10,
+        10
+      ],
+      "film_start_seconds": null,
+      "global_start_expression": "90 + D_H04",
+      "time_domain": "local_director_clock",
+      "prompt_status": "director_prompt_ready_for_review",
       "production_ready": false,
-      "prompt_source": "releases/huibenji/chapter04_v1/prompts/H05.txt",
-      "prompt_sha256": "041a8e8b6c1cb8ddc6f45555f8a312fe831c4c426444629870c045f99d19bd7d",
-      "prompt_characters_including_newline": 575,
-      "prompt_bundle_path": "05_H05/01_PROMPT.txt",
+      "prompt_characters": 627,
+      "prompt_sha256": "98cf6e3b4011ebec6dfed218ccac9a64acbebee27d75ed831c0fba9fdf0ebe88",
+      "prompt_bundle_path": "01_PROMPT.txt",
       "images": [
         {
           "slot": 1,
           "ref_id": "C01",
-          "label": "孙亚龙·便装",
           "available": true,
+          "upload_this_file": true,
           "source_path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "bundle_path": "02_images/01_C01.png",
           "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
-          "size_bytes": 1894389,
-          "bundle_path": "05_H05/02_images/01_C01.png",
-          "upload_this_file": true
+          "bytes": 1894389,
+          "role": "identity_master",
+          "actual_video_frame": false,
+          "review_status": "existing_reference"
         },
         {
           "slot": 2,
           "ref_id": "C05",
-          "label": "潘慧·身份母版",
           "available": true,
+          "upload_this_file": true,
           "source_path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "bundle_path": "02_images/02_C05.png",
           "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
-          "size_bytes": 1907493,
-          "bundle_path": "05_H05/02_images/02_C05.png",
-          "upload_this_file": true
+          "bytes": 1907493,
+          "role": "identity_master",
+          "actual_video_frame": false,
+          "review_status": "existing_reference"
         },
         {
           "slot": 3,
           "ref_id": "S15_NEW",
-          "label": "夕照草坡·巨大迎客松",
           "available": true,
-          "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
-          "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
-          "size_bytes": 2855464,
-          "bundle_path": "05_H05/02_images/03_S15_NEW.png",
           "upload_this_file": true,
-          "review_status": "generated_candidate_available_for_review",
-          "actual_video_frame": false
+          "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+          "bundle_path": "02_images/03_S15_NEW.png",
+          "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
+          "bytes": 2855464,
+          "role": "source_image",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_available_for_review"
         },
         {
           "slot": 4,
           "ref_id": "P_RUAN",
-          "label": "朱漆金纹阮·道具",
           "available": true,
-          "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
-          "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
-          "size_bytes": 2421203,
-          "bundle_path": "05_H05/02_images/04_P_RUAN.png",
           "upload_this_file": true,
-          "review_status": "generated_candidate_available_for_review",
-          "actual_video_frame": false
+          "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
+          "bundle_path": "02_images/04_P_RUAN.png",
+          "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
+          "bytes": 2421203,
+          "role": "source_image",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_available_for_review"
         },
         {
           "slot": 5,
-          "ref_id": "KF_H05_START",
-          "label": "H05起始规划帧",
+          "ref_id": "C01_RUAN_HOLD",
           "available": true,
-          "source_path": "assets/keyframes/CH04/H05_START_MEADOW_v01.png",
-          "sha256": "fc38ff94b5a289e7f3cc796388afe84bb04bc94a171299a03f45e77f307eeb6d",
-          "size_bytes": 2800623,
-          "bundle_path": "05_H05/02_images/05_KF_H05_START.png",
           "upload_this_file": true,
-          "review_status": "generated_candidate_available_for_review",
-          "actual_video_frame": false
+          "source_path": "assets/characters/C01/C01_RUAN_HOLD_v01.png",
+          "bundle_path": "02_images/05_C01_RUAN_HOLD.png",
+          "sha256": "dd40ae5e8f841783c65cd0891b2ca125a33c0ed2b3fae0650aa04431d70e502c",
+          "bytes": 2175435,
+          "role": "pose_and_composition_only",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_available_for_review"
         },
         {
           "slot": 6,
-          "ref_id": "C01_RUAN_HOLD",
-          "label": "孙亚龙·便装手持朱漆金纹阮",
-          "available": true,
-          "source_path": "assets/characters/C01/C01_RUAN_HOLD_v01.png",
-          "sha256": "dd40ae5e8f841783c65cd0891b2ca125a33c0ed2b3fae0650aa04431d70e502c",
-          "size_bytes": 2175435,
-          "bundle_path": "05_H05/02_images/06_C01_RUAN_HOLD.png",
-          "upload_this_file": true,
-          "review_status": "generated_candidate_available_for_review",
-          "actual_video_frame": false
-        }
-      ],
-      "audio": [
-        {
-          "slot": 1,
-          "ref_id": "SONG_B_PENDING_MAX22S",
-          "label": "曲参B·本段真实歌曲（待补，最多22秒）",
-          "available": false,
-          "source_path": null,
-          "sha256": null,
-          "size_bytes": null,
-          "bundle_path": "05_H05/03_audio/01_SONG_B_PENDING_MAX22S_MISSING.md",
-          "upload_this_file": false,
-          "duration_seconds": null,
-          "maximum_planned_seconds": 22
-        },
-        {
-          "slot": 2,
-          "ref_id": "TIMBRE_C01_4S",
-          "label": "孙亚龙·4秒演唱音色参考",
-          "available": true,
-          "source_path": "assets/audio/ep05/C01_TIMBRE_4S_v01.wav",
-          "sha256": "cbc1ec7b6778382c09f39338bf006841aa4ab836ebe54c494cecbc9d35ef38a5",
-          "size_bytes": 352878,
-          "bundle_path": "05_H05/03_audio/02_TIMBRE_C01_4S.wav",
-          "upload_this_file": true,
-          "duration_seconds": 4.0,
-          "maximum_planned_seconds": 4.0
-        },
-        {
-          "slot": 3,
-          "ref_id": "TIMBRE_C05_4S",
-          "label": "潘慧·4秒演唱音色参考",
-          "available": true,
-          "source_path": "assets/audio/ep05/C05_TIMBRE_4S_v01.wav",
-          "sha256": "be89f1945d0cf8a5fb5633432bb0462fbdbcc747bf9a491b2329fee1e9f6afa6",
-          "size_bytes": 352878,
-          "bundle_path": "05_H05/03_audio/03_TIMBRE_C05_4S.wav",
-          "upload_this_file": true,
-          "duration_seconds": 4.0,
-          "maximum_planned_seconds": 4.0
-        }
-      ],
-      "previous_video": {
-        "source": "H04",
-        "range": [
-          0,
-          30
-        ],
-        "file": null,
-        "instruction": "优先在H04同项目有声延长；独立参考只用H04新增的30秒，不上传累计片。接7米间距与已回头姿态，不重演回头；曲参B负责本段。"
-      },
-      "previous_video_bundle_readme": "05_H05/04_previous_video/README.md",
-      "first_frame_description": "孙左抱阮，距右侧潘慧约7米；潘已慢回头，句前吸气结束，巨大松树与夕阳草坡承前。",
-      "last_frame_description": "两人进入同一中景，相隔约1.8米；孙仍抱阮轻拨，潘面向他；尚未接触，琴未落地。",
-      "planning_frames_are_actual_video_frames": false,
-      "planning_keyframe_reference_ids": [
-        "KF_H05_START"
-      ],
-      "has_song_reference": true,
-      "known_audio_seconds": 8.0,
-      "planned_maximum_audio_seconds": 30.0,
-      "missing_slot_ids": [
-        "SONG_B_PENDING_MAX22S"
-      ],
-      "other_required_checks": "H04实际有声30秒、真实曲源及歌声时码未完成；本场新图和构图关键帧已生成可审阅。"
-    },
-    {
-      "id": "H06",
-      "name": "歌声渐歇，松下凝眸",
-      "ordinal": 6,
-      "duration_seconds": 30,
-      "film_start_seconds": 150,
-      "production_ready": false,
-      "prompt_source": "releases/huibenji/chapter04_v1/prompts/H06.txt",
-      "prompt_sha256": "24e277003a038a50230e5e52a014b9a61d7a7144ebf34947b547de4706234c7d",
-      "prompt_characters_including_newline": 654,
-      "prompt_bundle_path": "06_H06/01_PROMPT.txt",
-      "images": [
-        {
-          "slot": 1,
-          "ref_id": "C01",
-          "label": "孙亚龙·便装",
-          "available": true,
-          "source_path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
-          "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
-          "size_bytes": 1894389,
-          "bundle_path": "06_H06/02_images/01_C01.png",
-          "upload_this_file": true
-        },
-        {
-          "slot": 2,
-          "ref_id": "C05",
-          "label": "潘慧·身份母版",
-          "available": true,
-          "source_path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
-          "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
-          "size_bytes": 1907493,
-          "bundle_path": "06_H06/02_images/02_C05.png",
-          "upload_this_file": true
-        },
-        {
-          "slot": 3,
-          "ref_id": "S15_NEW",
-          "label": "夕照草坡·巨大迎客松",
-          "available": true,
-          "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
-          "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
-          "size_bytes": 2855464,
-          "bundle_path": "06_H06/02_images/03_S15_NEW.png",
-          "upload_this_file": true,
-          "review_status": "generated_candidate_available_for_review",
-          "actual_video_frame": false
-        },
-        {
-          "slot": 4,
-          "ref_id": "P_RUAN",
-          "label": "朱漆金纹阮·道具",
-          "available": true,
-          "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
-          "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
-          "size_bytes": 2421203,
-          "bundle_path": "06_H06/02_images/04_P_RUAN.png",
-          "upload_this_file": true,
-          "review_status": "generated_candidate_available_for_review",
-          "actual_video_frame": false
-        },
-        {
-          "slot": 5,
           "ref_id": "KF_H06_START",
-          "label": "H06起始规划帧",
           "available": true,
+          "upload_this_file": true,
           "source_path": "assets/keyframes/CH04/H06_START_MEADOW_v01.png",
+          "bundle_path": "02_images/06_KF_H06_START.png",
           "sha256": "c82adbe1b223837cf9acfa765daf7ae1ba5c37d30aa4b1157fd20ba2617ae159",
-          "size_bytes": 2587536,
-          "bundle_path": "06_H06/02_images/05_KF_H06_START.png",
-          "upload_this_file": true,
-          "review_status": "generated_candidate_available_for_review",
-          "actual_video_frame": false
-        },
-        {
-          "slot": 6,
-          "ref_id": "C01_RUAN_HOLD",
-          "label": "孙亚龙·便装手持朱漆金纹阮",
-          "available": true,
-          "source_path": "assets/characters/C01/C01_RUAN_HOLD_v01.png",
-          "sha256": "dd40ae5e8f841783c65cd0891b2ca125a33c0ed2b3fae0650aa04431d70e502c",
-          "size_bytes": 2175435,
-          "bundle_path": "06_H06/02_images/06_C01_RUAN_HOLD.png",
-          "upload_this_file": true,
-          "review_status": "generated_candidate_available_for_review",
-          "actual_video_frame": false
+          "bytes": 2587536,
+          "role": "pose_and_composition_only",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_available_for_review"
         },
         {
           "slot": 7,
+          "ref_id": "KF_SETDOWN",
+          "available": true,
+          "upload_this_file": true,
+          "source_path": "assets/keyframes/CH04/H06_SETDOWN_MEADOW_v01.png",
+          "bundle_path": "02_images/07_KF_SETDOWN.png",
+          "sha256": "c356d7b4b792e004b7f18cf01c3fa08f316e20d6cf7abfb608cc0b467d5bf236",
+          "bytes": 2672411,
+          "role": "pose_and_composition_only",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_visual_reviewed_not_user_approved"
+        },
+        {
+          "slot": 8,
           "ref_id": "KF_H07_START",
-          "label": "H07起始规划帧",
           "available": true,
+          "upload_this_file": true,
           "source_path": "assets/keyframes/CH04/H07_START_MEADOW_v02.png",
+          "bundle_path": "02_images/08_KF_H07_START.png",
           "sha256": "42e797acf39639d3848d00400ff81562614abc7bcc88cdfb4734c5073ac964bc",
-          "size_bytes": 2602844,
-          "bundle_path": "06_H06/02_images/07_KF_H07_START.png",
-          "upload_this_file": true,
-          "review_status": "generated_candidate_available_for_review",
-          "actual_video_frame": false
+          "bytes": 2602844,
+          "role": "pose_and_composition_only",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_available_for_review"
         }
       ],
-      "audio": [
-        {
-          "slot": 1,
-          "ref_id": "SONG_C_PENDING_MAX22S",
-          "label": "曲参C·本段真实歌曲（待补，最多22秒）",
-          "available": false,
-          "source_path": null,
-          "sha256": null,
-          "size_bytes": null,
-          "bundle_path": "06_H06/03_audio/01_SONG_C_PENDING_MAX22S_MISSING.md",
-          "upload_this_file": false,
-          "duration_seconds": null,
-          "maximum_planned_seconds": 22
-        },
-        {
-          "slot": 2,
-          "ref_id": "TIMBRE_C01_4S",
-          "label": "孙亚龙·4秒演唱音色参考",
-          "available": true,
-          "source_path": "assets/audio/ep05/C01_TIMBRE_4S_v01.wav",
-          "sha256": "cbc1ec7b6778382c09f39338bf006841aa4ab836ebe54c494cecbc9d35ef38a5",
-          "size_bytes": 352878,
-          "bundle_path": "06_H06/03_audio/02_TIMBRE_C01_4S.wav",
-          "upload_this_file": true,
-          "duration_seconds": 4.0,
-          "maximum_planned_seconds": 4.0
-        },
-        {
-          "slot": 3,
-          "ref_id": "TIMBRE_C05_4S",
-          "label": "潘慧·4秒演唱音色参考",
-          "available": true,
-          "source_path": "assets/audio/ep05/C05_TIMBRE_4S_v01.wav",
-          "sha256": "be89f1945d0cf8a5fb5633432bb0462fbdbcc747bf9a491b2329fee1e9f6afa6",
-          "size_bytes": 352878,
-          "bundle_path": "06_H06/03_audio/03_TIMBRE_C05_4S.wav",
-          "upload_this_file": true,
-          "duration_seconds": 4.0,
-          "maximum_planned_seconds": 4.0
-        }
-      ],
+      "audio": [],
       "previous_video": {
-        "source": "H05",
-        "range": [
-          0,
-          30
-        ],
+        "source": "H04",
         "file": null,
-        "instruction": "同项目有声续写或仅引用H05新增30秒；继承末态1.8米间距、孙仍持阮，不沿用废弃石台/牵手/扶腰关键帧；新曲参C负责末尾变体。"
+        "range": null,
+        "tail_seconds": 4,
+        "instruction": "取 H04 最后4秒并确认歌句和琴尾完整结束，接约1.8米与双手持阮。音源未锁前不能填写全片起点。"
       },
-      "previous_video_bundle_readme": "06_H06/04_previous_video/README.md",
-      "first_frame_description": "孙左潘右相隔约1.8米，孙仍抱同一朱漆金纹阮，潘柔和相望；无相携扶腰姿态。",
-      "last_frame_description": "朱漆金纹阮已稳放孙身侧画左后方约半步、双方靠近路线之外的柔软草地，琴面朝上、琴颈指画左后方；两人直立约1.2米相望，双手自然垂放，未牵手未亲吻。",
+      "first_frame_description": "完整歌句与自然尾音结束；两人约1.8米相望，孙仍双手持阮，无接触。",
+      "last_frame_description": "琴已稳放画左后方、靠近路线外，面朝上颈朝左后方；孙左潘右，双手下垂，约1.2米互望。",
       "planning_frames_are_actual_video_frames": false,
-      "planning_keyframe_reference_ids": [
-        "KF_H06_START",
-        "KF_H07_START"
-      ],
-      "has_song_reference": true,
-      "known_audio_seconds": 8.0,
-      "planned_maximum_audio_seconds": 30.0,
-      "missing_slot_ids": [
-        "SONG_C_PENDING_MAX22S"
-      ],
-      "other_required_checks": "H05实际有声30秒、真实曲源及歌声时码未完成；检查放琴到草地动作、人物距离与手指连续性。"
+      "identity_lock": "05_IDENTITY_LOCK.json",
+      "continuity": "06_CONTINUITY.json",
+      "audio_status": "07_AUDIO_STATUS.json",
+      "missing_reference_ids": [],
+      "gate": "requires actual previous video and moving-shot QA"
     },
     {
-      "id": "H07",
-      "name": "天地无声，松下相吻",
-      "ordinal": 7,
-      "duration_seconds": 30,
-      "film_start_seconds": 180,
+      "id": "H06",
+      "name": "无声互迎，吻前停顿",
+      "duration_seconds": 12,
+      "target_duration_range": [
+        12,
+        12
+      ],
+      "film_start_seconds": null,
+      "global_start_expression": "100 + D_H04",
+      "time_domain": "local_director_clock",
+      "prompt_status": "director_prompt_ready_for_review",
       "production_ready": false,
-      "prompt_source": "releases/huibenji/chapter04_v1/prompts/H07.txt",
-      "prompt_sha256": "b884c02a55736b19dc1b893589b375428122975a01f09daf2e75b710a2f78cb9",
-      "prompt_characters_including_newline": 750,
-      "prompt_bundle_path": "07_H07/01_PROMPT.txt",
+      "prompt_characters": 591,
+      "prompt_sha256": "4cd89a841d3444279716801b45916f33e4c1abf9ba9a2759efb4d94d5071f93f",
+      "prompt_bundle_path": "01_PROMPT.txt",
       "images": [
         {
           "slot": 1,
           "ref_id": "C01",
-          "label": "孙亚龙·便装",
           "available": true,
+          "upload_this_file": true,
           "source_path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "bundle_path": "02_images/01_C01.png",
           "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
-          "size_bytes": 1894389,
-          "bundle_path": "07_H07/02_images/01_C01.png",
-          "upload_this_file": true
+          "bytes": 1894389,
+          "role": "identity_master",
+          "actual_video_frame": false,
+          "review_status": "existing_reference"
         },
         {
           "slot": 2,
           "ref_id": "C05",
-          "label": "潘慧·身份母版",
           "available": true,
+          "upload_this_file": true,
           "source_path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "bundle_path": "02_images/02_C05.png",
           "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
-          "size_bytes": 1907493,
-          "bundle_path": "07_H07/02_images/02_C05.png",
-          "upload_this_file": true
+          "bytes": 1907493,
+          "role": "identity_master",
+          "actual_video_frame": false,
+          "review_status": "existing_reference"
         },
         {
           "slot": 3,
           "ref_id": "S15_NEW",
-          "label": "夕照草坡·巨大迎客松",
           "available": true,
-          "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
-          "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
-          "size_bytes": 2855464,
-          "bundle_path": "07_H07/02_images/03_S15_NEW.png",
           "upload_this_file": true,
-          "review_status": "generated_candidate_available_for_review",
-          "actual_video_frame": false
+          "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+          "bundle_path": "02_images/03_S15_NEW.png",
+          "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
+          "bytes": 2855464,
+          "role": "source_image",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_available_for_review"
         },
         {
           "slot": 4,
           "ref_id": "P_RUAN",
-          "label": "朱漆金纹阮·道具",
           "available": true,
-          "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
-          "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
-          "size_bytes": 2421203,
-          "bundle_path": "07_H07/02_images/04_P_RUAN.png",
           "upload_this_file": true,
-          "review_status": "generated_candidate_available_for_review",
-          "actual_video_frame": false
+          "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
+          "bundle_path": "02_images/04_P_RUAN.png",
+          "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
+          "bytes": 2421203,
+          "role": "source_image",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_available_for_review"
         },
         {
           "slot": 5,
           "ref_id": "KF_H07_START",
-          "label": "H07起始规划帧",
           "available": true,
-          "source_path": "assets/keyframes/CH04/H07_START_MEADOW_v02.png",
-          "sha256": "42e797acf39639d3848d00400ff81562614abc7bcc88cdfb4734c5073ac964bc",
-          "size_bytes": 2602844,
-          "bundle_path": "07_H07/02_images/05_KF_H07_START.png",
           "upload_this_file": true,
-          "review_status": "generated_candidate_available_for_review",
-          "actual_video_frame": false
+          "source_path": "assets/keyframes/CH04/H07_START_MEADOW_v02.png",
+          "bundle_path": "02_images/05_KF_H07_START.png",
+          "sha256": "42e797acf39639d3848d00400ff81562614abc7bcc88cdfb4734c5073ac964bc",
+          "bytes": 2602844,
+          "role": "pose_and_composition_only",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_available_for_review"
+        },
+        {
+          "slot": 6,
+          "ref_id": "KF_PREKISS",
+          "available": true,
+          "upload_this_file": true,
+          "source_path": "assets/keyframes/CH04/H07_PREKISS_MEADOW_v01.png",
+          "bundle_path": "02_images/06_KF_PREKISS.png",
+          "sha256": "8c968fbd992249fee1e5ee7b1afd4660e41bd4d03b2f421712f37d0f9e6631f2",
+          "bytes": 2253448,
+          "role": "pose_and_composition_only",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_visual_reviewed_not_user_approved"
+        }
+      ],
+      "audio": [],
+      "previous_video": {
+        "source": "H05",
+        "file": null,
+        "range": [
+          6,
+          10
+        ],
+        "tail_seconds": 4,
+        "instruction": "接 H05 最后4秒，孙已站稳并到1.2米；琴静置画左后方，继承纯环境，不重放琴。"
+      },
+      "first_frame_description": "琴已稳放画左后方、靠近路线外，面朝上颈朝左后方；孙左潘右，双手下垂，约1.2米互望。",
+      "last_frame_description": "孙左潘右近距离互望，微偏头，潘略抬头，鼻尖将触但未吻；琴留画左草地。",
+      "planning_frames_are_actual_video_frames": false,
+      "identity_lock": "05_IDENTITY_LOCK.json",
+      "continuity": "06_CONTINUITY.json",
+      "audio_status": "07_AUDIO_STATUS.json",
+      "missing_reference_ids": [],
+      "gate": "requires actual previous video and moving-shot QA"
+    },
+    {
+      "id": "H07",
+      "name": "轻吻再吻，天地辽阔",
+      "duration_seconds": 18,
+      "target_duration_range": [
+        18,
+        18
+      ],
+      "film_start_seconds": null,
+      "global_start_expression": "112 + D_H04",
+      "time_domain": "local_director_clock",
+      "prompt_status": "director_prompt_ready_for_review",
+      "production_ready": false,
+      "prompt_characters": 740,
+      "prompt_sha256": "757ce0676254af64cf214565fed797771799360daa776c7886b672a698fe2244",
+      "prompt_bundle_path": "01_PROMPT.txt",
+      "images": [
+        {
+          "slot": 1,
+          "ref_id": "C01",
+          "available": true,
+          "upload_this_file": true,
+          "source_path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+          "bundle_path": "02_images/01_C01.png",
+          "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
+          "bytes": 1894389,
+          "role": "identity_master",
+          "actual_video_frame": false,
+          "review_status": "existing_reference"
+        },
+        {
+          "slot": 2,
+          "ref_id": "C05",
+          "available": true,
+          "upload_this_file": true,
+          "source_path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+          "bundle_path": "02_images/02_C05.png",
+          "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
+          "bytes": 1907493,
+          "role": "identity_master",
+          "actual_video_frame": false,
+          "review_status": "existing_reference"
+        },
+        {
+          "slot": 3,
+          "ref_id": "S15_NEW",
+          "available": true,
+          "upload_this_file": true,
+          "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+          "bundle_path": "02_images/03_S15_NEW.png",
+          "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
+          "bytes": 2855464,
+          "role": "source_image",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_available_for_review"
+        },
+        {
+          "slot": 4,
+          "ref_id": "P_RUAN",
+          "available": true,
+          "upload_this_file": true,
+          "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
+          "bundle_path": "02_images/04_P_RUAN.png",
+          "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
+          "bytes": 2421203,
+          "role": "source_image",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_available_for_review"
+        },
+        {
+          "slot": 5,
+          "ref_id": "KF_PREKISS",
+          "available": true,
+          "upload_this_file": true,
+          "source_path": "assets/keyframes/CH04/H07_PREKISS_MEADOW_v01.png",
+          "bundle_path": "02_images/05_KF_PREKISS.png",
+          "sha256": "8c968fbd992249fee1e5ee7b1afd4660e41bd4d03b2f421712f37d0f9e6631f2",
+          "bytes": 2253448,
+          "role": "pose_and_composition_only",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_visual_reviewed_not_user_approved"
         },
         {
           "slot": 6,
           "ref_id": "KF_H07_END",
-          "label": "H07结尾规划帧",
           "available": true,
-          "source_path": "assets/keyframes/CH04/H07_END_MEADOW_v03.png",
-          "sha256": "eebbb829cca1a73fe8ac7a2b8d5693975d73bd66471f85e0f130ece771f00eb9",
-          "size_bytes": 2684428,
-          "bundle_path": "07_H07/02_images/06_KF_H07_END.png",
           "upload_this_file": true,
-          "review_status": "generated_candidate_available_for_review",
-          "actual_video_frame": false
+          "source_path": "assets/keyframes/CH04/H07_END_MEADOW_v03.png",
+          "bundle_path": "02_images/06_KF_H07_END.png",
+          "sha256": "eebbb829cca1a73fe8ac7a2b8d5693975d73bd66471f85e0f130ece771f00eb9",
+          "bytes": 2684428,
+          "role": "pose_and_composition_only",
+          "actual_video_frame": false,
+          "review_status": "generated_candidate_available_for_review"
         }
       ],
       "audio": [],
       "previous_video": {
         "source": "H06",
-        "range": [
-          26,
-          30
-        ],
         "file": null,
-        "instruction": "优先同项目无新音乐续写；独立参考仅用H06最后4秒真实有声片段，接草地琴的位置、1.2米间距、环境音和未吻状态，不重新唱或重演放琴。"
+        "range": [
+          8,
+          12
+        ],
+        "tail_seconds": 4,
+        "instruction": "接 H06 最后4秒吻前状态，不重走1.2米，不重演放琴；第一吻在本场发生。"
       },
-      "previous_video_bundle_readme": "07_H07/04_previous_video/README.md",
-      "first_frame_description": "朱漆金纹阮已稳放孙身侧画左后方约半步、双方靠近路线之外的柔软草地，琴面朝上、琴颈指画左后方；两人直立约1.2米相望，双手自然垂放，未牵手未亲吻。",
-      "last_frame_description": "同侧大全景：巨大迎客松、晚霞远山与草坡占画面，两人深情相吻的小剪影；阮平放孙身侧画左后方草地、避开靠近路线，琴面朝上、琴颈指画左后方，镜头缓升后退。",
+      "first_frame_description": "孙左潘右近距离互望，微偏头，潘略抬头，鼻尖将触但未吻；琴留画左草地。",
+      "last_frame_description": "大全景：巨大迎客松、草坡、晚霞、远山与雾；树下两人相吻的小剪影，同一阮仍在画左草地原位。",
       "planning_frames_are_actual_video_frames": false,
-      "planning_keyframe_reference_ids": [
-        "KF_H07_START",
-        "KF_H07_END"
-      ],
-      "has_song_reference": false,
-      "known_audio_seconds": 0,
-      "planned_maximum_audio_seconds": 0,
-      "missing_slot_ids": [],
-      "other_required_checks": "H06实际末段视频未生成；检查停唱后的对视、渐近、两次亲吻及拉远中的身份和肢体连续性。"
+      "identity_lock": "05_IDENTITY_LOCK.json",
+      "continuity": "06_CONTINUITY.json",
+      "audio_status": "07_AUDIO_STATUS.json",
+      "missing_reference_ids": [],
+      "gate": "requires actual previous video and moving-shot QA"
     }
-  ]
+  ],
+  "validation": {
+    "locked_H01_H03_dialogues_unchanged": true,
+    "H01_H02_shots_unchanged": true,
+    "dream_order_windows_and_bytes_unchanged": true,
+    "no_fabricated_song_or_timecodes": true,
+    "references_exist_and_numbered": true,
+    "all_prompts_under_2000_characters": true,
+    "actual_video_QA_performed": false
+  }
 }

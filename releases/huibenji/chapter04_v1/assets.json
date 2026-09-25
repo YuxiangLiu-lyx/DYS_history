@@ -5,7 +5,7 @@
     "C03": "assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png",
     "E06": "assets/characters/E06/E06_MAID_v01.png",
     "S06": "assets/scenes/S06_ROOM_NIGHT_v01.png",
-    "S14": "assets/scenes/S14_INN_ROOM_NIGHT_v01.png",
+    "S14": "assets/scenes/S14_INN_ROOM_MORNING_v01.png",
     "S15_NEW": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
     "P_RUAN": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
     "KF_H04_START": "assets/keyframes/CH04/H04_START_MEADOW_v01.png",
@@ -22,7 +22,10 @@
     "C01_RUAN_HOLD": "assets/characters/C01/C01_RUAN_HOLD_v01.png",
     "KF_H07_START": "assets/keyframes/CH04/H07_START_MEADOW_v02.png",
     "KF_H07_END": "assets/keyframes/CH04/H07_END_MEADOW_v03.png",
-    "KF_C05_TURN": "assets/keyframes/CH04/C05_TURN_MEADOW_v01.png"
+    "KF_C05_TURN": "assets/keyframes/CH04/C05_TURN_MEADOW_v01.png",
+    "KF_H01_SLEEP": "assets/keyframes/CH04/H01_SLEEP_BEDSIDE_v01.png",
+    "KF_SETDOWN": "assets/keyframes/CH04/H06_SETDOWN_MEADOW_v01.png",
+    "KF_PREKISS": "assets/keyframes/CH04/H07_PREKISS_MEADOW_v01.png"
   },
   "available": {
     "C01": true,
@@ -47,10 +50,14 @@
     "C01_RUAN_HOLD": true,
     "KF_H07_START": true,
     "KF_H07_END": true,
-    "KF_C05_TURN": true
+    "KF_C05_TURN": true,
+    "KF_H01_SLEEP": true,
+    "KF_SETDOWN": true,
+    "KF_PREKISS": true
   },
   "missing_reference_spec": {
-    "additional": "潘米白寝衣与松散睡发、客栈上午光需要新关键帧核定；既有夜景图只供空间，不能假称已生成日景。"
+    "actual_previous_video_frames": "尚无任何 Seedance 实际视频或首尾帧；规划图只供构图参考。",
+    "actual_song_master": "H04 缺合格孙潘真实对唱母带与逐句校准。"
   },
   "dreams": {
     "order": [
@@ -98,18 +105,25 @@
     "KF_H06_START": "generated_candidate_available_for_review",
     "KF_H07_START": "generated_candidate_available_for_review",
     "KF_H07_END": "generated_candidate_available_for_review",
-    "KF_C05_TURN": "generated_candidate_available_for_review"
+    "KF_C05_TURN": "generated_candidate_available_for_review",
+    "S14": "generated_candidate_visual_reviewed_not_user_approved",
+    "KF_H01_SLEEP": "generated_candidate_visual_reviewed_not_user_approved",
+    "KF_SETDOWN": "generated_candidate_visual_reviewed_not_user_approved",
+    "KF_PREKISS": "generated_candidate_visual_reviewed_not_user_approved"
   },
   "actual_video_frames": false,
   "latest_visual_spec": {
     "setting": "夕阳江南开阔草坡，巨大舒展迎客松，远山薄雾，无石台/石板路",
     "identity_priority": [
       "C01",
-      "C05"
+      "C05",
+      "C03"
     ],
-    "prop": "同一朱漆金纹阮；琴体圆、四弦、两条穗、金色花纹；不能套入现代电声乐器",
+    "prop": "以 P_RUAN 原图为准：圆形深木色面板、朱红琴缘与金纹、四弦、两束短红穗；不是整面鲜红的新琴。道具展示支架不进入实景。",
     "ground_position": "孙身侧画左后方半步、两人靠近路线之外草地，琴面朝上、琴颈向画左后方",
     "retired_reference_warning": "H04/H05/H06_START_RUAN及S15_PINE_RUAN_PLATFORM均旧石台调度，禁止混入当前草坡任务。H07_START_MEADOW v01、END v01/v02落琴在画右，已被v02/v03替代。",
-    "image_count_policy": "每段6–8张，母版锁身份、环境锁空间、道具锁结构、规划图按指定时间使用。"
-  }
+    "image_count_policy": "以各场映射为准；独立人物母版优先，规划帧只约束指定动作状态。",
+    "keyframe_filename_note": "沿用素材原生成文件名；H06_SETDOWN 本版用于 H05，H07_PREKISS 本版用于 H06 末态/H07 起态，不按历史文件名推断剧情场次。"
+  },
+  "revision": "release_v1_3_identity_real_duet"
 }

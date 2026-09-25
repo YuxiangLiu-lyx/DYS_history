@@ -1,86 +1,82 @@
-# H03 · 以曲相邀，松下将逢
+# H03 · 以曲相邀，松下将逢 · v1.3
 
-成片第60–90秒；本次生成30秒。
+本场30秒；全片起点：60。D_H04未定。
 
-**操作顺序：先复制本场Prompt，再按下列图片号上传图片，再按音频号上传音频，最后按说明加入视频参考。**
+**状态：导演准备稿；实际前片和动态音画验收未完成。**
 
-缺项必须保留槽位；不能上传 `.md` 缺项说明，也不能让后面的文件自动前移。当前不是素材齐备状态。
+先复制本场TXT，再按图片、音频、视频编号投料。缺项MD不是媒体，不上传，不用其他文件顶替。
 
-## 1. Prompt（含TXT末尾换行549字符）
+## Prompt
+
+564字符，含换行。
 
 ```text
-续接H02，新增30秒，16:9真实古装电影。图1孙便装、图2小腿、图3客栈布局；图4巨大迎客松草坡夕阳空景，图5朱漆金纹阮，图6潘慧身份，图7孙抱同一阮的服装手位，图8外景规划构图。视频1用H02末4秒，只接室内孙左腿右、视线与光线。音频1孙、2小腿只借音色。
+续接H02，新增30秒，16:9真实古装电影。图1孙便装身份母版、图2小腿身份母版、图3上午客栈布局及天光；图4巨大迎客松草坡夕阳空景，图5朱漆金纹阮，图6潘慧身份，图7孙抱同一阮的服装手位，图8外景规划构图。视频1用H02末4秒，只接室内孙左腿右、视线与光线。音频1孙、2小腿只借音色。
 0–0.5秒留气口。0.5–14.8秒小腿说：“她每日申时，独自在迎客松下，谁唤也不应。听说她最爱《卜卦》，公子不妨以曲相邀。”先孙聆听近景，再反打小腿，听者不代说。15.8–19.1秒孙舒眉：“得你相助，实乃我幸。”轻拍小腿肩，起身。20–22秒衣袍经过镜头遮挡，松风先入，明确转当日申时末夕阳外景。
 22–27秒极美超广角慢推进：开阔真实草坡，巨大迎客松在中央高处，苍劲树干与层层伞冠成为视觉中心；潘慧独自背身树下，人小树大。金橙浅粉晚霞、枝间柔和逆光、薄雾远山、起伏草浪，只有少量松针花瓣偶尔飘过。27–30秒孙后侧中景带远处的她：孙抱阮停在约18米外，静看一两秒，微怔后眼神柔和，末秒轻吸气；不弹不唱，不急着走。小腿不入外景。
-人脸依图1/6，不泛化俊男美女；潘短圆脸、自然脸颊，嘴角下方小痣与玉簪同侧不镜像。衣服和琴结构固定。电影自然逆光，不用小树、石台、石板地、假草、现代物件、仙光或快速运镜。对白口型同步，无字幕旁白。
+人脸依图1/2/6，不泛化俊男美女；潘短圆脸、自然脸颊，嘴角下方小痣与玉簪同侧不镜像。衣服和琴结构固定。电影自然逆光，不用小树、石台、石板地、假草、现代物件、仙光或快速运镜。对白口型同步，无字幕旁白。
 ```
 
-## 2. 图片上传顺序
+## 图片顺序
 
-### 图片1 · 孙亚龙·便装
+### 图1 · C01
 
-![图片1 孙亚龙·便装](../../../../../assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png)
+![C01](../../../../../assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png)
 
-[图片1原文件](../../../../../assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png) · `C01`
+[原文件](../../../../../assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png) · identity_master
 
-### 图片2 · 小腿·便装
+### 图2 · C03
 
-![图片2 小腿·便装](../../../../../assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png)
+![C03](../../../../../assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png)
 
-[图片2原文件](../../../../../assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png) · `C03`
+[原文件](../../../../../assets/characters/C03/C03_DISGUISE_FRONT_HALF_v01.png) · identity_master
 
-### 图片3 · 客栈·空间参考（上午需改光）
+### 图3 · S14
 
-![图片3 客栈·空间参考（上午需改光）](../../../../../assets/scenes/S14_INN_ROOM_NIGHT_v01.png)
+![S14](../../../../../assets/scenes/S14_INN_ROOM_MORNING_v01.png)
 
-[图片3原文件](../../../../../assets/scenes/S14_INN_ROOM_NIGHT_v01.png) · `S14`
+[原文件](../../../../../assets/scenes/S14_INN_ROOM_MORNING_v01.png) · source_image
 
-### 图片4 · 夕照草坡·巨大迎客松
+### 图4 · S15_NEW
 
-![图片4 夕照草坡·巨大迎客松](../../../../../assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png)
+![S15_NEW](../../../../../assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png)
 
-[图片4原文件](../../../../../assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png) · `S15_NEW`
+[原文件](../../../../../assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png) · source_image
 
-### 图片5 · 朱漆金纹阮·道具
+### 图5 · P_RUAN
 
-![图片5 朱漆金纹阮·道具](../../../../../assets/props/CH04/P_RUAN_ORNATE_v01.png)
+![P_RUAN](../../../../../assets/props/CH04/P_RUAN_ORNATE_v01.png)
 
-[图片5原文件](../../../../../assets/props/CH04/P_RUAN_ORNATE_v01.png) · `P_RUAN`
+[原文件](../../../../../assets/props/CH04/P_RUAN_ORNATE_v01.png) · source_image
 
-### 图片6 · 潘慧·身份母版
+### 图6 · C05
 
-![图片6 潘慧·身份母版](../../../../../assets/characters/C05/C05_FRONT_HALF_v04.png)
+![C05](../../../../../assets/characters/C05/C05_FRONT_HALF_v04.png)
 
-[图片6原文件](../../../../../assets/characters/C05/C05_FRONT_HALF_v04.png) · `C05`
+[原文件](../../../../../assets/characters/C05/C05_FRONT_HALF_v04.png) · identity_master
 
-### 图片7 · 孙亚龙·便装手持朱漆金纹阮
+### 图7 · C01_RUAN_HOLD
 
-![图片7 孙亚龙·便装手持朱漆金纹阮](../../../../../assets/characters/C01/C01_RUAN_HOLD_v01.png)
+![C01_RUAN_HOLD](../../../../../assets/characters/C01/C01_RUAN_HOLD_v01.png)
 
-[图片7原文件](../../../../../assets/characters/C01/C01_RUAN_HOLD_v01.png) · `C01_RUAN_HOLD`
+[原文件](../../../../../assets/characters/C01/C01_RUAN_HOLD_v01.png) · pose_and_composition_only
 
-### 图片8 · H04起始规划帧
+### 图8 · KF_H04_START
 
-![图片8 H04起始规划帧](../../../../../assets/keyframes/CH04/H04_START_MEADOW_v01.png)
+![KF_H04_START](../../../../../assets/keyframes/CH04/H04_START_MEADOW_v01.png)
 
-[图片8原文件](../../../../../assets/keyframes/CH04/H04_START_MEADOW_v01.png) · `KF_H04_START`
+[原文件](../../../../../assets/keyframes/CH04/H04_START_MEADOW_v01.png) · pose_and_composition_only
 
-## 3. 音频上传顺序
+## 音频顺序
 
-| 槽位 | 内容 | 文件/状态 |
-|---|---|---|
-| 音频1 | 孙亚龙·10秒对白音色 | [10秒原文件](../../../../../assets/audio/ch04/C01_TIMBRE_10S_v01.wav) |
-| 音频2 | 小腿·10秒对白音色 | [10秒原文件](../../../../../assets/audio/ch04/C03_TIMBRE_10S_v01.wav) |
+- 音频1：[VOICE_C01](../../../../../assets/audio/ch04/C01_TIMBRE_10S_v01.wav)，10秒，仅供原有对白声线。
+- 音频2：[VOICE_C03](../../../../../assets/audio/ch04/C03_TIMBRE_10S_v01.wav)，10秒，仅供原有对白声线。
 
-现有音频合计20秒；本路线补齐后最多20秒。
+## 连续状态
 
-音色样本仅提供声线，不能当作最终歌曲。
+视频1：H02的实际末4秒（目前文件不存在）。用H02真实末4秒承接室内孙左腿右与光线；22秒明确时间跳跃到申时末夕阳草坡，以新空间图重建外景。 实际首尾帧同样尚未生成；规划图不能当实际输出帧。
 
-## 4. 上一场视频与首尾状态
-
-视频1：H02的第26–30秒。用H02真实末4秒承接室内孙左腿右与光线；22秒明确时间跳跃到申时末夕阳草坡，以新空间图重建外景。 当前真实视频未生成；没有可上传的MP4，不能用占位文件代替。
-
-- 起始：小腿继续看孙，接上一段提议。
+- 开场：小腿继续看孙，接上一段提议。
 - 结束：夕阳草坡；孙左前景抱朱漆金纹阮，约18米外潘慧背身立在巨大迎客松下；双人未接触，尚未弹唱。
 
-**仍需完成：**H02实际末4秒未生成；本场乐器、手持和松下新图已生成可审阅，实际连续性待实片核验。
+多模态参考模式：图中初末态只是软构图约束，不与严格first_frame/last_frame API模式混投。

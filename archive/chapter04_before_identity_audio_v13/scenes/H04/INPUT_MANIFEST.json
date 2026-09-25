@@ -1,0 +1,166 @@
+{
+  "id": "H04",
+  "name": "循声回首，暮色相望",
+  "ordinal": 4,
+  "duration_seconds": 30,
+  "film_start_seconds": 90,
+  "production_ready": false,
+  "prompt_source": "releases/huibenji/chapter04_v1/prompts/H04.txt",
+  "prompt_sha256": "f2b60c17d5a0972b2052fa4e00e257eb8751c23c5d05285a0ab0509a3dbdc79e",
+  "prompt_characters_including_newline": 616,
+  "prompt_bundle_path": "04_H04/01_PROMPT.txt",
+  "images": [
+    {
+      "slot": 1,
+      "ref_id": "C01",
+      "label": "孙亚龙·便装",
+      "available": true,
+      "source_path": "assets/characters/C01/C01_DISGUISE_FRONT_HALF_v01.png",
+      "sha256": "8fd002be1b47a06c5eb64bfeb662d0f52fc6fc40430cd6a47ab4de4971fffc89",
+      "size_bytes": 1894389,
+      "bundle_path": "04_H04/02_images/01_C01.png",
+      "upload_this_file": true
+    },
+    {
+      "slot": 2,
+      "ref_id": "C05",
+      "label": "潘慧·身份母版",
+      "available": true,
+      "source_path": "assets/characters/C05/C05_FRONT_HALF_v04.png",
+      "sha256": "1fd1552f4b5aed64dd64e455e8f4d00d872dd9e8ce1afdd5884f1a50309e418d",
+      "size_bytes": 1907493,
+      "bundle_path": "04_H04/02_images/02_C05.png",
+      "upload_this_file": true
+    },
+    {
+      "slot": 3,
+      "ref_id": "S15_NEW",
+      "label": "夕照草坡·巨大迎客松",
+      "available": true,
+      "source_path": "assets/scenes/S15_PINE_MEADOW_SUNSET_v01.png",
+      "sha256": "fc17e1711018654b0813a239710c45c2e06d3f5597bbbd4d860d0735e5813815",
+      "size_bytes": 2855464,
+      "bundle_path": "04_H04/02_images/03_S15_NEW.png",
+      "upload_this_file": true,
+      "review_status": "generated_candidate_available_for_review",
+      "actual_video_frame": false
+    },
+    {
+      "slot": 4,
+      "ref_id": "P_RUAN",
+      "label": "朱漆金纹阮·道具",
+      "available": true,
+      "source_path": "assets/props/CH04/P_RUAN_ORNATE_v01.png",
+      "sha256": "e42304e0aa0499793f95bb7b5eeeb5de282e3af1faeae1ade1eb2b365d2eac43",
+      "size_bytes": 2421203,
+      "bundle_path": "04_H04/02_images/04_P_RUAN.png",
+      "upload_this_file": true,
+      "review_status": "generated_candidate_available_for_review",
+      "actual_video_frame": false
+    },
+    {
+      "slot": 5,
+      "ref_id": "KF_H04_START",
+      "label": "H04起始规划帧",
+      "available": true,
+      "source_path": "assets/keyframes/CH04/H04_START_MEADOW_v01.png",
+      "sha256": "b2a9ac06140ec832cc25575b4c0ff7b108aef09b50e7e1c7d9f7d9eac79cf4c5",
+      "size_bytes": 2815962,
+      "bundle_path": "04_H04/02_images/05_KF_H04_START.png",
+      "upload_this_file": true,
+      "review_status": "generated_candidate_available_for_review",
+      "actual_video_frame": false
+    },
+    {
+      "slot": 6,
+      "ref_id": "C01_RUAN_HOLD",
+      "label": "孙亚龙·便装手持朱漆金纹阮",
+      "available": true,
+      "source_path": "assets/characters/C01/C01_RUAN_HOLD_v01.png",
+      "sha256": "dd40ae5e8f841783c65cd0891b2ca125a33c0ed2b3fae0650aa04431d70e502c",
+      "size_bytes": 2175435,
+      "bundle_path": "04_H04/02_images/06_C01_RUAN_HOLD.png",
+      "upload_this_file": true,
+      "review_status": "generated_candidate_available_for_review",
+      "actual_video_frame": false
+    },
+    {
+      "slot": 7,
+      "ref_id": "KF_C05_TURN",
+      "label": "潘慧回头·逆光近景",
+      "available": true,
+      "source_path": "assets/keyframes/CH04/C05_TURN_MEADOW_v01.png",
+      "sha256": "a18329cf8b283c3cba1efcd12365cb86eec995970378236f543b3d03ac56abc4",
+      "size_bytes": 2183177,
+      "bundle_path": "04_H04/02_images/07_KF_C05_TURN.png",
+      "upload_this_file": true,
+      "review_status": "generated_candidate_available_for_review",
+      "actual_video_frame": false
+    }
+  ],
+  "audio": [
+    {
+      "slot": 1,
+      "ref_id": "SONG_A_PENDING_MAX22S",
+      "label": "曲参A·本段真实歌曲（待补，最多22秒）",
+      "available": false,
+      "source_path": null,
+      "sha256": null,
+      "size_bytes": null,
+      "bundle_path": "04_H04/03_audio/01_SONG_A_PENDING_MAX22S_MISSING.md",
+      "upload_this_file": false,
+      "duration_seconds": null,
+      "maximum_planned_seconds": 22
+    },
+    {
+      "slot": 2,
+      "ref_id": "TIMBRE_C01_4S",
+      "label": "孙亚龙·4秒演唱音色参考",
+      "available": true,
+      "source_path": "assets/audio/ep05/C01_TIMBRE_4S_v01.wav",
+      "sha256": "cbc1ec7b6778382c09f39338bf006841aa4ab836ebe54c494cecbc9d35ef38a5",
+      "size_bytes": 352878,
+      "bundle_path": "04_H04/03_audio/02_TIMBRE_C01_4S.wav",
+      "upload_this_file": true,
+      "duration_seconds": 4.0,
+      "maximum_planned_seconds": 4.0
+    },
+    {
+      "slot": 3,
+      "ref_id": "TIMBRE_C05_4S",
+      "label": "潘慧·4秒演唱音色参考",
+      "available": true,
+      "source_path": "assets/audio/ep05/C05_TIMBRE_4S_v01.wav",
+      "sha256": "be89f1945d0cf8a5fb5633432bb0462fbdbcc747bf9a491b2329fee1e9f6afa6",
+      "size_bytes": 352878,
+      "bundle_path": "04_H04/03_audio/03_TIMBRE_C05_4S.wav",
+      "upload_this_file": true,
+      "duration_seconds": 4.0,
+      "maximum_planned_seconds": 4.0
+    }
+  ],
+  "previous_video": {
+    "source": "H03",
+    "range": [
+      26,
+      30
+    ],
+    "file": null,
+    "instruction": "用H03真实末4秒或其尾帧接同一草坡与18米距离，H04首拍才起唱；图5只作规划构图，不能冒充视频尾帧。"
+  },
+  "previous_video_bundle_readme": "04_H04/04_previous_video/README.md",
+  "first_frame_description": "承H03约18米外静望末态：孙左抱阮，潘右远处背身，巨大迎客松居中央高处，夕阳逆光。",
+  "last_frame_description": "孙抱阮在潘约7米外，潘已回头温柔浅笑，正侧脸可见并吸气待接唱。",
+  "planning_frames_are_actual_video_frames": false,
+  "planning_keyframe_reference_ids": [
+    "KF_H04_START",
+    "KF_C05_TURN"
+  ],
+  "has_song_reference": true,
+  "known_audio_seconds": 8.0,
+  "planned_maximum_audio_seconds": 30.0,
+  "missing_slot_ids": [
+    "SONG_A_PENDING_MAX22S"
+  ],
+  "other_required_checks": "H03实际末4秒、真实曲源及歌声时码未完成；本场新图和构图关键帧已生成可审阅。"
+}
